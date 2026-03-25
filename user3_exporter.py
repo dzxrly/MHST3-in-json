@@ -1,0 +1,871 @@
+from __future__ import annotations
+
+import json
+import re
+import struct
+import uuid
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any
+
+from tqdm.rich import tqdm
+
+
+USR_MAGIC = 5395285
+RSZ_MAGIC = 5919570
+HEX32_RE = re.compile(r"^[0-9a-fA-F]{32}$")
+
+
+class ParseError(RuntimeError):
+    pass
+
+
+def align(value: int, alignment: int) -> int:
+    if alignment <= 1:
+        return value
+    return (value + (alignment - 1)) & ~(alignment - 1)
+
+
+def murmur3_32(data: bytes, seed: int = 0xFFFFFFFF) -> int:
+    c1 = 0xCC9E2D51
+    c2 = 0x1B873593
+    h1 = seed & 0xFFFFFFFF
+    length = len(data)
+    rounded_end = length & ~0x3
+
+    for i in range(0, rounded_end, 4):
+        k1 = int.from_bytes(data[i : i + 4], "little")
+        k1 = (k1 * c1) & 0xFFFFFFFF
+        k1 = ((k1 << 15) | (k1 >> 17)) & 0xFFFFFFFF
+        k1 = (k1 * c2) & 0xFFFFFFFF
+        h1 ^= k1
+        h1 = ((h1 << 13) | (h1 >> 19)) & 0xFFFFFFFF
+        h1 = (h1 * 5 + 0xE6546B64) & 0xFFFFFFFF
+
+    k1 = 0
+    tail = data[rounded_end:]
+    if len(tail) == 3:
+        k1 ^= tail[2] << 16
+    if len(tail) >= 2:
+        k1 ^= tail[1] << 8
+    if len(tail) >= 1:
+        k1 ^= tail[0]
+        k1 = (k1 * c1) & 0xFFFFFFFF
+        k1 = ((k1 << 15) | (k1 >> 17)) & 0xFFFFFFFF
+        k1 = (k1 * c2) & 0xFFFFFFFF
+        h1 ^= k1
+
+    h1 ^= length
+    h1 ^= h1 >> 16
+    h1 = (h1 * 0x85EBCA6B) & 0xFFFFFFFF
+    h1 ^= h1 >> 13
+    h1 = (h1 * 0xC2B2AE35) & 0xFFFFFFFF
+    h1 ^= h1 >> 16
+    return h1 & 0xFFFFFFFF
+
+
+def format_guid_text_from_hex32(hex32: str) -> str:
+    h = hex32.lower()
+    return f"{h[0:8]}-{h[8:12]}-{h[12:16]}-{h[16:20]}-{h[20:32]}"
+
+
+def normalize_guid_candidate_text(text: str) -> str:
+    stripped = text.strip().strip("{}")
+    compact = stripped.replace("-", "")
+    if HEX32_RE.fullmatch(compact):
+        return format_guid_text_from_hex32(compact)
+    return text
+
+
+class BinaryReader:
+    def __init__(self, data: bytes):
+        self.data = data
+        self.pos = 0
+
+    @property
+    def size(self) -> int:
+        return len(self.data)
+
+    def tell(self) -> int:
+        return self.pos
+
+    def seek(self, pos: int) -> None:
+        if pos < 0 or pos > self.size:
+            raise ParseError(f"seek out of range: {pos}")
+        self.pos = pos
+
+    def read(self, n: int) -> bytes:
+        end = self.pos + n
+        if end > self.size:
+            raise ParseError(f"read out of range: {self.pos}+{n}")
+        out = self.data[self.pos : end]
+        self.pos = end
+        return out
+
+    def read_struct(self, fmt: str) -> Any:
+        size = struct.calcsize(fmt)
+        raw = self.read(size)
+        return struct.unpack(fmt, raw)[0]
+
+    def read_u8(self) -> int:
+        return self.read_struct("<B")
+
+    def read_s8(self) -> int:
+        return self.read_struct("<b")
+
+    def read_u16(self) -> int:
+        return self.read_struct("<H")
+
+    def read_s16(self) -> int:
+        return self.read_struct("<h")
+
+    def read_u32(self) -> int:
+        return self.read_struct("<I")
+
+    def read_s32(self) -> int:
+        return self.read_struct("<i")
+
+    def read_u64(self) -> int:
+        return self.read_struct("<Q")
+
+    def read_s64(self) -> int:
+        return self.read_struct("<q")
+
+    def read_f32(self) -> float:
+        return self.read_struct("<f")
+
+    def read_f64(self) -> float:
+        return self.read_struct("<d")
+
+    def read_wstring_null(self, offset: int) -> str:
+        if offset < 0 or offset >= self.size:
+            return ""
+        out: list[int] = []
+        i = offset
+        while i + 1 < self.size:
+            ch = struct.unpack_from("<H", self.data, i)[0]
+            i += 2
+            if ch == 0:
+                break
+            out.append(ch)
+        return normalize_guid_candidate_text("".join(chr(c) for c in out))
+
+
+@dataclass
+class FieldDef:
+    name: str
+    field_type: str
+    original_type: str
+    size: int
+    align: int
+    is_array: bool
+
+
+@dataclass
+class ClassDef:
+    name: str
+    crc: int
+    fields: list[FieldDef]
+
+
+class TypeDB:
+    def __init__(self, classes: dict[int, ClassDef]):
+        self.classes = classes
+        self.name_to_hash = {c.name: h for h, c in classes.items()}
+
+    @classmethod
+    def load(cls, json_path: Path) -> "TypeDB":
+        with json_path.open("r", encoding="utf-8") as f:
+            raw = json.load(f)
+
+        classes: dict[int, ClassDef] = {}
+        for key, value in raw.items():
+            try:
+                class_hash = int(key, 16)
+            except ValueError:
+                continue
+            fields: list[FieldDef] = []
+            for field in value.get("fields", []):
+                fields.append(
+                    FieldDef(
+                        name=field.get("name", ""),
+                        field_type=field.get("type", "Data"),
+                        original_type=field.get("original_type", ""),
+                        size=int(field.get("size", 0)),
+                        align=int(field.get("align", 1)),
+                        is_array=bool(field.get("array", False)),
+                    )
+                )
+            crc_raw = value.get("crc", "0")
+            crc = int(crc_raw, 16) if isinstance(crc_raw, str) else int(crc_raw)
+            classes[class_hash] = ClassDef(
+                name=value.get("name", ""), crc=crc, fields=fields
+            )
+        return cls(classes)
+
+    def get_class(self, class_hash: int) -> ClassDef | None:
+        return self.classes.get(class_hash)
+
+    def resolve_struct_hash(self, original_type: str) -> int | None:
+        if not original_type:
+            return None
+        known = self.name_to_hash.get(original_type)
+        if known is not None:
+            return known
+        maybe = murmur3_32(original_type.encode("utf-8"), seed=0xFFFFFFFF)
+        if maybe in self.classes:
+            return maybe
+        return None
+
+
+def read_len_utf16(reader: BinaryReader) -> str:
+    reader.seek(align(reader.tell(), 4))
+    length = reader.read_u32()
+    if length == 0:
+        return ""
+    remaining_chars = (reader.size - reader.tell()) // 2
+    if length > remaining_chars or length > 2_000_000:
+        return ""
+    raw = reader.read(length * 2)
+    decoded = raw.decode("utf-16-le", errors="replace").rstrip("\x00")
+    return normalize_guid_candidate_text(decoded)
+
+
+def read_len_c8(reader: BinaryReader) -> str:
+    reader.seek(align(reader.tell(), 4))
+    length = reader.read_u32()
+    if length == 0:
+        return ""
+    remaining = reader.size - reader.tell()
+    if length > remaining or length > 2_000_000:
+        return ""
+    raw = reader.read(length)
+    decoded = raw.decode("utf-8", errors="replace").rstrip("\x00")
+    return normalize_guid_candidate_text(decoded)
+
+
+def read_guid_like(reader: BinaryReader) -> str:
+    raw = reader.read(16)
+    try:
+        return str(uuid.UUID(bytes_le=raw))
+    except Exception:
+        return format_guid_text_from_hex32(raw.hex())
+
+
+class User3Exporter:
+    def __init__(
+        self,
+        user3_root: str | Path,
+        schema_dir: str | Path,
+        output_root: str | Path,
+        tree_depth: int | str = "auto",
+    ):
+        self.user3_root = Path(user3_root)
+        self.schema_dir = Path(schema_dir)
+        self.output_root = Path(output_root)
+        self.tree_depth = self._normalize_tree_depth(tree_depth)
+        self.schema_path = self._resolve_schema_path(self.schema_dir)
+        self.typedb = TypeDB.load(self.schema_path)
+
+    def run(self) -> dict[str, int]:
+        files = self._discover_user3_files()
+        self.output_root.mkdir(parents=True, exist_ok=True)
+
+        success = 0
+        failed = 0
+
+        for user3_file in tqdm(files, desc="Exporting user3", unit="file"):
+            try:
+                tree = self._parse_user3(user3_file)
+                output_path = self._output_path_for(user3_file)
+                output_path.parent.mkdir(parents=True, exist_ok=True)
+                with output_path.open("w", encoding="utf-8") as f:
+                    json.dump(tree, f, ensure_ascii=False, indent=2)
+                success += 1
+            except Exception:
+                failed += 1
+
+        return {"total": len(files), "success": success, "failed": failed}
+
+    def _resolve_schema_path(self, schema_dir: Path) -> Path:
+        if schema_dir.is_file():
+            return schema_dir
+        path = schema_dir / "rszmhst3.json"
+        if not path.is_file():
+            raise FileNotFoundError(f"rszmhst3.json not found: {path}")
+        return path
+
+    def _normalize_tree_depth(self, tree_depth: int | str) -> int | str:
+        if isinstance(tree_depth, str):
+            value = tree_depth.strip().lower()
+            if value != "auto":
+                raise ValueError("tree_depth must be a non-negative integer or 'auto'")
+            return "auto"
+        if isinstance(tree_depth, int):
+            if tree_depth < 0:
+                raise ValueError("tree_depth must be >= 0")
+            return tree_depth
+        raise TypeError("tree_depth must be int or str")
+
+    def _count_reference_links(self, value: Any) -> int:
+        if isinstance(value, dict):
+            if "ref_instance_id" in value and isinstance(value["ref_instance_id"], int):
+                return 1
+            total = 0
+            for child in value.values():
+                total += self._count_reference_links(child)
+            return total
+        if isinstance(value, list):
+            return sum(self._count_reference_links(child) for child in value)
+        return 0
+
+    def _collect_reference_ids(self, value: Any, out: set[int]) -> None:
+        if isinstance(value, dict):
+            if "ref_instance_id" in value and isinstance(value["ref_instance_id"], int):
+                out.add(value["ref_instance_id"])
+                return
+            for child in value.values():
+                self._collect_reference_ids(child, out)
+            return
+        if isinstance(value, list):
+            for child in value:
+                self._collect_reference_ids(child, out)
+
+    def _infer_roots_when_object_table_empty(
+        self,
+        idx_map: dict[int, dict[str, Any]],
+        parsed_instances: list[dict[str, Any]],
+    ) -> list[int]:
+        candidates = sorted(
+            idx
+            for idx, inst in idx_map.items()
+            if idx > 0 and isinstance(inst.get("data", {}).get("fields"), dict)
+        )
+        if not candidates:
+            return []
+
+        referenced: set[int] = set()
+        for inst in parsed_instances:
+            fields = inst.get("data", {}).get("fields")
+            if isinstance(fields, dict):
+                self._collect_reference_ids(fields, referenced)
+
+        inferred = [idx for idx in candidates if idx not in referenced]
+        if inferred:
+            return inferred
+        return candidates
+
+    def _auto_pick_tree_depth(
+        self, parsed_instances: list[dict[str, Any]], object_roots: list[int]
+    ) -> int:
+        ref_links = 0
+        for inst in parsed_instances:
+            fields = inst.get("data", {}).get("fields")
+            if isinstance(fields, dict):
+                ref_links += self._count_reference_links(fields)
+
+        complexity = max(len(parsed_instances), ref_links, len(object_roots) * 10)
+        if complexity <= 1500:
+            return 4
+        if complexity <= 8000:
+            return 3
+        if complexity <= 30000:
+            return 2
+        return 1
+
+    def _discover_user3_files(self) -> list[Path]:
+        if self.user3_root.is_file():
+            return [self.user3_root]
+        if not self.user3_root.is_dir():
+            raise FileNotFoundError(f"user3 root not found: {self.user3_root}")
+        files = sorted(self.user3_root.rglob("*.user.3"))
+        if not files:
+            raise FileNotFoundError(f"no *.user.3 found under: {self.user3_root}")
+        return files
+
+    def _output_path_for(self, user3_file: Path) -> Path:
+        if self.user3_root.is_file():
+            relative_parent = Path()
+        else:
+            relative_parent = user3_file.relative_to(self.user3_root).parent
+        output_name = f"{user3_file.name}.json"
+        return self.output_root / relative_parent / output_name
+
+    def _parse_scalar(
+        self, reader: BinaryReader, field: FieldDef, depth: int = 0
+    ) -> Any:
+        t = field.field_type
+        if t == "Bool":
+            return bool(reader.read_u8())
+        if t == "S8":
+            return reader.read_s8()
+        if t == "U8":
+            return reader.read_u8()
+        if t == "S16":
+            return reader.read_s16()
+        if t == "U16":
+            return reader.read_u16()
+        if t in ("S32", "Enum", "Sfix"):
+            return reader.read_s32()
+        if t == "U32":
+            return reader.read_u32()
+        if t == "S64":
+            return reader.read_s64()
+        if t == "U64":
+            return reader.read_u64()
+        if t == "F32":
+            return reader.read_f32()
+        if t == "F64":
+            return reader.read_f64()
+        if t in ("Object", "UserData"):
+            return {"ref_instance_id": reader.read_s32()}
+        if t in ("String", "Resource"):
+            return read_len_utf16(reader)
+        if t == "C8":
+            return read_len_c8(reader)
+        if t in ("Guid", "GameObjectRef", "Uri"):
+            return read_guid_like(reader)
+        if t == "Struct":
+            if depth >= 4:
+                to_read = max(0, min(field.size, reader.size - reader.tell()))
+                return {"raw": reader.read(to_read).hex(), "truncated": True}
+            struct_hash = self.typedb.resolve_struct_hash(field.original_type)
+            if struct_hash is None:
+                to_read = max(0, min(field.size, reader.size - reader.tell()))
+                return {
+                    "raw": reader.read(to_read).hex(),
+                    "unknown_struct": field.original_type,
+                }
+            struct_cls = self.typedb.get_class(struct_hash)
+            if struct_cls is None:
+                to_read = max(0, min(field.size, reader.size - reader.tell()))
+                return {
+                    "raw": reader.read(to_read).hex(),
+                    "unknown_struct": field.original_type,
+                }
+            start = reader.tell()
+            out: dict[str, Any] = {}
+            for sf in struct_cls.fields:
+                reader.seek(
+                    align(reader.tell(), 4 if sf.is_array else max(sf.align, 1))
+                )
+                out[sf.name or "unnamed"] = self._parse_field_value(
+                    reader, sf, depth=depth + 1
+                )
+            consumed = reader.tell() - start
+            if field.size > consumed:
+                reader.seek(reader.tell() + (field.size - consumed))
+            return out
+        if t in {
+            "Float2",
+            "Float3",
+            "Float4",
+            "Vec2",
+            "Vec3",
+            "Vec4",
+            "Quaternion",
+            "Color",
+            "AABB",
+            "Capsule",
+            "OBB",
+            "Mat3",
+            "Mat4",
+            "Position",
+        }:
+            count = max(field.size // 4, 1)
+            return [reader.read_f32() for _ in range(count)]
+
+        if field.size <= 0:
+            return None
+        to_read = max(0, min(field.size, reader.size - reader.tell()))
+        return {"raw": reader.read(to_read).hex(), "type": t}
+
+    def _parse_field_value(
+        self, reader: BinaryReader, field: FieldDef, depth: int = 0
+    ) -> Any:
+        if field.is_array:
+            count = reader.read_u32()
+            if count > 1_000_000:
+                return []
+            items = []
+            for _ in range(count):
+                if reader.tell() >= reader.size:
+                    break
+                reader.seek(align(reader.tell(), max(field.align, 1)))
+                non_array = FieldDef(
+                    name=field.name,
+                    field_type=field.field_type,
+                    original_type=field.original_type,
+                    size=field.size,
+                    align=field.align,
+                    is_array=False,
+                )
+                items.append(self._parse_scalar(reader, non_array, depth=depth))
+            return items
+        return self._parse_scalar(reader, field, depth=depth)
+
+    def _estimate_min_instance_size(self, cls: ClassDef) -> int:
+        pos = 0
+        for field in cls.fields:
+            align_to = 4 if field.is_array else max(field.align, 1)
+            pos = align(pos, align_to)
+            t = field.field_type
+            if field.is_array:
+                pos += 4
+            elif t in ("String", "Resource", "C8"):
+                pos += 4
+            elif t in ("Object", "UserData"):
+                pos += 4
+            elif t in ("Guid", "GameObjectRef", "Uri"):
+                pos += 16
+            elif t in ("S8", "U8", "Bool"):
+                pos += 1
+            elif t in ("S16", "U16"):
+                pos += 2
+            elif t in ("S32", "U32", "Enum", "Sfix", "F32"):
+                pos += 4
+            elif t in ("S64", "U64", "F64"):
+                pos += 8
+            else:
+                pos += max(field.size, 0)
+        return max(pos, 1)
+
+    def _parse_instance(self, reader: BinaryReader, class_hash: int) -> dict[str, Any]:
+        cls = self.typedb.get_class(class_hash)
+        if cls is None:
+            raise ParseError(f"class hash 0x{class_hash:08x} not found in schema")
+        out: dict[str, Any] = {"_class": cls.name, "fields": {}}
+        for field in cls.fields:
+            reader.seek(
+                align(reader.tell(), 4 if field.is_array else max(field.align, 1))
+            )
+            out["fields"][field.name or "unnamed"] = self._parse_field_value(
+                reader, field, depth=0
+            )
+        return out
+
+    def _simplify_value_object(self, value: Any) -> Any:
+        if isinstance(value, dict) and len(value) == 1 and "_Value" in value:
+            return value["_Value"]
+        return value
+
+    def _resolve_compact_value(
+        self,
+        value: Any,
+        idx_map: dict[int, dict[str, Any]],
+        depth: int,
+        visited: set[int],
+    ) -> Any:
+        if isinstance(value, dict):
+            if "ref_instance_id" in value and isinstance(value["ref_instance_id"], int):
+                target_idx = value["ref_instance_id"]
+                if depth <= 0:
+                    return {"index": target_idx}
+                return self._build_compact_tree(
+                    target_idx, idx_map, depth - 1, set(visited)
+                )
+            out: dict[str, Any] = {}
+            for k, v in value.items():
+                out[k] = self._resolve_compact_value(v, idx_map, depth, set(visited))
+            return out
+        if isinstance(value, list):
+            return [
+                self._resolve_compact_value(v, idx_map, depth, set(visited))
+                for v in value
+            ]
+        return value
+
+    def _build_compact_tree(
+        self,
+        idx: int,
+        idx_map: dict[int, dict[str, Any]],
+        depth: int,
+        instance_info_map: dict[int, dict[str, Any]] | None = None,
+        visited: set[int] | None = None,
+    ) -> dict[str, Any]:
+        if visited is None:
+            visited = set()
+        if idx in visited:
+            return {"Ref": {"index": idx, "cycle": True}}
+        visited.add(idx)
+
+        inst = idx_map.get(idx)
+        if inst is None:
+            if instance_info_map is not None and idx in instance_info_map:
+                class_name = instance_info_map[idx].get("class_name", "Unknown Class")
+                return {class_name: {"index": idx, "unparsed": True}}
+            return {"Ref": {"index": idx, "missing": True}}
+
+        if inst.get("is_userdata_reference"):
+            class_name = inst.get("class_name", "Unknown Class")
+            return {
+                class_name: {
+                    "index": idx,
+                    "path": inst.get("path", ""),
+                }
+            }
+
+        data = inst.get("data", {})
+        class_name = data.get("_class", inst.get("class_name", "Unknown Class"))
+        fields = data.get("fields", {})
+        if not isinstance(fields, dict):
+            fields = {}
+
+        resolved = self._resolve_compact_value_with_info(
+            fields, idx_map, depth, instance_info_map, visited
+        )
+        resolved = self._simplify_value_object(resolved)
+
+        if isinstance(resolved, dict):
+            if "index" not in resolved:
+                resolved = {"index": idx, **resolved}
+            node_value: Any = resolved
+        else:
+            node_value = {"index": idx, "value": resolved}
+
+        return {class_name: node_value}
+
+    def _resolve_compact_value_with_info(
+        self,
+        value: Any,
+        idx_map: dict[int, dict[str, Any]],
+        depth: int,
+        instance_info_map: dict[int, dict[str, Any]] | None,
+        visited: set[int],
+    ) -> Any:
+        if isinstance(value, dict):
+            if "ref_instance_id" in value and isinstance(value["ref_instance_id"], int):
+                target_idx = value["ref_instance_id"]
+                if depth <= 0:
+                    return {"index": target_idx}
+                return self._build_compact_tree(
+                    target_idx,
+                    idx_map,
+                    depth - 1,
+                    instance_info_map=instance_info_map,
+                    visited=set(visited),
+                )
+            out: dict[str, Any] = {}
+            for k, v in value.items():
+                out[k] = self._resolve_compact_value_with_info(
+                    v, idx_map, depth, instance_info_map, set(visited)
+                )
+            return out
+        if isinstance(value, list):
+            return [
+                self._resolve_compact_value_with_info(
+                    v, idx_map, depth, instance_info_map, set(visited)
+                )
+                for v in value
+            ]
+        return value
+
+    def _parse_user3(self, user3_path: Path) -> list[dict[str, Any]]:
+        reader = BinaryReader(user3_path.read_bytes())
+
+        magic = reader.read_u32()
+        if magic != USR_MAGIC:
+            raise ParseError(f"not a user file: magic={magic}")
+
+        usr_header = {
+            "signature": magic,
+            "resource_count": reader.read_s32(),
+            "userdata_count": reader.read_s32(),
+            "info_count": reader.read_s32(),
+            "resource_info_tbl": reader.read_u64(),
+            "userdata_info_tbl": reader.read_u64(),
+            "data_offset": reader.read_u64(),
+        }
+        header_userdata_infos: list[dict[str, Any]] = []
+        if usr_header["userdata_count"] > 0 and usr_header["userdata_info_tbl"] > 0:
+            try:
+                reader.seek(usr_header["userdata_info_tbl"])
+                for idx in range(usr_header["userdata_count"]):
+                    class_hash = reader.read_u32()
+                    _crc = reader.read_u32()
+                    path_offset = reader.read_u64()
+                    class_name = (
+                        self.typedb.get_class(class_hash).name
+                        if self.typedb.get_class(class_hash)
+                        else "Unknown Class"
+                    )
+                    header_userdata_infos.append(
+                        {
+                            "index": idx,
+                            "class_hash": class_hash,
+                            "class_name": class_name,
+                            "path": reader.read_wstring_null(path_offset),
+                        }
+                    )
+            except Exception:
+                header_userdata_infos = []
+
+        rsz_start = usr_header["data_offset"]
+
+        reader.seek(rsz_start)
+        rsz_header = {
+            "magic": reader.read_u32(),
+            "version": reader.read_u32(),
+            "object_count": reader.read_s32(),
+            "instance_count": reader.read_s32(),
+            "userdata_count": reader.read_s32(),
+            "reserved": reader.read_s32(),
+            "instance_offset": reader.read_s64(),
+            "data_offset": reader.read_s64(),
+            "userdata_offset": reader.read_s64(),
+        }
+        if rsz_header["magic"] != RSZ_MAGIC:
+            raise ParseError(
+                f"RSZ magic mismatch at data_offset: {rsz_header['magic']}"
+            )
+
+        reader.seek(rsz_start + 48)
+        object_table = [
+            reader.read_s32() for _i in range(max(rsz_header["object_count"], 0))
+        ]
+        object_table_set = set(object_table)
+
+        instance_infos: list[dict[str, Any]] = []
+        reader.seek(rsz_start + rsz_header["instance_offset"])
+        for idx in range(max(rsz_header["instance_count"], 0)):
+            class_hash = reader.read_u32()
+            crc = reader.read_u32()
+            class_def = self.typedb.get_class(class_hash)
+            instance_infos.append(
+                {
+                    "index": idx,
+                    "hash": class_hash,
+                    "class_name": class_def.name if class_def else "Unknown Class",
+                    "crc": crc,
+                    "is_object": idx in object_table_set,
+                }
+            )
+        instance_info_map = {item["index"]: item for item in instance_infos}
+
+        rsz_userdata_instance_ids: list[int] = []
+        rsz_userdata_path_by_instance: dict[int, str] = {}
+        if rsz_header["userdata_count"] > 0 and rsz_header["userdata_offset"] > 0:
+            try:
+                reader.seek(rsz_start + rsz_header["userdata_offset"])
+                for _i in range(rsz_header["userdata_count"]):
+                    instance_id = reader.read_s32()
+                    _type_hash = reader.read_u32()
+                    path_offset = reader.read_u64()
+                    if instance_id >= 0:
+                        rsz_userdata_instance_ids.append(instance_id)
+                        path = ""
+                        if path_offset > 0 and rsz_start + path_offset < reader.size:
+                            path = reader.read_wstring_null(rsz_start + path_offset)
+                        rsz_userdata_path_by_instance[instance_id] = path
+            except Exception:
+                rsz_userdata_instance_ids = []
+                rsz_userdata_path_by_instance = {}
+        rsz_userdata_instance_set = set(rsz_userdata_instance_ids)
+
+        parsed_instances: list[dict[str, Any]] = []
+        reader.seek(rsz_start + rsz_header["data_offset"])
+        for idx, info in enumerate(instance_infos):
+            class_hash = int(info["hash"])
+            if idx == 0:
+                parsed_instances.append(
+                    {
+                        "index": idx,
+                        "class_name": info["class_name"],
+                        "note": "null instance slot",
+                    }
+                )
+                continue
+            if idx in rsz_userdata_instance_set:
+                parsed_instances.append(
+                    {
+                        "index": idx,
+                        "class_name": info["class_name"],
+                        "is_userdata_reference": True,
+                        "path": rsz_userdata_path_by_instance.get(idx, ""),
+                    }
+                )
+                continue
+            cls = self.typedb.get_class(class_hash)
+            if cls is None:
+                parsed_instances.append(
+                    {
+                        "index": idx,
+                        "class_name": info["class_name"],
+                        "unparsed": True,
+                        "reason": "class_not_found_in_schema",
+                    }
+                )
+                continue
+            if cls.fields:
+                first = cls.fields[0]
+                reader.seek(
+                    align(reader.tell(), 4 if first.is_array else max(first.align, 1))
+                )
+            start_pos = reader.tell()
+            try:
+                parsed_instances.append(
+                    {"index": idx, "data": self._parse_instance(reader, class_hash)}
+                )
+            except Exception as exc:
+                parsed_instances.append(
+                    {
+                        "index": idx,
+                        "class_name": info["class_name"],
+                        "unparsed": True,
+                        "reason": str(exc),
+                    }
+                )
+                min_skip = self._estimate_min_instance_size(cls)
+                next_pos = min(reader.size, start_pos + min_skip)
+                if next_pos <= start_pos:
+                    break
+                reader.seek(next_pos)
+
+        idx_map = {
+            inst["index"]: inst
+            for inst in parsed_instances
+            if isinstance(inst.get("index"), int)
+        }
+        object_roots = sorted(
+            set(i for i in object_table if isinstance(i, int) and i >= 0)
+        )
+        if not object_roots:
+            object_roots = self._infer_roots_when_object_table_empty(
+                idx_map, parsed_instances
+            )
+        if not object_roots and rsz_userdata_instance_ids:
+            object_roots = sorted(
+                set(
+                    i
+                    for i in rsz_userdata_instance_ids
+                    if i in instance_info_map and i > 0
+                )
+            )
+        if not object_roots:
+            object_roots = sorted(i for i in instance_info_map.keys() if i > 0)
+        depth = (
+            self._auto_pick_tree_depth(parsed_instances, object_roots)
+            if self.tree_depth == "auto"
+            else self.tree_depth
+        )
+        object_trees = [
+            self._build_compact_tree(
+                root_idx,
+                idx_map,
+                depth=depth,
+                instance_info_map=instance_info_map,
+            )
+            for root_idx in object_roots
+            if root_idx in instance_info_map
+        ]
+        if not object_trees and header_userdata_infos:
+            return [
+                {
+                    item["class_name"]: {
+                        "index": item["index"],
+                        "path": item["path"],
+                    }
+                }
+                for item in header_userdata_infos
+            ]
+        return object_trees

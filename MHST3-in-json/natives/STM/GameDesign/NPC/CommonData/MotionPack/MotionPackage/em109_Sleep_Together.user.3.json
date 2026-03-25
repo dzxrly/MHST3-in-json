@@ -1,0 +1,57 @@
+[
+  {
+    "app.user_data.NpcMotionPackage": {
+      "index": 5,
+      "_BaseMotionPack": {
+        "": {
+          "index": 0
+        }
+      },
+      "_JobMotionPack": {
+        "app.user_data.NpcMotionJobPack": {
+          "index": 1,
+          "path": "GameDesign/NPC/CommonData/MotionPack/JobPack/em109/em109_Sleep_Together.user"
+        }
+      },
+      "_HoldMotionPack": {
+        "": {
+          "index": 0
+        }
+      },
+      "_IsUseMirror": false,
+      "_VariationSetting": {
+        "app.user_data.NpcMotionPackage.VariationMotionSetting": {
+          "index": 2,
+          "_IsNoUseVariation": false,
+          "_LoopCount_Var1": 3,
+          "_LoopCount_Var2": 3,
+          "_LoopCount_Var3": 3,
+          "_LoopCount_Var4": 3
+        }
+      },
+      "_GimmickOption": {
+        "app.user_data.NpcMotionPackage.GimmickOption": {
+          "index": 3,
+          "_GimmickLinkType": -1,
+          "STRUCT__PosOffsetFromGimmick__HasValue": false,
+          "STRUCT__PosOffsetFromGimmick__Value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "STRUCT__RotOffsetFromGimmick__HasValue": false,
+          "STRUCT__RotOffsetFromGimmick__Value": 0.0
+        }
+      },
+      "_IsSyncMotionFrame": true,
+      "_IsSyncRiderMotion": false,
+      "_SoundRangeOption": {
+        "app.user_data.NpcMotionPackage.cSoundRangeOption": {
+          "index": 4,
+          "_IsUseSoundRange": false
+        }
+      }
+    }
+  }
+]

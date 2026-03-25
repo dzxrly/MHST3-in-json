@@ -1,0 +1,86 @@
+[
+  {
+    "app.snd_user_data.SoundTimeLineEventListUserData": {
+      "index": 9,
+      "_LayerNameHash": 3109870426,
+      "_NodeNameHash": 1937584469,
+      "_TriggerIdOnStartList": [],
+      "_StateOnStartList": [
+        {
+          "soundlib.SoundStateInfo": {
+            "index": 1,
+            "_StateGroupId": 2604308453,
+            "_StateId": 642026682
+          }
+        },
+        {
+          "soundlib.SoundStateInfo": {
+            "index": 2,
+            "_StateGroupId": 1275249745,
+            "_StateId": 1734105940
+          }
+        }
+      ],
+      "_MessageOnStartList": [],
+      "_TriggerIdOnEndList": [],
+      "_StateOnEndList": [
+        {
+          "soundlib.SoundStateInfo": {
+            "index": 3,
+            "_StateGroupId": 4294967295,
+            "_StateId": 4294967295
+          }
+        },
+        {
+          "soundlib.SoundStateInfo": {
+            "index": 4,
+            "_StateGroupId": 1275249745,
+            "_StateId": 1634721189
+          }
+        }
+      ],
+      "_MessageOnEndList": [],
+      "_TriggerIdOnSkippedList": [],
+      "_StateOnSkippedList": [
+        {
+          "soundlib.SoundStateInfo": {
+            "index": 5,
+            "_StateGroupId": 2604308453,
+            "_StateId": 1879023595
+          }
+        }
+      ],
+      "_MessageOnSkippedList": [],
+      "_FrameActionList": [
+        {
+          "app.snd_user_data.SoundTimeLineEventListUserData.FrameAction": {
+            "index": 6,
+            "_Frame": 0.0,
+            "_TriggerIdList": [
+              4070604597
+            ],
+            "_StateList": [],
+            "_MessageList": []
+          }
+        },
+        {
+          "app.snd_user_data.SoundTimeLineEventListUserData.FrameAction": {
+            "index": 8,
+            "_Frame": 3600.0,
+            "_TriggerIdList": [],
+            "_StateList": [
+              {
+                "soundlib.SoundStateInfo": {
+                  "index": 7,
+                  "_StateGroupId": 2604308453,
+                  "_StateId": 1879023595
+                }
+              }
+            ],
+            "_MessageList": []
+          }
+        }
+      ]
+    }
+  }
+]

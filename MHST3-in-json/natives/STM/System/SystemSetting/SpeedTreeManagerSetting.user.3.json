@@ -1,0 +1,22 @@
+[
+  {
+    "ace.user_data.SpeedTreeManagerSettingBase": {
+      "index": 2,
+      "_MaxWindSpeed": 20.0,
+      "_RipplingWindRate": 0.10000000149011612,
+      "_VortexelWindResponse": 0.25,
+      "_EnablePushCollision": true,
+      "_EnablePushCollisionMesh": true,
+      "_PushCollisionBufferNum": 1024,
+      "_PushCollisionNum": 254,
+      "_PushCollisionBuffer": "System/SpeedTree/push_pos.gpbf",
+      "_EnableDualHeightFieldTrail": true,
+      "_DualHeightFieldTrailSetting": {
+        "ace.dual_height_field_trail.DualHeightFieldTrailSettingBase": {
+          "index": 1,
+          "path": "System/SystemSetting/DualHeightFieldTrailSettingBase.user"
+        }
+      }
+    }
+  }
+]

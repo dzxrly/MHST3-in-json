@@ -1,0 +1,127 @@
+[
+  {
+    "app.user_data.EnemyResidentParam": {
+      "index": 15,
+      "_RepopDistacneFromPL": 300.0,
+      "_ShoutPopRate": 1.0,
+      "_ShoutPopWeight_0": 1,
+      "_ShoutPopWeight_1": 1,
+      "_ShoutPopIgnoreRange": 5,
+      "_SpownDist": 30,
+      "_NoSpownDist": 5,
+      "_ArriveParam": {
+        "app.user_data.World_NavigationDistParam": {
+          "index": 1,
+          "path": "GameDesign/AI/World/BTable/Enemy/SettingData/World_EmNavigationDistParam.user"
+        }
+      },
+      "_PlNearRange3014": 25.0,
+      "_MoveRangeXZAfterBattle": 10.0,
+      "_MoveRangeYAfterBattle": 5.0,
+      "_MoveDistanceAfterBattle": 8.0,
+      "_MoveDistanceAfterFindBreathImpact": 50.0,
+      "_NoMoveDistanceAfterFindBreathImpact": 6.0,
+      "_SearchAngleAfterFindBreathImpact": 180.0,
+      "_RotateDegAfterFindBreathImpact": 30.0,
+      "_CoolTimeAfterFindBreathImpact": 5.0,
+      "_DefeatedEnemyData": {
+        "app.user_data.DefeatedEnemyData": {
+          "index": 2,
+          "path": "GameDesign/Enemy/CommonData/WorldData/WorldDefeatedEnemyData.user"
+        }
+      },
+      "_BlowAfterInvisibleTime": 2.0,
+      "_TakeOffInvisibleTime": 3.0,
+      "_DissolveFinishDistanceFromWaterSurface": 0.0,
+      "_DissolveTimeFallWater": 0.30000001192092896,
+      "_CacheFootPosResetTime": 0.5,
+      "_ReachRangeAfterThreat": 10.0,
+      "_ProfibitEcoPopData_SS": [
+        {
+          "app.WorldEnemyDef.cProhibitEcoPopData_SS": {
+            "index": 6,
+            "_EmId": -937241216,
+            "_StoryTerm": {
+              "app.cSideStoryTerm": {
+                "index": 5,
+                "_IsCheckTerm": true,
+                "_SideStoryFlagBegin": {
+                  "app.AppMissionDef.SIDE_STORY_FLAG_Serializable": {
+                    "index": 3,
+                    "value": -1445048576
+                  }
+                },
+                "_SideStoryFlagEnd": {
+                  "app.AppMissionDef.SIDE_STORY_FLAG_Serializable": {
+                    "index": 4,
+                    "value": 1684584192
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.WorldEnemyDef.cProhibitEcoPopData_SS": {
+            "index": 10,
+            "_EmId": -937241216,
+            "_StoryTerm": {
+              "app.cSideStoryTerm": {
+                "index": 9,
+                "_IsCheckTerm": true,
+                "_SideStoryFlagBegin": {
+                  "app.AppMissionDef.SIDE_STORY_FLAG_Serializable": {
+                    "index": 7,
+                    "value": 435558720
+                  }
+                },
+                "_SideStoryFlagEnd": {
+                  "app.AppMissionDef.SIDE_STORY_FLAG_Serializable": {
+                    "index": 8,
+                    "value": 17515
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.WorldEnemyDef.cProhibitEcoPopData_SS": {
+            "index": 14,
+            "_EmId": -1041720960,
+            "_StoryTerm": {
+              "app.cSideStoryTerm": {
+                "index": 13,
+                "_IsCheckTerm": true,
+                "_SideStoryFlagBegin": {
+                  "app.AppMissionDef.SIDE_STORY_FLAG_Serializable": {
+                    "index": 11,
+                    "value": 599758848
+                  }
+                },
+                "_SideStoryFlagEnd": {
+                  "app.AppMissionDef.SIDE_STORY_FLAG_Serializable": {
+                    "index": 12,
+                    "value": 17918
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "_ShoutDamageDelayDistRange": [
+        0.0,
+        70.0,
+        0.0,
+        0.0
+      ],
+      "_ShoutDamageDelayTimeRange": [
+        0.0,
+        0.10000000149011612,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "app.user_data.NestRiskGageTableData": {
+      "index": 21,
+      "_NormalTable": {
+        "app.user_data.NestRiskGageTableData.cRareTable": {
+          "index": 5,
+          "_P1Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 1,
+              "_RiskBoundary": 0,
+              "_RiskGageUpRange": {
+                "raw": "0f00000014000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 0,
+              "_EmAppearRate": 10
+            }
+          },
+          "_P2Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 2,
+              "_RiskBoundary": 25,
+              "_RiskGageUpRange": {
+                "raw": "0f00000014000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 0,
+              "_EmAppearRate": 20
+            }
+          },
+          "_P3Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 3,
+              "_RiskBoundary": 50,
+              "_RiskGageUpRange": {
+                "raw": "0f00000014000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 5,
+              "_EmAppearRate": 30
+            }
+          },
+          "_P4Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 4,
+              "_RiskBoundary": 75,
+              "_RiskGageUpRange": {
+                "raw": "0f00000014000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 10,
+              "_EmAppearRate": 50
+            }
+          }
+        }
+      },
+      "_RareTable": {
+        "app.user_data.NestRiskGageTableData.cRareTable": {
+          "index": 10,
+          "_P1Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 6,
+              "_RiskBoundary": 0,
+              "_RiskGageUpRange": {
+                "raw": "0f0000001e000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 0,
+              "_EmAppearRate": 20
+            }
+          },
+          "_P2Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 7,
+              "_RiskBoundary": 25,
+              "_RiskGageUpRange": {
+                "raw": "0f0000001e000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 5,
+              "_EmAppearRate": 40
+            }
+          },
+          "_P3Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 8,
+              "_RiskBoundary": 45,
+              "_RiskGageUpRange": {
+                "raw": "0a0000001e000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 10,
+              "_EmAppearRate": 60
+            }
+          },
+          "_P4Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 9,
+              "_RiskBoundary": 60,
+              "_RiskGageUpRange": {
+                "raw": "0a0000001e000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 15,
+              "_EmAppearRate": 80
+            }
+          }
+        }
+      },
+      "_SuperRareTable": {
+        "app.user_data.NestRiskGageTableData.cRareTable": {
+          "index": 15,
+          "_P1Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 11,
+              "_RiskBoundary": 0,
+              "_RiskGageUpRange": {
+                "raw": "1400000028000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 0,
+              "_EmAppearRate": 50
+            }
+          },
+          "_P2Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 12,
+              "_RiskBoundary": 30,
+              "_RiskGageUpRange": {
+                "raw": "1400000028000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 10,
+              "_EmAppearRate": 60
+            }
+          },
+          "_P3Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 13,
+              "_RiskBoundary": 50,
+              "_RiskGageUpRange": {
+                "raw": "0a00000028000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 15,
+              "_EmAppearRate": 70
+            }
+          },
+          "_P4Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 14,
+              "_RiskBoundary": 60,
+              "_RiskGageUpRange": {
+                "raw": "0a00000032000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 20,
+              "_EmAppearRate": 90
+            }
+          }
+        }
+      },
+      "_EggFesTable": {
+        "app.user_data.NestRiskGageTableData.cRareTable": {
+          "index": 20,
+          "_P1Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 16,
+              "_RiskBoundary": 0,
+              "_RiskGageUpRange": {
+                "raw": "0000000005000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 0,
+              "_EmAppearRate": 0
+            }
+          },
+          "_P2Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 17,
+              "_RiskBoundary": 30,
+              "_RiskGageUpRange": {
+                "raw": "0000000005000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 0,
+              "_EmAppearRate": 0
+            }
+          },
+          "_P3Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 18,
+              "_RiskBoundary": 60,
+              "_RiskGageUpRange": {
+                "raw": "0000000005000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 0,
+              "_EmAppearRate": 5
+            }
+          },
+          "_P4Table": {
+            "app.user_data.NestRiskGageTableData.cRiskTable": {
+              "index": 19,
+              "_RiskBoundary": 90,
+              "_RiskGageUpRange": {
+                "raw": "0000000005000000",
+                "type": "Uint2"
+              },
+              "_EggCantNextGetRate": 0,
+              "_EmAppearRate": 10
+            }
+          }
+        }
+      }
+    }
+  }
+]

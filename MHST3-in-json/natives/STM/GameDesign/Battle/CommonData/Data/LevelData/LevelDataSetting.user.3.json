@@ -1,0 +1,80 @@
+[
+  {
+    "app.user_data.LevelDataSetting": {
+      "index": 11,
+      "_EmLevelBaseExp": {
+        "app.user_data.EmLevelBaseExp": {
+          "index": 1,
+          "path": "GameDesign/Battle/CommonData/Data/LevelData/EmLevelBaseExp.user"
+        }
+      },
+      "_LevelDiffExpBonus": {
+        "app.user_data.LevelDiffExpBonus": {
+          "index": 2,
+          "path": "GameDesign/Battle/CommonData/Data/LevelData/LevelDiffExpBonus.user"
+        }
+      },
+      "_LevelExpRankData": {
+        "app.user_data.LevelExpRankData": {
+          "index": 3,
+          "path": "GameDesign/Battle/CommonData/Data/LevelData/LevelExpRankData.user"
+        }
+      },
+      "_ProgressEnemyMaxLv": [
+        {
+          "app.user_data.LevelDataSetting.cProgressEnemyMaxLv": {
+            "index": 10,
+            "_EmIDs": [
+              307282656,
+              1005430464
+            ],
+            "_ProgressLvDatas": [
+              {
+                "app.user_data.LevelDataSetting.cProgressEnemyMaxLv.cProgressLvData": {
+                  "index": 4,
+                  "_StoryFlag": -650390592,
+                  "_MaxLv": 16
+                }
+              },
+              {
+                "app.user_data.LevelDataSetting.cProgressEnemyMaxLv.cProgressLvData": {
+                  "index": 5,
+                  "_StoryFlag": 945192320,
+                  "_MaxLv": 28
+                }
+              },
+              {
+                "app.user_data.LevelDataSetting.cProgressEnemyMaxLv.cProgressLvData": {
+                  "index": 6,
+                  "_StoryFlag": -758619392,
+                  "_MaxLv": 40
+                }
+              },
+              {
+                "app.user_data.LevelDataSetting.cProgressEnemyMaxLv.cProgressLvData": {
+                  "index": 7,
+                  "_StoryFlag": -608237248,
+                  "_MaxLv": 52
+                }
+              },
+              {
+                "app.user_data.LevelDataSetting.cProgressEnemyMaxLv.cProgressLvData": {
+                  "index": 8,
+                  "_StoryFlag": 1595099392,
+                  "_MaxLv": 98
+                }
+              },
+              {
+                "app.user_data.LevelDataSetting.cProgressEnemyMaxLv.cProgressLvData": {
+                  "index": 9,
+                  "_StoryFlag": 14774,
+                  "_MaxLv": 99
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

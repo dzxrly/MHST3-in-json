@@ -1,0 +1,130 @@
+[
+  {
+    "app.user_data.WorldPartnerHumanParamPack": {
+      "index": 19,
+      "_MotionBankAssetsList": [
+        {
+          "app.cMotionBankAssets": {
+            "index": 3,
+            "_MotionBank": "Art/Motion/01_Player/plm_FieldBase.motbank",
+            "_MotionExtendBank": {
+              "ace.user_data.MotionExtendBank": {
+                "index": 1,
+                "path": "Art/Motion/01_Player/plm_FieldBase_meb.user"
+              }
+            },
+            "_MotionConnectBank": {
+              "ace.user_data.MotionConnectBank": {
+                "index": 2,
+                "path": "Art/Motion/01_Player/plm_FieldBase_mcb.user"
+              }
+            },
+            "_Order": 0
+          }
+        },
+        {
+          "app.cMotionBankAssets": {
+            "index": 6,
+            "_MotionBank": "Art/Motion/03_Npc/05_ProgressMove/NPC_ProgressRide.motbank",
+            "_MotionExtendBank": {
+              "ace.user_data.MotionExtendBank": {
+                "index": 4,
+                "path": "Art/Motion/03_Npc/05_ProgressMove/NPC_ProgressRide_meb.user"
+              }
+            },
+            "_MotionConnectBank": {
+              "ace.user_data.MotionConnectBank": {
+                "index": 5,
+                "path": "Art/Motion/03_Npc/05_ProgressMove/NPC_ProgressRide_mcb.user"
+              }
+            },
+            "_Order": 0
+          }
+        }
+      ],
+      "_JointGroup": {
+        "ace.user_data.JointGroup": {
+          "index": 7,
+          "path": "Art/Motion/01_Player/00_Decorate/01_JointGroup/PlJointGroup.user"
+        }
+      },
+      "_ActionDataSetHolder": {
+        "app.user_data.ActionDataSetHolder": {
+          "index": 12,
+          "_DataSet_Base": [
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 11,
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "index": 8,
+                    "path": "GameDesign/Partner/ActionData/RideGround/PN_RideGround_ActionParam.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 10,
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "index": 9,
+                        "path": "GameDesign/Partner/ActionData/RideGround/PN_RideGround_ActionID.user"
+                      }
+                    },
+                    "_ExportGuid": "268413f8-9392-4375-98ec-b4ace8918dee"
+                  }
+                }
+              }
+            }
+          ],
+          "_DataSet_Sub": []
+        }
+      },
+      "_DetectTerrainParam": {
+        "app.user_data.DetectTerrainParam": {
+          "index": 13,
+          "path": "GameDesign/Partner/ActionData/Common/PartnerDetectTerrainParam.user"
+        }
+      },
+      "_InertiaFbik": {
+        "app.user_data.HumanoidFbikInertialSimulateParameterContainer": {
+          "index": 14,
+          "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderFbikParam.user"
+        }
+      },
+      "_FbikRigInfo": {
+        "app.user_data.HumanoidFbikInfo": {
+          "index": 15,
+          "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderRigInfo.user"
+        }
+      },
+      "_SpeedTreeCollision": {
+        "": {
+          "index": 0
+        }
+      },
+      "_WorldCharacterAnimationLodParam": {
+        "": {
+          "index": 0
+        }
+      },
+      "_IkCtrlSetupParam": {
+        "ace.user_data.IkCtrlSetupParam": {
+          "index": 16,
+          "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderIkCtrlSetup.user"
+        }
+      },
+      "_HeadControlParam": {
+        "app.user_data.HumanHeadControlParam": {
+          "index": 17,
+          "path": "GameDesign/Player/CommonData/LookAtData/PlayerHeadControlParam.user"
+        }
+      },
+      "_PartnerBasicParam": {
+        "app.user_data.PartnerBasicParam": {
+          "index": 18,
+          "path": "GameDesign/Partner/PN101_20_002/CommonData/PN101_20_002_BasicParam.user"
+        }
+      }
+    }
+  }
+]

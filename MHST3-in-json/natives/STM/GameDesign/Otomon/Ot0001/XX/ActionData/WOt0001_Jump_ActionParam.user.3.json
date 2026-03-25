@@ -1,0 +1,1220 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "index": 133,
+      "_ActionClassList": [
+        {
+          "app.WorldOtomonAction_Jump.cNone": {
+            "index": 1,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -1145462656,
+            "_RideResponseType": 1955913600,
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": false,
+            "_ActionAttr": 0
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cStepJumpUp": {
+            "index": 17,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -1145462656,
+            "_RideResponseType": -791217664,
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": true,
+            "_ActionAttr": 0,
+            "_ScaleY": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 4,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 2,
+                    "_Type": 1,
+                    "_Distance": 5.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 3,
+                    "_Type": 1,
+                    "_Distance": 5.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_ScaleZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 7,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 5,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 6,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_AdjustSpeedRangeZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 8,
+                "_RideValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedRangeX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 9,
+                "_RideValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedInitZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 10,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInitX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 11,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInterpolationSpeed": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 12,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedPivot": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.vec3>": {
+                "index": 13,
+                "_RideValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_AloneValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "_AdjustSpeedBackDisabled": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Boolean>": {
+                "index": 14,
+                "_RideValue": false,
+                "_AloneValue": false
+              }
+            },
+            "_WallEntryAngleLimit": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 15,
+                "_RideValue": 45.0,
+                "_AloneValue": 45.0
+              }
+            },
+            "_TransSaleMinY": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 16,
+                "_RideValue": 0.800000011920929,
+                "_AloneValue": 0.800000011920929
+              }
+            }
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cStepJumpOff": {
+            "index": 32,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -1145462656,
+            "_RideResponseType": -791217664,
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": true,
+            "_ActionAttr": 0,
+            "_ScaleY": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 20,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 18,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 19,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_ScaleZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 23,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 21,
+                    "_Type": 1,
+                    "_Distance": 10.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 22,
+                    "_Type": 1,
+                    "_Distance": 10.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_AdjustSpeedRangeZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 24,
+                "_RideValue": {
+                  "raw": "0000a0c000002041",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedRangeX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 25,
+                "_RideValue": {
+                  "raw": "0000a0c000002041",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedInitZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 26,
+                "_RideValue": 5.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInitX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 27,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInterpolationSpeed": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 28,
+                "_RideValue": 30.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedPivot": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.vec3>": {
+                "index": 29,
+                "_RideValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_AloneValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "_AdjustSpeedBackDisabled": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Boolean>": {
+                "index": 30,
+                "_RideValue": false,
+                "_AloneValue": false
+              }
+            },
+            "_WallEntryAngleLimit": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 31,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            }
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cMoveJump": {
+            "index": 47,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 385599104,
+            "_RideResponseType": -359524192,
+            "_CameraParamDataGuid": "7a7b5c47-e7aa-49d6-8b5b-71889fbb6570",
+            "_IsEnableCameraAutoCentering": true,
+            "_ActionAttr": 0,
+            "_ScaleY": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 35,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 33,
+                    "_Type": 1,
+                    "_Distance": 8.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 34,
+                    "_Type": 1,
+                    "_Distance": 10.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_ScaleZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 38,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 36,
+                    "_Type": 1,
+                    "_Distance": 25.0,
+                    "_MotionScale": 25.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 37,
+                    "_Type": 1,
+                    "_Distance": 25.0,
+                    "_MotionScale": 25.0
+                  }
+                }
+              }
+            },
+            "_AdjustSpeedRangeZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 39,
+                "_RideValue": {
+                  "raw": "000020c200002042",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedRangeX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 40,
+                "_RideValue": {
+                  "raw": "0000a0c000002041",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedInitZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 41,
+                "_RideValue": -5.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInitX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 42,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInterpolationSpeed": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 43,
+                "_RideValue": 30.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedPivot": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.vec3>": {
+                "index": 44,
+                "_RideValue": [
+                  0.0,
+                  0.0,
+                  0.800000011920929,
+                  0.0
+                ],
+                "_AloneValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "_AdjustSpeedBackDisabled": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Boolean>": {
+                "index": 45,
+                "_RideValue": true,
+                "_AloneValue": false
+              }
+            },
+            "_UseInitSpeed": false,
+            "_ActionSpeed": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 46,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            }
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cTargetMoveJump": {
+            "index": 64,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 385599104,
+            "_RideResponseType": -359524192,
+            "_CameraParamDataGuid": "7a7b5c47-e7aa-49d6-8b5b-71889fbb6570",
+            "_IsEnableCameraAutoCentering": true,
+            "_ActionAttr": 0,
+            "_ScaleY": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 50,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 48,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 49,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_ScaleZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 53,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 51,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 52,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_AdjustSpeedRangeZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 54,
+                "_RideValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedRangeX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 55,
+                "_RideValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedInitZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 56,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInitX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 57,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInterpolationSpeed": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 58,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedPivot": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.vec3>": {
+                "index": 59,
+                "_RideValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_AloneValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "_AdjustSpeedBackDisabled": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Boolean>": {
+                "index": 60,
+                "_RideValue": false,
+                "_AloneValue": false
+              }
+            },
+            "_JumpUpHeight": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 61,
+                "_RideValue": 5.0,
+                "_AloneValue": 5.0
+              }
+            },
+            "_JumpDownHeight": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 62,
+                "_RideValue": 5.0,
+                "_AloneValue": 5.0
+              }
+            },
+            "_TargetPointOffset": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.vec3>": {
+                "index": 63,
+                "_RideValue": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "_AloneValue": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cStandJump": {
+            "index": 79,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 385599104,
+            "_RideResponseType": -359524192,
+            "_CameraParamDataGuid": "7a7b5c47-e7aa-49d6-8b5b-71889fbb6570",
+            "_IsEnableCameraAutoCentering": false,
+            "_ActionAttr": 0,
+            "_ScaleY": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 67,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 65,
+                    "_Type": 1,
+                    "_Distance": 8.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 66,
+                    "_Type": 1,
+                    "_Distance": 10.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_ScaleZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 70,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 68,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 69,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_AdjustSpeedRangeZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 71,
+                "_RideValue": {
+                  "raw": "0000a0c000000c42",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedRangeX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 72,
+                "_RideValue": {
+                  "raw": "0000a0c100002042",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedInitZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 73,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInitX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 74,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInterpolationSpeed": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 75,
+                "_RideValue": 30.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedPivot": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.vec3>": {
+                "index": 76,
+                "_RideValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_AloneValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "_AdjustSpeedBackDisabled": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Boolean>": {
+                "index": 77,
+                "_RideValue": false,
+                "_AloneValue": false
+              }
+            },
+            "_UseInitSpeed": false,
+            "_ActionSpeed": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 78,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            }
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cStepUpFall": {
+            "index": 80,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -1145462656,
+            "_RideResponseType": -166468048,
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": true,
+            "_ActionAttr": 0
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cStepOffFall": {
+            "index": 81,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -1145462656,
+            "_RideResponseType": -166468048,
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": true,
+            "_ActionAttr": 0
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cMoveFall": {
+            "index": 82,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 385599104,
+            "_RideResponseType": -166468048,
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": true,
+            "_ActionAttr": 0
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cStandFall": {
+            "index": 83,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 385599104,
+            "_RideResponseType": -166468048,
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": false,
+            "_ActionAttr": 0
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cTargetMoveFall": {
+            "index": 84,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 385599104,
+            "_RideResponseType": -359524192,
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": false,
+            "_ActionAttr": 0
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cStepUpTargetJump": {
+            "index": 100,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -1145462656,
+            "_RideResponseType": -791217664,
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": false,
+            "_ActionAttr": 0,
+            "_ScaleY": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 87,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 85,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 86,
+                    "_Type": 1,
+                    "_Distance": 5.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_ScaleZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 90,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 88,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 89,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_AdjustSpeedRangeZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 91,
+                "_RideValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedRangeX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 92,
+                "_RideValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedInitZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 93,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInitX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 94,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInterpolationSpeed": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 95,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedPivot": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.vec3>": {
+                "index": 96,
+                "_RideValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_AloneValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "_AdjustSpeedBackDisabled": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Boolean>": {
+                "index": 97,
+                "_RideValue": false,
+                "_AloneValue": false
+              }
+            },
+            "_WallEntryAngleLimit": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 98,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_TransSaleMinY": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 99,
+                "_RideValue": 0.800000011920929,
+                "_AloneValue": 0.4000000059604645
+              }
+            }
+          }
+        },
+        {
+          "app.WorldOtomonAction_Jump.cTargetMoveJump_GimmickHit": {
+            "index": 117,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 385599104,
+            "_RideResponseType": -359524192,
+            "_CameraParamDataGuid": "7a7b5c47-e7aa-49d6-8b5b-71889fbb6570",
+            "_IsEnableCameraAutoCentering": false,
+            "_ActionAttr": 0,
+            "_ScaleY": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 103,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 101,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 102,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_ScaleZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionTransScaleParam>": {
+                "index": 106,
+                "_RideValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 104,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                },
+                "_AloneValue": {
+                  "app.AppCharaUtil.cMotionTransScaleParam": {
+                    "index": 105,
+                    "_Type": 0,
+                    "_Distance": 0.0,
+                    "_MotionScale": 1.0
+                  }
+                }
+              }
+            },
+            "_AdjustSpeedRangeZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 107,
+                "_RideValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedRangeX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 108,
+                "_RideValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000000000000000",
+                  "type": "Range"
+                }
+              }
+            },
+            "_AdjustSpeedInitZ": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 109,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInitX": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 110,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedInterpolationSpeed": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 111,
+                "_RideValue": 0.0,
+                "_AloneValue": 0.0
+              }
+            },
+            "_AdjustSpeedPivot": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.vec3>": {
+                "index": 112,
+                "_RideValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_AloneValue": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "_AdjustSpeedBackDisabled": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Boolean>": {
+                "index": 113,
+                "_RideValue": false,
+                "_AloneValue": false
+              }
+            },
+            "_JumpUpHeight": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 114,
+                "_RideValue": 5.0,
+                "_AloneValue": 5.0
+              }
+            },
+            "_JumpDownHeight": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
+                "index": 115,
+                "_RideValue": 5.0,
+                "_AloneValue": 5.0
+              }
+            },
+            "_TargetPointOffset": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.vec3>": {
+                "index": 116,
+                "_RideValue": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "_AloneValue": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 118,
+            "_Guid": "96d1ef9f-3359-056c-1a5d-a7eb2b2b84ba",
+            "_ActionGuid": "7aa034c2-d974-4000-8d0b-39841b201a2d",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 119,
+            "_Guid": "c07257db-673b-0be1-159f-25a47d170170",
+            "_ActionGuid": "5d1da321-e9ec-4385-b985-b2dda31563c9",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 120,
+            "_Guid": "2763e184-7b19-0731-0c0f-dca71bdea375",
+            "_ActionGuid": "4b89869f-433d-4c83-8f15-a2b06a63535c",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 121,
+            "_Guid": "02adbd58-2b5b-0856-3940-ca8e2cc18813",
+            "_ActionGuid": "42f6f2a8-b2d5-48e1-b3c3-10de22349c92",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 122,
+            "_Guid": "3b26f5fe-cd59-0f3a-144b-f41a439bc128",
+            "_ActionGuid": "ad1997f1-d192-4a3d-9d26-2287aede6ddf",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 123,
+            "_Guid": "a26650ac-397e-06bb-2a61-1f7218d43d91",
+            "_ActionGuid": "e2a5bc6f-2e77-49c1-9f41-b9a03a1995be",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 124,
+            "_Guid": "136c9d5f-e497-07e0-1acd-433eaa00be7f",
+            "_ActionGuid": "bcb27d27-55a1-4143-8244-5f865872606e",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 125,
+            "_Guid": "d129aa6b-2213-0208-2b43-25a44a44450e",
+            "_ActionGuid": "e120c844-7f41-425a-a60e-ca6ac3248cda",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 126,
+            "_Guid": "288eb87b-4834-09c0-33b4-820fe3370221",
+            "_ActionGuid": "41a02c37-0519-4aa3-9c2c-93daa9257b29",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 127,
+            "_Guid": "10f606b1-461e-0e08-215a-97117f23a9e5",
+            "_ActionGuid": "d1af6e9e-184b-45b5-953a-8551ee36f659",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 128,
+            "_Guid": "d932e123-0fa5-00ea-1199-2cf411f1070a",
+            "_ActionGuid": "d63b4ed5-0fe1-4892-8650-4188ad529075",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 129,
+            "_Guid": "3c4eb5ab-21be-076c-2fec-77e54a43707e",
+            "_ActionGuid": "57c27470-0796-4281-8514-95a7a3c8630d",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 130,
+            "_Guid": "17c3a368-96ba-0cbd-2793-107135fae355",
+            "_ActionGuid": "7bfbf033-55af-49aa-825d-94ba4d515402",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "index": 132,
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "index": 131,
+              "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Jump.user"
+            }
+          },
+          "_ExportGuid": "a725aed5-dfc2-4a0d-b988-a80babf1937c"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {
+          "index": 0
+        }
+      }
+    }
+  }
+]

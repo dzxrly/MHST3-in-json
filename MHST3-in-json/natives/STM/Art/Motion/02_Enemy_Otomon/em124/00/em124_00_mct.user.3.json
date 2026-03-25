@@ -1,0 +1,129 @@
+[
+  {
+    "ace.user_data.MotionConnect": {
+      "index": 14,
+      "_DataList": [
+        {
+          "ace.user_data.MotionConnect.cOneMotionData": {
+            "index": 6,
+            "_MotionID": 1,
+            "_IsOverride": false,
+            "_IsRedirect": false,
+            "_IsMirroringRedirect": false,
+            "_RedirectMotionID": 4294967295,
+            "_InterpolationSteps": -1,
+            "_MotionEndFrame": -1,
+            "_MotionEndType": 2,
+            "_ChangeParamList": [
+              {
+                "ace.user_data.MotionConnect.cChangeParamElement": {
+                  "index": 2,
+                  "_MotionListName": "_Default_",
+                  "_MotionID": 0,
+                  "_StartFrame": 0,
+                  "_InterpolationFrame": 10,
+                  "_InterpolationMode": 1,
+                  "_InterpolationCurve": 0,
+                  "_ContinueFromPrevEnd": 0,
+                  "_CrossFadeRootBlendType": 1,
+                  "_EnableStepInterpolation": false,
+                  "_ExpireFrame": -1,
+                  "_OverrideLayer": -1,
+                  "_SyncStartFrame": false,
+                  "_EnabledGroupInterpolation": true,
+                  "_GroupInterpolations": [],
+                  "_ReferenceGroupInterpolations": {
+                    "ace.user_data.MotionConnect.cChangeParamElement.cReferenceInterpolationParam": {
+                      "index": 1,
+                      "_Interpolations": []
+                    }
+                  }
+                }
+              }
+            ],
+            "_ChangeToParamList": [],
+            "_ToEmptyParamList": [
+              {
+                "ace.user_data.MotionConnect.cChangeParamElement": {
+                  "index": 4,
+                  "_MotionListName": "",
+                  "_MotionID": 0,
+                  "_StartFrame": 0,
+                  "_InterpolationFrame": 0,
+                  "_InterpolationMode": 1,
+                  "_InterpolationCurve": 0,
+                  "_ContinueFromPrevEnd": 0,
+                  "_CrossFadeRootBlendType": 1,
+                  "_EnableStepInterpolation": false,
+                  "_ExpireFrame": -1,
+                  "_OverrideLayer": -1,
+                  "_SyncStartFrame": false,
+                  "_EnabledGroupInterpolation": true,
+                  "_GroupInterpolations": [],
+                  "_ReferenceGroupInterpolations": {
+                    "ace.user_data.MotionConnect.cChangeParamElement.cReferenceInterpolationParam": {
+                      "index": 3,
+                      "_Interpolations": []
+                    }
+                  }
+                }
+              }
+            ],
+            "_LinkMotionList": [],
+            "_AddOn": {
+              "ace.user_data.cOneMotionDataAddOn": {
+                "index": 5
+              }
+            }
+          }
+        }
+      ],
+      "_JointGroup": {
+        "ace.user_data.JointGroup": {
+          "index": 7,
+          "path": "Art/Motion/02_Enemy_Otomon/em_common/_Decorate/JointMap/em_common_JointGroup.user"
+        }
+      },
+      "_MotionListConvertTable": [
+        {
+          "ace.user_data.MotionConnect.cMotionListRelation": {
+            "index": 8,
+            "_SrcListNameHash": 2009733032,
+            "_DstListName": "em124_00"
+          }
+        },
+        {
+          "ace.user_data.MotionConnect.cMotionListRelation": {
+            "index": 9,
+            "_SrcListNameHash": 3663617939,
+            "_DstListName": "em124_tree"
+          }
+        },
+        {
+          "ace.user_data.MotionConnect.cMotionListRelation": {
+            "index": 10,
+            "_SrcListNameHash": 2988144868,
+            "_DstListName": ""
+          }
+        }
+      ],
+      "_InheritMct": {
+        "ace.user_data.MotionConnect": {
+          "index": 11,
+          "path": "Art/Motion/02_Enemy_Otomon/em_common/00/em_common_00_mct.user"
+        }
+      },
+      "_MotionExtendBank": {
+        "ace.user_data.MotionExtendBank": {
+          "index": 12,
+          "path": "Art/Motion/02_Enemy_Otomon/em124/em124_f_bank_meb.user"
+        }
+      },
+      "_AddOn": {
+        "ace.user_data.cMotionConnectAddOn": {
+          "index": 13
+        }
+      }
+    }
+  }
+]

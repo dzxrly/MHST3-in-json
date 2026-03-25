@@ -1,0 +1,485 @@
+[
+  {
+    "app.user_data.ActionTransitionTable": {
+      "index": 54,
+      "_ActionTable": [
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 2,
+            "_ActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 1,
+                  "_TransitionList": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 8,
+            "_ActionGuid": "42cfa636-f5c3-46a3-a5e7-9778a6dbec49",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 7,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 4,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Sub/Command/Cmd_Sub_PickItem_PickItem.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 6,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Sub/Command/Cmd_Sub_Call_Call.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 9
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 10,
+            "_ActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 9,
+                  "_TransitionList": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 13,
+            "_ActionGuid": "f7bc14c5-1fea-4ec7-886f-c4cec95bb8cb",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 12,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 11,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Sub/Command/Cmd_Sub_Call_Call.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 9
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 15,
+            "_ActionGuid": "a48ba338-360b-42a6-b264-8eb9ee487e3f",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 14,
+                  "_TransitionList": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 28,
+            "_ActionGuid": "284cca1b-cd3b-43e2-b6be-1a70fa40aeb5",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 27,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 16,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Sub/Command/Cmd_Sub_Call_Call.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 9
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 18,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 17,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_Stand_ActionEndStandBase.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 20,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 19,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_StandNoMot_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 22,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 21,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_OnlyCallStand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 24,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 23,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_OnlyNoMotCallStand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 26,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 25,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_Stand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 37,
+            "_ActionGuid": "724123d6-83f0-4517-99f6-3e99e285989e",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 36,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 29,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Sub/Command/Cmd_Sub_PickItem_PickItem.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 30,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Sub/Command/Cmd_Sub_Call_Call.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 9
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 31,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 17,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_Stand_ActionEndStandBase.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 32,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 19,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_StandNoMot_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 33,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 21,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_OnlyCallStand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 34,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 23,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_OnlyNoMotCallStand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 35,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 25,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_Stand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 45,
+            "_ActionGuid": "94ba4554-96ee-4f62-be3d-41ba1f09fc2b",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 44,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 38,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Sub/Command/Cmd_Sub_PickItem_PickItem.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 39,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 17,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_Stand_ActionEndStandBase.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 40,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 19,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_StandNoMot_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 41,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 21,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_OnlyCallStand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 42,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 23,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_OnlyNoMotCallStand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 43,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 25,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_Stand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 53,
+            "_ActionGuid": "7a1c2af4-4d5e-4dcd-ba17-708f79033711",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 52,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 46,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Sub/Command/Cmd_Sub_PickItem_PickItem.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 47,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 17,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_Stand_ActionEndStandBase.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 48,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 19,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_StandNoMot_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 49,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 21,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_OnlyCallStand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 50,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 23,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_OnlyNoMotCallStand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 51,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 25,
+                            "path": "GameDesign/Player/Transition/Sub/Condition/Cond_Sub_Stand_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "app.user_data.AppCameraOverlapTransparencyCondition": {
+      "index": 9,
+      "_ValidRange": 7.0,
+      "_IsScaling": true,
+      "_NearCollision": [
+        {
+          "ace.user_data.CameraOverlapTransparencyCondition.cCollision": {
+            "index": 2,
+            "_Joint": {
+              "ace.cJointHash": {
+                "index": 1,
+                "_Hash": 4175418299
+              }
+            },
+            "_CollisionShape": 0,
+            "_Offset": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_Radius": 3.0,
+            "_Height": 3.5
+          }
+        },
+        {
+          "ace.user_data.CameraOverlapTransparencyCondition.cCollision": {
+            "index": 4,
+            "_Joint": {
+              "ace.cJointHash": {
+                "index": 3,
+                "_Hash": 3903073785
+              }
+            },
+            "_CollisionShape": 0,
+            "_Offset": [
+              0.0,
+              -0.6000000238418579,
+              0.0,
+              0.0
+            ],
+            "_Radius": 4.0,
+            "_Height": 2.299999952316284
+          }
+        }
+      ],
+      "_OverlapCollision": [
+        {
+          "ace.user_data.CameraOverlapTransparencyCondition.cCollision": {
+            "index": 6,
+            "_Joint": {
+              "ace.cJointHash": {
+                "index": 5,
+                "_Hash": 2977275463
+              }
+            },
+            "_CollisionShape": 1,
+            "_Offset": [
+              0.0,
+              -2.0,
+              1.0,
+              0.0
+            ],
+            "_Radius": 2.0,
+            "_Height": 0.0
+          }
+        }
+      ],
+      "_ForSubjectCollision": [
+        {
+          "ace.user_data.CameraOverlapTransparencyCondition.cCollision": {
+            "index": 8,
+            "_Joint": {
+              "ace.cJointHash": {
+                "index": 7,
+                "_Hash": 0
+              }
+            },
+            "_CollisionShape": 0,
+            "_Offset": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_Radius": 3.0,
+            "_Height": 3.0
+          }
+        }
+      ]
+    }
+  }
+]

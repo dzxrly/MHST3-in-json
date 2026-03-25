@@ -1,0 +1,47 @@
+[
+  {
+    "app.user_data.NpcActionBasicParam": {
+      "index": 4,
+      "_Move_NearbyRadius": 0.5,
+      "_Move_EndAvoidMotionRadius": 1.0,
+      "_Move_CommonTurnRadius": 2.5,
+      "_Move_CommonTurnGiveUpTime": 1.5,
+      "_Move_CommonBackPurporseJudgeDist": 4.0,
+      "_Move_TurnBrakeEnabledDegMax": 90.0,
+      "_Move_TurnBrakeEnabledDegMin": 1.0,
+      "_Move_TurnBrakeRateMin": 0.20000000298023224,
+      "_Move_TurnBrakeCurve": 8,
+      "_SlopeStage1": 30.0,
+      "_SlopeStage2": 35.0,
+      "_Slope1": {
+        "app.cPlayerSlopeMotionAngleParam": {
+          "index": 1,
+          "_UpDeg": 20.0,
+          "_UpEndDeg": 15.0,
+          "_DownDeg": 20.0,
+          "_DownEndDeg": 15.0
+        }
+      },
+      "_Slope2": {
+        "app.cPlayerSlopeMotionAngleParam": {
+          "index": 2,
+          "_UpDeg": 30.0,
+          "_UpEndDeg": 25.0,
+          "_DownDeg": 30.0,
+          "_DownEndDeg": 25.0
+        }
+      },
+      "_SlopeSide1": {
+        "app.cPlayerSlopeMotionAngleParam": {
+          "index": 3,
+          "_UpDeg": 30.0,
+          "_UpEndDeg": 25.0,
+          "_DownDeg": 30.0,
+          "_DownEndDeg": 25.0
+        }
+      },
+      "_AutoLipTime": 1.2999999523162842,
+      "_AutoLipBlendRate": 0.5
+    }
+  }
+]

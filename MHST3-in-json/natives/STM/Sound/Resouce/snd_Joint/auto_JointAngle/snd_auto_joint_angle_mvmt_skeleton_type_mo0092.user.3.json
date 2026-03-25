@@ -1,0 +1,60 @@
+[
+  {
+    "app.snd_user_data.SoundJointAngleTriggerListDataApp": {
+      "index": 7,
+      "_JointAngleTriggerList": [
+        {
+          "app.snd_user_data.SoundJointAngleTrigger": {
+            "index": 6,
+            "_DefaultUpdate": true,
+            "_ExtensionId": 2180083513,
+            "_IsSymmetryOnMirrorMot": false,
+            "_JointAxis": 7,
+            "_AntiRepeatTime": 0.10000000149011612,
+            "_TriggerAll": false,
+            "_Absolute": false,
+            "_CenterJointSettings": {
+              "app.SoundExtendedJoint": {
+                "index": 1,
+                "_JointHash": 2995001885,
+                "_ExtraJoint": false
+              }
+            },
+            "_AJointSettings": {
+              "app.SoundExtendedJoint": {
+                "index": 2,
+                "_JointHash": 1282000133,
+                "_ExtraJoint": false
+              }
+            },
+            "_BJointSettings": {
+              "app.SoundExtendedJoint": {
+                "index": 3,
+                "_JointHash": 540510720,
+                "_ExtraJoint": false
+              }
+            },
+            "_ThresholdTriggerList": [
+              {
+                "app.snd_user_data.SoundJointAngleThresholdTrigger": {
+                  "index": 5,
+                  "_Threshold": 0.5,
+                  "_TriggerId": 644489123,
+                  "_AngleThreshold": {
+                    "app.snd_user_data.SoundJointAngleThresholdTrigger.AngleThresholdInfo": {
+                      "index": 4,
+                      "_LowThreshold": 125.0,
+                      "_HighThreshold": 150.0,
+                      "_Over": false
+                    }
+                  },
+                  "_UseJunction": false
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

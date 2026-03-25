@@ -1,0 +1,640 @@
+[
+  {
+    "ace.user_data.CameraWorkData": {
+      "index": 47,
+      "_CameraWorkGroupList": [
+        {
+          "ace.user_data.CameraWorkData.cCameraWorkGroup": {
+            "index": 6,
+            "_CameraArgumentArray": [
+              {
+                "ace.cCameraParamArgument_Free": {
+                  "index": 1,
+                  "FOV": 50.0,
+                  "RollDegree": 0.0,
+                  "UniversalPos": [
+                    1.0842021724855044e-19,
+                    3.3953139781951904,
+                    -0.0,
+                    4.024824619293213,
+                    -3.6893488147419103e+19,
+                    -3.9737355709075928
+                  ],
+                  "RotationDegree": [
+                    -3.8099639415740967,
+                    94.71988677978516,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "_CameraWorkPointList": [
+              {
+                "ace.cCameraParamWorkPoint_SimpleEase": {
+                  "index": 3,
+                  "_Ignore": false,
+                  "_UniqueFlag": {
+                    "ace.cCameraWorkPointUniqueFlag_SimpleEase": {
+                      "index": 2,
+                      "IgnoreAttachSetting": false,
+                      "AttachOnceWhenEnter": false,
+                      "RotDirLock_Plus": false,
+                      "RotDirLock_Minus": false,
+                      "FollowRotOnceWhenEnter": false,
+                      "RotXLock_Eye": false,
+                      "RotYLock_Eye": false,
+                      "RotXLock_LookAt": false,
+                      "RotYLock_LookAt": false
+                    }
+                  },
+                  "_Effects": [],
+                  "_IsBindMotion": false,
+                  "_MotionBankID": 4294967295,
+                  "_MotionID": 4294967295,
+                  "_StartFrame": 0,
+                  "_RequireTime": 0.0,
+                  "_EaseType": 0
+                }
+              }
+            ],
+            "_FinishActionList": [
+              {
+                "ace.cFinishAction": {
+                  "index": 4,
+                  "_FinishAction": -1,
+                  "_FinishTime": 0.0
+                }
+              }
+            ],
+            "_ArgumentTypeName": "ace.cCameraParamArgument_Free",
+            "_WorkPointTypeName": "ace.cCameraParamWorkPoint_SimpleEase",
+            "_UniqueFlag": {
+              "ace.cCameraWorkGroupUniqueFlag": {
+                "index": 5,
+                "StartFromLinkParam": false,
+                "FirstPointKeepLinkParam": false,
+                "BackToLinkParam": false,
+                "AttachOnceWhenEnter": false,
+                "ContinueLinkParamEyeAttachDegY": false,
+                "StopLastCut": true,
+                "BlendLastCutToPlayable": false
+              }
+            },
+            "_Ignore": false,
+            "_Guid": "893d1a7a-497a-0e45-1852-8259e809274e"
+          }
+        },
+        {
+          "ace.user_data.CameraWorkData.cCameraWorkGroup": {
+            "index": 18,
+            "_CameraArgumentArray": [
+              {
+                "ace.cCameraParamArgument_Free": {
+                  "index": 7,
+                  "FOV": 50.0,
+                  "RollDegree": 0.0,
+                  "UniversalPos": [
+                    1.0842021724855044e-19,
+                    3.3953139781951904,
+                    -0.0,
+                    4.024824619293213,
+                    -3.6893488147419103e+19,
+                    -3.9737355709075928
+                  ],
+                  "RotationDegree": [
+                    -3.8099639415740967,
+                    94.71988677978516,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "ace.cCameraParamArgument_Free": {
+                  "index": 8,
+                  "FOV": 50.0,
+                  "RollDegree": -2.0353731997602154e-06,
+                  "UniversalPos": [
+                    2.0,
+                    3.3740851879119873,
+                    -3.6893488147419103e+19,
+                    4.027791976928711,
+                    0.0,
+                    -3.9732978343963623
+                  ],
+                  "RotationDegree": [
+                    -32.97209930419922,
+                    94.71786499023438,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "_CameraWorkPointList": [
+              {
+                "ace.cCameraParamWorkPoint_Bezier": {
+                  "index": 11,
+                  "_Ignore": false,
+                  "_UniqueFlag": {
+                    "ace.cCameraWorkPointUniqueFlag_Bezier": {
+                      "index": 9,
+                      "IgnoreAttachSetting": false,
+                      "AttachOnceWhenEnter": false
+                    }
+                  },
+                  "_Effects": [],
+                  "_IsBindMotion": false,
+                  "_MotionBankID": 4294967295,
+                  "_MotionID": 4294967295,
+                  "_StartFrame": 0,
+                  "_RequireTime": 0.0,
+                  "_EndKey": {
+                    "ace.cBezierWayKey": {
+                      "index": 10,
+                      "Pos": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "Degree": 0.0,
+                      "RotationDegree": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "ControlRate": 0.5,
+                      "PrevControlRate": 0.5,
+                      "NextControlRate": 0.5
+                    }
+                  },
+                  "_EaseType": 0
+                }
+              },
+              {
+                "ace.cCameraParamWorkPoint_Bezier": {
+                  "index": 14,
+                  "_Ignore": false,
+                  "_UniqueFlag": {
+                    "ace.cCameraWorkPointUniqueFlag_Bezier": {
+                      "index": 12,
+                      "IgnoreAttachSetting": false,
+                      "AttachOnceWhenEnter": false
+                    }
+                  },
+                  "_Effects": [],
+                  "_IsBindMotion": false,
+                  "_MotionBankID": 4294967295,
+                  "_MotionID": 4294967295,
+                  "_StartFrame": 0,
+                  "_RequireTime": 1.3333333730697632,
+                  "_EndKey": {
+                    "ace.cBezierWayKey": {
+                      "index": 13,
+                      "Pos": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "Degree": 0.0,
+                      "RotationDegree": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "ControlRate": 0.5,
+                      "PrevControlRate": 0.5,
+                      "NextControlRate": 0.5
+                    }
+                  },
+                  "_EaseType": 1
+                }
+              }
+            ],
+            "_FinishActionList": [
+              {
+                "ace.cFinishAction": {
+                  "index": 15,
+                  "_FinishAction": -1,
+                  "_FinishTime": 0.0
+                }
+              },
+              {
+                "ace.cFinishAction": {
+                  "index": 16,
+                  "_FinishAction": -1,
+                  "_FinishTime": 0.0
+                }
+              }
+            ],
+            "_ArgumentTypeName": "ace.cCameraParamArgument_Free",
+            "_WorkPointTypeName": "ace.cCameraParamWorkPoint_Bezier",
+            "_UniqueFlag": {
+              "ace.cCameraWorkGroupUniqueFlag": {
+                "index": 17,
+                "StartFromLinkParam": false,
+                "FirstPointKeepLinkParam": false,
+                "BackToLinkParam": false,
+                "AttachOnceWhenEnter": false,
+                "ContinueLinkParamEyeAttachDegY": false,
+                "StopLastCut": true,
+                "BlendLastCutToPlayable": false
+              }
+            },
+            "_Ignore": false,
+            "_Guid": "4e10f364-890c-4b92-abca-afcf651b6b82"
+          }
+        },
+        {
+          "ace.user_data.CameraWorkData.cCameraWorkGroup": {
+            "index": 28,
+            "_CameraArgumentArray": [
+              {
+                "ace.cCameraParamArgument_Free": {
+                  "index": 19,
+                  "FOV": 50.0,
+                  "RollDegree": -2.0353731997602154e-06,
+                  "UniversalPos": [
+                    2.0,
+                    3.3740851879119873,
+                    -3.6893488147419103e+19,
+                    4.027791976928711,
+                    0.0,
+                    -3.9732978343963623
+                  ],
+                  "RotationDegree": [
+                    -32.97209930419922,
+                    94.71786499023438,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "ace.cCameraParamArgument_Free": {
+                  "index": 20,
+                  "FOV": 50.0,
+                  "RollDegree": 9.784064604900777e-05,
+                  "UniversalPos": [
+                    -3.6893488147419103e+19,
+                    3.1463866233825684,
+                    -0.0,
+                    4.007211208343506,
+                    -3.6893488147419103e+19,
+                    -3.972966432571411
+                  ],
+                  "RotationDegree": [
+                    -88.99984741210938,
+                    90.15026092529297,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "_CameraWorkPointList": [
+              {
+                "ace.cCameraParamWorkPoint_SimpleEase": {
+                  "index": 22,
+                  "_Ignore": false,
+                  "_UniqueFlag": {
+                    "ace.cCameraWorkPointUniqueFlag_SimpleEase": {
+                      "index": 21,
+                      "IgnoreAttachSetting": false,
+                      "AttachOnceWhenEnter": false,
+                      "RotDirLock_Plus": false,
+                      "RotDirLock_Minus": false,
+                      "FollowRotOnceWhenEnter": false,
+                      "RotXLock_Eye": false,
+                      "RotYLock_Eye": false,
+                      "RotXLock_LookAt": false,
+                      "RotYLock_LookAt": false
+                    }
+                  },
+                  "_Effects": [],
+                  "_IsBindMotion": false,
+                  "_MotionBankID": 4294967295,
+                  "_MotionID": 4294967295,
+                  "_StartFrame": 0,
+                  "_RequireTime": 0.0,
+                  "_EaseType": 0
+                }
+              },
+              {
+                "ace.cCameraParamWorkPoint_SimpleEase": {
+                  "index": 24,
+                  "_Ignore": false,
+                  "_UniqueFlag": {
+                    "ace.cCameraWorkPointUniqueFlag_SimpleEase": {
+                      "index": 23,
+                      "IgnoreAttachSetting": false,
+                      "AttachOnceWhenEnter": false,
+                      "RotDirLock_Plus": false,
+                      "RotDirLock_Minus": false,
+                      "FollowRotOnceWhenEnter": false,
+                      "RotXLock_Eye": false,
+                      "RotYLock_Eye": false,
+                      "RotXLock_LookAt": false,
+                      "RotYLock_LookAt": false
+                    }
+                  },
+                  "_Effects": [],
+                  "_IsBindMotion": false,
+                  "_MotionBankID": 4294967295,
+                  "_MotionID": 4294967295,
+                  "_StartFrame": 0,
+                  "_RequireTime": 3.0,
+                  "_EaseType": 0
+                }
+              }
+            ],
+            "_FinishActionList": [
+              {
+                "ace.cFinishAction": {
+                  "index": 25,
+                  "_FinishAction": -1,
+                  "_FinishTime": 0.0
+                }
+              },
+              {
+                "ace.cFinishAction": {
+                  "index": 26,
+                  "_FinishAction": -1,
+                  "_FinishTime": 0.0
+                }
+              }
+            ],
+            "_ArgumentTypeName": "ace.cCameraParamArgument_Free",
+            "_WorkPointTypeName": "ace.cCameraParamWorkPoint_SimpleEase",
+            "_UniqueFlag": {
+              "ace.cCameraWorkGroupUniqueFlag": {
+                "index": 27,
+                "StartFromLinkParam": false,
+                "FirstPointKeepLinkParam": false,
+                "BackToLinkParam": false,
+                "AttachOnceWhenEnter": false,
+                "ContinueLinkParamEyeAttachDegY": false,
+                "StopLastCut": true,
+                "BlendLastCutToPlayable": false
+              }
+            },
+            "_Ignore": false,
+            "_Guid": "c10eaf36-eb2c-4e16-aeaa-ac877b4c0e0d"
+          }
+        },
+        {
+          "ace.user_data.CameraWorkData.cCameraWorkGroup": {
+            "index": 40,
+            "_CameraArgumentArray": [
+              {
+                "ace.cCameraParamArgument_Free": {
+                  "index": 29,
+                  "FOV": 50.0,
+                  "RollDegree": -4.3084835965601087e-07,
+                  "UniversalPos": [
+                    -3.6893488147419103e+19,
+                    3.377715826034546,
+                    3.6893488147419103e+19,
+                    4.025323867797852,
+                    -0.0,
+                    -3.9730751514434814
+                  ],
+                  "RotationDegree": [
+                    -7.775732040405273,
+                    90.11846923828125,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "ace.cCameraParamArgument_Free": {
+                  "index": 30,
+                  "FOV": 50.0,
+                  "RollDegree": 0.0,
+                  "UniversalPos": [
+                    0.0,
+                    3.354893445968628,
+                    -2.0,
+                    4.026391983032227,
+                    0.0,
+                    -3.9730751514434814
+                  ],
+                  "RotationDegree": [
+                    -40.3763313293457,
+                    89.97650909423828,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "_CameraWorkPointList": [
+              {
+                "ace.cCameraParamWorkPoint_Bezier": {
+                  "index": 33,
+                  "_Ignore": false,
+                  "_UniqueFlag": {
+                    "ace.cCameraWorkPointUniqueFlag_Bezier": {
+                      "index": 31,
+                      "IgnoreAttachSetting": false,
+                      "AttachOnceWhenEnter": false
+                    }
+                  },
+                  "_Effects": [],
+                  "_IsBindMotion": false,
+                  "_MotionBankID": 4294967295,
+                  "_MotionID": 4294967295,
+                  "_StartFrame": 0,
+                  "_RequireTime": 0.0,
+                  "_EndKey": {
+                    "ace.cBezierWayKey": {
+                      "index": 32,
+                      "Pos": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "Degree": 0.0,
+                      "RotationDegree": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "ControlRate": 0.5,
+                      "PrevControlRate": 0.5,
+                      "NextControlRate": 0.5
+                    }
+                  },
+                  "_EaseType": 0
+                }
+              },
+              {
+                "ace.cCameraParamWorkPoint_Bezier": {
+                  "index": 36,
+                  "_Ignore": false,
+                  "_UniqueFlag": {
+                    "ace.cCameraWorkPointUniqueFlag_Bezier": {
+                      "index": 34,
+                      "IgnoreAttachSetting": false,
+                      "AttachOnceWhenEnter": false
+                    }
+                  },
+                  "_Effects": [],
+                  "_IsBindMotion": false,
+                  "_MotionBankID": 4294967295,
+                  "_MotionID": 4294967295,
+                  "_StartFrame": 0,
+                  "_RequireTime": 1.6666666269302368,
+                  "_EndKey": {
+                    "ace.cBezierWayKey": {
+                      "index": 35,
+                      "Pos": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "Degree": 0.0,
+                      "RotationDegree": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "ControlRate": 0.5,
+                      "PrevControlRate": 0.5,
+                      "NextControlRate": 0.5
+                    }
+                  },
+                  "_EaseType": 0
+                }
+              }
+            ],
+            "_FinishActionList": [
+              {
+                "ace.cFinishAction": {
+                  "index": 37,
+                  "_FinishAction": -1,
+                  "_FinishTime": 0.0
+                }
+              },
+              {
+                "ace.cFinishAction": {
+                  "index": 38,
+                  "_FinishAction": -1,
+                  "_FinishTime": 0.0
+                }
+              }
+            ],
+            "_ArgumentTypeName": "ace.cCameraParamArgument_Free",
+            "_WorkPointTypeName": "ace.cCameraParamWorkPoint_Bezier",
+            "_UniqueFlag": {
+              "ace.cCameraWorkGroupUniqueFlag": {
+                "index": 39,
+                "StartFromLinkParam": false,
+                "FirstPointKeepLinkParam": false,
+                "BackToLinkParam": false,
+                "AttachOnceWhenEnter": false,
+                "ContinueLinkParamEyeAttachDegY": false,
+                "StopLastCut": true,
+                "BlendLastCutToPlayable": false
+              }
+            },
+            "_Ignore": false,
+            "_Guid": "9dd73cbd-ee51-4873-b07c-b12f2a70c28b"
+          }
+        },
+        {
+          "ace.user_data.CameraWorkData.cCameraWorkGroup": {
+            "index": 46,
+            "_CameraArgumentArray": [
+              {
+                "ace.cCameraParamArgument_Free": {
+                  "index": 41,
+                  "FOV": 50.0,
+                  "RollDegree": 0.0,
+                  "UniversalPos": [
+                    1.0842021724855044e-19,
+                    3.3530566692352295,
+                    -2.0,
+                    4.023692607879639,
+                    -0.0,
+                    -3.9831953048706055
+                  ],
+                  "RotationDegree": [
+                    -12.645280838012695,
+                    188.0924835205078,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "_CameraWorkPointList": [
+              {
+                "ace.cCameraParamWorkPoint_SimpleEase": {
+                  "index": 43,
+                  "_Ignore": false,
+                  "_UniqueFlag": {
+                    "ace.cCameraWorkPointUniqueFlag_SimpleEase": {
+                      "index": 42,
+                      "IgnoreAttachSetting": false,
+                      "AttachOnceWhenEnter": false,
+                      "RotDirLock_Plus": false,
+                      "RotDirLock_Minus": false,
+                      "FollowRotOnceWhenEnter": false,
+                      "RotXLock_Eye": false,
+                      "RotYLock_Eye": false,
+                      "RotXLock_LookAt": false,
+                      "RotYLock_LookAt": false
+                    }
+                  },
+                  "_Effects": [],
+                  "_IsBindMotion": true,
+                  "_MotionBankID": 4294967295,
+                  "_MotionID": 4294967295,
+                  "_StartFrame": 0,
+                  "_RequireTime": 0.0,
+                  "_EaseType": 0
+                }
+              }
+            ],
+            "_FinishActionList": [
+              {
+                "ace.cFinishAction": {
+                  "index": 44,
+                  "_FinishAction": -1,
+                  "_FinishTime": 0.0
+                }
+              }
+            ],
+            "_ArgumentTypeName": "ace.cCameraParamArgument_Free",
+            "_WorkPointTypeName": "ace.cCameraParamWorkPoint_SimpleEase",
+            "_UniqueFlag": {
+              "ace.cCameraWorkGroupUniqueFlag": {
+                "index": 45,
+                "StartFromLinkParam": false,
+                "FirstPointKeepLinkParam": false,
+                "BackToLinkParam": false,
+                "AttachOnceWhenEnter": false,
+                "ContinueLinkParamEyeAttachDegY": false,
+                "StopLastCut": false,
+                "BlendLastCutToPlayable": false
+              }
+            },
+            "_Ignore": false,
+            "_Guid": "d62fd5c0-ba96-4ba3-a218-1ec852e16169"
+          }
+        }
+      ]
+    }
+  }
+]

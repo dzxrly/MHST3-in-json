@@ -1,0 +1,102 @@
+[
+  {
+    "app.user_data.BattleCutEffectData": {
+      "index": 8,
+      "_HitInfo": {
+        "app.user_data.BattleCutEffectData.cHitInfo": {
+          "index": 3,
+          "_HitType": 1,
+          "_HitParams": [
+            {
+              "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
+                "index": 2,
+                "_EffHitInfoType": {
+                  "app.BattleDef.EFF_HIT_INFO_TYPE_Serializable": {
+                    "index": 1,
+                    "value": 2111301760
+                  }
+                },
+                "_Frame": 50.0
+              }
+            }
+          ]
+        }
+      },
+      "_SimpleEffectInfos": [
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "index": 5,
+            "_ContainerID": {
+              "app.ContainerID.ID_Serializable": {
+                "index": 4,
+                "value": -496898657
+              }
+            },
+            "_ElementID": 1,
+            "_EffCreateType": 0,
+            "_Frame": 38.0,
+            "_Offset": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": ""
+          }
+        }
+      ],
+      "_SimpleEffectInfos_Next": [],
+      "_ShellInfo": {
+        "app.user_data.BattleCutEffectData.cShellInfo": {
+          "index": 7,
+          "_IsActive": false,
+          "_Frame": 0.0,
+          "_ContainerID": {
+            "app.ContainerID.ID_Serializable": {
+              "index": 6,
+              "value": 1281779328
+            }
+          },
+          "_ElementID": 0,
+          "_MoveType": 0,
+          "_StartPos": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_StartJointName": "",
+          "_Acceleration": 1.0,
+          "_FirstSpeed": 0.0,
+          "_Gravity": 0.0,
+          "_PassPoint": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ReachFrame": 0.0,
+          "_Hidden": false,
+          "_NextPassPoint": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_NextPassJointName": "",
+          "_NextReachFrame": 0.0,
+          "_NextSpeedOverwrite": false,
+          "_NextFirstSpeed": 0.0,
+          "_NextAcceleration": 1.0,
+          "_NextGravity": 0.0
+        }
+      }
+    }
+  }
+]

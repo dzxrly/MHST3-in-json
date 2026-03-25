@@ -1,0 +1,294 @@
+[
+  {
+    "app.user_data.WorldOtomonParamPack": {
+      "index": 40,
+      "_MotionBankAssetsList": [
+        {
+          "app.cMotionBankAssets": {
+            "index": 3,
+            "_MotionBank": "Art/Motion/02_Enemy_Otomon/em111/ot111_f_bank.motbank",
+            "_MotionExtendBank": {
+              "ace.user_data.MotionExtendBank": {
+                "index": 1,
+                "path": "Art/Motion/02_Enemy_Otomon/em111/ot111_f_bank_meb.user"
+              }
+            },
+            "_MotionConnectBank": {
+              "ace.user_data.MotionConnectBank": {
+                "index": 2,
+                "path": "Art/Motion/02_Enemy_Otomon/em111/ot111_f_bank_mcb.user"
+              }
+            },
+            "_Order": 0
+          }
+        }
+      ],
+      "_JointGroup": {
+        "ace.user_data.JointGroup": {
+          "index": 4,
+          "path": "Art/Motion/02_Enemy_Otomon/em_common/_Decorate/JointMap/em_common_JointGroup.user"
+        }
+      },
+      "_ActionDataSetHolder": {
+        "app.user_data.ActionDataSetHolder": {
+          "index": 29,
+          "_DataSet_Base": [
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 8,
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "index": 5,
+                    "path": "GameDesign/Otomon/Ot0111/XX/ActionData/WOt0111_General_ActionParam.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 7,
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "index": 6,
+                        "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_General.user"
+                      }
+                    },
+                    "_ExportGuid": "08c022f1-fa2b-4bd9-b1dc-ed317692d28b"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 12,
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "index": 9,
+                    "path": "GameDesign/Otomon/Ot0111/XX/ActionData/WOt0111_Jump_ActionParam.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 11,
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "index": 10,
+                        "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Jump.user"
+                      }
+                    },
+                    "_ExportGuid": "a725aed5-dfc2-4a0d-b988-a80babf1937c"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 14,
+                "_Param": {
+                  "": {
+                    "index": 0
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 13,
+                    "_ActionID": {
+                      "": {
+                        "index": 0
+                      }
+                    },
+                    "_ExportGuid": "a725aed5-dfc2-4a0d-b988-a80babf1937c"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 16,
+                "_Param": {
+                  "": {
+                    "index": 0
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 15,
+                    "_ActionID": {
+                      "": {
+                        "index": 0
+                      }
+                    },
+                    "_ExportGuid": "a725aed5-dfc2-4a0d-b988-a80babf1937c"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 20,
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "index": 17,
+                    "path": "GameDesign/Otomon/Ot0111/XX/ActionData/WOt0111_Fly_ActionParam.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 19,
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "index": 18,
+                        "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Fly.user"
+                      }
+                    },
+                    "_ExportGuid": "6beda2dc-6daf-4726-ae83-cad7f8c6b70e"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 22,
+                "_Param": {
+                  "": {
+                    "index": 0
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 21,
+                    "_ActionID": {
+                      "": {
+                        "index": 0
+                      }
+                    },
+                    "_ExportGuid": "a725aed5-dfc2-4a0d-b988-a80babf1937c"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 24,
+                "_Param": {
+                  "": {
+                    "index": 0
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 23,
+                    "_ActionID": {
+                      "": {
+                        "index": 0
+                      }
+                    },
+                    "_ExportGuid": "a725aed5-dfc2-4a0d-b988-a80babf1937c"
+                  }
+                }
+              }
+            }
+          ],
+          "_DataSet_Sub": [
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 28,
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "index": 25,
+                    "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonSubActionParam_General.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 27,
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "index": 26,
+                        "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonSubActionID_General.user"
+                      }
+                    },
+                    "_ExportGuid": "085f6eb4-964a-4ce6-83b6-e533bb7c4c02"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "_DetectTerrainParam": {
+        "app.user_data.DetectTerrainParam": {
+          "index": 30,
+          "path": "GameDesign/Otomon/CommonData/ActionData/WOtCommonDetectTerrainParam_L.user"
+        }
+      },
+      "_InertiaFbik": {
+        "": {
+          "index": 0
+        }
+      },
+      "_FbikRigInfo": {
+        "": {
+          "index": 0
+        }
+      },
+      "_SpeedTreeCollision": {
+        "app.user_data.SpeedTreePusherCollision": {
+          "index": 31,
+          "path": "GameDesign/Otomon/CommonData/WorldData/WorldOtomonSpeedTreePusherCollision.user"
+        }
+      },
+      "_WorldCharacterAnimationLodParam": {
+        "": {
+          "index": 0
+        }
+      },
+      "_OtomonBasicParam": {
+        "app.user_data.OtomonBasicParam": {
+          "index": 32,
+          "path": "GameDesign/Otomon/Ot0111/00/CommonData/Ot0111_00_20_BasicParam.user"
+        }
+      },
+      "_WorldOtomonBasicParam": {
+        "app.user_data.WorldOtomonBasicParam": {
+          "index": 33,
+          "path": "GameDesign/Otomon/Ot0111/XX/WorldData/WOt0111_BasicParam.user"
+        }
+      },
+      "_WorldOtomonCommonParam": {
+        "app.user_data.WorldOtomonCommonParam": {
+          "index": 34,
+          "path": "GameDesign/Otomon/CommonData/WorldData/WorldOtomonCommonParam.user"
+        }
+      },
+      "_BTable": {
+        "ace.btable.user_data.BTable": {
+          "index": 35,
+          "path": "GameDesign/AI/World/BTable/Otomon/TableAsset/World_OtomonCommonBTable.user"
+        }
+      },
+      "_BTableVariableList": {
+        "ace.btable.user_data.BTableVariableList": {
+          "index": 36,
+          "path": "GameDesign/AI/World/BTable/Otomon/SettingData/World_OtomonBTableVariableList.user"
+        }
+      },
+      "_IkCtrlSetupParam": {
+        "app.AppIkCtrlSetupParam": {
+          "index": 37,
+          "path": "GameDesign/Monster/mo002/IK/mo002_IkCtrlSetupParam.user"
+        }
+      },
+      "_ShellCreatorInfo": {
+        "ace.user_data.ShellCreatorInfoData": {
+          "index": 38,
+          "path": "GameDesign/Otomon/CommonData/WorldData/WorldOtomonShellCreatorInfo.user"
+        }
+      },
+      "_RideCameraParamList": {
+        "ace.user_data.CameraParamDataCollectionList": {
+          "index": 39,
+          "path": "GameDesign/Otomon/Ot0111/XX/CameraData/WOt0111_CameraParam.user"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,687 @@
+[
+  {
+    "app.user_data.Battle_PnAIParamSettings_v2": {
+      "index": 82,
+      "_PnAIParmList": {
+        "ace.cInstanceGuidArray`1<app.user_data.Battle_PnAIParamSettings_v2.cItem>": {
+          "index": 80,
+          "_DataArray": [
+            {
+              "app.user_data.Battle_PnAIParamSettings_v2.cItem": {
+                "index": 10,
+                "_Parameter": {
+                  "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter": {
+                    "index": 9,
+                    "WeightData": {
+                      "app.user_data.Battle_AutoTuningPnParam_NN": {
+                        "index": 1,
+                        "path": "GameDesign/AI/Battle/Partner/UserData/Battle_CommonAutoTuningPnParam_NNLayer4.user"
+                      }
+                    },
+                    "_BattleExperienceIQ": {
+                      "app.user_data.cPnAI_BattleExperienceIQ": {
+                        "index": 2,
+                        "Value": "d0781c73-7716-42e8-af38-f021acd2e476"
+                      }
+                    },
+                    "TargetStrategy": 40,
+                    "TargetPartsStrategy": [
+                      110
+                    ],
+                    "LifeHealInfo": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
+                        "index": 3,
+                        "MaxUsePL": 1,
+                        "UseEnemyHPRate": 30,
+                        "UsePlPartyHPRate": 50,
+                        "HeartHealTiming": 0,
+                        "PnLefeHealCoolTurn": 2
+                      }
+                    },
+                    "_OverHealPenaltyRate": {
+                      "app.user_data.cPnAI_OverHealPenaltyRate": {
+                        "index": 4,
+                        "Value": "a205eaba-d72d-4d58-bede-1fc4942f791b"
+                      }
+                    },
+                    "_OverHealAttenuationRate": {
+                      "app.user_data.cPnAI_OverHealAttenuationRate": {
+                        "index": 5,
+                        "Value": "c7898d00-7697-4fce-9694-dd5097abc552"
+                      }
+                    },
+                    "BattleAssistPriority": [
+                      0,
+                      10,
+                      20,
+                      30
+                    ],
+                    "_AllCondHeal_AllowNum": {
+                      "app.user_data.cPnAI_AllCondHeal_AllowNum": {
+                        "index": 6,
+                        "Value": "9fbcb49a-736d-49be-bb97-2d80b35e1233"
+                      }
+                    },
+                    "HealRate": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceHealRate": {
+                        "index": 7,
+                        "HealRate_PL": 1.0,
+                        "HealRate_PLOt": 1.0,
+                        "HealRate_Pn": 1.0,
+                        "HealRate_PnOt": 1.0
+                      }
+                    },
+                    "UniqueParam": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.UniqueAction": {
+                        "index": 8,
+                        "TrapMaster": false,
+                        "DisasterStornMaster": false,
+                        "OtomonMaster": false,
+                        "WActionAssist": false,
+                        "VSMaster": false,
+                        "AntiCondMaster": false,
+                        "VSLearnRate": 0.0,
+                        "WActionAddRate": 0
+                      }
+                    }
+                  }
+                },
+                "_InstanceGuid": "2e0d4516-ac2c-4891-bc09-c8395d18bde4"
+              }
+            },
+            {
+              "app.user_data.Battle_PnAIParamSettings_v2.cItem": {
+                "index": 20,
+                "_Parameter": {
+                  "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter": {
+                    "index": 19,
+                    "WeightData": {
+                      "app.user_data.Battle_AutoTuningPnParam_NN": {
+                        "index": 11,
+                        "path": "GameDesign/AI/Battle/Partner/UserData/Battle_Pn001_AutoTuningPnParam.user"
+                      }
+                    },
+                    "_BattleExperienceIQ": {
+                      "app.user_data.cPnAI_BattleExperienceIQ": {
+                        "index": 12,
+                        "Value": "d0781c73-7716-42e8-af38-f021acd2e476"
+                      }
+                    },
+                    "TargetStrategy": 10,
+                    "TargetPartsStrategy": [
+                      -321264032
+                    ],
+                    "LifeHealInfo": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
+                        "index": 13,
+                        "MaxUsePL": 1,
+                        "UseEnemyHPRate": 50,
+                        "UsePlPartyHPRate": 99,
+                        "HeartHealTiming": 0,
+                        "PnLefeHealCoolTurn": 2
+                      }
+                    },
+                    "_OverHealPenaltyRate": {
+                      "app.user_data.cPnAI_OverHealPenaltyRate": {
+                        "index": 14,
+                        "Value": "a205eaba-d72d-4d58-bede-1fc4942f791b"
+                      }
+                    },
+                    "_OverHealAttenuationRate": {
+                      "app.user_data.cPnAI_OverHealAttenuationRate": {
+                        "index": 15,
+                        "Value": "c7898d00-7697-4fce-9694-dd5097abc552"
+                      }
+                    },
+                    "BattleAssistPriority": [
+                      0,
+                      30,
+                      20,
+                      10
+                    ],
+                    "_AllCondHeal_AllowNum": {
+                      "app.user_data.cPnAI_AllCondHeal_AllowNum": {
+                        "index": 16,
+                        "Value": "9fbcb49a-736d-49be-bb97-2d80b35e1233"
+                      }
+                    },
+                    "HealRate": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceHealRate": {
+                        "index": 17,
+                        "HealRate_PL": 1.0,
+                        "HealRate_PLOt": 1.0,
+                        "HealRate_Pn": 1.2999999523162842,
+                        "HealRate_PnOt": 1.2000000476837158
+                      }
+                    },
+                    "UniqueParam": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.UniqueAction": {
+                        "index": 18,
+                        "TrapMaster": false,
+                        "DisasterStornMaster": false,
+                        "OtomonMaster": false,
+                        "WActionAssist": false,
+                        "VSMaster": false,
+                        "AntiCondMaster": false,
+                        "VSLearnRate": 1.0,
+                        "WActionAddRate": 0
+                      }
+                    }
+                  }
+                },
+                "_InstanceGuid": "f36bc4d2-4cbd-4358-9f0a-de1f7437aa6d"
+              }
+            },
+            {
+              "app.user_data.Battle_PnAIParamSettings_v2.cItem": {
+                "index": 30,
+                "_Parameter": {
+                  "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter": {
+                    "index": 29,
+                    "WeightData": {
+                      "app.user_data.Battle_AutoTuningPnParam_NN": {
+                        "index": 21,
+                        "path": "GameDesign/AI/Battle/Partner/UserData/Battle_Pn002_AutoTuningPnParam.user"
+                      }
+                    },
+                    "_BattleExperienceIQ": {
+                      "app.user_data.cPnAI_BattleExperienceIQ": {
+                        "index": 22,
+                        "Value": "d0781c73-7716-42e8-af38-f021acd2e476"
+                      }
+                    },
+                    "TargetStrategy": 50,
+                    "TargetPartsStrategy": [
+                      110,
+                      20
+                    ],
+                    "LifeHealInfo": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
+                        "index": 23,
+                        "MaxUsePL": 2,
+                        "UseEnemyHPRate": 50,
+                        "UsePlPartyHPRate": 99,
+                        "HeartHealTiming": 0,
+                        "PnLefeHealCoolTurn": 2
+                      }
+                    },
+                    "_OverHealPenaltyRate": {
+                      "app.user_data.cPnAI_OverHealPenaltyRate": {
+                        "index": 24,
+                        "Value": "a205eaba-d72d-4d58-bede-1fc4942f791b"
+                      }
+                    },
+                    "_OverHealAttenuationRate": {
+                      "app.user_data.cPnAI_OverHealAttenuationRate": {
+                        "index": 25,
+                        "Value": "114a3147-a05a-415f-b39d-c34d480c64a7"
+                      }
+                    },
+                    "BattleAssistPriority": [
+                      30,
+                      0,
+                      20,
+                      10
+                    ],
+                    "_AllCondHeal_AllowNum": {
+                      "app.user_data.cPnAI_AllCondHeal_AllowNum": {
+                        "index": 26,
+                        "Value": "9fbcb49a-736d-49be-bb97-2d80b35e1233"
+                      }
+                    },
+                    "HealRate": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceHealRate": {
+                        "index": 27,
+                        "HealRate_PL": 2.0,
+                        "HealRate_PLOt": 1.0,
+                        "HealRate_Pn": 1.0,
+                        "HealRate_PnOt": 1.0
+                      }
+                    },
+                    "UniqueParam": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.UniqueAction": {
+                        "index": 28,
+                        "TrapMaster": false,
+                        "DisasterStornMaster": true,
+                        "OtomonMaster": false,
+                        "WActionAssist": false,
+                        "VSMaster": false,
+                        "AntiCondMaster": false,
+                        "VSLearnRate": 1.0,
+                        "WActionAddRate": 0
+                      }
+                    }
+                  }
+                },
+                "_InstanceGuid": "fe9844a1-c34e-4ee1-85b4-3024b4aeb034"
+              }
+            },
+            {
+              "app.user_data.Battle_PnAIParamSettings_v2.cItem": {
+                "index": 39,
+                "_Parameter": {
+                  "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter": {
+                    "index": 38,
+                    "WeightData": {
+                      "": {
+                        "index": 0
+                      }
+                    },
+                    "_BattleExperienceIQ": {
+                      "app.user_data.cPnAI_BattleExperienceIQ": {
+                        "index": 31,
+                        "Value": "8116869b-21be-4414-9be5-fa14d83db890"
+                      }
+                    },
+                    "TargetStrategy": 0,
+                    "TargetPartsStrategy": [
+                      110
+                    ],
+                    "LifeHealInfo": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
+                        "index": 32,
+                        "MaxUsePL": 2,
+                        "UseEnemyHPRate": 30,
+                        "UsePlPartyHPRate": 50,
+                        "HeartHealTiming": 0,
+                        "PnLefeHealCoolTurn": 2
+                      }
+                    },
+                    "_OverHealPenaltyRate": {
+                      "app.user_data.cPnAI_OverHealPenaltyRate": {
+                        "index": 33,
+                        "Value": "a205eaba-d72d-4d58-bede-1fc4942f791b"
+                      }
+                    },
+                    "_OverHealAttenuationRate": {
+                      "app.user_data.cPnAI_OverHealAttenuationRate": {
+                        "index": 34,
+                        "Value": "c7898d00-7697-4fce-9694-dd5097abc552"
+                      }
+                    },
+                    "BattleAssistPriority": [
+                      0,
+                      10,
+                      20,
+                      30
+                    ],
+                    "_AllCondHeal_AllowNum": {
+                      "app.user_data.cPnAI_AllCondHeal_AllowNum": {
+                        "index": 35,
+                        "Value": "9fbcb49a-736d-49be-bb97-2d80b35e1233"
+                      }
+                    },
+                    "HealRate": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceHealRate": {
+                        "index": 36,
+                        "HealRate_PL": 1.0,
+                        "HealRate_PLOt": 1.0,
+                        "HealRate_Pn": 1.0,
+                        "HealRate_PnOt": 1.0
+                      }
+                    },
+                    "UniqueParam": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.UniqueAction": {
+                        "index": 37,
+                        "TrapMaster": false,
+                        "DisasterStornMaster": false,
+                        "OtomonMaster": false,
+                        "WActionAssist": false,
+                        "VSMaster": false,
+                        "AntiCondMaster": false,
+                        "VSLearnRate": 0.0,
+                        "WActionAddRate": 0
+                      }
+                    }
+                  }
+                },
+                "_InstanceGuid": "ff3e7cde-fbc4-4f5f-9263-4a2e339fcaf8"
+              }
+            },
+            {
+              "app.user_data.Battle_PnAIParamSettings_v2.cItem": {
+                "index": 49,
+                "_Parameter": {
+                  "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter": {
+                    "index": 48,
+                    "WeightData": {
+                      "app.user_data.Battle_AutoTuningPnParam_NN": {
+                        "index": 40,
+                        "path": "GameDesign/AI/Battle/Partner/UserData/Battle_Pn004_AutoTuningPnParam.user"
+                      }
+                    },
+                    "_BattleExperienceIQ": {
+                      "app.user_data.cPnAI_BattleExperienceIQ": {
+                        "index": 41,
+                        "Value": "d0781c73-7716-42e8-af38-f021acd2e476"
+                      }
+                    },
+                    "TargetStrategy": 0,
+                    "TargetPartsStrategy": [
+                      110,
+                      20
+                    ],
+                    "LifeHealInfo": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
+                        "index": 42,
+                        "MaxUsePL": 2,
+                        "UseEnemyHPRate": 50,
+                        "UsePlPartyHPRate": 99,
+                        "HeartHealTiming": 1,
+                        "PnLefeHealCoolTurn": 2
+                      }
+                    },
+                    "_OverHealPenaltyRate": {
+                      "app.user_data.cPnAI_OverHealPenaltyRate": {
+                        "index": 43,
+                        "Value": "6491e0d9-69fb-42aa-a721-c9c7279cd58f"
+                      }
+                    },
+                    "_OverHealAttenuationRate": {
+                      "app.user_data.cPnAI_OverHealAttenuationRate": {
+                        "index": 44,
+                        "Value": "114a3147-a05a-415f-b39d-c34d480c64a7"
+                      }
+                    },
+                    "BattleAssistPriority": [
+                      10,
+                      20,
+                      0,
+                      30
+                    ],
+                    "_AllCondHeal_AllowNum": {
+                      "app.user_data.cPnAI_AllCondHeal_AllowNum": {
+                        "index": 45,
+                        "Value": "9fbcb49a-736d-49be-bb97-2d80b35e1233"
+                      }
+                    },
+                    "HealRate": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceHealRate": {
+                        "index": 46,
+                        "HealRate_PL": 2.0,
+                        "HealRate_PLOt": 1.5,
+                        "HealRate_Pn": 1.0,
+                        "HealRate_PnOt": 1.2000000476837158
+                      }
+                    },
+                    "UniqueParam": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.UniqueAction": {
+                        "index": 47,
+                        "TrapMaster": false,
+                        "DisasterStornMaster": true,
+                        "OtomonMaster": false,
+                        "WActionAssist": false,
+                        "VSMaster": false,
+                        "AntiCondMaster": true,
+                        "VSLearnRate": 1.0,
+                        "WActionAddRate": 0
+                      }
+                    }
+                  }
+                },
+                "_InstanceGuid": "492ea94a-e544-4857-bc3e-133a087e2a89"
+              }
+            },
+            {
+              "app.user_data.Battle_PnAIParamSettings_v2.cItem": {
+                "index": 59,
+                "_Parameter": {
+                  "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter": {
+                    "index": 58,
+                    "WeightData": {
+                      "app.user_data.Battle_AutoTuningPnParam_NN": {
+                        "index": 50,
+                        "path": "GameDesign/AI/Battle/Partner/UserData/Battle_Pn005_AutoTuningPnParam.user"
+                      }
+                    },
+                    "_BattleExperienceIQ": {
+                      "app.user_data.cPnAI_BattleExperienceIQ": {
+                        "index": 51,
+                        "Value": "36e7c6af-9b74-41e5-bc7e-d17dcf4db56d"
+                      }
+                    },
+                    "TargetStrategy": 100,
+                    "TargetPartsStrategy": [
+                      15
+                    ],
+                    "LifeHealInfo": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
+                        "index": 52,
+                        "MaxUsePL": 1,
+                        "UseEnemyHPRate": 50,
+                        "UsePlPartyHPRate": 99,
+                        "HeartHealTiming": 0,
+                        "PnLefeHealCoolTurn": 2
+                      }
+                    },
+                    "_OverHealPenaltyRate": {
+                      "app.user_data.cPnAI_OverHealPenaltyRate": {
+                        "index": 53,
+                        "Value": "de4576c5-2ed0-4c93-aa00-44d29b119a8e"
+                      }
+                    },
+                    "_OverHealAttenuationRate": {
+                      "app.user_data.cPnAI_OverHealAttenuationRate": {
+                        "index": 54,
+                        "Value": "c7898d00-7697-4fce-9694-dd5097abc552"
+                      }
+                    },
+                    "BattleAssistPriority": [
+                      20,
+                      0,
+                      10,
+                      30
+                    ],
+                    "_AllCondHeal_AllowNum": {
+                      "app.user_data.cPnAI_AllCondHeal_AllowNum": {
+                        "index": 55,
+                        "Value": "9fbcb49a-736d-49be-bb97-2d80b35e1233"
+                      }
+                    },
+                    "HealRate": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceHealRate": {
+                        "index": 56,
+                        "HealRate_PL": 1.600000023841858,
+                        "HealRate_PLOt": 1.2999999523162842,
+                        "HealRate_Pn": 1.0,
+                        "HealRate_PnOt": 1.0
+                      }
+                    },
+                    "UniqueParam": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.UniqueAction": {
+                        "index": 57,
+                        "TrapMaster": false,
+                        "DisasterStornMaster": false,
+                        "OtomonMaster": false,
+                        "WActionAssist": false,
+                        "VSMaster": true,
+                        "AntiCondMaster": false,
+                        "VSLearnRate": 1.0,
+                        "WActionAddRate": -20
+                      }
+                    }
+                  }
+                },
+                "_InstanceGuid": "7655a6eb-7bb8-411c-8b94-f89660a1990b"
+              }
+            },
+            {
+              "app.user_data.Battle_PnAIParamSettings_v2.cItem": {
+                "index": 69,
+                "_Parameter": {
+                  "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter": {
+                    "index": 68,
+                    "WeightData": {
+                      "app.user_data.Battle_AutoTuningPnParam_NN": {
+                        "index": 60,
+                        "path": "GameDesign/AI/Battle/Partner/UserData/Battle_Pn006_AutoTuningPnParam.user"
+                      }
+                    },
+                    "_BattleExperienceIQ": {
+                      "app.user_data.cPnAI_BattleExperienceIQ": {
+                        "index": 61,
+                        "Value": "36e7c6af-9b74-41e5-bc7e-d17dcf4db56d"
+                      }
+                    },
+                    "TargetStrategy": 40,
+                    "TargetPartsStrategy": [
+                      -416648000,
+                      -1197123456,
+                      -841255168
+                    ],
+                    "LifeHealInfo": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
+                        "index": 62,
+                        "MaxUsePL": 1,
+                        "UseEnemyHPRate": 50,
+                        "UsePlPartyHPRate": 99,
+                        "HeartHealTiming": 1,
+                        "PnLefeHealCoolTurn": 2
+                      }
+                    },
+                    "_OverHealPenaltyRate": {
+                      "app.user_data.cPnAI_OverHealPenaltyRate": {
+                        "index": 63,
+                        "Value": "6491e0d9-69fb-42aa-a721-c9c7279cd58f"
+                      }
+                    },
+                    "_OverHealAttenuationRate": {
+                      "app.user_data.cPnAI_OverHealAttenuationRate": {
+                        "index": 64,
+                        "Value": "c7898d00-7697-4fce-9694-dd5097abc552"
+                      }
+                    },
+                    "BattleAssistPriority": [
+                      20,
+                      0,
+                      10,
+                      30
+                    ],
+                    "_AllCondHeal_AllowNum": {
+                      "app.user_data.cPnAI_AllCondHeal_AllowNum": {
+                        "index": 65,
+                        "Value": "9fbcb49a-736d-49be-bb97-2d80b35e1233"
+                      }
+                    },
+                    "HealRate": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceHealRate": {
+                        "index": 66,
+                        "HealRate_PL": 1.2999999523162842,
+                        "HealRate_PLOt": 1.2999999523162842,
+                        "HealRate_Pn": 1.0,
+                        "HealRate_PnOt": 1.2999999523162842
+                      }
+                    },
+                    "UniqueParam": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.UniqueAction": {
+                        "index": 67,
+                        "TrapMaster": true,
+                        "DisasterStornMaster": false,
+                        "OtomonMaster": false,
+                        "WActionAssist": false,
+                        "VSMaster": false,
+                        "AntiCondMaster": false,
+                        "VSLearnRate": 2.0,
+                        "WActionAddRate": 0
+                      }
+                    }
+                  }
+                },
+                "_InstanceGuid": "4e5e8b3c-5ddc-431d-90e7-4e0d86de917c"
+              }
+            },
+            {
+              "app.user_data.Battle_PnAIParamSettings_v2.cItem": {
+                "index": 79,
+                "_Parameter": {
+                  "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter": {
+                    "index": 78,
+                    "WeightData": {
+                      "app.user_data.Battle_AutoTuningPnParam_NN": {
+                        "index": 70,
+                        "path": "GameDesign/AI/Battle/Partner/UserData/Battle_Pn007_AutoTuningPnParam.user"
+                      }
+                    },
+                    "_BattleExperienceIQ": {
+                      "app.user_data.cPnAI_BattleExperienceIQ": {
+                        "index": 71,
+                        "Value": "86abdec7-b82c-4fc5-b9b0-f0aadf2ecf4a"
+                      }
+                    },
+                    "TargetStrategy": 0,
+                    "TargetPartsStrategy": [
+                      1
+                    ],
+                    "LifeHealInfo": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
+                        "index": 72,
+                        "MaxUsePL": 1,
+                        "UseEnemyHPRate": 50,
+                        "UsePlPartyHPRate": 99,
+                        "HeartHealTiming": 0,
+                        "PnLefeHealCoolTurn": 2
+                      }
+                    },
+                    "_OverHealPenaltyRate": {
+                      "app.user_data.cPnAI_OverHealPenaltyRate": {
+                        "index": 73,
+                        "Value": "de4576c5-2ed0-4c93-aa00-44d29b119a8e"
+                      }
+                    },
+                    "_OverHealAttenuationRate": {
+                      "app.user_data.cPnAI_OverHealAttenuationRate": {
+                        "index": 74,
+                        "Value": "c7898d00-7697-4fce-9694-dd5097abc552"
+                      }
+                    },
+                    "BattleAssistPriority": [
+                      10,
+                      20,
+                      0,
+                      30
+                    ],
+                    "_AllCondHeal_AllowNum": {
+                      "app.user_data.cPnAI_AllCondHeal_AllowNum": {
+                        "index": 75,
+                        "Value": "9fbcb49a-736d-49be-bb97-2d80b35e1233"
+                      }
+                    },
+                    "HealRate": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceHealRate": {
+                        "index": 76,
+                        "HealRate_PL": 1.0,
+                        "HealRate_PLOt": 2.0,
+                        "HealRate_Pn": 1.0,
+                        "HealRate_PnOt": 2.0
+                      }
+                    },
+                    "UniqueParam": {
+                      "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.UniqueAction": {
+                        "index": 77,
+                        "TrapMaster": false,
+                        "DisasterStornMaster": false,
+                        "OtomonMaster": true,
+                        "WActionAssist": false,
+                        "VSMaster": false,
+                        "AntiCondMaster": false,
+                        "VSLearnRate": 1.0,
+                        "WActionAddRate": 20
+                      }
+                    }
+                  }
+                },
+                "_InstanceGuid": "902b95cb-7045-4c89-b43d-c2165252d1e0"
+              }
+            }
+          ]
+        }
+      },
+      "DefinitionData": {
+        "app.user_data.Battle_PnAIParamDefinition_v2": {
+          "index": 81,
+          "path": "GameDesign/AI/Battle/Partner/UserData/Battle_PnAIParamDefinition_v2.user"
+        }
+      }
+    }
+  }
+]

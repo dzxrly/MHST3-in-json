@@ -1,0 +1,75 @@
+[
+  {
+    "app.user_data.AppCameraOverlapTransparencyCondition": {
+      "index": 7,
+      "_ValidRange": 5.0,
+      "_IsScaling": false,
+      "_NearCollision": [
+        {
+          "ace.user_data.CameraOverlapTransparencyCondition.cCollision": {
+            "index": 2,
+            "_Joint": {
+              "ace.cJointHash": {
+                "index": 1,
+                "_Hash": 4175418299
+              }
+            },
+            "_CollisionShape": 1,
+            "_Offset": [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "_Radius": 2.5,
+            "_Height": 1.0
+          }
+        }
+      ],
+      "_OverlapCollision": [
+        {
+          "ace.user_data.CameraOverlapTransparencyCondition.cCollision": {
+            "index": 4,
+            "_Joint": {
+              "ace.cJointHash": {
+                "index": 3,
+                "_Hash": 4175418299
+              }
+            },
+            "_CollisionShape": 1,
+            "_Offset": [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "_Radius": 2.0,
+            "_Height": 0.0
+          }
+        }
+      ],
+      "_ForSubjectCollision": [
+        {
+          "ace.user_data.CameraOverlapTransparencyCondition.cCollision": {
+            "index": 6,
+            "_Joint": {
+              "ace.cJointHash": {
+                "index": 5,
+                "_Hash": 0
+              }
+            },
+            "_CollisionShape": 0,
+            "_Offset": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_Radius": 2.0,
+            "_Height": 2.5
+          }
+        }
+      ]
+    }
+  }
+]

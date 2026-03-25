@@ -1,0 +1,340 @@
+[
+  {
+    "ace.btable.user_data.BTableOrderBank": {
+      "index": 42,
+      "_OperatorWorkFactory": {
+        "ace.btable.cOperatorWorkFactory": {
+          "index": 1,
+          "_WorkType": {
+            "raw": "19000000",
+            "type": "RuntimeType"
+          }
+        }
+      },
+      "_CommandWorkFactory": {
+        "ace.btable.cCommandWorkFactory": {
+          "index": 2,
+          "_WorkType": {
+            "raw": "6163652e",
+            "type": "RuntimeType"
+          }
+        }
+      },
+      "_OrderLists": [
+        {
+          "ace.btable.user_data.BTableOrderBank.cItem": {
+            "index": 4,
+            "_OrderList": {
+              "Ref": {
+                "index": 1650553954,
+                "missing": true
+              }
+            }
+          }
+        },
+        {
+          "ace.btable.user_data.BTableOrderBank.cItem": {
+            "index": 6,
+            "_OrderList": {
+              "Ref": {
+                "index": 1663985004,
+                "missing": true
+              }
+            }
+          }
+        },
+        {
+          "ace.btable.user_data.BTableOrderBank.cItem": {
+            "index": 8,
+            "_OrderList": {
+              "Ref": {
+                "index": 1919250511,
+                "missing": true
+              }
+            }
+          }
+        }
+      ],
+      "_OperatorArgumentSettingList": [],
+      "_CommandArgumentSettingList": [
+        {
+          "ace.btable.VariableArgSetting": {
+            "index": 10,
+            "_Asset": {
+              "Ref": {
+                "index": 1919906913,
+                "missing": true
+              }
+            },
+            "_ListAsset": {
+              "Ref": {
+                "index": 1802661719,
+                "missing": true
+              }
+            }
+          }
+        },
+        {
+          "app.btable.AppBTableUtil_World.cSelectActionArgSetting": {
+            "index": 32,
+            "_AssetDataList": []
+          }
+        },
+        {
+          "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
+            "index": 39,
+            "_AssetDataList": [
+              {
+                "Ref": {
+                  "index": 140471988,
+                  "missing": true
+                }
+              },
+              {
+                "Ref": {
+                  "index": 1290180170,
+                  "missing": true
+                }
+              },
+              {
+                "Ref": {
+                  "index": 870692483,
+                  "missing": true
+                }
+              },
+              {
+                "Ref": {
+                  "index": 38567099,
+                  "missing": true
+                }
+              },
+              {
+                "ace.cActionIDHolder": {
+                  "index": 27,
+                  "_ActionID": {
+                    "Ref": {
+                      "index": 1205958165,
+                      "missing": true
+                    }
+                  },
+                  "_ExportGuid": "6cb1c0a7-00fe-38e7-1200-000014000000"
+                }
+              },
+              {
+                "ace.user_data.ActionID": {
+                  "index": 29,
+                  "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Underground.user"
+                }
+              },
+              {
+                "Ref": {
+                  "index": -1603434875,
+                  "missing": true
+                }
+              },
+              {
+                "Ref": {
+                  "index": 1289748449,
+                  "missing": true
+                }
+              },
+              {
+                "Ref": {
+                  "index": 1091876010,
+                  "missing": true
+                }
+              },
+              {
+                "Ref": {
+                  "index": -1091120408,
+                  "missing": true
+                }
+              },
+              {
+                "ace.cActionIDHolder": {
+                  "index": 30,
+                  "_ActionID": {
+                    "Ref": {
+                      "index": 1193700783,
+                      "missing": true
+                    }
+                  },
+                  "_ExportGuid": "d7ca83ae-c6f8-0eb7-1500-000017000000"
+                }
+              },
+              {
+                "ace.btable.user_data.BTableOrderList": {
+                  "index": 7,
+                  "path": "GameDesign/AI/World/BTable/Otomon/SettingData/World_OtomonCommonBTableOrderList.user"
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "index": 13,
+                  "_Asset": {
+                    "Ref": {
+                      "index": 1869442932,
+                      "missing": true
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "index": 16,
+                  "_Asset": {
+                    "ace.btable.user_data.BTableOrderList": {
+                      "index": 3,
+                      "path": "Ace/Data/BTable/DefaultBTableOrderList.user"
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "index": 19,
+                  "_Asset": {
+                    "Ref": {
+                      "index": 146809585,
+                      "missing": true
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "index": 22,
+                  "_Asset": {
+                    "Ref": {
+                      "index": -1490702635,
+                      "missing": true
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "index": 25,
+                  "_Asset": {
+                    "Ref": {
+                      "index": -348275750,
+                      "missing": true
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "index": 28,
+                  "_Asset": {
+                    "Ref": {
+                      "index": 1810735836,
+                      "missing": true
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "index": 31,
+                  "_Asset": {
+                    "Ref": {
+                      "index": 469212399,
+                      "missing": true
+                    }
+                  }
+                }
+              },
+              {
+                "app.user_data.World_NavigationDistParam": {
+                  "index": 33,
+                  "path": "GameDesign/AI/World/BTable/Otomon/SettingData/World_OtNavigationDistParam_Common.user"
+                }
+              },
+              {
+                "app.user_data.World_NavigationDistParam": {
+                  "index": 35,
+                  "path": "GameDesign/AI/World/BTable/Otomon/SettingData/World_OtNavigationDistParam_Fly.user"
+                }
+              },
+              {
+                "app.user_data.World_NavigationDistParam": {
+                  "index": 37,
+                  "path": "GameDesign/AI/World/BTable/Otomon/SettingData/World_OtNavigationDistParam_Wall.user"
+                }
+              },
+              {
+                "ace.btable.user_data.BTableOrderList": {
+                  "index": 3,
+                  "path": "Ace/Data/BTable/DefaultBTableOrderList.user"
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2.cAssetData<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
+                  "index": 34,
+                  "_Asset": {
+                    "Ref": {
+                      "index": 2030207880,
+                      "missing": true
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2.cAssetData<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
+                  "index": 36,
+                  "_Asset": {
+                    "Ref": {
+                      "index": 1568803098,
+                      "missing": true
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2.cAssetData<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
+                  "index": 38,
+                  "_Asset": {
+                    "ace.cActionIDHolder": {
+                      "index": 24,
+                      "_ActionID": {
+                        "Ref": {
+                          "index": 1242423234,
+                          "missing": true
+                        }
+                      },
+                      "_ExportGuid": "0ba888b9-f1ab-7c93-0f00-000011000000"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.btable.AppBTableUtil_World.cSelectEnumArgSetting": {
+            "index": 41,
+            "_EnumMakers": [
+              {
+                "ace.user_data.EnumMaker": {
+                  "index": 40,
+                  "path": "GameDesign/Otomon/CommonData/EnumMaker/WorldOtomonActionConditionID_General.user"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_VariableAsset": {
+        "": {
+          "index": 0
+        }
+      },
+      "_VariableListAsset": {
+        "": {
+          "index": 0
+        }
+      }
+    }
+  }
+]

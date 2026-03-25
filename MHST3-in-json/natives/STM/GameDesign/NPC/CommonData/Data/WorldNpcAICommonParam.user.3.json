@@ -1,0 +1,106 @@
+[
+  {
+    "app.user_data.WorldNpcAICommonParam": {
+      "index": 11,
+      "_NpcCommonParam": {
+        "app.user_data.WorldNpcAICommonParam.cNpcCommonParam": {
+          "index": 1,
+          "_NoObstacleJobMotBodyMaxDist": 1.0
+        }
+      },
+      "_WalkNpcParam": {
+        "app.user_data.WorldNpcAICommonParam.cWalkNpcCommonParam": {
+          "index": 2,
+          "_AvoidIdelWaitTime": 3.0,
+          "_AvoidWalkContinueTime": 5.0,
+          "_AvoidBehindWalkTime": 2.0,
+          "_RandomWalkCorrectionDivideRate": 0.5,
+          "_RandomWalkNearWallDist": 3,
+          "_RandomWalkDefaultAngle": 20,
+          "_ArrivalPointDist": 2.0,
+          "_ApproachingRadius": 2.0
+        }
+      },
+      "_FollowRudyParam": {
+        "app.user_data.WorldNpcAICommonParam.cFollowNpcParam": {
+          "index": 6,
+          "_MotionPackage": {
+            "app.user_data.NpcMotionPackage": {
+              "index": 3,
+              "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/U2001_Fl_Camp.user"
+            }
+          },
+          "_SpawnOffsetFromPL": [
+            -1.0,
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "_DeceiveSpeed": 3.0,
+          "_FreeTimeLinit": 5.0,
+          "_TurnAngle": 60.0,
+          "_DistInfo": {
+            "app.user_data.WorldNpcAICommonParam.cFollowNpcParam.cDistInfo": {
+              "index": 4,
+              "_DeceiveDist": 7.5,
+              "_EnableDeceiveDist": 25.0,
+              "_EnableDeceiveRange": 50.0,
+              "_TranceStopDist": 1.0499999523162842,
+              "_TranceWalkDist": 3.0,
+              "_TranceRunDist": 5.0
+            }
+          },
+          "_PlAvoidParam": {
+            "app.user_data.WorldNpcAICommonParam.cFollowNpcParam.cPlAvoidParam": {
+              "index": 5,
+              "_AvoidRad": 0.800000011920929,
+              "_AvoidCheckWallDist": 3.0,
+              "_AvoidEnableRange": 5.0,
+              "_AvoidDisableAngleDiff": 80.0
+            }
+          }
+        }
+      },
+      "_FollowEleanorParam": {
+        "app.user_data.WorldNpcAICommonParam.cFollowNpcParam": {
+          "index": 10,
+          "_MotionPackage": {
+            "app.user_data.NpcMotionPackage": {
+              "index": 7,
+              "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/_EmptyMotionPackage.user"
+            }
+          },
+          "_SpawnOffsetFromPL": [
+            1.0,
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "_DeceiveSpeed": 1.5,
+          "_FreeTimeLinit": 5.0,
+          "_TurnAngle": 60.0,
+          "_DistInfo": {
+            "app.user_data.WorldNpcAICommonParam.cFollowNpcParam.cDistInfo": {
+              "index": 8,
+              "_DeceiveDist": 7.5,
+              "_EnableDeceiveDist": 25.0,
+              "_EnableDeceiveRange": 50.0,
+              "_TranceStopDist": 3.0,
+              "_TranceWalkDist": 5.0,
+              "_TranceRunDist": 10.0
+            }
+          },
+          "_PlAvoidParam": {
+            "app.user_data.WorldNpcAICommonParam.cFollowNpcParam.cPlAvoidParam": {
+              "index": 9,
+              "_AvoidRad": 0.800000011920929,
+              "_AvoidCheckWallDist": 3.0,
+              "_AvoidEnableRange": 5.0,
+              "_AvoidDisableAngleDiff": 80.0
+            }
+          }
+        }
+      }
+    }
+  }
+]

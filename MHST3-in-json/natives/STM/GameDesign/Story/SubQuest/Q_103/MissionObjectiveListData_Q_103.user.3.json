@@ -1,0 +1,180 @@
+[
+  {
+    "app.user_data.AppMissionObjectiveListDataSubQuest": {
+      "index": 25,
+      "_DataList": [
+        {
+          "app.cAppMissionObjectiveDataSubQuest": {
+            "index": 8,
+            "_ObjectiveID": 0,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "index": 1,
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/SubQuest/Q_103/Objective/ObjectivePrefab_Q_103_00.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "index": 4,
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "index": 3,
+                      "_Condition": {
+                        "app.cMissionConditionUnconditional": {
+                          "index": 2
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "index": 5,
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "index": 6,
+                "_UniqueID": -1811544576
+              }
+            },
+            "_OnStoryFlagID": -1,
+            "_SubQuestObjectiveInfo": {
+              "app.cAppMissionObjectiveDataSubQuest.cSubQuestObjectiveInfo": {
+                "index": 7,
+                "_SubQuestProgress": 1449411456
+              }
+            }
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataSubQuest": {
+            "index": 16,
+            "_ObjectiveID": 1,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "index": 9,
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/SubQuest/Q_103/Objective/ObjectivePrefab_Q_103_01.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "index": 12,
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "index": 11,
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "index": 10,
+                          "_SuccessObjectiveIDList": [
+                            0
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "index": 13,
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "index": 14,
+                "_UniqueID": 1680237056
+              }
+            },
+            "_OnStoryFlagID": -1,
+            "_SubQuestObjectiveInfo": {
+              "app.cAppMissionObjectiveDataSubQuest.cSubQuestObjectiveInfo": {
+                "index": 15,
+                "_SubQuestProgress": 2065738240
+              }
+            }
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataSubQuest": {
+            "index": 24,
+            "_ObjectiveID": 2,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "index": 17,
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/SubQuest/Q_103/Objective/ObjectivePrefab_Q_103_02.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "index": 20,
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "index": 19,
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "index": 18,
+                          "_SuccessObjectiveIDList": [
+                            1
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "index": 21,
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "index": 22,
+                "_UniqueID": -1811544576
+              }
+            },
+            "_OnStoryFlagID": -1,
+            "_SubQuestObjectiveInfo": {
+              "app.cAppMissionObjectiveDataSubQuest.cSubQuestObjectiveInfo": {
+                "index": 23,
+                "_SubQuestProgress": 851946880
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

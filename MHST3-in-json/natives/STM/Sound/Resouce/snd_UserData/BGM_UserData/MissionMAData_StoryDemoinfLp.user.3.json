@@ -1,0 +1,82 @@
+[
+  {
+    "app.snd_user_data.SoundMissionMusicActionData": {
+      "index": 11,
+      "_MainStoryTermActions": [
+        {
+          "app.snd_user_data.SoundMissionMusicActionData.MainStoryTermAction": {
+            "index": 5,
+            "_IsCheckTerm": true,
+            "_MainStoryFlagBegin": {
+              "app.AppMissionDef.MAIN_STORY_FLAG_Serializable": {
+                "index": 1,
+                "value": -2024953600
+              }
+            },
+            "_MainStoryFlagEnd": {
+              "app.AppMissionDef.MAIN_STORY_FLAG_Serializable": {
+                "index": 2,
+                "value": -145922064
+              }
+            },
+            "_Actions": [
+              {
+                "app.snd_user_data.MusicAction": {
+                  "index": 4,
+                  "_TriggerIdWithUserCue": 4294967295,
+                  "_Action": {
+                    "app.snd_user_data.MusicAction.Action": {
+                      "index": 3,
+                      "value": 1
+                    }
+                  },
+                  "_StateGroupId": 1133592018,
+                  "_StateId": 2670900335,
+                  "_TriggerId": 4294967295,
+                  "_DelayTime": 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.snd_user_data.SoundMissionMusicActionData.MainStoryTermAction": {
+            "index": 10,
+            "_IsCheckTerm": false,
+            "_MainStoryFlagBegin": {
+              "app.AppMissionDef.MAIN_STORY_FLAG_Serializable": {
+                "index": 6,
+                "value": -650390592
+              }
+            },
+            "_MainStoryFlagEnd": {
+              "app.AppMissionDef.MAIN_STORY_FLAG_Serializable": {
+                "index": 7,
+                "value": 1038238208
+              }
+            },
+            "_Actions": [
+              {
+                "app.snd_user_data.MusicAction": {
+                  "index": 9,
+                  "_TriggerIdWithUserCue": 4294967295,
+                  "_Action": {
+                    "app.snd_user_data.MusicAction.Action": {
+                      "index": 8,
+                      "value": 1
+                    }
+                  },
+                  "_StateGroupId": 1133592018,
+                  "_StateId": 3035183446,
+                  "_TriggerId": 4294967295,
+                  "_DelayTime": 0.0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_SideStoryTermActions": []
+    }
+  }
+]

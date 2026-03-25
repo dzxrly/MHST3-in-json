@@ -1,0 +1,293 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "index": 33,
+      "_ActionClassList": [
+        {
+          "app.WorldPlayerNonRideSubAction.cNone": {
+            "index": 1,
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPlayerNonRideSubAction.cStand": {
+            "index": 2,
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPlayerNonRideSubAction.cStandNoMotion": {
+            "index": 3,
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPlayerNonRideSubAction.cStandEnableOnlyCall": {
+            "index": 4,
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPlayerNonRideSubAction.cStandEnableOnlyNoMotionCall": {
+            "index": 5,
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPlayerNonRideSubAction.cPick": {
+            "index": 12,
+            "_ActionSafeLimitTime": -1.0,
+            "_DampMotBlendRatePack": {
+              "app.WorldPlayerDefine.cBlendRatePack": {
+                "index": 11,
+                "_ArmLRates": {
+                  "app.WorldPlayerDefine.cMovingBlendRates": {
+                    "index": 6,
+                    "_Rates": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  }
+                },
+                "_ArmRRates": {
+                  "app.WorldPlayerDefine.cMovingBlendRates": {
+                    "index": 7,
+                    "_Rates": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  }
+                },
+                "_HeadRates": {
+                  "app.WorldPlayerDefine.cMovingBlendRates": {
+                    "index": 8,
+                    "_Rates": [
+                      0.20000000298023224,
+                      0.20000000298023224,
+                      0.20000000298023224
+                    ]
+                  }
+                },
+                "_BodyRates": {
+                  "app.WorldPlayerDefine.cMovingBlendRates": {
+                    "index": 9,
+                    "_Rates": [
+                      0.6000000238418579,
+                      0.30000001192092896,
+                      0.20000000298023224
+                    ]
+                  }
+                },
+                "_LowerBodyRates": {
+                  "app.WorldPlayerDefine.cMovingBlendRates": {
+                    "index": 10,
+                    "_Rates": [
+                      0.10000000149011612,
+                      0.25,
+                      0.25
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.WorldPlayerNonRideSubAction.cPickNoMotion": {
+            "index": 13,
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPlayerNonRideSubAction.cCall": {
+            "index": 20,
+            "_ActionSafeLimitTime": -1.0,
+            "_BlendRatePack": {
+              "app.WorldPlayerDefine.cBlendRatePack": {
+                "index": 19,
+                "_ArmLRates": {
+                  "app.WorldPlayerDefine.cMovingBlendRates": {
+                    "index": 14,
+                    "_Rates": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  }
+                },
+                "_ArmRRates": {
+                  "app.WorldPlayerDefine.cMovingBlendRates": {
+                    "index": 15,
+                    "_Rates": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  }
+                },
+                "_HeadRates": {
+                  "app.WorldPlayerDefine.cMovingBlendRates": {
+                    "index": 16,
+                    "_Rates": [
+                      0.6000000238418579,
+                      0.6000000238418579,
+                      0.6000000238418579
+                    ]
+                  }
+                },
+                "_BodyRates": {
+                  "app.WorldPlayerDefine.cMovingBlendRates": {
+                    "index": 17,
+                    "_Rates": [
+                      0.4000000059604645,
+                      0.30000001192092896,
+                      0.20000000298023224
+                    ]
+                  }
+                },
+                "_LowerBodyRates": {
+                  "app.WorldPlayerDefine.cMovingBlendRates": {
+                    "index": 18,
+                    "_Rates": [
+                      0.10000000149011612,
+                      0.25,
+                      0.25
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.WorldPlayerNonRideSubAction.cCallNoMotion": {
+            "index": 21,
+            "_ActionSafeLimitTime": -1.0
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 22,
+            "_Guid": "7e86f9ef-1171-40f6-8c66-deb4793cd2f9",
+            "_ActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 23,
+            "_Guid": "887319ad-a489-494b-baea-dfae53713fc4",
+            "_ActionGuid": "42cfa636-f5c3-46a3-a5e7-9778a6dbec49",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 24,
+            "_Guid": "cadf216b-4547-46bd-b080-359b59962b3d",
+            "_ActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 25,
+            "_Guid": "32e7662b-7afd-4bb1-86dd-2fb2c868b1c2",
+            "_ActionGuid": "f7bc14c5-1fea-4ec7-886f-c4cec95bb8cb",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 26,
+            "_Guid": "22692b33-0140-4174-af30-0920da801e9c",
+            "_ActionGuid": "a48ba338-360b-42a6-b264-8eb9ee487e3f",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 27,
+            "_Guid": "49af92b8-1973-4cad-a9d5-01aa0f26c870",
+            "_ActionGuid": "284cca1b-cd3b-43e2-b6be-1a70fa40aeb5",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 28,
+            "_Guid": "a9277f69-5a6e-4ada-a633-8c74723a240c",
+            "_ActionGuid": "724123d6-83f0-4517-99f6-3e99e285989e",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 29,
+            "_Guid": "c548a1c4-b1f5-4db8-a449-654efe9b62d4",
+            "_ActionGuid": "94ba4554-96ee-4f62-be3d-41ba1f09fc2b",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 30,
+            "_Guid": "63746bb3-a67a-4f96-91b8-e552e19ddc77",
+            "_ActionGuid": "7a1c2af4-4d5e-4dcd-ba17-708f79033711",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "index": 32,
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "index": 31,
+              "path": "GameDesign/Player/ActionData/NonRide/NonRideSub_ActionID.user"
+            }
+          },
+          "_ExportGuid": "f7f54fb6-1b19-48f7-b32c-f95398fc13c5"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {
+          "index": 0
+        }
+      }
+    }
+  }
+]

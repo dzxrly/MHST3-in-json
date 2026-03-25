@@ -1,0 +1,94 @@
+[
+  {
+    "app.user_data.MissionDemoData": {
+      "index": 12,
+      "_MissionDemoID": 19,
+      "_IsCreateAnimal": false,
+      "_PlayerSetting": {
+        "app.user_data.MissionDemoData.cPlayerSetting": {
+          "index": 1,
+          "_Position": [
+            262.2735290527344,
+            163.41094970703125,
+            876.43212890625,
+            0.0
+          ],
+          "_Rotation": [
+            0.0,
+            -0.8763197064399719,
+            0.0,
+            0.48172998428344727
+          ],
+          "_IsKeepPosRot": false,
+          "_DisableLookAt": false
+        }
+      },
+      "_NpcSettings": [],
+      "_EnemySettings": [],
+      "_CameraWorkData": {
+        "ace.user_data.CameraWorkData": {
+          "index": 2,
+          "path": "GameDesign/Story/Common/MissionDemo/PM_2B_019/MissionCameraWorkData_PM_2B_019.user"
+        }
+      },
+      "_FirstCameraGroupGuid": "88a6211e-9e01-09e5-0f12-77ba89a2d366",
+      "_ActionSettings": [
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "index": 5,
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "index": 4,
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "index": 3,
+                      "_WaitSecound": 1.0
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "index": 8,
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "index": 7,
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "index": 6,
+                      "_MessageTextId": "6de2d568-8a8f-4f4b-8231-e46122612fe8"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "index": 11,
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "index": 10,
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "index": 9,
+                      "_WaitSecound": 1.0
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_HighQualityGraphicsOBBs": []
+    }
+  }
+]

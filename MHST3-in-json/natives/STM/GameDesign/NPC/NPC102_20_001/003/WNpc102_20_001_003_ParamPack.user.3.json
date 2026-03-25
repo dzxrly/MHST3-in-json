@@ -1,0 +1,172 @@
+[
+  {
+    "app.user_data.WorldNpcParamPack": {
+      "index": 22,
+      "_MotionBankAssetsList": [
+        {
+          "app.cMotionBankAssets": {
+            "index": 3,
+            "_MotionBank": "Art/Motion/01_Player/plm_FieldBase.motbank",
+            "_MotionExtendBank": {
+              "ace.user_data.MotionExtendBank": {
+                "index": 1,
+                "path": "Art/Motion/01_Player/plm_FieldBase_meb.user"
+              }
+            },
+            "_MotionConnectBank": {
+              "ace.user_data.MotionConnectBank": {
+                "index": 2,
+                "path": "Art/Motion/01_Player/plm_FieldBase_mcb.user"
+              }
+            },
+            "_Order": 0
+          }
+        }
+      ],
+      "_JointGroup": {
+        "": {
+          "index": 0
+        }
+      },
+      "_ActionDataSetHolder": {
+        "app.user_data.ActionDataSetHolder": {
+          "index": 12,
+          "_DataSet_Base": [
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 7,
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "index": 4,
+                    "path": "GameDesign/NPC/NPC102_20_001/003/ActionData/WNpc102_20_001_003_General_ActionParam.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 6,
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "index": 5,
+                        "path": "GameDesign/NPC/NPC102_20_001/003/ActionData/WNpc102_20_001_003_General_ActionId.user"
+                      }
+                    },
+                    "_ExportGuid": "37bffcbc-75ea-43da-a702-3f335b48ce61"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "index": 11,
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "index": 8,
+                    "path": "GameDesign/NPC/NPC102_20_001/003/ActionData/WNpc102_20_001_003_Follow_ActionParam.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "index": 10,
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "index": 9,
+                        "path": "GameDesign/NPC/NPC102_20_001/003/ActionData/WNpc102_20_001_003_Follow_ActionId.user"
+                      }
+                    },
+                    "_ExportGuid": "efe94590-23ee-4c47-be9d-9923cf3657bf"
+                  }
+                }
+              }
+            }
+          ],
+          "_DataSet_Sub": []
+        }
+      },
+      "_DetectTerrainParam": {
+        "app.user_data.DetectTerrainParam": {
+          "index": 13,
+          "path": "GameDesign/NPC/CommonData/Data/NpcDetectTerrainParam.user"
+        }
+      },
+      "_InertiaFbik": {
+        "": {
+          "index": 0
+        }
+      },
+      "_FbikRigInfo": {
+        "": {
+          "index": 0
+        }
+      },
+      "_SpeedTreeCollision": {
+        "app.user_data.SpeedTreePusherCollision": {
+          "index": 14,
+          "path": "GameDesign/NPC/CommonData/Data/HumanAdultSpeedTreePusherCollision.user"
+        }
+      },
+      "_WorldCharacterAnimationLodParam": {
+        "app.user_data.WorldCharacterAnimationLodParameter": {
+          "index": 15,
+          "path": "GameDesign/NPC/CommonData/AnimationLODData/WorldNpcAnimationLod.user"
+        }
+      },
+      "_ParamPackBaseType": 1,
+      "_WorldBasicParam": {
+        "app.user_data.WorldNpcBasicParam": {
+          "index": 16,
+          "path": "GameDesign/NPC/NPC102_20_001/003/WorldData/WNpc102_20_001_003_BasicParam.user"
+        }
+      },
+      "_Retarget": {
+        "": {
+          "index": 0
+        }
+      },
+      "_SequentialPoseParam": {
+        "": {
+          "index": 0
+        }
+      },
+      "_NpcCharamakeData": {
+        "app.user_data.NpcCharamakeData": {
+          "index": 17,
+          "path": "GameDesign/NPC/NPC102_20_001/003/BaseData/WNpc102_20_001_003_CharamakeData.user"
+        }
+      },
+      "_NpcBaseMotionBankPack": {
+        "app.user_data.NpcBaseMotionBankPack": {
+          "index": 18,
+          "path": "GameDesign/NPC/CommonData/MotionPack/BaseMotionBank/BaseMotionBank_Empty.user"
+        }
+      },
+      "_ActionBasicParam": {
+        "app.user_data.NpcActionBasicParam": {
+          "index": 19,
+          "path": "GameDesign/NPC/CommonData/ActionData/NpcActionBasicParam.user"
+        }
+      },
+      "_LookAtParamPackage": {
+        "app.user_data.NpcLookAtParamPackage": {
+          "index": 20,
+          "path": "GameDesign/NPC/CommonData/LookAtData/NpcLookAtParamPackage.user"
+        }
+      },
+      "_IkCtrlSetupParam": {
+        "ace.user_data.IkCtrlSetupParam": {
+          "index": 21,
+          "path": "GameDesign/NPC/CommonData/Data/NpcCommonIkCtrlSetupParam.user"
+        }
+      },
+      "_StaticItemParam": {
+        "": {
+          "index": 0
+        }
+      },
+      "_MonsterNpcBasicParam": {
+        "": {
+          "index": 0
+        }
+      }
+    }
+  }
+]

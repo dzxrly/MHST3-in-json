@@ -1,0 +1,86 @@
+[
+  {
+    "app.user_data.BattleCutEffectData": {
+      "index": 8,
+      "_HitInfo": {
+        "app.user_data.BattleCutEffectData.cHitInfo": {
+          "index": 5,
+          "_HitType": 1,
+          "_HitParams": [
+            {
+              "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
+                "index": 2,
+                "_EffHitInfoType": {
+                  "app.BattleDef.EFF_HIT_INFO_TYPE_Serializable": {
+                    "index": 1,
+                    "value": -754673984
+                  }
+                },
+                "_Frame": 80.0
+              }
+            },
+            {
+              "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
+                "index": 4,
+                "_EffHitInfoType": {
+                  "app.BattleDef.EFF_HIT_INFO_TYPE_Serializable": {
+                    "index": 3,
+                    "value": -1272474368
+                  }
+                },
+                "_Frame": 145.0
+              }
+            }
+          ]
+        }
+      },
+      "_SimpleEffectInfos": [],
+      "_SimpleEffectInfos_Next": [],
+      "_ShellInfo": {
+        "app.user_data.BattleCutEffectData.cShellInfo": {
+          "index": 7,
+          "_IsActive": true,
+          "_Frame": 46.0,
+          "_ContainerID": {
+            "app.ContainerID.ID_Serializable": {
+              "index": 6,
+              "value": 526837933
+            }
+          },
+          "_ElementID": 1,
+          "_MoveType": 1,
+          "_StartPos": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_StartJointName": "breath",
+          "_Acceleration": 1.0,
+          "_FirstSpeed": 30.0,
+          "_Gravity": 50.0,
+          "_PassPoint": [
+            0.0,
+            -0.12516021728515625,
+            -2.1743431091308594,
+            0.0
+          ],
+          "_ReachFrame": 30.0,
+          "_Hidden": true,
+          "_NextPassPoint": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_NextPassJointName": "base",
+          "_NextReachFrame": 5.0,
+          "_NextSpeedOverwrite": false,
+          "_NextFirstSpeed": 0.0,
+          "_NextAcceleration": 1.0,
+          "_NextGravity": 0.0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "app.user_data.MonsterNpcBasicParam": {
+      "index": 2,
+      "_SaddleBodyOffsetPos": [
+        0.0,
+        0.05000000074505806,
+        -0.10000000149011612,
+        0.0
+      ],
+      "_SaddleBodyOffsetRot": [
+        -0.1564345806837082,
+        0.0,
+        0.0,
+        0.9876883029937744
+      ],
+      "_SaddleWidth": 22128,
+      "_BodyScale": 0.699999988079071,
+      "_BodySize": -1750394368,
+      "STRUCT__DissovleBodySize__HasValue": true,
+      "STRUCT__DissovleBodySize__Value": 1420365184,
+      "_IsUseDissovleCondition": true,
+      "_DissolveCondition": {
+        "app.user_data.AppCameraOverlapTransparencyCondition": {
+          "index": 1,
+          "path": "GameDesign/Camera/OverlapTransparency/CameraOverlapTransparencyCondition_NpcMonster_00.user"
+        }
+      },
+      "_IsUseWalkObstacleSubRegions": false,
+      "_WalkObstacleSubRegions": []
+    }
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "app.user_data.NpcMotionPackage": {
+      "index": 6,
+      "_BaseMotionPack": {
+        "app.user_data.NpcMotionBasePack": {
+          "index": 1,
+          "path": "GameDesign/NPC/CommonData/MotionPack/BasePack/Base_Ground.user"
+        }
+      },
+      "_JobMotionPack": {
+        "app.user_data.NpcMotionJobPack": {
+          "index": 2,
+          "path": "GameDesign/NPC/CommonData/MotionPack/JobPack/em1003/em1003_LyingDown.user"
+        }
+      },
+      "_HoldMotionPack": {
+        "": {
+          "index": 0
+        }
+      },
+      "_IsUseMirror": false,
+      "_VariationSetting": {
+        "app.user_data.NpcMotionPackage.VariationMotionSetting": {
+          "index": 3,
+          "_IsNoUseVariation": true,
+          "_LoopCount_Var1": 4,
+          "_LoopCount_Var2": 4,
+          "_LoopCount_Var3": 4,
+          "_LoopCount_Var4": 4
+        }
+      },
+      "_GimmickOption": {
+        "app.user_data.NpcMotionPackage.GimmickOption": {
+          "index": 4,
+          "_GimmickLinkType": -1,
+          "STRUCT__PosOffsetFromGimmick__HasValue": false,
+          "STRUCT__PosOffsetFromGimmick__Value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "STRUCT__RotOffsetFromGimmick__HasValue": false,
+          "STRUCT__RotOffsetFromGimmick__Value": 0.0
+        }
+      },
+      "_IsSyncMotionFrame": false,
+      "_IsSyncRiderMotion": false,
+      "_SoundRangeOption": {
+        "app.user_data.NpcMotionPackage.cSoundRangeOption": {
+          "index": 5,
+          "_IsUseSoundRange": false
+        }
+      }
+    }
+  }
+]

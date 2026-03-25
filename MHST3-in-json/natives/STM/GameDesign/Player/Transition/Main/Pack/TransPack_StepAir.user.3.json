@@ -1,0 +1,33 @@
+[
+  {
+    "app.user_data.ActionTransitionDataPack": {
+      "index": 5,
+      "_Pack": [
+        {
+          "app.user_data.ActionTransitionSingleCommand": {
+            "index": 1,
+            "path": "GameDesign/Player/Transition/Main/Command/Cmd_StepSSAir_StepSSAir.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCommand": {
+            "index": 2,
+            "path": "GameDesign/Player/Transition/Main/Command/Cmd_StepSLAir_StepSLAir.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCommand": {
+            "index": 3,
+            "path": "GameDesign/Player/Transition/Main/Command/Cmd_StepMAir_StepMAir.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCommand": {
+            "index": 4,
+            "path": "GameDesign/Player/Transition/Main/Command/Cmd_StepLAir_StepLAir.user"
+          }
+        }
+      ]
+    }
+  }
+]

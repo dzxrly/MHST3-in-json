@@ -1,0 +1,86 @@
+[
+  {
+    "app.user_data.HairAdjustParam": {
+      "index": 6,
+      "_IsNotDrawHair": true,
+      "JointParamList": [
+        {
+          "app.user_data.HairAdjustParam.JointParam": {
+            "index": 2,
+            "IsEnable": true,
+            "TargetJoint": "Hair_EX_01",
+            "TargetJointNameHash": {
+              "ace.cJointHash": {
+                "index": 1,
+                "_Hash": 0
+              }
+            },
+            "Position": [
+              0.0054200878366827965,
+              -0.03265388309955597,
+              0.00106025580316782,
+              0.0
+            ],
+            "Rotation": [
+              -0.06513334810733795,
+              -4.611181793734431e-06,
+              -1.0058283805847168e-06,
+              -0.9978775978088379
+            ],
+            "Scale": [
+              1.0,
+              0.4000000059604645,
+              0.6000000238418579,
+              0.0
+            ]
+          }
+        },
+        {
+          "app.user_data.HairAdjustParam.JointParam": {
+            "index": 4,
+            "IsEnable": true,
+            "TargetJoint": "Hair_EX_05",
+            "TargetJointNameHash": {
+              "ace.cJointHash": {
+                "index": 3,
+                "_Hash": 0
+              }
+            },
+            "Position": [
+              0.004999999888241291,
+              -0.01730000041425228,
+              -0.018330000340938568,
+              0.0
+            ],
+            "Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "Scale": [
+              1.0,
+              1.0,
+              0.800000011920929,
+              0.0
+            ]
+          }
+        }
+      ],
+      "_ChainParamList": [
+        {
+          "app.user_data.HairAdjustParam.ChainParam": {
+            "index": 5,
+            "IsEnable": true,
+            "ConstNodeNo": 3,
+            "BlendRate": 1.0
+          }
+        }
+      ],
+      "ChainAllOff": false,
+      "_IsReplaceHair": false,
+      "_ReplaceTiming": 0,
+      "_ReplaceHairID": 299956384
+    }
+  }
+]

@@ -1,0 +1,1 @@
+python main.py --input-dir ./user.3 -s rszmhst3.json --output-dir ./MHST3-in-json

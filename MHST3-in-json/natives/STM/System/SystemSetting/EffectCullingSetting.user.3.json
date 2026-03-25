@@ -1,0 +1,41 @@
+[
+  {
+    "app.user_data.EffectCullingSetting": {
+      "index": 5,
+      "_Data": {
+        "app.cEnumerableParam`2<app.EffectDef.CULLING_LEVEL_Fixed,app.user_data.ContextCullingSetting`3.cLevelParam<app.EffectDef.CULLING_LEVEL_Fixed,app.EffectDef.CULLING_CATEGORY_Fixed,app.user_data.EffectCullingSetting.cCategoryParam>>": {
+          "index": 4,
+          "_ParamList": [
+            {
+              "app.user_data.ContextCullingSetting`3.cLevelParam<app.EffectDef.CULLING_LEVEL_Fixed,app.EffectDef.CULLING_CATEGORY_Fixed,app.user_data.EffectCullingSetting.cCategoryParam>": {
+                "index": 3,
+                "EnumValue": 24303,
+                "_CategoryData": {
+                  "app.cEnumerableParam`2<app.EffectDef.CULLING_CATEGORY_Fixed,app.user_data.EffectCullingSetting.cCategoryParam>": {
+                    "index": 2,
+                    "_ParamList": [
+                      {
+                        "app.user_data.EffectCullingSetting.cCategoryParam": {
+                          "index": 1,
+                          "EnumValue": 29372,
+                          "_Enable": true,
+                          "_IsUseDistanceCulling": true,
+                          "_DistType": 0,
+                          "_Dist": 200.0,
+                          "_Margin": 0.0,
+                          "_IsUseCheckInFrustum": false,
+                          "_IsUseOcclusionCulling": false,
+                          "_DefaultValue": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

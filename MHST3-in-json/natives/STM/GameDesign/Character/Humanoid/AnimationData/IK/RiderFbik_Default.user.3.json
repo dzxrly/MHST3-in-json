@@ -1,0 +1,777 @@
+[
+  {
+    "app.user_data.HumanoidFbikInertialSimulateParameter": {
+      "index": 45,
+      "_BodyAccPid": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter.PidParam": {
+          "index": 1,
+          "_Kp": 1.0,
+          "_Ki": 0.0,
+          "_Kd": 0.0,
+          "_AccumErrorRate": 0.0,
+          "_AccumErrorDecay": 0.0
+        }
+      },
+      "_LimbAccPid": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter.PidParam": {
+          "index": 2,
+          "_Kp": 1.0,
+          "_Ki": 0.0,
+          "_Kd": 0.0,
+          "_AccumErrorRate": 0.0,
+          "_AccumErrorDecay": 0.0
+        }
+      },
+      "_VelPid": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter.PidParam": {
+          "index": 3,
+          "_Kp": 1.0,
+          "_Ki": 0.0,
+          "_Kd": 0.0,
+          "_AccumErrorRate": 0.0,
+          "_AccumErrorDecay": 0.0
+        }
+      },
+      "_HeadSmoothing": 0.0,
+      "_RootSettings": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter.NodeParam": {
+          "index": 6,
+          "_AccApplier": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+              "index": 4,
+              "_RatioX": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioY": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioZ": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "_VelApplier": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+              "index": 5,
+              "_RatioX": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioY": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioZ": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "_Limits": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "_UpperBodySettings": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter.BodyParam": {
+          "index": 9,
+          "_AccApplier": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+              "index": 7,
+              "_RatioX": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioY": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioZ": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "_VelApplier": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+              "index": 8,
+              "_RatioX": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioY": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioZ": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "_Limits": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "_LowerBodySettings": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter.BodyParam": {
+          "index": 12,
+          "_AccApplier": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+              "index": 10,
+              "_RatioX": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioY": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioZ": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "_VelApplier": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+              "index": 11,
+              "_RatioX": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioY": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_RatioZ": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "_Limits": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "_LeftArmSettings": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter.LimbParam": {
+          "index": 20,
+          "_ConstTargetJointName": {
+            "ace.cJointHash": {
+              "index": 13,
+              "_Hash": 3889292925
+            }
+          },
+          "_EndOffset": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ElbowSettings": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.NodeParam": {
+              "index": 16,
+              "_AccApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 14,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_VelApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 15,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_Limits": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "_EndSettings": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.NodeParam": {
+              "index": 19,
+              "_AccApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 17,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_VelApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 18,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_Limits": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      },
+      "_RightArmSettings": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter.LimbParam": {
+          "index": 28,
+          "_ConstTargetJointName": {
+            "ace.cJointHash": {
+              "index": 21,
+              "_Hash": 2595698164
+            }
+          },
+          "_EndOffset": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ElbowSettings": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.NodeParam": {
+              "index": 24,
+              "_AccApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 22,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_VelApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 23,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_Limits": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "_EndSettings": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.NodeParam": {
+              "index": 27,
+              "_AccApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 25,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_VelApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 26,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_Limits": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      },
+      "_LeftLegSettings": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter.LimbParam": {
+          "index": 36,
+          "_ConstTargetJointName": {
+            "ace.cJointHash": {
+              "index": 29,
+              "_Hash": 896651803
+            }
+          },
+          "_EndOffset": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ElbowSettings": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.NodeParam": {
+              "index": 32,
+              "_AccApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 30,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_VelApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 31,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_Limits": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "_EndSettings": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.NodeParam": {
+              "index": 35,
+              "_AccApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 33,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_VelApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 34,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_Limits": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      },
+      "_RightLegSettings": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter.LimbParam": {
+          "index": 44,
+          "_ConstTargetJointName": {
+            "ace.cJointHash": {
+              "index": 37,
+              "_Hash": 1817782392
+            }
+          },
+          "_EndOffset": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ElbowSettings": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.NodeParam": {
+              "index": 40,
+              "_AccApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 38,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_VelApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 39,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_Limits": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "_EndSettings": {
+            "app.user_data.HumanoidFbikInertialSimulateParameter.NodeParam": {
+              "index": 43,
+              "_AccApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 41,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_VelApplier": {
+                "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
+                  "index": 42,
+                  "_RatioX": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioY": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "_RatioZ": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "_Limits": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+]

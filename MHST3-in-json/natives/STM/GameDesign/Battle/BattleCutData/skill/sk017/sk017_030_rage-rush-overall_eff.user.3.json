@@ -1,0 +1,238 @@
+[
+  {
+    "app.user_data.BattleCutEffectData": {
+      "index": 18,
+      "_HitInfo": {
+        "app.user_data.BattleCutEffectData.cHitInfo": {
+          "index": 3,
+          "_HitType": 1,
+          "_HitParams": [
+            {
+              "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
+                "index": 2,
+                "_EffHitInfoType": {
+                  "app.BattleDef.EFF_HIT_INFO_TYPE_Serializable": {
+                    "index": 1,
+                    "value": 100953136
+                  }
+                },
+                "_Frame": 15.0
+              }
+            }
+          ]
+        }
+      },
+      "_SimpleEffectInfos": [
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "index": 5,
+            "_ContainerID": {
+              "app.ContainerID.ID_Serializable": {
+                "index": 4,
+                "value": 1021330314
+              }
+            },
+            "_ElementID": 1,
+            "_EffCreateType": 1,
+            "_Frame": 21.0,
+            "_Offset": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": "R_eye"
+          }
+        },
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "index": 7,
+            "_ContainerID": {
+              "app.ContainerID.ID_Serializable": {
+                "index": 6,
+                "value": 1021330314
+              }
+            },
+            "_ElementID": 3,
+            "_EffCreateType": 1,
+            "_Frame": 31.0,
+            "_Offset": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": "chest"
+          }
+        },
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "index": 9,
+            "_ContainerID": {
+              "app.ContainerID.ID_Serializable": {
+                "index": 8,
+                "value": 1021330314
+              }
+            },
+            "_ElementID": 2,
+            "_EffCreateType": 1,
+            "_Frame": 63.0,
+            "_Offset": [
+              -2.0,
+              0.0,
+              -3.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": ""
+          }
+        },
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "index": 11,
+            "_ContainerID": {
+              "app.ContainerID.ID_Serializable": {
+                "index": 10,
+                "value": -876639273
+              }
+            },
+            "_ElementID": 1,
+            "_EffCreateType": 1,
+            "_Frame": 116.0,
+            "_Offset": [
+              0.0,
+              0.0,
+              -5.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": "unit"
+          }
+        }
+      ],
+      "_SimpleEffectInfos_Next": [
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "index": 13,
+            "_ContainerID": {
+              "app.ContainerID.ID_Serializable": {
+                "index": 12,
+                "value": -876639273
+              }
+            },
+            "_ElementID": 1,
+            "_EffCreateType": 0,
+            "_Frame": 0.0,
+            "_Offset": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": ""
+          }
+        },
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "index": 15,
+            "_ContainerID": {
+              "app.ContainerID.ID_Serializable": {
+                "index": 14,
+                "value": -876639273
+              }
+            },
+            "_ElementID": 1,
+            "_EffCreateType": 0,
+            "_Frame": 21.0,
+            "_Offset": [
+              0.0,
+              0.0,
+              15.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": ""
+          }
+        }
+      ],
+      "_ShellInfo": {
+        "app.user_data.BattleCutEffectData.cShellInfo": {
+          "index": 17,
+          "_IsActive": false,
+          "_Frame": 0.0,
+          "_ContainerID": {
+            "app.ContainerID.ID_Serializable": {
+              "index": 16,
+              "value": 1281779328
+            }
+          },
+          "_ElementID": 0,
+          "_MoveType": 0,
+          "_StartPos": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_StartJointName": "",
+          "_Acceleration": 1.0,
+          "_FirstSpeed": 0.0,
+          "_Gravity": 0.0,
+          "_PassPoint": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ReachFrame": 0.0,
+          "_Hidden": false,
+          "_NextPassPoint": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_NextPassJointName": "",
+          "_NextReachFrame": 0.0,
+          "_NextSpeedOverwrite": false,
+          "_NextFirstSpeed": 0.0,
+          "_NextAcceleration": 1.0,
+          "_NextGravity": 0.0
+        }
+      }
+    }
+  }
+]

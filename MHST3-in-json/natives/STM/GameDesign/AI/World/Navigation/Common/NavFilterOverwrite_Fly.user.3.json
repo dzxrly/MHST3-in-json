@@ -1,0 +1,68 @@
+[
+  {
+    "ace.user_data.NavFilterOverwriteUserData": {
+      "index": 7,
+      "_NavData": [
+        {
+          "ace.navigation.cNavFilterOverwriteData": {
+            "index": 6,
+            "_Filters": {
+              "ace.navigation.cNavFiltersContainerData": {
+                "index": 5,
+                "_AttributeAsset": {
+                  "via.navigation.MapAttributeHandle": {
+                    "index": 1,
+                    "v0": "System/AIMap/Attribute/AIMapAttribute_NaviSurface.aimapattr"
+                  }
+                },
+                "_Filters": [
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 2,
+                      "_Enabled": true,
+                      "_Bit": 5,
+                      "_FilterType": 0,
+                      "_Cost": 1.0,
+                      "_NotifyAround": false,
+                      "_NotifyContainsLink": false,
+                      "_NotifyDistance": 0.0,
+                      "_TraceDestination": 0
+                    }
+                  },
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 3,
+                      "_Enabled": true,
+                      "_Bit": 3,
+                      "_FilterType": 0,
+                      "_Cost": 1.0,
+                      "_NotifyAround": false,
+                      "_NotifyContainsLink": false,
+                      "_NotifyDistance": 0.0,
+                      "_TraceDestination": 0
+                    }
+                  },
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 4,
+                      "_Enabled": true,
+                      "_Bit": 7,
+                      "_FilterType": 0,
+                      "_Cost": 1.0,
+                      "_NotifyAround": false,
+                      "_NotifyContainsLink": false,
+                      "_NotifyDistance": 0.0,
+                      "_TraceDestination": 0
+                    }
+                  }
+                ],
+                "_CostValueType": 1
+              }
+            },
+            "_Type": 0
+          }
+        }
+      ]
+    }
+  }
+]

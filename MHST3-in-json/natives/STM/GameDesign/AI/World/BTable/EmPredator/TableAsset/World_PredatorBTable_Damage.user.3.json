@@ -1,0 +1,129 @@
+[
+  {
+    "ace.btable.user_data.BTable": {
+      "index": 22,
+      "_Tables": {
+        "ace.cInstanceGuidArray`1<ace.btable.user_data.BTable.cTableElement>": {
+          "index": 18,
+          "_DataArray": [
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "index": 17,
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "index": 5,
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {
+                          "index": 1
+                        }
+                      },
+                      "_CommandHash": 10300246910952600694,
+                      "_CommandArgument": {
+                        "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
+                          "index": 4,
+                          "_EnumFixed": {
+                            "index": 2
+                          },
+                          "_IsRetraceNavigation": {
+                            "index": 3
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "index": 9,
+                      "_OperatorHash": 667832976455454077,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJumpToImportBTable": {
+                          "index": 7,
+                          "_EditImportBTableGuid": {
+                            "index": 6
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {
+                          "index": 8
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "index": 13,
+                      "_OperatorHash": 667832976455454077,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJumpToImportBTable": {
+                          "index": 11,
+                          "_EditImportBTableGuid": {
+                            "index": 10
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {
+                          "index": 12
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "index": 16,
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {
+                          "index": 14
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {
+                          "index": 15
+                        }
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "67ba7cea-89b5-4c87-8e63-240eee7f16bd"
+              }
+            }
+          ]
+        }
+      },
+      "_ImportBTableList": [
+        {
+          "ace.btable.user_data.BTable": {
+            "index": 19,
+            "path": "GameDesign/AI/World/BTable/Enemy/TableAsset/World_EnemyBTable_Move.user"
+          }
+        },
+        {
+          "ace.btable.user_data.BTable": {
+            "index": 20,
+            "path": "GameDesign/AI/World/BTable/Enemy/TableAsset/World_EnemyBTable_ActionDictionary.user"
+          }
+        }
+      ],
+      "_OrderBank": {
+        "ace.btable.user_data.BTableOrderBank": {
+          "index": 21,
+          "path": "GameDesign/AI/World/BTable/EmPredator/SettingData/World_PredatorBTableOrderBank.user"
+        }
+      },
+      "_ThisGuid": "4239a362-313b-0060-013e-dd4f8595045c",
+      "_ExportBTableType": {
+        "raw": "27000000",
+        "type": "RuntimeType"
+      },
+      "_CommandArgArray": [],
+      "_UseExportArgData": true
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "app.user_data.HairAdjustParam": {
+      "index": 6,
+      "_IsNotDrawHair": false,
+      "JointParamList": [
+        {
+          "app.user_data.HairAdjustParam.JointParam": {
+            "index": 2,
+            "IsEnable": true,
+            "TargetJoint": "Hair_EX_01",
+            "TargetJointNameHash": {
+              "ace.cJointHash": {
+                "index": 1,
+                "_Hash": 0
+              }
+            },
+            "Position": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "Scale": [
+              1.0,
+              1.0,
+              0.5625783801078796,
+              0.0
+            ]
+          }
+        },
+        {
+          "app.user_data.HairAdjustParam.JointParam": {
+            "index": 4,
+            "IsEnable": true,
+            "TargetJoint": "Hair_EX_05",
+            "TargetJointNameHash": {
+              "ace.cJointHash": {
+                "index": 3,
+                "_Hash": 0
+              }
+            },
+            "Position": [
+              0.002187020843848586,
+              5.465790309244767e-08,
+              -0.004735987633466721,
+              0.0
+            ],
+            "Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "Scale": [
+              1.0,
+              1.0,
+              0.18337132036685944,
+              0.0
+            ]
+          }
+        }
+      ],
+      "_ChainParamList": [
+        {
+          "app.user_data.HairAdjustParam.ChainParam": {
+            "index": 5,
+            "IsEnable": true,
+            "ConstNodeNo": 3,
+            "BlendRate": 1.0
+          }
+        }
+      ],
+      "ChainAllOff": false,
+      "_IsReplaceHair": false,
+      "_ReplaceTiming": 0,
+      "_ReplaceHairID": 299956384
+    }
+  }
+]

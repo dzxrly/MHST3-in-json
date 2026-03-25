@@ -1,0 +1,147 @@
+[
+  {
+    "ace.user_data.NavUserData": {
+      "index": 13,
+      "_NavData": [
+        {
+          "ace.navigation.cNavMeshComponentData": {
+            "index": 12,
+            "_Filters": {
+              "ace.navigation.cNavFiltersContainerData": {
+                "index": 11,
+                "_AttributeAsset": {
+                  "via.navigation.MapAttributeHandle": {
+                    "index": 1,
+                    "v0": "System/AIMap/Attribute/AIMapAttribute_NaviSurface.aimapattr"
+                  }
+                },
+                "_Filters": [
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 2,
+                      "_Enabled": true,
+                      "_Bit": 0,
+                      "_FilterType": 3,
+                      "_Cost": 0.0,
+                      "_NotifyAround": true,
+                      "_NotifyContainsLink": false,
+                      "_NotifyDistance": 2.0,
+                      "_TraceDestination": 0
+                    }
+                  },
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 3,
+                      "_Enabled": true,
+                      "_Bit": 3,
+                      "_FilterType": 0,
+                      "_Cost": 1.7999999523162842,
+                      "_NotifyAround": true,
+                      "_NotifyContainsLink": true,
+                      "_NotifyDistance": 3.0,
+                      "_TraceDestination": 0
+                    }
+                  },
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 4,
+                      "_Enabled": true,
+                      "_Bit": 5,
+                      "_FilterType": 0,
+                      "_Cost": 1.2999999523162842,
+                      "_NotifyAround": true,
+                      "_NotifyContainsLink": true,
+                      "_NotifyDistance": 2.0,
+                      "_TraceDestination": 0
+                    }
+                  },
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 5,
+                      "_Enabled": true,
+                      "_Bit": 4,
+                      "_FilterType": 0,
+                      "_Cost": 2.0,
+                      "_NotifyAround": true,
+                      "_NotifyContainsLink": false,
+                      "_NotifyDistance": 10.0,
+                      "_TraceDestination": 0
+                    }
+                  },
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 6,
+                      "_Enabled": true,
+                      "_Bit": 10,
+                      "_FilterType": 3,
+                      "_Cost": 0.0,
+                      "_NotifyAround": true,
+                      "_NotifyContainsLink": true,
+                      "_NotifyDistance": 2.0,
+                      "_TraceDestination": 0
+                    }
+                  },
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 7,
+                      "_Enabled": true,
+                      "_Bit": 31,
+                      "_FilterType": 0,
+                      "_Cost": 2.5,
+                      "_NotifyAround": true,
+                      "_NotifyContainsLink": true,
+                      "_NotifyDistance": 10.0,
+                      "_TraceDestination": 0
+                    }
+                  },
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 8,
+                      "_Enabled": true,
+                      "_Bit": 2,
+                      "_FilterType": 0,
+                      "_Cost": 3.0,
+                      "_NotifyAround": true,
+                      "_NotifyContainsLink": false,
+                      "_NotifyDistance": 4.0,
+                      "_TraceDestination": 0
+                    }
+                  },
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 9,
+                      "_Enabled": true,
+                      "_Bit": 1,
+                      "_FilterType": 0,
+                      "_Cost": 2.0,
+                      "_NotifyAround": true,
+                      "_NotifyContainsLink": true,
+                      "_NotifyDistance": 3.0,
+                      "_TraceDestination": 0
+                    }
+                  },
+                  {
+                    "ace.navigation.cNavFilterData": {
+                      "index": 10,
+                      "_Enabled": true,
+                      "_Bit": 12,
+                      "_FilterType": 3,
+                      "_Cost": 1.0,
+                      "_NotifyAround": false,
+                      "_NotifyContainsLink": false,
+                      "_NotifyDistance": 0.0,
+                      "_TraceDestination": 0
+                    }
+                  }
+                ],
+                "_CostValueType": 2
+              }
+            },
+            "_NotifyAroundVerticalEdge": false,
+            "_NotifyVerticalEdgeDistance": 0.10000000149011612
+          }
+        }
+      ]
+    }
+  }
+]

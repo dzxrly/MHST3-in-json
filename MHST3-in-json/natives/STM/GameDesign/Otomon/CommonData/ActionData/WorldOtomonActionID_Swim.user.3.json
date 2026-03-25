@@ -1,0 +1,238 @@
+[
+  {
+    "ace.user_data.ActionID": {
+      "index": 23,
+      "_ActionIDArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
+          "index": 19,
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 1,
+                "_Class": "cNone",
+                "_InstanceGuid": "fc51ca5b-1c49-4c94-b09a-221efe57f139",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+                "_LowerGuid": "574d71df-058d-4017-b96f-f995ffd03a70"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 2,
+                "_Class": "cSwimIdle",
+                "_InstanceGuid": "574d71df-058d-4017-b96f-f995ffd03a70",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "fc51ca5b-1c49-4c94-b09a-221efe57f139",
+                "_LowerGuid": "af415ae4-b8f3-45c3-94a1-9987a569bb97"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 3,
+                "_Class": "cSwimMove",
+                "_InstanceGuid": "af415ae4-b8f3-45c3-94a1-9987a569bb97",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "574d71df-058d-4017-b96f-f995ffd03a70",
+                "_LowerGuid": "ffc9b06b-9d8d-4fee-8f5f-a356de74ab21"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 4,
+                "_Class": "cTopSpeedSwim",
+                "_InstanceGuid": "ffc9b06b-9d8d-4fee-8f5f-a356de74ab21",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "af415ae4-b8f3-45c3-94a1-9987a569bb97",
+                "_LowerGuid": "c985b488-4349-43f1-b1de-70cd537afd6c"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 5,
+                "_Class": "cSwimMoveSlow",
+                "_InstanceGuid": "c985b488-4349-43f1-b1de-70cd537afd6c",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "ffc9b06b-9d8d-4fee-8f5f-a356de74ab21",
+                "_LowerGuid": "cd5071ff-fcf3-4642-9daa-768dfa0e6690"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 6,
+                "_Class": "cSwimJump",
+                "_InstanceGuid": "cd5071ff-fcf3-4642-9daa-768dfa0e6690",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "c985b488-4349-43f1-b1de-70cd537afd6c",
+                "_LowerGuid": "18d88c90-a8e9-450a-8f10-478dcdd9fd31"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 7,
+                "_Class": "cSwimStandJump",
+                "_InstanceGuid": "18d88c90-a8e9-450a-8f10-478dcdd9fd31",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "cd5071ff-fcf3-4642-9daa-768dfa0e6690",
+                "_LowerGuid": "d99fadc1-a779-4905-836b-c2db680e9b7a"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 8,
+                "_Class": "cSwimFall",
+                "_InstanceGuid": "d99fadc1-a779-4905-836b-c2db680e9b7a",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "18d88c90-a8e9-450a-8f10-478dcdd9fd31",
+                "_LowerGuid": "a67fd1e3-8cfc-4bad-8306-bb84ffbd3820"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 9,
+                "_Class": "cSwimBless",
+                "_InstanceGuid": "a67fd1e3-8cfc-4bad-8306-bb84ffbd3820",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "d99fadc1-a779-4905-836b-c2db680e9b7a",
+                "_LowerGuid": "47a43c66-f3d4-4b19-a424-d79a026f346e"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 10,
+                "_Class": "cDiveStart",
+                "_InstanceGuid": "47a43c66-f3d4-4b19-a424-d79a026f346e",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "a67fd1e3-8cfc-4bad-8306-bb84ffbd3820",
+                "_LowerGuid": "dbf04aa1-91ae-4b4d-b1ac-84e4fa04f045"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 11,
+                "_Class": "cSwimFinish",
+                "_InstanceGuid": "dbf04aa1-91ae-4b4d-b1ac-84e4fa04f045",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "47a43c66-f3d4-4b19-a424-d79a026f346e",
+                "_LowerGuid": "68514c4c-1f14-47af-b416-6829364068a8"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 12,
+                "_Class": "cDiveStartFall",
+                "_InstanceGuid": "68514c4c-1f14-47af-b416-6829364068a8",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "dbf04aa1-91ae-4b4d-b1ac-84e4fa04f045",
+                "_LowerGuid": "c8e52211-dff4-41e6-a610-a549d8aaa8bd"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 13,
+                "_Class": "cSwimFinishFall",
+                "_InstanceGuid": "c8e52211-dff4-41e6-a610-a549d8aaa8bd",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "68514c4c-1f14-47af-b416-6829364068a8",
+                "_LowerGuid": "ea5bfa47-d1cb-43ed-ae93-68b09400bd0b"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 14,
+                "_Class": "cInitSwimIdle",
+                "_InstanceGuid": "ea5bfa47-d1cb-43ed-ae93-68b09400bd0b",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "c8e52211-dff4-41e6-a610-a549d8aaa8bd",
+                "_LowerGuid": "e4ed144b-41a0-4e5c-aefa-92919ffaf9bb"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 15,
+                "_Class": "cSwimTurn",
+                "_InstanceGuid": "e4ed144b-41a0-4e5c-aefa-92919ffaf9bb",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "ea5bfa47-d1cb-43ed-ae93-68b09400bd0b",
+                "_LowerGuid": "4370a453-83e5-4aa7-abc2-0a98d87caa52"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 16,
+                "_Class": "cSwimTargetJump",
+                "_InstanceGuid": "4370a453-83e5-4aa7-abc2-0a98d87caa52",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "e4ed144b-41a0-4e5c-aefa-92919ffaf9bb",
+                "_LowerGuid": "06e9267f-69fb-4a0a-9e71-e522e16bd6a2"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 17,
+                "_Class": "cSwimPopAccess",
+                "_InstanceGuid": "06e9267f-69fb-4a0a-9e71-e522e16bd6a2",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "4370a453-83e5-4aa7-abc2-0a98d87caa52",
+                "_LowerGuid": "5ba2ed40-ea10-479d-b6d2-c53ee0622181"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "index": 18,
+                "_Class": "cInitSwimRun",
+                "_InstanceGuid": "5ba2ed40-ea10-479d-b6d2-c53ee0622181",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "06e9267f-69fb-4a0a-9e71-e522e16bd6a2",
+                "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+              }
+            }
+          ]
+        }
+      },
+      "_ExportSettingArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
+          "index": 21,
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cExport": {
+                "index": 20,
+                "_Guid": "1bf79cef-1746-4449-8883-02791a09825d",
+                "_ClassName": "WorldOtomonAction_Swim",
+                "_ActionCategory": 3
+              }
+            }
+          ]
+        }
+      },
+      "_BaseActionID": {
+        "ace.cActionIDHolder": {
+          "index": 22,
+          "_ActionID": {
+            "": {
+              "index": 0
+            }
+          },
+          "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    }
+  }
+]

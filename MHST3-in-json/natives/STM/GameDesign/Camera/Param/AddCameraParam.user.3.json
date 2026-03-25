@@ -1,0 +1,78 @@
+[
+  {
+    "ace.user_data.CameraParamDataCollectionList": {
+      "index": 8,
+      "_conditionClass": {
+        "ace.user_data.CameraParamDataCollectionList.cInterpolationConditionalBase": {
+          "index": 1
+        }
+      },
+      "_CameraParamDataCollections": [
+        {
+          "ace.user_data.CameraParamDataCollectionList.cCameraParamDataCollection": {
+            "index": 7,
+            "_CameraParamDataCollection": [
+              {
+                "app.cCameraParamData_AppDefault": {
+                  "index": 6,
+                  "_IsUseOutInterpolation": false,
+                  "_CameraParamArgument": {
+                    "app.cCameraParamArgThirdPerson": {
+                      "index": 3,
+                      "FOV": -10.0,
+                      "RollDegree": 0.0,
+                      "AttachOfs": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "AttachDeg": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "FollowRot": false,
+                      "AttachJoint": {
+                        "ace.cJointHash": {
+                          "index": 2,
+                          "_Hash": 2180083513
+                        }
+                      },
+                      "AttachObject": {
+                        "": {
+                          "index": 0
+                        }
+                      }
+                    }
+                  },
+                  "_InInterpolationParam": {
+                    "ace.user_data.CameraParamDataCollectionList.cInterpolationParam_Priority": {
+                      "index": 4,
+                      "_EaseType": 6,
+                      "_Time": 0.0,
+                      "_Priority": 0
+                    }
+                  },
+                  "_OutInterpolationParam": {
+                    "ace.user_data.CameraParamDataCollectionList.cInterpolationParam_Priority": {
+                      "index": 5,
+                      "_EaseType": 6,
+                      "_Time": 0.5,
+                      "_Priority": 0
+                    }
+                  },
+                  "_InterpolationConditionType": 0,
+                  "_InstanceGuid": "fcd51568-ef49-4fa4-ac72-37f85069f84d",
+                  "_IsAim": false,
+                  "_IsRide": false
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

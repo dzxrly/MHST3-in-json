@@ -1,0 +1,131 @@
+[
+  {
+    "app.user_data.BattleManagerSetting": {
+      "index": 21,
+      "_BattleCommonParam": {
+        "app.user_data.BattleGlobalParamData": {
+          "index": 1,
+          "path": "GameDesign/Battle/CommonData/Data/BattleGlobalParamData.user"
+        }
+      },
+      "_BattleFsmPrefab": {
+        "via.Prefab": {
+          "index": 2,
+          "v0": {
+            "raw": "01",
+            "type": "Data"
+          },
+          "v1": "GameDesign/Battle/_Prefab/BattleFSM.pfb"
+        }
+      },
+      "_VariationSkillParamList": {
+        "app.user_data.VariationSkillParamList": {
+          "index": 3,
+          "path": "GameDesign/Battle/CommonData/Data/Skill/VariationSkillParamList.user"
+        }
+      },
+      "_MelodyData": {
+        "app.user_data.MelodyData": {
+          "index": 4,
+          "path": "GameDesign/Equip/CommonData/Data/Melody/MelodyData.user"
+        }
+      },
+      "_BottleData": {
+        "app.user_data.BowBottleData": {
+          "index": 5,
+          "path": "GameDesign/Battle/CommonData/Data/Weapon/BowBottleData.user"
+        }
+      },
+      "_StatusData": {
+        "app.user_data.BattleStatusData": {
+          "index": 6,
+          "path": "GameDesign/Battle/CommonData/Data/BattleStatusData.user"
+        }
+      },
+      "_OtomonAIParam": {
+        "app.user_data.Battle_OtomonAIParamV2": {
+          "index": 7,
+          "path": "GameDesign/AI/Battle/Otomon/UserData/Battle_OtomonAIParamV2.user"
+        }
+      },
+      "_PartnerAIParamSetting": {
+        "app.user_data.Battle_PnAIParamSettings_v2": {
+          "index": 8,
+          "path": "GameDesign/AI/Battle/Partner/UserData/Battle_PnAIParamSettings_v2.user"
+        }
+      },
+      "_BattleResultBonusData": {
+        "app.user_data.BattleResultBonusData": {
+          "index": 9,
+          "path": "GameDesign/Battle/CommonData/Data/BattleResultBonusData.user"
+        }
+      },
+      "_BattleEffHitInfo": {
+        "app.user_data.BattleEffHitInfo": {
+          "index": 10,
+          "path": "GameDesign/Battle/CommonData/Data/BattleEffHitInfo.user"
+        }
+      },
+      "_StatusEffectData": {
+        "app.user_data.BattleStatusEffectData": {
+          "index": 11,
+          "path": "GameDesign/Battle/CommonData/Data/BattleStatusEffectData.user"
+        }
+      },
+      "_EnvEffectSetting": {
+        "app.user_data.BattleEnvEffectSetting": {
+          "index": 12,
+          "path": "GameDesign/Battle/CommonData/Data/BattleEnvEffectSetting.user"
+        }
+      },
+      "_WaitCameraWorkData": {
+        "ace.user_data.CameraWorkData": {
+          "index": 13,
+          "path": "GameDesign/Camera/CameraWork/BattleWaitCmdCameraWork.user"
+        }
+      },
+      "_LoreActionCutPack": {
+        "app.user_data.LoreBattleActionPack": {
+          "index": 14,
+          "path": "GameDesign/Battle/CommonData/Data/LoreActionData/Pack/LoreBattleActionPack.user"
+        }
+      },
+      "_BattleCutInParamData": {
+        "app.user_data.BattleCutInParamData": {
+          "index": 15,
+          "path": "GameDesign/Battle/CommonData/Data/BattleCutInParamData.user"
+        }
+      },
+      "_BattleCutShellList": {
+        "ace.user_data.ShellList": {
+          "index": 16,
+          "path": "GameDesign/Shell/List/BattleCutShellList.user"
+        }
+      },
+      "SideStoryRewardData": {
+        "app.user_data.BattleQuestRewardData": {
+          "index": 17,
+          "path": "GameDesign/Battle/CommonData/Data/SideStoryRewardData.user"
+        }
+      },
+      "SubQuestRewardData": {
+        "app.user_data.BattleQuestRewardData": {
+          "index": 18,
+          "path": "GameDesign/Battle/CommonData/Data/SubQuestRewardData.user"
+        }
+      },
+      "RewardParam": {
+        "app.user_data.BattleRewardParam": {
+          "index": 19,
+          "path": "GameDesign/Battle/CommonData/Data/BattleRewardParam.user"
+        }
+      },
+      "SpecialRewardData": {
+        "app.BattleSpecialRewardData": {
+          "index": 20,
+          "path": "GameDesign/Battle/CommonData/Data/BattleSpecialRewardData.user"
+        }
+      }
+    }
+  }
+]

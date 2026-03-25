@@ -1,0 +1,115 @@
+[
+  {
+    "app.user_data.MissionDemoData": {
+      "index": 13,
+      "_MissionDemoID": 29,
+      "_IsCreateAnimal": false,
+      "_PlayerSetting": {
+        "app.user_data.MissionDemoData.cPlayerSetting": {
+          "index": 1,
+          "_Position": [
+            124.78131103515625,
+            73.71652221679688,
+            248.24746704101562,
+            0.0
+          ],
+          "_Rotation": [
+            -0.0,
+            -0.621250331401825,
+            0.0,
+            0.7836121320724487
+          ],
+          "_IsKeepPosRot": false,
+          "_DisableLookAt": true
+        }
+      },
+      "_NpcSettings": [
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "index": 2,
+            "_Position": [
+              124.07196807861328,
+              73.7042236328125,
+              247.37437438964844,
+              0.0
+            ],
+            "_Rotation": [
+              -0.0,
+              -0.6665537357330322,
+              0.0,
+              0.7454569935798645
+            ],
+            "_NpcID": -1325867904,
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        }
+      ],
+      "_EnemySettings": [],
+      "_CameraWorkData": {
+        "ace.user_data.CameraWorkData": {
+          "index": 3,
+          "path": "GameDesign/Story/Common/MissionDemo/PM_2A_029/MissionCameraWorkData_PM_2A_029.user"
+        }
+      },
+      "_FirstCameraGroupGuid": "95427741-c917-0dd0-3f17-ffddaa490ccb",
+      "_ActionSettings": [
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "index": 6,
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "index": 5,
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "index": 4,
+                      "_MessageTextId": "b17a0223-758b-407f-bee4-fc727924ffcb"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "index": 9,
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "index": 8,
+                  "_Action": {
+                    "app.cMissionDemoActionCameraWork": {
+                      "index": 7,
+                      "_CameraGroupGuid": "e6c2265f-da48-4c7d-ae51-f0af51b02fc7"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "index": 12,
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "index": 11,
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "index": 10,
+                      "_MessageTextId": "7dfc1df4-f184-4ee3-b9d5-50295a0dcc43"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_HighQualityGraphicsOBBs": []
+    }
+  }
+]

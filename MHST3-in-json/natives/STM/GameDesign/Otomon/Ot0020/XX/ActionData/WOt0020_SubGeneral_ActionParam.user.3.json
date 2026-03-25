@@ -1,0 +1,252 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "index": 25,
+      "_ActionClassList": [
+        {
+          "app.WorldOtomonSubAction_General.cNone": {
+            "index": 1,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -1145462656,
+            "_RideResponseType": 1955913600,
+            "_ActionAttr": 0
+          }
+        },
+        {
+          "app.WorldOtomonSubAction_General.cRideStart": {
+            "index": 2,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -764609472,
+            "_RideResponseType": -1373408512,
+            "_ActionAttr": 1
+          }
+        },
+        {
+          "app.WorldOtomonSubAction_General.cRideEnd": {
+            "index": 3,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 82489168,
+            "_RideResponseType": -1191179904,
+            "_ActionAttr": 1
+          }
+        },
+        {
+          "app.WorldOtomonSubAction_General.cRideChangeWait": {
+            "index": 4,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -1213854080,
+            "_RideResponseType": 2032913920,
+            "_ActionAttr": 2
+          }
+        },
+        {
+          "app.WorldOtomonSubAction_General.cRideChange": {
+            "index": 5,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 504297696,
+            "_RideResponseType": 89373448,
+            "_ActionAttr": 2
+          }
+        },
+        {
+          "app.WorldOtomonSubAction_General.cShout": {
+            "index": 6,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -1577302656,
+            "_RideResponseType": -1159114112,
+            "_ActionAttr": 0,
+            "_EffectScale": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "_EffectJoint": "Mouth_03"
+          }
+        },
+        {
+          "app.WorldOtomonSubAction_General.cSwitchShout": {
+            "index": 7,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 504297696,
+            "_RideResponseType": -1159114112,
+            "_ActionAttr": 2
+          }
+        },
+        {
+          "app.WorldOtomonSubAction_General.cIdleVariation": {
+            "index": 12,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": -1145462656,
+            "_RideResponseType": 1955913600,
+            "_ActionAttr": 0,
+            "_Interval": {
+              "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
+                "index": 8,
+                "_RideValue": {
+                  "raw": "0000704100007041",
+                  "type": "Range"
+                },
+                "_AloneValue": {
+                  "raw": "0000704100007041",
+                  "type": "Range"
+                }
+              }
+            },
+            "_TargetActions": [
+              {
+                "app.WorldOtomonGeneralAction.cActionID_Serializable": {
+                  "index": 9,
+                  "_Guid": "9d6da462-b2e0-4a6a-b28d-4ffb7d7e0bc9"
+                }
+              },
+              {
+                "app.WorldOtomonGeneralAction.cActionID_Serializable": {
+                  "index": 10,
+                  "_Guid": "a3a94420-d063-4b3f-b8ed-0c6ef5d1d885"
+                }
+              },
+              {
+                "app.WorldOtomonGeneralAction.cActionID_Serializable": {
+                  "index": 11,
+                  "_Guid": "a25b29bb-c2fb-431d-8c88-7703176bb274"
+                }
+              }
+            ],
+            "_TargetActionPhase": 2
+          }
+        },
+        {
+          "app.WorldOtomonSubAction_General.cStealth": {
+            "index": 13,
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": 1659,
+            "_RideResponseType": 14180,
+            "_ActionAttr": 0,
+            "_Alpha": 0.6000000238418579
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 14,
+            "_Guid": "c48c5b28-af68-0923-2b0d-1f8fa1de6134",
+            "_ActionGuid": "32246173-a53b-4a1d-a0e7-0817b937c0bf",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 15,
+            "_Guid": "7f27616d-26c2-0eaa-0683-05dfce41fe88",
+            "_ActionGuid": "3cec28dc-7f2d-4f70-bc20-37627db9add5",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 16,
+            "_Guid": "dffe7120-9aa0-03bb-20e4-cc799ff82c70",
+            "_ActionGuid": "4bed2149-53be-43ef-ba1e-a2716e2cb2d6",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 17,
+            "_Guid": "9a0eb1cd-9386-0c4d-20c7-24f58b54f501",
+            "_ActionGuid": "ff1578c0-959a-4bda-a713-255306bc87e9",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 18,
+            "_Guid": "83349b60-0b6f-0e6f-1499-0943154f3292",
+            "_ActionGuid": "25e7192b-9aeb-410f-85b1-c41fdac02f0d",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 19,
+            "_Guid": "dbf0a32a-3b69-0dad-3253-0f7269e1562c",
+            "_ActionGuid": "90ed11c0-cc5b-4e71-8065-59622c2f9330",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 20,
+            "_Guid": "36c40dc0-ffb4-01c7-3e9e-ce9cf30c72e7",
+            "_ActionGuid": "b0822177-addb-4e56-8995-8a5b101b6330",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 21,
+            "_Guid": "cbbc816a-26df-0a06-05fe-1c32751d4fb0",
+            "_ActionGuid": "34b8e94a-c568-4f2d-84cc-abeab0400acf",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "index": 22,
+            "_Guid": "918e42e5-e92f-0c7e-2df5-73d7233511fe",
+            "_ActionGuid": "bd93641d-ab91-44ab-9093-c68fa19103f1",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "index": 24,
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "index": 23,
+              "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonSubActionID_General.user"
+            }
+          },
+          "_ExportGuid": "085f6eb4-964a-4ce6-83b6-e533bb7c4c02"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {
+          "index": 0
+        }
+      }
+    }
+  }
+]

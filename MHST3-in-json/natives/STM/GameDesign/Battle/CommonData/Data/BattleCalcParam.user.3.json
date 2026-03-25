@@ -1,0 +1,862 @@
+[
+  {
+    "app.user_data.BattleCalcParam": {
+      "index": 112,
+      "_GoodAttrAtkRate": 110,
+      "_DefRate": 2.0,
+      "_DamageRate": 1.0,
+      "_StaminaDefRate": 3.0,
+      "_StaminaDamageRate": 1.0,
+      "_WeakAtkRate": 150,
+      "_ResistAtkRates": [
+        150,
+        125,
+        100,
+        90,
+        70
+      ],
+      "_CriticalDmgRate": 150,
+      "_CriticalDmgRate_KinShip": 130,
+      "_StraightGameDmgRate_Win": 140,
+      "_StraightGameDmgRate_Lose": 60,
+      "_WActionDmgRate": 140,
+      "_WActionStaminaDmgRate": 100,
+      "_UnisonAttackDamageRate": 100,
+      "_FinisherRate": 130,
+      "_RideBasicAtkStaminaDmgRate": 30,
+      "KinshipLvParam": [
+        {
+          "app.user_data.BattleCalcParam.KinshipDamageParam": {
+            "index": 1,
+            "KinshipLevel": 1,
+            "AtkRate": 120,
+            "StaminaAtkRate": 120,
+            "DefRate": 97,
+            "KinshipAtkRate": 100,
+            "KinshipStaminaAtkRate": 100,
+            "IsKinshipActCancel": true,
+            "IsWKinshipActCancel": true
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.KinshipDamageParam": {
+            "index": 2,
+            "KinshipLevel": 2,
+            "AtkRate": 140,
+            "StaminaAtkRate": 140,
+            "DefRate": 94,
+            "KinshipAtkRate": 130,
+            "KinshipStaminaAtkRate": 120,
+            "IsKinshipActCancel": true,
+            "IsWKinshipActCancel": true
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.KinshipDamageParam": {
+            "index": 3,
+            "KinshipLevel": 3,
+            "AtkRate": 160,
+            "StaminaAtkRate": 160,
+            "DefRate": 90,
+            "KinshipAtkRate": 170,
+            "KinshipStaminaAtkRate": 150,
+            "IsKinshipActCancel": true,
+            "IsWKinshipActCancel": true
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.KinshipDamageParam": {
+            "index": 4,
+            "KinshipLevel": 4,
+            "AtkRate": 160,
+            "StaminaAtkRate": 160,
+            "DefRate": 0,
+            "KinshipAtkRate": 200,
+            "KinshipStaminaAtkRate": 200,
+            "IsKinshipActCancel": true,
+            "IsWKinshipActCancel": true
+          }
+        }
+      ],
+      "_StartAtkDmgRate": 25,
+      "EnemyAbnormalityResist": {
+        "app.user_data.BattleCalcParam.cEnemyAbnormalityResist": {
+          "index": 9,
+          "LowerLimit": 5,
+          "_ResistTable": [
+            {
+              "app.user_data.BattleCalcParam.cEnemyAbnormalityResist.cParam": {
+                "index": 5,
+                "Criteria": 1,
+                "Rate": 90
+              }
+            },
+            {
+              "app.user_data.BattleCalcParam.cEnemyAbnormalityResist.cParam": {
+                "index": 6,
+                "Criteria": 2,
+                "Rate": 70
+              }
+            },
+            {
+              "app.user_data.BattleCalcParam.cEnemyAbnormalityResist.cParam": {
+                "index": 7,
+                "Criteria": 3,
+                "Rate": 40
+              }
+            },
+            {
+              "app.user_data.BattleCalcParam.cEnemyAbnormalityResist.cParam": {
+                "index": 8,
+                "Criteria": 4,
+                "Rate": 10
+              }
+            }
+          ]
+        }
+      },
+      "_BlastEnchantGrantTurn": 4,
+      "_BurnEnchantGrantTurn": 4,
+      "_SealEnchantGrantTurn": 4,
+      "_ParalysisEnchantGrantTurn": 4,
+      "_BlindingEnchantGrantTurn": 4,
+      "_PoisonEnchantGrantTurn": 4,
+      "_SleepEnchantGrantTurn": 3,
+      "BurnDefDownRate": 80,
+      "_SleepBombDmgRate": 300,
+      "_SleepNoCrtDmgRate": 150,
+      "_BloodLustAbsorpRate": 30,
+      "_BloodLustTurnDmgRate": 20,
+      "_BloodLustAttackDmgRate": 130,
+      "_RageChargeDefRate": 20,
+      "_StraightGameStaminaDmgRate_Win_Hammer": 160,
+      "_StraightGameDmgCutRate_GunLance": 60,
+      "_WyvernAmmoChargeDefRate": 20,
+      "_BowThrustDmgRate": 110,
+      "_LevelDiffDmgRateSettings": [
+        {
+          "app.user_data.BattleCalcParam.cLevelDiffDmgRateSetting": {
+            "index": 10,
+            "LevelDiff": 4,
+            "AtkRate": 100,
+            "DmgRate": 100
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cLevelDiffDmgRateSetting": {
+            "index": 11,
+            "LevelDiff": 9,
+            "AtkRate": 90,
+            "DmgRate": 120
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cLevelDiffDmgRateSetting": {
+            "index": 12,
+            "LevelDiff": 99,
+            "AtkRate": 70,
+            "DmgRate": 150
+          }
+        }
+      ],
+      "_PugeeCountSkillInfo": [
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 13,
+            "PugeeCnt": 2,
+            "DamageRate": 100
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 14,
+            "PugeeCnt": 3,
+            "DamageRate": 101
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 15,
+            "PugeeCnt": 4,
+            "DamageRate": 102
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 16,
+            "PugeeCnt": 5,
+            "DamageRate": 104
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 17,
+            "PugeeCnt": 6,
+            "DamageRate": 105
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 18,
+            "PugeeCnt": 7,
+            "DamageRate": 106
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 19,
+            "PugeeCnt": 8,
+            "DamageRate": 107
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 20,
+            "PugeeCnt": 9,
+            "DamageRate": 109
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 21,
+            "PugeeCnt": 10,
+            "DamageRate": 110
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 22,
+            "PugeeCnt": 11,
+            "DamageRate": 111
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 23,
+            "PugeeCnt": 12,
+            "DamageRate": 113
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 24,
+            "PugeeCnt": 13,
+            "DamageRate": 114
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 25,
+            "PugeeCnt": 14,
+            "DamageRate": 116
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 26,
+            "PugeeCnt": 15,
+            "DamageRate": 117
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 27,
+            "PugeeCnt": 16,
+            "DamageRate": 119
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 28,
+            "PugeeCnt": 17,
+            "DamageRate": 120
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 29,
+            "PugeeCnt": 18,
+            "DamageRate": 122
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 30,
+            "PugeeCnt": 19,
+            "DamageRate": 123
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 31,
+            "PugeeCnt": 20,
+            "DamageRate": 125
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 32,
+            "PugeeCnt": 21,
+            "DamageRate": 127
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 33,
+            "PugeeCnt": 22,
+            "DamageRate": 129
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 34,
+            "PugeeCnt": 23,
+            "DamageRate": 130
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 35,
+            "PugeeCnt": 24,
+            "DamageRate": 132
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 36,
+            "PugeeCnt": 25,
+            "DamageRate": 134
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 37,
+            "PugeeCnt": 26,
+            "DamageRate": 136
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 38,
+            "PugeeCnt": 27,
+            "DamageRate": 138
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 39,
+            "PugeeCnt": 28,
+            "DamageRate": 140
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 40,
+            "PugeeCnt": 29,
+            "DamageRate": 141
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 41,
+            "PugeeCnt": 30,
+            "DamageRate": 143
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 42,
+            "PugeeCnt": 31,
+            "DamageRate": 146
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 43,
+            "PugeeCnt": 32,
+            "DamageRate": 148
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 44,
+            "PugeeCnt": 33,
+            "DamageRate": 150
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 45,
+            "PugeeCnt": 34,
+            "DamageRate": 152
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 46,
+            "PugeeCnt": 35,
+            "DamageRate": 154
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 47,
+            "PugeeCnt": 36,
+            "DamageRate": 156
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 48,
+            "PugeeCnt": 37,
+            "DamageRate": 159
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 49,
+            "PugeeCnt": 38,
+            "DamageRate": 161
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 50,
+            "PugeeCnt": 39,
+            "DamageRate": 163
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 51,
+            "PugeeCnt": 40,
+            "DamageRate": 166
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 52,
+            "PugeeCnt": 41,
+            "DamageRate": 168
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 53,
+            "PugeeCnt": 42,
+            "DamageRate": 171
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 54,
+            "PugeeCnt": 43,
+            "DamageRate": 173
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 55,
+            "PugeeCnt": 44,
+            "DamageRate": 176
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 56,
+            "PugeeCnt": 45,
+            "DamageRate": 179
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 57,
+            "PugeeCnt": 46,
+            "DamageRate": 182
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 58,
+            "PugeeCnt": 47,
+            "DamageRate": 184
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 59,
+            "PugeeCnt": 48,
+            "DamageRate": 187
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 60,
+            "PugeeCnt": 49,
+            "DamageRate": 190
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 61,
+            "PugeeCnt": 50,
+            "DamageRate": 193
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 62,
+            "PugeeCnt": 51,
+            "DamageRate": 196
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 63,
+            "PugeeCnt": 52,
+            "DamageRate": 199
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 64,
+            "PugeeCnt": 53,
+            "DamageRate": 202
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 65,
+            "PugeeCnt": 54,
+            "DamageRate": 206
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 66,
+            "PugeeCnt": 55,
+            "DamageRate": 209
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 67,
+            "PugeeCnt": 56,
+            "DamageRate": 212
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 68,
+            "PugeeCnt": 57,
+            "DamageRate": 216
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 69,
+            "PugeeCnt": 58,
+            "DamageRate": 219
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 70,
+            "PugeeCnt": 59,
+            "DamageRate": 223
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 71,
+            "PugeeCnt": 60,
+            "DamageRate": 226
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 72,
+            "PugeeCnt": 61,
+            "DamageRate": 230
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 73,
+            "PugeeCnt": 62,
+            "DamageRate": 234
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 74,
+            "PugeeCnt": 63,
+            "DamageRate": 238
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 75,
+            "PugeeCnt": 64,
+            "DamageRate": 242
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 76,
+            "PugeeCnt": 65,
+            "DamageRate": 246
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 77,
+            "PugeeCnt": 66,
+            "DamageRate": 250
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 78,
+            "PugeeCnt": 67,
+            "DamageRate": 254
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 79,
+            "PugeeCnt": 68,
+            "DamageRate": 258
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 80,
+            "PugeeCnt": 69,
+            "DamageRate": 263
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 81,
+            "PugeeCnt": 70,
+            "DamageRate": 267
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 82,
+            "PugeeCnt": 71,
+            "DamageRate": 271
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 83,
+            "PugeeCnt": 72,
+            "DamageRate": 276
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 84,
+            "PugeeCnt": 73,
+            "DamageRate": 281
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 85,
+            "PugeeCnt": 74,
+            "DamageRate": 286
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 86,
+            "PugeeCnt": 75,
+            "DamageRate": 290
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 87,
+            "PugeeCnt": 76,
+            "DamageRate": 295
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 88,
+            "PugeeCnt": 77,
+            "DamageRate": 300
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 89,
+            "PugeeCnt": 78,
+            "DamageRate": 306
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 90,
+            "PugeeCnt": 79,
+            "DamageRate": 311
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 91,
+            "PugeeCnt": 80,
+            "DamageRate": 316
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 92,
+            "PugeeCnt": 81,
+            "DamageRate": 322
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 93,
+            "PugeeCnt": 82,
+            "DamageRate": 327
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 94,
+            "PugeeCnt": 83,
+            "DamageRate": 333
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 95,
+            "PugeeCnt": 84,
+            "DamageRate": 339
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 96,
+            "PugeeCnt": 85,
+            "DamageRate": 345
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 97,
+            "PugeeCnt": 86,
+            "DamageRate": 351
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 98,
+            "PugeeCnt": 87,
+            "DamageRate": 357
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 99,
+            "PugeeCnt": 88,
+            "DamageRate": 364
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 100,
+            "PugeeCnt": 89,
+            "DamageRate": 370
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 101,
+            "PugeeCnt": 90,
+            "DamageRate": 377
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 102,
+            "PugeeCnt": 91,
+            "DamageRate": 383
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 103,
+            "PugeeCnt": 92,
+            "DamageRate": 390
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 104,
+            "PugeeCnt": 93,
+            "DamageRate": 397
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 105,
+            "PugeeCnt": 94,
+            "DamageRate": 404
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 106,
+            "PugeeCnt": 95,
+            "DamageRate": 411
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 107,
+            "PugeeCnt": 96,
+            "DamageRate": 419
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 108,
+            "PugeeCnt": 97,
+            "DamageRate": 426
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 109,
+            "PugeeCnt": 98,
+            "DamageRate": 434
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 110,
+            "PugeeCnt": 99,
+            "DamageRate": 442
+          }
+        },
+        {
+          "app.user_data.BattleCalcParam.cPugeeCountSkillInfo": {
+            "index": 111,
+            "PugeeCnt": 100,
+            "DamageRate": 450
+          }
+        }
+      ],
+      "_GutsTackleDenominator": 150,
+      "_FullPowerTackleDenominator": 20,
+      "_Em0502_00_20_AllTargetPartsDamageRate": 100
+    }
+  }
+]

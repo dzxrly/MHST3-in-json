@@ -1,0 +1,337 @@
+[
+  {
+    "app.snd_user_data.SoundActionUserCurveListData": {
+      "index": 42,
+      "_ActionUserCurveList": [
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 1,
+            "_UserCurveConditionList": [],
+            "_Action": "76dd73f4-c924-40d2-8f34-508389f9c178"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 2,
+            "_UserCurveConditionList": [],
+            "_Action": "9d6da462-b2e0-4a6a-b28d-4ffb7d7e0bc9"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 6,
+            "_UserCurveConditionList": [
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "index": 5,
+                  "_Condition": 0,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "index": 4,
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "index": 3,
+                              "_LoopFrame": 0.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_walk_now.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": []
+                }
+              }
+            ],
+            "_Action": "a3a94420-d063-4b3f-b8ed-0c6ef5d1d885"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 13,
+            "_UserCurveConditionList": [
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "index": 9,
+                  "_Condition": 0,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "index": 8,
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "index": 7,
+                              "_LoopFrame": 0.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_run_now.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": []
+                }
+              },
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "index": 12,
+                  "_Condition": 1,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "index": 11,
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "index": 10,
+                              "_LoopFrame": -1.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_run_voice.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": [
+                    "9d6da462-b2e0-4a6a-b28d-4ffb7d7e0bc9",
+                    "a3a94420-d063-4b3f-b8ed-0c6ef5d1d885",
+                    "f97d64e3-f624-489c-ade1-79a3b2821754"
+                  ]
+                }
+              }
+            ],
+            "_Action": "a25b29bb-c2fb-431d-8c88-7703176bb274"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 21,
+            "_UserCurveConditionList": [
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "index": 17,
+                  "_Condition": 0,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "index": 16,
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "index": 14,
+                              "_LoopFrame": -1.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_dash_loop_se_volume_control.ucurve"
+                            }
+                          },
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "index": 15,
+                              "_LoopFrame": 0.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_run_now.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": []
+                }
+              },
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "index": 20,
+                  "_Condition": 1,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "index": 19,
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "index": 18,
+                              "_LoopFrame": -1.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_dash_voice.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": [
+                    "9d6da462-b2e0-4a6a-b28d-4ffb7d7e0bc9",
+                    "a3a94420-d063-4b3f-b8ed-0c6ef5d1d885",
+                    "f97d64e3-f624-489c-ade1-79a3b2821754"
+                  ]
+                }
+              }
+            ],
+            "_Action": "d3e2dc3d-b769-42d0-a1b5-f91f2182f02f"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 26,
+            "_UserCurveConditionList": [
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "index": 22,
+                  "_Condition": 0,
+                  "_UserCurveInfoList": [],
+                  "_ActionList": []
+                }
+              },
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "index": 25,
+                  "_Condition": 1,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "index": 24,
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "index": 23,
+                              "_LoopFrame": -1.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_dash_voice.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": [
+                    "9d6da462-b2e0-4a6a-b28d-4ffb7d7e0bc9",
+                    "a3a94420-d063-4b3f-b8ed-0c6ef5d1d885",
+                    "f97d64e3-f624-489c-ade1-79a3b2821754"
+                  ]
+                }
+              }
+            ],
+            "_Action": "6b913724-8c01-41a4-b7b9-b0dc7db80b6b"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 27,
+            "_UserCurveConditionList": [],
+            "_Action": "f97d64e3-f624-489c-ade1-79a3b2821754"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 31,
+            "_UserCurveConditionList": [
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "index": 30,
+                  "_Condition": 0,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "index": 29,
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "index": 28,
+                              "_LoopFrame": -1.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_bless.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": []
+                }
+              }
+            ],
+            "_Action": "08f68b45-9167-447d-a652-c2edddfbd4ea"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 35,
+            "_UserCurveConditionList": [
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "index": 34,
+                  "_Condition": 0,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "index": 33,
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "index": 32,
+                              "_LoopFrame": -1.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_atk.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": []
+                }
+              }
+            ],
+            "_Action": "9471c136-cd19-4940-a41d-530d03f02daf"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 36,
+            "_UserCurveConditionList": [],
+            "_Action": "c4fc3aa2-1498-436e-af15-67f1cabe06d4"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 37,
+            "_UserCurveConditionList": [],
+            "_Action": "f5da627e-56d1-46c1-9aea-9f0a36c07c17"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 38,
+            "_UserCurveConditionList": [],
+            "_Action": "e64d6f26-6b53-4635-b4c7-89296767d8d9"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 39,
+            "_UserCurveConditionList": [],
+            "_Action": "9b150377-46d1-48bc-aa47-032d6ffc1427"
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "index": 41,
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "index": 40,
+              "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_General.user"
+            }
+          },
+          "_ExportGuid": "08c022f1-fa2b-4bd9-b1dc-ed317692d28b"
+        }
+      }
+    }
+  }
+]

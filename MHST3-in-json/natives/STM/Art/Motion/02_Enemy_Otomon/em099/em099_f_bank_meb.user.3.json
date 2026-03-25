@@ -1,0 +1,79 @@
+[
+  {
+    "ace.user_data.MotionExtendBank": {
+      "index": 10,
+      "_MotionExtendList": [
+        {
+          "ace.user_data.MotionExtendBank.SetData": {
+            "index": 2,
+            "_BankID": 0,
+            "_BankType": 0,
+            "_BankTypeMaskBit": 0,
+            "_MotionExtend": {
+              "ace.user_data.MotionExtend": {
+                "index": 1,
+                "path": "Art/Motion/02_Enemy_Otomon/em099/00/em099_00_mex.user"
+              }
+            }
+          }
+        },
+        {
+          "ace.user_data.MotionExtendBank.SetData": {
+            "index": 4,
+            "_BankID": 1,
+            "_BankType": 0,
+            "_BankTypeMaskBit": 0,
+            "_MotionExtend": {
+              "ace.user_data.MotionExtend": {
+                "index": 3,
+                "path": "Art/Motion/02_Enemy_Otomon/em099/01/em099_01_mex.user"
+              }
+            }
+          }
+        }
+      ],
+      "_GroupTable": [
+        {
+          "ace.user_data.MotionExtendBank.cGroupBankSetSerialize": {
+            "index": 9,
+            "GroupBankId": 0,
+            "GroupSet": [
+              {
+                "ace.user_data.MotionExtendBank.cGroupSetSerialize": {
+                  "index": 6,
+                  "GroupId": 16640191129497,
+                  "Group": {
+                    "ace.user_data.MotionExtendBank.cGroup": {
+                      "index": 5,
+                      "LList": [
+                        1,
+                        2
+                      ],
+                      "RList": []
+                    }
+                  }
+                }
+              },
+              {
+                "ace.user_data.MotionExtendBank.cGroupSetSerialize": {
+                  "index": 8,
+                  "GroupId": 12642095821393,
+                  "Group": {
+                    "ace.user_data.MotionExtendBank.cGroup": {
+                      "index": 7,
+                      "LList": [
+                        4107,
+                        4397
+                      ],
+                      "RList": []
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

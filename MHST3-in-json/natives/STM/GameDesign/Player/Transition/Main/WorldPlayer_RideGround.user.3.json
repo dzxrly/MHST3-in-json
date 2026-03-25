@@ -1,0 +1,2841 @@
+[
+  {
+    "app.user_data.ActionTransitionTable": {
+      "index": 303,
+      "_ActionTable": [
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 20,
+            "_ActionGuid": "febe7350-7208-4bfd-b06b-3d3f4549172e",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 19,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 2,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 1,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRide.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 4,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 6,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideSelfJump_RideJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 8,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 7,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideAttack_RideAttack.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 10,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 9,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideBlessCharge_Charge.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 12,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 11,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideMove.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 14,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 13,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideRoar_Roar.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 16,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 15,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideIdleVariRudy_IdleVariRudy.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 18,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 17,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideIdleVariSingle_IdleVariSingle.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 31,
+            "_ActionGuid": "fc44ec4e-a922-45ec-b1ae-39d3b54332eb",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 30,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 21,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 1,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRide.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 22,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 23,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideSelfJump_RideJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 24,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 7,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideAttack_RideAttack.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 25,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 9,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideBlessCharge_Charge.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 26,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 11,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideMove.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 27,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 13,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideRoar_Roar.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 29,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 28,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 41,
+            "_ActionGuid": "b188efd5-2e35-447c-a335-d83780fef460",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 40,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 32,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 1,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRide.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 33,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 34,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideSelfJump_RideJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 35,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 7,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideAttack_RideAttack.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 36,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 9,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideBlessCharge_Charge.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 37,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 11,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideMove.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 38,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 13,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideRoar_Roar.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 39,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 28,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 45,
+            "_ActionGuid": "4417d8f2-e840-4a58-a22f-6e0f4f208883",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 44,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 43,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 42,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Ride_ActionEndToBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 49,
+            "_ActionGuid": "a37e3ec4-7606-4802-af17-600c6243ddf6",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 47,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 46,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 42,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Ride_ActionEndToBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 48,
+                  "_TransitionList": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 52,
+            "_ActionGuid": "c464ac8c-0040-49f7-a315-df33abf01d8b",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 51,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 50,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 42,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Ride_ActionEndToBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 55,
+            "_ActionGuid": "8b73d688-1567-48ad-8f28-520a09935b36",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 54,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 53,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 42,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Ride_ActionEndToBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 58,
+            "_ActionGuid": "dccf5e2c-4ff4-42f5-affe-d8f153d50677",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 57,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 56,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 42,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Ride_ActionEndToBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 61,
+            "_ActionGuid": "813946a4-17a8-42e6-9867-1eb52eee4c84",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 60,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 59,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 42,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Ride_ActionEndToBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 75,
+            "_ActionGuid": "80ba0813-0efc-4f4b-8b95-00e2216683f3",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 74,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 63,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 62,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 65,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 64,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimFallStart_SwimFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 67,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 66,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Land.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 69,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 68,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_StepAir.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 71,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 70,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbAirStart_WallAirStart.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 73,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 72,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Fall_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 85,
+            "_ActionGuid": "61e39c70-f1d2-4f07-b096-291ac867dae4",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 84,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 76,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 62,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 77,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 64,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimFallStart_SwimFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 78,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 66,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Land.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 79,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 68,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_StepAir.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 80,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 70,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbAirStart_WallAirStart.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 82,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 81,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_GlindJump_GlindJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 8
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 83,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 72,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Fall_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 95,
+            "_ActionGuid": "573a5186-ae2b-4fbd-82b2-c3742421c030",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 94,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 86,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 62,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 87,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 64,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimFallStart_SwimFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 88,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 66,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Land.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 89,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 68,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_StepAir.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 90,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 70,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbAirStart_WallAirStart.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 91,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 81,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_GlindJump_GlindJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 8
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 93,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 92,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Jump_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 104,
+            "_ActionGuid": "577523e9-afa5-4e84-8ed4-481693c5b126",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 103,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 96,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 62,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 97,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 64,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimFallStart_SwimFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 98,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 66,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Land.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 99,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 68,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_StepAir.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 100,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 70,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbAirStart_WallAirStart.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 101,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 81,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_GlindJump_GlindJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 8
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 102,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 92,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Jump_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 110,
+            "_ActionGuid": "d3aa5c7b-fefe-4c2f-82b9-769bacf4c90c",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 109,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 105,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 62,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 106,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 64,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimFallStart_SwimFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 107,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 66,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Land.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 108,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 72,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Fall_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 114,
+            "_ActionGuid": "af4a0f70-8f6b-4f9a-8f16-fe1a32d49ddb",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 113,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 112,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 111,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 117,
+            "_ActionGuid": "dc94385a-9aa0-447b-a024-327a4bf54245",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 116,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 115,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 42,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Ride_ActionEndToBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 127,
+            "_ActionGuid": "815e6a2a-be2b-4f6e-9d76-005d450ea4b3",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 126,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 118,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 1,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRide.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 119,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 120,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideSelfJump_RideJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 121,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 7,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideAttack_RideAttack.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 122,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 9,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideBlessCharge_Charge.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 124,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 123,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideGroundBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 125,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 13,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideRoar_Roar.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 136,
+            "_ActionGuid": "8adfabc7-6203-4779-804e-2191fcf363ee",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 135,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 128,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 1,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRide.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 129,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 130,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideSelfJump_RideJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 131,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 7,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideAttack_RideAttack.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 132,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 9,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideBlessCharge_Charge.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 133,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 123,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideGroundBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 134,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 13,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideRoar_Roar.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 145,
+            "_ActionGuid": "f5ad2af3-1a4c-4797-b8d0-93b096f24c9b",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 144,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 137,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 1,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRide.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 138,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 139,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideSelfJump_RideJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 140,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 7,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideAttack_RideAttack.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 141,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 9,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideBlessCharge_Charge.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 142,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 123,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideGroundBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 143,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 13,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideRoar_Roar.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 155,
+            "_ActionGuid": "1575c34d-1753-4b4c-807a-f69d41608dd4",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 154,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 147,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 146,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRideFly.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 149,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 148,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismountJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 151,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 150,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideFly_Fly.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 152,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 9,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideBlessCharge_Charge.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 153,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 111,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 160,
+            "_ActionGuid": "b46ddc38-94ef-4dd2-9f3d-2197aba18a09",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 159,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 156,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 146,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRideFly.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 157,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 148,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismountJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 158,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 150,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideFly_Fly.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 167,
+            "_ActionGuid": "85340ca9-0361-449c-b1e6-a633ef1732d6",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 166,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 161,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 146,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRideFly.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 162,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 148,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismountJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 163,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 150,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideFly_Fly.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 164,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 9,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideBlessCharge_Charge.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 165,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 111,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 172,
+            "_ActionGuid": "f5a00edf-992c-47dd-92aa-7faafb1b55b4",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 171,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 168,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 1,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRide.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 169,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 170,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 111,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 175,
+            "_ActionGuid": "fadf2d1f-c677-4377-aa90-40bd5f23216e",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 174,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 173,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 111,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 190,
+            "_ActionGuid": "871839e7-bf1d-4b78-ab56-101d9bbb5ea2",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 189,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 176,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 178,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 177,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbJump_RideWallJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 180,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 179,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbFall_ClimbFall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 182,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 181,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbDown_ClimbDown.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 184,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 183,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbDash_RideDash.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 186,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 185,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbMove_RideOverWalk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 188,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 187,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbIdle_MoveStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 199,
+            "_ActionGuid": "1d48a88d-cf84-41a1-8166-21d0424dbe67",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 198,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 191,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 192,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 177,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbJump_RideWallJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 193,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 179,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbFall_ClimbFall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 194,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 181,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbDown_ClimbDown.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 195,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 183,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbDash_RideDash.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 196,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 185,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbMove_RideOverWalk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 197,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 187,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbIdle_MoveStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 208,
+            "_ActionGuid": "aeb3ec8c-f0ff-4d62-8f1c-f66d4a097caf",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 207,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 201,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 200,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismountWall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 202,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 177,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbJump_RideWallJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 203,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 179,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbFall_ClimbFall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 204,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 181,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbDown_ClimbDown.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 205,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 183,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbDash_RideDash.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 206,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 185,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbMove_RideOverWalk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 216,
+            "_ActionGuid": "b9b1474a-67c1-4ac9-97ca-8955609a22ea",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 215,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 209,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 200,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismountWall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 210,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 177,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbJump_RideWallJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 211,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 179,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbFall_ClimbFall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 212,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 181,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbDown_ClimbDown.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 213,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 183,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbDash_RideDash.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 214,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 187,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbIdle_MoveStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 225,
+            "_ActionGuid": "3cc445bb-42fa-41f7-bb8f-1a6b01696251",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 224,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 217,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 200,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismountWall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 218,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 177,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbJump_RideWallJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 219,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 179,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbFall_ClimbFall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 220,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 181,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbDown_ClimbDown.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 222,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 221,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbMove_RideRunNotDash.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 223,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 187,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbIdle_MoveStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 229,
+            "_ActionGuid": "4f392f56-93a1-4474-a2a9-990ffbc38283",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 228,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 226,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 227,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 123,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideGroundBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 233,
+            "_ActionGuid": "5f44465a-1c1d-4abc-8def-37e75ac93aae",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 232,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 230,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 231,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 123,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideGroundBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 237,
+            "_ActionGuid": "36401028-94c1-4a31-b9ff-ba9324aac0bb",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 236,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 234,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 146,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRideFly.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 235,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 243,
+            "_ActionGuid": "7d75d1f7-92d6-4d62-945c-eb82fb3ce470",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 242,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 238,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 200,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismountWall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 239,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 177,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideClimbJump_RideWallJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 241,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 240,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideIdle_RideClimbDownStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 246,
+            "_ActionGuid": "15fecd28-fcb7-4489-ab8a-1b98a6e2a1ec",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 245,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 244,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 111,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 250,
+            "_ActionGuid": "c912c589-ce7d-4fe3-b120-6b03d485a44b",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 249,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 248,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 247,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideBlessRelease_Release.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 253,
+            "_ActionGuid": "a1e6dcad-4bfb-47b3-8bcf-21cf72a38ddf",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 252,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 251,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 111,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 263,
+            "_ActionGuid": "6fbeec34-e76f-45be-9926-f76deffc4ef6",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 262,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 255,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 254,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopRideItem.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 256,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 3,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideDismount.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 257,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 5,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideSelfJump_RideJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 258,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 7,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideAttack_RideAttack.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 259,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 9,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideBlessCharge_Charge.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "index": 260,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "index": 42,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Ride_ActionEndToBasic.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "index": 261,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "index": 13,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RideRoar_Roar.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 267,
+            "_ActionGuid": "768cda3d-210c-4fea-ae61-615fcd766a75",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 266,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 265,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 264,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_PickEggFromRide_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 271,
+            "_ActionGuid": "1e857b5a-ca7c-4002-908e-5ae045e89b9a",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 270,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 269,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 268,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_PickEggExFromRide_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 275,
+            "_ActionGuid": "51db607b-b36e-4129-9ffb-e6f7a659c8c9",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 274,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 273,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 272,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideOutOfUG_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 278,
+            "_ActionGuid": "be282bfb-d010-4e1c-a3f5-485305752a4d",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 277,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 276,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 272,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideOutOfUG_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 280,
+            "_ActionGuid": "35f689d3-d8a4-49f1-a237-6f5c4d9cb576",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 279,
+                  "_TransitionList": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 284,
+            "_ActionGuid": "c7c02785-fb71-4fa4-a091-75e39c830510",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 283,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 282,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 281,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideTalkWaitNpc_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 287,
+            "_ActionGuid": "3b19e1b7-d376-4384-bc20-bf75f3afdd07",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 286,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 285,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 28,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 291,
+            "_ActionGuid": "29e0ee7b-4701-43f4-b1c0-8804661350ea",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 290,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 289,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 288,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideTalkNpcWarpWait_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 294,
+            "_ActionGuid": "fa2d775d-efb4-49a0-86e6-97dedf017bd7",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 293,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 292,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 28,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 299,
+            "_ActionGuid": "bb11d5cb-81e3-4038-a1b4-ae2a5fd14b97",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 298,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 295,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 28,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 297,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 296,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideFacility_FacilityWait.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "index": 302,
+            "_ActionGuid": "6fdec5bb-98fc-4010-a43e-10e0b0845a58",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "index": 301,
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "index": 300,
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "index": 28,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

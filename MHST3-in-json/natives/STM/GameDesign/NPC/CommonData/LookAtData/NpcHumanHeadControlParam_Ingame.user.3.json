@@ -1,0 +1,175 @@
+[
+  {
+    "app.user_data.HumanHeadControlParam": {
+      "index": 12,
+      "_Interpolation": {
+        "app.user_data.HeadControlParam.cInterpolationInfo": {
+          "index": 5,
+          "_FadeInSpeed": 1.0,
+          "_FadeOutSpeed": 1.0,
+          "_DampingX": {
+            "ace.cDampingParam": {
+              "index": 1,
+              "_Damping": 0.949999988079071,
+              "_TimeScale": 1.0
+            }
+          },
+          "_DampingY": {
+            "ace.cDampingParam": {
+              "index": 2,
+              "_Damping": 0.949999988079071,
+              "_TimeScale": 1.0
+            }
+          },
+          "_DampingBasisAxis": {
+            "ace.cDampingParam": {
+              "index": 3,
+              "_Damping": 0.949999988079071,
+              "_TimeScale": 1.0
+            }
+          },
+          "_DampingMotionBasis": {
+            "ace.cDampingParam": {
+              "index": 4,
+              "_Damping": 0.949999988079071,
+              "_TimeScale": 1.0
+            }
+          },
+          "_MaxBasisErrorRad": 0.0
+        }
+      },
+      "_Limit": {
+        "app.user_data.HeadControlParam.cLimitInfo": {
+          "index": 6,
+          "_LeftY": 70.0,
+          "_RightY": 70.0,
+          "_UpX": 70.0,
+          "_DownX": 50.0,
+          "_UpX_MinRate": 0.699999988079071,
+          "_DownX_MinRate": 0.30000001192092896,
+          "_MaxMoveSpeed": 2.6179940700531006
+        }
+      },
+      "_LRChangeOffsetDeg": 20.0,
+      "_EnableLimitCorrection": true,
+      "_LimitCorrectionRange": {
+        "raw": "000048c20000b442",
+        "type": "Range"
+      },
+      "_LimitCorrectionMaxAmount": {
+        "app.user_data.HeadControlParam.cLimitInfo": {
+          "index": 7,
+          "_LeftY": 50.0,
+          "_RightY": 50.0,
+          "_UpX": 50.0,
+          "_DownX": 20.0,
+          "_UpX_MinRate": 0.699999988079071,
+          "_DownX_MinRate": 0.699999988079071,
+          "_MaxMoveSpeed": 0.0
+        }
+      },
+      "_DetailParam": [
+        {
+          "app.user_data.HeadControlParam.cDetailParam": {
+            "index": 9,
+            "_BlendRateMax": 1.0,
+            "_MoveDegX": 0.0,
+            "_MoveDegY": 0.0,
+            "_MotionRateX": 0.0,
+            "_MotionRateY": 0.0,
+            "_MotionRateZ": 1.0,
+            "_BlendRatePattern": 1,
+            "_EaseType": 6,
+            "_EasingSpeed": 1.0,
+            "_SpringConst": 5.5,
+            "_DampingConst": 4.75,
+            "_AnimationCurve": {
+              "via.AnimationCurve": {
+                "index": 8,
+                "v0": [
+                  {
+                    "raw": "00000000000000000000000000000000",
+                    "type": "Data"
+                  },
+                  {
+                    "raw": "00000000000000400000000000000000",
+                    "type": "Data"
+                  }
+                ],
+                "v1": {
+                  "raw": "00000000",
+                  "type": "Data"
+                },
+                "v2": {
+                  "raw": "0000803f",
+                  "type": "Data"
+                },
+                "v3": {
+                  "raw": "00000000",
+                  "type": "Data"
+                },
+                "v4": {
+                  "raw": "00000040",
+                  "type": "Data"
+                },
+                "v5": {
+                  "raw": "00000000",
+                  "type": "Data"
+                },
+                "v6": {
+                  "raw": "02000000",
+                  "type": "Data"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "_Neck0Rate": 0.30000001192092896,
+      "_Neck1Rate": 0.6800000071525574,
+      "_EyeGazeRate": [
+        0.2199999988079071,
+        0.15000000596046448,
+        0.0,
+        0.0
+      ],
+      "_EnableRefocus": true,
+      "_RefocusSpan": {
+        "raw": "00000000cdcc4c3f",
+        "type": "Range"
+      },
+      "_StableAngularVelocity": 20.0,
+      "_RefocusEndDampingParam": {
+        "ace.cDampingParam": {
+          "index": 10,
+          "_Damping": 0.949999988079071,
+          "_TimeScale": 1.0
+        }
+      },
+      "_BaseAxisRaiseRate": 0.5,
+      "_HeadYRotationOrder": 0.8399999737739563,
+      "_EnableHeadYRotationOrderCorrection": true,
+      "_HeadYRotationOrderCorrectionRange": {
+        "raw": "3d0a29c20ad7ac42",
+        "type": "Range"
+      },
+      "_HeadYRotationOrderCorrectionMaxAmount": 0.5,
+      "_LRChangeIntervalTime": 0.5,
+      "_EyeParam": {
+        "": {
+          "index": 0
+        }
+      },
+      "_PostureBasis": 1,
+      "_MotionBasisMode": 1,
+      "_RootToHeadJointMaskId": 26,
+      "_OverwriteDampingParam": {
+        "ace.cDampingParam": {
+          "index": 11,
+          "_Damping": 0.949999988079071,
+          "_TimeScale": 1.0
+        }
+      }
+    }
+  }
+]

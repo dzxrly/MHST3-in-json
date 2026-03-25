@@ -1,0 +1,74 @@
+[
+  {
+    "app.user_data.BattleCutEffectData": {
+      "index": 6,
+      "_HitInfo": {
+        "app.user_data.BattleCutEffectData.cHitInfo": {
+          "index": 3,
+          "_HitType": 0,
+          "_HitParams": [
+            {
+              "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
+                "index": 2,
+                "_EffHitInfoType": {
+                  "app.BattleDef.EFF_HIT_INFO_TYPE_Serializable": {
+                    "index": 1,
+                    "value": 384458336
+                  }
+                },
+                "_Frame": 5.0
+              }
+            }
+          ]
+        }
+      },
+      "_SimpleEffectInfos": [],
+      "_SimpleEffectInfos_Next": [],
+      "_ShellInfo": {
+        "app.user_data.BattleCutEffectData.cShellInfo": {
+          "index": 5,
+          "_IsActive": true,
+          "_Frame": 62.0,
+          "_ContainerID": {
+            "app.ContainerID.ID_Serializable": {
+              "index": 4,
+              "value": -1448185335
+            }
+          },
+          "_ElementID": 1,
+          "_MoveType": 0,
+          "_StartPos": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_StartJointName": "breath",
+          "_Acceleration": 1.0,
+          "_FirstSpeed": 55.0,
+          "_Gravity": 0.0,
+          "_PassPoint": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ReachFrame": 0.0,
+          "_Hidden": false,
+          "_NextPassPoint": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_NextPassJointName": "Vfx_shot1",
+          "_NextReachFrame": 15.0,
+          "_NextSpeedOverwrite": false,
+          "_NextFirstSpeed": 0.0,
+          "_NextAcceleration": 1.0,
+          "_NextGravity": 0.0
+        }
+      }
+    }
+  }
+]

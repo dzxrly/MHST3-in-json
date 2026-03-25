@@ -1,0 +1,80 @@
+[
+  {
+    "app.user_data.HumanoidFbikInertialSimulateParameterContainer": {
+      "index": 10,
+      "_DefaultFbikParam": {
+        "app.user_data.HumanoidFbikInertialSimulateParameter": {
+          "index": 1,
+          "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderFbik_Default.user"
+        }
+      },
+      "_DefaultEaseDuration": 0.5,
+      "_DefaultEaseType": 6,
+      "_MotionSetData": [
+        {
+          "app.user_data.HumanoidFbikInertialSimulateParameterContainer.cMotionSetData": {
+            "index": 4,
+            "MotionBankId": 100,
+            "MotionId": 7,
+            "MotionData": {
+              "app.user_data.HumanoidFbikInertialSimulateParameterContainer.cMotionData": {
+                "index": 3,
+                "_FbikAsset": {
+                  "app.user_data.HumanoidFbikInertialSimulateParameter": {
+                    "index": 2,
+                    "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderFbik_Walk.user"
+                  }
+                },
+                "_EaseDuration": 0.5,
+                "_EaseType": 6
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.HumanoidFbikInertialSimulateParameterContainer.cMotionSetData": {
+            "index": 7,
+            "MotionBankId": 100,
+            "MotionId": 8,
+            "MotionData": {
+              "app.user_data.HumanoidFbikInertialSimulateParameterContainer.cMotionData": {
+                "index": 6,
+                "_FbikAsset": {
+                  "app.user_data.HumanoidFbikInertialSimulateParameter": {
+                    "index": 5,
+                    "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderFbik_Run.user"
+                  }
+                },
+                "_EaseDuration": 0.5,
+                "_EaseType": 6
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.HumanoidFbikInertialSimulateParameterContainer.cMotionSetData": {
+            "index": 9,
+            "MotionBankId": 100,
+            "MotionId": 9,
+            "MotionData": {
+              "app.user_data.HumanoidFbikInertialSimulateParameterContainer.cMotionData": {
+                "index": 8,
+                "_FbikAsset": {
+                  "app.user_data.HumanoidFbikInertialSimulateParameter": {
+                    "index": 5,
+                    "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderFbik_Run.user"
+                  }
+                },
+                "_EaseDuration": 0.5,
+                "_EaseType": 6
+              }
+            }
+          }
+        }
+      ],
+      "_RedirectData": [],
+      "_SmoothingRate": 0.6499999761581421,
+      "_SmoothingFrame": 1
+    }
+  }
+]

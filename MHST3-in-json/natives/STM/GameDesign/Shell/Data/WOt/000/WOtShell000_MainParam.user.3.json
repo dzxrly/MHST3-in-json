@@ -1,0 +1,69 @@
+[
+  {
+    "ace.user_data.ShellMainParam": {
+      "index": 5,
+      "_ShellMiniParams": [
+        {
+          "ace.cShellminiParamCommon": {
+            "index": 1,
+            "MiniParamName": "Common",
+            "MiniParamtype": 1,
+            "_IsDependedOn": false,
+            "UpdateOrder": 0,
+            "LateUpdateOrder": 0,
+            "_LifeSec": 10.0,
+            "_HitOnSec": 0.0
+          }
+        },
+        {
+          "app.cShellminiParamColHit": {
+            "index": 2,
+            "MiniParamName": "AppColHit",
+            "MiniParamtype": 3,
+            "_IsDependedOn": false,
+            "UpdateOrder": 100,
+            "LateUpdateOrder": 100,
+            "_ColHitFlag": 0,
+            "_IsHitOwner": false,
+            "_IsNoHitAttackerShell": false,
+            "_IsCheckFirstTerrain": true
+          }
+        },
+        {
+          "app.cShellminiParamMoveStraight": {
+            "index": 3,
+            "MiniParamName": "MoveStraight",
+            "MiniParamtype": 2,
+            "_IsDependedOn": false,
+            "UpdateOrder": 200,
+            "LateUpdateOrder": 200,
+            "_MoveSpeed": 85.0,
+            "_TargetOffset": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_RotationType": 1,
+            "STRUCT__OverwriteTurnToMoveDirCalcType__HasValue": false,
+            "STRUCT__OverwriteTurnToMoveDirCalcType__Value": 0,
+            "_Range_Distance": 100.0,
+            "_Gravity": 0.0
+          }
+        }
+      ],
+      "_CommonParam": {
+        "ace.cShellminiParamCommon": {
+          "index": 4,
+          "MiniParamName": "Common",
+          "MiniParamtype": 1,
+          "_IsDependedOn": false,
+          "UpdateOrder": 0,
+          "LateUpdateOrder": 0,
+          "_LifeSec": 10.0,
+          "_HitOnSec": 0.0
+        }
+      }
+    }
+  }
+]

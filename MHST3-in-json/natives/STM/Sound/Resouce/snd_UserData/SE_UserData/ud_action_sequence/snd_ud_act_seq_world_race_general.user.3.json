@@ -1,0 +1,60 @@
+[
+  {
+    "app.snd_user_data.SoundActionUserCurveListData": {
+      "index": 8,
+      "_ActionUserCurveList": [
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 1,
+            "_UserCurveConditionList": [],
+            "_Action": "637097a5-7379-48a3-bf44-76d9a09631aa"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "index": 5,
+            "_UserCurveConditionList": [
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "index": 4,
+                  "_Condition": 0,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "index": 3,
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "index": 2,
+                              "_LoopFrame": 0.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_run_now.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": []
+                }
+              }
+            ],
+            "_Action": "e344d056-870c-4ee8-b89c-494fcf1416b5"
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "index": 7,
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "index": 6,
+              "path": "GameDesign/Animal/CommonData/ActionData/WorldAnimalActionID_Race.user"
+            }
+          },
+          "_ExportGuid": "8550c89a-8459-4004-a567-636706f63c4a"
+        }
+      }
+    }
+  }
+]
