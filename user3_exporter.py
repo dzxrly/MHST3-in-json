@@ -14,6 +14,7 @@ from tqdm.rich import tqdm
 USR_MAGIC = 5395285
 RSZ_MAGIC = 5919570
 HEX32_RE = re.compile(r"^[0-9a-fA-F]{32}$")
+ENUM_UNUSED_KEY = "value__"
 
 
 class ParseError(RuntimeError):
@@ -259,33 +260,448 @@ class User3Exporter:
         schema_dir: str | Path,
         output_root: str | Path,
         tree_depth: int | str = "auto",
+        exclude_regexes: list[str] | None = None,
     ):
         self.user3_root = Path(user3_root)
         self.schema_dir = Path(schema_dir)
         self.output_root = Path(output_root)
         self.tree_depth = self._normalize_tree_depth(tree_depth)
+        self.exclude_regexes = exclude_regexes or []
+        self._exclude_patterns = [re.compile(p) for p in self.exclude_regexes]
         self.schema_path = self._resolve_schema_path(self.schema_dir)
         self.typedb = TypeDB.load(self.schema_path)
+        self.enums_internal_path: Path | None = None
+        self.enum_lookup = self._load_enum_lookup()
+        self.class_field_fixed_types: dict[str, dict[str, str]] = {}
+        self.serializable_to_fixed: dict[str, str] = {}
+        self.generic_container_rules: dict[str, tuple[str, str]] = {}
+        self.param_type_default_enum: dict[str, str] = {}
+
+    @staticmethod
+    def export_enums_internal(dump_json: dict) -> dict:
+        enums_internal = {}
+        for key, value in dump_json.items():
+            if isinstance(value, dict):
+                obj = dump_json[key]
+                if "parent" in obj and obj["parent"] == "System.Enum":
+                    val = {}
+                    for _k, _v in obj["fields"].items():
+                        if _k != ENUM_UNUSED_KEY:
+                            val[_k] = _v["default"]
+                    enums_internal[key] = val
+        return enums_internal
+
+    @staticmethod
+    def export_enum_context_internal(dump_json: dict) -> dict:
+        class_field_fixed_types: dict[str, dict[str, str]] = {}
+        serializable_to_fixed: dict[str, str] = {}
+        generic_container_rules: dict[str, dict[str, str]] = {}
+
+        for class_name, obj in dump_json.items():
+            if not isinstance(class_name, str) or not isinstance(obj, dict):
+                continue
+
+            fields_obj = obj.get("fields")
+            if isinstance(fields_obj, dict):
+                field_map: dict[str, str] = {}
+                for field_name, field_info in fields_obj.items():
+                    if not isinstance(field_name, str) or not isinstance(field_info, dict):
+                        continue
+                    field_type = field_info.get("type")
+                    if isinstance(field_type, str) and field_type.endswith("_Fixed"):
+                        field_map[field_name] = field_type
+                if field_map:
+                    class_field_fixed_types[class_name] = field_map
+
+            if class_name.endswith("_Serializable"):
+                fixed_types: set[str] = set()
+                methods_obj = obj.get("methods")
+                if isinstance(methods_obj, dict):
+                    for method in methods_obj.values():
+                        if not isinstance(method, dict):
+                            continue
+                        params = method.get("params")
+                        if isinstance(params, list):
+                            for param in params:
+                                if not isinstance(param, dict):
+                                    continue
+                                param_type = param.get("type")
+                                if isinstance(param_type, str) and param_type.endswith("_Fixed"):
+                                    fixed_types.add(param_type)
+                        returns = method.get("returns")
+                        if isinstance(returns, dict):
+                            return_type = returns.get("type")
+                            if isinstance(return_type, str) and return_type.endswith("_Fixed"):
+                                fixed_types.add(return_type)
+                if len(fixed_types) == 1:
+                    serializable_to_fixed[class_name] = next(iter(fixed_types))
+
+            generic_args = obj.get("generic_arg_types")
+            if isinstance(generic_args, list) and len(generic_args) >= 2:
+                enum_arg = generic_args[0]
+                param_arg = generic_args[1]
+                enum_type = enum_arg.get("type") if isinstance(enum_arg, dict) else None
+                param_type = param_arg.get("type") if isinstance(param_arg, dict) else None
+                if (
+                    isinstance(enum_type, str)
+                    and enum_type.endswith("_Fixed")
+                    and isinstance(param_type, str)
+                ):
+                    generic_container_rules[class_name] = {
+                        "param_type": param_type,
+                        "enum_type": enum_type,
+                    }
+
+        return {
+            "class_field_fixed_types": class_field_fixed_types,
+            "serializable_to_fixed": serializable_to_fixed,
+            "generic_container_rules": generic_container_rules,
+        }
+
+    @staticmethod
+    def _id_formatter(key: str, value: int) -> str:
+        return f"[{value}] {key}"
+
+    @staticmethod
+    def _to_u32(value: int) -> int:
+        return value & 0xFFFFFFFF
+
+    @staticmethod
+    def _to_s32(value: int) -> int:
+        u32 = value & 0xFFFFFFFF
+        return u32 if u32 < 0x80000000 else u32 - 0x100000000
+
+    def _resolve_enums_internal_path(self) -> Path | None:
+        # Enums_Internal.json is always stored under MHST3-in-json (output_root).
+        path = self.output_root / "Enums_Internal.json"
+        return path if path.is_file() else None
+
+    def _load_enum_lookup(self) -> dict[str, dict[int, tuple[str, int]]]:
+        path = self._resolve_enums_internal_path()
+        self.enums_internal_path = path
+        if path is None:
+            return {}
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                raw = json.load(f)
+        except Exception:
+            return {}
+
+        lookup: dict[str, dict[int, tuple[str, int]]] = {}
+        if not isinstance(raw, dict):
+            return lookup
+
+        for enum_type, members in raw.items():
+            if (
+                not isinstance(enum_type, str)
+                or not isinstance(members, dict)
+                or not enum_type.endswith("_Fixed")
+            ):
+                continue
+            value_map: dict[int, tuple[str, int]] = {}
+            for member_name, raw_value in members.items():
+                if not isinstance(member_name, str) or not isinstance(raw_value, int):
+                    continue
+                # Build map from Serializable-id (signed) to Fixed-id/name.
+                serializable_value = self._to_s32(raw_value)
+                entry = (member_name, raw_value)
+                value_map[serializable_value] = entry
+                # Some files may carry unsigned representation directly.
+                value_map[self._to_u32(raw_value)] = entry
+            if value_map:
+                lookup[enum_type] = value_map
+        return lookup
+
+    def _resolve_il2cpp_dump_path(self) -> Path | None:
+        candidates: list[Path] = []
+        if self.user3_root.is_dir():
+            candidates.append(self.user3_root / "il2cpp_dump.json")
+        else:
+            candidates.append(self.user3_root.parent / "il2cpp_dump.json")
+        for path in candidates:
+            if path.is_file():
+                return path
+        return None
+
+    def _apply_enum_context(self, raw: dict) -> None:
+        self.class_field_fixed_types = {}
+        self.serializable_to_fixed = {}
+        self.generic_container_rules = {}
+        self.param_type_default_enum = {}
+
+        class_field_fixed_types = raw.get("class_field_fixed_types")
+        if isinstance(class_field_fixed_types, dict):
+            for cls_name, field_map in class_field_fixed_types.items():
+                if not isinstance(cls_name, str) or not isinstance(field_map, dict):
+                    continue
+                cleaned: dict[str, str] = {}
+                for field_name, enum_type in field_map.items():
+                    if (
+                        isinstance(field_name, str)
+                        and isinstance(enum_type, str)
+                        and enum_type.endswith("_Fixed")
+                    ):
+                        cleaned[field_name] = enum_type
+                if cleaned:
+                    self.class_field_fixed_types[cls_name] = cleaned
+
+        serializable_to_fixed = raw.get("serializable_to_fixed")
+        if isinstance(serializable_to_fixed, dict):
+            for serializable_name, fixed_name in serializable_to_fixed.items():
+                if (
+                    isinstance(serializable_name, str)
+                    and isinstance(fixed_name, str)
+                    and fixed_name.endswith("_Fixed")
+                ):
+                    self.serializable_to_fixed[serializable_name] = fixed_name
+
+        generic_container_rules = raw.get("generic_container_rules")
+        param_to_enum_sets: dict[str, set[str]] = {}
+        if isinstance(generic_container_rules, dict):
+            for container_name, rule in generic_container_rules.items():
+                if not isinstance(container_name, str) or not isinstance(rule, dict):
+                    continue
+                param_type = rule.get("param_type")
+                enum_type = rule.get("enum_type")
+                if (
+                    isinstance(param_type, str)
+                    and isinstance(enum_type, str)
+                    and enum_type.endswith("_Fixed")
+                ):
+                    self.generic_container_rules[container_name] = (param_type, enum_type)
+                    param_to_enum_sets.setdefault(param_type, set()).add(enum_type)
+
+        for param_type, enum_types in param_to_enum_sets.items():
+            if len(enum_types) == 1:
+                self.param_type_default_enum[param_type] = next(iter(enum_types))
+
+    def _load_enum_context_from_il2cpp_dump(self) -> bool:
+        dump_path = self._resolve_il2cpp_dump_path()
+        if dump_path is None:
+            return False
+        try:
+            with dump_path.open("r", encoding="utf-8") as f:
+                il2cpp_dump = json.load(f)
+        except Exception:
+            return False
+        context = self.export_enum_context_internal(il2cpp_dump)
+        self._apply_enum_context(context)
+        return True
+
+    def _ensure_internal_metadata_files(self) -> None:
+        enums_out = self.output_root / "Enums_Internal.json"
+        if enums_out.is_file():
+            return
+        dump_path = self._resolve_il2cpp_dump_path()
+        if dump_path is None:
+            return
+        try:
+            with dump_path.open("r", encoding="utf-8") as f:
+                il2cpp_dump = json.load(f)
+        except Exception:
+            return
+        self.output_root.mkdir(parents=True, exist_ok=True)
+        enums_internal = self.export_enums_internal(il2cpp_dump)
+        with enums_out.open("w", encoding="utf-8") as f:
+            json.dump(enums_internal, f, ensure_ascii=False, indent=2)
+
+    def _ensure_enum_lookup(self) -> None:
+        if self.enum_lookup:
+            return
+        self.enum_lookup = self._load_enum_lookup()
+        if not self.enum_lookup:
+            source = (
+                str(self.enums_internal_path)
+                if self.enums_internal_path
+                else "not found"
+            )
+            print(
+                f"[warn] Enums_Internal not loaded, enum value formatting disabled (source: {source})"
+            )
+        if not self.class_field_fixed_types and not self.serializable_to_fixed:
+            context_source = str(self._resolve_il2cpp_dump_path() or "not found")
+            print(
+                "[warn] Enum context not loaded, enum conversion may be incomplete "
+                f"(source: {context_source})"
+            )
+
+    def _fixed_type_candidates(self, type_name: str) -> list[str]:
+        candidates = [type_name]
+        if type_name.endswith("_Serializable"):
+            candidates.append(f"{type_name[:-13]}_Fixed")
+        if "Serializable" in type_name:
+            candidates.append(type_name.replace("Serializable", "Fixed"))
+        out: list[str] = []
+        seen: set[str] = set()
+        for candidate in candidates:
+            if candidate not in seen:
+                seen.add(candidate)
+                out.append(candidate)
+        return out
+
+    def _normalize_to_fixed_enum_type(self, type_name: str) -> str:
+        if not type_name or not self.enum_lookup:
+            return type_name
+        direct = self.serializable_to_fixed.get(type_name)
+        if direct is not None and direct in self.enum_lookup:
+            return direct
+        for candidate in self._fixed_type_candidates(type_name):
+            if candidate in self.enum_lookup:
+                return candidate
+        return type_name
+
+    def _format_enum_value(self, fixed_enum_type: str, value: int) -> Any:
+        if not fixed_enum_type or not self.enum_lookup:
+            return value
+        value_map = self.enum_lookup.get(fixed_enum_type)
+        if value_map is None:
+            return value
+        matched = value_map.get(value)
+        if matched is None:
+            matched = value_map.get(self._to_s32(value))
+        if matched is None:
+            matched = value_map.get(self._to_u32(value))
+        if matched is None:
+            return value
+        member_name, fixed_value = matched
+        return self._id_formatter(member_name, fixed_value)
+
+    @staticmethod
+    def _looks_like_class_name(text: str) -> bool:
+        return "." in text and not text.startswith("_")
+
+    @staticmethod
+    def _is_enum_value_field(field_name: str | None) -> bool:
+        if not field_name:
+            return False
+        key = field_name.strip("_").lower()
+        return key in {"value", "enumvalue", "fixedid"} or key.endswith("id")
+
+    def _postprocess_enum_nodes(
+        self,
+        value: Any,
+        current_class: str | None = None,
+        scalar_enum_hint: str | None = None,
+        class_default_enum: str | None = None,
+        container_param_rule: tuple[str, str] | None = None,
+        field_name: str | None = None,
+    ) -> Any:
+        if isinstance(value, dict):
+            out: dict[str, Any] = {}
+            for k, v in value.items():
+                if isinstance(k, str) and self._looks_like_class_name(k) and isinstance(v, dict):
+                    normalized_class = self._normalize_to_fixed_enum_type(k)
+                    key_out = (
+                        normalized_class
+                        if normalized_class != k and k.endswith("_Serializable")
+                        else k
+                    )
+                    next_scalar_hint = (
+                        normalized_class if normalized_class in self.enum_lookup else None
+                    )
+                    next_container_rule = self.generic_container_rules.get(k)
+                    if next_container_rule is None:
+                        next_container_rule = self.generic_container_rules.get(normalized_class)
+                    next_default_enum = self.param_type_default_enum.get(normalized_class)
+                    if (
+                        container_param_rule is not None
+                        and normalized_class == container_param_rule[0]
+                    ):
+                        next_default_enum = container_param_rule[1]
+
+                    out[key_out] = self._postprocess_enum_nodes(
+                        v,
+                        current_class=normalized_class,
+                        scalar_enum_hint=next_scalar_hint,
+                        class_default_enum=next_default_enum,
+                        container_param_rule=next_container_rule,
+                        field_name=None,
+                    )
+                    continue
+
+                field_hint: str | None = None
+                if current_class is not None:
+                    class_fields = self.class_field_fixed_types.get(current_class, {})
+                    fixed_field_type = class_fields.get(k) if isinstance(k, str) else None
+                    if fixed_field_type:
+                        field_hint = fixed_field_type
+                if (
+                    field_hint is None
+                    and class_default_enum is not None
+                    and isinstance(k, str)
+                    and self._is_enum_value_field(k)
+                ):
+                    field_hint = class_default_enum
+                if (
+                    field_hint is None
+                    and scalar_enum_hint is not None
+                    and isinstance(k, str)
+                    and self._is_enum_value_field(k)
+                ):
+                    field_hint = scalar_enum_hint
+
+                out[k] = self._postprocess_enum_nodes(
+                    v,
+                    current_class=current_class,
+                    scalar_enum_hint=field_hint,
+                    class_default_enum=class_default_enum,
+                    container_param_rule=container_param_rule,
+                    field_name=k if isinstance(k, str) else None,
+                )
+            return out
+
+        if isinstance(value, list):
+            return [
+                self._postprocess_enum_nodes(
+                    item,
+                    current_class=current_class,
+                    scalar_enum_hint=scalar_enum_hint,
+                    class_default_enum=class_default_enum,
+                    container_param_rule=container_param_rule,
+                    field_name=field_name,
+                )
+                for item in value
+            ]
+        if (
+            isinstance(value, int)
+            and scalar_enum_hint is not None
+            and self._is_enum_value_field(field_name)
+        ):
+            return self._format_enum_value(scalar_enum_hint, value)
+        return value
 
     def run(self) -> dict[str, int]:
         files = self._discover_user3_files()
         self.output_root.mkdir(parents=True, exist_ok=True)
+        self._ensure_internal_metadata_files()
+        self.enum_lookup = self._load_enum_lookup()
+        self._load_enum_context_from_il2cpp_dump()
+        self._ensure_enum_lookup()
 
         success = 0
         failed = 0
-
-        for user3_file in tqdm(files, desc="Exporting user3", unit="file"):
-            try:
-                tree = self._parse_user3(user3_file)
-                output_path = self._output_path_for(user3_file)
-                output_path.parent.mkdir(parents=True, exist_ok=True)
-                with output_path.open("w", encoding="utf-8") as f:
-                    json.dump(tree, f, ensure_ascii=False, indent=2)
-                success += 1
-            except Exception:
-                failed += 1
+        with tqdm(total=len(files), desc="Exporting user3", unit="file") as pbar:
+            for user3_file in files:
+                pbar.set_description(user3_file.name.replace(".user.3", ""))
+                if self._export_one_file(user3_file):
+                    success += 1
+                else:
+                    failed += 1
+                pbar.update(1)
 
         return {"total": len(files), "success": success, "failed": failed}
+
+    def _export_one_file(self, user3_file: Path) -> bool:
+        try:
+            tree = self._parse_user3(user3_file)
+            tree = self._postprocess_enum_nodes(tree)
+            output_path = self._output_path_for(user3_file)
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            with output_path.open("w", encoding="utf-8") as f:
+                json.dump(tree, f, ensure_ascii=False, indent=2)
+            return True
+        except Exception:
+            return False
 
     def _resolve_schema_path(self, schema_dir: Path) -> Path:
         if schema_dir.is_file():
@@ -375,13 +791,28 @@ class User3Exporter:
 
     def _discover_user3_files(self) -> list[Path]:
         if self.user3_root.is_file():
-            return [self.user3_root]
-        if not self.user3_root.is_dir():
-            raise FileNotFoundError(f"user3 root not found: {self.user3_root}")
-        files = sorted(self.user3_root.rglob("*.user.3"))
-        if not files:
-            raise FileNotFoundError(f"no *.user.3 found under: {self.user3_root}")
-        return files
+            files = [self.user3_root]
+        else:
+            if not self.user3_root.is_dir():
+                raise FileNotFoundError(f"user3 root not found: {self.user3_root}")
+            files = sorted(self.user3_root.rglob("*.user.3"))
+            if not files:
+                raise FileNotFoundError(f"no *.user.3 found under: {self.user3_root}")
+        if not self._exclude_patterns:
+            return files
+
+        kept: list[Path] = []
+        for file_path in files:
+            if self.user3_root.is_file():
+                rel_path = file_path.name
+            else:
+                rel_path = file_path.relative_to(self.user3_root).as_posix()
+            if any(pattern.search(rel_path) for pattern in self._exclude_patterns):
+                continue
+            kept.append(file_path)
+        if not kept:
+            raise FileNotFoundError("all *.user.3 files were excluded by regex filters")
+        return kept
 
     def _output_path_for(self, user3_file: Path) -> Path:
         if self.user3_root.is_file():
@@ -405,7 +836,9 @@ class User3Exporter:
             return reader.read_s16()
         if t == "U16":
             return reader.read_u16()
-        if t in ("S32", "Enum", "Sfix"):
+        if t in ("S32", "Sfix"):
+            return reader.read_s32()
+        if t == "Enum":
             return reader.read_s32()
         if t == "U32":
             return reader.read_u32()
@@ -593,11 +1026,13 @@ class User3Exporter:
         if inst is None:
             if instance_info_map is not None and idx in instance_info_map:
                 class_name = instance_info_map[idx].get("class_name", "Unknown Class")
+                class_name = self._normalize_to_fixed_enum_type(class_name)
                 return {class_name: {"index": idx, "unparsed": True}}
             return {"Ref": {"index": idx, "missing": True}}
 
         if inst.get("is_userdata_reference"):
             class_name = inst.get("class_name", "Unknown Class")
+            class_name = self._normalize_to_fixed_enum_type(class_name)
             return {
                 class_name: {
                     "index": idx,
@@ -607,6 +1042,7 @@ class User3Exporter:
 
         data = inst.get("data", {})
         class_name = data.get("_class", inst.get("class_name", "Unknown Class"))
+        class_name = self._normalize_to_fixed_enum_type(class_name)
         fields = data.get("fields", {})
         if not isinstance(fields, dict):
             fields = {}
