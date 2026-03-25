@@ -22,12 +22,24 @@ class ParseError(RuntimeError):
 
 
 def align(value: int, alignment: int) -> int:
+    """Align integer value to the given boundary.
+
+    @param value Current position.
+    @param alignment Alignment size.
+    @return Aligned position.
+    """
     if alignment <= 1:
         return value
     return (value + (alignment - 1)) & ~(alignment - 1)
 
 
 def murmur3_32(data: bytes, seed: int = 0xFFFFFFFF) -> int:
+    """Compute MurmurHash3 32-bit hash.
+
+    @param data Input bytes.
+    @param seed Hash seed.
+    @return 32-bit hash.
+    """
     c1 = 0xCC9E2D51
     c2 = 0x1B873593
     h1 = seed & 0xFFFFFFFF
@@ -66,11 +78,21 @@ def murmur3_32(data: bytes, seed: int = 0xFFFFFFFF) -> int:
 
 
 def format_guid_text_from_hex32(hex32: str) -> str:
+    """Format 32 hex chars into canonical GUID text.
+
+    @param hex32 32-hex string.
+    @return Canonical GUID text.
+    """
     h = hex32.lower()
     return f"{h[0:8]}-{h[8:12]}-{h[12:16]}-{h[16:20]}-{h[20:32]}"
 
 
 def normalize_guid_candidate_text(text: str) -> str:
+    """Normalize guid-like text when possible.
+
+    @param text Source text.
+    @return Normalized GUID text if recognized.
+    """
     stripped = text.strip().strip("{}")
     compact = stripped.replace("-", "")
     if HEX32_RE.fullmatch(compact):
@@ -79,23 +101,51 @@ def normalize_guid_candidate_text(text: str) -> str:
 
 
 class BinaryReader:
+    """Read primitive values from a bytes buffer safely.
+
+    @return Binary reader instance.
+    """
+
     def __init__(self, data: bytes):
+        """Initialize reader with raw bytes.
+
+        @param data Source byte buffer.
+        @return None.
+        """
         self.data = data
         self.pos = 0
 
     @property
     def size(self) -> int:
+        """Get total buffer size.
+
+        @return Buffer size in bytes.
+        """
         return len(self.data)
 
     def tell(self) -> int:
+        """Get current cursor position.
+
+        @return Current cursor offset.
+        """
         return self.pos
 
     def seek(self, pos: int) -> None:
+        """Move cursor to absolute position.
+
+        @param pos Absolute target position.
+        @return None.
+        """
         if pos < 0 or pos > self.size:
             raise ParseError(f"seek out of range: {pos}")
         self.pos = pos
 
     def read(self, n: int) -> bytes:
+        """Read bytes and advance cursor.
+
+        @param n Number of bytes to read.
+        @return Read bytes.
+        """
         end = self.pos + n
         if end > self.size:
             raise ParseError(f"read out of range: {self.pos}+{n}")
@@ -104,41 +154,91 @@ class BinaryReader:
         return out
 
     def read_struct(self, fmt: str) -> Any:
+        """Read and unpack one struct value.
+
+        @param fmt Struct format string.
+        @return Unpacked value.
+        """
         size = struct.calcsize(fmt)
         raw = self.read(size)
         return struct.unpack(fmt, raw)[0]
 
     def read_u8(self) -> int:
+        """Read unsigned 8-bit integer.
+
+        @return Unsigned 8-bit value.
+        """
         return self.read_struct("<B")
 
     def read_s8(self) -> int:
+        """Read signed 8-bit integer.
+
+        @return Signed 8-bit value.
+        """
         return self.read_struct("<b")
 
     def read_u16(self) -> int:
+        """Read unsigned 16-bit integer.
+
+        @return Unsigned 16-bit value.
+        """
         return self.read_struct("<H")
 
     def read_s16(self) -> int:
+        """Read signed 16-bit integer.
+
+        @return Signed 16-bit value.
+        """
         return self.read_struct("<h")
 
     def read_u32(self) -> int:
+        """Read unsigned 32-bit integer.
+
+        @return Unsigned 32-bit value.
+        """
         return self.read_struct("<I")
 
     def read_s32(self) -> int:
+        """Read signed 32-bit integer.
+
+        @return Signed 32-bit value.
+        """
         return self.read_struct("<i")
 
     def read_u64(self) -> int:
+        """Read unsigned 64-bit integer.
+
+        @return Unsigned 64-bit value.
+        """
         return self.read_struct("<Q")
 
     def read_s64(self) -> int:
+        """Read signed 64-bit integer.
+
+        @return Signed 64-bit value.
+        """
         return self.read_struct("<q")
 
     def read_f32(self) -> float:
+        """Read 32-bit float.
+
+        @return Float32 value.
+        """
         return self.read_struct("<f")
 
     def read_f64(self) -> float:
+        """Read 64-bit float.
+
+        @return Float64 value.
+        """
         return self.read_struct("<d")
 
     def read_wstring_null(self, offset: int) -> str:
+        """Read UTF-16 null-terminated string at absolute offset.
+
+        @param offset Absolute offset in buffer.
+        @return Decoded UTF-16 string.
+        """
         if offset < 0 or offset >= self.size:
             return ""
         out: list[int] = []
@@ -170,12 +270,27 @@ class ClassDef:
 
 
 class TypeDB:
+    """Provide class/type metadata lookups.
+
+    @return Type database instance.
+    """
+
     def __init__(self, classes: dict[int, ClassDef]):
+        """Initialize type database.
+
+        @param classes Hash-indexed class definitions.
+        @return None.
+        """
         self.classes = classes
         self.name_to_hash = {c.name: h for h, c in classes.items()}
 
     @classmethod
     def load(cls, json_path: Path) -> "TypeDB":
+        """Load type database from schema json.
+
+        @param json_path Schema file path.
+        @return Loaded TypeDB.
+        """
         with json_path.open("r", encoding="utf-8") as f:
             raw = json.load(f)
 
@@ -205,9 +320,19 @@ class TypeDB:
         return cls(classes)
 
     def get_class(self, class_hash: int) -> ClassDef | None:
+        """Lookup class definition by hash.
+
+        @param class_hash Type hash.
+        @return Class definition or None.
+        """
         return self.classes.get(class_hash)
 
     def resolve_struct_hash(self, original_type: str) -> int | None:
+        """Resolve struct type name to class hash.
+
+        @param original_type Struct type name.
+        @return Resolved class hash or None.
+        """
         if not original_type:
             return None
         known = self.name_to_hash.get(original_type)
@@ -220,6 +345,11 @@ class TypeDB:
 
 
 def read_len_utf16(reader: BinaryReader) -> str:
+    """Read length-prefixed UTF-16 string from stream.
+
+    @param reader Binary reader.
+    @return Decoded UTF-16 string.
+    """
     reader.seek(align(reader.tell(), 4))
     length = reader.read_u32()
     if length == 0:
@@ -233,6 +363,11 @@ def read_len_utf16(reader: BinaryReader) -> str:
 
 
 def read_len_c8(reader: BinaryReader) -> str:
+    """Read length-prefixed UTF-8/C8 string from stream.
+
+    @param reader Binary reader.
+    @return Decoded UTF-8 string.
+    """
     reader.seek(align(reader.tell(), 4))
     length = reader.read_u32()
     if length == 0:
@@ -246,6 +381,11 @@ def read_len_c8(reader: BinaryReader) -> str:
 
 
 def read_guid_like(reader: BinaryReader) -> str:
+    """Read 16-byte GUID-like payload and normalize text.
+
+    @param reader Binary reader.
+    @return Canonical GUID-like text.
+    """
     raw = reader.read(16)
     try:
         return str(uuid.UUID(bytes_le=raw))
@@ -254,6 +394,11 @@ def read_guid_like(reader: BinaryReader) -> str:
 
 
 class User3Exporter:
+    """Export `.user.3` binary files into JSON trees.
+
+    @return Exporter instance.
+    """
+
     def __init__(
         self,
         user3_root: str | Path,
@@ -262,6 +407,15 @@ class User3Exporter:
         tree_depth: int | str = "auto",
         exclude_regexes: list[str] | None = None,
     ):
+        """Initialize exporter configuration and runtime state.
+
+        @param user3_root Input root directory or single `.user.3` file.
+        @param schema_dir Schema file path or directory containing schema json.
+        @param output_root Output root directory.
+        @param tree_depth Tree depth integer or `"auto"`.
+        @param exclude_regexes Optional regex list used to exclude files.
+        @return None.
+        """
         self.user3_root = Path(user3_root)
         self.schema_dir = Path(schema_dir)
         self.output_root = Path(output_root)
@@ -279,6 +433,11 @@ class User3Exporter:
 
     @staticmethod
     def export_enums_internal(dump_json: dict) -> dict:
+        """Extract internal enum tables from il2cpp dump.
+
+        @param dump_json Parsed il2cpp dump object.
+        @return Mapping: enum type -> {member -> value}.
+        """
         enums_internal = {}
         for key, value in dump_json.items():
             if isinstance(value, dict):
@@ -293,6 +452,28 @@ class User3Exporter:
 
     @staticmethod
     def export_enum_context_internal(dump_json: dict) -> dict:
+        """Extract enum context metadata from il2cpp dump.
+
+        @param dump_json Parsed il2cpp dump object.
+        @return Context metadata for enum inference.
+        """
+
+        def extract_fixed_enum_type(type_name: Any) -> str | None:
+            """Extract unique `*_Fixed` type from a type expression.
+
+            @param type_name Type expression string.
+            @return Extracted fixed enum type or None.
+            """
+            if not isinstance(type_name, str):
+                return None
+            matches = re.findall(r"[A-Za-z0-9_.]+_Fixed", type_name)
+            if not matches:
+                return None
+            unique = list(dict.fromkeys(matches))
+            if len(unique) == 1:
+                return unique[0]
+            return None
+
         class_field_fixed_types: dict[str, dict[str, str]] = {}
         serializable_to_fixed: dict[str, str] = {}
         generic_container_rules: dict[str, dict[str, str]] = {}
@@ -301,17 +482,43 @@ class User3Exporter:
             if not isinstance(class_name, str) or not isinstance(obj, dict):
                 continue
 
+            field_map: dict[str, str] = {}
             fields_obj = obj.get("fields")
             if isinstance(fields_obj, dict):
-                field_map: dict[str, str] = {}
                 for field_name, field_info in fields_obj.items():
-                    if not isinstance(field_name, str) or not isinstance(field_info, dict):
+                    if not isinstance(field_name, str) or not isinstance(
+                        field_info, dict
+                    ):
                         continue
-                    field_type = field_info.get("type")
-                    if isinstance(field_type, str) and field_type.endswith("_Fixed"):
-                        field_map[field_name] = field_type
-                if field_map:
-                    class_field_fixed_types[class_name] = field_map
+                    fixed_type = extract_fixed_enum_type(field_info.get("type"))
+                    if fixed_type is not None:
+                        field_map[field_name] = fixed_type
+
+            # RSZ is another authoritative source for field->type relationship.
+            rsz_fields = obj.get("RSZ")
+            if isinstance(rsz_fields, list):
+                for rsz_field in rsz_fields:
+                    if not isinstance(rsz_field, dict):
+                        continue
+                    potential_name = rsz_field.get("potential_name")
+                    fixed_type = extract_fixed_enum_type(rsz_field.get("type"))
+                    if isinstance(potential_name, str) and fixed_type is not None:
+                        field_map.setdefault(potential_name, fixed_type)
+
+            # Reflection metadata may carry element-type info for array fields.
+            reflection_props = obj.get("reflection_properties")
+            if isinstance(reflection_props, dict):
+                for prop_name, prop_info in reflection_props.items():
+                    if not isinstance(prop_name, str) or not isinstance(
+                        prop_info, dict
+                    ):
+                        continue
+                    fixed_type = extract_fixed_enum_type(prop_info.get("type"))
+                    if fixed_type is not None:
+                        field_map.setdefault(prop_name, fixed_type)
+
+            if field_map:
+                class_field_fixed_types[class_name] = field_map
 
             if class_name.endswith("_Serializable"):
                 fixed_types: set[str] = set()
@@ -325,14 +532,14 @@ class User3Exporter:
                             for param in params:
                                 if not isinstance(param, dict):
                                     continue
-                                param_type = param.get("type")
-                                if isinstance(param_type, str) and param_type.endswith("_Fixed"):
-                                    fixed_types.add(param_type)
+                                fixed_type = extract_fixed_enum_type(param.get("type"))
+                                if fixed_type is not None:
+                                    fixed_types.add(fixed_type)
                         returns = method.get("returns")
                         if isinstance(returns, dict):
-                            return_type = returns.get("type")
-                            if isinstance(return_type, str) and return_type.endswith("_Fixed"):
-                                fixed_types.add(return_type)
+                            fixed_type = extract_fixed_enum_type(returns.get("type"))
+                            if fixed_type is not None:
+                                fixed_types.add(fixed_type)
                 if len(fixed_types) == 1:
                     serializable_to_fixed[class_name] = next(iter(fixed_types))
 
@@ -340,13 +547,15 @@ class User3Exporter:
             if isinstance(generic_args, list) and len(generic_args) >= 2:
                 enum_arg = generic_args[0]
                 param_arg = generic_args[1]
-                enum_type = enum_arg.get("type") if isinstance(enum_arg, dict) else None
-                param_type = param_arg.get("type") if isinstance(param_arg, dict) else None
-                if (
-                    isinstance(enum_type, str)
-                    and enum_type.endswith("_Fixed")
-                    and isinstance(param_type, str)
-                ):
+                enum_type = (
+                    extract_fixed_enum_type(enum_arg.get("type"))
+                    if isinstance(enum_arg, dict)
+                    else None
+                )
+                param_type = (
+                    param_arg.get("type") if isinstance(param_arg, dict) else None
+                )
+                if isinstance(enum_type, str) and isinstance(param_type, str):
                     generic_container_rules[class_name] = {
                         "param_type": param_type,
                         "enum_type": enum_type,
@@ -360,23 +569,47 @@ class User3Exporter:
 
     @staticmethod
     def _id_formatter(key: str, value: int) -> str:
+        """Format enum mapping output text.
+
+        @param key Enum member name.
+        @param value Fixed enum id.
+        @return Formatted display string.
+        """
         return f"[{value}] {key}"
 
     @staticmethod
     def _to_u32(value: int) -> int:
+        """Convert integer to unsigned 32-bit range.
+
+        @param value Integer value.
+        @return Unsigned 32-bit value.
+        """
         return value & 0xFFFFFFFF
 
     @staticmethod
     def _to_s32(value: int) -> int:
+        """Convert integer to signed 32-bit representation.
+
+        @param value Integer value.
+        @return Signed 32-bit value.
+        """
         u32 = value & 0xFFFFFFFF
         return u32 if u32 < 0x80000000 else u32 - 0x100000000
 
     def _resolve_enums_internal_path(self) -> Path | None:
+        """Resolve `Enums_Internal.json` location.
+
+        @return Existing `Enums_Internal.json` path or None.
+        """
         # Enums_Internal.json is always stored under MHST3-in-json (output_root).
         path = self.output_root / "Enums_Internal.json"
         return path if path.is_file() else None
 
     def _load_enum_lookup(self) -> dict[str, dict[int, tuple[str, int]]]:
+        """Load fixed enum lookup tables from `Enums_Internal.json`.
+
+        @return Mapping: fixed enum type -> {serialized/int32 variants -> (name, fixed_value)}.
+        """
         path = self._resolve_enums_internal_path()
         self.enums_internal_path = path
         if path is None:
@@ -413,6 +646,10 @@ class User3Exporter:
         return lookup
 
     def _resolve_il2cpp_dump_path(self) -> Path | None:
+        """Resolve `il2cpp_dump.json` path from input root.
+
+        @return Existing il2cpp dump path or None.
+        """
         candidates: list[Path] = []
         if self.user3_root.is_dir():
             candidates.append(self.user3_root / "il2cpp_dump.json")
@@ -424,6 +661,11 @@ class User3Exporter:
         return None
 
     def _apply_enum_context(self, raw: dict) -> None:
+        """Apply parsed enum context to in-memory indices.
+
+        @param raw Enum context object extracted from il2cpp dump.
+        @return None.
+        """
         self.class_field_fixed_types = {}
         self.serializable_to_fixed = {}
         self.generic_container_rules = {}
@@ -468,7 +710,10 @@ class User3Exporter:
                     and isinstance(enum_type, str)
                     and enum_type.endswith("_Fixed")
                 ):
-                    self.generic_container_rules[container_name] = (param_type, enum_type)
+                    self.generic_container_rules[container_name] = (
+                        param_type,
+                        enum_type,
+                    )
                     param_to_enum_sets.setdefault(param_type, set()).add(enum_type)
 
         for param_type, enum_types in param_to_enum_sets.items():
@@ -476,6 +721,10 @@ class User3Exporter:
                 self.param_type_default_enum[param_type] = next(iter(enum_types))
 
     def _load_enum_context_from_il2cpp_dump(self) -> bool:
+        """Load enum context directly from il2cpp dump.
+
+        @return True when context loading succeeds.
+        """
         dump_path = self._resolve_il2cpp_dump_path()
         if dump_path is None:
             return False
@@ -489,6 +738,10 @@ class User3Exporter:
         return True
 
     def _ensure_internal_metadata_files(self) -> None:
+        """Ensure `Enums_Internal.json` exists under output root.
+
+        @return None.
+        """
         enums_out = self.output_root / "Enums_Internal.json"
         if enums_out.is_file():
             return
@@ -506,6 +759,10 @@ class User3Exporter:
             json.dump(enums_internal, f, ensure_ascii=False, indent=2)
 
     def _ensure_enum_lookup(self) -> None:
+        """Validate enum/context readiness and print warnings.
+
+        @return None.
+        """
         if self.enum_lookup:
             return
         self.enum_lookup = self._load_enum_lookup()
@@ -526,6 +783,11 @@ class User3Exporter:
             )
 
     def _fixed_type_candidates(self, type_name: str) -> list[str]:
+        """Generate candidate fixed enum type names.
+
+        @param type_name Source type name.
+        @return Candidate fixed enum type names.
+        """
         candidates = [type_name]
         if type_name.endswith("_Serializable"):
             candidates.append(f"{type_name[:-13]}_Fixed")
@@ -540,6 +802,11 @@ class User3Exporter:
         return out
 
     def _normalize_to_fixed_enum_type(self, type_name: str) -> str:
+        """Normalize type name to known fixed enum type when possible.
+
+        @param type_name Source type name.
+        @return Normalized fixed enum type, or original value.
+        """
         if not type_name or not self.enum_lookup:
             return type_name
         direct = self.serializable_to_fixed.get(type_name)
@@ -551,6 +818,12 @@ class User3Exporter:
         return type_name
 
     def _format_enum_value(self, fixed_enum_type: str, value: int) -> Any:
+        """Map numeric value to formatted fixed enum label.
+
+        @param fixed_enum_type Fixed enum type name.
+        @param value Numeric value.
+        @return Formatted enum label or original value.
+        """
         if not fixed_enum_type or not self.enum_lookup:
             return value
         value_map = self.enum_lookup.get(fixed_enum_type)
@@ -568,10 +841,64 @@ class User3Exporter:
 
     @staticmethod
     def _looks_like_class_name(text: str) -> bool:
+        """Check whether a dict key looks like a class name.
+
+        @param text Object key text.
+        @return True when key likely is class name.
+        """
         return "." in text and not text.startswith("_")
 
     @staticmethod
+    def _class_name_variants(class_name: str | None) -> list[str]:
+        """Build class-name aliases used across dumps.
+
+        @param class_name Class name.
+        @return Alias variants (`cData` / `cParam`).
+        """
+        if not class_name:
+            return []
+        variants = [class_name]
+        if class_name.endswith(".cData"):
+            variants.append(f"{class_name[:-6]}.cParam")
+        elif class_name.endswith(".cParam"):
+            variants.append(f"{class_name[:-7]}.cData")
+        return variants
+
+    def _resolve_field_enum_hint(
+        self, current_class: str | None, field_name: str
+    ) -> str | None:
+        """Resolve fixed enum type hint for a field.
+
+        @param current_class Current class context.
+        @param field_name Field name.
+        @return Fixed enum type hint or None.
+        """
+        for class_variant in self._class_name_variants(current_class):
+            class_fields = self.class_field_fixed_types.get(class_variant, {})
+            fixed_field_type = class_fields.get(field_name)
+            if fixed_field_type:
+                return fixed_field_type
+        return None
+
+    def _resolve_class_default_enum(self, class_name: str | None) -> str | None:
+        """Resolve default enum type for generic param container class.
+
+        @param class_name Class name.
+        @return Default fixed enum type or None.
+        """
+        for class_variant in self._class_name_variants(class_name):
+            enum_type = self.param_type_default_enum.get(class_variant)
+            if enum_type is not None:
+                return enum_type
+        return None
+
+    @staticmethod
     def _is_enum_value_field(field_name: str | None) -> bool:
+        """Check whether field name is enum-value-like.
+
+        @param field_name Field name.
+        @return True when field looks enum-like.
+        """
         if not field_name:
             return False
         key = field_name.strip("_").lower()
@@ -586,10 +913,24 @@ class User3Exporter:
         container_param_rule: tuple[str, str] | None = None,
         field_name: str | None = None,
     ) -> Any:
+        """Recursively normalize keys and convert fixed enum values.
+
+        @param value Current node value.
+        @param current_class Current class context.
+        @param scalar_enum_hint Enum hint for scalar conversion.
+        @param class_default_enum Default enum for class-scoped values.
+        @param container_param_rule Generic container enum rule.
+        @param field_name Current field name.
+        @return Transformed node value.
+        """
         if isinstance(value, dict):
             out: dict[str, Any] = {}
             for k, v in value.items():
-                if isinstance(k, str) and self._looks_like_class_name(k) and isinstance(v, dict):
+                if (
+                    isinstance(k, str)
+                    and self._looks_like_class_name(k)
+                    and isinstance(v, dict)
+                ):
                     normalized_class = self._normalize_to_fixed_enum_type(k)
                     key_out = (
                         normalized_class
@@ -597,12 +938,18 @@ class User3Exporter:
                         else k
                     )
                     next_scalar_hint = (
-                        normalized_class if normalized_class in self.enum_lookup else None
+                        normalized_class
+                        if normalized_class in self.enum_lookup
+                        else None
                     )
                     next_container_rule = self.generic_container_rules.get(k)
                     if next_container_rule is None:
-                        next_container_rule = self.generic_container_rules.get(normalized_class)
-                    next_default_enum = self.param_type_default_enum.get(normalized_class)
+                        next_container_rule = self.generic_container_rules.get(
+                            normalized_class
+                        )
+                    next_default_enum = self._resolve_class_default_enum(
+                        normalized_class
+                    )
                     if (
                         container_param_rule is not None
                         and normalized_class == container_param_rule[0]
@@ -621,8 +968,11 @@ class User3Exporter:
 
                 field_hint: str | None = None
                 if current_class is not None:
-                    class_fields = self.class_field_fixed_types.get(current_class, {})
-                    fixed_field_type = class_fields.get(k) if isinstance(k, str) else None
+                    fixed_field_type = (
+                        self._resolve_field_enum_hint(current_class, k)
+                        if isinstance(k, str)
+                        else None
+                    )
                     if fixed_field_type:
                         field_hint = fixed_field_type
                 if (
@@ -662,15 +1012,15 @@ class User3Exporter:
                 )
                 for item in value
             ]
-        if (
-            isinstance(value, int)
-            and scalar_enum_hint is not None
-            and self._is_enum_value_field(field_name)
-        ):
+        if isinstance(value, int) and scalar_enum_hint is not None:
             return self._format_enum_value(scalar_enum_hint, value)
         return value
 
     def run(self) -> dict[str, int]:
+        """Run export pipeline for all discovered files.
+
+        @return Export statistics with total/success/failed counts.
+        """
         files = self._discover_user3_files()
         self.output_root.mkdir(parents=True, exist_ok=True)
         self._ensure_internal_metadata_files()
@@ -692,6 +1042,11 @@ class User3Exporter:
         return {"total": len(files), "success": success, "failed": failed}
 
     def _export_one_file(self, user3_file: Path) -> bool:
+        """Export a single `.user.3` file.
+
+        @param user3_file Source `.user.3` file path.
+        @return True on success.
+        """
         try:
             tree = self._parse_user3(user3_file)
             tree = self._postprocess_enum_nodes(tree)
@@ -704,6 +1059,11 @@ class User3Exporter:
             return False
 
     def _resolve_schema_path(self, schema_dir: Path) -> Path:
+        """Resolve schema file path.
+
+        @param schema_dir Schema file path or directory.
+        @return Resolved schema file path.
+        """
         if schema_dir.is_file():
             return schema_dir
         path = schema_dir / "rszmhst3.json"
@@ -712,6 +1072,11 @@ class User3Exporter:
         return path
 
     def _normalize_tree_depth(self, tree_depth: int | str) -> int | str:
+        """Normalize tree depth input value.
+
+        @param tree_depth Requested tree depth.
+        @return Normalized depth integer or `"auto"`.
+        """
         if isinstance(tree_depth, str):
             value = tree_depth.strip().lower()
             if value != "auto":
@@ -724,6 +1089,11 @@ class User3Exporter:
         raise TypeError("tree_depth must be int or str")
 
     def _count_reference_links(self, value: Any) -> int:
+        """Count reference links in nested structure.
+
+        @param value Nested value.
+        @return Count of `ref_instance_id` links.
+        """
         if isinstance(value, dict):
             if "ref_instance_id" in value and isinstance(value["ref_instance_id"], int):
                 return 1
@@ -736,6 +1106,12 @@ class User3Exporter:
         return 0
 
     def _collect_reference_ids(self, value: Any, out: set[int]) -> None:
+        """Collect referenced instance IDs from nested structure.
+
+        @param value Nested value.
+        @param out Output set for collected IDs.
+        @return None.
+        """
         if isinstance(value, dict):
             if "ref_instance_id" in value and isinstance(value["ref_instance_id"], int):
                 out.add(value["ref_instance_id"])
@@ -752,6 +1128,12 @@ class User3Exporter:
         idx_map: dict[int, dict[str, Any]],
         parsed_instances: list[dict[str, Any]],
     ) -> list[int]:
+        """Infer root indices when object table is empty.
+
+        @param idx_map Parsed instances indexed by instance ID.
+        @param parsed_instances Ordered parsed instance list.
+        @return Inferred root indices.
+        """
         candidates = sorted(
             idx
             for idx, inst in idx_map.items()
@@ -774,6 +1156,12 @@ class User3Exporter:
     def _auto_pick_tree_depth(
         self, parsed_instances: list[dict[str, Any]], object_roots: list[int]
     ) -> int:
+        """Auto-pick compact-tree depth from content complexity.
+
+        @param parsed_instances Parsed instance list.
+        @param object_roots Root instance indices.
+        @return Auto-selected depth.
+        """
         ref_links = 0
         for inst in parsed_instances:
             fields = inst.get("data", {}).get("fields")
@@ -790,6 +1178,10 @@ class User3Exporter:
         return 1
 
     def _discover_user3_files(self) -> list[Path]:
+        """Discover input `.user.3` files and apply excludes.
+
+        @return Discovered `.user.3` files after exclude filtering.
+        """
         if self.user3_root.is_file():
             files = [self.user3_root]
         else:
@@ -815,6 +1207,11 @@ class User3Exporter:
         return kept
 
     def _output_path_for(self, user3_file: Path) -> Path:
+        """Build output json path for one source file.
+
+        @param user3_file Source file path.
+        @return Output json path.
+        """
         if self.user3_root.is_file():
             relative_parent = Path()
         else:
@@ -825,6 +1222,13 @@ class User3Exporter:
     def _parse_scalar(
         self, reader: BinaryReader, field: FieldDef, depth: int = 0
     ) -> Any:
+        """Parse one scalar field value from binary stream.
+
+        @param reader Binary reader.
+        @param field Field definition.
+        @param depth Struct recursion depth.
+        @return Parsed scalar value.
+        """
         t = field.field_type
         if t == "Bool":
             return bool(reader.read_u8())
@@ -916,6 +1320,13 @@ class User3Exporter:
     def _parse_field_value(
         self, reader: BinaryReader, field: FieldDef, depth: int = 0
     ) -> Any:
+        """Parse scalar or array field value.
+
+        @param reader Binary reader.
+        @param field Field definition.
+        @param depth Struct recursion depth.
+        @return Parsed field value.
+        """
         if field.is_array:
             count = reader.read_u32()
             if count > 1_000_000:
@@ -938,6 +1349,11 @@ class User3Exporter:
         return self._parse_scalar(reader, field, depth=depth)
 
     def _estimate_min_instance_size(self, cls: ClassDef) -> int:
+        """Estimate minimum byte size for one instance.
+
+        @param cls Class definition.
+        @return Estimated minimum instance size.
+        """
         pos = 0
         for field in cls.fields:
             align_to = 4 if field.is_array else max(field.align, 1)
@@ -964,6 +1380,12 @@ class User3Exporter:
         return max(pos, 1)
 
     def _parse_instance(self, reader: BinaryReader, class_hash: int) -> dict[str, Any]:
+        """Parse one class instance payload.
+
+        @param reader Binary reader.
+        @param class_hash Class hash.
+        @return Parsed instance dictionary.
+        """
         cls = self.typedb.get_class(class_hash)
         if cls is None:
             raise ParseError(f"class hash 0x{class_hash:08x} not found in schema")
@@ -978,6 +1400,11 @@ class User3Exporter:
         return out
 
     def _simplify_value_object(self, value: Any) -> Any:
+        """Simplify wrapper objects containing only `_Value`.
+
+        @param value Input value.
+        @return Simplified value when wrapper shape matches.
+        """
         if isinstance(value, dict) and len(value) == 1 and "_Value" in value:
             return value["_Value"]
         return value
@@ -989,6 +1416,14 @@ class User3Exporter:
         depth: int,
         visited: set[int],
     ) -> Any:
+        """Resolve compact value with reference expansion.
+
+        @param value Input value.
+        @param idx_map Instance map.
+        @param depth Remaining depth.
+        @param visited Visited indices.
+        @return Compact resolved value.
+        """
         if isinstance(value, dict):
             if "ref_instance_id" in value and isinstance(value["ref_instance_id"], int):
                 target_idx = value["ref_instance_id"]
@@ -1016,6 +1451,15 @@ class User3Exporter:
         instance_info_map: dict[int, dict[str, Any]] | None = None,
         visited: set[int] | None = None,
     ) -> dict[str, Any]:
+        """Build compact tree node for one root index.
+
+        @param idx Root instance index.
+        @param idx_map Parsed instance map.
+        @param depth Remaining depth.
+        @param instance_info_map Optional instance metadata map.
+        @param visited Optional visited-index set.
+        @return Compact tree node.
+        """
         if visited is None:
             visited = set()
         if idx in visited:
@@ -1069,6 +1513,15 @@ class User3Exporter:
         instance_info_map: dict[int, dict[str, Any]] | None,
         visited: set[int],
     ) -> Any:
+        """Resolve compact value using instance metadata.
+
+        @param value Input value.
+        @param idx_map Parsed instance map.
+        @param depth Remaining depth.
+        @param instance_info_map Optional instance metadata map.
+        @param visited Visited indices.
+        @return Compact resolved value.
+        """
         if isinstance(value, dict):
             if "ref_instance_id" in value and isinstance(value["ref_instance_id"], int):
                 target_idx = value["ref_instance_id"]
@@ -1097,6 +1550,11 @@ class User3Exporter:
         return value
 
     def _parse_user3(self, user3_path: Path) -> list[dict[str, Any]]:
+        """Parse full `.user.3` file into compact object trees.
+
+        @param user3_path Source `.user.3` file path.
+        @return Compact object tree list.
+        """
         reader = BinaryReader(user3_path.read_bytes())
 
         magic = reader.read_u32()

@@ -7,8 +7,8 @@
           "app.WorldOtomonSubAction_General.cNone": {
             "index": 1,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -1145462656,
-            "_RideResponseType": 1955913600,
+            "_RideOrderType": "[3149504640] NONE",
+            "_RideResponseType": "[1955913600] NONE",
             "_ActionAttr": 0
           }
         },
@@ -16,8 +16,8 @@
           "app.WorldOtomonSubAction_General.cRideStart": {
             "index": 2,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -764609472,
-            "_RideResponseType": -1373408512,
+            "_RideOrderType": "[3530357824] RIDE_START",
+            "_RideResponseType": "[2921558784] RIDE_START",
             "_ActionAttr": 1
           }
         },
@@ -25,8 +25,8 @@
           "app.WorldOtomonSubAction_General.cRideEnd": {
             "index": 3,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 82489168,
-            "_RideResponseType": -1191179904,
+            "_RideOrderType": "[82489168] RIDE_END",
+            "_RideResponseType": "[3103787392] RIDE_END",
             "_ActionAttr": 1
           }
         },
@@ -34,8 +34,8 @@
           "app.WorldOtomonSubAction_General.cRideChangeWait": {
             "index": 4,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -1213854080,
-            "_RideResponseType": 2032913920,
+            "_RideOrderType": "[3081113216] RIDE_CHANGE_WAIT",
+            "_RideResponseType": "[2032913920] RIDE_CHANGE_WAIT",
             "_ActionAttr": 2
           }
         },
@@ -43,8 +43,8 @@
           "app.WorldOtomonSubAction_General.cRideChange": {
             "index": 5,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 504297696,
-            "_RideResponseType": 89373448,
+            "_RideOrderType": "[504297696] RIDE_CHANGE",
+            "_RideResponseType": "[89373448] RIDE_CHANGE",
             "_ActionAttr": 2
           }
         },
@@ -52,8 +52,8 @@
           "app.WorldOtomonSubAction_General.cShout": {
             "index": 6,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -1577302656,
-            "_RideResponseType": -1159114112,
+            "_RideOrderType": "[2717664640] SHOUT",
+            "_RideResponseType": "[3135853184] SHOUT",
             "_ActionAttr": 0,
             "_EffectScale": [
               0.5,
@@ -68,8 +68,8 @@
           "app.WorldOtomonSubAction_General.cSwitchShout": {
             "index": 7,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 504297696,
-            "_RideResponseType": -1159114112,
+            "_RideOrderType": "[504297696] RIDE_CHANGE",
+            "_RideResponseType": "[3135853184] SHOUT",
             "_ActionAttr": 2
           }
         },
@@ -77,8 +77,8 @@
           "app.WorldOtomonSubAction_General.cIdleVariation": {
             "index": 12,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -1145462656,
-            "_RideResponseType": 1955913600,
+            "_RideOrderType": "[3149504640] NONE",
+            "_RideResponseType": "[1955913600] NONE",
             "_ActionAttr": 0,
             "_Interval": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
@@ -120,8 +120,8 @@
           "app.WorldOtomonSubAction_General.cStealth": {
             "index": 13,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 1659,
-            "_RideResponseType": 14180,
+            "_RideOrderType": "[1659] STEALTH",
+            "_RideResponseType": "[14180] STEALTH",
             "_ActionAttr": 0,
             "_Alpha": 0.6000000238418579
           }

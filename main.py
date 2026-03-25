@@ -7,6 +7,10 @@ from user3_exporter import User3Exporter
 
 
 def main() -> None:
+    """Parse CLI arguments and run exporter.
+
+    @return None.
+    """
     parser = argparse.ArgumentParser(description="Export all .user.3 files to JSON.")
     parser.add_argument(
         "--input-dir",

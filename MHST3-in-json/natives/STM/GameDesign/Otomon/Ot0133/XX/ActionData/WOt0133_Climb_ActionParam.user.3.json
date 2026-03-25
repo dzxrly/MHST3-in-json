@@ -7,8 +7,8 @@
           "app.WorldOtomonAction_Climb.cNone": {
             "index": 1,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -1145462656,
-            "_RideResponseType": 1955913600,
+            "_RideOrderType": "[3149504640] NONE",
+            "_RideResponseType": "[1955913600] NONE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0
@@ -18,8 +18,8 @@
           "app.WorldOtomonAction_Climb.cClimbUpStart": {
             "index": 5,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -651437056,
-            "_RideResponseType": -1851127168,
+            "_RideOrderType": "[3643530240] NO_ORDER",
+            "_RideResponseType": "[2443840128] CLIMB_UP_START",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 1,
@@ -50,8 +50,8 @@
           "app.WorldOtomonAction_Climb.cClimbUpStartAir": {
             "index": 8,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -651437056,
-            "_RideResponseType": -1851127168,
+            "_RideOrderType": "[3643530240] NO_ORDER",
+            "_RideResponseType": "[2443840128] CLIMB_UP_START",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 1,
@@ -75,8 +75,8 @@
           "app.WorldOtomonAction_Climb.cClimbIdle": {
             "index": 9,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -736126656,
-            "_RideResponseType": 725779520,
+            "_RideOrderType": "[3558840640] IDLE",
+            "_RideResponseType": "[725779520] CLIMB_IDLE",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0
@@ -86,8 +86,8 @@
           "app.WorldOtomonAction_Climb.cClimbMove": {
             "index": 20,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 65387560,
-            "_RideResponseType": -216311040,
+            "_RideOrderType": "[65387560] RUN",
+            "_RideResponseType": "[4078656256] CLIMB_MOVE",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 1,
@@ -168,8 +168,8 @@
           "app.WorldOtomonAction_Climb.cClimbUpFinish": {
             "index": 23,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 65387560,
-            "_RideResponseType": 87166776,
+            "_RideOrderType": "[65387560] RUN",
+            "_RideResponseType": "[87166776] CLIMB_UP_FINISH",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 1,
@@ -193,8 +193,8 @@
           "app.WorldOtomonAction_Climb.cClimbUpFinishFall": {
             "index": 24,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 65387560,
-            "_RideResponseType": 87166776,
+            "_RideOrderType": "[65387560] RUN",
+            "_RideResponseType": "[87166776] CLIMB_UP_FINISH",
             "_CameraParamDataGuid": "7a7b5c47-e7aa-49d6-8b5b-71889fbb6570",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0
@@ -204,8 +204,8 @@
           "app.WorldOtomonAction_Climb.cClimbDownFinish": {
             "index": 25,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 65387560,
-            "_RideResponseType": -164043536,
+            "_RideOrderType": "[65387560] RUN",
+            "_RideResponseType": "[4130923760] CLIMB_DOWN_FINISH",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 1
@@ -215,8 +215,8 @@
           "app.WorldOtomonAction_Climb.cClimbDown": {
             "index": 29,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 1148279680,
-            "_RideResponseType": 1660517888,
+            "_RideOrderType": "[1148279680] WALL_DOWN",
+            "_RideResponseType": "[1660517888] WALL_DOWN",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 0,
@@ -248,8 +248,8 @@
           "app.WorldOtomonAction_Climb.cClimbEnd": {
             "index": 30,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 1148279680,
-            "_RideResponseType": 1660517888,
+            "_RideOrderType": "[1148279680] WALL_DOWN",
+            "_RideResponseType": "[1660517888] WALL_DOWN",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0
@@ -259,8 +259,8 @@
           "app.WorldOtomonAction_Climb.cClimbFall": {
             "index": 36,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 1434736640,
-            "_RideResponseType": -166468048,
+            "_RideOrderType": "[1434736640] WALL_FALL",
+            "_RideResponseType": "[4128499248] FALL",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 0,
@@ -305,8 +305,8 @@
           "app.WorldOtomonAction_Climb.cClimbJump": {
             "index": 45,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 705853760,
-            "_RideResponseType": -1510913280,
+            "_RideOrderType": "[705853760] WALL_JUMP",
+            "_RideResponseType": "[2784054016] WALL_JUMP",
             "_CameraParamDataGuid": "7a7b5c47-e7aa-49d6-8b5b-71889fbb6570",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 0,
@@ -384,8 +384,8 @@
           "app.WorldOtomonAction_Climb.cClimbMoveStep": {
             "index": 46,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -1493582976,
-            "_RideResponseType": 2138076544,
+            "_RideOrderType": "[2801384320] WALK",
+            "_RideResponseType": "[2138076544] CLIMB_MOVE_STEP",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 1
@@ -395,8 +395,8 @@
           "app.WorldOtomonAction_Climb.cClimbDownStart": {
             "index": 48,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -651437056,
-            "_RideResponseType": -721433984,
+            "_RideOrderType": "[3643530240] NO_ORDER",
+            "_RideResponseType": "[3573533312] CLIMB_DOWN_START",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 1,
@@ -413,8 +413,8 @@
           "app.WorldOtomonAction_Climb.cClimbMoveDown": {
             "index": 49,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 65387560,
-            "_RideResponseType": -1928213376,
+            "_RideOrderType": "[65387560] RUN",
+            "_RideResponseType": "[2366753920] CLIMB_MOVE_DOWN",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 1
@@ -424,8 +424,8 @@
           "app.WorldOtomonAction_Climb.cClimbDownStop": {
             "index": 50,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -736126656,
-            "_RideResponseType": 725779520,
+            "_RideOrderType": "[3558840640] IDLE",
+            "_RideResponseType": "[725779520] CLIMB_IDLE",
             "_CameraParamDataGuid": "ff260c09-3f76-4220-b6da-ad4f508bfce4",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0
@@ -435,8 +435,8 @@
           "app.WorldOtomonAction_Climb.cInitClimbIdle": {
             "index": 51,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -1145462656,
-            "_RideResponseType": 725779520,
+            "_RideOrderType": "[3149504640] NONE",
+            "_RideResponseType": "[725779520] CLIMB_IDLE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0

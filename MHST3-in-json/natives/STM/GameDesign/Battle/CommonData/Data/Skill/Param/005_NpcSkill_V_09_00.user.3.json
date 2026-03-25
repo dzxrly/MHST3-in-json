@@ -14,7 +14,7 @@
             "_IsIgnoreCountSkill": false,
             "_StaminaCost": 10.0,
             "_KinshipGainGauge": 0.0,
-            "_Target": 748959360,
+            "_Target": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
             "_PermissionThreeWayInfo": {
               "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
                 "index": 1,
@@ -31,7 +31,7 @@
             "_NeedChargeLevel": 0,
             "_NeedUnderChargeLevel": 0,
             "_UseCondFlagBit": 0,
-            "_MainCategoryForAI": 131137488,
+            "_MainCategoryForAI": "[131137488] DAMAGE",
             "_SubCategoryBit": {
               "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": {
                 "index": 2,
@@ -44,24 +44,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 51,
-                  "_KindType": 1698789248,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[1698789248] SKL_KIND_DAMAGE",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 3,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1705334400,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 4,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 748959360,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
                   "_HpDamageRate": 50,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 0.0,
@@ -341,14 +341,14 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 46,
                       "_PerformType": 0,
-                      "_SkillKind": 652070848,
+                      "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
                   },
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 47,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -390,7 +390,7 @@
             "_IsIgnoreCountSkill": false,
             "_StaminaCost": 0.0,
             "_KinshipGainGauge": 0.0,
-            "_Target": 1273199232,
+            "_Target": "[1273199232] SKL_TARGET_MYSELF",
             "_PermissionThreeWayInfo": {
               "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
                 "index": 53,
@@ -407,7 +407,7 @@
             "_NeedChargeLevel": 0,
             "_NeedUnderChargeLevel": 0,
             "_UseCondFlagBit": 0,
-            "_MainCategoryForAI": 583820672,
+            "_MainCategoryForAI": "[583820672] STAMINA_HEAL",
             "_SubCategoryBit": {
               "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": {
                 "index": 54,
@@ -420,24 +420,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 103,
-                  "_KindType": 71601616,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[71601616] SKL_KIND_STAMINA_HEAL",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 55,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1705334400,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 56,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 1273199232,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[1273199232] SKL_TARGET_MYSELF",
                   "_HpDamageRate": 0,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 10.0,
@@ -717,14 +717,14 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 98,
                       "_PerformType": 0,
-                      "_SkillKind": 652070848,
+                      "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
                   },
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 99,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -766,7 +766,7 @@
             "_IsIgnoreCountSkill": false,
             "_StaminaCost": 0.0,
             "_KinshipGainGauge": 0.0,
-            "_Target": 496833600,
+            "_Target": "[496833600] SKL_TARGET_ALL_ALLY",
             "_PermissionThreeWayInfo": {
               "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
                 "index": 105,
@@ -783,7 +783,7 @@
             "_NeedChargeLevel": 0,
             "_NeedUnderChargeLevel": 0,
             "_UseCondFlagBit": 0,
-            "_MainCategoryForAI": -575503104,
+            "_MainCategoryForAI": "[3719464192] BUFF",
             "_SubCategoryBit": {
               "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": {
                 "index": 106,
@@ -796,24 +796,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 155,
-                  "_KindType": -282488608,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[4012478688] SKL_KIND_SETSTATUS",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 107,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1991252864,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2303714432] SKL_SETSTATUS_NORMAL",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 108,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 496833600,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[496833600] SKL_TARGET_ALL_ALLY",
                   "_HpDamageRate": 0,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 0.0,
@@ -1093,14 +1093,14 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 150,
                       "_PerformType": 0,
-                      "_SkillKind": 652070848,
+                      "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
                   },
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 151,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -1142,7 +1142,7 @@
             "_IsIgnoreCountSkill": false,
             "_StaminaCost": 0.0,
             "_KinshipGainGauge": 0.0,
-            "_Target": 1273199232,
+            "_Target": "[1273199232] SKL_TARGET_MYSELF",
             "_PermissionThreeWayInfo": {
               "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
                 "index": 157,
@@ -1159,7 +1159,7 @@
             "_NeedChargeLevel": 0,
             "_NeedUnderChargeLevel": 0,
             "_UseCondFlagBit": 0,
-            "_MainCategoryForAI": 131137488,
+            "_MainCategoryForAI": "[131137488] DAMAGE",
             "_SubCategoryBit": {
               "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": {
                 "index": 158,
@@ -1172,24 +1172,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 207,
-                  "_KindType": -282488608,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[4012478688] SKL_KIND_SETSTATUS",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 159,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1991252864,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2303714432] SKL_SETSTATUS_NORMAL",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 160,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 1273199232,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[1273199232] SKL_TARGET_MYSELF",
                   "_HpDamageRate": 0,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 0.0,
@@ -1469,14 +1469,14 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 202,
                       "_PerformType": 0,
-                      "_SkillKind": 652070848,
+                      "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
                   },
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 203,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -1518,7 +1518,7 @@
             "_IsIgnoreCountSkill": false,
             "_StaminaCost": 10.0,
             "_KinshipGainGauge": 0.0,
-            "_Target": 748959360,
+            "_Target": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
             "_PermissionThreeWayInfo": {
               "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
                 "index": 209,
@@ -1535,7 +1535,7 @@
             "_NeedChargeLevel": 0,
             "_NeedUnderChargeLevel": 0,
             "_UseCondFlagBit": 0,
-            "_MainCategoryForAI": 1653714432,
+            "_MainCategoryForAI": "[1653714432] DEBUFF",
             "_SubCategoryBit": {
               "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": {
                 "index": 210,
@@ -1548,24 +1548,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 259,
-                  "_KindType": 1698789248,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[1698789248] SKL_KIND_DAMAGE",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 211,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1705334400,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 212,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 748959360,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
                   "_HpDamageRate": 30,
                   "_StaminaDamageRate": 10,
                   "_StaminaHealRate": 0.0,
@@ -1845,14 +1845,14 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 254,
                       "_PerformType": 0,
-                      "_SkillKind": 652070848,
+                      "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
                   },
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 255,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -1883,24 +1883,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 314,
-                  "_KindType": -282488608,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[4012478688] SKL_KIND_SETSTATUS",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 260,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1991252864,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2303714432] SKL_SETSTATUS_NORMAL",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 261,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 748959360,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
                   "_HpDamageRate": 0,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 0.0,
@@ -2222,14 +2222,14 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 309,
                       "_PerformType": 0,
-                      "_SkillKind": 652070848,
+                      "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
                   },
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 310,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -2271,7 +2271,7 @@
             "_IsIgnoreCountSkill": false,
             "_StaminaCost": 0.0,
             "_KinshipGainGauge": 0.0,
-            "_Target": 748959360,
+            "_Target": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
             "_PermissionThreeWayInfo": {
               "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
                 "index": 316,
@@ -2288,7 +2288,7 @@
             "_NeedChargeLevel": 0,
             "_NeedUnderChargeLevel": 0,
             "_UseCondFlagBit": 0,
-            "_MainCategoryForAI": 131137488,
+            "_MainCategoryForAI": "[131137488] DAMAGE",
             "_SubCategoryBit": {
               "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": {
                 "index": 317,
@@ -2301,24 +2301,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 366,
-                  "_KindType": 1698789248,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[1698789248] SKL_KIND_DAMAGE",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 318,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1705334400,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 319,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 748959360,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
                   "_HpDamageRate": 75,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 0.0,
@@ -2598,14 +2598,14 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 361,
                       "_PerformType": 0,
-                      "_SkillKind": 652070848,
+                      "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
                   },
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 362,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -2636,24 +2636,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 415,
-                  "_KindType": 1389521280,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[1389521280] SKL_KIND_HORN_SPECIAL",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 367,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1705334400,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 368,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 1479344896,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[1479344896] INVALID",
                   "_HpDamageRate": 0,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 0.0,
@@ -2933,14 +2933,14 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 410,
                       "_PerformType": 0,
-                      "_SkillKind": 652070848,
+                      "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
                   },
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 411,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -2971,24 +2971,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 465,
-                  "_KindType": -4644645,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[4290322651] SKL_KIND_ADD_PERFORM",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 416,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1705334400,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 417,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 1479344896,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[1479344896] INVALID",
                   "_HpDamageRate": 0,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 0.0,
@@ -3268,7 +3268,7 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 460,
                       "_PerformType": 0,
-                      "_SkillKind": 1389521280,
+                      "_SkillKind": "[1389521280] SKL_KIND_HORN_SPECIAL",
                       "_SkillInfo": [
                         {
                           "app.user_data.cSkillParamInfo.cAddPerformSkillInfo.cSkillInfo": {
@@ -3282,7 +3282,7 @@
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 461,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -3324,7 +3324,7 @@
             "_IsIgnoreCountSkill": false,
             "_StaminaCost": 0.0,
             "_KinshipGainGauge": 0.0,
-            "_Target": 496833600,
+            "_Target": "[496833600] SKL_TARGET_ALL_ALLY",
             "_PermissionThreeWayInfo": {
               "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
                 "index": 467,
@@ -3341,7 +3341,7 @@
             "_NeedChargeLevel": 0,
             "_NeedUnderChargeLevel": 0,
             "_UseCondFlagBit": 0,
-            "_MainCategoryForAI": -575503104,
+            "_MainCategoryForAI": "[3719464192] BUFF",
             "_SubCategoryBit": {
               "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": {
                 "index": 468,
@@ -3354,24 +3354,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 518,
-                  "_KindType": -4644645,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[4290322651] SKL_KIND_ADD_PERFORM",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 469,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1705334400,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 470,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 748959360,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
                   "_HpDamageRate": 75,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 0.0,
@@ -3651,7 +3651,7 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 513,
                       "_PerformType": 1,
-                      "_SkillKind": 1389521280,
+                      "_SkillKind": "[1389521280] SKL_KIND_HORN_SPECIAL",
                       "_SkillInfo": [
                         {
                           "app.user_data.cSkillParamInfo.cAddPerformSkillInfo.cSkillInfo": {
@@ -3665,7 +3665,7 @@
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 514,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -3707,7 +3707,7 @@
             "_IsIgnoreCountSkill": false,
             "_StaminaCost": 15.0,
             "_KinshipGainGauge": 0.0,
-            "_Target": 748959360,
+            "_Target": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
             "_PermissionThreeWayInfo": {
               "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
                 "index": 520,
@@ -3724,7 +3724,7 @@
             "_NeedChargeLevel": 0,
             "_NeedUnderChargeLevel": 0,
             "_UseCondFlagBit": 0,
-            "_MainCategoryForAI": 131137488,
+            "_MainCategoryForAI": "[131137488] DAMAGE",
             "_SubCategoryBit": {
               "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": {
                 "index": 521,
@@ -3737,24 +3737,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 570,
-                  "_KindType": 1698789248,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[1698789248] SKL_KIND_DAMAGE",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 522,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1705334400,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 523,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 748959360,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
                   "_HpDamageRate": 80,
                   "_StaminaDamageRate": 20,
                   "_StaminaHealRate": 0.0,
@@ -4034,14 +4034,14 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 565,
                       "_PerformType": 0,
-                      "_SkillKind": 652070848,
+                      "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
                   },
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 566,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {
@@ -4072,24 +4072,24 @@
               {
                 "app.user_data.cSkillParamInfo.cSkillKind": {
                   "index": 619,
-                  "_KindType": -1029883520,
-                  "_DamageType": -1360887552,
+                  "_KindType": "[3265083776] SKL_KIND_PARTS_THRUST",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
                   "_DamageSubTypeBit": {
                     "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": {
                       "index": 571,
                       "value": 0
                     }
                   },
-                  "_HealType": -1495675392,
-                  "_SetStatusType": -1705334400,
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
                   "_SetStatusSubTypeBit": {
                     "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": {
                       "index": 572,
                       "value": 0
                     }
                   },
-                  "_ResetStatusType": 1681573888,
-                  "_TargetType": 1479344896,
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[1479344896] INVALID",
                   "_HpDamageRate": 0,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 0.0,
@@ -4369,14 +4369,14 @@
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
                       "index": 614,
                       "_PerformType": 0,
-                      "_SkillKind": 652070848,
+                      "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
                   },
                   "_SetBottleInfo": {
                     "app.user_data.cSkillParamInfo.cSetBottleInfo": {
                       "index": 615,
-                      "_BottleType": -1831903872
+                      "_BottleType": "[2463063424] INVALID"
                     }
                   },
                   "_GeneralParam_ChangeStatusLevel": {

@@ -7,8 +7,8 @@
           "app.WorldOtomonAction_Fly.cNone": {
             "index": 1,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -1145462656,
-            "_RideResponseType": 1955913600,
+            "_RideOrderType": "[3149504640] NONE",
+            "_RideResponseType": "[1955913600] NONE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0
@@ -18,8 +18,8 @@
           "app.WorldOtomonAction_Fly.cFlyIdle": {
             "index": 20,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -736126656,
-            "_RideResponseType": 478585568,
+            "_RideOrderType": "[3558840640] IDLE",
+            "_RideResponseType": "[478585568] FLY_IDLE",
             "_CameraParamDataGuid": "8baa91e1-0d46-438c-b71f-86fea7536df0",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0,
@@ -166,8 +166,8 @@
           "app.WorldOtomonAction_Fly.cFlyIdleNoAscent": {
             "index": 39,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -736126656,
-            "_RideResponseType": 478585568,
+            "_RideOrderType": "[3558840640] IDLE",
+            "_RideResponseType": "[478585568] FLY_IDLE",
             "_CameraParamDataGuid": "8baa91e1-0d46-438c-b71f-86fea7536df0",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0,
@@ -314,8 +314,8 @@
           "app.WorldOtomonAction_Fly.cFlySlowMove": {
             "index": 52,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -1493582976,
-            "_RideResponseType": 229826576,
+            "_RideOrderType": "[2801384320] WALK",
+            "_RideResponseType": "[229826576] FLY_MOVE",
             "_CameraParamDataGuid": "8baa91e1-0d46-438c-b71f-86fea7536df0",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 0,
@@ -419,8 +419,8 @@
           "app.WorldOtomonAction_Fly.cFlyMove": {
             "index": 82,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 65387560,
-            "_RideResponseType": 229826576,
+            "_RideOrderType": "[65387560] RUN",
+            "_RideResponseType": "[229826576] FLY_MOVE",
             "_CameraParamDataGuid": "8baa91e1-0d46-438c-b71f-86fea7536df0",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 0,
@@ -662,8 +662,8 @@
           "app.WorldOtomonAction_Fly.cFlyDiveMove": {
             "index": 111,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 65387560,
-            "_RideResponseType": 229826576,
+            "_RideOrderType": "[65387560] RUN",
+            "_RideResponseType": "[229826576] FLY_MOVE",
             "_CameraParamDataGuid": "8baa91e1-0d46-438c-b71f-86fea7536df0",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 0,
@@ -893,8 +893,8 @@
           "app.WorldOtomonAction_Fly.cTopSpeedFlyMove": {
             "index": 142,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -885628800,
-            "_RideResponseType": 229826576,
+            "_RideOrderType": "[3409338496] DASH",
+            "_RideResponseType": "[229826576] FLY_MOVE",
             "_CameraParamDataGuid": "8baa91e1-0d46-438c-b71f-86fea7536df0",
             "_IsEnableCameraAutoCentering": true,
             "_ActionAttr": 0,
@@ -1137,8 +1137,8 @@
           "app.WorldOtomonAction_Fly.cFlyIdleFall": {
             "index": 144,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 642835392,
-            "_RideResponseType": 1149936896,
+            "_RideOrderType": "[642835392] FALL",
+            "_RideResponseType": "[1149936896] FLY_FALL",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0,
@@ -1155,8 +1155,8 @@
           "app.WorldOtomonAction_Fly.cFlyMoveFall": {
             "index": 145,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": 642835392,
-            "_RideResponseType": 1149936896,
+            "_RideOrderType": "[642835392] FALL",
+            "_RideResponseType": "[1149936896] FLY_FALL",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0
@@ -1166,8 +1166,8 @@
           "app.WorldOtomonAction_Fly.cFlyBless": {
             "index": 171,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -834280192,
-            "_RideResponseType": -344861792,
+            "_RideOrderType": "[3460687104] BLESS_CHARGE",
+            "_RideResponseType": "[3950105504] FLY_BLESS_CHARGE",
             "_CameraParamDataGuid": "454fb7a2-7ee9-4986-b489-af6c32176a97",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 0,
@@ -1370,8 +1370,8 @@
           "app.WorldOtomonAction_Fly.cInitFlyMove": {
             "index": 172,
             "_ActionSafeLimitTime": -1.0,
-            "_RideOrderType": -1145462656,
-            "_RideResponseType": 229826576,
+            "_RideOrderType": "[3149504640] NONE",
+            "_RideResponseType": "[229826576] FLY_MOVE",
             "_CameraParamDataGuid": "8baa91e1-0d46-438c-b71f-86fea7536df0",
             "_IsEnableCameraAutoCentering": false,
             "_ActionAttr": 1
@@ -1420,8 +1420,8 @@
                     "app.WorldOtomonAction_Fly.cTopSpeedFlyMove": {
                       "index": 207,
                       "_ActionSafeLimitTime": -1.0,
-                      "_RideOrderType": -885628800,
-                      "_RideResponseType": 1321486720,
+                      "_RideOrderType": "[3409338496] DASH",
+                      "_RideResponseType": "[1321486720] DASH",
                       "_CameraParamDataGuid": "8baa91e1-0d46-438c-b71f-86fea7536df0",
                       "_IsEnableCameraAutoCentering": false,
                       "_ActionAttr": 0,
