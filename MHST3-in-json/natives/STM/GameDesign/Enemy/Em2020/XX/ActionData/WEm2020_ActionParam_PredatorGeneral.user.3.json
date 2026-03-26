@@ -1,24 +1,20 @@
 [
   {
     "ace.user_data.ActionParam": {
-      "index": 9,
       "_ActionClassList": [
         {
           "app.WorldEnemyAction_PredatorGeneral.cNone": {
-            "index": 1,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_PredatorGeneral.cRoarEncount": {
-            "index": 2,
             "_ActionSafeLimitTime": -1.0,
             "_Degree": 15.0
           }
         },
         {
           "app.WorldEnemyAction_PredatorGeneral.cDemoEncount": {
-            "index": 3,
             "_ActionSafeLimitTime": -1.0
           }
         }
@@ -27,7 +23,6 @@
       "_ActionInfoList": [
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 4,
             "_Guid": "1647d361-66b9-44b8-a996-424c41e46a12",
             "_ActionGuid": "61cda5aa-e3c6-4b89-82ff-b71ac246038c",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -38,7 +33,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 5,
             "_Guid": "85d02991-1b26-44af-bbb3-4dbccd24cb01",
             "_ActionGuid": "e6d20951-a5ff-4b1c-b9ca-d8fd301cb938",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -49,7 +43,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 6,
             "_Guid": "3c63376a-4570-46d8-9be9-e7cf69bc4479",
             "_ActionGuid": "9c2b7d49-5ef9-4209-9759-1cb1d45d5e41",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -61,10 +54,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 8,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 7,
+              "ref_instance_id": 7,
               "path": "GameDesign/Enemy/Em2020/XX/ActionData/WEm2020_ActionID_PredatorGeneral.user"
             }
           },
@@ -73,9 +65,7 @@
       },
       "_IsUseBranchedParam": false,
       "_BaseActionParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

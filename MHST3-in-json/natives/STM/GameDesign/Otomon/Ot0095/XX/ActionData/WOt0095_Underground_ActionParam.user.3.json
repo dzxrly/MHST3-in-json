@@ -1,11 +1,9 @@
 [
   {
     "ace.user_data.ActionParam": {
-      "index": 9,
       "_ActionClassList": [
         {
           "app.WorldOtomonAction_UnderGround.cNone": {
-            "index": 1,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3149504640] NONE",
             "_RideResponseType": "[1955913600] NONE",
@@ -16,7 +14,6 @@
         },
         {
           "app.WorldOtomonAction_UnderGround.cUnderGroundDive": {
-            "index": 2,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[15586] GROUND_DIVE",
             "_RideResponseType": "[7629] GROUND_DIVE",
@@ -27,7 +24,6 @@
         },
         {
           "app.WorldOtomonAction_UnderGround.cUnderGroundOut": {
-            "index": 3,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[6909] GROUND_OUT",
             "_RideResponseType": "[31239] GROUND_OUT",
@@ -41,7 +37,6 @@
       "_ActionInfoList": [
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 4,
             "_Guid": "edbd81b3-c095-00af-3558-881e4801f859",
             "_ActionGuid": "2967c1dd-9b12-4bd2-8858-eb5ade261d04",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -52,7 +47,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 5,
             "_Guid": "e55e6c37-508f-03fe-2138-3f9c6977cfcb",
             "_ActionGuid": "9fcd3866-9d4a-4f99-a712-ce19f427f27d",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -63,7 +57,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 6,
             "_Guid": "f3ceed63-402b-04b0-3f44-d3974c1e9873",
             "_ActionGuid": "5a515ef8-b2de-4182-a849-0f7ebb668882",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -75,10 +68,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 8,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 7,
+              "ref_instance_id": 7,
               "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Underground.user"
             }
           },
@@ -87,9 +79,7 @@
       },
       "_IsUseBranchedParam": false,
       "_BaseActionParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

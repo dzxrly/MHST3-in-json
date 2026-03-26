@@ -1,26 +1,18 @@
 [
   {
     "app.user_data.MorphParamData": {
-      "index": 187,
       "_MorphParamList": [
         {
           "app.user_data.MorphParamData.cMorphParam": {
-            "index": 15,
             "_IsEnable": true,
             "_MorphID": "[463439776] ID_BTL_MORPH_CHG_NORMAL",
             "_MorphMessage": "10d8a689-f44d-4ff6-8474-fbc59167c2f9",
             "_MorphType": "[2766141056] GROUND",
-            "_ThreeWayType": {
-              "app.BattleDef.THREE_WAY_TYPE_Fixed": {
-                "index": 1,
-                "value": "[2933548032] THREE_WAY_TYPE_SPEED"
-              }
-            },
+            "_ThreeWayType": "[2933548032] THREE_WAY_TYPE_SPEED",
             "_LinkedMorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_PartsInfoList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 2,
                   "_PartsOn": true,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -28,7 +20,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 3,
                   "_PartsOn": false,
                   "_PartsOff": true,
                   "_PartsChange": 0
@@ -36,7 +27,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 4,
                   "_PartsOn": false,
                   "_PartsOff": true,
                   "_PartsChange": 0
@@ -44,7 +34,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 5,
                   "_PartsOn": true,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -52,7 +41,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 6,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -62,19 +50,13 @@
             "_PassiveSkillList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PassiveSkillInfo": {
-                  "index": 7,
                   "_FixedID": "[3324] EM_DEF_DOWN",
                   "_Level": 3
                 }
               }
             ],
             "_VoidCondition": [
-              {
-                "app.BattleDef.SKILL_STATUS_TYPE_Fixed": {
-                  "index": 8,
-                  "value": "[4174662528] SKL_STATUS_DEAD"
-                }
-              }
+              "[4174662528] SKL_STATUS_DEAD"
             ],
             "_BreakDamageRate": 30,
             "_IsOverwriteResist": false,
@@ -88,27 +70,23 @@
             "_UniqueProcessBit": 0,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
-                "index": 12,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "HpRateInfo": [
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 9,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 10,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 11,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
@@ -118,7 +96,6 @@
             },
             "_PartsInitHpRateByPartsBreakSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByPartsBreak": {
-                "index": 13,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "BreakPartsInfo": [],
@@ -128,7 +105,6 @@
             "_InitBreakGauge": 100,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
-                "index": 14,
                 "ChangeType": 0,
                 "InitPosition": 1
               }
@@ -137,22 +113,15 @@
         },
         {
           "app.user_data.MorphParamData.cMorphParam": {
-            "index": 28,
             "_IsEnable": false,
             "_MorphID": "[140363136] ID_BTL_MORPH_CHG_ANGRY1",
             "_MorphMessage": "f9cadd02-1f9f-457e-98b7-46678fdac5ac",
             "_MorphType": "[2766141056] GROUND",
-            "_ThreeWayType": {
-              "app.BattleDef.THREE_WAY_TYPE_Fixed": {
-                "index": 16,
-                "value": "[1008397120] THREE_WAY_TYPE_NONE"
-              }
-            },
+            "_ThreeWayType": "[1008397120] THREE_WAY_TYPE_NONE",
             "_LinkedMorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_PartsInfoList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 17,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -160,7 +129,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 18,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -168,7 +136,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 19,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -176,7 +143,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 20,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -184,7 +150,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 21,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -205,27 +170,23 @@
             "_UniqueProcessBit": 0,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
-                "index": 25,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "HpRateInfo": [
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 22,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 23,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 24,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
@@ -235,7 +196,6 @@
             },
             "_PartsInitHpRateByPartsBreakSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByPartsBreak": {
-                "index": 26,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "BreakPartsInfo": [],
@@ -245,7 +205,6 @@
             "_InitBreakGauge": 100,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
-                "index": 27,
                 "ChangeType": 0,
                 "InitPosition": 1
               }
@@ -254,22 +213,15 @@
         },
         {
           "app.user_data.MorphParamData.cMorphParam": {
-            "index": 41,
             "_IsEnable": false,
             "_MorphID": "[3566808128] ID_BTL_MORPH_CNG_ANGRY2",
             "_MorphMessage": "f9cadd02-1f9f-457e-98b7-46678fdac5ac",
             "_MorphType": "[2766141056] GROUND",
-            "_ThreeWayType": {
-              "app.BattleDef.THREE_WAY_TYPE_Fixed": {
-                "index": 29,
-                "value": "[1008397120] THREE_WAY_TYPE_NONE"
-              }
-            },
+            "_ThreeWayType": "[1008397120] THREE_WAY_TYPE_NONE",
             "_LinkedMorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_PartsInfoList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 30,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -277,7 +229,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 31,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -285,7 +236,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 32,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -293,7 +243,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 33,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -301,7 +250,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 34,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -322,27 +270,23 @@
             "_UniqueProcessBit": 0,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
-                "index": 38,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "HpRateInfo": [
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 35,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 36,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 37,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
@@ -352,7 +296,6 @@
             },
             "_PartsInitHpRateByPartsBreakSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByPartsBreak": {
-                "index": 39,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "BreakPartsInfo": [],
@@ -362,7 +305,6 @@
             "_InitBreakGauge": 100,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
-                "index": 40,
                 "ChangeType": 0,
                 "InitPosition": 1
               }
@@ -371,22 +313,15 @@
         },
         {
           "app.user_data.MorphParamData.cMorphParam": {
-            "index": 54,
             "_IsEnable": false,
             "_MorphID": "[321005184] ID_BTL_MORPH_CNG_ANGRY3",
             "_MorphMessage": "f9cadd02-1f9f-457e-98b7-46678fdac5ac",
             "_MorphType": "[2766141056] GROUND",
-            "_ThreeWayType": {
-              "app.BattleDef.THREE_WAY_TYPE_Fixed": {
-                "index": 42,
-                "value": "[1008397120] THREE_WAY_TYPE_NONE"
-              }
-            },
+            "_ThreeWayType": "[1008397120] THREE_WAY_TYPE_NONE",
             "_LinkedMorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_PartsInfoList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 43,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -394,7 +329,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 44,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -402,7 +336,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 45,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -410,7 +343,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 46,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -418,7 +350,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 47,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -439,27 +370,23 @@
             "_UniqueProcessBit": 0,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
-                "index": 51,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "HpRateInfo": [
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 48,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 49,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 50,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
@@ -469,7 +396,6 @@
             },
             "_PartsInitHpRateByPartsBreakSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByPartsBreak": {
-                "index": 52,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "BreakPartsInfo": [],
@@ -479,7 +405,6 @@
             "_InitBreakGauge": 100,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
-                "index": 53,
                 "ChangeType": 0,
                 "InitPosition": 1
               }
@@ -488,22 +413,15 @@
         },
         {
           "app.user_data.MorphParamData.cMorphParam": {
-            "index": 76,
             "_IsEnable": true,
             "_MorphID": "[176953568] ID_BTL_MORPH_CHG_SPECIAL1",
             "_MorphMessage": "0a5b940d-f2a1-46b5-9921-2f3ecb99e41c",
             "_MorphType": "[2092686080] FLY",
-            "_ThreeWayType": {
-              "app.BattleDef.THREE_WAY_TYPE_Fixed": {
-                "index": 55,
-                "value": "[1478498560] THREE_WAY_TYPE_TECHNIQUE"
-              }
-            },
+            "_ThreeWayType": "[1478498560] THREE_WAY_TYPE_TECHNIQUE",
             "_LinkedMorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_PartsInfoList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 56,
                   "_PartsOn": true,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -511,7 +429,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 57,
                   "_PartsOn": true,
                   "_PartsOff": false,
                   "_PartsChange": 1
@@ -519,7 +436,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 58,
                   "_PartsOn": true,
                   "_PartsOff": false,
                   "_PartsChange": 1
@@ -527,7 +443,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 59,
                   "_PartsOn": false,
                   "_PartsOff": true,
                   "_PartsChange": 0
@@ -535,7 +450,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 60,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -545,62 +459,25 @@
             "_PassiveSkillList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PassiveSkillInfo": {
-                  "index": 61,
                   "_FixedID": "[21105] EM_ATK_UP",
                   "_Level": 1
                 }
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PassiveSkillInfo": {
-                  "index": 62,
                   "_FixedID": "[3154039552] ICE_ATK_UP",
                   "_Level": 2
                 }
               }
             ],
             "_VoidCondition": [
-              {
-                "app.BattleDef.SKILL_STATUS_TYPE_Fixed": {
-                  "index": 63,
-                  "value": "[4228162112] SKL_STATUS_SHOCKTRAP_SET"
-                }
-              },
-              {
-                "app.BattleDef.SKILL_STATUS_TYPE_Fixed": {
-                  "index": 64,
-                  "value": "[74564248] SKL_STATUS_PITFALLTRAP_SET"
-                }
-              },
-              {
-                "app.BattleDef.SKILL_STATUS_TYPE_Fixed": {
-                  "index": 65,
-                  "value": "[3583270464] SKL_STATUS_TRANQTRAP_SET"
-                }
-              },
-              {
-                "app.BattleDef.SKILL_STATUS_TYPE_Fixed": {
-                  "index": 66,
-                  "value": "[2390740608] SKL_STATUS_PARALYSIS"
-                }
-              },
-              {
-                "app.BattleDef.SKILL_STATUS_TYPE_Fixed": {
-                  "index": 67,
-                  "value": "[3242762368] SKL_STATUS_SLEEP"
-                }
-              },
-              {
-                "app.BattleDef.SKILL_STATUS_TYPE_Fixed": {
-                  "index": 68,
-                  "value": "[4070036352] SKL_STATUS_MAD_TRAP"
-                }
-              },
-              {
-                "app.BattleDef.SKILL_STATUS_TYPE_Fixed": {
-                  "index": 69,
-                  "value": "[4174662528] SKL_STATUS_DEAD"
-                }
-              }
+              "[4228162112] SKL_STATUS_SHOCKTRAP_SET",
+              "[74564248] SKL_STATUS_PITFALLTRAP_SET",
+              "[3583270464] SKL_STATUS_TRANQTRAP_SET",
+              "[2390740608] SKL_STATUS_PARALYSIS",
+              "[3242762368] SKL_STATUS_SLEEP",
+              "[4070036352] SKL_STATUS_MAD_TRAP",
+              "[4174662528] SKL_STATUS_DEAD"
             ],
             "_BreakDamageRate": -10,
             "_IsOverwriteResist": false,
@@ -614,27 +491,23 @@
             "_UniqueProcessBit": 512,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
-                "index": 73,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "HpRateInfo": [
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 70,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 71,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 72,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
@@ -644,7 +517,6 @@
             },
             "_PartsInitHpRateByPartsBreakSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByPartsBreak": {
-                "index": 74,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "BreakPartsInfo": [],
@@ -654,7 +526,6 @@
             "_InitBreakGauge": 100,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
-                "index": 75,
                 "ChangeType": 0,
                 "InitPosition": 1
               }
@@ -663,22 +534,15 @@
         },
         {
           "app.user_data.MorphParamData.cMorphParam": {
-            "index": 89,
             "_IsEnable": false,
             "_MorphID": "[3774877408] ID_BTL_MORPH_CNG_SPECIAL2",
             "_MorphMessage": "00000000-0000-0000-0000-000000000000",
             "_MorphType": "[2766141056] GROUND",
-            "_ThreeWayType": {
-              "app.BattleDef.THREE_WAY_TYPE_Fixed": {
-                "index": 77,
-                "value": "[1008397120] THREE_WAY_TYPE_NONE"
-              }
-            },
+            "_ThreeWayType": "[1008397120] THREE_WAY_TYPE_NONE",
             "_LinkedMorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_PartsInfoList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 78,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -686,7 +550,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 79,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -694,7 +557,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 80,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -702,7 +564,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 81,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -710,7 +571,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 82,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -731,27 +591,23 @@
             "_UniqueProcessBit": 0,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
-                "index": 86,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "HpRateInfo": [
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 83,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 84,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 85,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
@@ -761,7 +617,6 @@
             },
             "_PartsInitHpRateByPartsBreakSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByPartsBreak": {
-                "index": 87,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "BreakPartsInfo": [],
@@ -771,7 +626,6 @@
             "_InitBreakGauge": 100,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
-                "index": 88,
                 "ChangeType": 0,
                 "InitPosition": 1
               }
@@ -780,22 +634,15 @@
         },
         {
           "app.user_data.MorphParamData.cMorphParam": {
-            "index": 102,
             "_IsEnable": false,
             "_MorphID": "[3872479328] ID_BTL_MORPH_CNG_SPECIAL3",
             "_MorphMessage": "00000000-0000-0000-0000-000000000000",
             "_MorphType": "[2766141056] GROUND",
-            "_ThreeWayType": {
-              "app.BattleDef.THREE_WAY_TYPE_Fixed": {
-                "index": 90,
-                "value": "[1008397120] THREE_WAY_TYPE_NONE"
-              }
-            },
+            "_ThreeWayType": "[1008397120] THREE_WAY_TYPE_NONE",
             "_LinkedMorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_PartsInfoList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 91,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -803,7 +650,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 92,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -811,7 +657,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 93,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -819,7 +664,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 94,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -827,7 +671,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 95,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -848,27 +691,23 @@
             "_UniqueProcessBit": 0,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
-                "index": 99,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "HpRateInfo": [
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 96,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 97,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 98,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
@@ -878,7 +717,6 @@
             },
             "_PartsInitHpRateByPartsBreakSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByPartsBreak": {
-                "index": 100,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "BreakPartsInfo": [],
@@ -888,7 +726,6 @@
             "_InitBreakGauge": 100,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
-                "index": 101,
                 "ChangeType": 0,
                 "InitPosition": 1
               }
@@ -897,22 +734,15 @@
         },
         {
           "app.user_data.MorphParamData.cMorphParam": {
-            "index": 115,
             "_IsEnable": false,
             "_MorphID": "[19792142] ID_BTL_MORPH_CNG_TRRIGER",
             "_MorphMessage": "00000000-0000-0000-0000-000000000000",
             "_MorphType": "[2766141056] GROUND",
-            "_ThreeWayType": {
-              "app.BattleDef.THREE_WAY_TYPE_Fixed": {
-                "index": 103,
-                "value": "[1008397120] THREE_WAY_TYPE_NONE"
-              }
-            },
+            "_ThreeWayType": "[1008397120] THREE_WAY_TYPE_NONE",
             "_LinkedMorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_PartsInfoList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 104,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -920,7 +750,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 105,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -928,7 +757,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 106,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -936,7 +764,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 107,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -944,7 +771,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 108,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -965,27 +791,23 @@
             "_UniqueProcessBit": 0,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
-                "index": 112,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "HpRateInfo": [
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 109,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 110,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 111,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
@@ -995,7 +817,6 @@
             },
             "_PartsInitHpRateByPartsBreakSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByPartsBreak": {
-                "index": 113,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "BreakPartsInfo": [],
@@ -1005,7 +826,6 @@
             "_InitBreakGauge": 100,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
-                "index": 114,
                 "ChangeType": 0,
                 "InitPosition": 1
               }
@@ -1014,22 +834,15 @@
         },
         {
           "app.user_data.MorphParamData.cMorphParam": {
-            "index": 128,
             "_IsEnable": false,
             "_MorphID": "[1494147968] ID_BTL_MORPH_CNG_BOSSBATTLE1",
             "_MorphMessage": "00000000-0000-0000-0000-000000000000",
             "_MorphType": "[2766141056] GROUND",
-            "_ThreeWayType": {
-              "app.BattleDef.THREE_WAY_TYPE_Fixed": {
-                "index": 116,
-                "value": "[1008397120] THREE_WAY_TYPE_NONE"
-              }
-            },
+            "_ThreeWayType": "[1008397120] THREE_WAY_TYPE_NONE",
             "_LinkedMorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_PartsInfoList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 117,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -1037,7 +850,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 118,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -1045,7 +857,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 119,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -1053,7 +864,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 120,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -1061,7 +871,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 121,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -1082,27 +891,23 @@
             "_UniqueProcessBit": 0,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
-                "index": 125,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "HpRateInfo": [
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 122,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 123,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 124,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
@@ -1112,7 +917,6 @@
             },
             "_PartsInitHpRateByPartsBreakSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByPartsBreak": {
-                "index": 126,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "BreakPartsInfo": [],
@@ -1122,7 +926,6 @@
             "_InitBreakGauge": 100,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
-                "index": 127,
                 "ChangeType": 0,
                 "InitPosition": 1
               }
@@ -1131,22 +934,15 @@
         },
         {
           "app.user_data.MorphParamData.cMorphParam": {
-            "index": 141,
             "_IsEnable": false,
             "_MorphID": "[65142232] ID_BTL_MORPH_CNG_BOSSBATTLE2",
             "_MorphMessage": "00000000-0000-0000-0000-000000000000",
             "_MorphType": "[2766141056] GROUND",
-            "_ThreeWayType": {
-              "app.BattleDef.THREE_WAY_TYPE_Fixed": {
-                "index": 129,
-                "value": "[1008397120] THREE_WAY_TYPE_NONE"
-              }
-            },
+            "_ThreeWayType": "[1008397120] THREE_WAY_TYPE_NONE",
             "_LinkedMorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_PartsInfoList": [
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 130,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -1154,7 +950,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 131,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -1162,7 +957,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 132,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -1170,7 +964,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 133,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -1178,7 +971,6 @@
               },
               {
                 "app.user_data.MorphParamData.cMorphParam.PartsInfo": {
-                  "index": 134,
                   "_PartsOn": false,
                   "_PartsOff": false,
                   "_PartsChange": 0
@@ -1199,27 +991,23 @@
             "_UniqueProcessBit": 0,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
-                "index": 138,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "HpRateInfo": [
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 135,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 136,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
                   },
                   {
                     "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting.cHpRateInfo": {
-                      "index": 137,
                       "childDefeatNum": 0,
                       "InitRate": 100
                     }
@@ -1229,7 +1017,6 @@
             },
             "_PartsInitHpRateByPartsBreakSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByPartsBreak": {
-                "index": 139,
                 "TargetParts": -1,
                 "TargetCandidate": 0,
                 "BreakPartsInfo": [],
@@ -1239,7 +1026,6 @@
             "_InitBreakGauge": 100,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
-                "index": 140,
                 "ChangeType": 0,
                 "InitPosition": 1
               }
@@ -1250,18 +1036,11 @@
       "_PartsParamList": [
         {
           "app.user_data.MorphParamData.cPartsParam": {
-            "index": 150,
             "_PartsType": "[1700429696] PARTS_0001",
             "_CandidateParamList": [
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 143,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 142,
-                      "value": "[262905536] ID_PARTS_EM0111_00_00_1"
-                    }
-                  },
+                  "_PartsID": "[262905536] ID_PARTS_EM0111_00_00_1",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1269,13 +1048,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 145,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 144,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1283,13 +1056,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 147,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 146,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1297,13 +1064,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 149,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 148,
-                      "value": "[262905536] ID_PARTS_EM0111_00_00_1"
-                    }
-                  },
+                  "_PartsID": "[262905536] ID_PARTS_EM0111_00_00_1",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1314,18 +1075,11 @@
         },
         {
           "app.user_data.MorphParamData.cPartsParam": {
-            "index": 159,
             "_PartsType": "[18413] PARTS_0101",
             "_CandidateParamList": [
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 152,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 151,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1333,13 +1087,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 154,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 153,
-                      "value": "[6841] ID_PARTS_EM3111_00_00_2"
-                    }
-                  },
+                  "_PartsID": "[6841] ID_PARTS_EM3111_00_00_2",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": true,
                   "_RevivalMaxHpRate": 30
@@ -1347,13 +1095,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 156,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 155,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1361,13 +1103,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 158,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 157,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1378,18 +1114,11 @@
         },
         {
           "app.user_data.MorphParamData.cPartsParam": {
-            "index": 168,
             "_PartsType": "[29956] PARTS_0100",
             "_CandidateParamList": [
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 161,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 160,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1397,13 +1126,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 163,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 162,
-                      "value": "[19610] ID_PARTS_EM3111_00_00_1"
-                    }
-                  },
+                  "_PartsID": "[19610] ID_PARTS_EM3111_00_00_1",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": true,
                   "_RevivalMaxHpRate": 30
@@ -1411,13 +1134,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 165,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 164,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1425,13 +1142,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 167,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 166,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1442,18 +1153,11 @@
         },
         {
           "app.user_data.MorphParamData.cPartsParam": {
-            "index": 177,
             "_PartsType": "[3495347648] PARTS_0004",
             "_CandidateParamList": [
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 170,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 169,
-                      "value": "[3687490368] ID_PARTS_EM0111_00_00_2"
-                    }
-                  },
+                  "_PartsID": "[3687490368] ID_PARTS_EM0111_00_00_2",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1461,13 +1165,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 172,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 171,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1475,13 +1173,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 174,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 173,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1489,13 +1181,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 176,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 175,
-                      "value": "[3687490368] ID_PARTS_EM0111_00_00_2"
-                    }
-                  },
+                  "_PartsID": "[3687490368] ID_PARTS_EM0111_00_00_2",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1506,18 +1192,11 @@
         },
         {
           "app.user_data.MorphParamData.cPartsParam": {
-            "index": 186,
             "_PartsType": "[1112217856] PARTS_0000",
             "_CandidateParamList": [
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 179,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 178,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1525,13 +1204,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 181,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 180,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1539,13 +1212,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 183,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 182,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100
@@ -1553,13 +1220,7 @@
               },
               {
                 "app.user_data.MorphParamData.cPartsParam.cCandidateParam": {
-                  "index": 185,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 184,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
                   "_RevivalMaxHpRate": 100

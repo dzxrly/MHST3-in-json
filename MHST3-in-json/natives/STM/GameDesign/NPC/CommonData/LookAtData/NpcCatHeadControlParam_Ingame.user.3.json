@@ -1,36 +1,30 @@
 [
   {
     "app.user_data.HumanHeadControlParam": {
-      "index": 12,
       "_Interpolation": {
         "app.user_data.HeadControlParam.cInterpolationInfo": {
-          "index": 5,
           "_FadeInSpeed": 1.0,
           "_FadeOutSpeed": 1.0,
           "_DampingX": {
             "ace.cDampingParam": {
-              "index": 1,
               "_Damping": 0.949999988079071,
               "_TimeScale": 1.0
             }
           },
           "_DampingY": {
             "ace.cDampingParam": {
-              "index": 2,
               "_Damping": 0.949999988079071,
               "_TimeScale": 1.0
             }
           },
           "_DampingBasisAxis": {
             "ace.cDampingParam": {
-              "index": 3,
               "_Damping": 0.949999988079071,
               "_TimeScale": 1.0
             }
           },
           "_DampingMotionBasis": {
             "ace.cDampingParam": {
-              "index": 4,
               "_Damping": 0.949999988079071,
               "_TimeScale": 1.0
             }
@@ -40,7 +34,6 @@
       },
       "_Limit": {
         "app.user_data.HeadControlParam.cLimitInfo": {
-          "index": 6,
           "_LeftY": 70.0,
           "_RightY": 70.0,
           "_UpX": 35.0,
@@ -58,7 +51,6 @@
       },
       "_LimitCorrectionMaxAmount": {
         "app.user_data.HeadControlParam.cLimitInfo": {
-          "index": 7,
           "_LeftY": 50.0,
           "_RightY": 50.0,
           "_UpX": 50.0,
@@ -71,7 +63,6 @@
       "_DetailParam": [
         {
           "app.user_data.HeadControlParam.cDetailParam": {
-            "index": 9,
             "_BlendRateMax": 1.0,
             "_MoveDegX": 0.0,
             "_MoveDegY": 0.0,
@@ -85,7 +76,6 @@
             "_DampingConst": 4.75,
             "_AnimationCurve": {
               "via.AnimationCurve": {
-                "index": 8,
                 "v0": [
                   {
                     "raw": "00000000000000000000000000000000",
@@ -141,7 +131,6 @@
       "_StableAngularVelocity": 20.0,
       "_RefocusEndDampingParam": {
         "ace.cDampingParam": {
-          "index": 10,
           "_Damping": 0.949999988079071,
           "_TimeScale": 1.0
         }
@@ -156,16 +145,13 @@
       "_HeadYRotationOrderCorrectionMaxAmount": 0.5,
       "_LRChangeIntervalTime": 0.5,
       "_EyeParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_PostureBasis": 1,
       "_MotionBasisMode": 1,
       "_RootToHeadJointMaskId": 26,
       "_OverwriteDampingParam": {
         "ace.cDampingParam": {
-          "index": 11,
           "_Damping": 0.949999988079071,
           "_TimeScale": 1.0
         }

@@ -1,14 +1,11 @@
 [
   {
     "ace.user_data.ActionID": {
-      "index": 10,
       "_ActionIDArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
-          "index": 5,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cID": {
-                "index": 1,
                 "_Class": "cNone",
                 "_InstanceGuid": "d55579bf-075b-46d8-8382-298088347953",
                 "_OverrideOwnerClass": false,
@@ -19,7 +16,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 2,
                 "_Class": "cIdle",
                 "_InstanceGuid": "ae447379-67e0-0768-34cf-d7d7697fb77b",
                 "_OverrideOwnerClass": false,
@@ -30,7 +26,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 3,
                 "_Class": "cEscapeMain",
                 "_InstanceGuid": "158cacd9-a80f-4d57-86c6-dd61d12741e0",
                 "_OverrideOwnerClass": true,
@@ -41,7 +36,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 4,
                 "_Class": "cCautionMain",
                 "_InstanceGuid": "a03179cf-35c2-00a4-2c11-6310c242be28",
                 "_OverrideOwnerClass": false,
@@ -55,11 +49,9 @@
       },
       "_ExportSettingArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
-          "index": 7,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cExport": {
-                "index": 6,
                 "_Guid": "d39022ce-6a53-4bba-8d79-f79a431e0739",
                 "_ClassName": "Am0350_Action_General",
                 "_ActionCategory": 0
@@ -70,10 +62,9 @@
       },
       "_BaseActionID": {
         "ace.cActionIDHolder": {
-          "index": 9,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 8,
+              "ref_instance_id": 8,
               "path": "GameDesign/Animal/CommonData/ActionData/WorldAnimalActionID_General.user"
             }
           },

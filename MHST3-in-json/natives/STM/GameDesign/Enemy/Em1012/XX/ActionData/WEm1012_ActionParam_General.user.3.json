@@ -1,23 +1,19 @@
 [
   {
     "ace.user_data.ActionParam": {
-      "index": 47,
       "_ActionClassList": [
         {
           "app.WorldEnemyAction_General.cNone": {
-            "index": 1,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cIdle": {
-            "index": 2,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cIdleFlavor": {
-            "index": 3,
             "_ActionSafeLimitTime": -1.0,
             "_SettingFlavorRate": 50,
             "_IdleTime": 3.0
@@ -25,54 +21,45 @@
         },
         {
           "app.WorldEnemyAction_General.cThreat": {
-            "index": 4,
             "_ActionSafeLimitTime": -1.0,
             "_Degree": 15.0
           }
         },
         {
           "app.WorldEnemyAction_General.cThreatOnly": {
-            "index": 5,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cSearch": {
-            "index": 6,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cSleep": {
-            "index": 7,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cSleepPredator": {
-            "index": 8,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cSuperSleep": {
-            "index": 9,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cWakeUp": {
-            "index": 10,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cWalk": {
-            "index": 13,
             "_ActionSafeLimitTime": -1.0,
             "_MoveSpeed": {
               "app.AppCharaUtil.cMotionSpeedParam": {
-                "index": 11,
                 "_Type": 0,
                 "_KilometerPerHourParam": 0.0,
                 "_MotionSpeed": 1.0
@@ -80,7 +67,6 @@
             },
             "_AngularVelocityParam": {
               "app.AppCharaUtil.cAngularVelocityParam": {
-                "index": 12,
                 "_TurnRadius": 3.0,
                 "_RotSpeedEaseType": 8
               }
@@ -90,11 +76,9 @@
         },
         {
           "app.WorldEnemyAction_General.cRun": {
-            "index": 16,
             "_ActionSafeLimitTime": -1.0,
             "_MoveSpeed": {
               "app.AppCharaUtil.cMotionSpeedParam": {
-                "index": 14,
                 "_Type": 0,
                 "_KilometerPerHourParam": 0.0,
                 "_MotionSpeed": 1.2000000476837158
@@ -102,7 +86,6 @@
             },
             "_AngularVelocityParam": {
               "app.AppCharaUtil.cAngularVelocityParam": {
-                "index": 15,
                 "_TurnRadius": 3.0,
                 "_RotSpeedEaseType": 8
               }
@@ -110,49 +93,39 @@
           }
         },
         {
-          "ace.cActionBase": {
-            "index": 17
-          }
+          "ace.cActionBase": {}
         },
         {
           "app.WorldEnemyAction_General.cMoveStop": {
-            "index": 18,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cDamageMin": {
-            "index": 19,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cDamageMax": {
-            "index": 20,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_General.cBlowDamage": {
-            "index": 21,
             "_ActionSafeLimitTime": -1.0,
             "_MaxLoopMotion": 1
           }
         },
         {
           "app.WorldEnemyAction_General.cDie": {
-            "index": 22,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
-          "ace.cActionBase": {
-            "index": 23
-          }
+          "ace.cActionBase": {}
         },
         {
           "app.WorldEnemyAction_General.cIdleCombat": {
-            "index": 24,
             "_ActionSafeLimitTime": -1.0
           }
         }
@@ -161,7 +134,6 @@
       "_ActionInfoList": [
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 25,
             "_Guid": "5f68a0d2-593f-4729-9d50-6a61f1d9e3f5",
             "_ActionGuid": "93329da6-cfcb-4438-b88d-425c3b8043a8",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -172,7 +144,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 26,
             "_Guid": "d52a5209-d166-4322-bb59-a5d4fc5881e4",
             "_ActionGuid": "302e4ef7-00b8-40ee-954e-00f145f016c8",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -183,7 +154,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 27,
             "_Guid": "33286ab2-b9c2-4579-8ccd-fcb36515e0db",
             "_ActionGuid": "fec62682-a3bd-48e0-ba4f-bfb1f6934744",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -194,7 +164,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 28,
             "_Guid": "b75cb6d5-1dc2-42d8-9b7c-45031a43e3ec",
             "_ActionGuid": "9d20bb8e-ff74-4b63-8003-95b94246e55a",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -205,7 +174,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 29,
             "_Guid": "d888b6c3-2ea9-4294-a6b3-149d79f238f7",
             "_ActionGuid": "5082dc1a-9199-40eb-a425-7168b8a96d64",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -216,7 +184,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 30,
             "_Guid": "b1382e9f-d8b7-49df-9149-67f84ac32d42",
             "_ActionGuid": "b05f77e7-8013-4c34-94d6-3b3227600364",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -227,7 +194,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 31,
             "_Guid": "8d346010-8aa1-4095-a9f8-777b93f7ec75",
             "_ActionGuid": "d32547e6-39d5-4cd2-9794-16b93f4fdd28",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -238,7 +204,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 32,
             "_Guid": "ab69bf5b-586c-42fb-8be8-aeb4a2e9e178",
             "_ActionGuid": "21ef28b7-5447-40bb-8a52-868902fad30d",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -249,7 +214,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 33,
             "_Guid": "869bc06a-725b-4e8b-a17f-1b31469793c2",
             "_ActionGuid": "be42f47d-1b54-4e92-92c8-bbff92ca8bb7",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -260,7 +224,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 34,
             "_Guid": "f2df29d1-ee4e-4590-8556-8642711ed3a9",
             "_ActionGuid": "241fa036-a59d-474f-8bde-460146f7e08d",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -271,7 +234,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 35,
             "_Guid": "b7151231-b67b-4695-bedb-e6c0542ad287",
             "_ActionGuid": "3cbcff58-ca10-43d5-a6b4-8ce0bef57f9c",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -282,7 +244,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 36,
             "_Guid": "2a00bb08-2200-45e2-9d9c-fd72c59710a2",
             "_ActionGuid": "f9c3f2df-544b-4701-a4cd-9155589fd2b5",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -293,7 +254,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 37,
             "_Guid": "cc73cec6-c229-44e7-aced-489cea79ab79",
             "_ActionGuid": "06697c3f-3798-4246-b2f7-62c30c7ea812",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -304,7 +264,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 38,
             "_Guid": "e6db5a10-4ed4-4c10-bbd4-5ab168410a56",
             "_ActionGuid": "06a5ad53-e285-4e12-86a5-6455264ea926",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -315,7 +274,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 39,
             "_Guid": "3d568a6e-783e-438d-8fc5-43521ba69ff1",
             "_ActionGuid": "7479e58d-61fc-453b-8096-04e310ccef7c",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -326,7 +284,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 40,
             "_Guid": "9fd5aac2-6cf9-4074-9f11-70b3af5dcc9f",
             "_ActionGuid": "b954b222-d4d1-4de2-ad65-293c49e700e8",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -337,7 +294,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 41,
             "_Guid": "c0640ad3-9e91-495f-88f1-7e158e367147",
             "_ActionGuid": "3d6b0c75-eb17-468b-bc03-52d7f43c34a4",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -348,7 +304,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 42,
             "_Guid": "92ecb7b5-28a4-40cd-acb7-8abf4c171330",
             "_ActionGuid": "5d067c83-dc36-4213-98a4-4f2474666895",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -359,7 +314,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 43,
             "_Guid": "12ce15c7-c52f-496e-9de3-eea70ca6d616",
             "_ActionGuid": "b072c067-0d20-4673-864c-91a0253d6140",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -370,7 +324,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 44,
             "_Guid": "c6d78c24-17e7-40d0-a13b-ee7964f9c768",
             "_ActionGuid": "89463578-5901-432c-8bcd-8c7051f04593",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -382,10 +335,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 46,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 45,
+              "ref_instance_id": 45,
               "path": "GameDesign/Enemy/Em1012/XX/ActionData/WEm1012_ActionID_General.user"
             }
           },
@@ -394,9 +346,7 @@
       },
       "_IsUseBranchedParam": false,
       "_BaseActionParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

@@ -1,22 +1,18 @@
 [
   {
     "app.user_data.WalkNpcGenerateTable": {
-      "index": 5,
       "_NpcGenTable": [
         {
           "app.user_data.WalkNpcGenerateTable.cData": {
-            "index": 3,
             "_NpcId": "[1966084864] NPC500_A0_004_003",
             "_MotionPackage": {
               "app.user_data.NpcMotionPackage": {
-                "index": 1,
+                "ref_instance_id": 1,
                 "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/Common_Sd_Walk.user"
               }
             },
             "_GesturePack": {
-              "": {
-                "index": 0
-              }
+              "": {}
             },
             "_IsFirstGen": false,
             "_FirstPos": [
@@ -30,7 +26,7 @@
             "_RiderNpcId": "[306687040] NPC111_10_007_338",
             "_RiderMotionPackage": {
               "app.user_data.NpcMotionPackage": {
-                "index": 2,
+                "ref_instance_id": 2,
                 "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/Male_St_Ride_em014.user"
               }
             }
@@ -38,18 +34,15 @@
         },
         {
           "app.user_data.WalkNpcGenerateTable.cData": {
-            "index": 4,
             "_NpcId": "[4203695544] NPC500_A0_004_004",
             "_MotionPackage": {
               "app.user_data.NpcMotionPackage": {
-                "index": 1,
+                "ref_instance_id": 1,
                 "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/Common_Sd_Walk.user"
               }
             },
             "_GesturePack": {
-              "": {
-                "index": 0
-              }
+              "": {}
             },
             "_IsFirstGen": false,
             "_FirstPos": [
@@ -63,7 +56,7 @@
             "_RiderNpcId": "[117188112] NPC111_10_007_339",
             "_RiderMotionPackage": {
               "app.user_data.NpcMotionPackage": {
-                "index": 2,
+                "ref_instance_id": 2,
                 "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/Male_St_Ride_em014.user"
               }
             }

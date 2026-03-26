@@ -1,14 +1,11 @@
 [
   {
     "ace.user_data.ActionID": {
-      "index": 14,
       "_ActionIDArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
-          "index": 9,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cID": {
-                "index": 1,
                 "_Class": "cNone",
                 "_InstanceGuid": "65991019-2bf8-496d-b052-2b8f29ab0bc9",
                 "_OverrideOwnerClass": false,
@@ -19,7 +16,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 2,
                 "_Class": "cIdleDefaultFly",
                 "_InstanceGuid": "979867b0-2d80-0ce3-09ca-214af8a8eeaf",
                 "_OverrideOwnerClass": false,
@@ -30,7 +26,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 3,
                 "_Class": "cIdleFly",
                 "_InstanceGuid": "94e28346-d3b4-4134-9b98-82ada2ca0a70",
                 "_OverrideOwnerClass": false,
@@ -41,7 +36,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 4,
                 "_Class": "cGlide",
                 "_InstanceGuid": "6d2c2485-bc71-0d48-3eb2-7a824f7fb5cd",
                 "_OverrideOwnerClass": false,
@@ -52,7 +46,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 5,
                 "_Class": "cGlideChase",
                 "_InstanceGuid": "b39cddc3-4353-4f28-8fb7-e17a6122d91e",
                 "_OverrideOwnerClass": false,
@@ -63,7 +56,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 6,
                 "_Class": "cDamageFall",
                 "_InstanceGuid": "eafdd4fb-c34a-0fbf-21df-1861d4949e1d",
                 "_OverrideOwnerClass": false,
@@ -74,7 +66,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 7,
                 "_Class": "cTakeOff",
                 "_InstanceGuid": "549a37c3-dd34-4351-87e9-99bdb45331a1",
                 "_OverrideOwnerClass": false,
@@ -85,7 +76,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 8,
                 "_Class": "cDieFall",
                 "_InstanceGuid": "3cb38824-633f-0215-31f2-84a6fe52e165",
                 "_OverrideOwnerClass": false,
@@ -99,11 +89,9 @@
       },
       "_ExportSettingArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
-          "index": 11,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cExport": {
-                "index": 10,
                 "_Guid": "11082405-58d0-4d1e-b742-a53fd46db230",
                 "_ClassName": "WEm0125_Action_Fly",
                 "_ActionCategory": 2
@@ -114,10 +102,9 @@
       },
       "_BaseActionID": {
         "ace.cActionIDHolder": {
-          "index": 13,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 12,
+              "ref_instance_id": 12,
               "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Fly.user"
             }
           },

@@ -430,6 +430,7 @@ class User3Exporter:
         self.serializable_to_fixed: dict[str, str] = {}
         self.generic_container_rules: dict[str, tuple[str, str]] = {}
         self.param_type_default_enum: dict[str, str] = {}
+        self.enum_member_to_types: dict[str, list[str]] = {}
 
     @staticmethod
     def export_enums_internal(dump_json: dict) -> dict:
@@ -653,11 +654,49 @@ class User3Exporter:
         candidates: list[Path] = []
         if self.user3_root.is_dir():
             candidates.append(self.user3_root / "il2cpp_dump.json")
+            candidates.append(self.user3_root.parent / "il2cpp_dump.json")
+            candidates.append(self.user3_root.parent.parent / "il2cpp_dump.json")
         else:
             candidates.append(self.user3_root.parent / "il2cpp_dump.json")
+            candidates.append(self.user3_root.parent.parent / "il2cpp_dump.json")
         for path in candidates:
             if path.is_file():
                 return path
+        return None
+
+    def _rebuild_enum_member_index(self) -> None:
+        """Build reverse index: enum member name -> possible fixed enum types."""
+        self.enum_member_to_types = {}
+        for enum_type, value_map in self.enum_lookup.items():
+            if not isinstance(enum_type, str) or not isinstance(value_map, dict):
+                continue
+            for member_name, _entry in value_map.values():
+                if not isinstance(member_name, str):
+                    continue
+                types = self.enum_member_to_types.setdefault(member_name, [])
+                if enum_type not in types:
+                    types.append(enum_type)
+
+    def _infer_enum_type_from_member_and_value(
+        self, member_name: str, value: int
+    ) -> str | None:
+        """Infer enum type from member name and concrete numeric value."""
+        candidates = self.enum_member_to_types.get(member_name)
+        if not candidates:
+            return None
+        matched: list[str] = []
+        for enum_type in candidates:
+            value_map = self.enum_lookup.get(enum_type)
+            if value_map is None:
+                continue
+            if (
+                value in value_map
+                or self._to_s32(value) in value_map
+                or self._to_u32(value) in value_map
+            ):
+                matched.append(enum_type)
+        if len(matched) == 1:
+            return matched[0]
         return None
 
     def _apply_enum_context(self, raw: dict) -> None:
@@ -764,8 +803,10 @@ class User3Exporter:
         @return None.
         """
         if self.enum_lookup:
+            self._rebuild_enum_member_index()
             return
         self.enum_lookup = self._load_enum_lookup()
+        self._rebuild_enum_member_index()
         if not self.enum_lookup:
             source = (
                 str(self.enums_internal_path)
@@ -925,6 +966,13 @@ class User3Exporter:
         """
         if isinstance(value, dict):
             out: dict[str, Any] = {}
+            dict_level_enum_hint: str | None = None
+            enum_name = value.get("_EnumName")
+            fixed_id = value.get("_FixedID")
+            if isinstance(enum_name, str) and isinstance(fixed_id, int):
+                dict_level_enum_hint = self._infer_enum_type_from_member_and_value(
+                    enum_name, fixed_id
+                )
             for k, v in value.items():
                 if (
                     isinstance(k, str)
@@ -989,6 +1037,13 @@ class User3Exporter:
                     and self._is_enum_value_field(k)
                 ):
                     field_hint = scalar_enum_hint
+                if (
+                    field_hint is None
+                    and dict_level_enum_hint is not None
+                    and isinstance(k, str)
+                    and k.strip("_").lower() == "fixedid"
+                ):
+                    field_hint = dict_level_enum_hint
 
                 out[k] = self._postprocess_enum_nodes(
                     v,
@@ -1014,6 +1069,25 @@ class User3Exporter:
             ]
         if isinstance(value, int) and scalar_enum_hint is not None:
             return self._format_enum_value(scalar_enum_hint, value)
+        return value
+
+    def _finalize_export_tree(self, value: Any) -> Any:
+        """Finalize exported JSON by removing `index` and flattening `value` wrappers."""
+        if isinstance(value, dict):
+            out: dict[str, Any] = {}
+            for k, v in value.items():
+                if k == "index":
+                    continue
+                out[k] = self._finalize_export_tree(v)
+            if len(out) == 1:
+                only_key = next(iter(out))
+                if only_key == "value":
+                    return out[only_key]
+                if isinstance(only_key, str) and only_key in self.enum_lookup:
+                    return out[only_key]
+            return out
+        if isinstance(value, list):
+            return [self._finalize_export_tree(item) for item in value]
         return value
 
     def run(self) -> dict[str, int]:
@@ -1050,6 +1124,7 @@ class User3Exporter:
         try:
             tree = self._parse_user3(user3_file)
             tree = self._postprocess_enum_nodes(tree)
+            tree = self._finalize_export_tree(tree)
             output_path = self._output_path_for(user3_file)
             output_path.parent.mkdir(parents=True, exist_ok=True)
             with output_path.open("w", encoding="utf-8") as f:
@@ -1428,7 +1503,7 @@ class User3Exporter:
             if "ref_instance_id" in value and isinstance(value["ref_instance_id"], int):
                 target_idx = value["ref_instance_id"]
                 if depth <= 0:
-                    return {"index": target_idx}
+                    return {"ref_instance_id": target_idx}
                 return self._build_compact_tree(
                     target_idx, idx_map, depth - 1, set(visited)
                 )
@@ -1463,7 +1538,7 @@ class User3Exporter:
         if visited is None:
             visited = set()
         if idx in visited:
-            return {"Ref": {"index": idx, "cycle": True}}
+            return {"Ref": {"ref_instance_id": idx, "cycle": True}}
         visited.add(idx)
 
         inst = idx_map.get(idx)
@@ -1471,15 +1546,15 @@ class User3Exporter:
             if instance_info_map is not None and idx in instance_info_map:
                 class_name = instance_info_map[idx].get("class_name", "Unknown Class")
                 class_name = self._normalize_to_fixed_enum_type(class_name)
-                return {class_name: {"index": idx, "unparsed": True}}
-            return {"Ref": {"index": idx, "missing": True}}
+                return {class_name: {"ref_instance_id": idx, "unparsed": True}}
+            return {"Ref": {"ref_instance_id": idx, "missing": True}}
 
         if inst.get("is_userdata_reference"):
             class_name = inst.get("class_name", "Unknown Class")
             class_name = self._normalize_to_fixed_enum_type(class_name)
             return {
                 class_name: {
-                    "index": idx,
+                    "ref_instance_id": idx,
                     "path": inst.get("path", ""),
                 }
             }
@@ -1497,11 +1572,9 @@ class User3Exporter:
         resolved = self._simplify_value_object(resolved)
 
         if isinstance(resolved, dict):
-            if "index" not in resolved:
-                resolved = {"index": idx, **resolved}
             node_value: Any = resolved
         else:
-            node_value = {"index": idx, "value": resolved}
+            node_value = {"value": resolved}
 
         return {class_name: node_value}
 
@@ -1526,7 +1599,7 @@ class User3Exporter:
             if "ref_instance_id" in value and isinstance(value["ref_instance_id"], int):
                 target_idx = value["ref_instance_id"]
                 if depth <= 0:
-                    return {"index": target_idx}
+                    return {"ref_instance_id": target_idx}
                 return self._build_compact_tree(
                     target_idx,
                     idx_map,
@@ -1756,7 +1829,7 @@ class User3Exporter:
             return [
                 {
                     item["class_name"]: {
-                        "index": item["index"],
+                        "ref_instance_id": item["index"],
                         "path": item["path"],
                     }
                 }

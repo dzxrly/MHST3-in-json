@@ -1,12 +1,10 @@
 [
   {
     "app.user_data.MissionDemoData": {
-      "index": 11,
       "_MissionDemoID": "[35] PS_53_035",
       "_IsCreateAnimal": false,
       "_PlayerSetting": {
         "app.user_data.MissionDemoData.cPlayerSetting": {
-          "index": 1,
           "_Position": [
             52.67384338378906,
             -48.472835540771484,
@@ -26,7 +24,6 @@
       "_NpcSettings": [
         {
           "app.user_data.MissionDemoData.cNpcSetting": {
-            "index": 2,
             "_Position": [
               50.028629302978516,
               -48.472835540771484,
@@ -46,7 +43,6 @@
         },
         {
           "app.user_data.MissionDemoData.cNpcSetting": {
-            "index": 3,
             "_Position": [
               51.76616668701172,
               -48.472835540771484,
@@ -68,7 +64,7 @@
       "_EnemySettings": [],
       "_CameraWorkData": {
         "ace.user_data.CameraWorkData": {
-          "index": 4,
+          "ref_instance_id": 4,
           "path": "GameDesign/Story/Common/MissionDemo/PS_53_035/MissionCameraWorkData_PS_53_035.user"
         }
       },
@@ -76,14 +72,11 @@
       "_ActionSettings": [
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 7,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 6,
                   "_Action": {
                     "app.cMissionDemoActionWaitTime": {
-                      "index": 5,
                       "_WaitSecound": 4.0
                     }
                   }
@@ -94,14 +87,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 10,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 9,
                   "_Action": {
                     "app.cMissionDemoActionTalkWindow": {
-                      "index": 8,
                       "_MessageTextId": "f8bed66b-df1b-4f84-8dc8-bbdb2af64246"
                     }
                   }

@@ -1,33 +1,26 @@
 [
   {
     "ace.btable.user_data.BTable": {
-      "index": 17,
       "_Tables": {
         "ace.cInstanceGuidArray`1<ace.btable.user_data.BTable.cTableElement>": {
-          "index": 15,
           "_DataArray": [
             {
               "ace.btable.user_data.BTable.cTableElement": {
-                "index": 14,
                 "_Rows": [
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "index": 5,
                       "_OperatorHash": 9380642514848460048,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {
-                          "index": 1
-                        }
+                        "ace.btable.cOperatorArgumentNone": {}
                       },
                       "_CommandHash": 8093678715481511344,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
-                          "index": 4,
                           "_EditAssetIndex": {
-                            "index": 2
+                            "ref_instance_id": 2
                           },
                           "_EditActionGuid": {
-                            "index": 3
+                            "ref_instance_id": 3
                           }
                         }
                       }
@@ -35,22 +28,18 @@
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "index": 10,
                       "_OperatorHash": 9380642514848460048,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {
-                          "index": 6
-                        }
+                        "ace.btable.cOperatorArgumentNone": {}
                       },
                       "_CommandHash": 8093678715481511344,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
-                          "index": 9,
                           "_EditAssetIndex": {
-                            "index": 7
+                            "ref_instance_id": 7
                           },
                           "_EditActionGuid": {
-                            "index": 8
+                            "ref_instance_id": 8
                           }
                         }
                       }
@@ -58,18 +47,13 @@
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "index": 13,
                       "_OperatorHash": 11996412323559724264,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {
-                          "index": 11
-                        }
+                        "ace.btable.cOperatorArgumentNone": {}
                       },
                       "_CommandHash": 0,
                       "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {
-                          "index": 12
-                        }
+                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   }
@@ -83,7 +67,7 @@
       "_ImportBTableList": [],
       "_OrderBank": {
         "ace.btable.user_data.BTableOrderBank": {
-          "index": 16,
+          "ref_instance_id": 16,
           "path": "GameDesign/AI/World/BTable/EmPredator/SettingData/World_PredatorBTableOrderBank.user"
         }
       },

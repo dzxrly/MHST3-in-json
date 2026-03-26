@@ -1,32 +1,26 @@
 [
   {
     "app.user_data.WorldNpcParamPack": {
-      "index": 15,
       "_MotionBankAssetsList": [],
       "_JointGroup": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_ActionDataSetHolder": {
         "app.user_data.ActionDataSetHolder": {
-          "index": 5,
           "_DataSet_Base": [
             {
               "app.user_data.ActionDataSet": {
-                "index": 4,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 1,
+                    "ref_instance_id": 1,
                     "path": "GameDesign/NPC/NPC151_50_012/000/ActionData/WNpc151_50_012_000_General_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 3,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 2,
+                        "ref_instance_id": 2,
                         "path": "GameDesign/NPC/CommonData/ActionData/WorldNpcGeneral_ActionID.user"
                       }
                     },
@@ -41,88 +35,76 @@
       },
       "_DetectTerrainParam": {
         "app.user_data.DetectTerrainParam": {
-          "index": 6,
+          "ref_instance_id": 6,
           "path": "GameDesign/NPC/CommonData/Data/NpcDetectTerrainParam.user"
         }
       },
       "_InertiaFbik": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_FbikRigInfo": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_SpeedTreeCollision": {
         "app.user_data.SpeedTreePusherCollision": {
-          "index": 7,
+          "ref_instance_id": 7,
           "path": "GameDesign/NPC/CommonData/Data/HumanAdultSpeedTreePusherCollision.user"
         }
       },
       "_WorldCharacterAnimationLodParam": {
         "app.user_data.WorldCharacterAnimationLodParameter": {
-          "index": 8,
+          "ref_instance_id": 8,
           "path": "GameDesign/NPC/CommonData/AnimationLODData/WorldNpcAnimationLod.user"
         }
       },
       "_ParamPackBaseType": 0,
       "_WorldBasicParam": {
         "app.user_data.WorldNpcBasicParam": {
-          "index": 9,
+          "ref_instance_id": 9,
           "path": "GameDesign/NPC/NPC151_50_012/000/WorldData/WNpc151_50_012_000_BasicParam.user"
         }
       },
       "_Retarget": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_SequentialPoseParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_NpcCharamakeData": {
         "app.user_data.NpcCharamakeData": {
-          "index": 10,
+          "ref_instance_id": 10,
           "path": "GameDesign/NPC/NPC151_50_012/000/BaseData/WNpc151_50_012_000_CharamakeData.user"
         }
       },
       "_NpcBaseMotionBankPack": {
         "app.user_data.NpcBaseMotionBankPack": {
-          "index": 11,
+          "ref_instance_id": 11,
           "path": "GameDesign/NPC/CommonData/MotionPack/BaseMotionBank/BaseMotionBank_Male.user"
         }
       },
       "_ActionBasicParam": {
         "app.user_data.NpcActionBasicParam": {
-          "index": 12,
+          "ref_instance_id": 12,
           "path": "GameDesign/NPC/CommonData/ActionData/NpcActionBasicParam.user"
         }
       },
       "_LookAtParamPackage": {
         "app.user_data.NpcLookAtParamPackage": {
-          "index": 13,
+          "ref_instance_id": 13,
           "path": "GameDesign/NPC/CommonData/LookAtData/NpcLookAtParamPackage.user"
         }
       },
       "_IkCtrlSetupParam": {
         "ace.user_data.IkCtrlSetupParam": {
-          "index": 14,
+          "ref_instance_id": 14,
           "path": "GameDesign/NPC/CommonData/Data/NpcCommonIkCtrlSetupParam.user"
         }
       },
       "_StaticItemParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_MonsterNpcBasicParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

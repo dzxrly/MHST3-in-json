@@ -1,17 +1,15 @@
 [
   {
     "ace.user_data.MotionExtendBank": {
-      "index": 6,
       "_MotionExtendList": [
         {
           "ace.user_data.MotionExtendBank.SetData": {
-            "index": 2,
             "_BankID": 100,
             "_BankType": 0,
             "_BankTypeMaskBit": 0,
             "_MotionExtend": {
               "ace.user_data.MotionExtend": {
-                "index": 1,
+                "ref_instance_id": 1,
                 "path": "Art/Motion/03_Npc/01_VariationPack/00_Human_Bone/00_Mob/02_Child/03_Sit_Job/001_LegHanging/Child_Sit_001_LegHanging_mex.user"
               }
             }
@@ -21,16 +19,13 @@
       "_GroupTable": [
         {
           "ace.user_data.MotionExtendBank.cGroupBankSetSerialize": {
-            "index": 5,
             "GroupBankId": 0,
             "GroupSet": [
               {
                 "ace.user_data.MotionExtendBank.cGroupSetSerialize": {
-                  "index": 4,
                   "GroupId": 5642686434171,
                   "Group": {
                     "ace.user_data.MotionExtendBank.cGroup": {
-                      "index": 3,
                       "LList": [
                         409601
                       ],

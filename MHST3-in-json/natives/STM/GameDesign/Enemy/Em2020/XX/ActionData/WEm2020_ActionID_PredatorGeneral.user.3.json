@@ -1,14 +1,11 @@
 [
   {
     "ace.user_data.ActionID": {
-      "index": 9,
       "_ActionIDArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
-          "index": 4,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cID": {
-                "index": 1,
                 "_Class": "cNone",
                 "_InstanceGuid": "4d827899-521b-445c-8abd-2f04959b5958",
                 "_OverrideOwnerClass": false,
@@ -19,7 +16,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 2,
                 "_Class": "cRoarEncount",
                 "_InstanceGuid": "f903808c-e4f9-0772-2454-4b37d783c1aa",
                 "_OverrideOwnerClass": false,
@@ -30,7 +26,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 3,
                 "_Class": "cDemoEncount",
                 "_InstanceGuid": "1544b2d6-42d0-4b6a-98dc-7e4f6ce02c40",
                 "_OverrideOwnerClass": false,
@@ -44,11 +39,9 @@
       },
       "_ExportSettingArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
-          "index": 6,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cExport": {
-                "index": 5,
                 "_Guid": "ae547690-d1ea-4634-a2a1-f70e0ca5b25d",
                 "_ClassName": "WEm2020_Action_PredatorGeneral",
                 "_ActionCategory": 4
@@ -59,10 +52,9 @@
       },
       "_BaseActionID": {
         "ace.cActionIDHolder": {
-          "index": 8,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 7,
+              "ref_instance_id": 7,
               "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_PredatorGeneral.user"
             }
           },

@@ -1,29 +1,27 @@
 [
   {
     "app.user_data.NpcMotionPackage": {
-      "index": 7,
       "_BaseMotionPack": {
         "app.user_data.NpcMotionBasePack": {
-          "index": 1,
+          "ref_instance_id": 1,
           "path": "GameDesign/NPC/CommonData/MotionPack/BasePack/Base_Sit.user"
         }
       },
       "_JobMotionPack": {
         "app.user_data.NpcMotionJobPack": {
-          "index": 2,
+          "ref_instance_id": 2,
           "path": "GameDesign/NPC/CommonData/MotionPack/JobPack/Female/Female_St_Baby.user"
         }
       },
       "_HoldMotionPack": {
         "app.user_data.NpcMotionHoldPack": {
-          "index": 3,
+          "ref_instance_id": 3,
           "path": "GameDesign/NPC/CommonData/MotionPack/HoldPack/Female_St_Baby.user"
         }
       },
       "_IsUseMirror": false,
       "_VariationSetting": {
         "app.user_data.NpcMotionPackage.VariationMotionSetting": {
-          "index": 4,
           "_IsNoUseVariation": false,
           "_LoopCount_Var1": 3,
           "_LoopCount_Var2": 2,
@@ -33,7 +31,6 @@
       },
       "_GimmickOption": {
         "app.user_data.NpcMotionPackage.GimmickOption": {
-          "index": 5,
           "_GimmickLinkType": -1,
           "STRUCT__PosOffsetFromGimmick__HasValue": false,
           "STRUCT__PosOffsetFromGimmick__Value": [
@@ -50,7 +47,6 @@
       "_IsSyncRiderMotion": false,
       "_SoundRangeOption": {
         "app.user_data.NpcMotionPackage.cSoundRangeOption": {
-          "index": 6,
           "_IsUseSoundRange": false
         }
       }

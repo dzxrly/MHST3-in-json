@@ -1,15 +1,12 @@
 [
   {
     "app.user_data.AppMissionObjectiveListDataMainStory": {
-      "index": 85,
       "_DataList": [
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 7,
             "_ObjectiveID": 0,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 1,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -19,16 +16,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 4,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 3,
                       "_Condition": {
-                        "app.cMissionConditionUnconditional": {
-                          "index": 2
-                        }
+                        "app.cMissionConditionUnconditional": {}
                       }
                     }
                   }
@@ -37,7 +30,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 5,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -45,7 +37,6 @@
             "_IsDemoStart": true,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 6,
                 "_UniqueID": -2138084736
               }
             },
@@ -54,11 +45,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 14,
             "_ObjectiveID": 1,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 8,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -68,15 +57,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 11,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 10,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 9,
                           "_SuccessObjectiveIDList": [
                             0
                           ]
@@ -89,7 +75,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 12,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -97,7 +82,6 @@
             "_IsDemoStart": false,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 13,
                 "_UniqueID": -501988896
               }
             },
@@ -106,11 +90,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 21,
             "_ObjectiveID": 2,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 15,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -120,15 +102,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 18,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 17,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 16,
                           "_SuccessObjectiveIDList": [
                             1
                           ]
@@ -141,7 +120,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 19,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -149,7 +127,6 @@
             "_IsDemoStart": false,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 20,
                 "_UniqueID": -1064980224
               }
             },
@@ -158,11 +135,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 28,
             "_ObjectiveID": 3,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 22,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -172,15 +147,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 25,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 24,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 23,
                           "_SuccessObjectiveIDList": [
                             2
                           ]
@@ -193,7 +165,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 26,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -201,7 +172,6 @@
             "_IsDemoStart": false,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 27,
                 "_UniqueID": 1103736704
               }
             },
@@ -210,11 +180,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 35,
             "_ObjectiveID": 4,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 29,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -224,15 +192,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 32,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 31,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 30,
                           "_SuccessObjectiveIDList": [
                             3
                           ]
@@ -245,7 +210,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 33,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -253,7 +217,6 @@
             "_IsDemoStart": false,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 34,
                 "_UniqueID": -1980020608
               }
             },
@@ -262,11 +225,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 42,
             "_ObjectiveID": 5,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 36,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -276,15 +237,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 39,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 38,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 37,
                           "_SuccessObjectiveIDList": [
                             4
                           ]
@@ -297,7 +255,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 40,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -305,7 +262,6 @@
             "_IsDemoStart": false,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 41,
                 "_UniqueID": 1769417344
               }
             },
@@ -314,11 +270,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 49,
             "_ObjectiveID": 6,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 43,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -328,15 +282,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 46,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 45,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 44,
                           "_SuccessObjectiveIDList": [
                             5
                           ]
@@ -349,7 +300,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 47,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -357,7 +307,6 @@
             "_IsDemoStart": false,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 48,
                 "_UniqueID": 763225792
               }
             },
@@ -366,11 +315,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 56,
             "_ObjectiveID": 7,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 50,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -380,15 +327,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 53,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 52,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 51,
                           "_SuccessObjectiveIDList": [
                             6
                           ]
@@ -401,7 +345,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 54,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -409,7 +352,6 @@
             "_IsDemoStart": true,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 55,
                 "_UniqueID": -1786444928
               }
             },
@@ -418,11 +360,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 63,
             "_ObjectiveID": 8,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 57,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -432,15 +372,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 60,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 59,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 58,
                           "_SuccessObjectiveIDList": [
                             7
                           ]
@@ -453,7 +390,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 61,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -461,7 +397,6 @@
             "_IsDemoStart": false,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 62,
                 "_UniqueID": 875164352
               }
             },
@@ -470,11 +405,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 70,
             "_ObjectiveID": 9,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 64,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -484,15 +417,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 67,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 66,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 65,
                           "_SuccessObjectiveIDList": [
                             8
                           ]
@@ -505,7 +435,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 68,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -513,7 +442,6 @@
             "_IsDemoStart": true,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 69,
                 "_UniqueID": -1752978048
               }
             },
@@ -522,11 +450,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 77,
             "_ObjectiveID": 10,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 71,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -536,15 +462,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 74,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 73,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 72,
                           "_SuccessObjectiveIDList": [
                             9
                           ]
@@ -557,7 +480,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 75,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -565,7 +487,6 @@
             "_IsDemoStart": false,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 76,
                 "_UniqueID": 253617776
               }
             },
@@ -574,11 +495,9 @@
         },
         {
           "app.cAppMissionObjectiveDataMainStory": {
-            "index": 84,
             "_ObjectiveID": 11,
             "_ObjectivePrefab": {
               "via.Prefab": {
-                "index": 78,
                 "v0": {
                   "raw": "00",
                   "type": "Data"
@@ -588,15 +507,12 @@
             },
             "_StartConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
-                "index": 81,
                 "_JudgeType": 0,
                 "_ConditionDataList": [
                   {
                     "ace.cMissionConditionData_StartObjective": {
-                      "index": 80,
                       "_Condition": {
                         "app.cMissionConditionObjectiveSuccess": {
-                          "index": 79,
                           "_SuccessObjectiveIDList": [
                             10
                           ]
@@ -609,7 +525,6 @@
             },
             "_SkipConditionList": {
               "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
-                "index": 82,
                 "_JudgeType": 0,
                 "_ConditionDataList": []
               }
@@ -617,7 +532,6 @@
             "_IsDemoStart": false,
             "_ScenarioID": {
               "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
-                "index": 83,
                 "_UniqueID": -1752332928
               }
             },

@@ -1,28 +1,15 @@
 [
   {
     "app.snd_user_data.SoundPrefabChangerByMissionSettings": {
-      "index": 5,
       "_MainStoryTermPrefabs": [
         {
           "app.snd_user_data.SoundPrefabChangerByMissionSettings.MainStoryTermPrefab": {
-            "index": 4,
             "_IsCheckTerm": true,
-            "_MainStoryFlagBegin": {
-              "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                "index": 1,
-                "value": "[782723328] M_3B0"
-              }
-            },
-            "_MainStoryFlagEnd": {
-              "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                "index": 2,
-                "value": "[30298] M_3C0_65"
-              }
-            },
+            "_MainStoryFlagBegin": "[782723328] M_3B0",
+            "_MainStoryFlagEnd": "[30298] M_3C0_65",
             "_UseSSCheck": true,
             "_Prefab": {
               "via.Prefab": {
-                "index": 3,
                 "v0": {
                   "raw": "00",
                   "type": "Data"

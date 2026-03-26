@@ -1,21 +1,13 @@
 [
   {
     "app.user_data.BattleCutEffectData": {
-      "index": 14,
       "_HitInfo": {
         "app.user_data.BattleCutEffectData.cHitInfo": {
-          "index": 3,
           "_HitType": 1,
           "_HitParams": [
             {
               "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
-                "index": 2,
-                "_EffHitInfoType": {
-                  "app.BattleDef.EFF_HIT_INFO_TYPE_Fixed": {
-                    "index": 1,
-                    "value": "[100953136] BTH_1022"
-                  }
-                },
+                "_EffHitInfoType": "[100953136] BTH_1022",
                 "_Frame": 15.0
               }
             }
@@ -25,13 +17,7 @@
       "_SimpleEffectInfos": [
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 5,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 4,
-                "value": "[3780715911] BAT_EFF_SNOW_MUD_SHOT"
-              }
-            },
+            "_ContainerID": "[3780715911] BAT_EFF_SNOW_MUD_SHOT",
             "_ElementID": 1,
             "_EffCreateType": 0,
             "_Frame": 40.0,
@@ -52,13 +38,7 @@
         },
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 7,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 6,
-                "value": "[2443354954] BAT_BOSS_7957"
-              }
-            },
+            "_ContainerID": "[2443354954] BAT_BOSS_7957",
             "_ElementID": 4,
             "_EffCreateType": 0,
             "_Frame": 40.0,
@@ -81,13 +61,7 @@
       "_SimpleEffectInfos_Next": [
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 9,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 8,
-                "value": "[3780715911] BAT_EFF_SNOW_MUD_SHOT"
-              }
-            },
+            "_ContainerID": "[3780715911] BAT_EFF_SNOW_MUD_SHOT",
             "_ElementID": 1,
             "_EffCreateType": 0,
             "_Frame": 0.0,
@@ -108,13 +82,7 @@
         },
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 11,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 10,
-                "value": "[2443354954] BAT_BOSS_7957"
-              }
-            },
+            "_ContainerID": "[2443354954] BAT_BOSS_7957",
             "_ElementID": 4,
             "_EffCreateType": 0,
             "_Frame": 0.0,
@@ -136,15 +104,9 @@
       ],
       "_ShellInfo": {
         "app.user_data.BattleCutEffectData.cShellInfo": {
-          "index": 13,
           "_IsActive": false,
           "_Frame": 0.0,
-          "_ContainerID": {
-            "app.ContainerID.ID_Fixed": {
-              "index": 12,
-              "value": "[1281779328] INVALID"
-            }
-          },
+          "_ContainerID": "[1281779328] INVALID",
           "_ElementID": 0,
           "_MoveType": 0,
           "_StartPos": [

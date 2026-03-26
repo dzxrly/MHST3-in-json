@@ -1,10 +1,8 @@
 [
   {
     "ace.btable.user_data.BTableOrderBank": {
-      "index": 42,
       "_OperatorWorkFactory": {
         "ace.btable.cOperatorWorkFactory": {
-          "index": 1,
           "_WorkType": {
             "raw": "19000000",
             "type": "RuntimeType"
@@ -13,7 +11,6 @@
       },
       "_CommandWorkFactory": {
         "ace.btable.cCommandWorkFactory": {
-          "index": 2,
           "_WorkType": {
             "raw": "6163652e",
             "type": "RuntimeType"
@@ -23,10 +20,9 @@
       "_OrderLists": [
         {
           "ace.btable.user_data.BTableOrderBank.cItem": {
-            "index": 4,
             "_OrderList": {
               "Ref": {
-                "index": 1650553954,
+                "ref_instance_id": 1650553954,
                 "missing": true
               }
             }
@@ -34,10 +30,9 @@
         },
         {
           "ace.btable.user_data.BTableOrderBank.cItem": {
-            "index": 6,
             "_OrderList": {
               "Ref": {
-                "index": 1663985004,
+                "ref_instance_id": 1663985004,
                 "missing": true
               }
             }
@@ -45,10 +40,9 @@
         },
         {
           "ace.btable.user_data.BTableOrderBank.cItem": {
-            "index": 8,
             "_OrderList": {
               "Ref": {
-                "index": 1919250511,
+                "ref_instance_id": 1919250511,
                 "missing": true
               }
             }
@@ -59,16 +53,15 @@
       "_CommandArgumentSettingList": [
         {
           "ace.btable.VariableArgSetting": {
-            "index": 10,
             "_Asset": {
               "Ref": {
-                "index": 1919906913,
+                "ref_instance_id": 1919906913,
                 "missing": true
               }
             },
             "_ListAsset": {
               "Ref": {
-                "index": 1802661719,
+                "ref_instance_id": 1802661719,
                 "missing": true
               }
             }
@@ -76,44 +69,41 @@
         },
         {
           "app.btable.AppBTableUtil_World.cSelectActionArgSetting": {
-            "index": 32,
             "_AssetDataList": []
           }
         },
         {
           "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
-            "index": 39,
             "_AssetDataList": [
               {
                 "Ref": {
-                  "index": 140471988,
+                  "ref_instance_id": 140471988,
                   "missing": true
                 }
               },
               {
                 "Ref": {
-                  "index": 1290180170,
+                  "ref_instance_id": 1290180170,
                   "missing": true
                 }
               },
               {
                 "Ref": {
-                  "index": 870692483,
+                  "ref_instance_id": 870692483,
                   "missing": true
                 }
               },
               {
                 "Ref": {
-                  "index": 38567099,
+                  "ref_instance_id": 38567099,
                   "missing": true
                 }
               },
               {
                 "ace.cActionIDHolder": {
-                  "index": 27,
                   "_ActionID": {
                     "Ref": {
-                      "index": 1205958165,
+                      "ref_instance_id": 1205958165,
                       "missing": true
                     }
                   },
@@ -122,40 +112,39 @@
               },
               {
                 "ace.user_data.ActionID": {
-                  "index": 29,
+                  "ref_instance_id": 29,
                   "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Underground.user"
                 }
               },
               {
                 "Ref": {
-                  "index": -1603434875,
+                  "ref_instance_id": -1603434875,
                   "missing": true
                 }
               },
               {
                 "Ref": {
-                  "index": 1289748449,
+                  "ref_instance_id": 1289748449,
                   "missing": true
                 }
               },
               {
                 "Ref": {
-                  "index": 1091876010,
+                  "ref_instance_id": 1091876010,
                   "missing": true
                 }
               },
               {
                 "Ref": {
-                  "index": -1091120408,
+                  "ref_instance_id": -1091120408,
                   "missing": true
                 }
               },
               {
                 "ace.cActionIDHolder": {
-                  "index": 30,
                   "_ActionID": {
                     "Ref": {
-                      "index": 1193700783,
+                      "ref_instance_id": 1193700783,
                       "missing": true
                     }
                   },
@@ -164,16 +153,15 @@
               },
               {
                 "ace.btable.user_data.BTableOrderList": {
-                  "index": 7,
+                  "ref_instance_id": 7,
                   "path": "GameDesign/AI/World/BTable/Otomon/SettingData/World_OtomonCommonBTableOrderList.user"
                 }
               },
               {
                 "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
-                  "index": 13,
                   "_Asset": {
                     "Ref": {
-                      "index": 1869442932,
+                      "ref_instance_id": 1869442932,
                       "missing": true
                     }
                   }
@@ -181,10 +169,9 @@
               },
               {
                 "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
-                  "index": 16,
                   "_Asset": {
                     "ace.btable.user_data.BTableOrderList": {
-                      "index": 3,
+                      "ref_instance_id": 3,
                       "path": "Ace/Data/BTable/DefaultBTableOrderList.user"
                     }
                   }
@@ -192,10 +179,9 @@
               },
               {
                 "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
-                  "index": 19,
                   "_Asset": {
                     "Ref": {
-                      "index": 146809585,
+                      "ref_instance_id": 146809585,
                       "missing": true
                     }
                   }
@@ -203,10 +189,9 @@
               },
               {
                 "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
-                  "index": 22,
                   "_Asset": {
                     "Ref": {
-                      "index": -1490702635,
+                      "ref_instance_id": -1490702635,
                       "missing": true
                     }
                   }
@@ -214,10 +199,9 @@
               },
               {
                 "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
-                  "index": 25,
                   "_Asset": {
                     "Ref": {
-                      "index": -348275750,
+                      "ref_instance_id": -348275750,
                       "missing": true
                     }
                   }
@@ -225,10 +209,9 @@
               },
               {
                 "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
-                  "index": 28,
                   "_Asset": {
                     "Ref": {
-                      "index": 1810735836,
+                      "ref_instance_id": 1810735836,
                       "missing": true
                     }
                   }
@@ -236,10 +219,9 @@
               },
               {
                 "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
-                  "index": 31,
                   "_Asset": {
                     "Ref": {
-                      "index": 469212399,
+                      "ref_instance_id": 469212399,
                       "missing": true
                     }
                   }
@@ -247,34 +229,33 @@
               },
               {
                 "app.user_data.World_NavigationDistParam": {
-                  "index": 33,
+                  "ref_instance_id": 33,
                   "path": "GameDesign/AI/World/BTable/Otomon/SettingData/World_OtNavigationDistParam_Common.user"
                 }
               },
               {
                 "app.user_data.World_NavigationDistParam": {
-                  "index": 35,
+                  "ref_instance_id": 35,
                   "path": "GameDesign/AI/World/BTable/Otomon/SettingData/World_OtNavigationDistParam_Fly.user"
                 }
               },
               {
                 "app.user_data.World_NavigationDistParam": {
-                  "index": 37,
+                  "ref_instance_id": 37,
                   "path": "GameDesign/AI/World/BTable/Otomon/SettingData/World_OtNavigationDistParam_Wall.user"
                 }
               },
               {
                 "ace.btable.user_data.BTableOrderList": {
-                  "index": 3,
+                  "ref_instance_id": 3,
                   "path": "Ace/Data/BTable/DefaultBTableOrderList.user"
                 }
               },
               {
                 "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2.cAssetData<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
-                  "index": 34,
                   "_Asset": {
                     "Ref": {
-                      "index": 2030207880,
+                      "ref_instance_id": 2030207880,
                       "missing": true
                     }
                   }
@@ -282,10 +263,9 @@
               },
               {
                 "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2.cAssetData<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
-                  "index": 36,
                   "_Asset": {
                     "Ref": {
-                      "index": 1568803098,
+                      "ref_instance_id": 1568803098,
                       "missing": true
                     }
                   }
@@ -293,13 +273,11 @@
               },
               {
                 "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2.cAssetData<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
-                  "index": 38,
                   "_Asset": {
                     "ace.cActionIDHolder": {
-                      "index": 24,
                       "_ActionID": {
                         "Ref": {
-                          "index": 1242423234,
+                          "ref_instance_id": 1242423234,
                           "missing": true
                         }
                       },
@@ -313,11 +291,10 @@
         },
         {
           "app.btable.AppBTableUtil_World.cSelectEnumArgSetting": {
-            "index": 41,
             "_EnumMakers": [
               {
                 "ace.user_data.EnumMaker": {
-                  "index": 40,
+                  "ref_instance_id": 40,
                   "path": "GameDesign/Otomon/CommonData/EnumMaker/WorldOtomonActionConditionID_General.user"
                 }
               }
@@ -326,14 +303,10 @@
         }
       ],
       "_VariableAsset": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_VariableListAsset": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

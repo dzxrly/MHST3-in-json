@@ -1,14 +1,11 @@
 [
   {
     "ace.user_data.ActionID": {
-      "index": 22,
       "_ActionIDArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
-          "index": 17,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cID": {
-                "index": 1,
                 "_Class": "cNone",
                 "_InstanceGuid": "894e738d-86fa-42e6-a60f-2ff448a3c1ae",
                 "_OverrideOwnerClass": false,
@@ -19,7 +16,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 2,
                 "_Class": "cIdle",
                 "_InstanceGuid": "3320d195-430b-0c69-3fdf-269269dd5c50",
                 "_OverrideOwnerClass": false,
@@ -30,7 +26,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 3,
                 "_Class": "cWalk",
                 "_InstanceGuid": "f38528a7-382a-46dc-b2a1-98cf3a2c8db4",
                 "_OverrideOwnerClass": true,
@@ -41,7 +36,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 4,
                 "_Class": "cRun",
                 "_InstanceGuid": "19806447-fa2f-092c-158d-d07c2cc1cbad",
                 "_OverrideOwnerClass": true,
@@ -52,7 +46,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 5,
                 "_Class": "cDash",
                 "_InstanceGuid": "5e8631ff-94fa-45f2-b6e6-cdfbf8c181e6",
                 "_OverrideOwnerClass": true,
@@ -63,7 +56,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 6,
                 "_Class": "cTopSpeedDash",
                 "_InstanceGuid": "2e2b28c4-1811-07af-0ac1-7770361995d3",
                 "_OverrideOwnerClass": true,
@@ -74,7 +66,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 7,
                 "_Class": "cTurn",
                 "_InstanceGuid": "f94f6b47-685e-44af-beb7-bf8d76a869b5",
                 "_OverrideOwnerClass": false,
@@ -85,7 +76,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 8,
                 "_Class": "cBless",
                 "_InstanceGuid": "461e16bd-fa54-09a4-34ab-585a93834856",
                 "_OverrideOwnerClass": true,
@@ -96,7 +86,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 9,
                 "_Class": "cAttack",
                 "_InstanceGuid": "c9bfec4f-3763-46d4-bf17-26d88bd7d1ed",
                 "_OverrideOwnerClass": true,
@@ -107,7 +96,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 10,
                 "_Class": "cFall",
                 "_InstanceGuid": "52440161-15fe-0384-05a7-7b882ccdbc91",
                 "_OverrideOwnerClass": false,
@@ -118,7 +106,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 11,
                 "_Class": "cRideReactionIdle",
                 "_InstanceGuid": "4de9a3a5-9ecb-4562-badc-fa18021c8401",
                 "_OverrideOwnerClass": false,
@@ -129,7 +116,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 12,
                 "_Class": "cInitIdle",
                 "_InstanceGuid": "cd8cea42-9d40-04e4-1a89-974cab034987",
                 "_OverrideOwnerClass": false,
@@ -140,7 +126,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 13,
                 "_Class": "cInitRun",
                 "_InstanceGuid": "d2cb4193-cc77-4aa4-b6a9-4fe9a200c166",
                 "_OverrideOwnerClass": false,
@@ -151,7 +136,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 14,
                 "_Class": "cRideEnd",
                 "_InstanceGuid": "46af9aed-6d89-05c9-043b-c9272dca850c",
                 "_OverrideOwnerClass": false,
@@ -162,7 +146,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 15,
                 "_Class": "cPopAccess",
                 "_InstanceGuid": "3689b8cd-1e73-4902-aea5-88aedcc4ee25",
                 "_OverrideOwnerClass": false,
@@ -173,7 +156,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 16,
                 "_Class": "cIdleFall",
                 "_InstanceGuid": "7331d279-6879-0f26-1f46-0a35a892ba38",
                 "_OverrideOwnerClass": false,
@@ -187,11 +169,9 @@
       },
       "_ExportSettingArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
-          "index": 19,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cExport": {
-                "index": 18,
                 "_Guid": "dcb40b47-6e95-4ec2-971d-c6aefbad5c83",
                 "_ClassName": "WOt0002_00_15_Action_General",
                 "_ActionCategory": 0
@@ -202,10 +182,9 @@
       },
       "_BaseActionID": {
         "ace.cActionIDHolder": {
-          "index": 21,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 20,
+              "ref_instance_id": 20,
               "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_General.user"
             }
           },

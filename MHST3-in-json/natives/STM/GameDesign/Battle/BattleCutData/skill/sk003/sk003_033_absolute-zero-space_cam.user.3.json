@@ -1,7 +1,6 @@
 [
   {
     "app.user_data.BattleCutCameraData": {
-      "index": 45,
       "_TotalFrame": 120.0,
       "_StartFrame": 0.0,
       "_EndFrame": 120.0,
@@ -10,20 +9,16 @@
       "_GenericCameraList": [
         {
           "app.user_data.BattleCutCameraData.cGenericCameraTrack": {
-            "index": 10,
             "_Frame": 0.0,
             "_CutId": 0,
             "_Ease": {
               "app.user_data.BattleCutCameraData.cGenericCameraTrack.cGenericCameraEase": {
-                "index": 9,
                 "_InverseRotateY": false,
                 "_EaseFOV": {
                   "app.user_data.cBattleCutEase": {
-                    "index": 2,
                     "_Inverse": false,
                     "_Curve": {
                       "via.AnimationCurve": {
-                        "index": 1,
                         "v0": [],
                         "v1": {
                           "raw": "00002041",
@@ -55,11 +50,9 @@
                 },
                 "_EaseLookAtPos": {
                   "app.user_data.cBattleCutEase": {
-                    "index": 4,
                     "_Inverse": false,
                     "_Curve": {
                       "via.AnimationCurve": {
-                        "index": 3,
                         "v0": [],
                         "v1": {
                           "raw": "00002041",
@@ -91,11 +84,9 @@
                 },
                 "_EaseAttachDeg": {
                   "app.user_data.cBattleCutEase": {
-                    "index": 6,
                     "_Inverse": false,
                     "_Curve": {
                       "via.AnimationCurve": {
-                        "index": 5,
                         "v0": [],
                         "v1": {
                           "raw": "00002041",
@@ -127,11 +118,9 @@
                 },
                 "_EaseDistance": {
                   "app.user_data.cBattleCutEase": {
-                    "index": 8,
                     "_Inverse": false,
                     "_Curve": {
                       "via.AnimationCurve": {
-                        "index": 7,
                         "v0": [],
                         "v1": {
                           "raw": "00002041",
@@ -184,20 +173,16 @@
         },
         {
           "app.user_data.BattleCutCameraData.cGenericCameraTrack": {
-            "index": 20,
             "_Frame": 120.0,
             "_CutId": 0,
             "_Ease": {
               "app.user_data.BattleCutCameraData.cGenericCameraTrack.cGenericCameraEase": {
-                "index": 19,
                 "_InverseRotateY": false,
                 "_EaseFOV": {
                   "app.user_data.cBattleCutEase": {
-                    "index": 12,
                     "_Inverse": false,
                     "_Curve": {
                       "via.AnimationCurve": {
-                        "index": 11,
                         "v0": [
                           {
                             "raw": "000000000400000000000000d985662e",
@@ -274,11 +259,9 @@
                 },
                 "_EaseLookAtPos": {
                   "app.user_data.cBattleCutEase": {
-                    "index": 14,
                     "_Inverse": false,
                     "_Curve": {
                       "via.AnimationCurve": {
-                        "index": 13,
                         "v0": [
                           {
                             "raw": "000000000400000000000000d985662e",
@@ -355,11 +338,9 @@
                 },
                 "_EaseAttachDeg": {
                   "app.user_data.cBattleCutEase": {
-                    "index": 16,
                     "_Inverse": false,
                     "_Curve": {
                       "via.AnimationCurve": {
-                        "index": 15,
                         "v0": [
                           {
                             "raw": "000000000400000000000000d985662e",
@@ -436,11 +417,9 @@
                 },
                 "_EaseDistance": {
                   "app.user_data.cBattleCutEase": {
-                    "index": 18,
                     "_Inverse": false,
                     "_Curve": {
                       "via.AnimationCurve": {
-                        "index": 17,
                         "v0": [
                           {
                             "raw": "000000000400000000000000d985662e",
@@ -542,12 +521,10 @@
       "_ShakeList": [
         {
           "app.user_data.BattleCutCameraData.cShakeTrack": {
-            "index": 32,
             "_CutId": 0,
             "_Frame": 0.0,
             "_ShakeParam": {
               "app.camera_shake.cOneShakeParam": {
-                "index": 31,
                 "_InstanceGuid": "f0980f71-d157-4d26-a70d-c5ad9f9b90ea",
                 "_Priority": 0,
                 "_ValidDist": 1500.0,
@@ -556,7 +533,6 @@
                 "_Duration": 2.0,
                 "_PosParam": {
                   "app.camera_shake.cPositionShakeParam": {
-                    "index": 25,
                     "_Amplitude": [
                       0.009999999776482582,
                       0.009999999776482582,
@@ -565,9 +541,8 @@
                     ],
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
-                        "index": 22,
                         "_AttenuationCurve": {
-                          "index": 21
+                          "ref_instance_id": 21
                         }
                       }
                     },
@@ -579,9 +554,8 @@
                     ],
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
-                        "index": 24,
                         "_AttenuationCurve": {
-                          "index": 23
+                          "ref_instance_id": 23
                         }
                       }
                     }
@@ -589,7 +563,6 @@
                 },
                 "_RotParam": {
                   "app.camera_shake.cRotationShakeParam": {
-                    "index": 30,
                     "_ShakeAxis": [
                       0.0,
                       0.0,
@@ -599,18 +572,16 @@
                     "_Amplitude": 4.0,
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
-                        "index": 27,
                         "_AttenuationCurve": {
-                          "index": 26
+                          "ref_instance_id": 26
                         }
                       }
                     },
                     "_Frequency": 8.0,
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
-                        "index": 29,
                         "_AttenuationCurve": {
-                          "index": 28
+                          "ref_instance_id": 28
                         }
                       }
                     }
@@ -622,12 +593,10 @@
         },
         {
           "app.user_data.BattleCutCameraData.cShakeTrack": {
-            "index": 44,
             "_CutId": 0,
             "_Frame": 120.0,
             "_ShakeParam": {
               "app.camera_shake.cOneShakeParam": {
-                "index": 43,
                 "_InstanceGuid": "d9b6362f-edb4-4c83-ac23-292f96aa3e84",
                 "_Priority": 0,
                 "_ValidDist": 1500.0,
@@ -636,7 +605,6 @@
                 "_Duration": 2.0,
                 "_PosParam": {
                   "app.camera_shake.cPositionShakeParam": {
-                    "index": 37,
                     "_Amplitude": [
                       0.009999999776482582,
                       0.009999999776482582,
@@ -645,9 +613,8 @@
                     ],
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
-                        "index": 34,
                         "_AttenuationCurve": {
-                          "index": 33
+                          "ref_instance_id": 33
                         }
                       }
                     },
@@ -659,9 +626,8 @@
                     ],
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
-                        "index": 36,
                         "_AttenuationCurve": {
-                          "index": 35
+                          "ref_instance_id": 35
                         }
                       }
                     }
@@ -669,7 +635,6 @@
                 },
                 "_RotParam": {
                   "app.camera_shake.cRotationShakeParam": {
-                    "index": 42,
                     "_ShakeAxis": [
                       0.0,
                       0.0,
@@ -679,18 +644,16 @@
                     "_Amplitude": 4.0,
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
-                        "index": 39,
                         "_AttenuationCurve": {
-                          "index": 38
+                          "ref_instance_id": 38
                         }
                       }
                     },
                     "_Frequency": 8.0,
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
-                        "index": 41,
                         "_AttenuationCurve": {
-                          "index": 40
+                          "ref_instance_id": 40
                         }
                       }
                     }

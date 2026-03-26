@@ -1,31 +1,25 @@
 [
   {
     "app.snd_user_data.SoundActionUserCurveListData": {
-      "index": 13,
       "_ActionUserCurveList": [
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 1,
             "_UserCurveConditionList": [],
             "_Action": "2967c1dd-9b12-4bd2-8858-eb5ade261d04"
           }
         },
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 5,
             "_UserCurveConditionList": [
               {
                 "app.snd_user_data.SoundActionUserCurveCondition": {
-                  "index": 4,
                   "_Condition": 0,
                   "_UserCurveInfoList": [
                     {
                       "app.snd_user_data.UserCurveInfo": {
-                        "index": 3,
                         "_UserCurveResourceInfoList": [
                           {
                             "app.snd_user_data.UserCurveResourceInfo": {
-                              "index": 2,
                               "_LoopFrame": -1.0,
                               "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_underground_start.ucurve"
                             }
@@ -44,11 +38,9 @@
         },
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 10,
             "_UserCurveConditionList": [
               {
                 "app.snd_user_data.SoundActionUserCurveCondition": {
-                  "index": 6,
                   "_Condition": 0,
                   "_UserCurveInfoList": [],
                   "_ActionList": []
@@ -56,16 +48,13 @@
               },
               {
                 "app.snd_user_data.SoundActionUserCurveCondition": {
-                  "index": 9,
                   "_Condition": 1,
                   "_UserCurveInfoList": [
                     {
                       "app.snd_user_data.UserCurveInfo": {
-                        "index": 8,
                         "_UserCurveResourceInfoList": [
                           {
                             "app.snd_user_data.UserCurveResourceInfo": {
-                              "index": 7,
                               "_LoopFrame": -1.0,
                               "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_underground_end.ucurve"
                             }
@@ -87,10 +76,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 12,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 11,
+              "ref_instance_id": 11,
               "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Underground.user"
             }
           },

@@ -1,45 +1,37 @@
 [
   {
     "app.snd_user_data.SoundActionUserCurveListData": {
-      "index": 15,
       "_ActionUserCurveList": [
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 1,
             "_UserCurveConditionList": [],
             "_Action": "fbd0a827-626a-4efb-826f-7f94100859a9"
           }
         },
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 2,
             "_UserCurveConditionList": [],
             "_Action": "b2465cef-abde-4600-90d4-215fe683f39a"
           }
         },
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 3,
             "_UserCurveConditionList": [],
             "_Action": "e02fec13-6c63-4581-8ff7-5b0bfcda8473"
           }
         },
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 7,
             "_UserCurveConditionList": [
               {
                 "app.snd_user_data.SoundActionUserCurveCondition": {
-                  "index": 6,
                   "_Condition": 0,
                   "_UserCurveInfoList": [
                     {
                       "app.snd_user_data.UserCurveInfo": {
-                        "index": 5,
                         "_UserCurveResourceInfoList": [
                           {
                             "app.snd_user_data.UserCurveResourceInfo": {
-                              "index": 4,
                               "_LoopFrame": 0.0,
                               "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_enemy_action_run_now.ucurve"
                             }
@@ -58,27 +50,22 @@
         },
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 12,
             "_UserCurveConditionList": [
               {
                 "app.snd_user_data.SoundActionUserCurveCondition": {
-                  "index": 11,
                   "_Condition": 0,
                   "_UserCurveInfoList": [
                     {
                       "app.snd_user_data.UserCurveInfo": {
-                        "index": 10,
                         "_UserCurveResourceInfoList": [
                           {
                             "app.snd_user_data.UserCurveResourceInfo": {
-                              "index": 8,
                               "_LoopFrame": -1.0,
                               "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_enemy_action_run.ucurve"
                             }
                           },
                           {
                             "app.snd_user_data.UserCurveResourceInfo": {
-                              "index": 9,
                               "_LoopFrame": 0.0,
                               "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_enemy_action_run_now.ucurve"
                             }
@@ -98,10 +85,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 14,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 13,
+              "ref_instance_id": 13,
               "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Swim.user"
             }
           },

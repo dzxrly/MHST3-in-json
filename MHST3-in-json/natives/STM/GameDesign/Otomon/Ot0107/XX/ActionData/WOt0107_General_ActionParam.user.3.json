@@ -1,11 +1,9 @@
 [
   {
     "ace.user_data.ActionParam": {
-      "index": 98,
       "_ActionClassList": [
         {
           "app.WorldOtomonGeneralAction.cNone": {
-            "index": 1,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3149504640] NONE",
             "_RideResponseType": "[1955913600] NONE",
@@ -16,7 +14,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cIdle": {
-            "index": 3,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3558840640] IDLE",
             "_RideResponseType": "[3593344192] IDLE",
@@ -25,7 +22,6 @@
             "_ActionAttr": 0,
             "_MoveToIdleRequireTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 2,
                 "_RideValue": 0.07999999821186066,
                 "_AloneValue": 0.07999999821186066
               }
@@ -34,7 +30,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cWalk": {
-            "index": 14,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[2801384320] WALK",
             "_RideResponseType": "[3788874656] WALK",
@@ -43,10 +38,8 @@
             "_ActionAttr": 1,
             "_Speed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
-                "index": 6,
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 4,
                     "_Type": 1,
                     "_KilometerPerHourParam": 6.0,
                     "_MotionSpeed": 1.0
@@ -54,7 +47,6 @@
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 5,
                     "_Type": 1,
                     "_KilometerPerHourParam": 6.0,
                     "_MotionSpeed": 1.0
@@ -64,14 +56,12 @@
             },
             "_RotWeightOnLoop": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 7,
                 "_RideValue": 1.0,
                 "_AloneValue": 1.0
               }
             },
             "_TurnDegreeThreshold": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 8,
                 "_RideValue": 120.0,
                 "_AloneValue": 120.0
               }
@@ -79,10 +69,8 @@
             "_UseInitialSpeed": false,
             "_InitialSpeed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
-                "index": 11,
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 9,
                     "_Type": 0,
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
@@ -90,7 +78,6 @@
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 10,
                     "_Type": 0,
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
@@ -100,14 +87,12 @@
             },
             "_AccelerationTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 12,
                 "_RideValue": 0.0,
                 "_AloneValue": 0.0
               }
             },
             "_AccelerationEaseType": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.curve.EaseType>": {
-                "index": 13,
                 "_RideValue": 0,
                 "_AloneValue": 0
               }
@@ -116,7 +101,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cRun": {
-            "index": 25,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[65387560] RUN",
             "_RideResponseType": "[3204353920] RUN",
@@ -125,10 +109,8 @@
             "_ActionAttr": 1,
             "_Speed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
-                "index": 17,
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 15,
                     "_Type": 1,
                     "_KilometerPerHourParam": 54.0,
                     "_MotionSpeed": 0.75
@@ -136,7 +118,6 @@
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 16,
                     "_Type": 1,
                     "_KilometerPerHourParam": 54.0,
                     "_MotionSpeed": 1.0
@@ -146,14 +127,12 @@
             },
             "_RotWeightOnLoop": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 18,
                 "_RideValue": 8.0,
                 "_AloneValue": 5.0
               }
             },
             "_TurnDegreeThreshold": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 19,
                 "_RideValue": 160.0,
                 "_AloneValue": 225.0
               }
@@ -161,10 +140,8 @@
             "_UseInitialSpeed": false,
             "_InitialSpeed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
-                "index": 22,
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 20,
                     "_Type": 0,
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
@@ -172,7 +149,6 @@
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 21,
                     "_Type": 0,
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
@@ -182,14 +158,12 @@
             },
             "_AccelerationTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 23,
                 "_RideValue": 0.0,
                 "_AloneValue": 0.0
               }
             },
             "_AccelerationEaseType": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.curve.EaseType>": {
-                "index": 24,
                 "_RideValue": 0,
                 "_AloneValue": 0
               }
@@ -198,7 +172,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cDash": {
-            "index": 37,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3409338496] DASH",
             "_RideResponseType": "[1321486720] DASH",
@@ -207,10 +180,8 @@
             "_ActionAttr": 1,
             "_Speed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
-                "index": 28,
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 26,
                     "_Type": 1,
                     "_KilometerPerHourParam": 74.0,
                     "_MotionSpeed": 1.0
@@ -218,7 +189,6 @@
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 27,
                     "_Type": 1,
                     "_KilometerPerHourParam": 74.0,
                     "_MotionSpeed": 1.0
@@ -228,14 +198,12 @@
             },
             "_RotWeightOnLoop": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 29,
                 "_RideValue": 10.0,
                 "_AloneValue": 10.0
               }
             },
             "_TurnDegreeThreshold": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 30,
                 "_RideValue": 165.0,
                 "_AloneValue": 120.0
               }
@@ -243,10 +211,8 @@
             "_UseInitialSpeed": false,
             "_InitialSpeed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
-                "index": 33,
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 31,
                     "_Type": 0,
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
@@ -254,7 +220,6 @@
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 32,
                     "_Type": 0,
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
@@ -264,21 +229,18 @@
             },
             "_AccelerationTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 34,
                 "_RideValue": 0.0,
                 "_AloneValue": 0.0
               }
             },
             "_AccelerationEaseType": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.curve.EaseType>": {
-                "index": 35,
                 "_RideValue": 0,
                 "_AloneValue": 0
               }
             },
             "_EffectRequestDelay": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 36,
                 "_RideValue": 0.10000000149011612,
                 "_AloneValue": -1.0
               }
@@ -288,7 +250,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cTopSpeedDash": {
-            "index": 50,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3409338496] DASH",
             "_RideResponseType": "[1321486720] DASH",
@@ -297,10 +258,8 @@
             "_ActionAttr": 1,
             "_Speed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
-                "index": 40,
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 38,
                     "_Type": 1,
                     "_KilometerPerHourParam": 80.0,
                     "_MotionSpeed": 1.0
@@ -308,7 +267,6 @@
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 39,
                     "_Type": 1,
                     "_KilometerPerHourParam": 80.0,
                     "_MotionSpeed": 1.0
@@ -318,14 +276,12 @@
             },
             "_RotWeightOnLoop": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 41,
                 "_RideValue": 10.0,
                 "_AloneValue": 10.0
               }
             },
             "_TurnDegreeThreshold": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 42,
                 "_RideValue": 120.0,
                 "_AloneValue": 225.0
               }
@@ -333,10 +289,8 @@
             "_UseInitialSpeed": false,
             "_InitialSpeed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
-                "index": 45,
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 43,
                     "_Type": 0,
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
@@ -344,7 +298,6 @@
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "index": 44,
                     "_Type": 0,
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
@@ -354,21 +307,18 @@
             },
             "_AccelerationTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 46,
                 "_RideValue": 0.0,
                 "_AloneValue": 0.0
               }
             },
             "_AccelerationEaseType": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.curve.EaseType>": {
-                "index": 47,
                 "_RideValue": 0,
                 "_AloneValue": 0
               }
             },
             "_EffectRequestDelay": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 48,
                 "_RideValue": -1.0,
                 "_AloneValue": -1.0
               }
@@ -376,7 +326,6 @@
             "_SSizeDashEffect": false,
             "_TransRate": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 49,
                 "_RideValue": 1.5,
                 "_AloneValue": 1.5
               }
@@ -385,7 +334,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cTurn": {
-            "index": 54,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[2801384320] WALK",
             "_RideResponseType": "[3788874656] WALK",
@@ -394,21 +342,18 @@
             "_ActionAttr": 1,
             "_TurnSpeed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 51,
                 "_RideValue": 2.0,
                 "_AloneValue": 3.0
               }
             },
             "_TurnableAngle": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 52,
                 "_RideValue": 10.0,
                 "_AloneValue": 10.0
               }
             },
             "_TurnFinishAngle": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 53,
                 "_RideValue": 5.0,
                 "_AloneValue": 12.0
               }
@@ -417,7 +362,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cBless": {
-            "index": 61,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3460687104] BLESS_CHARGE",
             "_RideResponseType": "[2798558464] BLESS_CHARGE",
@@ -426,40 +370,34 @@
             "_ActionAttr": 0,
             "_BlessUpdater": {
               "app.WorldOtomonGeneralAction.cBless.BlessUpdater": {
-                "index": 60,
                 "_ShootJointName": "Head_00",
                 "_EffectGroupName": "A01_Fire",
                 "_RotWeightOnStart": {
                   "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                    "index": 55,
                     "_RideValue": 30.0,
                     "_AloneValue": 30.0
                   }
                 },
                 "_RotWeightOnLoop": {
                   "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                    "index": 56,
                     "_RideValue": 12.0,
                     "_AloneValue": 12.0
                   }
                 },
                 "_TurnCompletedDegree": {
                   "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                    "index": 57,
                     "_RideValue": 5.0,
                     "_AloneValue": 5.0
                   }
                 },
                 "_ChargeMotionSpeed": {
                   "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                    "index": 58,
                     "_RideValue": 1.0,
                     "_AloneValue": 1.0
                   }
                 },
                 "_ShellID": {
                   "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Int32>": {
-                    "index": 59,
                     "_RideValue": 0,
                     "_AloneValue": 0
                   }
@@ -477,7 +415,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cAttack": {
-            "index": 67,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[2253309952] ATTACK",
             "_RideResponseType": "[260996608] ATTACK",
@@ -486,7 +423,6 @@
             "_ActionAttr": 0,
             "_TransScale": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.vec3>": {
-                "index": 62,
                 "_RideValue": [
                   1.0,
                   1.0,
@@ -503,28 +439,24 @@
             },
             "_TargetDetectDistance": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 63,
                 "_RideValue": 20.0,
                 "_AloneValue": 20.0
               }
             },
             "_TargetDetectAngle": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 64,
                 "_RideValue": 100.0,
                 "_AloneValue": 100.0
               }
             },
             "_TurnSpeed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 65,
                 "_RideValue": 10.0,
                 "_AloneValue": 10.0
               }
             },
             "_TurnCompletedDegree": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 66,
                 "_RideValue": 5.0,
                 "_AloneValue": 5.0
               }
@@ -533,7 +465,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cFall": {
-            "index": 70,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3643530240] NO_ORDER",
             "_RideResponseType": "[4128499248] FALL",
@@ -542,14 +473,12 @@
             "_ActionAttr": 0,
             "_CancelRestrictTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 68,
                 "_RideValue": 1.0,
                 "_AloneValue": 1.0
               }
             },
             "_LandDisableTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 69,
                 "_RideValue": 0.20000000298023224,
                 "_AloneValue": 0.20000000298023224
               }
@@ -558,7 +487,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cRideReactionIdle": {
-            "index": 72,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3558840640] IDLE",
             "_RideResponseType": "[3593344192] IDLE",
@@ -567,7 +495,6 @@
             "_ActionAttr": 0,
             "_MoveToIdleRequireTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 71,
                 "_RideValue": 0.0,
                 "_AloneValue": 0.0
               }
@@ -577,7 +504,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cInitIdle": {
-            "index": 73,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3149504640] NONE",
             "_RideResponseType": "[3593344192] IDLE",
@@ -588,7 +514,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cInitRun": {
-            "index": 74,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3149504640] NONE",
             "_RideResponseType": "[3204353920] RUN",
@@ -599,7 +524,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cRideEnd": {
-            "index": 75,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3149504640] NONE",
             "_RideResponseType": "[1955913600] NONE",
@@ -610,7 +534,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cPopAccess": {
-            "index": 76,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[9361] POP_ACCESS",
             "_RideResponseType": "[3080] POP_ACCESS",
@@ -621,7 +544,6 @@
         },
         {
           "app.WorldOtomonGeneralAction.cIdleFall": {
-            "index": 79,
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3643530240] NO_ORDER",
             "_RideResponseType": "[4128499248] FALL",
@@ -630,14 +552,12 @@
             "_ActionAttr": 0,
             "_CancelRestrictTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 77,
                 "_RideValue": 0.0,
                 "_AloneValue": 0.0
               }
             },
             "_LandDisableTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
-                "index": 78,
                 "_RideValue": 0.0,
                 "_AloneValue": 0.0
               }
@@ -649,7 +569,6 @@
       "_ActionInfoList": [
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 80,
             "_Guid": "a3303da0-b1f4-06c2-2513-40e3fb7c4332",
             "_ActionGuid": "76dd73f4-c924-40d2-8f34-508389f9c178",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -660,7 +579,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 81,
             "_Guid": "7dc0f2b2-87f3-0c87-289f-c15132fc5a99",
             "_ActionGuid": "9d6da462-b2e0-4a6a-b28d-4ffb7d7e0bc9",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -671,7 +589,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 82,
             "_Guid": "68e7562d-86f3-0ad7-23c6-419a89952edf",
             "_ActionGuid": "a3a94420-d063-4b3f-b8ed-0c6ef5d1d885",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -682,7 +599,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 83,
             "_Guid": "758ac90e-2a29-069d-23f4-3c0fc0c97d09",
             "_ActionGuid": "a25b29bb-c2fb-431d-8c88-7703176bb274",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -693,7 +609,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 84,
             "_Guid": "2d7d8e76-a754-000a-24bf-c86dd4b9e524",
             "_ActionGuid": "d3e2dc3d-b769-42d0-a1b5-f91f2182f02f",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -704,7 +619,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 85,
             "_Guid": "aba3f168-7f41-015e-3949-b45c3ba01fdd",
             "_ActionGuid": "6b913724-8c01-41a4-b7b9-b0dc7db80b6b",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -715,7 +629,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 86,
             "_Guid": "13452199-ef05-0f6d-13dd-63619e323992",
             "_ActionGuid": "f97d64e3-f624-489c-ade1-79a3b2821754",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -726,7 +639,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 87,
             "_Guid": "e6c128ce-b1c9-01c9-0e43-31e9a2775943",
             "_ActionGuid": "08f68b45-9167-447d-a652-c2edddfbd4ea",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -737,7 +649,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 88,
             "_Guid": "fa3e31ce-aa34-028b-01d0-ff5f352bb32c",
             "_ActionGuid": "9471c136-cd19-4940-a41d-530d03f02daf",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -748,7 +659,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 89,
             "_Guid": "8766845a-6c18-0bfb-25e0-445228b19a71",
             "_ActionGuid": "c4fc3aa2-1498-436e-af15-67f1cabe06d4",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -759,7 +669,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 90,
             "_Guid": "e0b6bae1-1ca6-0e18-2d51-f202db5b7db1",
             "_ActionGuid": "f5da627e-56d1-46c1-9aea-9f0a36c07c17",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -770,7 +679,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 91,
             "_Guid": "34b1bbcd-d395-0fc0-3dcf-50fd02373835",
             "_ActionGuid": "e64d6f26-6b53-4635-b4c7-89296767d8d9",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -781,7 +689,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 92,
             "_Guid": "9df9d8b2-1d74-02a0-0a30-2ff1ecc36bb8",
             "_ActionGuid": "9b150377-46d1-48bc-aa47-032d6ffc1427",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -792,7 +699,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 93,
             "_Guid": "6155ecee-4e53-095a-03ad-e47d2abf1471",
             "_ActionGuid": "b65263be-d112-40a0-bb6a-3324f6056161",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -803,7 +709,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 94,
             "_Guid": "40af74f5-7ef1-02cc-17ff-2dbd33b50661",
             "_ActionGuid": "affa5cef-a974-4364-8ef4-b465099b1563",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -814,7 +719,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 95,
             "_Guid": "4ae15b5f-9ceb-0f97-1c4d-695d9d58dfe0",
             "_ActionGuid": "85aca400-7a46-41d3-be4f-7d76b22d70c1",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -826,10 +730,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 97,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 96,
+              "ref_instance_id": 96,
               "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_General.user"
             }
           },
@@ -838,9 +741,7 @@
       },
       "_IsUseBranchedParam": false,
       "_BaseActionParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

@@ -1,12 +1,10 @@
 [
   {
     "app.user_data.MissionDemoData": {
-      "index": 12,
       "_MissionDemoID": "[46] PM_1B_046",
       "_IsCreateAnimal": false,
       "_PlayerSetting": {
         "app.user_data.MissionDemoData.cPlayerSetting": {
-          "index": 1,
           "_Position": [
             177.06678771972656,
             206.4923858642578,
@@ -27,7 +25,7 @@
       "_EnemySettings": [],
       "_CameraWorkData": {
         "ace.user_data.CameraWorkData": {
-          "index": 2,
+          "ref_instance_id": 2,
           "path": "GameDesign/Story/Common/MissionDemo/PM_1B_046/MissionCameraWorkData_PM_1B_046.user"
         }
       },
@@ -35,14 +33,11 @@
       "_ActionSettings": [
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 5,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 4,
                   "_Action": {
                     "app.cMissionDemoActionWaitTime": {
-                      "index": 3,
                       "_WaitSecound": 2.0
                     }
                   }
@@ -53,14 +48,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 8,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 7,
                   "_Action": {
                     "app.cMissionDemoActionTalkWindow": {
-                      "index": 6,
                       "_MessageTextId": "8d9ed90b-a568-40e8-886a-cd4721688ace"
                     }
                   }
@@ -71,14 +63,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 11,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 10,
                   "_Action": {
                     "app.cMissionDemoActionWaitTime": {
-                      "index": 9,
                       "_WaitSecound": 0.5
                     }
                   }

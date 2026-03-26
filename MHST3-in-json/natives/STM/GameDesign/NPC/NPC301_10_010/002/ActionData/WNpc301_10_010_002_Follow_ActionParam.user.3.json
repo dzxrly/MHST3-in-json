@@ -1,15 +1,12 @@
 [
   {
     "ace.user_data.ActionParam": {
-      "index": 13,
       "_ActionClassList": [
         {
           "app.WorldNpcFollowAction.cFollowRun": {
-            "index": 3,
             "_ActionSafeLimitTime": -1.0,
             "_MotionSpeedParam": {
               "app.AppCharaUtil.cMotionSpeedParam": {
-                "index": 1,
                 "_Type": 0,
                 "_KilometerPerHourParam": 0.0,
                 "_MotionSpeed": 1.0
@@ -18,7 +15,6 @@
             "_IsOverrideTurnParam": true,
             "_SelfTurnParam": {
               "app.AppCharaUtil.cAngularVelocityParam": {
-                "index": 2,
                 "_TurnRadius": 0.23999999463558197,
                 "_RotSpeedEaseType": 8
               }
@@ -27,11 +23,9 @@
         },
         {
           "app.WorldNpcFollowAction.cFollowDash": {
-            "index": 6,
             "_ActionSafeLimitTime": -1.0,
             "_MotionSpeedParam": {
               "app.AppCharaUtil.cMotionSpeedParam": {
-                "index": 4,
                 "_Type": 0,
                 "_KilometerPerHourParam": 0.0,
                 "_MotionSpeed": 1.0
@@ -40,7 +34,6 @@
             "_IsOverrideTurnParam": true,
             "_SelfTurnParam": {
               "app.AppCharaUtil.cAngularVelocityParam": {
-                "index": 5,
                 "_TurnRadius": 0.23999999463558197,
                 "_RotSpeedEaseType": 8
               }
@@ -49,7 +42,6 @@
         },
         {
           "app.WNpc301_10_010_002_ActionFollow.cFollowStepJumpOff": {
-            "index": 7,
             "_ActionSafeLimitTime": -1.0,
             "_StartForwardSpeed": [
               0.0,
@@ -70,7 +62,6 @@
       "_ActionInfoList": [
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 8,
             "_Guid": "dc4cde1a-3348-4b5a-a9e7-ec0f00c08578",
             "_ActionGuid": "bf00040c-664b-481e-8608-49cc0aad5230",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -81,7 +72,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 9,
             "_Guid": "2969e7d7-0d2f-4b94-a758-348df23579e1",
             "_ActionGuid": "9d9b1883-40e2-4161-8cc2-a8019f8ac0ad",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -92,7 +82,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 10,
             "_Guid": "00fd495b-e045-4c95-9c13-322edb6a75e7",
             "_ActionGuid": "1d42cdbd-eb78-42e3-a238-58027c22f744",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -104,10 +93,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 12,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 11,
+              "ref_instance_id": 11,
               "path": "GameDesign/NPC/NPC301_10_010/002/ActionData/WNpc301_10_010_002_Follow_ActionId.user"
             }
           },
@@ -116,9 +104,7 @@
       },
       "_IsUseBranchedParam": false,
       "_BaseActionParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

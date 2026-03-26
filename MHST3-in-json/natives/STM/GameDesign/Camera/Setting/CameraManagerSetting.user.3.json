@@ -1,10 +1,8 @@
 [
   {
     "app.user_data.CameraManagerSetting": {
-      "index": 95,
       "_WipeCameraPrefab": {
         "via.Prefab": {
-          "index": 1,
           "v0": {
             "raw": "01",
             "type": "Data"
@@ -14,7 +12,6 @@
       },
       "_EventWipeCameraPrefab": {
         "via.Prefab": {
-          "index": 2,
           "v0": {
             "raw": "01",
             "type": "Data"
@@ -24,7 +21,6 @@
       },
       "_WipeBookCameraPrefab": {
         "via.Prefab": {
-          "index": 3,
           "v0": {
             "raw": "01",
             "type": "Data"
@@ -34,7 +30,6 @@
       },
       "_FarClipCtrlFromFogPrefab": {
         "via.Prefab": {
-          "index": 4,
           "v0": {
             "raw": "01",
             "type": "Data"
@@ -44,70 +39,69 @@
       },
       "_Param": {
         "app.user_data.CameraManagerSetting.cParams": {
-          "index": 16,
           "_PlayerCameraParam": {
             "app.user_data.PlayerCameraParam": {
-              "index": 5,
+              "ref_instance_id": 5,
               "path": "GameDesign/Camera/Param/PlayerCameraParam.user"
             }
           },
           "_ViewPointCameraParam": {
             "app.user_data.ViewPointCameraParam": {
-              "index": 6,
+              "ref_instance_id": 6,
               "path": "GameDesign/Camera/Param/ViewPointCameraParam.user"
             }
           },
           "_CameraParamDataList": {
             "ace.user_data.CameraParamDataCollectionList": {
-              "index": 7,
+              "ref_instance_id": 7,
               "path": "GameDesign/Camera/Param/CameraCommonParam.user"
             }
           },
           "_RideCameraParamDataList": {
             "ace.user_data.CameraParamDataCollectionList": {
-              "index": 8,
+              "ref_instance_id": 8,
               "path": "GameDesign/Camera/Param/RideCameraParamBase.user"
             }
           },
           "_AddCameraParamDataList": {
             "ace.user_data.CameraParamDataCollectionList": {
-              "index": 9,
+              "ref_instance_id": 9,
               "path": "GameDesign/Camera/Param/AddCameraParam.user"
             }
           },
           "_ConstCameraParamDataList": {
             "ace.user_data.CameraParamDataCollectionList": {
-              "index": 10,
+              "ref_instance_id": 10,
               "path": "GameDesign/Camera/Param/ConstViewCameraParam.user"
             }
           },
           "_DialogueCameraParamDataCollectionList": {
             "ace.user_data.CameraParamDataCollectionList": {
-              "index": 11,
+              "ref_instance_id": 11,
               "path": "GameDesign/Dialogue/Camera/Dialogue_CameraParam.user"
             }
           },
           "_SubCampCameraCutTableData": {
             "app.user_data.SubCampCameraCutTableData": {
-              "index": 12,
+              "ref_instance_id": 12,
               "path": "GameDesign/Camera/Param/SubCamp/SubCampCameraCutTableData.user"
             }
           },
           "_InterpolationCamData": {
             "app.user_data.InterpolationCameraData": {
-              "index": 13,
+              "ref_instance_id": 13,
               "path": "GameDesign/Camera/Param/InterpolationCameraData.user"
             }
           },
           "_CameraShakeData": {
             "app.user_data.CameraShake": {
-              "index": 14,
+              "ref_instance_id": 14,
               "path": "GameDesign/Camera/Param/CameraShakeData.user"
             }
           },
           "_CommonCameraWorkData": {
             "ace.user_data.CameraWorkData": {
-              "index": 15,
+              "ref_instance_id": 15,
               "path": "GameDesign/Camera/CameraWork/CommonCameraWorkData.user"
             }
           },
@@ -130,10 +124,8 @@
       },
       "_CamCtrlPrefabs": {
         "app.user_data.CameraManagerSetting.cCameraControllerPrefabs": {
-          "index": 43,
           "_PlayerCameraPrefab": {
             "via.Prefab": {
-              "index": 17,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -143,7 +135,6 @@
           },
           "_InterpolationCameraPrefab": {
             "via.Prefab": {
-              "index": 18,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -153,7 +144,6 @@
           },
           "_CutsceneCameraPrefab": {
             "via.Prefab": {
-              "index": 19,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -163,7 +153,6 @@
           },
           "_CutsceneInCameraPrefab": {
             "via.Prefab": {
-              "index": 20,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -173,7 +162,6 @@
           },
           "_CutsceneOutCameraPrefab": {
             "via.Prefab": {
-              "index": 21,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -183,7 +171,6 @@
           },
           "_DialogueCameraPrefab": {
             "via.Prefab": {
-              "index": 22,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -193,7 +180,6 @@
           },
           "_SubCampMotionCameraPrefab": {
             "via.Prefab": {
-              "index": 23,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -203,7 +189,6 @@
           },
           "_FieldMotionCameraPrefab": {
             "via.Prefab": {
-              "index": 24,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -213,7 +198,6 @@
           },
           "_WorkCameraPrefab": {
             "via.Prefab": {
-              "index": 25,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -223,7 +207,6 @@
           },
           "_BattleCameraPrefab": {
             "via.Prefab": {
-              "index": 26,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -233,7 +216,6 @@
           },
           "_ViewPointCameraPrefab": {
             "via.Prefab": {
-              "index": 27,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -243,7 +225,6 @@
           },
           "_CharamakeCameraPrefab": {
             "via.Prefab": {
-              "index": 28,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -254,7 +235,6 @@
           "_BattleWipeCameraPrefabArray": [
             {
               "via.Prefab": {
-                "index": 29,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -264,7 +244,6 @@
             },
             {
               "via.Prefab": {
-                "index": 30,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -274,7 +253,6 @@
             },
             {
               "via.Prefab": {
-                "index": 31,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -284,7 +262,6 @@
             },
             {
               "via.Prefab": {
-                "index": 32,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -296,7 +273,6 @@
           "_CutSceneSubCameraPrefabArray": [
             {
               "via.Prefab": {
-                "index": 33,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -306,7 +282,6 @@
             },
             {
               "via.Prefab": {
-                "index": 34,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -318,7 +293,6 @@
           "_ConstViewCameraPrefabArray": [
             {
               "via.Prefab": {
-                "index": 35,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -328,7 +302,6 @@
             },
             {
               "via.Prefab": {
-                "index": 36,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -338,7 +311,6 @@
             },
             {
               "via.Prefab": {
-                "index": 37,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -348,7 +320,6 @@
             },
             {
               "via.Prefab": {
-                "index": 38,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -358,7 +329,6 @@
             },
             {
               "via.Prefab": {
-                "index": 39,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -370,7 +340,6 @@
           "_PreViewCameraPrefabArray": [
             {
               "via.Prefab": {
-                "index": 40,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -380,7 +349,6 @@
             },
             {
               "via.Prefab": {
-                "index": 41,
                 "v0": {
                   "raw": "01",
                   "type": "Data"
@@ -391,7 +359,6 @@
           ],
           "_BookCameraControllerPrefab": {
             "via.Prefab": {
-              "index": 42,
               "v0": {
                 "raw": "01",
                 "type": "Data"
@@ -403,15 +370,12 @@
       },
       "_DyResources": {
         "app.user_data.CameraManagerSetting.cDynamicResources": {
-          "index": 94,
           "_RTTPrefabTbl": [
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 45,
                 "_Hash": 13443,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 44,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -423,11 +387,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 47,
                 "_Hash": 32057,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 46,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -439,11 +401,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 49,
                 "_Hash": 21106,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 48,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -455,11 +415,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 51,
                 "_Hash": 26541,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 50,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -471,11 +429,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 53,
                 "_Hash": 4635,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 52,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -487,11 +443,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 55,
                 "_Hash": 24943,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 54,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -503,11 +457,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 57,
                 "_Hash": 20319,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 56,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -519,11 +471,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 59,
                 "_Hash": 19233,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 58,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -535,11 +485,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 61,
                 "_Hash": 29055,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 60,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -551,11 +499,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 63,
                 "_Hash": 12925,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 62,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -567,11 +513,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 65,
                 "_Hash": 25933,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 64,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -583,11 +527,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 67,
                 "_Hash": 24109,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 66,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -599,11 +541,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 69,
                 "_Hash": 15078,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 68,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -615,11 +555,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 71,
                 "_Hash": 30508,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 70,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -631,11 +569,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 73,
                 "_Hash": 32715,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 72,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -647,11 +583,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 75,
                 "_Hash": 6772,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 74,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -663,11 +597,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 77,
                 "_Hash": 31961,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 76,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -679,11 +611,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 79,
                 "_Hash": 9282,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 78,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -695,11 +625,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 81,
                 "_Hash": 19868,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 80,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -711,11 +639,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 83,
                 "_Hash": 23096,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 82,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -727,11 +653,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 85,
                 "_Hash": 22635,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 84,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -745,11 +669,9 @@
           "_MotCamBankPrefabTbl": [
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 87,
                 "_Hash": -1793885039,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 86,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -761,11 +683,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 89,
                 "_Hash": -906488853,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 88,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -777,11 +697,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 91,
                 "_Hash": 608754887,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 90,
                     "v0": {
                       "raw": "00",
                       "type": "Data"
@@ -793,11 +711,9 @@
             },
             {
               "app.cResourcePrefabTable.cResourcePrefab": {
-                "index": 93,
                 "_Hash": -980738029,
                 "_Prefab": {
                   "via.Prefab": {
-                    "index": 92,
                     "v0": {
                       "raw": "00",
                       "type": "Data"

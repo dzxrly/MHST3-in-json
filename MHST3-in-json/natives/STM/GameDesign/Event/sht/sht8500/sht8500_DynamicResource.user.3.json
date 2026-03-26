@@ -1,11 +1,9 @@
 [
   {
     "app.user_data.TimelineEventDynamicResourceData": {
-      "index": 15,
       "_EventID": 18500,
       "_SearchIDHash": {
         "ace.cStrHash": {
-          "index": 1,
           "_Hash": 0
         }
       },
@@ -18,7 +16,6 @@
       "_SubEventItemList": [
         {
           "app.user_data.TimelineEventDynamicResourceData.SubEventItem": {
-            "index": 5,
             "_SubEventID": 50,
             "_CutFrameData": [
               0,
@@ -30,12 +27,10 @@
             "_ActorItemList": [],
             "_CameraData": {
               "app.user_data.TimelineEventDynamicResourceData.CameraData": {
-                "index": 3,
                 "_FadeTimeStart": 0.0,
                 "_FadeTimeEnd": 0.0,
                 "_StartCameraParam": {
                   "app.user_data.TimelineEventDynamicResourceData.EventStartCameraParam": {
-                    "index": 2,
                     "_Pos": [
                       539.6085205078125,
                       197.99664306640625,
@@ -77,7 +72,7 @@
             "_IsPictureDemo": false,
             "_CutListData": {
               "app.user_data.CutsceneCutListData": {
-                "index": 4,
+                "ref_instance_id": 4,
                 "path": "GameDesign/Event/sht/sht8500/sht8500_50/sht8500_50_CutData.user"
               }
             }
@@ -85,7 +80,6 @@
         },
         {
           "app.user_data.TimelineEventDynamicResourceData.SubEventItem": {
-            "index": 9,
             "_SubEventID": 0,
             "_CutFrameData": [
               100
@@ -93,12 +87,10 @@
             "_ActorItemList": [],
             "_CameraData": {
               "app.user_data.TimelineEventDynamicResourceData.CameraData": {
-                "index": 7,
                 "_FadeTimeStart": 0.0,
                 "_FadeTimeEnd": 0.0,
                 "_StartCameraParam": {
                   "app.user_data.TimelineEventDynamicResourceData.EventStartCameraParam": {
-                    "index": 6,
                     "_Pos": [
                       539.6085205078125,
                       197.99664306640625,
@@ -140,7 +132,7 @@
             "_IsPictureDemo": false,
             "_CutListData": {
               "app.user_data.CutsceneCutListData": {
-                "index": 8,
+                "ref_instance_id": 8,
                 "path": "GameDesign/Event/sht/sht8500/sht8500_00/sht8500_00_CutData.user"
               }
             }
@@ -150,7 +142,6 @@
       "_FlowItemList": [
         {
           "app.user_data.TimelineEventDynamicResourceData.FlowItem": {
-            "index": 10,
             "_FlowID": 0,
             "_SubEventIDList": [
               0
@@ -160,7 +151,6 @@
       ],
       "_MainItem": {
         "app.user_data.TimelineEventDynamicResourceData.EventItem": {
-          "index": 13,
           "_IsDisableStartFSM": false,
           "_IsDisableEndFSM": false,
           "_MainStoryFlag": "[1038238208] INVALID",
@@ -182,7 +172,6 @@
           "_PauseTagFlags": 0,
           "_EventStandbyData": {
             "app.user_data.TimelineEventDynamicResourceData.StandbyData": {
-              "index": 11,
               "_IsTargetPosDisable": false,
               "_IsTargetPosManual": false,
               "_TargetPos": [
@@ -200,17 +189,13 @@
               "_EndPosAdjustTime": 0.0,
               "_EndPosAdjustEaseType": 0,
               "_MotionConnectBank": {
-                "": {
-                  "index": 0
-                }
+                "": {}
               },
               "_TimeLimit": 0.0,
               "_ArriveDist": 0.0,
               "_StandbySkipDist": 0.0,
               "_MotionConnectBankInEvent": {
-                "": {
-                  "index": 0
-                }
+                "": {}
               }
             }
           },
@@ -223,7 +208,6 @@
           "_MovieList": [
             {
               "app.user_data.TimelineEventDynamicResourceData.EventMovieData": {
-                "index": 12,
                 "_MovieID": "[21456] sht8500_00",
                 "_FlowID": 0,
                 "_IsAlwaysEnable": true,
@@ -240,7 +224,6 @@
       },
       "_SubCameraMainItem": {
         "app.user_data.TimelineEventDynamicResourceData.SubCameraItem": {
-          "index": 14,
           "_SubCameraInfo": []
         }
       }

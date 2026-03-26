@@ -1,10 +1,8 @@
 [
   {
     "app.user_data.BattleCutEffectData": {
-      "index": 8,
       "_HitInfo": {
         "app.user_data.BattleCutEffectData.cHitInfo": {
-          "index": 1,
           "_HitType": 0,
           "_HitParams": []
         }
@@ -12,13 +10,7 @@
       "_SimpleEffectInfos": [
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 3,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 2,
-                "value": "[3059152702] BAT_BOSS_7999"
-              }
-            },
+            "_ContainerID": "[3059152702] BAT_BOSS_7999",
             "_ElementID": 19,
             "_EffCreateType": 1,
             "_Frame": 0.0,
@@ -39,13 +31,7 @@
         },
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 5,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 4,
-                "value": "[3059152702] BAT_BOSS_7999"
-              }
-            },
+            "_ContainerID": "[3059152702] BAT_BOSS_7999",
             "_ElementID": 18,
             "_EffCreateType": 1,
             "_Frame": 0.0,
@@ -68,15 +54,9 @@
       "_SimpleEffectInfos_Next": [],
       "_ShellInfo": {
         "app.user_data.BattleCutEffectData.cShellInfo": {
-          "index": 7,
           "_IsActive": false,
           "_Frame": 0.0,
-          "_ContainerID": {
-            "app.ContainerID.ID_Fixed": {
-              "index": 6,
-              "value": "[1281779328] INVALID"
-            }
-          },
+          "_ContainerID": "[1281779328] INVALID",
           "_ElementID": 0,
           "_MoveType": 0,
           "_StartPos": [

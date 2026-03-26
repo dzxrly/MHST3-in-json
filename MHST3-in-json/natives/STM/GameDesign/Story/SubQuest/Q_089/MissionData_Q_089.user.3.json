@@ -1,11 +1,9 @@
 [
   {
     "app.user_data.AppMissionData": {
-      "index": 12,
       "_MissionID": 88,
       "_MissionPrefab": {
         "via.Prefab": {
-          "index": 1,
           "v0": {
             "raw": "00",
             "type": "Data"
@@ -15,47 +13,30 @@
       },
       "_StartCondition": {
         "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartMission>": {
-          "index": 10,
           "_JudgeType": 0,
           "_ConditionDataList": [
             {
               "ace.cMissionConditionData_StartMission": {
-                "index": 4,
                 "_Condition": {
                   "app.cMissionConditionMissionSuccessMS": {
-                    "index": 3,
-                    "_MainStoryMissionID": {
-                      "app.AppMissionDef.MISSION_ID_MAIN_STORY_Fixed": {
-                        "index": 2,
-                        "value": "[16] M_5A0"
-                      }
-                    }
+                    "_MainStoryMissionID": "[16] M_5A0"
                   }
                 }
               }
             },
             {
               "ace.cMissionConditionData_StartMission": {
-                "index": 7,
                 "_Condition": {
                   "app.cMissionConditionMissionSuccessSS": {
-                    "index": 6,
-                    "_SideStoryMissionID": {
-                      "app.AppMissionDef.MISSION_ID_SIDE_STORY_Fixed": {
-                        "index": 5,
-                        "value": "[16] S_044"
-                      }
-                    }
+                    "_SideStoryMissionID": "[16] S_044"
                   }
                 }
               }
             },
             {
               "ace.cMissionConditionData_StartMission": {
-                "index": 9,
                 "_Condition": {
                   "app.cMissionConditionUnlockSubCamp": {
-                    "index": 8,
                     "_AreaID": "[1500855936] B003"
                   }
                 }
@@ -66,7 +47,7 @@
       },
       "_ScenarioDataList": {
         "app.user_data.MissionScenarioDataList": {
-          "index": 11,
+          "ref_instance_id": 11,
           "path": "GameDesign/Story/SubQuest/Q_089/MissionScenarioDataList_Q_089.user"
         }
       }

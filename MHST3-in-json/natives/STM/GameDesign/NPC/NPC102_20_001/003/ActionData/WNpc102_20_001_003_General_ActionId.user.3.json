@@ -1,14 +1,11 @@
 [
   {
     "ace.user_data.ActionID": {
-      "index": 17,
       "_ActionIDArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
-          "index": 12,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cID": {
-                "index": 1,
                 "_Class": "cNone",
                 "_InstanceGuid": "a83c41b1-3b22-4ccc-92a2-c86672c01c02",
                 "_OverrideOwnerClass": false,
@@ -19,7 +16,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 2,
                 "_Class": "cIdle",
                 "_InstanceGuid": "f82f68fb-3013-05b4-17dd-a0f1b39c9472",
                 "_OverrideOwnerClass": true,
@@ -30,7 +26,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 3,
                 "_Class": "cJobIdle",
                 "_InstanceGuid": "552da664-a762-4045-aa22-739c15780c5e",
                 "_OverrideOwnerClass": false,
@@ -41,7 +36,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 4,
                 "_Class": "cRiderJobIdle",
                 "_InstanceGuid": "ff5acda9-4383-49ec-b4f0-8e2fcee1caec",
                 "_OverrideOwnerClass": false,
@@ -52,7 +46,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 5,
                 "_Class": "cWalk",
                 "_InstanceGuid": "40b35609-943a-0d56-10d7-1304d56c3749",
                 "_OverrideOwnerClass": true,
@@ -63,7 +56,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 6,
                 "_Class": "cTalk",
                 "_InstanceGuid": "7a472326-3223-46f7-9093-45281439f83b",
                 "_OverrideOwnerClass": false,
@@ -74,7 +66,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 7,
                 "_Class": "cTalkEnd",
                 "_InstanceGuid": "688678a9-4cf0-0e8e-36ce-2ae5f84a8e57",
                 "_OverrideOwnerClass": false,
@@ -85,7 +76,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 8,
                 "_Class": "cCompanionTalk",
                 "_InstanceGuid": "4425d726-6cad-4a9f-91ef-ecb6e50a4c91",
                 "_OverrideOwnerClass": false,
@@ -96,7 +86,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 9,
                 "_Class": "cCompanionTalkEnd",
                 "_InstanceGuid": "c49c7ca7-a668-0008-1bca-6bcce21ba475",
                 "_OverrideOwnerClass": false,
@@ -107,7 +96,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 10,
                 "_Class": "cTalkDemoJacked",
                 "_InstanceGuid": "650d8867-04e5-4ed7-96b6-8a146d9d8d53",
                 "_OverrideOwnerClass": false,
@@ -118,7 +106,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 11,
                 "_Class": "cMissionDemoJacked",
                 "_InstanceGuid": "6bfa2f84-051f-0941-186e-3211df0dcd42",
                 "_OverrideOwnerClass": false,
@@ -132,11 +119,9 @@
       },
       "_ExportSettingArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
-          "index": 14,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cExport": {
-                "index": 13,
                 "_Guid": "37bffcbc-75ea-43da-a702-3f335b48ce61",
                 "_ClassName": "WNpc102_20_001_003_ActionGeneral",
                 "_ActionCategory": 0
@@ -147,10 +132,9 @@
       },
       "_BaseActionID": {
         "ace.cActionIDHolder": {
-          "index": 16,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 15,
+              "ref_instance_id": 15,
               "path": "GameDesign/NPC/CommonData/ActionData/WorldNpcGeneral_ActionID.user"
             }
           },

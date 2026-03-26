@@ -1,652 +1,327 @@
 [
   {
     "app.NpcSetSwitchJudgeData": {
-      "index": 109,
       "_SwitchData": [
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 4,
             "_SwitchType": "[1588096384] M0_A",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 3,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 1,
-                    "value": "[3644576704] CHARA_MAKE"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 2,
-                    "value": "[1973888896] M_0A0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[3644576704] CHARA_MAKE",
+                "_MainStoryFlagEnd": "[1973888896] M_0A0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 8,
             "_SwitchType": "[4026927872] M1_A",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 7,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 5,
-                    "value": "[1973888896] M_0A0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 6,
-                    "value": "[4149045232] M_1A0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[1973888896] M_0A0",
+                "_MainStoryFlagEnd": "[4149045232] M_1A0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 12,
             "_SwitchType": "[2865601920] M1_B",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 11,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 9,
-                    "value": "[4149045232] M_1A0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 10,
-                    "value": "[602967104] M_1B0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[4149045232] M_1A0",
+                "_MainStoryFlagEnd": "[602967104] M_1B0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 16,
             "_SwitchType": "[3634920000] M1_C",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 15,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 13,
-                    "value": "[602967104] M_1B0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 14,
-                    "value": "[188853824] M_1C0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[602967104] M_1B0",
+                "_MainStoryFlagEnd": "[188853824] M_1C0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 20,
             "_SwitchType": "[2795099904] M1_D",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 19,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 17,
-                    "value": "[188853824] M_1C0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 18,
-                    "value": "[175454400] M_1D0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[188853824] M_1C0",
+                "_MainStoryFlagEnd": "[175454400] M_1D0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 24,
             "_SwitchType": "[2659942912] M1_E",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 23,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 21,
-                    "value": "[175454400] M_1D0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 22,
-                    "value": "[3975364192] M_1E0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[175454400] M_1D0",
+                "_MainStoryFlagEnd": "[3975364192] M_1E0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 28,
             "_SwitchType": "[2967817344] M1_F",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 27,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 25,
-                    "value": "[3975364192] M_1E0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 26,
-                    "value": "[945192320] M_1F0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[3975364192] M_1E0",
+                "_MainStoryFlagEnd": "[945192320] M_1F0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 32,
             "_SwitchType": "[1680254720] M2_A",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 31,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 29,
-                    "value": "[945192320] M_1F0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 30,
-                    "value": "[791401664] M_2A0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[945192320] M_1F0",
+                "_MainStoryFlagEnd": "[791401664] M_2A0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 36,
             "_SwitchType": "[4274165624] M2_B_1",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 35,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 33,
-                    "value": "[791401664] M_2A0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 34,
-                    "value": "[4210385232] M_2B0_8"
-                  }
-                }
+                "_MainStoryFlagBegin": "[791401664] M_2A0",
+                "_MainStoryFlagEnd": "[4210385232] M_2B0_8"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 40,
             "_SwitchType": "[132441144] M2_B_2",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 39,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 37,
-                    "value": "[4210385232] M_2B0_8"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 38,
-                    "value": "[48180124] M_2B0_9"
-                  }
-                }
+                "_MainStoryFlagBegin": "[4210385232] M_2B0_8",
+                "_MainStoryFlagEnd": "[48180124] M_2B0_9"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 44,
             "_SwitchType": "[815304128] M2_B_3",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 43,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 41,
-                    "value": "[48180124] M_2B0_9"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 42,
-                    "value": "[2131103744] M_2B0_10"
-                  }
-                }
+                "_MainStoryFlagBegin": "[48180124] M_2B0_9",
+                "_MainStoryFlagEnd": "[2131103744] M_2B0_10"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 48,
             "_SwitchType": "[2631099264] M2_B_4",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 47,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 45,
-                    "value": "[2131103744] M_2B0_10"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 46,
-                    "value": "[2383144960] M_2B0_11"
-                  }
-                }
+                "_MainStoryFlagBegin": "[2131103744] M_2B0_10",
+                "_MainStoryFlagEnd": "[2383144960] M_2B0_11"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 52,
             "_SwitchType": "[3411326528] M2_B_5",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 51,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 49,
-                    "value": "[2383144960] M_2B0_11"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 50,
-                    "value": "[3076849920] M_2B0_12"
-                  }
-                }
+                "_MainStoryFlagBegin": "[2383144960] M_2B0_11",
+                "_MainStoryFlagEnd": "[3076849920] M_2B0_12"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 56,
             "_SwitchType": "[4064670736] M2_B_6",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 55,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 53,
-                    "value": "[3076849920] M_2B0_12"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 54,
-                    "value": "[438945600] M_2B0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[3076849920] M_2B0_12",
+                "_MainStoryFlagEnd": "[438945600] M_2B0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 60,
             "_SwitchType": "[2409868800] M2_C",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 59,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 57,
-                    "value": "[438945600] M_2B0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 58,
-                    "value": "[3536347904] M_2C0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[438945600] M_2B0",
+                "_MainStoryFlagEnd": "[3536347904] M_2C0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 64,
             "_SwitchType": "[269968384] M3_A",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 63,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 61,
-                    "value": "[3536347904] M_2C0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 62,
-                    "value": "[371289856] M_3A0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[3536347904] M_2C0",
+                "_MainStoryFlagEnd": "[371289856] M_3A0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 68,
             "_SwitchType": "[2322588928] M3_B",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 67,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 65,
-                    "value": "[371289856] M_3A0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 66,
-                    "value": "[782723328] M_3B0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[371289856] M_3A0",
+                "_MainStoryFlagEnd": "[782723328] M_3B0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 72,
             "_SwitchType": "[1622156672] M3_C_1",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 71,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 69,
-                    "value": "[782723328] M_3B0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 70,
-                    "value": "[25339] M_3C0_22"
-                  }
-                }
+                "_MainStoryFlagBegin": "[782723328] M_3B0",
+                "_MainStoryFlagEnd": "[25339] M_3C0_22"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 76,
             "_SwitchType": "[2536655744] M3_C_2",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 75,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 73,
-                    "value": "[25339] M_3C0_22"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 74,
-                    "value": "[23769] M_3C0_23"
-                  }
-                }
+                "_MainStoryFlagBegin": "[25339] M_3C0_22",
+                "_MainStoryFlagEnd": "[23769] M_3C0_23"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 80,
             "_SwitchType": "[1278400000] M3_C_3",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 79,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 77,
-                    "value": "[23769] M_3C0_23"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 78,
-                    "value": "[25819] M_3C0_24"
-                  }
-                }
+                "_MainStoryFlagBegin": "[23769] M_3C0_23",
+                "_MainStoryFlagEnd": "[25819] M_3C0_24"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 84,
             "_SwitchType": "[3634134912] M3_C_4",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 83,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 81,
-                    "value": "[25819] M_3C0_24"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 82,
-                    "value": "[26690] M_3C0_25"
-                  }
-                }
+                "_MainStoryFlagBegin": "[25819] M_3C0_24",
+                "_MainStoryFlagEnd": "[26690] M_3C0_25"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 88,
             "_SwitchType": "[19060452] M3_C_5",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 87,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 85,
-                    "value": "[26690] M_3C0_25"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 86,
-                    "value": "[3686730048] M_3C0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[26690] M_3C0_25",
+                "_MainStoryFlagEnd": "[3686730048] M_3C0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 92,
             "_SwitchType": "[322865056] M4_A",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 91,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 89,
-                    "value": "[3686730048] M_3C0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 90,
-                    "value": "[341320864] M_4A0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[3686730048] M_3C0",
+                "_MainStoryFlagEnd": "[341320864] M_4A0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 96,
             "_SwitchType": "[532692608] M4_B",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 95,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 93,
-                    "value": "[341320864] M_4A0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 94,
-                    "value": "[1595099392] M_4B0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[341320864] M_4A0",
+                "_MainStoryFlagEnd": "[1595099392] M_4B0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 100,
             "_SwitchType": "[2465624704] M5_A_1",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 99,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 97,
-                    "value": "[1595099392] M_4B0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 98,
-                    "value": "[27308] M_5A0_42"
-                  }
-                }
+                "_MainStoryFlagBegin": "[1595099392] M_4B0",
+                "_MainStoryFlagEnd": "[27308] M_5A0_42"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 104,
             "_SwitchType": "[3417255488] M5_A_2",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 103,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 101,
-                    "value": "[27308] M_5A0_42"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 102,
-                    "value": "[867] M_5A0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[27308] M_5A0_42",
+                "_MainStoryFlagEnd": "[867] M_5A0"
               }
             }
           }
         },
         {
           "app.NpcSetSwitchJudgeData.cData": {
-            "index": 108,
             "_SwitchType": "[2355836800] M5_B",
             "_MainStoryTerm": {
               "app.cMainStoryTermSS": {
-                "index": 107,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 105,
-                    "value": "[867] M_5A0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 106,
-                    "value": "[14774] M_5B0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[867] M_5A0",
+                "_MainStoryFlagEnd": "[14774] M_5B0"
               }
             }
           }

@@ -1,11 +1,9 @@
 [
   {
     "ace.user_data.ActionParam": {
-      "index": 5,
       "_ActionClassList": [
         {
           "app.WorldPlayerNonRideVillageAction.cNone": {
-            "index": 1,
             "_ActionSafeLimitTime": -1.0,
             "_BaseActionFlag": 0,
             "_RiderOrderType": "[3149504640] NONE",
@@ -20,7 +18,6 @@
       "_ActionInfoList": [
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 2,
             "_Guid": "3a3ec9c7-006b-496e-85ce-76656ff8f619",
             "_ActionGuid": "0e71049a-6ca9-49a8-aa61-0a540f050c68",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -32,10 +29,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 4,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 3,
+              "ref_instance_id": 3,
               "path": "GameDesign/Player/ActionData/NonRideVillage/NonRideVillage_ActionID.user"
             }
           },
@@ -44,9 +40,7 @@
       },
       "_IsUseBranchedParam": false,
       "_BaseActionParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

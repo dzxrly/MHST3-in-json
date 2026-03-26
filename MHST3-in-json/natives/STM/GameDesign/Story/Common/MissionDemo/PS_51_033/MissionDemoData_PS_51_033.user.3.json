@@ -1,12 +1,10 @@
 [
   {
     "app.user_data.MissionDemoData": {
-      "index": 14,
       "_MissionDemoID": "[33] PS_51_033",
       "_IsCreateAnimal": false,
       "_PlayerSetting": {
         "app.user_data.MissionDemoData.cPlayerSetting": {
-          "index": 1,
           "_Position": [
             606.5714111328125,
             343.4418640136719,
@@ -26,7 +24,6 @@
       "_NpcSettings": [
         {
           "app.user_data.MissionDemoData.cNpcSetting": {
-            "index": 2,
             "_Position": [
               604.11572265625,
               343.43414306640625,
@@ -46,7 +43,6 @@
         },
         {
           "app.user_data.MissionDemoData.cNpcSetting": {
-            "index": 3,
             "_Position": [
               606.2999877929688,
               343.36492919921875,
@@ -68,7 +64,7 @@
       "_EnemySettings": [],
       "_CameraWorkData": {
         "ace.user_data.CameraWorkData": {
-          "index": 4,
+          "ref_instance_id": 4,
           "path": "GameDesign/Story/Common/MissionDemo/PS_51_033/MissionCameraWorkData_PS_51_033.user"
         }
       },
@@ -76,14 +72,11 @@
       "_ActionSettings": [
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 7,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 6,
                   "_Action": {
                     "app.cMissionDemoActionWaitTime": {
-                      "index": 5,
                       "_WaitSecound": 5.0
                     }
                   }
@@ -94,14 +87,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 10,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 9,
                   "_Action": {
                     "app.cMissionDemoActionTalkWindow": {
-                      "index": 8,
                       "_MessageTextId": "d808fc46-dc5b-400b-be04-fced4b39de09"
                     }
                   }
@@ -112,14 +102,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 13,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 12,
                   "_Action": {
                     "app.cMissionDemoActionWaitTime": {
-                      "index": 11,
                       "_WaitSecound": 0.5
                     }
                   }

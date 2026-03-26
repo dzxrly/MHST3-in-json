@@ -1,7 +1,6 @@
 [
   {
     "app.user_data.MonsterNpcBasicParam": {
-      "index": 2,
       "_SaddleBodyOffsetPos": [
         0.0,
         0.05000000074505806,
@@ -22,7 +21,7 @@
       "_IsUseDissovleCondition": true,
       "_DissolveCondition": {
         "app.user_data.AppCameraOverlapTransparencyCondition": {
-          "index": 1,
+          "ref_instance_id": 1,
           "path": "GameDesign/Camera/OverlapTransparency/CameraOverlapTransparencyCondition_NpcMonster_00.user"
         }
       },

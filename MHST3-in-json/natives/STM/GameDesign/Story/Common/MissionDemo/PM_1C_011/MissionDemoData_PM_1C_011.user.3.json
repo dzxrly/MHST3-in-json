@@ -1,12 +1,10 @@
 [
   {
     "app.user_data.MissionDemoData": {
-      "index": 7,
       "_MissionDemoID": "[11] PM_1C_011",
       "_IsCreateAnimal": false,
       "_PlayerSetting": {
         "app.user_data.MissionDemoData.cPlayerSetting": {
-          "index": 1,
           "_Position": [
             730.0840454101562,
             239.8000030517578,
@@ -26,7 +24,6 @@
       "_NpcSettings": [
         {
           "app.user_data.MissionDemoData.cNpcSetting": {
-            "index": 2,
             "_Position": [
               729.0,
               239.80055236816406,
@@ -48,7 +45,7 @@
       "_EnemySettings": [],
       "_CameraWorkData": {
         "ace.user_data.CameraWorkData": {
-          "index": 3,
+          "ref_instance_id": 3,
           "path": "GameDesign/Story/Common/MissionDemo/PM_1C_011/MissionCameraWorkData_PM_1C_011.user"
         }
       },
@@ -56,14 +53,11 @@
       "_ActionSettings": [
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 6,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 5,
                   "_Action": {
                     "app.cMissionDemoActionTalkWindow": {
-                      "index": 4,
                       "_MessageTextId": "a8153898-8feb-480d-a371-63f6a68174ae"
                     }
                   }

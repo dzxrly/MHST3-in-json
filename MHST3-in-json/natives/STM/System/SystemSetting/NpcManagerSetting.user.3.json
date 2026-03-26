@@ -1,34 +1,32 @@
 [
   {
     "app.NpcManagerSetting": {
-      "index": 6,
       "_SetJudgeData": {
         "app.NpcSetSwitchJudgeData": {
-          "index": 1,
+          "ref_instance_id": 1,
           "path": "GameDesign/NPC/CommonData/Data/NpcSetSwitchJudgeData.user"
         }
       },
       "_SideStorySetJudgeData": {
         "app.NpcSideStorySetJudgeData": {
-          "index": 2,
+          "ref_instance_id": 2,
           "path": "GameDesign/NPC/CommonData/Data/NpcSideStorySetJudgeData.user"
         }
       },
       "_WorldNpcAICommonParam": {
         "app.user_data.WorldNpcAICommonParam": {
-          "index": 3,
+          "ref_instance_id": 3,
           "path": "GameDesign/NPC/CommonData/Data/WorldNpcAICommonParam.user"
         }
       },
       "_IkJointBasicParam": {
         "app.user_data.NpcIkJointBasicParam": {
-          "index": 4,
+          "ref_instance_id": 4,
           "path": "GameDesign/NPC/CommonData/Data/NpcIkJointBasicParam.user"
         }
       },
       "_VillageRefTreePrefab": {
         "via.Prefab": {
-          "index": 5,
           "v0": {
             "raw": "01",
             "type": "Data"

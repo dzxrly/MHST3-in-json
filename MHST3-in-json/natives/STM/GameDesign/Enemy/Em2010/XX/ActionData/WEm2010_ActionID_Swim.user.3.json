@@ -1,14 +1,11 @@
 [
   {
     "ace.user_data.ActionID": {
-      "index": 17,
       "_ActionIDArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
-          "index": 12,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cID": {
-                "index": 1,
                 "_Class": "cNone",
                 "_InstanceGuid": "0e2269ec-8740-4143-a8d3-099bfb0cdf00",
                 "_OverrideOwnerClass": false,
@@ -19,7 +16,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 2,
                 "_Class": "cIdleDefaultSwim",
                 "_InstanceGuid": "69fb0b23-b7f5-4fa6-9c96-f5695937033d",
                 "_OverrideOwnerClass": false,
@@ -30,7 +26,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 3,
                 "_Class": "cIdleSwim",
                 "_InstanceGuid": "4882da4c-5818-08bd-31ab-ac9ffc042de4",
                 "_OverrideOwnerClass": false,
@@ -41,7 +36,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 4,
                 "_Class": "cMoveSwim",
                 "_InstanceGuid": "1e68c5c0-9cc4-46d4-aedc-ac3ed7281544",
                 "_OverrideOwnerClass": false,
@@ -52,7 +46,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 5,
                 "_Class": "cChaseSwim",
                 "_InstanceGuid": "3acf6546-f973-0426-1bed-7aec344e825b",
                 "_OverrideOwnerClass": false,
@@ -63,7 +56,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 6,
                 "_Class": "cThreatSwim",
                 "_InstanceGuid": "6069e3ff-3327-0049-173e-74b3df97d2b9",
                 "_OverrideOwnerClass": false,
@@ -74,7 +66,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 7,
                 "_Class": "cDamageMinSwim",
                 "_InstanceGuid": "19d331f7-02eb-4a73-a759-a43ab7dcc0de",
                 "_OverrideOwnerClass": false,
@@ -85,7 +76,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 8,
                 "_Class": "cBlowDamageSwim",
                 "_InstanceGuid": "dc8f1410-470b-4ee0-8453-34680dc85b87",
                 "_OverrideOwnerClass": false,
@@ -96,7 +86,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 9,
                 "_Class": "cDieSwim",
                 "_InstanceGuid": "1d5ad97a-d04e-0d2c-1b79-2939c7c0eab4",
                 "_OverrideOwnerClass": false,
@@ -107,7 +96,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 10,
                 "_Class": "cDeadSwim",
                 "_InstanceGuid": "dc1767cb-206c-4ffd-98f2-0387391c1d78",
                 "_OverrideOwnerClass": false,
@@ -118,7 +106,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 11,
                 "_Class": "cViewPointSwim",
                 "_InstanceGuid": "4a4dfdb2-8354-05c8-3610-3b0ec2eaf71f",
                 "_OverrideOwnerClass": false,
@@ -132,11 +119,9 @@
       },
       "_ExportSettingArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
-          "index": 14,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cExport": {
-                "index": 13,
                 "_Guid": "f3f22fa1-26ba-4226-8668-4695a29a5a15",
                 "_ClassName": "WEm2010_Action_Swim",
                 "_ActionCategory": 1
@@ -147,10 +132,9 @@
       },
       "_BaseActionID": {
         "ace.cActionIDHolder": {
-          "index": 16,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 15,
+              "ref_instance_id": 15,
               "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Swim.user"
             }
           },

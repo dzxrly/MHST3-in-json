@@ -1,12 +1,10 @@
 [
   {
     "app.user_data.MissionDemoData": {
-      "index": 22,
       "_MissionDemoID": "[52] PM_2B_052",
       "_IsCreateAnimal": false,
       "_PlayerSetting": {
         "app.user_data.MissionDemoData.cPlayerSetting": {
-          "index": 1,
           "_Position": [
             199.00498962402344,
             178.04991149902344,
@@ -26,7 +24,6 @@
       "_NpcSettings": [
         {
           "app.user_data.MissionDemoData.cNpcSetting": {
-            "index": 2,
             "_Position": [
               198.37379455566406,
               178.11276245117188,
@@ -46,7 +43,6 @@
         },
         {
           "app.user_data.MissionDemoData.cNpcSetting": {
-            "index": 3,
             "_Position": [
               198.33563232421875,
               178.04388427734375,
@@ -66,7 +62,6 @@
         },
         {
           "app.user_data.MissionDemoData.cNpcSetting": {
-            "index": 4,
             "_Position": [
               198.67469787597656,
               178.1223907470703,
@@ -88,7 +83,6 @@
       "_EnemySettings": [
         {
           "app.user_data.MissionDemoData.cEnemySetting": {
-            "index": 5,
             "_Position": [
               231.56350708007812,
               162.23683166503906,
@@ -108,7 +102,7 @@
       ],
       "_CameraWorkData": {
         "ace.user_data.CameraWorkData": {
-          "index": 6,
+          "ref_instance_id": 6,
           "path": "GameDesign/Story/Common/MissionDemo/PM_2B_052/MissionCameraWorkData_PM_2B_052.user"
         }
       },
@@ -116,14 +110,11 @@
       "_ActionSettings": [
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 9,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 8,
                   "_Action": {
                     "app.cMissionDemoActionWaitTime": {
-                      "index": 7,
                       "_WaitSecound": 0.5
                     }
                   }
@@ -134,14 +125,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 12,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 11,
                   "_Action": {
                     "app.cMissionDemoActionTalkWindow": {
-                      "index": 10,
                       "_MessageTextId": "965f9719-2e98-434f-aab5-9c959f414635"
                     }
                   }
@@ -152,14 +140,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 15,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 14,
                   "_Action": {
                     "app.cMissionDemoActionCameraWork": {
-                      "index": 13,
                       "_CameraGroupGuid": "d618ff9e-f5ff-4204-941d-b31e0f13529b"
                     }
                   }
@@ -170,14 +155,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 18,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 17,
                   "_Action": {
                     "app.cMissionDemoActionTalkWindow": {
-                      "index": 16,
                       "_MessageTextId": "965f59b7-fb03-4e04-b653-f500f11c8ad2"
                     }
                   }
@@ -188,14 +170,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 21,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 20,
                   "_Action": {
                     "app.cMissionDemoActionWaitTime": {
-                      "index": 19,
                       "_WaitSecound": 0.5
                     }
                   }

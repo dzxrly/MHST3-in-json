@@ -1,14 +1,11 @@
 [
   {
     "ace.user_data.ActionID": {
-      "index": 19,
       "_ActionIDArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
-          "index": 14,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cID": {
-                "index": 1,
                 "_Class": "cNone",
                 "_InstanceGuid": "71a351a6-53dc-40df-939e-b84b3713bbc1",
                 "_OverrideOwnerClass": false,
@@ -19,7 +16,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 2,
                 "_Class": "cStepJumpUp",
                 "_InstanceGuid": "7017feaf-107f-0b19-1ce5-eeed7aee0a1d",
                 "_OverrideOwnerClass": false,
@@ -30,7 +26,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 3,
                 "_Class": "cStepJumpOff",
                 "_InstanceGuid": "06552d22-b65c-4978-a5af-420e51ff7916",
                 "_OverrideOwnerClass": false,
@@ -41,7 +36,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 4,
                 "_Class": "cMoveJump",
                 "_InstanceGuid": "174f483c-fe0e-055c-099c-1f72ba0a8e02",
                 "_OverrideOwnerClass": true,
@@ -52,7 +46,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 5,
                 "_Class": "cTargetMoveJump",
                 "_InstanceGuid": "63030fa0-1390-49fc-a966-b23cedaa5ea3",
                 "_OverrideOwnerClass": false,
@@ -63,7 +56,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 6,
                 "_Class": "cStandJump",
                 "_InstanceGuid": "69d98bcd-04d8-0a0e-3ba3-824fb53b8eef",
                 "_OverrideOwnerClass": false,
@@ -74,7 +66,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 7,
                 "_Class": "cStepUpFall",
                 "_InstanceGuid": "179d6c3c-9495-45c4-a489-0b1465248041",
                 "_OverrideOwnerClass": false,
@@ -85,7 +76,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 8,
                 "_Class": "cStepOffFall",
                 "_InstanceGuid": "f9ec7fb6-12f7-0bc4-10e8-216ab5ed90b5",
                 "_OverrideOwnerClass": false,
@@ -96,7 +86,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 9,
                 "_Class": "cMoveFall",
                 "_InstanceGuid": "35605f74-1106-46f4-aa5b-220d09caceae",
                 "_OverrideOwnerClass": true,
@@ -107,7 +96,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 10,
                 "_Class": "cStandFall",
                 "_InstanceGuid": "f6893d63-6686-0f43-1fa6-6f569135f910",
                 "_OverrideOwnerClass": false,
@@ -118,7 +106,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 11,
                 "_Class": "cTargetMoveFall",
                 "_InstanceGuid": "4e70cf79-aa19-4c09-8366-36f4e2acb24a",
                 "_OverrideOwnerClass": false,
@@ -129,7 +116,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 12,
                 "_Class": "cStepUpTargetJump",
                 "_InstanceGuid": "b3234e25-4ef5-0f9e-0917-e9b84998b9f4",
                 "_OverrideOwnerClass": false,
@@ -140,7 +126,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 13,
                 "_Class": "cTargetMoveJump_GimmickHit",
                 "_InstanceGuid": "1b739580-b746-4af1-9293-7f1e243fb854",
                 "_OverrideOwnerClass": false,
@@ -154,11 +139,9 @@
       },
       "_ExportSettingArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
-          "index": 16,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cExport": {
-                "index": 15,
                 "_Guid": "060769a2-d2e9-4445-95fa-546a680862ea",
                 "_ClassName": "WOt0002_00_15_Action_Jump",
                 "_ActionCategory": 1
@@ -169,10 +152,9 @@
       },
       "_BaseActionID": {
         "ace.cActionIDHolder": {
-          "index": 18,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 17,
+              "ref_instance_id": 17,
               "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Jump.user"
             }
           },

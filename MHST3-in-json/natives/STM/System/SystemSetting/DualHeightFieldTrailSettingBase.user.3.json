@@ -1,35 +1,30 @@
 [
   {
     "ace.dual_height_field_trail.DualHeightFieldTrailSettingBase": {
-      "index": 5,
       "_SideLength": 30.0,
       "_DampingSec": 4.0,
       "_RTTWriteMaterial": "Ace/Data/SpeedTree/DualHeightFieldTrail/DualHeightFieldTrailRTTWriter.mdf2",
       "_UseCustomMaterial": false,
       "_MaterialParam": {
         "ace.dual_height_field_trail.cMatParam": {
-          "index": 1,
           "_Index": 0,
           "_Name": "lambert1"
         }
       },
       "_PrevMapParam": {
         "ace.dual_height_field_trail.cMatParam": {
-          "index": 2,
           "_Index": 0,
           "_Name": "PrevCollisionMap"
         }
       },
       "_CollsionParam": {
         "ace.dual_height_field_trail.cMatParam": {
-          "index": 3,
           "_Index": 1,
           "_Name": "PushCollision"
         }
       },
       "_RenderContextParam": {
         "ace.dual_height_field_trail.cMatParam": {
-          "index": 4,
           "_Index": 2,
           "_Name": "RenderContext"
         }

@@ -1,13 +1,11 @@
 [
   {
     "ace.btable.user_data.BTableOrderBank": {
-      "index": 26,
       "_OperatorWorkFactory": {
         "ace.cActionIDHolder": {
-          "index": 14,
           "_ActionID": {
             "Ref": {
-              "index": 1650545730,
+              "ref_instance_id": 1650545730,
               "missing": true
             }
           },
@@ -16,7 +14,7 @@
       },
       "_CommandWorkFactory": {
         "ace.user_data.ActionID": {
-          "index": 16,
+          "ref_instance_id": 16,
           "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Swim.user"
         }
       },
@@ -25,16 +23,15 @@
       "_CommandArgumentSettingList": [],
       "_VariableAsset": {
         "Ref": {
-          "index": -1043364282,
+          "ref_instance_id": -1043364282,
           "missing": true
         }
       },
       "_VariableListAsset": {
         "ace.cActionIDHolder": {
-          "index": 17,
           "_ActionID": {
             "ace.btable.user_data.BTableOrderList": {
-              "index": 5,
+              "ref_instance_id": 5,
               "path": "GameDesign/AI/World/BTable/Common/World_CommonBTableOrderList.user"
             }
           },

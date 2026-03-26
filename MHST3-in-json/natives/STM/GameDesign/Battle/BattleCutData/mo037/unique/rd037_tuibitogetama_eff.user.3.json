@@ -1,57 +1,31 @@
 [
   {
     "app.user_data.BattleCutEffectData": {
-      "index": 14,
       "_HitInfo": {
         "app.user_data.BattleCutEffectData.cHitInfo": {
-          "index": 9,
           "_HitType": 1,
           "_HitParams": [
             {
               "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
-                "index": 2,
-                "_EffHitInfoType": {
-                  "app.BattleDef.EFF_HIT_INFO_TYPE_Fixed": {
-                    "index": 1,
-                    "value": "[1476722048] BTH_0370"
-                  }
-                },
+                "_EffHitInfoType": "[1476722048] BTH_0370",
                 "_Frame": 0.0
               }
             },
             {
               "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
-                "index": 4,
-                "_EffHitInfoType": {
-                  "app.BattleDef.EFF_HIT_INFO_TYPE_Fixed": {
-                    "index": 3,
-                    "value": "[1476722048] BTH_0370"
-                  }
-                },
+                "_EffHitInfoType": "[1476722048] BTH_0370",
                 "_Frame": 5.0
               }
             },
             {
               "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
-                "index": 6,
-                "_EffHitInfoType": {
-                  "app.BattleDef.EFF_HIT_INFO_TYPE_Fixed": {
-                    "index": 5,
-                    "value": "[1476722048] BTH_0370"
-                  }
-                },
+                "_EffHitInfoType": "[1476722048] BTH_0370",
                 "_Frame": 10.0
               }
             },
             {
               "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
-                "index": 8,
-                "_EffHitInfoType": {
-                  "app.BattleDef.EFF_HIT_INFO_TYPE_Fixed": {
-                    "index": 7,
-                    "value": "[2976001152] BTH_0270"
-                  }
-                },
+                "_EffHitInfoType": "[2976001152] BTH_0270",
                 "_Frame": 15.0
               }
             }
@@ -62,13 +36,7 @@
       "_SimpleEffectInfos_Next": [
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 11,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 10,
-                "value": "[3465806252] BAT_HITADD_SPINE"
-              }
-            },
+            "_ContainerID": "[3465806252] BAT_HITADD_SPINE",
             "_ElementID": 1,
             "_EffCreateType": 0,
             "_Frame": 0.0,
@@ -90,15 +58,9 @@
       ],
       "_ShellInfo": {
         "app.user_data.BattleCutEffectData.cShellInfo": {
-          "index": 13,
           "_IsActive": false,
           "_Frame": 0.0,
-          "_ContainerID": {
-            "app.ContainerID.ID_Fixed": {
-              "index": 12,
-              "value": "[1281779328] INVALID"
-            }
-          },
+          "_ContainerID": "[1281779328] INVALID",
           "_ElementID": 0,
           "_MoveType": 0,
           "_StartPos": [

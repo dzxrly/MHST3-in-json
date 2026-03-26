@@ -1,10 +1,8 @@
 [
   {
     "app.user_data.GUIGlobalParamData": {
-      "index": 165,
       "PadParam": {
         "app.user_data.GUIGlobalParamData.cPadControlParam": {
-          "index": 1,
           "_StickScrollBarType": 2,
           "_StickScrollBarSpeed": 0.5,
           "_StickButtonThreshold": 0.5,
@@ -16,7 +14,6 @@
       },
       "MouseParam": {
         "app.user_data.GUIGlobalParamData.cMouseControlParam": {
-          "index": 2,
           "_MapDragSensitivity": 0.05000000074505806,
           "_MapDragRawThreshold": 0.005499999970197678,
           "_MapDragMoveMin": 6.0
@@ -24,7 +21,6 @@
       },
       "KeyboardParam": {
         "app.user_data.GUIGlobalParamData.cKeyboardControlParam": {
-          "index": 3,
           "_MkbRepeatTime": 100.0,
           "_MkbRepeatTimeForSlider": 30.0
         }
@@ -50,7 +46,6 @@
       "InfoLogDispTime": 0.800000011920929,
       "_GUI030314Param": {
         "app.GUI030314Param": {
-          "index": 4,
           "_InfoLogDispMaxTime": 4.0,
           "_InfoLogDispMinTime": 2.0
         }
@@ -68,7 +63,6 @@
       ],
       "_guideData": {
         "app.cGUIGuideIconData": {
-          "index": 5,
           "_sizeMinMaxDist": {
             "raw": "64000000f4010000",
             "type": "Int2"
@@ -86,7 +80,6 @@
       },
       "_viewModeParam": {
         "app.GUI030401.ViewPointParameter": {
-          "index": 6,
           "_viewModeCenterLength": 40.0,
           "_TutorialviewModeCenterLength": 400.0,
           "_viewModeRayLength": 2500.0,
@@ -114,7 +107,6 @@
       "_RegionNameDispTime": 2.5,
       "BattleLineParamData": {
         "app.cBattleLineHelper.cBattleLineParamData": {
-          "index": 7,
           "BattleLineOffsetY": 0.0,
           "OneWayLineOffset": 0.0,
           "OneWayLineLength": 0.0,
@@ -135,15 +127,12 @@
       "STRUCT__predatorEffectWaitTime_Item2": 1.0,
       "_AllyGaugeGUILayoutData": {
         "app.cAllyGaugeGUILayoutDataContainer": {
-          "index": 13,
           "_LayoutDataList": [
             {
               "app.cAllyGaugeGUILayoutDataContainer.cLayoutData": {
-                "index": 9,
                 "_DataList": [
                   {
                     "app.cAllyGaugeGUILayoutDataContainer.cData": {
-                      "index": 8,
                       "_PlGaugeOffset": 170.0,
                       "_OtGaugeOffset": -339.0,
                       "_GaugePos": 960.0,
@@ -155,11 +144,9 @@
             },
             {
               "app.cAllyGaugeGUILayoutDataContainer.cLayoutData": {
-                "index": 12,
                 "_DataList": [
                   {
                     "app.cAllyGaugeGUILayoutDataContainer.cData": {
-                      "index": 10,
                       "_PlGaugeOffset": 170.0,
                       "_OtGaugeOffset": -339.0,
                       "_GaugePos": 480.0,
@@ -168,7 +155,6 @@
                   },
                   {
                     "app.cAllyGaugeGUILayoutDataContainer.cData": {
-                      "index": 11,
                       "_PlGaugeOffset": -339.0,
                       "_OtGaugeOffset": 170.0,
                       "_GaugePos": 1440.0,
@@ -183,11 +169,9 @@
       },
       "_EmGaugeGUILayoutData": {
         "app.cEmGaugeGUILayoutDataConatainer": {
-          "index": 26,
           "_DefaultHeightPos": 60.0,
           "_OffsetData_BossBattle_L": {
             "app.cEmGaugeGUILayoutDataConatainer.cOffsetData": {
-              "index": 14,
               "_Offset": [
                 -210.0,
                 10.0,
@@ -198,7 +182,6 @@
           },
           "_OffsetData_BossBattle_M": {
             "app.cEmGaugeGUILayoutDataConatainer.cOffsetData": {
-              "index": 15,
               "_Offset": [
                 -130.0,
                 10.0,
@@ -209,7 +192,6 @@
           },
           "_OffsetData_BossBattle_S": {
             "app.cEmGaugeGUILayoutDataConatainer.cOffsetData": {
-              "index": 16,
               "_Offset": [
                 0.0,
                 10.0,
@@ -221,11 +203,9 @@
           "_LayoutDataList": [
             {
               "app.cEmGaugeGUILayoutDataConatainer.cLayoutData": {
-                "index": 18,
                 "_DataList": [
                   {
                     "app.cEmGaugeGUILayoutDataConatainer.cData": {
-                      "index": 17,
                       "_GaugePos": 863.0
                     }
                   }
@@ -234,17 +214,14 @@
             },
             {
               "app.cEmGaugeGUILayoutDataConatainer.cLayoutData": {
-                "index": 21,
                 "_DataList": [
                   {
                     "app.cEmGaugeGUILayoutDataConatainer.cData": {
-                      "index": 19,
                       "_GaugePos": 450.0
                     }
                   },
                   {
                     "app.cEmGaugeGUILayoutDataConatainer.cData": {
-                      "index": 20,
                       "_GaugePos": 1250.0
                     }
                   }
@@ -253,23 +230,19 @@
             },
             {
               "app.cEmGaugeGUILayoutDataConatainer.cLayoutData": {
-                "index": 25,
                 "_DataList": [
                   {
                     "app.cEmGaugeGUILayoutDataConatainer.cData": {
-                      "index": 22,
                       "_GaugePos": 300.0
                     }
                   },
                   {
                     "app.cEmGaugeGUILayoutDataConatainer.cData": {
-                      "index": 23,
                       "_GaugePos": 863.0
                     }
                   },
                   {
                     "app.cEmGaugeGUILayoutDataConatainer.cData": {
-                      "index": 24,
                       "_GaugePos": 1416.0
                     }
                   }
@@ -303,21 +276,19 @@
       "_LastCenterDamageDispTime": 0.20000000298023224,
       "_TargetCursorParam": {
         "app.cGUI031700GlobalParam": {
-          "index": 27,
           "_CursorPosHeightRate": 0.5,
           "_MaxHeight": 370.0
         }
       },
       "_HitMarkParam": {
         "app.cGUI032000GlobalParam": {
-          "index": 28,
           "_HitMarkHeightRate": 0.800000011920929
         }
       },
       "_StatusIconRotationWaitTime": 1.0,
       "_BgTypeToBgNum": {
         "app.user_data.BgTypeToBgNum": {
-          "index": 29,
+          "ref_instance_id": 29,
           "path": "GameDesign/GUI/Battle/UserData/BgTypeToBgNum.user"
         }
       },
@@ -329,7 +300,6 @@
       ],
       "_itemPorchLayout": {
         "app.GUI040600.ItemGridLayout": {
-          "index": 30,
           "_defSize": {
             "raw": "000048430000f042",
             "type": "Size"
@@ -344,7 +314,6 @@
       },
       "_FormidableEnemyIconParam": {
         "app.GUI031600.FormidableEnemyIconParam": {
-          "index": 36,
           "_YellowIconLv": 5,
           "_RedIconLv": 10,
           "_Distance": 90.0,
@@ -361,7 +330,6 @@
           "_DataList": [
             {
               "app.GUI031600.FormidableEnemyIconParam.cData": {
-                "index": 31,
                 "_EmSize": "[2435869952] S",
                 "_Offset": [
                   0.0,
@@ -373,7 +341,6 @@
             },
             {
               "app.GUI031600.FormidableEnemyIconParam.cData": {
-                "index": 32,
                 "_EmSize": "[1076949248] M",
                 "_Offset": [
                   0.0,
@@ -385,7 +352,6 @@
             },
             {
               "app.GUI031600.FormidableEnemyIconParam.cData": {
-                "index": 33,
                 "_EmSize": "[2544572928] M_TALL",
                 "_Offset": [
                   0.0,
@@ -397,7 +363,6 @@
             },
             {
               "app.GUI031600.FormidableEnemyIconParam.cData": {
-                "index": 34,
                 "_EmSize": "[2530798208] L",
                 "_Offset": [
                   0.0,
@@ -409,7 +374,6 @@
             },
             {
               "app.GUI031600.FormidableEnemyIconParam.cData": {
-                "index": 35,
                 "_EmSize": "[1420365184] L_TALL",
                 "_Offset": [
                   0.0,
@@ -426,7 +390,6 @@
       "_SideStoryCompleteTime": 4.0,
       "_PoogieRaceGUIParam": {
         "app.cPoogieRaceGUIParam": {
-          "index": 37,
           "CountDownWaitFrame": 190,
           "ReverseMessageDispTime": 2.0,
           "WinMessageDispTime": 2.0,
@@ -448,7 +411,6 @@
       },
       "_FieldMinimapParam": {
         "app.FieldMinimapParam": {
-          "index": 38,
           "_ZoomRatio": 8.0,
           "_ZoomUpRatio": 20.0,
           "_DungeonZoomRatio": 7.0,
@@ -471,7 +433,6 @@
       },
       "_MenumapParam": {
         "app.MenuMapParam": {
-          "index": 42,
           "_PlIconSize": 40,
           "_IconSize": 45,
           "_MaxTexSize": {
@@ -526,7 +487,6 @@
           "_PinSetDialogDispSec": 1.0,
           "_PadIconAttractParam": {
             "app.MenuMapParam.IconAttractParam": {
-              "index": 39,
               "_AttractRadius": 30.0,
               "_AttractSpeed": 450.0,
               "_AttractCoef": 30.0
@@ -534,7 +494,6 @@
           },
           "_KeyboardIconAttractParam": {
             "app.MenuMapParam.IconAttractParam": {
-              "index": 40,
               "_AttractRadius": 30.0,
               "_AttractSpeed": 450.0,
               "_AttractCoef": 30.0
@@ -542,7 +501,6 @@
           },
           "_MouseIconAttractParam": {
             "app.MenuMapParam.IconAttractParam": {
-              "index": 41,
               "_AttractRadius": 30.0,
               "_AttractSpeed": 450.0,
               "_AttractCoef": 30.0
@@ -552,11 +510,9 @@
       },
       "_RegionMapParam": {
         "app.RegionMapParam": {
-          "index": 61,
           "_OrderedDataList": [
             {
               "app.RegionMapParam.cData": {
-                "index": 43,
                 "_IsMainStage": true,
                 "_IsOtherArea": false,
                 "_StageId": "[1769129856] st100",
@@ -565,7 +521,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 44,
                 "_IsMainStage": true,
                 "_IsOtherArea": false,
                 "_StageId": "[884165440] st200",
@@ -574,7 +529,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 45,
                 "_IsMainStage": true,
                 "_IsOtherArea": false,
                 "_StageId": "[1834912896] st300",
@@ -583,7 +537,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 46,
                 "_IsMainStage": true,
                 "_IsOtherArea": false,
                 "_StageId": "[1491992832] st400",
@@ -592,7 +545,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 47,
                 "_IsMainStage": false,
                 "_IsOtherArea": false,
                 "_StageId": "[1866488832] dg100",
@@ -601,7 +553,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 48,
                 "_IsMainStage": false,
                 "_IsOtherArea": false,
                 "_StageId": "[2306030976] dg200",
@@ -610,7 +561,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 49,
                 "_IsMainStage": false,
                 "_IsOtherArea": false,
                 "_StageId": "[537209216] dg201",
@@ -619,7 +569,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 50,
                 "_IsMainStage": false,
                 "_IsOtherArea": false,
                 "_StageId": "[1139618688] dg300",
@@ -628,7 +577,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 51,
                 "_IsMainStage": false,
                 "_IsOtherArea": false,
                 "_StageId": "[569959616] dg301",
@@ -637,7 +585,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 52,
                 "_IsMainStage": false,
                 "_IsOtherArea": false,
                 "_StageId": "[2179788416] dg999",
@@ -646,7 +593,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 53,
                 "_IsMainStage": false,
                 "_IsOtherArea": false,
                 "_StageId": "[4187881024] sd100",
@@ -655,7 +601,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 54,
                 "_IsMainStage": false,
                 "_IsOtherArea": false,
                 "_StageId": "[1600700416] sd101",
@@ -664,7 +609,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 55,
                 "_IsMainStage": false,
                 "_IsOtherArea": false,
                 "_StageId": "[262072832] sd102",
@@ -673,7 +617,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 56,
                 "_IsMainStage": false,
                 "_IsOtherArea": false,
                 "_StageId": "[1307689216] sd103",
@@ -682,7 +625,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 57,
                 "_IsMainStage": false,
                 "_IsOtherArea": true,
                 "_StageId": "[336401280] bc110",
@@ -691,7 +633,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 58,
                 "_IsMainStage": false,
                 "_IsOtherArea": true,
                 "_StageId": "[1431998336] bc210",
@@ -700,7 +641,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 59,
                 "_IsMainStage": false,
                 "_IsOtherArea": true,
                 "_StageId": "[3420740352] bc310",
@@ -709,7 +649,6 @@
             },
             {
               "app.RegionMapParam.cData": {
-                "index": 60,
                 "_IsMainStage": false,
                 "_IsOtherArea": true,
                 "_StageId": "[1025871552] bc320",
@@ -721,32 +660,27 @@
       },
       "_WorldMapParam": {
         "app.WorldMapParam": {
-          "index": 66,
           "_RegionData": [
             {
               "app.WorldMapParam.cRegionData": {
-                "index": 62,
                 "_Id": "[2934925312] R0",
                 "_IconUVSeqNo": 33
               }
             },
             {
               "app.WorldMapParam.cRegionData": {
-                "index": 63,
                 "_Id": "[1061872000] R1",
                 "_IconUVSeqNo": 34
               }
             },
             {
               "app.WorldMapParam.cRegionData": {
-                "index": 64,
                 "_Id": "[1928367104] R2",
                 "_IconUVSeqNo": 35
               }
             },
             {
               "app.WorldMapParam.cRegionData": {
-                "index": 65,
                 "_Id": "[2780639744] R3",
                 "_IconUVSeqNo": 36
               }
@@ -756,11 +690,9 @@
       },
       "_MenuMapIconFilterData": {
         "app.MapIconFilterData": {
-          "index": 124,
           "_DataList": [
             {
               "app.MapIconFilterData.cData": {
-                "index": 67,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 65,
@@ -770,7 +702,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 68,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 13,
@@ -780,7 +711,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 69,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 12,
@@ -790,7 +720,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 70,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 10,
@@ -800,7 +729,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 71,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 11,
@@ -810,7 +738,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 72,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 9,
@@ -820,7 +747,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 73,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 71,
@@ -830,7 +756,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 74,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 38,
@@ -840,7 +765,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 75,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 74,
@@ -850,7 +774,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 76,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 41,
@@ -860,7 +783,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 77,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 42,
@@ -870,7 +792,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 78,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 43,
@@ -880,7 +801,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 79,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 44,
@@ -890,7 +810,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 80,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 48,
@@ -900,7 +819,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 81,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 50,
@@ -910,7 +828,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 82,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 49,
@@ -920,7 +837,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 83,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 14,
@@ -930,7 +846,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 84,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 17,
@@ -940,7 +855,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 85,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 15,
@@ -950,7 +864,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 86,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 16,
@@ -960,7 +873,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 87,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 45,
@@ -970,7 +882,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 88,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 46,
@@ -980,7 +891,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 89,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 47,
@@ -990,7 +900,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 90,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 1,
@@ -1000,7 +909,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 91,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 2,
@@ -1010,7 +918,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 92,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 3,
@@ -1020,7 +927,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 93,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 4,
@@ -1030,7 +936,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 94,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 5,
@@ -1040,7 +945,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 95,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 6,
@@ -1050,7 +954,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 96,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 18,
@@ -1060,7 +963,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 97,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 20,
@@ -1070,7 +972,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 98,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 22,
@@ -1080,7 +981,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 99,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 24,
@@ -1090,7 +990,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 100,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 26,
@@ -1100,7 +999,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 101,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 28,
@@ -1110,7 +1008,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 102,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 30,
@@ -1120,7 +1017,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 103,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 52,
@@ -1130,7 +1026,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 104,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 32,
@@ -1140,7 +1035,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 105,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 59,
@@ -1150,7 +1044,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 106,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 34,
@@ -1160,7 +1053,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 107,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 36,
@@ -1170,7 +1062,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 108,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 54,
@@ -1180,7 +1071,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 109,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 55,
@@ -1190,7 +1080,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 110,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 56,
@@ -1200,7 +1089,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 111,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": true,
                 "_IconType": 58,
@@ -1210,7 +1098,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 112,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 39,
@@ -1220,7 +1107,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 113,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 8,
@@ -1230,7 +1116,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 114,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 75,
@@ -1240,7 +1125,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 115,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 7,
@@ -1250,7 +1134,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 116,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 40,
@@ -1260,7 +1143,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 117,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 51,
@@ -1270,7 +1152,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 118,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 60,
@@ -1280,7 +1161,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 119,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 61,
@@ -1290,7 +1170,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 120,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 63,
@@ -1300,7 +1179,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 121,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 62,
@@ -1310,7 +1188,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 122,
                 "_IsDispCollect": false,
                 "_IsCollectIcon": false,
                 "_IconType": 70,
@@ -1320,7 +1197,6 @@
             },
             {
               "app.MapIconFilterData.cData": {
-                "index": 123,
                 "_IsDispCollect": true,
                 "_IsCollectIcon": false,
                 "_IconType": 57,
@@ -1333,11 +1209,9 @@
       },
       "_MapVeilInitData": {
         "app.MapVeilInitst100Data": {
-          "index": 126,
           "_DataList": [
             {
               "app.MapVeilInitst100Data.cData": {
-                "index": 125,
                 "_StageId": "[1769129856] st100",
                 "_MapIndexList": [
                   {
@@ -1396,11 +1270,9 @@
       },
       "_MapVeilViewpointAreaData": {
         "app.MapVeilViewpointAreaData": {
-          "index": 137,
           "_DataList": [
             {
               "app.MapVeilViewpointAreaData.cData": {
-                "index": 127,
                 "_ViewpointId": "[3815446784] VIEWPOINT_00",
                 "_AreaIdList": [
                   "[45121580] A002",
@@ -1948,7 +1820,6 @@
             },
             {
               "app.MapVeilViewpointAreaData.cData": {
-                "index": 128,
                 "_ViewpointId": "[1303640576] VIEWPOINT_01",
                 "_AreaIdList": [
                   "[2615940224] A000"
@@ -2279,7 +2150,6 @@
             },
             {
               "app.MapVeilViewpointAreaData.cData": {
-                "index": 129,
                 "_ViewpointId": "[1105937024] VIEWPOINT_02",
                 "_AreaIdList": [
                   "[4182020144] A001"
@@ -2594,7 +2464,6 @@
             },
             {
               "app.MapVeilViewpointAreaData.cData": {
-                "index": 130,
                 "_ViewpointId": "[3175786752] VIEWPOINT_03",
                 "_AreaIdList": [
                   "[2880460800] B001"
@@ -2797,7 +2666,6 @@
             },
             {
               "app.MapVeilViewpointAreaData.cData": {
-                "index": 131,
                 "_ViewpointId": "[2593302400] VIEWPOINT_04",
                 "_AreaIdList": [
                   "[133254976] B002"
@@ -2960,7 +2828,6 @@
             },
             {
               "app.MapVeilViewpointAreaData.cData": {
-                "index": 132,
                 "_ViewpointId": "[307647200] VIEWPOINT_05",
                 "_AreaIdList": [
                   "[2409551744] B000",
@@ -3492,7 +3359,6 @@
             },
             {
               "app.MapVeilViewpointAreaData.cData": {
-                "index": 133,
                 "_ViewpointId": "[240969648] VIEWPOINT_06",
                 "_AreaIdList": [
                   "[3496599360] C001"
@@ -3779,7 +3645,6 @@
             },
             {
               "app.MapVeilViewpointAreaData.cData": {
-                "index": 134,
                 "_ViewpointId": "[3879766976] VIEWPOINT_07",
                 "_AreaIdList": [
                   "[3133424896] C002"
@@ -4242,7 +4107,6 @@
             },
             {
               "app.MapVeilViewpointAreaData.cData": {
-                "index": 135,
                 "_ViewpointId": "[3361980864] VIEWPOINT_08",
                 "_AreaIdList": [
                   "[1767451264] C000"
@@ -4561,7 +4425,6 @@
             },
             {
               "app.MapVeilViewpointAreaData.cData": {
-                "index": 136,
                 "_ViewpointId": "[3095304320] VIEWPOINT_09",
                 "_AreaIdList": [
                   "[670716800] D000",
@@ -4964,11 +4827,9 @@
       },
       "_NekoTaxiStageMapPosData": {
         "app.NekotaxiStageMapPosData": {
-          "index": 157,
           "_DataList": [
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 138,
                 "_StageId": "[1769129856] st100",
                 "_Pos": [
                   400.0,
@@ -4984,7 +4845,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 139,
                 "_StageId": "[884165440] st200",
                 "_Pos": [
                   400.0,
@@ -5000,7 +4860,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 140,
                 "_StageId": "[1834912896] st300",
                 "_Pos": [
                   670.0,
@@ -5016,7 +4875,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 141,
                 "_StageId": "[1491992832] st400",
                 "_Pos": [
                   620.0,
@@ -5032,7 +4890,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 142,
                 "_StageId": "[1866488832] dg100",
                 "_Pos": [
                   650.0,
@@ -5048,7 +4905,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 143,
                 "_StageId": "[2306030976] dg200",
                 "_Pos": [
                   550.0,
@@ -5064,7 +4920,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 144,
                 "_StageId": "[537209216] dg201",
                 "_Pos": [
                   450.0,
@@ -5080,7 +4935,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 145,
                 "_StageId": "[1139618688] dg300",
                 "_Pos": [
                   725.0,
@@ -5096,7 +4950,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 146,
                 "_StageId": "[569959616] dg301",
                 "_Pos": [
                   600.0,
@@ -5112,7 +4965,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 147,
                 "_StageId": 154105472,
                 "_Pos": [
                   550.0,
@@ -5128,7 +4980,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 148,
                 "_StageId": "[2179788416] dg999",
                 "_Pos": [
                   550.0,
@@ -5144,7 +4995,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 149,
                 "_StageId": "[4187881024] sd100",
                 "_Pos": [
                   325.0,
@@ -5160,7 +5010,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 150,
                 "_StageId": "[1600700416] sd101",
                 "_Pos": [
                   325.0,
@@ -5176,7 +5025,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 151,
                 "_StageId": "[262072832] sd102",
                 "_Pos": [
                   460.0,
@@ -5192,7 +5040,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 152,
                 "_StageId": "[1307689216] sd103",
                 "_Pos": [
                   540.0,
@@ -5208,7 +5055,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 153,
                 "_StageId": "[336401280] bc110",
                 "_Pos": [
                   400.0,
@@ -5224,7 +5070,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 154,
                 "_StageId": "[1431998336] bc210",
                 "_Pos": [
                   675.0,
@@ -5240,7 +5085,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 155,
                 "_StageId": "[3420740352] bc310",
                 "_Pos": [
                   470.0,
@@ -5256,7 +5100,6 @@
             },
             {
               "app.NekotaxiStageMapPosData.cData": {
-                "index": 156,
                 "_StageId": "[1025871552] bc320",
                 "_Pos": [
                   430.0,
@@ -5275,7 +5118,6 @@
       },
       "_ShortcutInfologParam": {
         "app.ShortcutInfologParam": {
-          "index": 158,
           "_WaitTime": 3.0,
           "_OnKeyTime": 0.5,
           "_TriggerKeyTime": 0.25
@@ -5284,7 +5126,6 @@
       "_LoadStartFadeTimer": 0.0,
       "_DemoSkipParam": {
         "app.cDemoSkipParam": {
-          "index": 159,
           "_ButtonPushTime": 1.0,
           "_SkipDelayTime": 0.0,
           "_ButtonDispTIme": 3.0
@@ -5294,13 +5135,12 @@
       "_EffectPauseFrame": 40,
       "_TutorialGuideData": {
         "app.GUI030530UserData": {
-          "index": 160,
+          "ref_instance_id": 160,
           "path": "GameDesign/GUI/Common/UserData/GUI030530UserData.user"
         }
       },
       "_ResultGUIData": {
         "app.GUI030200Param": {
-          "index": 161,
           "_StartTime": 0.5,
           "_AllPos": [
             240.0,
@@ -5312,7 +5152,6 @@
       },
       "_CharaMakeGUIParameter": {
         "app.cCharaMakeGUIParameter": {
-          "index": 162,
           "_ModelRotateSpeed": 100.0,
           "_ZoomSpeed": 25.0,
           "_ZoomSpeed_Wheel": 4.0,
@@ -5347,7 +5186,6 @@
       },
       "_OtomonCircleParam": {
         "app.GUI030700.GUI030700Param": {
-          "index": 163,
           "_CTRLOpenTime": 1.0
         }
       },
@@ -5355,7 +5193,6 @@
       "_TutorialEmphasisWaitTime": 2.0,
       "_ItemMixGUIParam": {
         "app.cGUI040500GlobalParam": {
-          "index": 164,
           "GoodResultParcent": 10,
           "GoodResultAddItemRate": 1.7999999523162842
         }

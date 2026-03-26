@@ -1,36 +1,30 @@
 [
   {
     "app.user_data.EyeControlParam": {
-      "index": 13,
       "_Interpolation": {
         "app.user_data.HeadControlParam.cInterpolationInfo": {
-          "index": 5,
           "_FadeInSpeed": 2.0,
           "_FadeOutSpeed": 2.0,
           "_DampingX": {
             "ace.cDampingParam": {
-              "index": 1,
               "_Damping": 0.9900000095367432,
               "_TimeScale": 1.0
             }
           },
           "_DampingY": {
             "ace.cDampingParam": {
-              "index": 2,
               "_Damping": 0.9900000095367432,
               "_TimeScale": 1.0
             }
           },
           "_DampingBasisAxis": {
             "ace.cDampingParam": {
-              "index": 3,
               "_Damping": 1.0,
               "_TimeScale": 1.0
             }
           },
           "_DampingMotionBasis": {
             "ace.cDampingParam": {
-              "index": 4,
               "_Damping": 0.949999988079071,
               "_TimeScale": 1.0
             }
@@ -40,7 +34,6 @@
       },
       "_Limit": {
         "app.user_data.HeadControlParam.cLimitInfo": {
-          "index": 6,
           "_LeftY": 50.0,
           "_RightY": 50.0,
           "_UpX": 20.0,
@@ -54,10 +47,8 @@
       "_UseFacial": true,
       "_LeftJoints": {
         "app.user_data.EyeControlParam.cEyeJoint": {
-          "index": 8,
           "_EyeJoint": {
             "ace.cJointHash": {
-              "index": 7,
               "_Hash": 74550293
             }
           },
@@ -69,10 +60,8 @@
       },
       "_RightJoints": {
         "app.user_data.EyeControlParam.cEyeJoint": {
-          "index": 10,
           "_EyeJoint": {
             "ace.cJointHash": {
-              "index": 9,
               "_Hash": 1830544139
             }
           },
@@ -84,7 +73,6 @@
       },
       "_Detail": {
         "app.user_data.HeadControlParam.cDetailParam": {
-          "index": 12,
           "_BlendRateMax": 1.0,
           "_MoveDegX": 0.0,
           "_MoveDegY": 0.0,
@@ -98,7 +86,6 @@
           "_DampingConst": 4.75,
           "_AnimationCurve": {
             "via.AnimationCurve": {
-              "index": 11,
               "v0": [
                 {
                   "raw": "00000000000000000000000000000000",

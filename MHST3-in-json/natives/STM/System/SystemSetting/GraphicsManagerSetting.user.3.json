@@ -1,7 +1,6 @@
 [
   {
     "app.user_data.GraphicsManagerSetting": {
-      "index": 7,
       "_GlobalMaterialParam": "GameDesign/Graphics/GraphicsInstancesMaterialBuffer.gpbf",
       "_GlobalMaterialParamInstanceNum": 100000,
       "CullingLengthChain": 50.0,
@@ -9,7 +8,6 @@
       "_LodSelectionAlogrithm": 1,
       "_DissolveCameraNearParam": {
         "ace.cGraphicsPassThroughParam": {
-          "index": 1,
           "_Enable": true,
           "_LengthEnd": 2.9000000953674316,
           "_LengthStart": 3.0999999046325684,
@@ -21,7 +19,6 @@
       "_ShaderTimerParamList": [
         {
           "ace.cShaderTimerParam": {
-            "index": 2,
             "_Speed": 1.0,
             "_Idx": 0,
             "_NameHash": 1106175613
@@ -30,7 +27,6 @@
       ],
       "_ShaderCollection": {
         "via.Prefab": {
-          "index": 3,
           "v0": {
             "raw": "00",
             "type": "Data"
@@ -42,20 +38,19 @@
       "_DefaultOutdoorProbeSize": 4.0,
       "_OutlinePresetData": {
         "app.user_data.OutlinePresetData": {
-          "index": 4,
+          "ref_instance_id": 4,
           "path": "GameDesign/Graphics/OutlinePresetData.user"
         }
       },
       "_MaxOverdraw": 8.0,
       "_GraphicsOptionParamTables": {
         "app.user_data.GraphicsOptionParamTables": {
-          "index": 5,
+          "ref_instance_id": 5,
           "path": "GameDesign/Graphics/GraphicsOptionParamTables.user"
         }
       },
       "_FoliagePassThroughParam": {
         "app.user_data.GraphicsManagerSetting.cFoliagePassThroughParam": {
-          "index": 6,
           "_BaseDistance": 10.0,
           "_DistanceBias": 0.07599999755620956,
           "_BaseFOV": 50.0,

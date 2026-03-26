@@ -1,11 +1,9 @@
 [
   {
     "app.user_data.AppMissionData": {
-      "index": 9,
       "_MissionID": 82,
       "_MissionPrefab": {
         "via.Prefab": {
-          "index": 1,
           "v0": {
             "raw": "00",
             "type": "Data"
@@ -15,31 +13,21 @@
       },
       "_StartCondition": {
         "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartMission>": {
-          "index": 7,
           "_JudgeType": 0,
           "_ConditionDataList": [
             {
               "ace.cMissionConditionData_StartMission": {
-                "index": 4,
                 "_Condition": {
                   "app.cMissionConditionMissionSuccessMS": {
-                    "index": 3,
-                    "_MainStoryMissionID": {
-                      "app.AppMissionDef.MISSION_ID_MAIN_STORY_Fixed": {
-                        "index": 2,
-                        "value": "[16] M_5A0"
-                      }
-                    }
+                    "_MainStoryMissionID": "[16] M_5A0"
                   }
                 }
               }
             },
             {
               "ace.cMissionConditionData_StartMission": {
-                "index": 6,
                 "_Condition": {
                   "app.cMissionConditionUnlockSubCamp": {
-                    "index": 5,
                     "_AreaID": "[4182020144] A001"
                   }
                 }
@@ -50,7 +38,7 @@
       },
       "_ScenarioDataList": {
         "app.user_data.MissionScenarioDataList": {
-          "index": 8,
+          "ref_instance_id": 8,
           "path": "GameDesign/Story/SubQuest/Q_083/MissionScenarioDataList_Q_083.user"
         }
       }

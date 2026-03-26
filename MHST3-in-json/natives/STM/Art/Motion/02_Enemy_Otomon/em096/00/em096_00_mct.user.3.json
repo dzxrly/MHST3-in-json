@@ -1,11 +1,9 @@
 [
   {
     "ace.user_data.MotionConnect": {
-      "index": 19,
       "_DataList": [
         {
           "ace.user_data.MotionConnect.cOneMotionData": {
-            "index": 6,
             "_MotionID": 1,
             "_IsOverride": false,
             "_IsRedirect": false,
@@ -17,7 +15,6 @@
             "_ChangeParamList": [
               {
                 "ace.user_data.MotionConnect.cChangeParamElement": {
-                  "index": 2,
                   "_MotionListName": "_Default_",
                   "_MotionID": 0,
                   "_StartFrame": 0,
@@ -34,7 +31,6 @@
                   "_GroupInterpolations": [],
                   "_ReferenceGroupInterpolations": {
                     "ace.user_data.MotionConnect.cChangeParamElement.cReferenceInterpolationParam": {
-                      "index": 1,
                       "_Interpolations": []
                     }
                   }
@@ -45,7 +41,6 @@
             "_ToEmptyParamList": [
               {
                 "ace.user_data.MotionConnect.cChangeParamElement": {
-                  "index": 4,
                   "_MotionListName": "",
                   "_MotionID": 0,
                   "_StartFrame": 0,
@@ -62,7 +57,6 @@
                   "_GroupInterpolations": [],
                   "_ReferenceGroupInterpolations": {
                     "ace.user_data.MotionConnect.cChangeParamElement.cReferenceInterpolationParam": {
-                      "index": 3,
                       "_Interpolations": []
                     }
                   }
@@ -71,15 +65,12 @@
             ],
             "_LinkMotionList": [],
             "_AddOn": {
-              "ace.user_data.cOneMotionDataAddOn": {
-                "index": 5
-              }
+              "ace.user_data.cOneMotionDataAddOn": {}
             }
           }
         },
         {
           "ace.user_data.MotionConnect.cOneMotionData": {
-            "index": 12,
             "_MotionID": 2,
             "_IsOverride": false,
             "_IsRedirect": false,
@@ -91,7 +82,6 @@
             "_ChangeParamList": [
               {
                 "ace.user_data.MotionConnect.cChangeParamElement": {
-                  "index": 8,
                   "_MotionListName": "_Default_",
                   "_MotionID": 0,
                   "_StartFrame": 0,
@@ -108,7 +98,6 @@
                   "_GroupInterpolations": [],
                   "_ReferenceGroupInterpolations": {
                     "ace.user_data.MotionConnect.cChangeParamElement.cReferenceInterpolationParam": {
-                      "index": 7,
                       "_Interpolations": []
                     }
                   }
@@ -119,7 +108,6 @@
             "_ToEmptyParamList": [
               {
                 "ace.user_data.MotionConnect.cChangeParamElement": {
-                  "index": 10,
                   "_MotionListName": "",
                   "_MotionID": 0,
                   "_StartFrame": 0,
@@ -136,7 +124,6 @@
                   "_GroupInterpolations": [],
                   "_ReferenceGroupInterpolations": {
                     "ace.user_data.MotionConnect.cChangeParamElement.cReferenceInterpolationParam": {
-                      "index": 9,
                       "_Interpolations": []
                     }
                   }
@@ -145,36 +132,29 @@
             ],
             "_LinkMotionList": [],
             "_AddOn": {
-              "ace.user_data.cOneMotionDataAddOn": {
-                "index": 11
-              }
+              "ace.user_data.cOneMotionDataAddOn": {}
             }
           }
         }
       ],
       "_JointGroup": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_MotionListConvertTable": [
         {
           "ace.user_data.MotionConnect.cMotionListRelation": {
-            "index": 13,
             "_SrcListNameHash": 2009733032,
             "_DstListName": "em096_00"
           }
         },
         {
           "ace.user_data.MotionConnect.cMotionListRelation": {
-            "index": 14,
             "_SrcListNameHash": 3663617939,
             "_DstListName": ""
           }
         },
         {
           "ace.user_data.MotionConnect.cMotionListRelation": {
-            "index": 15,
             "_SrcListNameHash": 2988144868,
             "_DstListName": "em096_01"
           }
@@ -182,20 +162,18 @@
       ],
       "_InheritMct": {
         "ace.user_data.MotionConnect": {
-          "index": 16,
+          "ref_instance_id": 16,
           "path": "Art/Motion/02_Enemy_Otomon/em_common/00/em_common_00_mct.user"
         }
       },
       "_MotionExtendBank": {
         "ace.user_data.MotionExtendBank": {
-          "index": 17,
+          "ref_instance_id": 17,
           "path": "Art/Motion/02_Enemy_Otomon/em096/em096_f_bank_meb.user"
         }
       },
       "_AddOn": {
-        "ace.user_data.cMotionConnectAddOn": {
-          "index": 18
-        }
+        "ace.user_data.cMotionConnectAddOn": {}
       }
     }
   }

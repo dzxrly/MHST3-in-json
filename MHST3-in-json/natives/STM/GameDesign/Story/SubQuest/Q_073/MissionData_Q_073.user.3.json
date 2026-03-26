@@ -1,11 +1,9 @@
 [
   {
     "app.user_data.AppMissionData": {
-      "index": 11,
       "_MissionID": 72,
       "_MissionPrefab": {
         "via.Prefab": {
-          "index": 1,
           "v0": {
             "raw": "00",
             "type": "Data"
@@ -15,31 +13,21 @@
       },
       "_StartCondition": {
         "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartMission>": {
-          "index": 9,
           "_JudgeType": 0,
           "_ConditionDataList": [
             {
               "ace.cMissionConditionData_StartMission": {
-                "index": 4,
                 "_Condition": {
                   "app.cMissionConditionMissionSuccessMS": {
-                    "index": 3,
-                    "_MainStoryMissionID": {
-                      "app.AppMissionDef.MISSION_ID_MAIN_STORY_Fixed": {
-                        "index": 2,
-                        "value": "[16] M_5A0"
-                      }
-                    }
+                    "_MainStoryMissionID": "[16] M_5A0"
                   }
                 }
               }
             },
             {
               "ace.cMissionConditionData_StartMission": {
-                "index": 6,
                 "_Condition": {
                   "app.cMissionConditionMissionSuccessSQ": {
-                    "index": 5,
                     "_SubQuestMissionID": "[18] Q_019"
                   }
                 }
@@ -47,10 +35,8 @@
             },
             {
               "ace.cMissionConditionData_StartMission": {
-                "index": 8,
                 "_Condition": {
                   "app.cMissionConditionUnlockSubCamp": {
-                    "index": 7,
                     "_AreaID": "[3814750240] D001"
                   }
                 }
@@ -61,7 +47,7 @@
       },
       "_ScenarioDataList": {
         "app.user_data.MissionScenarioDataList": {
-          "index": 10,
+          "ref_instance_id": 10,
           "path": "GameDesign/Story/SubQuest/Q_073/MissionScenarioDataList_Q_073.user"
         }
       }

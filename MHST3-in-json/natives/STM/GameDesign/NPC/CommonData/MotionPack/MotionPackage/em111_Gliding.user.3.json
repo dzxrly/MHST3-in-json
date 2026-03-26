@@ -1,27 +1,21 @@
 [
   {
     "app.user_data.NpcMotionPackage": {
-      "index": 5,
       "_BaseMotionPack": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_JobMotionPack": {
         "app.user_data.NpcMotionJobPack": {
-          "index": 1,
+          "ref_instance_id": 1,
           "path": "GameDesign/NPC/CommonData/MotionPack/JobPack/em111/em111_Gliding.user"
         }
       },
       "_HoldMotionPack": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_IsUseMirror": false,
       "_VariationSetting": {
         "app.user_data.NpcMotionPackage.VariationMotionSetting": {
-          "index": 2,
           "_IsNoUseVariation": true,
           "_LoopCount_Var1": 4,
           "_LoopCount_Var2": 4,
@@ -31,7 +25,6 @@
       },
       "_GimmickOption": {
         "app.user_data.NpcMotionPackage.GimmickOption": {
-          "index": 3,
           "_GimmickLinkType": -1,
           "STRUCT__PosOffsetFromGimmick__HasValue": false,
           "STRUCT__PosOffsetFromGimmick__Value": [
@@ -48,7 +41,6 @@
       "_IsSyncRiderMotion": false,
       "_SoundRangeOption": {
         "app.user_data.NpcMotionPackage.cSoundRangeOption": {
-          "index": 4,
           "_IsUseSoundRange": false
         }
       }

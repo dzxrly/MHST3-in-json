@@ -1,21 +1,13 @@
 [
   {
     "app.user_data.BattleCutEffectData": {
-      "index": 10,
       "_HitInfo": {
         "app.user_data.BattleCutEffectData.cHitInfo": {
-          "index": 3,
           "_HitType": 1,
           "_HitParams": [
             {
               "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
-                "index": 2,
-                "_EffHitInfoType": {
-                  "app.BattleDef.EFF_HIT_INFO_TYPE_Fixed": {
-                    "index": 1,
-                    "value": "[2208698880] BTH_1000"
-                  }
-                },
+                "_EffHitInfoType": "[2208698880] BTH_1000",
                 "_Frame": 15.0
               }
             }
@@ -25,13 +17,7 @@
       "_SimpleEffectInfos": [
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 5,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 4,
-                "value": "[354100452] BAT_EFF_FLASH"
-              }
-            },
+            "_ContainerID": "[354100452] BAT_EFF_FLASH",
             "_ElementID": 1,
             "_EffCreateType": 1,
             "_Frame": 66.0,
@@ -54,13 +40,7 @@
       "_SimpleEffectInfos_Next": [
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 7,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 6,
-                "value": "[577141831] BAT_HITADD_FLASH"
-              }
-            },
+            "_ContainerID": "[577141831] BAT_HITADD_FLASH",
             "_ElementID": 1,
             "_EffCreateType": 0,
             "_Frame": 16.0,
@@ -82,15 +62,9 @@
       ],
       "_ShellInfo": {
         "app.user_data.BattleCutEffectData.cShellInfo": {
-          "index": 9,
           "_IsActive": false,
           "_Frame": 0.0,
-          "_ContainerID": {
-            "app.ContainerID.ID_Fixed": {
-              "index": 8,
-              "value": "[1281779328] INVALID"
-            }
-          },
+          "_ContainerID": "[1281779328] INVALID",
           "_ElementID": 0,
           "_MoveType": 0,
           "_StartPos": [

@@ -1,36 +1,32 @@
 [
   {
     "app.snd_user_data.SoundManagerAppSettings": {
-      "index": 12,
       "_InitializeStateDataList": [],
       "_CullingSettings": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_DialogueSettings": {
         "app.snd_user_data.SoundDialogueSettingsData": {
-          "index": 1,
+          "ref_instance_id": 1,
           "path": "Sound/Resouce/SoundDialogueSettingsData.user"
         }
       },
       "_EffectTriggerTargetList": [
         {
           "app.snd_user_data.SoundEffectTriggerTargetList": {
-            "index": 2,
+            "ref_instance_id": 2,
             "path": "Sound/Resouce/SoundEffectTriggerTargetList.user"
           }
         }
       ],
       "_EPVSrcObjSwitchTargetList": {
         "app.snd_user_data.SoundEPVSrcObjSwitchTargetList": {
-          "index": 3,
+          "ref_instance_id": 3,
           "path": "Sound/Resouce/SoundEPVSrcObjSwitchTargetList.user"
         }
       },
       "_WorldSoundResource": {
         "via.Prefab": {
-          "index": 4,
           "v0": {
             "raw": "00",
             "type": "Data"
@@ -40,7 +36,6 @@
       },
       "_BattleSoundResource": {
         "via.Prefab": {
-          "index": 5,
           "v0": {
             "raw": "00",
             "type": "Data"
@@ -50,7 +45,6 @@
       },
       "_AfterBattleStartSoundResource": {
         "via.Prefab": {
-          "index": 6,
           "v0": {
             "raw": "00",
             "type": "Data"
@@ -60,20 +54,17 @@
       },
       "_VoiceLanguageStateList": {
         "soundlib.SoundStateApp`1<via.Language>": {
-          "index": 9,
           "_StateGroupId": 2525030546,
           "_ExceptionStateId": 748895195,
           "_EnumStatePairList": [
             {
               "soundlib.SoundStateApp`1.SoundStateEnumPair<via.Language>": {
-                "index": 7,
                 "_EnumValue": 0,
                 "_StateId": 2008704848
               }
             },
             {
               "soundlib.SoundStateApp`1.SoundStateEnumPair<via.Language>": {
-                "index": 8,
                 "_EnumValue": 1,
                 "_StateId": 3383237639
               }
@@ -83,13 +74,11 @@
       },
       "_OutputDeviceStateList": {
         "soundlib.SoundStateApp`1<via.simplewwise.OutputDevice>": {
-          "index": 11,
           "_StateGroupId": 993820224,
           "_ExceptionStateId": 1944958176,
           "_EnumStatePairList": [
             {
               "soundlib.SoundStateApp`1.SoundStateEnumPair<via.simplewwise.OutputDevice>": {
-                "index": 10,
                 "_EnumValue": 3,
                 "_StateId": 3741293879
               }

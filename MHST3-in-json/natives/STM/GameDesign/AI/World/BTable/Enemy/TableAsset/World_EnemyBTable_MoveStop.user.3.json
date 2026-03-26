@@ -1,33 +1,26 @@
 [
   {
     "ace.btable.user_data.BTable": {
-      "index": 23,
       "_Tables": {
         "ace.cInstanceGuidArray`1<ace.btable.user_data.BTable.cTableElement>": {
-          "index": 21,
           "_DataArray": [
             {
               "ace.btable.user_data.BTable.cTableElement": {
-                "index": 20,
                 "_Rows": [
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "index": 5,
                       "_OperatorHash": 9380642514848460048,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {
-                          "index": 1
-                        }
+                        "ace.btable.cOperatorArgumentNone": {}
                       },
                       "_CommandHash": 8093678715481511344,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
-                          "index": 4,
                           "_EditAssetIndex": {
-                            "index": 2
+                            "ref_instance_id": 2
                           },
                           "_EditActionGuid": {
-                            "index": 3
+                            "ref_instance_id": 3
                           }
                         }
                       }
@@ -35,39 +28,30 @@
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "index": 8,
                       "_OperatorHash": 1232086094727562192,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {
-                          "index": 6
-                        }
+                        "ace.btable.cOperatorArgumentNone": {}
                       },
                       "_CommandHash": 5187301759426612372,
                       "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {
-                          "index": 7
-                        }
+                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "index": 13,
                       "_OperatorHash": 9380642514848460048,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {
-                          "index": 9
-                        }
+                        "ace.btable.cOperatorArgumentNone": {}
                       },
                       "_CommandHash": 8093678715481511344,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
-                          "index": 12,
                           "_EditAssetIndex": {
-                            "index": 10
+                            "ref_instance_id": 10
                           },
                           "_EditActionGuid": {
-                            "index": 11
+                            "ref_instance_id": 11
                           }
                         }
                       }
@@ -75,35 +59,25 @@
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "index": 16,
                       "_OperatorHash": 7803240798504593104,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {
-                          "index": 14
-                        }
+                        "ace.btable.cOperatorArgumentNone": {}
                       },
                       "_CommandHash": 0,
                       "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {
-                          "index": 15
-                        }
+                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "index": 19,
                       "_OperatorHash": 11996412323559724264,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {
-                          "index": 17
-                        }
+                        "ace.btable.cOperatorArgumentNone": {}
                       },
                       "_CommandHash": 0,
                       "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {
-                          "index": 18
-                        }
+                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   }
@@ -117,7 +91,7 @@
       "_ImportBTableList": [],
       "_OrderBank": {
         "ace.btable.user_data.BTableOrderBank": {
-          "index": 22,
+          "ref_instance_id": 22,
           "path": "GameDesign/AI/World/BTable/Enemy/SettingData/World_EnemyCommonBTableOrderBank.user"
         }
       },

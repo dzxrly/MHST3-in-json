@@ -1,29 +1,28 @@
 [
   {
     "app.user_data.ActionTransitionDataPack": {
-      "index": 5,
       "_Pack": [
         {
           "app.user_data.ActionTransitionSingleCondition": {
-            "index": 1,
+            "ref_instance_id": 1,
             "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideDash_ActionEndDash.user"
           }
         },
         {
           "app.user_data.ActionTransitionSingleCondition": {
-            "index": 2,
+            "ref_instance_id": 2,
             "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideRun_ActionEndRun.user"
           }
         },
         {
           "app.user_data.ActionTransitionSingleCondition": {
-            "index": 3,
+            "ref_instance_id": 3,
             "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideWalk_ActionEndWalk.user"
           }
         },
         {
           "app.user_data.ActionTransitionSingleCondition": {
-            "index": 4,
+            "ref_instance_id": 4,
             "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideIdle_ActionEndNeutral.user"
           }
         }

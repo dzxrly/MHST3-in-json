@@ -1,21 +1,19 @@
 [
   {
     "app.user_data.WorldOtomonParamPack": {
-      "index": 42,
       "_MotionBankAssetsList": [
         {
           "app.cMotionBankAssets": {
-            "index": 3,
             "_MotionBank": "Art/Motion/02_Enemy_Otomon/em037/ot037_f_bank.motbank",
             "_MotionExtendBank": {
               "ace.user_data.MotionExtendBank": {
-                "index": 1,
+                "ref_instance_id": 1,
                 "path": "Art/Motion/02_Enemy_Otomon/em037/ot037_f_bank_meb.user"
               }
             },
             "_MotionConnectBank": {
               "ace.user_data.MotionConnectBank": {
-                "index": 2,
+                "ref_instance_id": 2,
                 "path": "Art/Motion/02_Enemy_Otomon/em037/ot037_f_bank_mcb.user"
               }
             },
@@ -25,29 +23,26 @@
       ],
       "_JointGroup": {
         "ace.user_data.JointGroup": {
-          "index": 4,
+          "ref_instance_id": 4,
           "path": "Art/Motion/02_Enemy_Otomon/em_common/_Decorate/JointMap/em_common_JointGroup.user"
         }
       },
       "_ActionDataSetHolder": {
         "app.user_data.ActionDataSetHolder": {
-          "index": 31,
           "_DataSet_Base": [
             {
               "app.user_data.ActionDataSet": {
-                "index": 8,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 5,
+                    "ref_instance_id": 5,
                     "path": "GameDesign/Otomon/Ot0037/XX/ActionData/WOt0037_General_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 7,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 6,
+                        "ref_instance_id": 6,
                         "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_General.user"
                       }
                     },
@@ -58,19 +53,17 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 12,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 9,
+                    "ref_instance_id": 9,
                     "path": "GameDesign/Otomon/Ot0037/XX/ActionData/WOt0037_Jump_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 11,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 10,
+                        "ref_instance_id": 10,
                         "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Jump.user"
                       }
                     },
@@ -81,19 +74,17 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 16,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 13,
+                    "ref_instance_id": 13,
                     "path": "GameDesign/Otomon/Ot0037/XX/ActionData/WOt0037_Climb_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 15,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 14,
+                        "ref_instance_id": 14,
                         "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Climb.user"
                       }
                     },
@@ -104,19 +95,13 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 18,
                 "_Param": {
-                  "": {
-                    "index": 0
-                  }
+                  "": {}
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 17,
                     "_ActionID": {
-                      "": {
-                        "index": 0
-                      }
+                      "": {}
                     },
                     "_ExportGuid": "a725aed5-dfc2-4a0d-b988-a80babf1937c"
                   }
@@ -125,19 +110,13 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 20,
                 "_Param": {
-                  "": {
-                    "index": 0
-                  }
+                  "": {}
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 19,
                     "_ActionID": {
-                      "": {
-                        "index": 0
-                      }
+                      "": {}
                     },
                     "_ExportGuid": "a725aed5-dfc2-4a0d-b988-a80babf1937c"
                   }
@@ -146,19 +125,13 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 22,
                 "_Param": {
-                  "": {
-                    "index": 0
-                  }
+                  "": {}
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 21,
                     "_ActionID": {
-                      "": {
-                        "index": 0
-                      }
+                      "": {}
                     },
                     "_ExportGuid": "a725aed5-dfc2-4a0d-b988-a80babf1937c"
                   }
@@ -167,19 +140,17 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 26,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 23,
+                    "ref_instance_id": 23,
                     "path": "GameDesign/Otomon/Ot0037/XX/ActionData/WOt0037_Stealth_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 25,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 24,
+                        "ref_instance_id": 24,
                         "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Stealth.user"
                       }
                     },
@@ -192,19 +163,17 @@
           "_DataSet_Sub": [
             {
               "app.user_data.ActionDataSet": {
-                "index": 30,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 27,
+                    "ref_instance_id": 27,
                     "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonSubActionParam_General.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 29,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 28,
+                        "ref_instance_id": 28,
                         "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonSubActionID_General.user"
                       }
                     },
@@ -218,76 +187,70 @@
       },
       "_DetectTerrainParam": {
         "app.user_data.DetectTerrainParam": {
-          "index": 32,
+          "ref_instance_id": 32,
           "path": "GameDesign/Otomon/CommonData/ActionData/WOtCommonDetectTerrainParam_L.user"
         }
       },
       "_InertiaFbik": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_FbikRigInfo": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_SpeedTreeCollision": {
         "app.user_data.SpeedTreePusherCollision": {
-          "index": 33,
+          "ref_instance_id": 33,
           "path": "GameDesign/Otomon/CommonData/WorldData/WorldOtomonSpeedTreePusherCollision.user"
         }
       },
       "_WorldCharacterAnimationLodParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_OtomonBasicParam": {
         "app.user_data.OtomonBasicParam": {
-          "index": 34,
+          "ref_instance_id": 34,
           "path": "GameDesign/Otomon/Ot0037/XX/CommonData/Ot0037_BasicParam.user"
         }
       },
       "_WorldOtomonBasicParam": {
         "app.user_data.WorldOtomonBasicParam": {
-          "index": 35,
+          "ref_instance_id": 35,
           "path": "GameDesign/Otomon/Ot0037/XX/WorldData/WOt0037_BasicParam.user"
         }
       },
       "_WorldOtomonCommonParam": {
         "app.user_data.WorldOtomonCommonParam": {
-          "index": 36,
+          "ref_instance_id": 36,
           "path": "GameDesign/Otomon/CommonData/WorldData/WorldOtomonCommonParam.user"
         }
       },
       "_BTable": {
         "ace.btable.user_data.BTable": {
-          "index": 37,
+          "ref_instance_id": 37,
           "path": "GameDesign/AI/World/BTable/Otomon/TableAsset/World_OtomonCommonBTable.user"
         }
       },
       "_BTableVariableList": {
         "ace.btable.user_data.BTableVariableList": {
-          "index": 38,
+          "ref_instance_id": 38,
           "path": "GameDesign/AI/World/BTable/Otomon/SettingData/World_OtomonBTableVariableList.user"
         }
       },
       "_IkCtrlSetupParam": {
         "app.AppIkCtrlSetupParam": {
-          "index": 39,
+          "ref_instance_id": 39,
           "path": "GameDesign/Monster/mo042/IK/mo042_IkCtrlSetupParam.user"
         }
       },
       "_ShellCreatorInfo": {
         "ace.user_data.ShellCreatorInfoData": {
-          "index": 40,
+          "ref_instance_id": 40,
           "path": "GameDesign/Otomon/CommonData/WorldData/WorldOtomonShellCreatorInfo.user"
         }
       },
       "_RideCameraParamList": {
         "ace.user_data.CameraParamDataCollectionList": {
-          "index": 41,
+          "ref_instance_id": 41,
           "path": "GameDesign/Otomon/Ot0037/XX/CameraData/WOt0037_CameraParam.user"
         }
       }

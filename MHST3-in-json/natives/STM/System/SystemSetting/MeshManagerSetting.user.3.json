@@ -1,10 +1,8 @@
 [
   {
     "app.user_data.MeshManagerSetting": {
-      "index": 7,
       "_Base": {
         "ace.user_data.MeshManagerSettingBase.cBase": {
-          "index": 1,
           "_MeshSettingNum": 3000,
           "_MaterialUpdateNum": 1024,
           "_PassThroughNum": 512,
@@ -17,7 +15,6 @@
       },
       "_PassThrough": {
         "ace.user_data.MeshManagerSettingBase.cPassThrough": {
-          "index": 2,
           "_Num": 3000,
           "_Sleep": 4,
           "_SleepUpLength": 10.0,
@@ -27,7 +24,6 @@
       },
       "_Culling": {
         "ace.user_data.MeshManagerSettingBase.cCulling": {
-          "index": 3,
           "_Num": 300,
           "_Sleep": 16,
           "_SleepRandom": 16
@@ -35,7 +31,6 @@
       },
       "_Wind": {
         "ace.user_data.MeshManagerSettingBase.cWind": {
-          "index": 4,
           "_Num": 300,
           "_SleepStartLength": 30.0,
           "_SleepUpLength": 30.0,
@@ -45,13 +40,11 @@
       },
       "_JointConstraints": {
         "ace.user_data.MeshManagerSettingBase.cJointConstraints": {
-          "index": 5,
           "_Num": 100
         }
       },
       "_Visible": {
         "ace.user_data.MeshManagerSettingBase.cVisible": {
-          "index": 6,
           "_Num": 100,
           "_FlagNum": 256
         }

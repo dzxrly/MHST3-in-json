@@ -1,12 +1,10 @@
 [
   {
     "app.user_data.PlayerResidentParam": {
-      "index": 67,
       "_IgnoreEncountTimeAfterBattle": 5.0,
       "_LookAtParams": [
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 1,
             "_StageType": 0,
             "_Target": 0,
             "_PLAction": 0,
@@ -17,7 +15,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 2,
             "_StageType": 0,
             "_Target": 0,
             "_PLAction": 1,
@@ -28,7 +25,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 3,
             "_StageType": 0,
             "_Target": 0,
             "_PLAction": 2,
@@ -39,7 +35,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 4,
             "_StageType": 0,
             "_Target": 0,
             "_PLAction": 3,
@@ -50,7 +45,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 5,
             "_StageType": 1,
             "_Target": 1,
             "_PLAction": 0,
@@ -61,7 +55,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 6,
             "_StageType": 1,
             "_Target": 1,
             "_PLAction": 1,
@@ -72,7 +65,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 7,
             "_StageType": 1,
             "_Target": 1,
             "_PLAction": 2,
@@ -83,7 +75,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 8,
             "_StageType": 1,
             "_Target": 1,
             "_PLAction": 3,
@@ -94,7 +85,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 9,
             "_StageType": 1,
             "_Target": 2,
             "_PLAction": 0,
@@ -105,7 +95,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 10,
             "_StageType": 1,
             "_Target": 2,
             "_PLAction": 1,
@@ -116,7 +105,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 11,
             "_StageType": 1,
             "_Target": 2,
             "_PLAction": 2,
@@ -127,7 +115,6 @@
         },
         {
           "app.user_data.PlayerResidentParam.LookAtParam": {
-            "index": 12,
             "_StageType": 1,
             "_Target": 2,
             "_PLAction": 3,
@@ -172,7 +159,6 @@
       "_AdjustLegToSaddle_SaddleMaxLimit": 10.0,
       "_AdjustLegToSaddle_Idle": {
         "app.user_data.PlayerResidentParam.AdjustLegToSaddle_JointParam": {
-          "index": 13,
           "_L_Leg_00": [
             0.22132520377635956,
             -0.03181735426187515,
@@ -189,7 +175,6 @@
       },
       "_AdjustLegToSaddle_Run": {
         "app.user_data.PlayerResidentParam.AdjustLegToSaddle_JointParam": {
-          "index": 14,
           "_L_Leg_00": [
             0.17474237084388733,
             0.2675415277481079,
@@ -206,7 +191,6 @@
       },
       "_AdjustLegToSaddle_Dash": {
         "app.user_data.PlayerResidentParam.AdjustLegToSaddle_JointParam": {
-          "index": 15,
           "_L_Leg_00": [
             0.0921533927321434,
             -0.10451032221317291,
@@ -223,7 +207,6 @@
       },
       "_AdjustLegToSaddle_Wall": {
         "app.user_data.PlayerResidentParam.AdjustLegToSaddle_JointParam": {
-          "index": 16,
           "_L_Leg_00": [
             0.18420206010341644,
             0.2612059712409973,
@@ -240,7 +223,6 @@
       },
       "_IkSpineRide_Idle": {
         "app.IkSpineRideJointParam": {
-          "index": 17,
           "_CogPos_F": [
             0.0,
             -0.0009800000116229057,
@@ -265,7 +247,6 @@
       },
       "_IkSpineRide_Run": {
         "app.IkSpineRideJointParam": {
-          "index": 18,
           "_CogPos_F": [
             0.0,
             0.0,
@@ -290,7 +271,6 @@
       },
       "_IkSpineRide_Dash": {
         "app.IkSpineRideJointParam": {
-          "index": 19,
           "_CogPos_F": [
             0.0,
             -0.09195999801158905,
@@ -315,7 +295,6 @@
       },
       "_IkSpineRide_Wall": {
         "app.IkSpineRideJointParam": {
-          "index": 20,
           "_CogPos_F": [
             0.0,
             -0.028300000354647636,
@@ -345,17 +324,16 @@
       "_MotionBankAssetsList": [
         {
           "app.cMotionBankAssets": {
-            "index": 23,
             "_MotionBank": "Art/Motion/01_Player/plm_FieldBase.motbank",
             "_MotionExtendBank": {
               "ace.user_data.MotionExtendBank": {
-                "index": 21,
+                "ref_instance_id": 21,
                 "path": "Art/Motion/01_Player/plm_FieldBase_meb.user"
               }
             },
             "_MotionConnectBank": {
               "ace.user_data.MotionConnectBank": {
-                "index": 22,
+                "ref_instance_id": 22,
                 "path": "Art/Motion/01_Player/plm_FieldBase_mcb.user"
               }
             },
@@ -364,17 +342,16 @@
         },
         {
           "app.cMotionBankAssets": {
-            "index": 26,
             "_MotionBank": "Art/Motion/01_Player/plm_Ride_Item_Bank.motbank",
             "_MotionExtendBank": {
               "ace.user_data.MotionExtendBank": {
-                "index": 24,
+                "ref_instance_id": 24,
                 "path": "Art/Motion/01_Player/plm_Ride_Item_Bank_meb.user"
               }
             },
             "_MotionConnectBank": {
               "ace.user_data.MotionConnectBank": {
-                "index": 25,
+                "ref_instance_id": 25,
                 "path": "Art/Motion/01_Player/plm_Ride_Item_Bank_mcb.user"
               }
             },
@@ -384,30 +361,27 @@
       ],
       "_JointGroup": {
         "ace.user_data.JointGroup": {
-          "index": 27,
+          "ref_instance_id": 27,
           "path": "Art/Motion/01_Player/00_Decorate/01_JointGroup/PlJointGroup.user"
         }
       },
       "_JointMap": "Art/Motion/01_Player/00_Decorate/00_JointMap/PL_JointMap.jmap",
       "_ActionDataSetHolder": {
         "app.user_data.ActionDataSetHolder": {
-          "index": 56,
           "_DataSet_Base": [
             {
               "app.user_data.ActionDataSet": {
-                "index": 31,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 28,
+                    "ref_instance_id": 28,
                     "path": "GameDesign/Player/ActionData/NonRide/NonRide_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 30,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 29,
+                        "ref_instance_id": 29,
                         "path": "GameDesign/Player/ActionData/NonRide/NonRide_ActionID.user"
                       }
                     },
@@ -418,19 +392,17 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 35,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 32,
+                    "ref_instance_id": 32,
                     "path": "GameDesign/Player/ActionData/NonRideField/NonRideField_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 34,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 33,
+                        "ref_instance_id": 33,
                         "path": "GameDesign/Player/ActionData/NonRideField/NonRideField_ActionID.user"
                       }
                     },
@@ -441,19 +413,17 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 39,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 36,
+                    "ref_instance_id": 36,
                     "path": "GameDesign/Player/ActionData/NonRideVillage/NonRideVillage_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 38,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 37,
+                        "ref_instance_id": 37,
                         "path": "GameDesign/Player/ActionData/NonRideVillage/NonRideVillage_ActionID.user"
                       }
                     },
@@ -464,19 +434,17 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 43,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 40,
+                    "ref_instance_id": 40,
                     "path": "GameDesign/Player/ActionData/RideGround/RideGround_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 42,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 41,
+                        "ref_instance_id": 41,
                         "path": "GameDesign/Player/ActionData/RideGround/RideGround_ActionID.user"
                       }
                     },
@@ -487,19 +455,17 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 47,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 44,
+                    "ref_instance_id": 44,
                     "path": "GameDesign/Player/ActionData/RideAir/RideAir_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 46,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 45,
+                        "ref_instance_id": 45,
                         "path": "GameDesign/Player/ActionData/RideAir/RideAir_ActionID.user"
                       }
                     },
@@ -512,19 +478,17 @@
           "_DataSet_Sub": [
             {
               "app.user_data.ActionDataSet": {
-                "index": 51,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 48,
+                    "ref_instance_id": 48,
                     "path": "GameDesign/Player/ActionData/NonRide/NonRideSub_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 50,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 49,
+                        "ref_instance_id": 49,
                         "path": "GameDesign/Player/ActionData/NonRide/NonRideSub_ActionID.user"
                       }
                     },
@@ -535,19 +499,17 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 55,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 52,
+                    "ref_instance_id": 52,
                     "path": "GameDesign/Player/ActionData/RideGround/RideGroundSub_ActionParam.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 54,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 53,
+                        "ref_instance_id": 53,
                         "path": "GameDesign/Player/ActionData/RideGround/RideGroundSub_ActionID.user"
                       }
                     },
@@ -561,62 +523,62 @@
       },
       "_DetectTerrainParam": {
         "app.user_data.DetectTerrainParam": {
-          "index": 57,
+          "ref_instance_id": 57,
           "path": "GameDesign/Player/ActionData/Common/PlayerDetectTerrainParam.user"
         }
       },
       "_HumanoidFbikInertialSimulateParam": {
         "app.user_data.HumanoidFbikInertialSimulateParameterContainer": {
-          "index": 58,
+          "ref_instance_id": 58,
           "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderFbikParam.user"
         }
       },
       "_HumanoidFbikInfo": {
         "app.user_data.HumanoidFbikInfo": {
-          "index": 59,
+          "ref_instance_id": 59,
           "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderRigInfo.user"
         }
       },
       "_SpeedTreePusherCollision": {
         "app.user_data.SpeedTreePusherCollision": {
-          "index": 60,
+          "ref_instance_id": 60,
           "path": "GameDesign/Player/ActionData/Common/PlayerSpeedTreePusherCollision.user"
         }
       },
       "_IkCtrlSetupParam": {
         "ace.user_data.IkCtrlSetupParam": {
-          "index": 61,
+          "ref_instance_id": 61,
           "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderIkCtrlSetup.user"
         }
       },
       "_ActionBasicParam": {
         "app.user_data.PlayerActionBasicParam": {
-          "index": 62,
+          "ref_instance_id": 62,
           "path": "GameDesign/Player/ActionData/Common/PlayerActionBasicParam.user"
         }
       },
       "_HeadControlParam": {
         "app.user_data.HumanHeadControlParam": {
-          "index": 63,
+          "ref_instance_id": 63,
           "path": "GameDesign/Player/CommonData/LookAtData/PlayerHeadControlParam.user"
         }
       },
       "_LookAtBodyAdjustParam": {
         "app.user_data.LookAtBodyAdjustParam": {
-          "index": 64,
+          "ref_instance_id": 64,
           "path": "GameDesign/NPC/CommonData/LookAtData/NpcLookAtBodyAdjustParam_Chest.user"
         }
       },
       "_ActionTransitionTables": [
         {
           "app.user_data.ActionTransitionTable": {
-            "index": 65,
+            "ref_instance_id": 65,
             "path": "GameDesign/Player/Transition/Main/WorldPlayer_NonRide.user"
           }
         },
         {
           "app.user_data.ActionTransitionTable": {
-            "index": 66,
+            "ref_instance_id": 66,
             "path": "GameDesign/Player/Transition/Sub/WorldPlayer_NoRide_Sub.user"
           }
         }

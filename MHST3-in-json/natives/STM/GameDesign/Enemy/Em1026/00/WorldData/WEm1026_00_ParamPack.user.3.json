@@ -1,21 +1,19 @@
 [
   {
     "app.user_data.WorldEnemyParamPack": {
-      "index": 26,
       "_MotionBankAssetsList": [
         {
           "app.cMotionBankAssets": {
-            "index": 3,
             "_MotionBank": "Art/Motion/02_Enemy_Otomon/em1026/em1026_f_bank.motbank",
             "_MotionExtendBank": {
               "ace.user_data.MotionExtendBank": {
-                "index": 1,
+                "ref_instance_id": 1,
                 "path": "Art/Motion/02_Enemy_Otomon/em1026/em1026_f_bank_meb.user"
               }
             },
             "_MotionConnectBank": {
               "ace.user_data.MotionConnectBank": {
-                "index": 2,
+                "ref_instance_id": 2,
                 "path": "Art/Motion/02_Enemy_Otomon/em1026/em1026_f_bank_mcb.user"
               }
             },
@@ -24,29 +22,24 @@
         }
       ],
       "_JointGroup": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_ActionDataSetHolder": {
         "app.user_data.ActionDataSetHolder": {
-          "index": 16,
           "_DataSet_Base": [
             {
               "app.user_data.ActionDataSet": {
-                "index": 7,
                 "_Param": {
                   "ace.user_data.ActionParam": {
-                    "index": 4,
+                    "ref_instance_id": 4,
                     "path": "GameDesign/Enemy/Em1026/XX/ActionData/WEm1026_ActionParam_General.user"
                   }
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 6,
                     "_ActionID": {
                       "ace.user_data.ActionID": {
-                        "index": 5,
+                        "ref_instance_id": 5,
                         "path": "GameDesign/Enemy/Em1026/XX/ActionData/WEm1026_ActionID_General.user"
                       }
                     },
@@ -57,19 +50,13 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 9,
                 "_Param": {
-                  "": {
-                    "index": 0
-                  }
+                  "": {}
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 8,
                     "_ActionID": {
-                      "": {
-                        "index": 0
-                      }
+                      "": {}
                     },
                     "_ExportGuid": "00000000-0000-0000-0000-000000000000"
                   }
@@ -78,19 +65,13 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 11,
                 "_Param": {
-                  "": {
-                    "index": 0
-                  }
+                  "": {}
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 10,
                     "_ActionID": {
-                      "": {
-                        "index": 0
-                      }
+                      "": {}
                     },
                     "_ExportGuid": "00000000-0000-0000-0000-000000000000"
                   }
@@ -99,19 +80,13 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 13,
                 "_Param": {
-                  "": {
-                    "index": 0
-                  }
+                  "": {}
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 12,
                     "_ActionID": {
-                      "": {
-                        "index": 0
-                      }
+                      "": {}
                     },
                     "_ExportGuid": "00000000-0000-0000-0000-000000000000"
                   }
@@ -120,19 +95,13 @@
             },
             {
               "app.user_data.ActionDataSet": {
-                "index": 15,
                 "_Param": {
-                  "": {
-                    "index": 0
-                  }
+                  "": {}
                 },
                 "_ID": {
                   "ace.cActionIDHolder": {
-                    "index": 14,
                     "_ActionID": {
-                      "": {
-                        "index": 0
-                      }
+                      "": {}
                     },
                     "_ExportGuid": "00000000-0000-0000-0000-000000000000"
                   }
@@ -144,81 +113,71 @@
         }
       },
       "_DetectTerrainParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_InertiaFbik": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_FbikRigInfo": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_SpeedTreeCollision": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_WorldCharacterAnimationLodParam": {
         "app.user_data.WorldCharacterAnimationLodParameter": {
-          "index": 17,
+          "ref_instance_id": 17,
           "path": "GameDesign/Enemy/CommonData/AnimationLODData/WorldEnemyAnimationLod.user"
         }
       },
       "_EnemyBasicParam": {
         "app.user_data.EnemyBasicParam": {
-          "index": 18,
+          "ref_instance_id": 18,
           "path": "GameDesign/Enemy/Em1026/XX/CommonData/Em1026_BasicParam.user"
         }
       },
       "_WorldBasicParam": {
         "app.user_data.WorldEnemyBasicParam": {
-          "index": 19,
+          "ref_instance_id": 19,
           "path": "GameDesign/Enemy/Em1026/XX/WorldData/WEm1026_BasicParam.user"
         }
       },
       "_WorldPredatorBasicParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       },
       "_BTable": {
         "ace.btable.user_data.BTable": {
-          "index": 20,
+          "ref_instance_id": 20,
           "path": "GameDesign/AI/World/BTable/Enemy/TableAsset/World_EnemyCommonBTable.user"
         }
       },
       "_BTable_Nest": {
         "ace.btable.user_data.BTable": {
-          "index": 21,
+          "ref_instance_id": 21,
           "path": "GameDesign/AI/World/BTable/Enemy/TableAsset/World_EnemyCommonBTable_Nest.user"
         }
       },
       "_SightParam": {
         "app.user_data.EnemySightParam": {
-          "index": 22,
+          "ref_instance_id": 22,
           "path": "GameDesign/Enemy/Em1026/XX/WorldData/WEm1026_EnemySightParam.user"
         }
       },
       "_BehaviorParam": {
         "app.user_data.World_EnemyBehaviorParam": {
-          "index": 23,
+          "ref_instance_id": 23,
           "path": "GameDesign/Enemy/Em1026/XX/WorldData/World_Em1026BehaviorParam.user"
         }
       },
       "_IkCtrlSetupParam": {
         "app.AppIkCtrlSetupParam": {
-          "index": 24,
+          "ref_instance_id": 24,
           "path": "GameDesign/Monster/mo1026/IK/mo1026_IkCtrlSetupParam.user"
         }
       },
       "_JointCtrlSetupParam": {
         "ace.user_data.JointCtrlSetupParam": {
-          "index": 25,
+          "ref_instance_id": 25,
           "path": "GameDesign/Enemy/CommonData/IK/EnemyCommonJointCtrlSetupParam.user"
         }
       }

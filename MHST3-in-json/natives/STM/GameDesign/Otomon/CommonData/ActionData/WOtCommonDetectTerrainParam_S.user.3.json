@@ -1,12 +1,10 @@
 [
   {
     "app.user_data.DetectTerrainParam": {
-      "index": 15,
       "_RayCastType": 15,
       "_RayCastType_All": 13,
       "_FrontWallDetectParam": {
         "app.cDetectTerrainArg.cFrontWallDetectParam": {
-          "index": 1,
           "_DetectStartOfsFromOneself": [
             0.0,
             0.4000000059604645,
@@ -33,7 +31,6 @@
       },
       "_BehindWallDetectParam": {
         "app.cDetectTerrainArg.cBehindWallDetectParam": {
-          "index": 2,
           "_DetectStartOfsFromOneself": [
             0.0,
             -0.25,
@@ -64,7 +61,6 @@
       },
       "_ClimbDetectParam": {
         "app.cDetectTerrainArg.cClimbDetectParam": {
-          "index": 3,
           "_ClimbFinishMinFloorDepth": 1.7000000476837158,
           "_ClimbFinishReach": 3.0,
           "_ClimbDownFinishReach": 1.0,
@@ -76,7 +72,6 @@
       },
       "_AttachWallParam": {
         "app.cDetectTerrainArg.cAttachWallParam": {
-          "index": 4,
           "_LowerSlopeLimitDegree": 10.0,
           "_UpperWallLimitDegree": 10.0,
           "_RayFrontOffset": 1.5,
@@ -155,13 +150,11 @@
       },
       "_GroundCheckerParam": {
         "app.cDetectTerrainArg.cGroundCheckerParam": {
-          "index": 5,
           "_DetectGroundDistance": 20.0
         }
       },
       "_AttachGroundParam": {
         "app.cDetectTerrainArg.cAttachGroundParam": {
-          "index": 6,
           "_RayCastType": 13,
           "_LandDetectDistance": 0.10000000149011612,
           "_AttachGroundHeight": 0.30000001192092896,
@@ -172,7 +165,6 @@
       },
       "_FlyCatchWallParam": {
         "app.cDetectTerrainArg.cFlyCatchWallParam": {
-          "index": 7,
           "_RayCastType": 15,
           "_PivotJointName": "Head_00",
           "_DetectLength": 1.0,
@@ -181,13 +173,11 @@
       },
       "_WaterAttachParam": {
         "app.cDetectTerrainArg.cWaterAttachParam": {
-          "index": 8,
           "_InWaterPlayHeight": 0.30000001192092896
         }
       },
       "_SwimInDetectParam": {
         "app.cDetectTerrainArg.cSwimInDetectParam": {
-          "index": 9,
           "_RayCastType": 15,
           "_DetectWaterStartPosOffset": [
             0.0,
@@ -205,7 +195,6 @@
       },
       "_SwimOutDetectParam": {
         "app.cDetectTerrainArg.cSwimOutDetectParam": {
-          "index": 11,
           "_RayCastType": 15,
           "_DetectGroundStartPosOffset": [
             0.0,
@@ -224,7 +213,6 @@
           "_IsUniqueWallParam": false,
           "_DetectWallParam": {
             "app.cDetectTerrainArg.cFrontWallDetectParam": {
-              "index": 10,
               "_DetectStartOfsFromOneself": [
                 0.0,
                 0.44999998807907104,
@@ -253,21 +241,18 @@
       },
       "_VirtualWallParam": {
         "app.cDetectTerrainArg.cVirtualWallParam": {
-          "index": 12,
           "_CliffDistance": 7,
           "_PurposeDirThreshold": 30.0
         }
       },
       "_VirtualSlopeParam": {
         "app.cDetectTerrainArg.cVirtualSlopeParam": {
-          "index": 14,
           "_RaycastType": 41,
           "_WallDetectDepth": 9.0,
           "_BehindWallDetectDepth": 9.0,
           "_BehindWallDetectFrontDepth": 9.0,
           "_DampingParam": {
             "ace.cDampingParam": {
-              "index": 13,
               "_Damping": 0.9950000047683716,
               "_TimeScale": 3.0
             }

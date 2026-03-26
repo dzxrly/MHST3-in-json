@@ -1,82 +1,36 @@
 [
   {
     "app.user_data.PlayerBlockWallParamUserData": {
-      "index": 27,
       "_DataList": [
         {
           "app.user_data.PlayerBlockWallParamUserData.cData": {
-            "index": 13,
             "_IsUseSideStoryTerm": false,
             "_MainStoryTerm": {
               "app.cMainStoryTerm": {
-                "index": 3,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 1,
-                    "value": "[4149045232] M_1A0"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 2,
-                    "value": "[3975364192] M_1E0"
-                  }
-                }
+                "_MainStoryFlagBegin": "[4149045232] M_1A0",
+                "_MainStoryFlagEnd": "[3975364192] M_1E0"
               }
             },
             "_SideStoryTerm": {
               "app.cSideStoryTermCurrent": {
-                "index": 6,
                 "_IsCheckTerm": true,
-                "_SideStoryFlagBegin": {
-                  "app.AppMissionDef.SIDE_STORY_FLAG_Fixed": {
-                    "index": 4,
-                    "value": "[3962488384] INVALID"
-                  }
-                },
-                "_SideStoryFlagEnd": {
-                  "app.AppMissionDef.SIDE_STORY_FLAG_Fixed": {
-                    "index": 5,
-                    "value": "[3962488384] INVALID"
-                  }
-                },
+                "_SideStoryFlagBegin": "[3962488384] INVALID",
+                "_SideStoryFlagEnd": "[3962488384] INVALID",
                 "_IsCheckCurrentChapterID": true,
                 "_ChapterID": "[4294967295] INVALID"
               }
             },
             "_NpcGuideData": {
               "app.cMissionNpcGuideData": {
-                "index": 11,
-                "_MissionCategory": {
-                  "app.AppMissionDef.MISSION_CATEGORY_Fixed": {
-                    "index": 7,
-                    "value": "[2473688192] MAIN_STORY"
-                  }
-                },
-                "_NpcGuideSetIDMainStory": {
-                  "app.AppMissionDef.NPC_GUIDE_SET_ID_MS_Fixed": {
-                    "index": 8,
-                    "value": "[12354] MO_XX01"
-                  }
-                },
-                "_NpcGuideSetIDSideStory": {
-                  "app.AppMissionDef.NPC_GUIDE_SET_ID_SS_Fixed": {
-                    "index": 9,
-                    "value": "[2774241024] INVALID"
-                  }
-                },
-                "_NpcGuideSetIDSubQuest": {
-                  "app.AppMissionDef.NPC_GUIDE_SET_ID_SQ_Fixed": {
-                    "index": 10,
-                    "value": "[3262294464] INVALID"
-                  }
-                }
+                "_MissionCategory": "[2473688192] MAIN_STORY",
+                "_NpcGuideSetIDMainStory": "[12354] MO_XX01",
+                "_NpcGuideSetIDSideStory": "[2774241024] INVALID",
+                "_NpcGuideSetIDSubQuest": "[3262294464] INVALID"
               }
             },
             "_AttrBitSet": {
               "ace.Bitset`1<app.user_data.PlayerBlockWallParamUserData.cData.ATTR>": {
-                "index": 12,
                 "_Value": [
                   0
                 ],
@@ -87,78 +41,33 @@
         },
         {
           "app.user_data.PlayerBlockWallParamUserData.cData": {
-            "index": 26,
             "_IsUseSideStoryTerm": false,
             "_MainStoryTerm": {
               "app.cMainStoryTerm": {
-                "index": 16,
                 "_IsCheckTerm": true,
-                "_MainStoryFlagBegin": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 14,
-                    "value": "[29111] M_1A0_59"
-                  }
-                },
-                "_MainStoryFlagEnd": {
-                  "app.AppMissionDef.MAIN_STORY_FLAG_Fixed": {
-                    "index": 15,
-                    "value": "[29739] M_1A0_67"
-                  }
-                }
+                "_MainStoryFlagBegin": "[29111] M_1A0_59",
+                "_MainStoryFlagEnd": "[29739] M_1A0_67"
               }
             },
             "_SideStoryTerm": {
               "app.cSideStoryTermCurrent": {
-                "index": 19,
                 "_IsCheckTerm": true,
-                "_SideStoryFlagBegin": {
-                  "app.AppMissionDef.SIDE_STORY_FLAG_Fixed": {
-                    "index": 17,
-                    "value": "[3962488384] INVALID"
-                  }
-                },
-                "_SideStoryFlagEnd": {
-                  "app.AppMissionDef.SIDE_STORY_FLAG_Fixed": {
-                    "index": 18,
-                    "value": "[3962488384] INVALID"
-                  }
-                },
+                "_SideStoryFlagBegin": "[3962488384] INVALID",
+                "_SideStoryFlagEnd": "[3962488384] INVALID",
                 "_IsCheckCurrentChapterID": true,
                 "_ChapterID": "[4294967295] INVALID"
               }
             },
             "_NpcGuideData": {
               "app.cMissionNpcGuideData": {
-                "index": 24,
-                "_MissionCategory": {
-                  "app.AppMissionDef.MISSION_CATEGORY_Fixed": {
-                    "index": 20,
-                    "value": "[2473688192] MAIN_STORY"
-                  }
-                },
-                "_NpcGuideSetIDMainStory": {
-                  "app.AppMissionDef.NPC_GUIDE_SET_ID_MS_Fixed": {
-                    "index": 21,
-                    "value": "[12354] MO_XX01"
-                  }
-                },
-                "_NpcGuideSetIDSideStory": {
-                  "app.AppMissionDef.NPC_GUIDE_SET_ID_SS_Fixed": {
-                    "index": 22,
-                    "value": "[2774241024] INVALID"
-                  }
-                },
-                "_NpcGuideSetIDSubQuest": {
-                  "app.AppMissionDef.NPC_GUIDE_SET_ID_SQ_Fixed": {
-                    "index": 23,
-                    "value": "[3262294464] INVALID"
-                  }
-                }
+                "_MissionCategory": "[2473688192] MAIN_STORY",
+                "_NpcGuideSetIDMainStory": "[12354] MO_XX01",
+                "_NpcGuideSetIDSideStory": "[2774241024] INVALID",
+                "_NpcGuideSetIDSubQuest": "[3262294464] INVALID"
               }
             },
             "_AttrBitSet": {
               "ace.Bitset`1<app.user_data.PlayerBlockWallParamUserData.cData.ATTR>": {
-                "index": 25,
                 "_Value": [
                   0
                 ],

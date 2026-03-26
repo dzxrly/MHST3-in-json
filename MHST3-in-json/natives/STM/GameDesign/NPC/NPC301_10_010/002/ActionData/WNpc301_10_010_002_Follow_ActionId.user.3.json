@@ -1,14 +1,11 @@
 [
   {
     "ace.user_data.ActionID": {
-      "index": 9,
       "_ActionIDArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
-          "index": 4,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cID": {
-                "index": 1,
                 "_Class": "cFollowRun",
                 "_InstanceGuid": "8fbc7852-3dfc-4174-90f4-bd52a85b66ab",
                 "_OverrideOwnerClass": false,
@@ -19,7 +16,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 2,
                 "_Class": "cFollowDash",
                 "_InstanceGuid": "ba67fdb5-5ae1-034e-0e52-5569f30f7c74",
                 "_OverrideOwnerClass": false,
@@ -30,7 +26,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 3,
                 "_Class": "cFollowStepJumpOff",
                 "_InstanceGuid": "1d42cdbd-eb78-42e3-a238-58027c22f744",
                 "_OverrideOwnerClass": false,
@@ -44,11 +39,9 @@
       },
       "_ExportSettingArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
-          "index": 6,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cExport": {
-                "index": 5,
                 "_Guid": "5b76255c-5f4a-4b97-be25-88070b5e3c49",
                 "_ClassName": "WNpc301_10_010_002_ActionFollow",
                 "_ActionCategory": 2
@@ -59,10 +52,9 @@
       },
       "_BaseActionID": {
         "ace.cActionIDHolder": {
-          "index": 8,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 7,
+              "ref_instance_id": 7,
               "path": "GameDesign/NPC/CommonData/ActionData/WorldNpcFollow_ActionID.user"
             }
           },

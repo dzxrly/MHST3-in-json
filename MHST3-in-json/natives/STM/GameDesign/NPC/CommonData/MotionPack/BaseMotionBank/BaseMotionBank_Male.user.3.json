@@ -1,20 +1,18 @@
 [
   {
     "app.user_data.NpcBaseMotionBankPack": {
-      "index": 10,
       "_StandMotBank": {
         "app.cMotionBankAssets": {
-          "index": 3,
           "_MotionBank": "Art/Motion/03_Npc/01_VariationPack/00_Human_Bone/00_Mob/00_Male/Male_Stand_Bank.motbank",
           "_MotionExtendBank": {
             "ace.user_data.MotionExtendBank": {
-              "index": 1,
+              "ref_instance_id": 1,
               "path": "Art/Motion/03_Npc/01_VariationPack/00_Human_Bone/00_Mob/00_Male/Male_Stand_Bank_meb.user"
             }
           },
           "_MotionConnectBank": {
             "ace.user_data.MotionConnectBank": {
-              "index": 2,
+              "ref_instance_id": 2,
               "path": "Art/Motion/03_Npc/01_VariationPack/00_Human_Bone/00_Mob/00_Male/Male_Stand_Bank_mcb.user"
             }
           },
@@ -23,17 +21,16 @@
       },
       "_SitMotBank": {
         "app.cMotionBankAssets": {
-          "index": 6,
           "_MotionBank": "Art/Motion/03_Npc/01_VariationPack/00_Human_Bone/00_Mob/00_Male/Male_Sit_Bank.motbank",
           "_MotionExtendBank": {
             "ace.user_data.MotionExtendBank": {
-              "index": 4,
+              "ref_instance_id": 4,
               "path": "Art/Motion/03_Npc/01_VariationPack/00_Human_Bone/00_Mob/00_Male/Male_Sit_Bank_meb.user"
             }
           },
           "_MotionConnectBank": {
             "ace.user_data.MotionConnectBank": {
-              "index": 5,
+              "ref_instance_id": 5,
               "path": "Art/Motion/03_Npc/01_VariationPack/00_Human_Bone/00_Mob/00_Male/Male_Sit_Bank_mcb.user"
             }
           },
@@ -42,17 +39,16 @@
       },
       "_GroundMotBank": {
         "app.cMotionBankAssets": {
-          "index": 9,
           "_MotionBank": "Art/Motion/03_Npc/01_VariationPack/00_Human_Bone/00_Mob/00_Male/Male_Ground_Bank.motbank",
           "_MotionExtendBank": {
             "ace.user_data.MotionExtendBank": {
-              "index": 7,
+              "ref_instance_id": 7,
               "path": "Art/Motion/03_Npc/01_VariationPack/00_Human_Bone/00_Mob/00_Male/Male_Ground_Bank_meb.user"
             }
           },
           "_MotionConnectBank": {
             "ace.user_data.MotionConnectBank": {
-              "index": 8,
+              "ref_instance_id": 8,
               "path": "Art/Motion/03_Npc/01_VariationPack/00_Human_Bone/00_Mob/00_Male/Male_Ground_Bank_mcb.user"
             }
           },

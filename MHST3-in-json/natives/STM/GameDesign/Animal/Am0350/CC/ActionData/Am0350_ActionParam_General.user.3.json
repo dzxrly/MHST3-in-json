@@ -1,17 +1,14 @@
 [
   {
     "ace.user_data.ActionParam": {
-      "index": 13,
       "_ActionClassList": [
         {
           "app.WorldAnimalAction_General.cNone": {
-            "index": 1,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldAnimalAction_General.cIdle": {
-            "index": 2,
             "_ActionSafeLimitTime": -1.0,
             "_ActionAttrBit": 0,
             "_VisualID": "[3602] INVALID",
@@ -20,13 +17,11 @@
         },
         {
           "app.Am0350_Action_General.cEscapeMain": {
-            "index": 5,
             "_ActionSafeLimitTime": -1.0,
             "_ActionAttrBit": 0,
             "_VisualID": "[3602] INVALID",
             "_SpeedParam": {
               "app.AppCharaUtil.cMotionSpeedParam": {
-                "index": 3,
                 "_Type": 0,
                 "_KilometerPerHourParam": 0.0,
                 "_MotionSpeed": 1.4700000286102295
@@ -34,7 +29,6 @@
             },
             "_TurnVelocity": {
               "app.AppCharaUtil.cAngularVelocityParam": {
-                "index": 4,
                 "_TurnRadius": 3.0,
                 "_RotSpeedEaseType": 8
               }
@@ -53,7 +47,6 @@
         },
         {
           "app.WorldAnimalAction_General.cCautionMain": {
-            "index": 6,
             "_ActionSafeLimitTime": -1.0,
             "_ActionAttrBit": 0,
             "_VisualID": "[3602] INVALID",
@@ -67,7 +60,6 @@
       "_ActionInfoList": [
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 7,
             "_Guid": "2d09df2a-f871-48b3-afc6-64b0190091ff",
             "_ActionGuid": "2bf70af7-be2c-4213-8f6b-2cda90179a88",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -78,7 +70,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 8,
             "_Guid": "1906d716-2e31-431d-80fe-86cff956021b",
             "_ActionGuid": "703a1640-f9d5-4520-b9aa-74399f170f3a",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -89,7 +80,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 9,
             "_Guid": "28d1d4be-cbc9-494e-984e-f9997c029c40",
             "_ActionGuid": "5b1797bb-1c0a-4053-b1fa-92d768e3bf31",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -100,7 +90,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 10,
             "_Guid": "47b18857-57af-458d-acb6-96344f2ed79b",
             "_ActionGuid": "783d075c-0b25-4bf8-99e1-3000eb94c36e",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -112,10 +101,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 12,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 11,
+              "ref_instance_id": 11,
               "path": "GameDesign/Animal/Am0350/CC/ActionData/Am0350ActionID_General.user"
             }
           },
@@ -124,9 +112,7 @@
       },
       "_IsUseBranchedParam": false,
       "_BaseActionParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

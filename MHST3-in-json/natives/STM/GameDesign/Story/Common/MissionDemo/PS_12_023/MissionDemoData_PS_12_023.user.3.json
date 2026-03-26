@@ -1,12 +1,10 @@
 [
   {
     "app.user_data.MissionDemoData": {
-      "index": 16,
       "_MissionDemoID": "[23] PS_12_023",
       "_IsCreateAnimal": false,
       "_PlayerSetting": {
         "app.user_data.MissionDemoData.cPlayerSetting": {
-          "index": 1,
           "_Position": [
             -209.30136108398438,
             152.6076202392578,
@@ -26,7 +24,6 @@
       "_NpcSettings": [
         {
           "app.user_data.MissionDemoData.cNpcSetting": {
-            "index": 2,
             "_Position": [
               -208.49136352539062,
               152.6326446533203,
@@ -48,7 +45,7 @@
       "_EnemySettings": [],
       "_CameraWorkData": {
         "ace.user_data.CameraWorkData": {
-          "index": 3,
+          "ref_instance_id": 3,
           "path": "GameDesign/Story/Common/MissionDemo/PS_12_023/MissionCameraWorkData_PS_12_023.user"
         }
       },
@@ -56,14 +53,11 @@
       "_ActionSettings": [
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 6,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 5,
                   "_Action": {
                     "app.cMissionDemoActionTalkWindow": {
-                      "index": 4,
                       "_MessageTextId": "999ad01e-0b29-4f01-be2b-ba7039e3ad99"
                     }
                   }
@@ -74,14 +68,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 9,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 8,
                   "_Action": {
                     "app.cMissionDemoActionCameraWork": {
-                      "index": 7,
                       "_CameraGroupGuid": "cf53a454-53d8-4c32-a087-8ceb485dbd23"
                     }
                   }
@@ -92,14 +83,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 12,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 11,
                   "_Action": {
                     "app.cMissionDemoActionTalkWindow": {
-                      "index": 10,
                       "_MessageTextId": "266bcc4f-b23e-48a5-bcac-29b65d4024a3"
                     }
                   }
@@ -110,14 +98,11 @@
         },
         {
           "app.user_data.MissionDemoData.cDemoActionSetting": {
-            "index": 15,
             "_DemoActionList": [
               {
                 "app.cMissionDemoActionData": {
-                  "index": 14,
                   "_Action": {
                     "app.cMissionDemoActionWaitTime": {
-                      "index": 13,
                       "_WaitSecound": 2.0
                     }
                   }

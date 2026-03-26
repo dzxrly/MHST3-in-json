@@ -1,29 +1,24 @@
 [
   {
     "ace.user_data.ActionParam": {
-      "index": 11,
       "_ActionClassList": [
         {
           "app.WorldEnemyAction_Underground.cNone": {
-            "index": 1,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_Underground.cIdleDefaultUnderground": {
-            "index": 2,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_Underground.cIdleUnderground": {
-            "index": 3,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldEnemyAction_Underground.cGoOutUnderground": {
-            "index": 4,
             "_ActionSafeLimitTime": -1.0
           }
         }
@@ -32,7 +27,6 @@
       "_ActionInfoList": [
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 5,
             "_Guid": "23648b1e-d6ac-4250-8806-9b11c1e5c134",
             "_ActionGuid": "2a05c2ea-8dff-4ece-bc39-c32606b6ec85",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +37,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 6,
             "_Guid": "9a23bc41-0a5d-49d2-a102-cacaef4f8789",
             "_ActionGuid": "3001dec3-528a-42e6-915f-9dc521a086ea",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -54,7 +47,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 7,
             "_Guid": "5bbc8504-c2a8-4764-9bad-be6ad00ed733",
             "_ActionGuid": "3e172afd-00cd-4e53-a400-276104a8cded",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -65,7 +57,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 8,
             "_Guid": "847acd4f-bd3d-4adc-8c82-3efb312d92eb",
             "_ActionGuid": "d3617d07-051a-4823-955d-4c352f64d0cf",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -77,10 +68,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 10,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 9,
+              "ref_instance_id": 9,
               "path": "GameDesign/Enemy/Em0007/XX/ActionData/WEm0007_ActionID_Underground.user"
             }
           },
@@ -89,9 +79,7 @@
       },
       "_IsUseBranchedParam": false,
       "_BaseActionParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

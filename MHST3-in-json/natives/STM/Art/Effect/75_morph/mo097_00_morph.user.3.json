@@ -1,7 +1,6 @@
 [
   {
     "app.user_data.MorphEffectData": {
-      "index": 122,
       "_FieldOtomonEpvsID": 2,
       "_FieldEnemyEpvsID": 2,
       "_BattleOtomonEpvsID": 2,
@@ -9,7 +8,6 @@
       "_MorphEffectList": [
         {
           "app.user_data.MorphEffectData.cMorphParam": {
-            "index": 10,
             "_MorphID": "[463439776] ID_BTL_MORPH_CHG_NORMAL",
             "_MorphVisualID": "[3507608448] ID_MORPH_VISUAL_NORMAL",
             "_MotionChangeEnabled": false,
@@ -18,57 +16,24 @@
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 3,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 1,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 2,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "abf42f10-62f2-4142-ac4a-e859e2d587ce",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 6,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 4,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 5,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "6c84ea03-1605-401d-9a4a-c38a5e301138",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 9,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 7,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 8,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "3e1b1c51-05a8-4532-a34c-6cb95e86b0dc",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
@@ -78,160 +43,71 @@
         },
         {
           "app.user_data.MorphEffectData.cMorphParam": {
-            "index": 35,
             "_MorphID": "[140363136] ID_BTL_MORPH_CHG_ANGRY1",
             "_MorphVisualID": "[3597232704] ID_MORPH_VISUAL_MO097_GLOBE_ANGRY",
             "_MotionChangeEnabled": true,
             "_OtomonEffect": [
               {
                 "app.user_data.MorphEffectData.cPartsParam": {
-                  "index": 13,
                   "_ElementID": 500,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 11,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 12,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  }
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
               }
             ],
             "_EnemyEffect": [
               {
                 "app.user_data.MorphEffectData.cPartsParam": {
-                  "index": 16,
                   "_ElementID": 499,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 14,
-                      "value": "[20989] ID_PARTS_EM0097_00_00_4"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 15,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  }
+                  "_PartsID": "[20989] ID_PARTS_EM0097_00_00_4",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cPartsParam": {
-                  "index": 19,
                   "_ElementID": 500,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 17,
-                      "value": "[20989] ID_PARTS_EM0097_00_00_4"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 18,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  }
+                  "_PartsID": "[20989] ID_PARTS_EM0097_00_00_4",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
               }
             ],
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 22,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 20,
-                      "value": "[20989] ID_PARTS_EM0097_00_00_4"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 21,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[20989] ID_PARTS_EM0097_00_00_4",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "ce8c5a42-09ad-4e0f-8814-7b7747397ccb",
                   "_BrokenConditionGuid": "6c84ea03-1605-401d-9a4a-c38a5e301138"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 25,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 23,
-                      "value": "[20989] ID_PARTS_EM0097_00_00_4"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 24,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[20989] ID_PARTS_EM0097_00_00_4",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "a2037f05-29bd-435b-a4de-f10a04e94151",
                   "_BrokenConditionGuid": "3e1b1c51-05a8-4532-a34c-6cb95e86b0dc"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 28,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 26,
-                      "value": "[20989] ID_PARTS_EM0097_00_00_4"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 27,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[20989] ID_PARTS_EM0097_00_00_4",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "9bd8f1d8-8948-4c63-8aa2-a49b9d034e6b",
                   "_BrokenConditionGuid": "abf42f10-62f2-4142-ac4a-e859e2d587ce"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 31,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 29,
-                      "value": "[20989] ID_PARTS_EM0097_00_00_4"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 30,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[20989] ID_PARTS_EM0097_00_00_4",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "8fb06f93-ab3b-4513-84a2-9206f6d6e895",
                   "_BrokenConditionGuid": "514fd09a-8371-439e-bd63-5e3d5855b19d"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 34,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 32,
-                      "value": "[20989] ID_PARTS_EM0097_00_00_4"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 33,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[20989] ID_PARTS_EM0097_00_00_4",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "56ba734c-d81a-44c3-a527-f5c0bddd98b6",
                   "_BrokenConditionGuid": "54a9bdae-8b7d-43b9-91c9-d85f8a164c86"
                 }
@@ -241,7 +117,6 @@
         },
         {
           "app.user_data.MorphEffectData.cMorphParam": {
-            "index": 48,
             "_MorphID": "[4141537904] ID_BTL_MORPH_CHG_DEAD",
             "_MorphVisualID": "[20298] ID_MORPH_VISUAL_DEAD",
             "_MotionChangeEnabled": false,
@@ -250,76 +125,32 @@
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 38,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 36,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 37,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "abf42f10-62f2-4142-ac4a-e859e2d587ce",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 41,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 39,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 40,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "6c84ea03-1605-401d-9a4a-c38a5e301138",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 44,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 42,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 43,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "3e1b1c51-05a8-4532-a34c-6cb95e86b0dc",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 47,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 45,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 46,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "3614f08f-74f5-455e-ad05-274db6a9142e",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
@@ -329,160 +160,71 @@
         },
         {
           "app.user_data.MorphEffectData.cMorphParam": {
-            "index": 73,
             "_MorphID": "[3566808128] ID_BTL_MORPH_CNG_ANGRY2",
             "_MorphVisualID": "[710604736] ID_MORPH_VISUAL_MO097_BLADE_ANGRY",
             "_MotionChangeEnabled": true,
             "_OtomonEffect": [
               {
                 "app.user_data.MorphEffectData.cPartsParam": {
-                  "index": 51,
                   "_ElementID": 501,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 49,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 50,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  }
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
               }
             ],
             "_EnemyEffect": [
               {
                 "app.user_data.MorphEffectData.cPartsParam": {
-                  "index": 54,
                   "_ElementID": 499,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 52,
-                      "value": "[26632] ID_PARTS_EM0097_00_00_5"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 53,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  }
+                  "_PartsID": "[26632] ID_PARTS_EM0097_00_00_5",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cPartsParam": {
-                  "index": 57,
                   "_ElementID": 501,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 55,
-                      "value": "[26632] ID_PARTS_EM0097_00_00_5"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 56,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  }
+                  "_PartsID": "[26632] ID_PARTS_EM0097_00_00_5",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
               }
             ],
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 60,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 58,
-                      "value": "[26632] ID_PARTS_EM0097_00_00_5"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 59,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[26632] ID_PARTS_EM0097_00_00_5",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "ce8c5a42-09ad-4e0f-8814-7b7747397ccb",
                   "_BrokenConditionGuid": "6c84ea03-1605-401d-9a4a-c38a5e301138"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 63,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 61,
-                      "value": "[26632] ID_PARTS_EM0097_00_00_5"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 62,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[26632] ID_PARTS_EM0097_00_00_5",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "a2037f05-29bd-435b-a4de-f10a04e94151",
                   "_BrokenConditionGuid": "3e1b1c51-05a8-4532-a34c-6cb95e86b0dc"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 66,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 64,
-                      "value": "[26632] ID_PARTS_EM0097_00_00_5"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 65,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[26632] ID_PARTS_EM0097_00_00_5",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "9bd8f1d8-8948-4c63-8aa2-a49b9d034e6b",
                   "_BrokenConditionGuid": "abf42f10-62f2-4142-ac4a-e859e2d587ce"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 69,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 67,
-                      "value": "[26632] ID_PARTS_EM0097_00_00_5"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 68,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[26632] ID_PARTS_EM0097_00_00_5",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "3772bff9-f51e-46f5-a101-d2445b387cff",
                   "_BrokenConditionGuid": "514fd09a-8371-439e-bd63-5e3d5855b19d"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 72,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 70,
-                      "value": "[26632] ID_PARTS_EM0097_00_00_5"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 71,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[26632] ID_PARTS_EM0097_00_00_5",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "6ded94e1-2701-4bfc-ab6b-617515516242",
                   "_BrokenConditionGuid": "54a9bdae-8b7d-43b9-91c9-d85f8a164c86"
                 }
@@ -494,7 +236,6 @@
       "_MorphVisualList": [
         {
           "app.user_data.MorphEffectData.cMorphParam": {
-            "index": 83,
             "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_MorphVisualID": "[1493950592] ID_MORPH_VISUAL_MO097_OVERHEAT",
             "_MotionChangeEnabled": false,
@@ -503,57 +244,24 @@
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 76,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 74,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 75,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "ce8c5a42-09ad-4e0f-8814-7b7747397ccb",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 79,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 77,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 78,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "a2037f05-29bd-435b-a4de-f10a04e94151",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 82,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 80,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 81,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "9bd8f1d8-8948-4c63-8aa2-a49b9d034e6b",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
@@ -563,85 +271,40 @@
         },
         {
           "app.user_data.MorphEffectData.cMorphParam": {
-            "index": 96,
             "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_MorphVisualID": "[23210] ID_MORPH_VISUAL_MO097_GLOBE",
             "_MotionChangeEnabled": false,
             "_OtomonEffect": [
               {
                 "app.user_data.MorphEffectData.cPartsParam": {
-                  "index": 86,
                   "_ElementID": 500,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 84,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 85,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  }
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
               }
             ],
             "_EnemyEffect": [
               {
                 "app.user_data.MorphEffectData.cPartsParam": {
-                  "index": 89,
                   "_ElementID": 500,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 87,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 88,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  }
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
               }
             ],
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 92,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 90,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 91,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "8fb06f93-ab3b-4513-84a2-9206f6d6e895",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 95,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 93,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 94,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "56ba734c-d81a-44c3-a527-f5c0bddd98b6",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
@@ -651,85 +314,40 @@
         },
         {
           "app.user_data.MorphEffectData.cMorphParam": {
-            "index": 109,
             "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_MorphVisualID": "[30947] ID_MORPH_VISUAL_MO097_BLADE",
             "_MotionChangeEnabled": false,
             "_OtomonEffect": [
               {
                 "app.user_data.MorphEffectData.cPartsParam": {
-                  "index": 99,
                   "_ElementID": 501,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 97,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 98,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  }
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
               }
             ],
             "_EnemyEffect": [
               {
                 "app.user_data.MorphEffectData.cPartsParam": {
-                  "index": 102,
                   "_ElementID": 501,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 100,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 101,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  }
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
               }
             ],
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 105,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 103,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 104,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "3772bff9-f51e-46f5-a101-d2445b387cff",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 108,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 106,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 107,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "6ded94e1-2701-4bfc-ab6b-617515516242",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
@@ -739,7 +357,6 @@
         },
         {
           "app.user_data.MorphEffectData.cMorphParam": {
-            "index": 113,
             "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_MorphVisualID": "[12831] ID_MORPH_VISUAL_MO097_R_NORMAL",
             "_MotionChangeEnabled": false,
@@ -748,19 +365,8 @@
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 112,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 110,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 111,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "514fd09a-8371-439e-bd63-5e3d5855b19d",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
@@ -770,7 +376,6 @@
         },
         {
           "app.user_data.MorphEffectData.cMorphParam": {
-            "index": 117,
             "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
             "_MorphVisualID": "[17343] ID_MORPH_VISUAL_MO097_L_NORMAL",
             "_MotionChangeEnabled": false,
@@ -779,19 +384,8 @@
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "index": 116,
-                  "_PartsID": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 114,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
-                  "_PartsID2": {
-                    "app.EnemyDef.PARTS_ID_Fixed": {
-                      "index": 115,
-                      "value": "[997777664] ID_PARTS_DAMMY"
-                    }
-                  },
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
                   "_ConditionGuid": "54a9bdae-8b7d-43b9-91c9-d85f8a164c86",
                   "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
                 }
@@ -803,25 +397,13 @@
       "_OtomonLinkList": [
         {
           "app.user_data.MorphEffectData.cStatusMorphLinkData": {
-            "index": 119,
-            "_Status": {
-              "app.BattleDef.SKILL_STATUS_TYPE_Fixed": {
-                "index": 118,
-                "value": "[2398810112] SKL_STATUS_ALL_ATK_UP"
-              }
-            },
+            "_Status": "[2398810112] SKL_STATUS_ALL_ATK_UP",
             "_MorphID": "[1493950592] ID_MORPH_VISUAL_MO097_OVERHEAT"
           }
         },
         {
           "app.user_data.MorphEffectData.cStatusMorphLinkData": {
-            "index": 121,
-            "_Status": {
-              "app.BattleDef.SKILL_STATUS_TYPE_Fixed": {
-                "index": 120,
-                "value": "[1051709184] SKL_STATUS_ICE_ATK_UP"
-              }
-            },
+            "_Status": "[1051709184] SKL_STATUS_ICE_ATK_UP",
             "_MorphID": "[1493950592] ID_MORPH_VISUAL_MO097_OVERHEAT"
           }
         }

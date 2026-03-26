@@ -1,21 +1,13 @@
 [
   {
     "app.user_data.BattleCutEffectData": {
-      "index": 12,
       "_HitInfo": {
         "app.user_data.BattleCutEffectData.cHitInfo": {
-          "index": 3,
           "_HitType": 1,
           "_HitParams": [
             {
               "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
-                "index": 2,
-                "_EffHitInfoType": {
-                  "app.BattleDef.EFF_HIT_INFO_TYPE_Fixed": {
-                    "index": 1,
-                    "value": "[233481168] BTH_1050"
-                  }
-                },
+                "_EffHitInfoType": "[233481168] BTH_1050",
                 "_Frame": 40.0
               }
             }
@@ -25,13 +17,7 @@
       "_SimpleEffectInfos": [
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 5,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 4,
-                "value": "[3274668837] BAT_KZNHIT_CAMERA"
-              }
-            },
+            "_ContainerID": "[3274668837] BAT_KZNHIT_CAMERA",
             "_ElementID": 1,
             "_EffCreateType": 0,
             "_Frame": 0.0,
@@ -52,13 +38,7 @@
         },
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 7,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 6,
-                "value": "[352276881] BAT_KZNHIT_7555"
-              }
-            },
+            "_ContainerID": "[352276881] BAT_KZNHIT_7555",
             "_ElementID": 1,
             "_EffCreateType": 0,
             "_Frame": 0.0,
@@ -79,13 +59,7 @@
         },
         {
           "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
-            "index": 9,
-            "_ContainerID": {
-              "app.ContainerID.ID_Fixed": {
-                "index": 8,
-                "value": "[3457974671] BAT_KZNHIT_7637"
-              }
-            },
+            "_ContainerID": "[3457974671] BAT_KZNHIT_7637",
             "_ElementID": 1,
             "_EffCreateType": 0,
             "_Frame": 36.0,
@@ -108,15 +82,9 @@
       "_SimpleEffectInfos_Next": [],
       "_ShellInfo": {
         "app.user_data.BattleCutEffectData.cShellInfo": {
-          "index": 11,
           "_IsActive": false,
           "_Frame": 0.0,
-          "_ContainerID": {
-            "app.ContainerID.ID_Fixed": {
-              "index": 10,
-              "value": "[1281779328] INVALID"
-            }
-          },
+          "_ContainerID": "[1281779328] INVALID",
           "_ElementID": 0,
           "_MoveType": 0,
           "_StartPos": [

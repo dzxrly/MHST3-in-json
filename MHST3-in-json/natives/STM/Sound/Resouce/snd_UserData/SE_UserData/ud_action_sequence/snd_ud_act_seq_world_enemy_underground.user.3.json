@@ -1,45 +1,37 @@
 [
   {
     "app.snd_user_data.SoundActionUserCurveListData": {
-      "index": 10,
       "_ActionUserCurveList": [
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 1,
             "_UserCurveConditionList": [],
             "_Action": "2a05c2ea-8dff-4ece-bc39-c32606b6ec85"
           }
         },
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 2,
             "_UserCurveConditionList": [],
             "_Action": "3001dec3-528a-42e6-915f-9dc521a086ea"
           }
         },
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 3,
             "_UserCurveConditionList": [],
             "_Action": "3e172afd-00cd-4e53-a400-276104a8cded"
           }
         },
         {
           "app.snd_user_data.ActionUserCurvePair": {
-            "index": 7,
             "_UserCurveConditionList": [
               {
                 "app.snd_user_data.SoundActionUserCurveCondition": {
-                  "index": 6,
                   "_Condition": 0,
                   "_UserCurveInfoList": [
                     {
                       "app.snd_user_data.UserCurveInfo": {
-                        "index": 5,
                         "_UserCurveResourceInfoList": [
                           {
                             "app.snd_user_data.UserCurveResourceInfo": {
-                              "index": 4,
                               "_LoopFrame": -1.0,
                               "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_enemy_action_underground.ucurve"
                             }
@@ -59,10 +51,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 9,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 8,
+              "ref_instance_id": 8,
               "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Underground.user"
             }
           },

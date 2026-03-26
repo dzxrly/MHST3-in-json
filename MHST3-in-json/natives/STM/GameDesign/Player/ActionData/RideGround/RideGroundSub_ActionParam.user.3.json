@@ -1,17 +1,14 @@
 [
   {
     "ace.user_data.ActionParam": {
-      "index": 7,
       "_ActionClassList": [
         {
           "app.WorldPlayerRideGroundSubAction.cNone": {
-            "index": 1,
             "_ActionSafeLimitTime": -1.0
           }
         },
         {
           "app.WorldPlayerRideGroundSubAction.cStand": {
-            "index": 2,
             "_ActionSafeLimitTime": -1.0
           }
         }
@@ -20,7 +17,6 @@
       "_ActionInfoList": [
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 3,
             "_Guid": "f36e6182-a715-4140-b5e5-747cc54adb5c",
             "_ActionGuid": "9d1f3c73-04c1-49bd-bfe8-58bb6e97002e",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -31,7 +27,6 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "index": 4,
             "_Guid": "6713944e-5964-47b8-bebb-b18f7f766044",
             "_ActionGuid": "10c24810-26e9-406b-801e-e086fbb7e031",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
@@ -43,10 +38,9 @@
       ],
       "_ActionIDHolder": {
         "ace.cActionIDHolder": {
-          "index": 6,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 5,
+              "ref_instance_id": 5,
               "path": "GameDesign/Player/ActionData/RideGround/RideGroundSub_ActionID.user"
             }
           },
@@ -55,9 +49,7 @@
       },
       "_IsUseBranchedParam": false,
       "_BaseActionParam": {
-        "": {
-          "index": 0
-        }
+        "": {}
       }
     }
   }

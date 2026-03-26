@@ -1,49 +1,37 @@
 [
   {
     "ace.btable.user_data.BTable": {
-      "index": 12,
       "_Tables": {
         "ace.cInstanceGuidArray`1<ace.btable.user_data.BTable.cTableElement>": {
-          "index": 9,
           "_DataArray": [
             {
               "ace.btable.user_data.BTable.cTableElement": {
-                "index": 8,
                 "_Rows": [
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "index": 4,
                       "_OperatorHash": 667832976455454077,
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
-                          "index": 2,
                           "_EditImportBTableGuid": {
-                            "index": 1
+                            "ref_instance_id": 1
                           }
                         }
                       },
                       "_CommandHash": 0,
                       "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {
-                          "index": 3
-                        }
+                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "index": 7,
                       "_OperatorHash": 16133228108903273908,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {
-                          "index": 5
-                        }
+                        "ace.btable.cOperatorArgumentNone": {}
                       },
                       "_CommandHash": 0,
                       "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {
-                          "index": 6
-                        }
+                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   }
@@ -57,14 +45,14 @@
       "_ImportBTableList": [
         {
           "ace.btable.user_data.BTable": {
-            "index": 10,
+            "ref_instance_id": 10,
             "path": "GameDesign/AI/World/BTable/Enemy/TableAsset/World_EnemyBTable_ActionDictionary.user"
           }
         }
       ],
       "_OrderBank": {
         "ace.btable.user_data.BTableOrderBank": {
-          "index": 11,
+          "ref_instance_id": 11,
           "path": "GameDesign/AI/World/BTable/Enemy/SettingData/World_EnemyAllActionBTableOrderBank.user"
         }
       },

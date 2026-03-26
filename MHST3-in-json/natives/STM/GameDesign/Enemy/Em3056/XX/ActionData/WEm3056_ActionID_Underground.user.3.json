@@ -1,14 +1,11 @@
 [
   {
     "ace.user_data.ActionID": {
-      "index": 10,
       "_ActionIDArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
-          "index": 5,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cID": {
-                "index": 1,
                 "_Class": "cNone",
                 "_InstanceGuid": "d57eb225-5706-49a3-a618-d7e875b860fa",
                 "_OverrideOwnerClass": false,
@@ -19,7 +16,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 2,
                 "_Class": "cIdleDefaultUnderground",
                 "_InstanceGuid": "19eaa52b-fbe0-02ba-3f99-56e0f7f30df8",
                 "_OverrideOwnerClass": false,
@@ -30,7 +26,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 3,
                 "_Class": "cIdleUnderground",
                 "_InstanceGuid": "609eb658-82c3-46f4-9e6e-9e05e6d24a6f",
                 "_OverrideOwnerClass": true,
@@ -41,7 +36,6 @@
             },
             {
               "ace.user_data.ActionID.cID": {
-                "index": 4,
                 "_Class": "cGoOutUnderground",
                 "_InstanceGuid": "333af72d-444b-0080-1909-ec1b6076bbbb",
                 "_OverrideOwnerClass": true,
@@ -55,11 +49,9 @@
       },
       "_ExportSettingArray": {
         "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
-          "index": 7,
           "_DataArray": [
             {
               "ace.user_data.ActionID.cExport": {
-                "index": 6,
                 "_Guid": "8c54052d-61a7-4a23-a1e2-02d652b14a9a",
                 "_ClassName": "WEm3056_Action_Underground",
                 "_ActionCategory": 3
@@ -70,10 +62,9 @@
       },
       "_BaseActionID": {
         "ace.cActionIDHolder": {
-          "index": 9,
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "index": 8,
+              "ref_instance_id": 8,
               "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Underground.user"
             }
           },

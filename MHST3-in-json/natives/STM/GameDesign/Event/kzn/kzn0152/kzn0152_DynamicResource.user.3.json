@@ -1,11 +1,9 @@
 [
   {
     "app.user_data.TimelineEventDynamicResourceData": {
-      "index": 44,
       "_EventID": 20152,
       "_SearchIDHash": {
         "ace.cStrHash": {
-          "index": 1,
           "_Hash": 0
         }
       },
@@ -14,7 +12,6 @@
       "_EventStageItemList": [
         {
           "app.user_data.TimelineEventDynamicResourceDataBase.EventStageItem": {
-            "index": 2,
             "_SubEventID": 0,
             "_StageID": "[849412224] es982",
             "_IsFirstDraw": true
@@ -27,7 +24,6 @@
       "_SubEventItemList": [
         {
           "app.user_data.TimelineEventDynamicResourceData.SubEventItem": {
-            "index": 15,
             "_SubEventID": 0,
             "_CutFrameData": [
               0,
@@ -40,16 +36,13 @@
             "_ActorItemList": [
               {
                 "app.user_data.TimelineEventDynamicResourceData.FlowActorItem": {
-                  "index": 5,
                   "_EventNameHash": {
                     "ace.cStrHash": {
-                      "index": 3,
                       "_Hash": 1602691971
                     }
                   },
                   "_ActorTransformData": {
                     "app.user_data.TimelineEventDynamicResourceData.TransformData": {
-                      "index": 4,
                       "_StartPos": [
                         0.0,
                         0.0,
@@ -68,16 +61,13 @@
               },
               {
                 "app.user_data.TimelineEventDynamicResourceData.FlowActorItem": {
-                  "index": 8,
                   "_EventNameHash": {
                     "ace.cStrHash": {
-                      "index": 6,
                       "_Hash": 1056028259
                     }
                   },
                   "_ActorTransformData": {
                     "app.user_data.TimelineEventDynamicResourceData.TransformData": {
-                      "index": 7,
                       "_StartPos": [
                         0.0,
                         0.0,
@@ -96,16 +86,13 @@
               },
               {
                 "app.user_data.TimelineEventDynamicResourceData.FlowActorItem": {
-                  "index": 11,
                   "_EventNameHash": {
                     "ace.cStrHash": {
-                      "index": 9,
                       "_Hash": 3325661106
                     }
                   },
                   "_ActorTransformData": {
                     "app.user_data.TimelineEventDynamicResourceData.TransformData": {
-                      "index": 10,
                       "_StartPos": [
                         0.0,
                         0.0,
@@ -125,12 +112,10 @@
             ],
             "_CameraData": {
               "app.user_data.TimelineEventDynamicResourceData.CameraData": {
-                "index": 13,
                 "_FadeTimeStart": 0.0,
                 "_FadeTimeEnd": 0.0,
                 "_StartCameraParam": {
                   "app.user_data.TimelineEventDynamicResourceData.EventStartCameraParam": {
-                    "index": 12,
                     "_Pos": [
                       1.847999930381775,
                       1.3525784015655518,
@@ -172,7 +157,7 @@
             "_IsPictureDemo": false,
             "_CutListData": {
               "app.user_data.CutsceneCutListData": {
-                "index": 14,
+                "ref_instance_id": 14,
                 "path": "GameDesign/Event/kzn/kzn0152/kzn0152_00/kzn0152_00_CutData.user"
               }
             }
@@ -182,7 +167,6 @@
       "_FlowItemList": [
         {
           "app.user_data.TimelineEventDynamicResourceData.FlowItem": {
-            "index": 16,
             "_FlowID": 0,
             "_SubEventIDList": [
               0
@@ -192,7 +176,6 @@
       ],
       "_MainItem": {
         "app.user_data.TimelineEventDynamicResourceData.EventItem": {
-          "index": 42,
           "_IsDisableStartFSM": false,
           "_IsDisableEndFSM": false,
           "_MainStoryFlag": "[1038238208] INVALID",
@@ -213,39 +196,31 @@
           "_ActorItemList": [
             {
               "app.user_data.TimelineEventDynamicResourceData.EventActorItem": {
-                "index": 24,
                 "_CommentIDHash": {
                   "ace.cStrHash": {
-                    "index": 17,
                     "_Hash": 2180083513
                   }
                 },
                 "_ActorIDNameHash": {
                   "ace.cStrHash": {
-                    "index": 18,
                     "_Hash": 2548571603
                   }
                 },
                 "_EventNameHash": {
                   "ace.cStrHash": {
-                    "index": 19,
                     "_Hash": 1602691971
                   }
                 },
                 "_TagNameHash": {
                   "ace.cStrHash": {
-                    "index": 20,
                     "_Hash": 0
                   }
                 },
                 "_MotionConnectBank": {
-                  "": {
-                    "index": 0
-                  }
+                  "": {}
                 },
                 "_UniqueActorEventFlag": {
                   "ace.Bitset`1<app.user_data.TimelineEventDynamicResourceData.EventActorItem.UNIQUE_EVENT_ACTOR_FLAG>": {
-                    "index": 21,
                     "_Value": [
                       0
                     ],
@@ -254,12 +229,7 @@
                 },
                 "_ActorType": 1,
                 "_ActorID": 0,
-                "_BindTargetID_Serializable": {
-                  "app.AppEventDefine.EV_BIND_TARGET_ID_Fixed": {
-                    "index": 22,
-                    "value": 0
-                  }
-                },
+                "_BindTargetID_Serializable": 0,
                 "_IsBind": false,
                 "_IsNotPrefabSize": false,
                 "_Size": [
@@ -280,7 +250,6 @@
                 "_PrevGuid": "",
                 "_ParentCharaResourceIDHash": {
                   "ace.cStrHash": {
-                    "index": 23,
                     "_Hash": 2180083513
                   }
                 }
@@ -288,39 +257,31 @@
             },
             {
               "app.user_data.TimelineEventDynamicResourceData.EventActorItem": {
-                "index": 32,
                 "_CommentIDHash": {
                   "ace.cStrHash": {
-                    "index": 25,
                     "_Hash": 2180083513
                   }
                 },
                 "_ActorIDNameHash": {
                   "ace.cStrHash": {
-                    "index": 26,
                     "_Hash": 1716413449
                   }
                 },
                 "_EventNameHash": {
                   "ace.cStrHash": {
-                    "index": 27,
                     "_Hash": 1056028259
                   }
                 },
                 "_TagNameHash": {
                   "ace.cStrHash": {
-                    "index": 28,
                     "_Hash": 0
                   }
                 },
                 "_MotionConnectBank": {
-                  "": {
-                    "index": 0
-                  }
+                  "": {}
                 },
                 "_UniqueActorEventFlag": {
                   "ace.Bitset`1<app.user_data.TimelineEventDynamicResourceData.EventActorItem.UNIQUE_EVENT_ACTOR_FLAG>": {
-                    "index": 29,
                     "_Value": [
                       0
                     ],
@@ -329,12 +290,7 @@
                 },
                 "_ActorType": 2,
                 "_ActorID": 0,
-                "_BindTargetID_Serializable": {
-                  "app.AppEventDefine.EV_BIND_TARGET_ID_Fixed": {
-                    "index": 30,
-                    "value": 0
-                  }
-                },
+                "_BindTargetID_Serializable": 0,
                 "_IsBind": false,
                 "_IsNotPrefabSize": false,
                 "_Size": [
@@ -355,7 +311,6 @@
                 "_PrevGuid": "",
                 "_ParentCharaResourceIDHash": {
                   "ace.cStrHash": {
-                    "index": 31,
                     "_Hash": 2180083513
                   }
                 }
@@ -363,39 +318,31 @@
             },
             {
               "app.user_data.TimelineEventDynamicResourceData.EventActorItem": {
-                "index": 40,
                 "_CommentIDHash": {
                   "ace.cStrHash": {
-                    "index": 33,
                     "_Hash": 2180083513
                   }
                 },
                 "_ActorIDNameHash": {
                   "ace.cStrHash": {
-                    "index": 34,
                     "_Hash": 3325661106
                   }
                 },
                 "_EventNameHash": {
                   "ace.cStrHash": {
-                    "index": 35,
                     "_Hash": 3325661106
                   }
                 },
                 "_TagNameHash": {
                   "ace.cStrHash": {
-                    "index": 36,
                     "_Hash": 0
                   }
                 },
                 "_MotionConnectBank": {
-                  "": {
-                    "index": 0
-                  }
+                  "": {}
                 },
                 "_UniqueActorEventFlag": {
                   "ace.Bitset`1<app.user_data.TimelineEventDynamicResourceData.EventActorItem.UNIQUE_EVENT_ACTOR_FLAG>": {
-                    "index": 37,
                     "_Value": [
                       0
                     ],
@@ -404,12 +351,7 @@
                 },
                 "_ActorType": 8,
                 "_ActorID": 0,
-                "_BindTargetID_Serializable": {
-                  "app.AppEventDefine.EV_BIND_TARGET_ID_Fixed": {
-                    "index": 38,
-                    "value": 0
-                  }
-                },
+                "_BindTargetID_Serializable": 0,
                 "_IsBind": false,
                 "_IsNotPrefabSize": false,
                 "_Size": [
@@ -430,7 +372,6 @@
                 "_PrevGuid": "",
                 "_ParentCharaResourceIDHash": {
                   "ace.cStrHash": {
-                    "index": 39,
                     "_Hash": 2180083513
                   }
                 }
@@ -440,7 +381,6 @@
           "_PauseTagFlags": 0,
           "_EventStandbyData": {
             "app.user_data.TimelineEventDynamicResourceData.StandbyData": {
-              "index": 41,
               "_IsTargetPosDisable": false,
               "_IsTargetPosManual": false,
               "_TargetPos": [
@@ -458,17 +398,13 @@
               "_EndPosAdjustTime": 0.0,
               "_EndPosAdjustEaseType": 0,
               "_MotionConnectBank": {
-                "": {
-                  "index": 0
-                }
+                "": {}
               },
               "_TimeLimit": 0.0,
               "_ArriveDist": 0.0,
               "_StandbySkipDist": 0.0,
               "_MotionConnectBankInEvent": {
-                "": {
-                  "index": 0
-                }
+                "": {}
               }
             }
           },
@@ -486,7 +422,6 @@
       },
       "_SubCameraMainItem": {
         "app.user_data.TimelineEventDynamicResourceData.SubCameraItem": {
-          "index": 43,
           "_SubCameraInfo": []
         }
       }

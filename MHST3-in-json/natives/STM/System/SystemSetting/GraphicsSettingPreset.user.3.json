@@ -1,16 +1,13 @@
 [
   {
     "app.user_data.AppGraphicsSettingPreset": {
-      "index": 93,
       "_RendererSetting": {
         "ace.user_data.GraphicsSettingPresetBase.cRendererSetting": {
-          "index": 1,
           "_NormalRecalculationReleaseBuffer": false
         }
       },
       "_MeshRendererSetting": {
         "ace.user_data.GraphicsSettingPresetBase.cMeshRendererSetting": {
-          "index": 2,
           "_DitheredLodTransitionTime": 0.25,
           "_ShadowLodSyncMode": 1,
           "_UseGpuFrustumCulling": false,
@@ -21,7 +18,6 @@
       },
       "_LightRendererSetting": {
         "ace.user_data.GraphicsSettingPresetBase.cLightRendererSetting": {
-          "index": 3,
           "_LightingTarget": 3,
           "_RTLightingTarget": 3,
           "STRUCT__UserStencilDisableScreenSpaceShadow__Value": 0,
@@ -32,7 +28,6 @@
       },
       "_MPMR": {
         "ace.user_data.GraphicsSettingPresetBase.cMPMR": {
-          "index": 4,
           "_InstanceOcclusionTestBias": 3,
           "_ClusterOcclusionTestBias": 3,
           "_ContributePreZForCull": true,
@@ -44,7 +39,6 @@
       },
       "_RangeCompression": {
         "ace.user_data.GraphicsSettingPresetBase.cRangeCompression": {
-          "index": 5,
           "_AutoRangeCompression": false,
           "_AutoRangeCompressionBaseEV": 15.0,
           "_BaseAutoRangeCompression": 10.0,
@@ -54,7 +48,6 @@
       },
       "_OpenColorIOManager": {
         "ace.user_data.GraphicsSettingPresetBase.cOpenColorIOManager": {
-          "index": 6,
           "_CyanLimit": 1.1469999551773071,
           "_MagentaLimit": 1.2640000581741333,
           "_YellowLimit": 1.312000036239624,
@@ -67,7 +60,6 @@
       "_StreamingTextureSettingList": [
         {
           "ace.user_data.GraphicsSettingPresetBase.cStreamingTextureSetting": {
-            "index": 7,
             "_Quality": 1,
             "_VRAMThresholdSizeMB": 0,
             "_StreamingBudgetSizeMB": 512,
@@ -78,7 +70,6 @@
         },
         {
           "ace.user_data.GraphicsSettingPresetBase.cStreamingTextureSetting": {
-            "index": 8,
             "_Quality": 2,
             "_VRAMThresholdSizeMB": 7000,
             "_StreamingBudgetSizeMB": 1000,
@@ -89,7 +80,6 @@
         },
         {
           "ace.user_data.GraphicsSettingPresetBase.cStreamingTextureSetting": {
-            "index": 9,
             "_Quality": 3,
             "_VRAMThresholdSizeMB": 10000,
             "_StreamingBudgetSizeMB": 3000,
@@ -100,7 +90,6 @@
         },
         {
           "ace.user_data.GraphicsSettingPresetBase.cStreamingTextureSetting": {
-            "index": 10,
             "_Quality": 4,
             "_VRAMThresholdSizeMB": 17000,
             "_StreamingBudgetSizeMB": 8000,
@@ -112,7 +101,6 @@
       ],
       "_RayTracingManagerSetting": {
         "ace.user_data.GraphicsSettingPresetBase.cRayTracingManagerSetting": {
-          "index": 11,
           "_DiffuseRayMaxIterationCount": 4294967295,
           "_SpecularRayMaxIterationCount": 4294967295
         }
@@ -120,7 +108,6 @@
       "_DataList": [
         {
           "app.cAppGraphicsSetting": {
-            "index": 15,
             "_Platform": 2,
             "_Usage": 3079,
             "_DynamicResolutionMode": 0,
@@ -209,7 +196,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 12,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -238,7 +224,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 13,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -341,7 +326,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 14,
                 "_AntiAliasing": 0,
                 "_RenderingScale": 0,
                 "_TextureQuality": 1,
@@ -365,7 +349,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 19,
             "_Platform": 2,
             "_Usage": 18911,
             "_DynamicResolutionMode": 0,
@@ -454,7 +437,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 16,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -483,7 +465,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 17,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -586,7 +567,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 18,
                 "_AntiAliasing": 0,
                 "_RenderingScale": 0,
                 "_TextureQuality": 2,
@@ -610,7 +590,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 23,
             "_Platform": 2,
             "_Usage": 32136,
             "_DynamicResolutionMode": 0,
@@ -699,7 +678,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 20,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -728,7 +706,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 21,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -831,7 +808,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 22,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 3,
@@ -855,7 +831,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 27,
             "_Platform": 16,
             "_Usage": 3079,
             "_DynamicResolutionMode": 0,
@@ -944,7 +919,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 24,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -973,7 +947,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 25,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -1076,7 +1049,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 26,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -1100,7 +1072,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 31,
             "_Platform": 16,
             "_Usage": 18911,
             "_DynamicResolutionMode": 0,
@@ -1189,7 +1160,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 28,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -1218,7 +1188,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 29,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -1321,7 +1290,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 30,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -1345,7 +1313,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 35,
             "_Platform": 16,
             "_Usage": 32136,
             "_DynamicResolutionMode": 0,
@@ -1434,7 +1401,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 32,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -1463,7 +1429,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 33,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -1566,7 +1531,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 34,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -1590,7 +1554,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 39,
             "_Platform": 32,
             "_Usage": 3079,
             "_DynamicResolutionMode": 0,
@@ -1679,7 +1642,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 36,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -1708,7 +1670,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 37,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -1811,7 +1772,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 38,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -1835,7 +1795,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 43,
             "_Platform": 32,
             "_Usage": 18911,
             "_DynamicResolutionMode": 0,
@@ -1924,7 +1883,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 40,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -1953,7 +1911,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 41,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -2056,7 +2013,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 42,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -2080,7 +2036,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 47,
             "_Platform": 32,
             "_Usage": 32136,
             "_DynamicResolutionMode": 0,
@@ -2169,7 +2124,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 44,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -2198,7 +2152,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 45,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -2301,7 +2254,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 46,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -2325,7 +2277,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 51,
             "_Platform": 64,
             "_Usage": 3079,
             "_DynamicResolutionMode": 0,
@@ -2414,7 +2365,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 48,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -2443,7 +2393,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 49,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -2546,7 +2495,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 50,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -2570,7 +2518,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 55,
             "_Platform": 64,
             "_Usage": 18911,
             "_DynamicResolutionMode": 0,
@@ -2659,7 +2606,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 52,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -2688,7 +2634,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 53,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -2791,7 +2736,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 54,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -2815,7 +2759,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 59,
             "_Platform": 64,
             "_Usage": 32136,
             "_DynamicResolutionMode": 0,
@@ -2904,7 +2847,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 56,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -2933,7 +2875,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 57,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -3036,7 +2977,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 58,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -3060,7 +3000,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 63,
             "_Platform": 128,
             "_Usage": 3079,
             "_DynamicResolutionMode": 0,
@@ -3149,7 +3088,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 60,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -3178,7 +3116,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 61,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -3281,7 +3218,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 62,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -3305,7 +3241,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 67,
             "_Platform": 128,
             "_Usage": 18911,
             "_DynamicResolutionMode": 0,
@@ -3394,7 +3329,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 64,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -3423,7 +3357,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 65,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -3526,7 +3459,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 66,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -3550,7 +3482,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 71,
             "_Platform": 128,
             "_Usage": 32136,
             "_DynamicResolutionMode": 0,
@@ -3639,7 +3570,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 68,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -3668,7 +3598,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 69,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -3771,7 +3700,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 70,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -3795,7 +3723,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 75,
             "_Platform": 12,
             "_Usage": 18911,
             "_DynamicResolutionMode": 0,
@@ -3884,7 +3811,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 72,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -3913,7 +3839,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 73,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -4016,7 +3941,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 74,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 4,
@@ -4040,7 +3964,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 79,
             "_Platform": 256,
             "_Usage": 18911,
             "_DynamicResolutionMode": 0,
@@ -4129,7 +4052,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 76,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -4158,7 +4080,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 77,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -4261,7 +4182,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 78,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -4285,7 +4205,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 83,
             "_Platform": 256,
             "_Usage": 32136,
             "_DynamicResolutionMode": 0,
@@ -4374,7 +4293,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 80,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -4403,7 +4321,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 81,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 6,
@@ -4506,7 +4423,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 82,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 0,
                 "_TextureQuality": 0,
@@ -4530,7 +4446,6 @@
         },
         {
           "app.cAppGraphicsSetting": {
-            "index": 87,
             "_Platform": -1,
             "_Usage": 27366,
             "_DynamicResolutionMode": 0,
@@ -4619,7 +4534,6 @@
             "_EffectVolume": 1.0,
             "_RayTracing": {
               "ace.cGraphicsSetting.cRayTracing": {
-                "index": 84,
                 "_Enable": false,
                 "_Quality": 2,
                 "_SpecularRoughnessThresholdQuality": 2,
@@ -4648,7 +4562,6 @@
             },
             "_ExperimentalRayTrace": {
               "ace.cGraphicsSetting.cExperimentalRayTrace": {
-                "index": 85,
                 "_RenderOutputID": 15,
                 "_SmallObjectCullingFactor": 1.0,
                 "_RaytracingMode": 7,
@@ -4751,7 +4664,6 @@
             },
             "_GraphicsSettingConditions": {
               "app.cGraphicsSettingConditions": {
-                "index": 86,
                 "_AntiAliasing": 1,
                 "_RenderingScale": 1,
                 "_TextureQuality": 1,
@@ -4777,7 +4689,6 @@
       "_DynamicResolutionParamList": [
         {
           "ace.user_data.GraphicsSettingPresetBase.cDynamicResolutionParamEx`1<app.DynamicResolutionMode.MODE>": {
-            "index": 88,
             "_Mode": 1,
             "_MinImageQuality": 0.699999988079071,
             "_ResolutionLevels": 10,
@@ -4791,7 +4702,6 @@
         },
         {
           "ace.user_data.GraphicsSettingPresetBase.cDynamicResolutionParamEx`1<app.DynamicResolutionMode.MODE>": {
-            "index": 89,
             "_Mode": 2,
             "_MinImageQuality": 0.5,
             "_ResolutionLevels": 10,
@@ -4805,7 +4715,6 @@
         },
         {
           "ace.user_data.GraphicsSettingPresetBase.cDynamicResolutionParamEx`1<app.DynamicResolutionMode.MODE>": {
-            "index": 90,
             "_Mode": 3,
             "_MinImageQuality": 0.5,
             "_ResolutionLevels": 10,
@@ -4819,7 +4728,6 @@
         },
         {
           "ace.user_data.GraphicsSettingPresetBase.cDynamicResolutionParamEx`1<app.DynamicResolutionMode.MODE>": {
-            "index": 91,
             "_Mode": 4,
             "_MinImageQuality": 0.699999988079071,
             "_ResolutionLevels": 10,
@@ -4833,7 +4741,6 @@
         },
         {
           "ace.user_data.GraphicsSettingPresetBase.cDynamicResolutionParamEx`1<app.DynamicResolutionMode.MODE>": {
-            "index": 92,
             "_Mode": 5,
             "_MinImageQuality": 0.800000011920929,
             "_ResolutionLevels": 5,
