@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 
+from msg_converter import MsgConverter
 from user3_exporter import User3Exporter
 
 
@@ -53,6 +54,19 @@ def main() -> None:
         tree_depth = "auto"
     else:
         tree_depth = int(args.tree_depth)
+
+    # Convert .msg.23 files to JSON
+    print("Converting .msg.23 files to JSON...")
+    msg_converter = MsgConverter(
+        input_root=args.input_dir,
+        output_root=args.output_dir,
+        exclude_regexes=args.exclude_regex,
+    )
+    msg_result = msg_converter.run()
+    print(
+        "Converted .msg.23 files to JSON. Done:",
+        json.dumps(msg_result, ensure_ascii=False),
+    )
 
     # Export .user.3 files to JSON
     print("Exporting .user.3 files to JSON...")

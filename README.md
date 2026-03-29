@@ -95,35 +95,87 @@ python .\non-native-dumper.py --out_postfix="mhst3" --natives_path=".\native_lay
 
 运行完成后，就能看到最终生成的RE_RSZ模板文件：`rszmhst3.json`。
 
-## 1 `.user.3`数据包导出
+## 1 `.user.3`和`.msg.23`数据包导出
 
-使用上面提到的[ree-pak-rs](https://github.com/eigeen/ree-pak-rs)工具解包导出所有`.user.3`文件，推荐在软件左下角的过滤器里输入`.user.3`并点击”应用过滤器“。此时加载文件树就只剩下正确的文件了，找的目录提取保存即可。
+- `.user.3`：使用上面提到的[ree-pak-rs](https://github.com/eigeen/ree-pak-rs)工具解包导出所有`.user.3`文件，推荐在软件左下角的过滤器里输入`.user.3`并点击”应用过滤器“。此时加载文件树就只剩下正确的文件了，找的目录提取保存即可。
 
 ![`.user.3`数据包导出](./img/11.png)
+  
+- `.msg.23`：同理，使用上面提到的[ree-pak-rs](https://github.com/eigeen/ree-pak-rs)工具解包导出所有`.msg.23`文件，推荐在软件左下角的过滤器里输入`.msg.23`并点击”应用过滤器“。此时加载文件树就只剩下正确的文件了，找的目录提取保存即可。
 
 ## 2 JSON大包导出
 
-下载本仓库main分支的以下文件：
+当前`main.py`会执行两步：
+
+1. 导出`.user.3`为JSON；
+2. 导出`.msg.23`为JSON（通过`REMSG_Converter`的Python模块）。
+
+### 2.1 拉取仓库与子模块
+
+如果你是首次克隆，推荐直接带子模块：
+
+```bash
+git clone --recurse-submodules <本仓库地址>
+```
+
+如果你已经克隆过仓库，再执行一次子模块初始化/更新：
+
+```bash
+git submodule update --init --recursive
+```
+
+确认目录中存在：
 
 1. [main.py](./main.py)
 2. [user3_exporter.py](./user3_exporter.py)
-3. [requirements.txt](./requirements.txt)
+3. [msg_converter.py](./msg_converter.py)
+4. [requirements.txt](./requirements.txt)
+5. [REMSG_Converter](./REMSG_Converter)
 
-安装[requirements.txt](./requirements.txt)中的PyPi包。
+### 2.2 安装依赖
 
-运行命令：
+先安装主项目依赖：
 
 ```bash
-python main.py --input-dir <.user.3数据包的保存目录> -s <RE_RSZ模板文件路径> --output-dir <导出的json大包的保存目录> 
+pip install -r requirements.txt
 ```
+
+再安装`REMSG_Converter`子模块依赖：
+
+```bash
+pip install -r REMSG_Converter/requirements.txt
+```
+
+### 2.3 运行命令
+
+```bash
+python main.py --input-dir <解包后的数据根目录> -s <RE_RSZ模板文件路径> --output-dir <导出的JSON保存目录>
+```
+
+例如：
+
+- 输入目录里既可以有`.user.3`，也可以有`.msg.23`；
+- 输出目录会按输入目录的相对路径还原结构；
+- `.msg.23`会输出为同名追加`.json`，例如：`abc.msg.23 -> abc.msg.23.json`。
 
 其中，`main.py`支持的参数如下：
 
 - 必填参数：
-  - `--input-dir`，`-i`：步骤1中提取到的`.user.3`数据包的目录，目录结构无所谓，会自动检测并按照你导出时的目录结构还原；
+  - `--input-dir`，`-i`：步骤1中提取到的数据包根目录，支持递归扫描；
   - `--schema-dir`，`-s`：步骤0中导出的RE_RSZ模板文件路径，比如物语3的`rszmhst3.json`；
-  - `--output-dir`，`-o`：最终导出的JSON大包的保存目录；
+  - `--output-dir`，`-o`：最终导出的JSON保存目录；
 - 可选参数：
   - `--tree-depth`，`-d`：构建RSZ数据时检测的结构深度，只能填写非负整数或者`auto`，默认`auto`；
   - `--exclude-regex`，`-x`：用于排除某些文件或目录的正则表达式，可以以空格形式分隔填写多组，默认为空（如果是物语3的话推荐填`"(^|/)Voxel(/|$)"`，可以排除一些几乎没啥用且体积太大的数据包）。
+
+### 2.4 `.msg.23`转换补充说明
+
+- `main.py`内部会调用`msg_converter.py`，由它动态导入`REMSG_Converter/src/REMSGUtil.py`执行转换；
+- 因为是子模块调用，请不要删除或移动[REMSG_Converter](./REMSG_Converter)目录；
+- 若你更新了子模块版本，建议重新执行一次：
+
+```bash
+git submodule update --init --recursive
+pip install -r REMSG_Converter/requirements.txt
+```
 
