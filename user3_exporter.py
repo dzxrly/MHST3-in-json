@@ -1080,6 +1080,20 @@ class User3Exporter:
             return [self._finalize_export_tree(item) for item in value]
         return value
 
+    def _round_export_floats(self, value: Any) -> Any:
+        """Recursively round float values for cleaner JSON display.
+
+        @param value Nested value.
+        @return Value with float nodes rounded to 4 decimals.
+        """
+        if isinstance(value, dict):
+            return {k: self._round_export_floats(v) for k, v in value.items()}
+        if isinstance(value, list):
+            return [self._round_export_floats(item) for item in value]
+        if isinstance(value, float):
+            return round(value, 4)
+        return value
+
     def run(self) -> dict[str, int]:
         """Run export pipeline for all discovered files.
 
@@ -1115,6 +1129,7 @@ class User3Exporter:
             tree = self._parse_user3(user3_file)
             tree = self._postprocess_enum_nodes(tree)
             tree = self._finalize_export_tree(tree)
+            tree = self._round_export_floats(tree)
             output_path = self._output_path_for(user3_file)
             output_path.parent.mkdir(parents=True, exist_ok=True)
             with output_path.open("w", encoding="utf-8") as f:
