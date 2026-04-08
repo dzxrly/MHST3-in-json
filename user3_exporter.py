@@ -406,6 +406,7 @@ class User3Exporter:
         output_root: str | Path,
         tree_depth: int | str = "auto",
         exclude_regexes: list[str] | None = None,
+        il2cpp_dump_path: str | Path | None = None,
     ):
         """Initialize exporter configuration and runtime state.
 
@@ -414,11 +415,15 @@ class User3Exporter:
         @param output_root Output root directory.
         @param tree_depth Tree depth integer or `"auto"`.
         @param exclude_regexes Optional regex list used to exclude files.
+        @param il2cpp_dump_path Optional explicit path to `il2cpp_dump.json`.
         @return None.
         """
         self.user3_root = Path(user3_root)
         self.schema_dir = Path(schema_dir)
         self.output_root = Path(output_root)
+        self.il2cpp_dump_path = (
+            Path(il2cpp_dump_path) if il2cpp_dump_path is not None else None
+        )
         self.tree_depth = self._normalize_tree_depth(tree_depth)
         self.exclude_regexes = exclude_regexes or []
         self._exclude_patterns = [re.compile(p) for p in self.exclude_regexes]
@@ -651,6 +656,9 @@ class User3Exporter:
 
         @return Existing il2cpp dump path or None.
         """
+        if self.il2cpp_dump_path is not None:
+            return self.il2cpp_dump_path if self.il2cpp_dump_path.is_file() else None
+
         candidates: list[Path] = []
         if self.user3_root.is_dir():
             candidates.append(self.user3_root / "il2cpp_dump.json")

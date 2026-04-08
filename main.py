@@ -47,6 +47,15 @@ def main() -> None:
             "Can be used multiple times."
         ),
     )
+    parser.add_argument(
+        "--il2cpp-dump-path",
+        "-p",
+        default=None,
+        help=(
+            "Path to il2cpp_dump.json. "
+            "When provided, enum metadata generation will use this file directly."
+        ),
+    )
     args = parser.parse_args()
 
     tree_depth: int | str
@@ -76,6 +85,7 @@ def main() -> None:
         output_root=args.output_dir,
         tree_depth=tree_depth,
         exclude_regexes=args.exclude_regex,
+        il2cpp_dump_path=args.il2cpp_dump_path,
     )
     result = exporter.run()
     print(
