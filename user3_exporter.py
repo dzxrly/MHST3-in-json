@@ -406,7 +406,7 @@ class User3Exporter:
         output_root: str | Path,
         tree_depth: int | str = "auto",
         exclude_regexes: list[str] | None = None,
-        il2cpp_dump_path: str | Path | None = None,
+        il2cpp_dump_path: str | Path = "",
     ):
         """Initialize exporter configuration and runtime state.
 
@@ -415,21 +415,22 @@ class User3Exporter:
         @param output_root Output root directory.
         @param tree_depth Tree depth integer or `"auto"`.
         @param exclude_regexes Optional regex list used to exclude files.
-        @param il2cpp_dump_path Optional explicit path to `il2cpp_dump.json`.
+        @param il2cpp_dump_path Required explicit path to `il2cpp_dump.json`.
         @return None.
         """
         self.user3_root = Path(user3_root)
         self.schema_dir = Path(schema_dir)
         self.output_root = Path(output_root)
-        self.il2cpp_dump_path = (
-            Path(il2cpp_dump_path) if il2cpp_dump_path is not None else None
-        )
+        self.il2cpp_dump_path = Path(il2cpp_dump_path)
+        if not self.il2cpp_dump_path.is_file():
+            raise FileNotFoundError(
+                f"il2cpp_dump.json not found: {self.il2cpp_dump_path}"
+            )
         self.tree_depth = self._normalize_tree_depth(tree_depth)
         self.exclude_regexes = exclude_regexes or []
         self._exclude_patterns = [re.compile(p) for p in self.exclude_regexes]
         self.schema_path = self._resolve_schema_path(self.schema_dir)
         self.typedb = TypeDB.load(self.schema_path)
-        self.enums_internal_path: Path | None = None
         self.enum_lookup = self._load_enum_lookup()
         self.class_field_fixed_types: dict[str, dict[str, str]] = {}
         self.serializable_to_fixed: dict[str, str] = {}
@@ -607,7 +608,6 @@ class User3Exporter:
 
         @return Existing `Enums_Internal.json` path or None.
         """
-        # Enums_Internal.json is always stored under MHST3-in-json (output_root).
         path = self.output_root / "Enums_Internal.json"
         return path if path.is_file() else None
 
@@ -616,12 +616,11 @@ class User3Exporter:
 
         @return Mapping: fixed enum type -> {serialized/int32 variants -> (name, fixed_value)}.
         """
-        path = self._resolve_enums_internal_path()
-        self.enums_internal_path = path
-        if path is None:
+        source_path = self._resolve_enums_internal_path()
+        if source_path is None:
             return {}
         try:
-            with path.open("r", encoding="utf-8") as f:
+            with source_path.open("r", encoding="utf-8") as f:
                 raw = json.load(f)
         except Exception:
             return {}
@@ -656,21 +655,29 @@ class User3Exporter:
 
         @return Existing il2cpp dump path or None.
         """
-        if self.il2cpp_dump_path is not None:
-            return self.il2cpp_dump_path if self.il2cpp_dump_path.is_file() else None
+        return self.il2cpp_dump_path if self.il2cpp_dump_path.is_file() else None
 
-        candidates: list[Path] = []
-        if self.user3_root.is_dir():
-            candidates.append(self.user3_root / "il2cpp_dump.json")
-            candidates.append(self.user3_root.parent / "il2cpp_dump.json")
-            candidates.append(self.user3_root.parent.parent / "il2cpp_dump.json")
-        else:
-            candidates.append(self.user3_root.parent / "il2cpp_dump.json")
-            candidates.append(self.user3_root.parent.parent / "il2cpp_dump.json")
-        for path in candidates:
-            if path.is_file():
-                return path
-        return None
+    def _ensure_internal_metadata_files(self) -> None:
+        """Generate `Enums_Internal.json` under output root from required il2cpp dump.
+
+        @return None.
+        """
+        dump_path = self._resolve_il2cpp_dump_path()
+        if dump_path is None:
+            raise FileNotFoundError(
+                f"il2cpp_dump.json not found: {self.il2cpp_dump_path}"
+            )
+        try:
+            with dump_path.open("r", encoding="utf-8") as f:
+                il2cpp_dump = json.load(f)
+        except Exception as exc:
+            raise ParseError(f"failed to read il2cpp dump: {dump_path}") from exc
+
+        self.output_root.mkdir(parents=True, exist_ok=True)
+        enums_out = self.output_root / "Enums_Internal.json"
+        enums_internal = self.export_enums_internal(il2cpp_dump)
+        with enums_out.open("w", encoding="utf-8") as f:
+            json.dump(enums_internal, f, ensure_ascii=False, indent=2)
 
     def _rebuild_enum_member_index(self) -> None:
         """Build reverse index: enum member name -> possible fixed enum types."""
@@ -784,27 +791,6 @@ class User3Exporter:
         self._apply_enum_context(context)
         return True
 
-    def _ensure_internal_metadata_files(self) -> None:
-        """Ensure `Enums_Internal.json` exists under output root.
-
-        @return None.
-        """
-        enums_out = self.output_root / "Enums_Internal.json"
-        if enums_out.is_file():
-            return
-        dump_path = self._resolve_il2cpp_dump_path()
-        if dump_path is None:
-            return
-        try:
-            with dump_path.open("r", encoding="utf-8") as f:
-                il2cpp_dump = json.load(f)
-        except Exception:
-            return
-        self.output_root.mkdir(parents=True, exist_ok=True)
-        enums_internal = self.export_enums_internal(il2cpp_dump)
-        with enums_out.open("w", encoding="utf-8") as f:
-            json.dump(enums_internal, f, ensure_ascii=False, indent=2)
-
     def _ensure_enum_lookup(self) -> None:
         """Validate enum/context readiness and print warnings.
 
@@ -816,11 +802,7 @@ class User3Exporter:
         self.enum_lookup = self._load_enum_lookup()
         self._rebuild_enum_member_index()
         if not self.enum_lookup:
-            source = (
-                str(self.enums_internal_path)
-                if self.enums_internal_path
-                else "not found"
-            )
+            source = str(self.output_root / "Enums_Internal.json")
             print(
                 f"[warn] Enums_Internal not loaded, enum value formatting disabled (source: {source})"
             )

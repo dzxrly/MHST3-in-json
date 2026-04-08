@@ -50,10 +50,10 @@ def main() -> None:
     parser.add_argument(
         "--il2cpp-dump-path",
         "-p",
-        default=None,
+        required=True,
         help=(
             "Path to il2cpp_dump.json. "
-            "When provided, enum metadata generation will use this file directly."
+            "This parameter is required and used to generate Enums_Internal.json."
         ),
     )
     args = parser.parse_args()
