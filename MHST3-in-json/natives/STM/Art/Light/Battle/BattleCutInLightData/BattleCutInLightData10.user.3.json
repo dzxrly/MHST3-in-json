@@ -10,10 +10,10 @@
             0.0
           ],
           "LocalRotation": [
-            -0.4045085310935974,
-            0.9085409641265869,
-            0.04251552373170853,
-            -0.09549146890640259
+            -0.4045,
+            0.9085,
+            0.0425,
+            -0.0955
           ],
           "LocalScale": [
             0.0,
@@ -28,7 +28,7 @@
       },
       "_DirectionalLightParam": {
         "app.user_data.BattleCutInLightData.cDirectionalLightParam": {
-          "Intensity": 0.10000000149011612,
+          "Intensity": 0.1,
           "RenderOutputID": 0,
           "Color": [
             1.0,
@@ -267,9 +267,9 @@
           "PublicShadowTintClassField": {
             "app.ShadowTintClass": {
               "GlobalShadowTint": [
-                0.46000000834465027,
-                0.46000000834465027,
-                0.46000000834465027,
+                0.46,
+                0.46,
+                0.46,
                 0.0
               ],
               "GlobalShadowTintBlend": 1.0,
@@ -289,9 +289,9 @@
           "isViewSpaceDirection": true,
           "usePostProcessRimLight": false,
           "RimDirection": [
-            0.9958685040473938,
-            -0.08779893815517426,
-            0.023178640753030777,
+            0.9959,
+            -0.0878,
+            0.0232,
             0.0
           ],
           "RimDirection_Vec3": [
@@ -315,21 +315,21 @@
             0.0
           ],
           "RimNearThickness": 1.0,
-          "RimFarThickness": 0.10000000149011612,
-          "RimSoftness": 0.30000001192092896,
+          "RimFarThickness": 0.1,
+          "RimSoftness": 0.3,
           "RimDetone": false,
           "RimIntensity": 0.25,
-          "RimShadowed": 0.9200000166893005,
+          "RimShadowed": 0.92,
           "RimColorAlbedoBlend": 0.5,
           "RimColorAlbedoBrightnessBlend": 0.0,
           "RimMainLightColorBlend": 0.5,
-          "RimLightNormalBlend": 0.029999999329447746,
+          "RimLightNormalBlend": 0.03,
           "isOverrideFillDirection": true,
           "isViewSpaceFillDirection": true,
           "FillDirection": [
-            0.998261570930481,
-            -0.05480309575796127,
-            0.021689703688025475,
+            0.9983,
+            -0.0548,
+            0.0217,
             0.0
           ],
           "FillDirection_Vec3": [
@@ -345,12 +345,12 @@
             0.0
           ],
           "FillMasterBlend": 1.0,
-          "FillThickness": 0.3499999940395355,
-          "FillSoftness": 0.20000000298023224,
-          "FillIntensity": 0.10000000149011612,
+          "FillThickness": 0.35,
+          "FillSoftness": 0.2,
+          "FillIntensity": 0.1,
           "FillLitMask": 1.0,
           "FillProbeColorBlend": 1.0,
-          "FillLightNormalBlend": 0.20000000298023224,
+          "FillLightNormalBlend": 0.2,
           "OffsetShadowUseDirLight": false,
           "OffsetShadowDirection": [
             0.5,
@@ -366,8 +366,8 @@
               "FlareRadius": 0.75,
               "FlareMaxRange": 0.0,
               "FlareColor": [
-                0.14100000262260437,
-                0.5249999761581421,
+                0.141,
+                0.525,
                 1.0,
                 0.0
               ],
@@ -381,8 +381,8 @@
               "EnablePara": false,
               "ParaPositionX": 1.0,
               "ParaPositionY": 1.0,
-              "ParaRadius": 0.7900000214576721,
-              "ParaMaxRange": -0.2800000011920929,
+              "ParaRadius": 0.79,
+              "ParaMaxRange": -0.28,
               "ParaMinRange": 1.0,
               "ParaIntensity": 1.0,
               "ParaHorizontalScaleOffset": 0.0,
@@ -462,16 +462,16 @@
           "_TransformParam": {
             "app.user_data.BattleCutInLightData.cTransformParam": {
               "LocalPosition": [
-                -3.6141862869262695,
-                3.363903045654297,
-                0.7906184792518616,
+                -3.6142,
+                3.3639,
+                0.7906,
                 0.0
               ],
               "LocalRotation": [
-                -0.27278703451156616,
-                0.5563570261001587,
-                0.6667286157608032,
-                -0.41415825486183167
+                -0.2728,
+                0.5564,
+                0.6667,
+                -0.4142
               ],
               "LocalScale": [
                 0.0,
@@ -506,7 +506,7 @@
               "UsingSameIntensity": false,
               "VolumetricScatteringIntensity": 0.0,
               "Unit": 2,
-              "SourceRadius": 0.009999999776482582,
+              "SourceRadius": 0.01,
               "ReferenceEffectiveRange": 20.0,
               "InfluenceRadiusTail": 0.0,
               "UseCustomAttenuation": true,
@@ -523,9 +523,9 @@
               "AllowTranslucentShadows": false,
               "ShadowLodBias": 0.0,
               "UniformShadowEnbale": false,
-              "ShadowNearPlane": 0.10000000149011612,
-              "ShadowVariance": 0.0020000000949949026,
-              "ShadowBias": 9.999999747378752e-06,
+              "ShadowNearPlane": 0.1,
+              "ShadowVariance": 0.002,
+              "ShadowBias": 0.0,
               "ShadowDepthBias": 10.0,
               "ShadowOccluderMaxSlopeBias": 100.0,
               "DetailShadow": 1.0,

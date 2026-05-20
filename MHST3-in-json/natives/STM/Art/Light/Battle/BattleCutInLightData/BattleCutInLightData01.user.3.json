@@ -10,10 +10,10 @@
             0.0
           ],
           "LocalRotation": [
-            0.07854248583316803,
-            0.817480206489563,
-            0.516810953617096,
-            -0.2417924851179123
+            0.0785,
+            0.8175,
+            0.5168,
+            -0.2418
           ],
           "LocalScale": [
             0.0,
@@ -28,7 +28,7 @@
       },
       "_DirectionalLightParam": {
         "app.user_data.BattleCutInLightData.cDirectionalLightParam": {
-          "Intensity": 0.10000000149011612,
+          "Intensity": 0.1,
           "RenderOutputID": 0,
           "Color": [
             1.0,
@@ -289,9 +289,9 @@
           "isViewSpaceDirection": true,
           "usePostProcessRimLight": false,
           "RimDirection": [
-            0.2222222238779068,
-            0.1805555522441864,
-            0.9581320285797119,
+            0.2222,
+            0.1806,
+            0.9581,
             0.0
           ],
           "RimDirection_Vec3": [
@@ -307,7 +307,7 @@
             0.0
           ],
           "RimMasterBlend": 1.0,
-          "RimThickness": 0.5400000214576721,
+          "RimThickness": 0.54,
           "RimNearFarDistance": [
             1.0,
             4.0,
@@ -315,20 +315,20 @@
             0.0
           ],
           "RimNearThickness": 1.0,
-          "RimFarThickness": 0.10000000149011612,
+          "RimFarThickness": 0.1,
           "RimSoftness": 0.0,
           "RimDetone": false,
-          "RimIntensity": 0.4000000059604645,
-          "RimShadowed": 0.4000000059604645,
+          "RimIntensity": 0.4,
+          "RimShadowed": 0.4,
           "RimColorAlbedoBlend": 0.5,
           "RimColorAlbedoBrightnessBlend": 0.0,
           "RimMainLightColorBlend": 0.5,
-          "RimLightNormalBlend": 0.4000000059604645,
+          "RimLightNormalBlend": 0.4,
           "isOverrideFillDirection": false,
           "isViewSpaceFillDirection": true,
           "FillDirection": [
-            0.9508125185966492,
-            -0.3097669780254364,
+            0.9508,
+            -0.3098,
             0.0,
             0.0
           ],
@@ -345,12 +345,12 @@
             0.0
           ],
           "FillMasterBlend": 1.0,
-          "FillThickness": 0.800000011920929,
-          "FillSoftness": 0.10000000149011612,
-          "FillIntensity": 0.10000000149011612,
+          "FillThickness": 0.8,
+          "FillSoftness": 0.1,
+          "FillIntensity": 0.1,
           "FillLitMask": 1.0,
           "FillProbeColorBlend": 1.0,
-          "FillLightNormalBlend": 0.10000000149011612,
+          "FillLightNormalBlend": 0.1,
           "OffsetShadowUseDirLight": false,
           "OffsetShadowDirection": [
             0.5,
@@ -366,8 +366,8 @@
               "FlareRadius": 0.75,
               "FlareMaxRange": 0.0,
               "FlareColor": [
-                0.14100000262260437,
-                0.5249999761581421,
+                0.141,
+                0.525,
                 1.0,
                 0.0
               ],
@@ -381,8 +381,8 @@
               "EnablePara": false,
               "ParaPositionX": 1.0,
               "ParaPositionY": 1.0,
-              "ParaRadius": 0.7900000214576721,
-              "ParaMaxRange": -0.2800000011920929,
+              "ParaRadius": 0.79,
+              "ParaMaxRange": -0.28,
               "ParaMinRange": 1.0,
               "ParaIntensity": 1.0,
               "ParaHorizontalScaleOffset": 0.0,
@@ -506,7 +506,7 @@
               "UsingSameIntensity": false,
               "VolumetricScatteringIntensity": 0.0,
               "Unit": 2,
-              "SourceRadius": 0.009999999776482582,
+              "SourceRadius": 0.01,
               "ReferenceEffectiveRange": 10.0,
               "InfluenceRadiusTail": 1.0,
               "UseCustomAttenuation": false,
@@ -523,9 +523,9 @@
               "AllowTranslucentShadows": false,
               "ShadowLodBias": 0.0,
               "UniformShadowEnbale": false,
-              "ShadowNearPlane": 0.10000000149011612,
-              "ShadowVariance": 0.0020000000949949026,
-              "ShadowBias": 9.999999747378752e-06,
+              "ShadowNearPlane": 0.1,
+              "ShadowVariance": 0.002,
+              "ShadowBias": 0.0,
               "ShadowDepthBias": 10.0,
               "ShadowOccluderMaxSlopeBias": 100.0,
               "DetailShadow": 1.0,

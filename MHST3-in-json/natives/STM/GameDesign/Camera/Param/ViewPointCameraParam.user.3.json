@@ -3,10 +3,10 @@
     "app.user_data.ViewPointCameraParam": {
       "_CameraOperateParam": {
         "app.cViewPointCameraOperateOptionParam": {
-          "_PadAxisThreshold": 0.07500000298023224,
-          "_PadThreshold": 0.20000000298023224,
+          "_PadAxisThreshold": 0.075,
+          "_PadThreshold": 0.2,
           "_ResponseExp": 2.0,
-          "_ResponseLower": 0.10000000149011612,
+          "_ResponseLower": 0.1,
           "_ResponseUpper": 1.0,
           "_PadSmoothRate": 0.0,
           "_PadBasicSpeedYaw": [
@@ -20,20 +20,20 @@
               "_Point": [
                 {
                   "ace.cCameraMouseSensitivityParam_MultiKey.cPoint": {
-                    "_Key": 0.009999999776482582,
-                    "_Value": 0.00031383000896312296
+                    "_Key": 0.01,
+                    "_Value": 0.0003
                   }
                 },
                 {
                   "ace.cCameraMouseSensitivityParam_MultiKey.cPoint": {
                     "_Key": 15.0,
-                    "_Value": 0.04707450047135353
+                    "_Value": 0.0471
                   }
                 },
                 {
                   "ace.cCameraMouseSensitivityParam_MultiKey.cPoint": {
                     "_Key": 100.0,
-                    "_Value": 0.3138299882411957
+                    "_Value": 0.3138
                   }
                 }
               ]
@@ -49,7 +49,7 @@
         "raw": "c1ca2ac100000000",
         "type": "Range"
       },
-      "_PitchLimitDampingPower": 0.949999988079071,
+      "_PitchLimitDampingPower": 0.95,
       "_PitchLimitDampingTimeScale": 1.0,
       "_FOV": 25.0,
       "_AttachOffs": [
@@ -58,9 +58,9 @@
         10.0,
         0.0
       ],
-      "_AutoRotateTime": 0.30000001192092896,
+      "_AutoRotateTime": 0.3,
       "_AutoRotateEaseCurve": 8,
-      "_AutoRotateThresholdDeg": 9.999999747378752e-05
+      "_AutoRotateThresholdDeg": 0.0001
     }
   }
 ]

@@ -1,1 +1,1 @@
-python main.py -i "C:\Users\Aegon\Downloads\natives" -p "C:\Program Files (x86)\Steam\steamapps\common\MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION\il2cpp_dump.json" -s rszmhst3.json -o ./MHST3-in-json -x "(^|/)Voxel(/|$)"
+python main.py -i "C:\Users\Aegon\Downloads\natives" -p "C:\Program Files (x86)\Steam\steamapps\common\MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION\il2cpp_dump.json" -s rszmhst3.json -o ./MHST3-in-json/natives -x "(^|/)Voxel(/|$)"

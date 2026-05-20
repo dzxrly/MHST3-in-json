@@ -3,29 +3,29 @@
     "app.user_data.HumanoidFbikInertialSimulateParameter": {
       "_BodyAccPid": {
         "app.user_data.HumanoidFbikInertialSimulateParameter.PidParam": {
-          "_Kp": 0.029999999329447746,
-          "_Ki": 0.05000000074505806,
-          "_Kd": 0.30000001192092896,
-          "_AccumErrorRate": 0.10000000149011612,
-          "_AccumErrorDecay": 0.05000000074505806
+          "_Kp": 0.03,
+          "_Ki": 0.05,
+          "_Kd": 0.3,
+          "_AccumErrorRate": 0.1,
+          "_AccumErrorDecay": 0.05
         }
       },
       "_LimbAccPid": {
         "app.user_data.HumanoidFbikInertialSimulateParameter.PidParam": {
-          "_Kp": 0.029999999329447746,
+          "_Kp": 0.03,
           "_Ki": 0.0,
-          "_Kd": 0.30000001192092896,
-          "_AccumErrorRate": 0.10000000149011612,
-          "_AccumErrorDecay": 0.05000000074505806
+          "_Kd": 0.3,
+          "_AccumErrorRate": 0.1,
+          "_AccumErrorDecay": 0.05
         }
       },
       "_VelPid": {
         "app.user_data.HumanoidFbikInertialSimulateParameter.PidParam": {
           "_Kp": 0.25,
-          "_Ki": 0.15000000596046448,
+          "_Ki": 0.15,
           "_Kd": 0.0,
-          "_AccumErrorRate": 0.3499999940395355,
-          "_AccumErrorDecay": 0.05000000074505806
+          "_AccumErrorRate": 0.35,
+          "_AccumErrorDecay": 0.05
         }
       },
       "_HeadSmoothing": 0.0,
@@ -47,7 +47,7 @@
               ],
               "_RatioZ": [
                 0.0,
-                -0.20000000298023224,
+                -0.2,
                 0.0,
                 0.0
               ]
@@ -76,12 +76,12 @@
             }
           },
           "_Limits": [
-            -0.20000000298023224,
-            -0.10000000149011612,
+            -0.2,
+            -0.1,
             -0.5,
             0.0,
-            0.20000000298023224,
-            0.10000000149011612,
+            0.2,
+            0.1,
             0.5,
             0.0
           ]
@@ -92,14 +92,14 @@
           "_AccApplier": {
             "app.user_data.HumanoidFbikInertialSimulateParameter.PidApplier": {
               "_RatioX": [
-                -0.10000000149011612,
+                -0.1,
                 0.0,
                 0.0,
                 0.0
               ],
               "_RatioY": [
                 0.0,
-                -0.10000000149011612,
+                -0.1,
                 0.0,
                 0.0
               ],
@@ -134,13 +134,13 @@
             }
           },
           "_Limits": [
-            -0.10000000149011612,
-            -0.10000000149011612,
-            -0.05000000074505806,
+            -0.1,
+            -0.1,
+            -0.05,
             0.0,
-            0.10000000149011612,
-            0.10000000149011612,
-            0.10000000149011612,
+            0.1,
+            0.1,
+            0.1,
             0.0
           ]
         }

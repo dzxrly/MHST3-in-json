@@ -14,8 +14,8 @@
       },
       "MouseParam": {
         "app.user_data.GUIGlobalParamData.cMouseControlParam": {
-          "_MapDragSensitivity": 0.05000000074505806,
-          "_MapDragRawThreshold": 0.005499999970197678,
+          "_MapDragSensitivity": 0.05,
+          "_MapDragRawThreshold": 0.0055,
           "_MapDragMoveMin": 6.0
         }
       },
@@ -25,10 +25,10 @@
           "_MkbRepeatTimeForSlider": 30.0
         }
       },
-      "ActionHelpOffset": 2.0999999046325684,
+      "ActionHelpOffset": 2.1,
       "TalkActionHelpOffset": [
         150.0,
-        0.4000000059604645,
+        0.4,
         0.0,
         0.0
       ],
@@ -43,7 +43,7 @@
       "EncountBlurMaxTime": 2.0,
       "EncountBlurPower": 30.0,
       "BattleEscapeChargeTime": 1.0,
-      "InfoLogDispTime": 0.800000011920929,
+      "InfoLogDispTime": 0.8,
       "_GUI030314Param": {
         "app.GUI030314Param": {
           "_InfoLogDispMaxTime": 4.0,
@@ -53,7 +53,7 @@
       "MessageInfoDispTime": 5.0,
       "InfoIntervalTime": 0.0,
       "NPCGuideDispTime": 3.5,
-      "NPCGuideIntervalTime": 0.4000000059604645,
+      "NPCGuideIntervalTime": 0.4,
       "NpcTalkBalloonIntervalTime": 2.0,
       "NpcTalkBallonIconPos": [
         3.0,
@@ -68,14 +68,14 @@
             "type": "Int2"
           },
           "_sizeMinMax": [
-            0.699999988079071,
+            0.7,
             1.0
           ],
-          "_alpha": 0.6000000238418579,
+          "_alpha": 0.6,
           "_limitHeightMaxOffset": 5.0,
           "_limitHeightMinOffset": 3.5,
           "_DispAngle": 14.0,
-          "_HeightMoveRate": 0.44999998807907104
+          "_HeightMoveRate": 0.45
         }
       },
       "_viewModeParam": {
@@ -89,8 +89,8 @@
             "type": "Int2"
           },
           "_sizeMinMax": [
-            1.2000000476837158,
-            1.2999999523162842
+            1.2,
+            1.3
           ],
           "_pinIconDeletableAreaSize": [
             25.0,
@@ -110,17 +110,17 @@
           "BattleLineOffsetY": 0.0,
           "OneWayLineOffset": 0.0,
           "OneWayLineLength": 0.0,
-          "StraightLineLength": 8.050000190734863,
+          "StraightLineLength": 8.05,
           "CharacterOffset": 0.0,
           "LineLengthRate": 1.0
         }
       },
       "BattleLogDispTime": 3.0,
-      "MoveUpTime": 0.30000001192092896,
+      "MoveUpTime": 0.3,
       "MoveUpDistance": 110.0,
       "BattleLogEaseType": 24,
       "BattleWinDispTime": 1.5,
-      "BattleWinPointUpMaxTime": 0.029999999329447746,
+      "BattleWinPointUpMaxTime": 0.03,
       "STRUCT__predatorEffectDist_Item1": 20.0,
       "STRUCT__predatorEffectDist_Item2": 50.0,
       "STRUCT__predatorEffectWaitTime_Item1": 0.25,
@@ -252,12 +252,12 @@
           ]
         }
       },
-      "BattleSkillNameLetterSpaceRate": 0.05000000074505806,
+      "BattleSkillNameLetterSpaceRate": 0.05,
       "_BreakGaugeOffset": 40.0,
       "_BreakGaugeTailOffset": 35.0,
       "_BreakGaugeDamageSpeed": 5.0,
       "_BreakGaugeHealSpeed": 8.0,
-      "_BreakGaugeHealSpeed_Center": 3.799999952316284,
+      "_BreakGaugeHealSpeed_Center": 3.8,
       "_BreakGaugeCenterWaitHealTime": 1,
       "_StGameWinAnimationFinishFrame": 100,
       "_StGameLoseAnimationFinishFrame": 100,
@@ -268,12 +268,12 @@
       "_UnisonAttackAnimationFinishFrame": 50,
       "_DoubleActionAnimationFinishFrame": 80,
       "_FadeAnimationMaxFrame": 30,
-      "HpGaugeDecreaseStartTime": 0.30000001192092896,
+      "HpGaugeDecreaseStartTime": 0.3,
       "DamageUI_OffsetX": 100,
       "DamageUI_OffsetY": 100,
-      "_DamageDispTime": 0.30000001192092896,
+      "_DamageDispTime": 0.3,
       "_CenterDamageDispTime": 1.0,
-      "_LastCenterDamageDispTime": 0.20000000298023224,
+      "_LastCenterDamageDispTime": 0.2,
       "_TargetCursorParam": {
         "app.cGUI031700GlobalParam": {
           "_CursorPosHeightRate": 0.5,
@@ -282,7 +282,7 @@
       },
       "_HitMarkParam": {
         "app.cGUI032000GlobalParam": {
-          "_HitMarkHeightRate": 0.800000011920929
+          "_HitMarkHeightRate": 0.8
         }
       },
       "_StatusIconRotationWaitTime": 1.0,
@@ -317,13 +317,13 @@
           "_YellowIconLv": 5,
           "_RedIconLv": 10,
           "_Distance": 90.0,
-          "_Offset": 4.300000190734863,
+          "_Offset": 4.3,
           "_SizeMinMaxDist": {
             "raw": "0500000022000000",
             "type": "Int2"
           },
           "_SizeMinMax": [
-            0.699999988079071,
+            0.7,
             1.0
           ],
           "_QuestOfs": 25.0,
@@ -458,7 +458,7 @@
             "raw": "0020cb4500409c45",
             "type": "Size"
           },
-          "_StickThreshhold": 0.30000001192092896,
+          "_StickThreshhold": 0.3,
           "_CursorSpeed": 1080.0,
           "_MouseCursorSpeed": 1.0,
           "_CursorSpeedMax": 1500.0,
@@ -5156,8 +5156,8 @@
           "_ZoomSpeed": 25.0,
           "_ZoomSpeed_Wheel": 4.0,
           "_ColorMeterSliderSpeed": 4.0,
-          "_FadeInTime": 0.20000000298023224,
-          "_FadeOutTime": 0.20000000298023224,
+          "_FadeInTime": 0.2,
+          "_FadeOutTime": 0.2,
           "_ColorMeter00LeftTopPosOffset": [
             12.0,
             0.0,
@@ -5194,7 +5194,7 @@
       "_ItemMixGUIParam": {
         "app.cGUI040500GlobalParam": {
           "GoodResultParcent": 10,
-          "GoodResultAddItemRate": 1.7999999523162842
+          "GoodResultAddItemRate": 1.8
         }
       }
     }

@@ -40,7 +40,7 @@
             "_PLAction": 3,
             "_LookAt_EnableRange": 3.0,
             "_LookAt_TargetChangeInterval": 5.0,
-            "_LookAt_ReleaseTime": 0.30000001192092896
+            "_LookAt_ReleaseTime": 0.3
           }
         },
         {
@@ -120,7 +120,7 @@
             "_PLAction": 3,
             "_LookAt_EnableRange": 10.0,
             "_LookAt_TargetChangeInterval": 3.0,
-            "_LookAt_ReleaseTime": 0.30000001192092896
+            "_LookAt_ReleaseTime": 0.3
           }
         }
       ],
@@ -160,15 +160,15 @@
       "_AdjustLegToSaddle_Idle": {
         "app.user_data.PlayerResidentParam.AdjustLegToSaddle_JointParam": {
           "_L_Leg_00": [
-            0.22132520377635956,
-            -0.03181735426187515,
-            0.11477286368608475,
+            0.2213,
+            -0.0318,
+            0.1148,
             0.0
           ],
           "_R_Leg_00": [
-            0.22132520377635956,
-            0.03181735426187515,
-            -0.11475540697574615,
+            0.2213,
+            0.0318,
+            -0.1148,
             0.0
           ]
         }
@@ -176,15 +176,15 @@
       "_AdjustLegToSaddle_Run": {
         "app.user_data.PlayerResidentParam.AdjustLegToSaddle_JointParam": {
           "_L_Leg_00": [
-            0.17474237084388733,
-            0.2675415277481079,
-            -0.12938126921653748,
+            0.1747,
+            0.2675,
+            -0.1294,
             0.0
           ],
           "_R_Leg_00": [
-            0.17495182156562805,
-            -0.2670179307460785,
-            0.12894493341445923,
+            0.175,
+            -0.267,
+            0.1289,
             0.0
           ]
         }
@@ -192,15 +192,15 @@
       "_AdjustLegToSaddle_Dash": {
         "app.user_data.PlayerResidentParam.AdjustLegToSaddle_JointParam": {
           "_L_Leg_00": [
-            0.0921533927321434,
-            -0.10451032221317291,
-            0.1442689299583435,
+            0.0922,
+            -0.1045,
+            0.1443,
             0.0
           ],
           "_R_Leg_00": [
-            0.0921533927321434,
-            0.10451032221317291,
-            -0.1442863792181015,
+            0.0922,
+            0.1045,
+            -0.1443,
             0.0
           ]
         }
@@ -208,15 +208,15 @@
       "_AdjustLegToSaddle_Wall": {
         "app.user_data.PlayerResidentParam.AdjustLegToSaddle_JointParam": {
           "_L_Leg_00": [
-            0.18420206010341644,
-            0.2612059712409973,
-            -0.12946853041648865,
+            0.1842,
+            0.2612,
+            -0.1295,
             0.0
           ],
           "_R_Leg_00": [
-            0.18420206010341644,
-            -0.2612059712409973,
-            0.12946853041648865,
+            0.1842,
+            -0.2612,
+            0.1295,
             0.0
           ]
         }
@@ -225,7 +225,7 @@
         "app.IkSpineRideJointParam": {
           "_CogPos_F": [
             0.0,
-            -0.0009800000116229057,
+            -0.001,
             0.0,
             0.0
           ],
@@ -239,10 +239,10 @@
           "_CogRotX_B": 0.0,
           "_Waist00RotX_F": 0.0,
           "_Waist00RotX_B": 0.0,
-          "_Spine00RotX_F": -0.10965904593467712,
-          "_Spine00RotX_B": 0.1745329350233078,
+          "_Spine00RotX_F": -0.1097,
+          "_Spine00RotX_B": 0.1745,
           "_Spine01RotX_F": 0.0,
-          "_Spine01RotX_B": 0.0872664675116539
+          "_Spine01RotX_B": 0.0873
         }
       },
       "_IkSpineRide_Run": {
@@ -263,41 +263,41 @@
           "_CogRotX_B": 0.0,
           "_Waist00RotX_F": 0.0,
           "_Waist00RotX_B": 0.0,
-          "_Spine00RotX_F": -0.22689281404018402,
-          "_Spine00RotX_B": 0.1745329350233078,
+          "_Spine00RotX_F": -0.2269,
+          "_Spine00RotX_B": 0.1745,
           "_Spine01RotX_F": 0.0,
-          "_Spine01RotX_B": 0.0872664675116539
+          "_Spine01RotX_B": 0.0873
         }
       },
       "_IkSpineRide_Dash": {
         "app.IkSpineRideJointParam": {
           "_CogPos_F": [
             0.0,
-            -0.09195999801158905,
+            -0.092,
             0.0,
             0.0
           ],
           "_CogPos_B": [
             0.0,
-            0.008349999785423279,
+            0.0083,
             0.0,
             0.0
           ],
           "_CogRotX_F": 0.0,
           "_CogRotX_B": 0.0,
-          "_Waist00RotX_F": 0.5235987901687622,
+          "_Waist00RotX_F": 0.5236,
           "_Waist00RotX_B": 0.0,
-          "_Spine00RotX_F": -0.4625122547149658,
-          "_Spine00RotX_B": 0.1745329350233078,
-          "_Spine01RotX_F": -0.4625122547149658,
-          "_Spine01RotX_B": 0.0872664675116539
+          "_Spine00RotX_F": -0.4625,
+          "_Spine00RotX_B": 0.1745,
+          "_Spine01RotX_F": -0.4625,
+          "_Spine01RotX_B": 0.0873
         }
       },
       "_IkSpineRide_Wall": {
         "app.IkSpineRideJointParam": {
           "_CogPos_F": [
             0.0,
-            -0.028300000354647636,
+            -0.0283,
             0.0,
             0.0
           ],
@@ -311,9 +311,9 @@
           "_CogRotX_B": 0.0,
           "_Waist00RotX_F": 0.0,
           "_Waist00RotX_B": 0.0,
-          "_Spine00RotX_F": 0.05235988274216652,
+          "_Spine00RotX_F": 0.0524,
           "_Spine00RotX_B": 0.0,
-          "_Spine01RotX_F": -0.4014257490634918,
+          "_Spine01RotX_F": -0.4014,
           "_Spine01RotX_B": 0.0
         }
       },

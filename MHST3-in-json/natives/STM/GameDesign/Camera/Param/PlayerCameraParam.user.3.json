@@ -10,9 +10,9 @@
         "type": "Range"
       },
       "_DefaultPitchDegree": -8.0,
-      "_PitchLimitDampingPower": 0.949999988079071,
+      "_PitchLimitDampingPower": 0.95,
       "_PitchLimitDampingTimeScale": 1.0,
-      "_ResetDegSec": 0.6000000238418579,
+      "_ResetDegSec": 0.6,
       "_ResetDegCancelRange": 10.0,
       "_ResetDegEase": 8,
       "_RideGlidePitchChangeTime_S": 1.25,
@@ -26,10 +26,10 @@
       "_SightValidRangeMargin": 10.0,
       "_CameraOperateParam": {
         "app.cPlayerCameraOperateOptionParam": {
-          "_PadAxisThreshold": 0.07500000298023224,
-          "_PadThreshold": 0.20000000298023224,
+          "_PadAxisThreshold": 0.075,
+          "_PadThreshold": 0.2,
           "_ResponseExp": 2.0,
-          "_ResponseLower": 0.10000000149011612,
+          "_ResponseLower": 0.1,
           "_ResponseUpper": 1.0,
           "_PadSmoothRate": 0.0,
           "_PadBasicSpeedYaw": [
@@ -61,20 +61,20 @@
               "_Point": [
                 {
                   "ace.cCameraMouseSensitivityParam_MultiKey.cPoint": {
-                    "_Key": 0.009999999776482582,
-                    "_Value": 0.0006600000197067857
+                    "_Key": 0.01,
+                    "_Value": 0.0007
                   }
                 },
                 {
                   "ace.cCameraMouseSensitivityParam_MultiKey.cPoint": {
                     "_Key": 15.0,
-                    "_Value": 0.0989999994635582
+                    "_Value": 0.099
                   }
                 },
                 {
                   "ace.cCameraMouseSensitivityParam_MultiKey.cPoint": {
                     "_Key": 100.0,
-                    "_Value": 0.6600000262260437
+                    "_Value": 0.66
                   }
                 }
               ]
@@ -113,12 +113,12 @@
           "_InterpolationEaseType": 5,
           "_InterpolationTime_OnWalk": 1.5,
           "_InterpolationEaseType_OnWalk": 5,
-          "_InterpolationDampDelayStart": 0.009999999776482582,
+          "_InterpolationDampDelayStart": 0.01,
           "_InterpolationDampDelayEnd": 1.0,
           "_InterpolationDampDelayTime": 5.0,
           "_InterpolationDampDelayEaseType": 5,
           "_InterpolationDampDelayTime_Walk": 2.5,
-          "_InterpolationDampDelayTime_Run": 1.7999999523162842
+          "_InterpolationDampDelayTime_Run": 1.8
         }
       },
       "_SuppressorParam": {
@@ -140,8 +140,8 @@
               "_SmoothRate": 4.0
             }
           },
-          "StartDelaySecond": 0.4000000059604645,
-          "SmoothingRate": 0.8600000143051147,
+          "StartDelaySecond": 0.4,
+          "SmoothingRate": 0.86,
           "StopDelayTime": 1.0,
           "AutoYawRange": 200.0,
           "AllowYawRange": 10.0,
@@ -173,8 +173,8 @@
             0.0,
             0.0
           ],
-          "DampingPower_Start": 0.7400000095367432,
-          "DampingPower_End": 0.46000000834465027,
+          "DampingPower_Start": 0.74,
+          "DampingPower_End": 0.46,
           "GoalResetSec": 1.5,
           "GoalResetEase": 5
         }
@@ -183,7 +183,7 @@
         "app.user_data.PlayerCameraParam.cRatingParam": {
           "_PitchMin": 28.0,
           "_PitchMax": 50.0,
-          "_OffsetY": 0.15000000596046448
+          "_OffsetY": 0.15
         }
       }
     }
