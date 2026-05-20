@@ -1,0 +1,84 @@
+[
+  {
+    "app.user_data.WorldAnimalParamPack": {
+      "_MotionBankAssetsList": [
+        {
+          "app.cMotionBankAssets": {
+            "_MotionBank": "Art/Motion/04_EnvironmentCreature/ec600/ec600_f_bank.motbank",
+            "_MotionExtendBank": {
+              "ace.user_data.MotionExtendBank": {
+                "ref_instance_id": 1,
+                "path": "Art/Motion/04_EnvironmentCreature/ec600/ec600_f_bank_meb.user"
+              }
+            },
+            "_MotionConnectBank": {
+              "ace.user_data.MotionConnectBank": {
+                "ref_instance_id": 2,
+                "path": "Art/Motion/04_EnvironmentCreature/ec600/ec600_f_bank_mcb.user"
+              }
+            },
+            "_Order": 0
+          }
+        }
+      ],
+      "_JointGroup": {
+        "": {}
+      },
+      "_ActionDataSetHolder": {
+        "app.user_data.ActionDataSetHolder": {
+          "_DataSet_Base": [
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "ref_instance_id": 4,
+                    "path": "GameDesign/Animal/Am0510/CC/ActionData/Am0510_ActionParam_General.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "ref_instance_id": 5,
+                        "path": "GameDesign/Animal/Am0510/CC/ActionData/Am0510ActionID_General.user"
+                      }
+                    },
+                    "_ExportGuid": "ab78e6f5-85dc-4473-8741-294297d37e3d"
+                  }
+                }
+              }
+            }
+          ],
+          "_DataSet_Sub": []
+        }
+      },
+      "_DetectTerrainParam": {
+        "": {}
+      },
+      "_InertiaFbik": {
+        "": {}
+      },
+      "_FbikRigInfo": {
+        "": {}
+      },
+      "_SpeedTreeCollision": {
+        "": {}
+      },
+      "_WorldCharacterAnimationLodParam": {
+        "app.user_data.WorldCharacterAnimationLodParameter": {
+          "ref_instance_id": 9,
+          "path": "GameDesign/Animal/Am0510/CC/Am0510_WorldCharacterAnimationLodParameter.user"
+        }
+      },
+      "_WorldAnimalBasicParam": {
+        "app.user_data.WorldAnimalBasicParam": {
+          "ref_instance_id": 10,
+          "path": "GameDesign/Animal/Am0510/CC/Am0510_BasicParam.user"
+        }
+      },
+      "_WorldAnimalRareParam": {
+        "": {}
+      }
+    }
+  }
+]

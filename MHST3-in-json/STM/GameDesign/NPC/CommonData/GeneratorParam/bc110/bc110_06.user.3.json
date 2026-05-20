@@ -1,0 +1,68 @@
+[
+  {
+    "app.user_data.WalkNpcGenerateTable": {
+      "_NpcGenTable": [
+        {
+          "app.user_data.WalkNpcGenerateTable.cData": {
+            "_NpcId": "[1966084864] NPC500_A0_004_003",
+            "_MotionPackage": {
+              "app.user_data.NpcMotionPackage": {
+                "ref_instance_id": 1,
+                "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/Common_Sd_Walk.user"
+              }
+            },
+            "_GesturePack": {
+              "": {}
+            },
+            "_IsFirstGen": false,
+            "_FirstPos": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_GenInterval": 0.0,
+            "_IsRideMonster": true,
+            "_RiderNpcId": "[306687040] NPC111_10_007_338",
+            "_RiderMotionPackage": {
+              "app.user_data.NpcMotionPackage": {
+                "ref_instance_id": 2,
+                "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/Male_St_Ride_em014.user"
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.WalkNpcGenerateTable.cData": {
+            "_NpcId": "[4203695544] NPC500_A0_004_004",
+            "_MotionPackage": {
+              "app.user_data.NpcMotionPackage": {
+                "ref_instance_id": 1,
+                "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/Common_Sd_Walk.user"
+              }
+            },
+            "_GesturePack": {
+              "": {}
+            },
+            "_IsFirstGen": false,
+            "_FirstPos": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_GenInterval": 60.0,
+            "_IsRideMonster": true,
+            "_RiderNpcId": "[117188112] NPC111_10_007_339",
+            "_RiderMotionPackage": {
+              "app.user_data.NpcMotionPackage": {
+                "ref_instance_id": 2,
+                "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/Male_St_Ride_em014.user"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

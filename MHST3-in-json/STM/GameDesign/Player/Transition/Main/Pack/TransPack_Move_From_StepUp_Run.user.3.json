@@ -1,0 +1,26 @@
+[
+  {
+    "app.user_data.ActionTransitionDataPack": {
+      "_Pack": [
+        {
+          "app.user_data.ActionTransitionSingleCommand": {
+            "ref_instance_id": 1,
+            "path": "GameDesign/Player/Transition/Main/Command/Cmd_Dash_Dash.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCommand": {
+            "ref_instance_id": 2,
+            "path": "GameDesign/Player/Transition/Main/Command/Cmd_Run_Run.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCommand": {
+            "ref_instance_id": 3,
+            "path": "GameDesign/Player/Transition/Main/Command/Cmd_Walk_Walk.user"
+          }
+        }
+      ]
+    }
+  }
+]

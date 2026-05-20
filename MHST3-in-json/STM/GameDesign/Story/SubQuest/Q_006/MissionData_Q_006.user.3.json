@@ -1,0 +1,47 @@
+[
+  {
+    "app.user_data.AppMissionData": {
+      "_MissionID": 5,
+      "_MissionPrefab": {
+        "via.Prefab": {
+          "v0": {
+            "raw": "00",
+            "type": "Data"
+          },
+          "v1": "GameDesign/Story/SubQuest/Q_006/MissionPrefab_Q_006.pfb"
+        }
+      },
+      "_StartCondition": {
+        "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartMission>": {
+          "_JudgeType": 0,
+          "_ConditionDataList": [
+            {
+              "ace.cMissionConditionData_StartMission": {
+                "_Condition": {
+                  "app.cMissionConditionMissionSuccessMS": {
+                    "_MainStoryMissionID": "[8] M_1F0"
+                  }
+                }
+              }
+            },
+            {
+              "ace.cMissionConditionData_StartMission": {
+                "_Condition": {
+                  "app.cMissionConditionMissionSuccessSQ": {
+                    "_SubQuestMissionID": "[4] Q_005"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "_ScenarioDataList": {
+        "app.user_data.MissionScenarioDataList": {
+          "ref_instance_id": 8,
+          "path": "GameDesign/Story/SubQuest/Q_006/MissionScenarioDataList_Q_006.user"
+        }
+      }
+    }
+  }
+]

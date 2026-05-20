@@ -1,0 +1,138 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "_ActionClassList": [
+        {
+          "app.WorldAnimalAction_General.cNone": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldAnimalAction_General.cIdle": {
+            "_ActionSafeLimitTime": -1.0,
+            "_ActionAttrBit": 0,
+            "_VisualID": "[3602] INVALID",
+            "_FlavorParams": [
+              {
+                "app.animal_action.cIdleBase.cFlavorMotionParam": {
+                  "_Probability": 5
+                }
+              },
+              {
+                "app.animal_action.cIdleBase.cFlavorMotionParam": {
+                  "_Probability": 2
+                }
+              },
+              {
+                "app.animal_action.cIdleBase.cFlavorMotionParam": {
+                  "_Probability": 2
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.WorldAnimalAction_General.cEscapeMain": {
+            "_ActionSafeLimitTime": -1.0,
+            "_ActionAttrBit": 0,
+            "_VisualID": "[3602] INVALID",
+            "_SpeedParam": {
+              "app.AppCharaUtil.cMotionSpeedParam": {
+                "_Type": 0,
+                "_KilometerPerHourParam": 0.0,
+                "_MotionSpeed": 1.9
+              }
+            },
+            "_TurnVelocity": {
+              "app.AppCharaUtil.cAngularVelocityParam": {
+                "_TurnRadius": 3.0,
+                "_RotSpeedEaseType": 8
+              }
+            },
+            "_IsUsingTurnMot": true,
+            "_TurnLRThresholdDeg": 10.0,
+            "_SpotTurnThresholdDeg": 10.0,
+            "_MotSpeedRange": {
+              "raw": "9a9999be9a99193f",
+              "type": "Range"
+            }
+          }
+        },
+        {
+          "app.Am0360Action_General.cCautionMain": {
+            "_ActionSafeLimitTime": -1.0,
+            "_ActionAttrBit": 0,
+            "_VisualID": "[3602] INVALID",
+            "_FlavorParams": [],
+            "_IsAdjustRotateTerritory": false,
+            "_IsReuseIdleMot": false,
+            "_MotSpeedRange": {
+              "raw": "0000803f0000803f",
+              "type": "Range"
+            },
+            "_RotSpeedRange": 10.0,
+            "_PitchRange": 50
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "75c89cf6-96bb-49ec-812f-052baa107787",
+            "_ActionGuid": "2bf70af7-be2c-4213-8f6b-2cda90179a88",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "f62535bf-c215-4784-aea7-7cfafdc42f05",
+            "_ActionGuid": "703a1640-f9d5-4520-b9aa-74399f170f3a",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "7d4b4c85-9083-49b5-a89b-93dc0d042e2c",
+            "_ActionGuid": "5b1797bb-1c0a-4053-b1fa-92d768e3bf31",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "52e6e5b7-c02b-4a82-b014-2aba9d24a7d4",
+            "_ActionGuid": "783d075c-0b25-4bf8-99e1-3000eb94c36e",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 14,
+              "path": "GameDesign/Animal/Am0360/CC/ActionData/Am0360ActionID_General.user"
+            }
+          },
+          "_ExportGuid": "ea823b1a-806c-40bd-8683-b0efb40d0885"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {}
+      }
+    }
+  }
+]

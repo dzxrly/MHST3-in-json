@@ -1,0 +1,389 @@
+[
+  {
+    "app.user_data.GeneBingoBonusData": {
+      "_CategoryList": {
+        "app.cEnumerableParam`2<app.GeneDef.BINGO_BONUS_CATEGORY_Fixed,app.user_data.GeneBingoBonusData.cCategoryBonusParam>": {
+          "_ParamList": [
+            {
+              "app.user_data.GeneBingoBonusData.cCategoryBonusParam": {
+                "_EnumValue": "[1605395584] ELEMENT_NORMAL",
+                "_BonusValue": [
+                  100,
+                  105,
+                  110,
+                  115,
+                  120,
+                  125,
+                  130,
+                  140,
+                  150
+                ]
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cCategoryBonusParam": {
+                "_EnumValue": "[1980472320] ELEMENT_FIRE",
+                "_BonusValue": [
+                  100,
+                  105,
+                  110,
+                  115,
+                  120,
+                  125,
+                  130,
+                  140,
+                  150
+                ]
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cCategoryBonusParam": {
+                "_EnumValue": "[2495539328] ELEMENT_WATER",
+                "_BonusValue": [
+                  100,
+                  105,
+                  110,
+                  115,
+                  120,
+                  125,
+                  130,
+                  140,
+                  150
+                ]
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cCategoryBonusParam": {
+                "_EnumValue": "[2419395456] ELEMENT_THUNDER",
+                "_BonusValue": [
+                  100,
+                  105,
+                  110,
+                  115,
+                  120,
+                  125,
+                  130,
+                  140,
+                  150
+                ]
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cCategoryBonusParam": {
+                "_EnumValue": "[3898994688] ELEMENT_ICE",
+                "_BonusValue": [
+                  100,
+                  105,
+                  110,
+                  115,
+                  120,
+                  125,
+                  130,
+                  140,
+                  150
+                ]
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cCategoryBonusParam": {
+                "_EnumValue": "[625577408] ELEMENT_DRAGON",
+                "_BonusValue": [
+                  100,
+                  105,
+                  110,
+                  115,
+                  120,
+                  125,
+                  130,
+                  140,
+                  150
+                ]
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cCategoryBonusParam": {
+                "_EnumValue": "[2236509440] THREE_POWER",
+                "_BonusValue": [
+                  100,
+                  105,
+                  110,
+                  115,
+                  120,
+                  125,
+                  130,
+                  140,
+                  150
+                ]
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cCategoryBonusParam": {
+                "_EnumValue": "[1716756480] THREE_SPEED",
+                "_BonusValue": [
+                  100,
+                  105,
+                  110,
+                  115,
+                  120,
+                  125,
+                  130,
+                  140,
+                  150
+                ]
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cCategoryBonusParam": {
+                "_EnumValue": "[2332257536] THREE_TECHNIQUE",
+                "_BonusValue": [
+                  100,
+                  105,
+                  110,
+                  115,
+                  120,
+                  125,
+                  130,
+                  140,
+                  150
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "_TotalBingoCountTermsList": {
+        "app.cEnumerableParam`2<app.GeneDef.BINGO_TOTAL_COUNT_BONUS_NUM_Fixed,app.user_data.GeneBingoBonusData.cTotalCountBonusNum>": {
+          "_ParamList": [
+            {
+              "app.user_data.GeneBingoBonusData.cTotalCountBonusNum": {
+                "_EnumValue": "[1901462912] TOTAL_3BINGO",
+                "_RequiredBingoNum": 2
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cTotalCountBonusNum": {
+                "_EnumValue": "[583662016] TOTAL_6BINGO",
+                "_RequiredBingoNum": 3
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cTotalCountBonusNum": {
+                "_EnumValue": "[2180003456] TOTAL_8BINGO",
+                "_RequiredBingoNum": 5
+              }
+            }
+          ]
+        }
+      },
+      "_TotalBingoCountList": {
+        "app.cEnumerableParam`2<app.GeneDef.BINGO_TOTAL_COUNT_BONUS_TYPE_Fixed,app.user_data.GeneBingoBonusData.cTotalCountBonusParam>": {
+          "_ParamList": [
+            {
+              "app.user_data.GeneBingoBonusData.cTotalCountBonusParam": {
+                "_EnumValue": "[3486067648] DEFFENCE",
+                "_TotalBingoBonusNumList": {
+                  "app.cEnumerableParam`2<app.GeneDef.BINGO_TOTAL_COUNT_BONUS_NUM_Fixed,app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[1901462912] TOTAL_3BINGO",
+                          "_Value": 20
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[583662016] TOTAL_6BINGO",
+                          "_Value": 30
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[2180003456] TOTAL_8BINGO",
+                          "_Value": 50
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cTotalCountBonusParam": {
+                "_EnumValue": "[209017152] AGILITY",
+                "_TotalBingoBonusNumList": {
+                  "app.cEnumerableParam`2<app.GeneDef.BINGO_TOTAL_COUNT_BONUS_NUM_Fixed,app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[1901462912] TOTAL_3BINGO",
+                          "_Value": 1
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[583662016] TOTAL_6BINGO",
+                          "_Value": 2
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[2180003456] TOTAL_8BINGO",
+                          "_Value": 3
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cTotalCountBonusParam": {
+                "_EnumValue": "[3833530720] CRITICAL_RATE",
+                "_TotalBingoBonusNumList": {
+                  "app.cEnumerableParam`2<app.GeneDef.BINGO_TOTAL_COUNT_BONUS_NUM_Fixed,app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[1901462912] TOTAL_3BINGO",
+                          "_Value": 3
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[583662016] TOTAL_6BINGO",
+                          "_Value": 5
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[2180003456] TOTAL_8BINGO",
+                          "_Value": 7
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cTotalCountBonusParam": {
+                "_EnumValue": "[995239936] HP",
+                "_TotalBingoBonusNumList": {
+                  "app.cEnumerableParam`2<app.GeneDef.BINGO_TOTAL_COUNT_BONUS_NUM_Fixed,app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[1901462912] TOTAL_3BINGO",
+                          "_Value": 40
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[583662016] TOTAL_6BINGO",
+                          "_Value": 60
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[2180003456] TOTAL_8BINGO",
+                          "_Value": 100
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cTotalCountBonusParam": {
+                "_EnumValue": "[666894848] STAMINA",
+                "_TotalBingoBonusNumList": {
+                  "app.cEnumerableParam`2<app.GeneDef.BINGO_TOTAL_COUNT_BONUS_NUM_Fixed,app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[1901462912] TOTAL_3BINGO",
+                          "_Value": 5
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[583662016] TOTAL_6BINGO",
+                          "_Value": 10
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[2180003456] TOTAL_8BINGO",
+                          "_Value": 15
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cTotalCountBonusParam": {
+                "_EnumValue": "[2101313408] STAMINA_CURE",
+                "_TotalBingoBonusNumList": {
+                  "app.cEnumerableParam`2<app.GeneDef.BINGO_TOTAL_COUNT_BONUS_NUM_Fixed,app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[1901462912] TOTAL_3BINGO",
+                          "_Value": 2
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[583662016] TOTAL_6BINGO",
+                          "_Value": 3
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[2180003456] TOTAL_8BINGO",
+                          "_Value": 4
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.GeneBingoBonusData.cTotalCountBonusParam": {
+                "_EnumValue": "[3812706528] STAMINA_ATTACK",
+                "_TotalBingoBonusNumList": {
+                  "app.cEnumerableParam`2<app.GeneDef.BINGO_TOTAL_COUNT_BONUS_NUM_Fixed,app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[1901462912] TOTAL_3BINGO",
+                          "_Value": 5
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[583662016] TOTAL_6BINGO",
+                          "_Value": 10
+                        }
+                      },
+                      {
+                        "app.user_data.GeneBingoBonusData.cTotalCountBonusParam.cBonusParam": {
+                          "_EnumValue": "[2180003456] TOTAL_8BINGO",
+                          "_Value": 15
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

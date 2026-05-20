@@ -1,0 +1,597 @@
+[
+  {
+    "app.user_data.OptionMenuData": {
+      "_Values": [
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 0,
+            "_ItemType": "[7029] CAMERA_SPEED_HORIZONTAL",
+            "_ItemMain": true,
+            "_ItemName": "5a5cebdf-8f5b-4891-b3f9-695ff78794e4",
+            "_ItemExplain": "c0643bf2-68fa-41cd-8d7b-0cc8a55eee9f",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "00000000-0000-0000-0000-000000000000",
+            "_DeviceFilter": "[21023] PAD",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 1,
+            "_ItemType": "[27525] CAMERA_SPEED_VERTICAL",
+            "_ItemMain": true,
+            "_ItemName": "01fe36b3-cd3c-40ad-a2ab-775e4c4c6678",
+            "_ItemExplain": "ee6fe684-f858-4a01-bcc4-4d85720acd64",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "00000000-0000-0000-0000-000000000000",
+            "_DeviceFilter": "[21023] PAD",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 2,
+            "_ItemType": "[27244] CAMERA_SENSITIVITY_BASE",
+            "_ItemMain": true,
+            "_ItemName": "e8859c30-8662-41cd-a90b-85a2f3156270",
+            "_ItemExplain": "c94e49f8-ff82-4dd2-9432-99106bb57bd8",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "00000000-0000-0000-0000-000000000000",
+            "_DeviceFilter": "[602] MKB",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  8
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 3,
+            "_ItemType": "[6442] CAMERA_SENSITIVITY_LR",
+            "_ItemMain": true,
+            "_ItemName": "1b7f05f7-cb07-467e-b56c-b82060aa9d9b",
+            "_ItemExplain": "32d56f55-db81-4fda-b8fc-6c7fd7b41a87",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "00000000-0000-0000-0000-000000000000",
+            "_DeviceFilter": "[602] MKB",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  8
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 4,
+            "_ItemType": "[3955] CAMERA_SENSITIVITY_UD",
+            "_ItemMain": true,
+            "_ItemName": "e9bf5e1f-87fa-4adc-baa8-97b70cd44e50",
+            "_ItemExplain": "9117dfac-038f-4f7b-a422-c487d3b777e0",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "00000000-0000-0000-0000-000000000000",
+            "_DeviceFilter": "[602] MKB",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  8
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 5,
+            "_ItemType": "[20149] CAMERA_REVERSE_CONTROL",
+            "_ItemMain": true,
+            "_ItemName": "54cac1c5-b022-4135-af8a-775e59aec57a",
+            "_ItemExplain": "b791e94a-f393-4006-ba73-9c6f4f45ecfb",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "00000000-0000-0000-0000-000000000000",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 6,
+            "_ItemType": "[20149] CAMERA_REVERSE_CONTROL",
+            "_ItemMain": false,
+            "_ItemName": "00000000-0000-0000-0000-000000000000",
+            "_ItemExplain": "00000000-0000-0000-0000-000000000000",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "a3155c9c-e0a6-40ac-af1b-fb7dbc9b936c",
+            "_ChoiceExplain": "25924f1f-e58a-4c20-946e-4364fec7d725",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 7,
+            "_ItemType": "[20149] CAMERA_REVERSE_CONTROL",
+            "_ItemMain": false,
+            "_ItemName": "00000000-0000-0000-0000-000000000000",
+            "_ItemExplain": "00000000-0000-0000-0000-000000000000",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "849e6d56-f659-4ffa-9303-254f4f184cdd",
+            "_ChoiceExplain": "64c14de1-79f8-4b37-90bf-ca7c9bcb3168",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 8,
+            "_ItemType": "[20149] CAMERA_REVERSE_CONTROL",
+            "_ItemMain": false,
+            "_ItemName": "00000000-0000-0000-0000-000000000000",
+            "_ItemExplain": "00000000-0000-0000-0000-000000000000",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "051d66b7-0c62-41d8-b270-a7f88f72e441",
+            "_ChoiceExplain": "4fd8f767-b21d-4a17-989f-541bb52ac37a",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 9,
+            "_ItemType": "[20149] CAMERA_REVERSE_CONTROL",
+            "_ItemMain": false,
+            "_ItemName": "00000000-0000-0000-0000-000000000000",
+            "_ItemExplain": "00000000-0000-0000-0000-000000000000",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "b6d113cd-c7ee-481e-ac10-edbf21f6b2c9",
+            "_ChoiceExplain": "960f17bc-e322-4f1e-9412-8f216436bfd7",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 10,
+            "_ItemType": "[18367] CAMERA_ATTACK",
+            "_ItemMain": true,
+            "_ItemName": "b637ada7-a2d7-4426-ba21-fca3ff28812e",
+            "_ItemExplain": "4a5c85b7-ad82-4e27-81a9-8a3bd42c69cc",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "00000000-0000-0000-0000-000000000000",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 11,
+            "_ItemType": "[18367] CAMERA_ATTACK",
+            "_ItemMain": false,
+            "_ItemName": "00000000-0000-0000-0000-000000000000",
+            "_ItemExplain": "00000000-0000-0000-0000-000000000000",
+            "_InitFlag": false,
+            "_CommonChoice": "[28819] CHOICE_ON",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "50886df1-4100-4385-aecb-557ae1bc0b83",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 12,
+            "_ItemType": "[18367] CAMERA_ATTACK",
+            "_ItemMain": false,
+            "_ItemName": "00000000-0000-0000-0000-000000000000",
+            "_ItemExplain": "00000000-0000-0000-0000-000000000000",
+            "_InitFlag": false,
+            "_CommonChoice": "[3922] CHOICE_OFF",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "d708d7a7-24a9-4f30-8e7d-f6e26f1cd3e2",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 13,
+            "_ItemType": "[14635] CAMERA_VIBRATION",
+            "_ItemMain": true,
+            "_ItemName": "f287eea7-0c96-4883-92f5-15922c3550a3",
+            "_ItemExplain": "ed4fdc6a-161f-4e2f-ba8b-840569b1513c",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "00000000-0000-0000-0000-000000000000",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 14,
+            "_ItemType": "[14635] CAMERA_VIBRATION",
+            "_ItemMain": false,
+            "_ItemName": "00000000-0000-0000-0000-000000000000",
+            "_ItemExplain": "00000000-0000-0000-0000-000000000000",
+            "_InitFlag": false,
+            "_CommonChoice": "[28819] CHOICE_ON",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "10bb7c15-bbd2-4132-a57a-d4be53ac8fc4",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 15,
+            "_ItemType": "[14635] CAMERA_VIBRATION",
+            "_ItemMain": false,
+            "_ItemName": "00000000-0000-0000-0000-000000000000",
+            "_ItemExplain": "00000000-0000-0000-0000-000000000000",
+            "_InitFlag": false,
+            "_CommonChoice": "[3922] CHOICE_OFF",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "5a05f7cd-22b1-41e1-84e7-d4b13968f43f",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 16,
+            "_ItemType": "[29307] CAMERA_AUTO_CENTERING",
+            "_ItemMain": true,
+            "_ItemName": "9637097b-38e4-43b6-a28c-3ce6c890548e",
+            "_ItemExplain": "d4cf04d3-cbf2-4fc9-8d95-2c6162ef4daa",
+            "_InitFlag": false,
+            "_CommonChoice": "[23263] INVALID",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "00000000-0000-0000-0000-000000000000",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 17,
+            "_ItemType": "[29307] CAMERA_AUTO_CENTERING",
+            "_ItemMain": false,
+            "_ItemName": "00000000-0000-0000-0000-000000000000",
+            "_ItemExplain": "00000000-0000-0000-0000-000000000000",
+            "_InitFlag": false,
+            "_CommonChoice": "[28819] CHOICE_ON",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "7e979b22-6f64-4549-b5a6-f3c1b9053b3c",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.OptionMenuData.cData": {
+            "_Index": 18,
+            "_ItemType": "[29307] CAMERA_AUTO_CENTERING",
+            "_ItemMain": false,
+            "_ItemName": "00000000-0000-0000-0000-000000000000",
+            "_ItemExplain": "00000000-0000-0000-0000-000000000000",
+            "_InitFlag": false,
+            "_CommonChoice": "[3922] CHOICE_OFF",
+            "_ChoiceName": "00000000-0000-0000-0000-000000000000",
+            "_ChoiceExplain": "a57e2a1b-5444-4ab2-a8bc-a3bd1ad79779",
+            "_DeviceFilter": "[13005] CMN",
+            "_TexID": "[10455] INVALID",
+            "_GameFlowBit": {
+              "ace.Bitset`1<app.OptionDef.GAME_FLOW>": {
+                "_Value": [
+                  6
+                ],
+                "_MaxElement": 3
+              }
+            },
+            "_PlatformBit": {
+              "ace.Bitset`1<app.OptionDef.PLATFORM>": {
+                "_Value": [
+                  31
+                ],
+                "_MaxElement": 5
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

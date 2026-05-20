@@ -1,0 +1,233 @@
+[
+  {
+    "ace.user_data.WindManagerSettingBase": {
+      "CommandNum": 300,
+      "WindSpeedParamPreset": [
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 0,
+            "SpeedMin": 0.01,
+            "SpeedMax": 0.3,
+            "PressureMin": 0.01,
+            "PressureMax": 4.0,
+            "Spread": 2.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 1,
+            "SpeedMin": 0.3,
+            "SpeedMax": 1.6,
+            "PressureMin": 0.5,
+            "PressureMax": 6.0,
+            "Spread": 1.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 2,
+            "SpeedMin": 1.6,
+            "SpeedMax": 3.4,
+            "PressureMin": 2.0,
+            "PressureMax": 10.0,
+            "Spread": 1.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 3,
+            "SpeedMin": 3.4,
+            "SpeedMax": 5.5,
+            "PressureMin": 5.0,
+            "PressureMax": 20.0,
+            "Spread": 1.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 4,
+            "SpeedMin": 5.5,
+            "SpeedMax": 8.0,
+            "PressureMin": 10.0,
+            "PressureMax": 30.0,
+            "Spread": 1.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 5,
+            "SpeedMin": 8.0,
+            "SpeedMax": 10.8,
+            "PressureMin": 20.0,
+            "PressureMax": 35.0,
+            "Spread": 1.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 6,
+            "SpeedMin": 10.8,
+            "SpeedMax": 13.9,
+            "PressureMin": 30.0,
+            "PressureMax": 45.0,
+            "Spread": 1.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 7,
+            "SpeedMin": 13.9,
+            "SpeedMax": 17.2,
+            "PressureMin": 35.0,
+            "PressureMax": 55.0,
+            "Spread": 1.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 8,
+            "SpeedMin": 17.2,
+            "SpeedMax": 20.8,
+            "PressureMin": 40.0,
+            "PressureMax": 65.0,
+            "Spread": 1.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 9,
+            "SpeedMin": 20.8,
+            "SpeedMax": 24.5,
+            "PressureMin": 45.0,
+            "PressureMax": 70.0,
+            "Spread": 1.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 10,
+            "SpeedMin": 24.5,
+            "SpeedMax": 28.5,
+            "PressureMin": 50.0,
+            "PressureMax": 75.0,
+            "Spread": 1.0
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 11,
+            "SpeedMin": 28.5,
+            "SpeedMax": 32.7,
+            "PressureMin": 55.0,
+            "PressureMax": 80.0,
+            "Spread": 0.8
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 12,
+            "SpeedMin": 32.7,
+            "SpeedMax": 43.7,
+            "PressureMin": 60.0,
+            "PressureMax": 90.0,
+            "Spread": 0.8
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 13,
+            "SpeedMin": 43.7,
+            "SpeedMax": 54.0,
+            "PressureMin": 70.0,
+            "PressureMax": 100.0,
+            "Spread": 0.6
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 14,
+            "SpeedMin": 54.0,
+            "SpeedMax": 67.0,
+            "PressureMin": 80.0,
+            "PressureMax": 110.0,
+            "Spread": 0.4
+          }
+        },
+        {
+          "ace.cWind.WindSpeedParam": {
+            "Power": 15,
+            "SpeedMin": 67.0,
+            "SpeedMax": 80.0,
+            "PressureMin": 90.0,
+            "PressureMax": 120.0,
+            "Spread": 0.2
+          }
+        }
+      ],
+      "ChainWindResource": "GameDesign/Wind/ChainWind.chainwnd",
+      "ChainWindResource2": "",
+      "WindAnimationChain": {
+        "via.AnimationCurve3D": {
+          "v0": [
+            {
+              "raw": "00000000000000000000000000000000",
+              "type": "Data"
+            },
+            {
+              "raw": "00000000000040560000000000000000",
+              "type": "Data"
+            }
+          ],
+          "v1": [
+            {
+              "raw": "00000000000000000000000000000000",
+              "type": "Data"
+            },
+            {
+              "raw": "00000000000040560000000000000000",
+              "type": "Data"
+            }
+          ],
+          "v2": [
+            {
+              "raw": "00000000000000000000000000000000",
+              "type": "Data"
+            },
+            {
+              "raw": "00000000000040560000000000000000",
+              "type": "Data"
+            }
+          ],
+          "v3": {
+            "raw": "000020c1",
+            "type": "Data"
+          },
+          "v4": {
+            "raw": "00002041",
+            "type": "Data"
+          },
+          "v5": {
+            "raw": "00000000",
+            "type": "Data"
+          },
+          "v6": {
+            "raw": "0000c842",
+            "type": "Data"
+          },
+          "v7": {
+            "raw": "00000000",
+            "type": "Data"
+          },
+          "v8": {
+            "raw": "02000000",
+            "type": "Data"
+          }
+        }
+      },
+      "WindGainChain": 1.0,
+      "WindLimitChain": 60.0,
+      "WindGainCloth": 3.5,
+      "WindLimitCloth": 60.0
+    }
+  }
+]

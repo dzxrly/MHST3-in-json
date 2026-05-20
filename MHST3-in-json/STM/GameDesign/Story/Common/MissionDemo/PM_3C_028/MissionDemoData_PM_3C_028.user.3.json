@@ -1,0 +1,160 @@
+[
+  {
+    "app.user_data.MissionDemoData": {
+      "_MissionDemoID": "[28] PM_3C_028",
+      "_IsCreateAnimal": false,
+      "_PlayerSetting": {
+        "app.user_data.MissionDemoData.cPlayerSetting": {
+          "_Position": [
+            26.2823,
+            -0.2407,
+            82.3686,
+            0.0
+          ],
+          "_Rotation": [
+            0.0,
+            1.0,
+            0.0,
+            -0.0019
+          ],
+          "_IsKeepPosRot": false,
+          "_DisableLookAt": true
+        }
+      },
+      "_NpcSettings": [
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              27.7707,
+              -0.2407,
+              82.4323,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              -0.9835,
+              0.0,
+              0.1808
+            ],
+            "_NpcID": "[211685568] NPC102_20_001_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              26.8481,
+              -0.22,
+              80.5,
+              0.0
+            ],
+            "_Rotation": [
+              -0.0,
+              0.1161,
+              -0.0,
+              0.9932
+            ],
+            "_NpcID": "[1886105600] NPC101_40_001_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              27.0056,
+              -0.2407,
+              82.5,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.9966,
+              0.0,
+              -0.082
+            ],
+            "_NpcID": "[2969099392] NPC301_10_010_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              27.4658,
+              -0.2407,
+              80.5,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0739,
+              0.0,
+              -0.9973
+            ],
+            "_NpcID": "[3308010816] NPC301_40_002_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        }
+      ],
+      "_EnemySettings": [],
+      "_CameraWorkData": {
+        "ace.user_data.CameraWorkData": {
+          "ref_instance_id": 6,
+          "path": "GameDesign/Story/Common/MissionDemo/PM_3C_028/MissionCameraWorkData_PM_3C_028.user"
+        }
+      },
+      "_FirstCameraGroupGuid": "db590319-8b3d-04a0-2a47-d229994adc61",
+      "_ActionSettings": [
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "_WaitSecound": 1.0
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "10e101bc-2455-4158-b0f7-59452eaf92f1"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "_WaitSecound": 1.0
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_HighQualityGraphicsOBBs": []
+    }
+  }
+]

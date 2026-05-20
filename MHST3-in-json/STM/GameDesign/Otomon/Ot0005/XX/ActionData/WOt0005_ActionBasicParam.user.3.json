@@ -1,0 +1,44 @@
+[
+  {
+    "app.user_data.OtomonActionBasicParam": {
+      "_FallGravity": 30.0,
+      "_MoveToTerrainDistanceThreshold": 5.0,
+      "_MoveToTerrainAngleThreshold": 60.0,
+      "_FlyableHeight": 5.0,
+      "_FlyIdleSetStartMotionTime": 5.0,
+      "_DropFlyAccelerationMAX": 180.0,
+      "_CatchPlungesOffset": 5.0,
+      "__CatchPlungesSpeed": 0.5,
+      "_MoveTurn_BrakeEnabledDegMax": 35.0,
+      "_MoveTurn_BrakeEnabledDegMin": 0.5,
+      "_MoveTurn_BrakeRateMin": 0.2,
+      "_MoveTurn_BrakeCurve": 4,
+      "_MoveTurn_BlendRateInterpolationSpeed": 5.0,
+      "_MotionTransScaleLimitWalk": {
+        "raw": "0000003f00000040",
+        "type": "Range"
+      },
+      "_MotionTransScaleLimitRun": {
+        "raw": "0000003f00000040",
+        "type": "Range"
+      },
+      "_MotionTransScaleLimitFly": {
+        "raw": "0000003f00000040",
+        "type": "Range"
+      },
+      "_MotionTransScaleLimitSwim": {
+        "raw": "0000003f00002040",
+        "type": "Range"
+      },
+      "_MotionTransScaleLimitWall": {
+        "raw": "0000003f00002040",
+        "type": "Range"
+      },
+      "_TurnSpineBendCoefDefault": 1.0,
+      "_TurnSpineBendCoefFly": 0.5,
+      "_TurnSpineBendCoefClimb": 0.8,
+      "_TurnLeanZCoef": 2.0,
+      "_TurnRollRotateCoef": 28.0
+    }
+  }
+]

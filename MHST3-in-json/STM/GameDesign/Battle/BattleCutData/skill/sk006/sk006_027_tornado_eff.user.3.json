@@ -1,0 +1,82 @@
+[
+  {
+    "app.user_data.BattleCutEffectData": {
+      "_HitInfo": {
+        "app.user_data.BattleCutEffectData.cHitInfo": {
+          "_HitType": 1,
+          "_HitParams": [
+            {
+              "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
+                "_EffHitInfoType": "[100953136] BTH_1022",
+                "_Frame": 35.0
+              }
+            }
+          ]
+        }
+      },
+      "_SimpleEffectInfos": [],
+      "_SimpleEffectInfos_Next": [
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "_ContainerID": "[2655456007] BAT_HITADD_TORNADO",
+            "_ElementID": 1,
+            "_EffCreateType": 0,
+            "_Frame": 0.0,
+            "_Offset": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": ""
+          }
+        }
+      ],
+      "_ShellInfo": {
+        "app.user_data.BattleCutEffectData.cShellInfo": {
+          "_IsActive": true,
+          "_Frame": 85.0,
+          "_ContainerID": "[2846781961] BAT_SHELL_BREATH",
+          "_ElementID": 1,
+          "_MoveType": 0,
+          "_StartPos": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_StartJointName": "breath",
+          "_Acceleration": 2.0,
+          "_FirstSpeed": 29.0,
+          "_Gravity": 0.0,
+          "_PassPoint": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ReachFrame": 0.0,
+          "_Hidden": true,
+          "_NextPassPoint": [
+            0.0,
+            -0.5,
+            0.0,
+            0.0
+          ],
+          "_NextPassJointName": "base",
+          "_NextReachFrame": 15.0,
+          "_NextSpeedOverwrite": false,
+          "_NextFirstSpeed": 0.0,
+          "_NextAcceleration": 1.0,
+          "_NextGravity": 0.0
+        }
+      }
+    }
+  }
+]

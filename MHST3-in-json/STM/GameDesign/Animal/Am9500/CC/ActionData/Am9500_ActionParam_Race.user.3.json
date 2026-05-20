@@ -1,0 +1,65 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "_ActionClassList": [
+        {
+          "app.WorldAnimalAction_Race.cNone": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldAnimalAction_Race.cRun": {
+            "_ActionSafeLimitTime": -1.0,
+            "_Speed": {
+              "app.AppCharaUtil.cMotionSpeedParam": {
+                "_Type": 1,
+                "_KilometerPerHourParam": 200.0,
+                "_MotionSpeed": 1.0
+              }
+            },
+            "_TurnSpeed": 3.5,
+            "_SpeedChangeTime": 5.0
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "a710dbdb-6232-4429-8d7d-650a4ff484c5",
+            "_ActionGuid": "637097a5-7379-48a3-bf44-76d9a09631aa",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "131a4271-1c0c-4394-9801-327b333f4336",
+            "_ActionGuid": "e344d056-870c-4ee8-b89c-494fcf1416b5",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 6,
+              "path": "GameDesign/Animal/CommonData/ActionData/WorldAnimalActionID_Race.user"
+            }
+          },
+          "_ExportGuid": "8550c89a-8459-4004-a567-636706f63c4a"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {}
+      }
+    }
+  }
+]

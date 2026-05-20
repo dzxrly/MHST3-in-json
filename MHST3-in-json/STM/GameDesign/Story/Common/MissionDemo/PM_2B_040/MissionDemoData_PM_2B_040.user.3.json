@@ -1,0 +1,156 @@
+[
+  {
+    "app.user_data.MissionDemoData": {
+      "_MissionDemoID": "[40] PM_2B_040",
+      "_IsCreateAnimal": false,
+      "_PlayerSetting": {
+        "app.user_data.MissionDemoData.cPlayerSetting": {
+          "_Position": [
+            471.8012,
+            179.07,
+            193.1734,
+            0.0
+          ],
+          "_Rotation": [
+            -0.0,
+            -0.0362,
+            0.0,
+            0.9993
+          ],
+          "_IsKeepPosRot": false,
+          "_DisableLookAt": true
+        }
+      },
+      "_NpcSettings": [
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              470.3056,
+              179.0682,
+              192.589,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.2323,
+              0.0,
+              0.9726
+            ],
+            "_NpcID": "[1961046528] NPC101_10_004_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              472.5698,
+              179.1016,
+              193.4975,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              -0.02,
+              0.0,
+              -0.9998
+            ],
+            "_NpcID": "[3426229568] NPC102_10_007_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              471.0802,
+              179.0781,
+              192.9771,
+              0.0
+            ],
+            "_Rotation": [
+              -0.0,
+              -0.004,
+              0.0,
+              1.0
+            ],
+            "_NpcID": "[2969099392] NPC301_10_010_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        }
+      ],
+      "_EnemySettings": [],
+      "_CameraWorkData": {
+        "ace.user_data.CameraWorkData": {
+          "ref_instance_id": 5,
+          "path": "GameDesign/Story/Common/MissionDemo/PM_2B_040/MissionCameraWorkData_PM_2B_040.user"
+        }
+      },
+      "_FirstCameraGroupGuid": "b35bed83-a114-07a3-1a3c-a51fa7ceb168",
+      "_ActionSettings": [
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "f4cf66d1-7125-4072-8f16-2bc9b3613555"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionCameraWork": {
+                      "_CameraGroupGuid": "90d0e55d-03ec-413f-a716-132f1e30dade"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "d5d16ea9-b86b-4b08-b872-cfdf22d108cf"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTipsWindow": {
+                      "_TipsID": "[33] TIPS_032"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_HighQualityGraphicsOBBs": []
+    }
+  }
+]

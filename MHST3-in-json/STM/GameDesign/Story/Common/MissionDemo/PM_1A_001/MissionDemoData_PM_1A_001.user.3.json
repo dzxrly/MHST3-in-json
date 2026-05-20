@@ -1,0 +1,152 @@
+[
+  {
+    "app.user_data.MissionDemoData": {
+      "_MissionDemoID": "[1] PM_1A_001",
+      "_IsCreateAnimal": false,
+      "_PlayerSetting": {
+        "app.user_data.MissionDemoData.cPlayerSetting": {
+          "_Position": [
+            108.6695,
+            212.9564,
+            -147.5063,
+            0.0
+          ],
+          "_Rotation": [
+            0.0,
+            0.977,
+            0.0,
+            -0.2132
+          ],
+          "_IsKeepPosRot": false,
+          "_DisableLookAt": false
+        }
+      },
+      "_NpcSettings": [
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              108.6181,
+              212.9564,
+              -150.3602,
+              0.0
+            ],
+            "_Rotation": [
+              -0.0,
+              0.0603,
+              -0.0,
+              0.9982
+            ],
+            "_NpcID": "[44995036] NPC111_10_007_337",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": false
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              107.7,
+              212.9564,
+              -147.6,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.9984,
+              0.0,
+              0.0558
+            ],
+            "_NpcID": "[2969099392] NPC301_10_010_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": false
+          }
+        }
+      ],
+      "_EnemySettings": [],
+      "_CameraWorkData": {
+        "ace.user_data.CameraWorkData": {
+          "ref_instance_id": 4,
+          "path": "GameDesign/Story/Common/MissionDemo/PM_1A_001/MissionCameraWorkData_PM_1A_001.user"
+        }
+      },
+      "_FirstCameraGroupGuid": "4d2a0069-6131-0f4c-05e8-40ce5b3899a0",
+      "_ActionSettings": [
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "4a4e71a2-95b1-4bfa-9ba9-41ab1d544b2a"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionCameraWork": {
+                      "_CameraGroupGuid": "90137b2d-3908-409c-a475-672ba8a2f94c"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "_WaitSecound": 0.5
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTipsWindow": {
+                      "_TipsID": "[103] TIPS_102"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "_WaitSecound": 0.15
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_HighQualityGraphicsOBBs": []
+    }
+  }
+]

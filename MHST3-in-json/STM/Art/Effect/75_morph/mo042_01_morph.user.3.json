@@ -1,0 +1,94 @@
+[
+  {
+    "app.user_data.MorphEffectData": {
+      "_FieldOtomonEpvsID": 2,
+      "_FieldEnemyEpvsID": 2,
+      "_BattleOtomonEpvsID": 2,
+      "_BattleEnemyEpvsID": 2,
+      "_MorphEffectList": [
+        {
+          "app.user_data.MorphEffectData.cMorphParam": {
+            "_MorphID": "[463439776] ID_BTL_MORPH_CHG_NORMAL",
+            "_MorphVisualID": "[3507608448] ID_MORPH_VISUAL_NORMAL",
+            "_MotionChangeEnabled": false,
+            "_OtomonEffect": [],
+            "_EnemyEffect": [],
+            "_McdList": [
+              {
+                "app.user_data.MorphEffectData.cModelParam": {
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_ConditionGuid": "74809910-9a56-44fc-ac4d-9e7915384ac0",
+                  "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MorphEffectData.cMorphParam": {
+            "_MorphID": "[140363136] ID_BTL_MORPH_CHG_ANGRY1",
+            "_MorphVisualID": "[1106023808] ID_MORPH_VISUAL_ANGRY",
+            "_MotionChangeEnabled": false,
+            "_OtomonEffect": [],
+            "_EnemyEffect": [
+              {
+                "app.user_data.MorphEffectData.cPartsParam": {
+                  "_ElementID": 499,
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
+                }
+              }
+            ],
+            "_McdList": [
+              {
+                "app.user_data.MorphEffectData.cModelParam": {
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_ConditionGuid": "c8c1dba4-617c-4cda-b1a3-18fbfed11d62",
+                  "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MorphEffectData.cMorphParam": {
+            "_MorphID": "[4141537904] ID_BTL_MORPH_CHG_DEAD",
+            "_MorphVisualID": "[20298] ID_MORPH_VISUAL_DEAD",
+            "_MotionChangeEnabled": false,
+            "_OtomonEffect": [],
+            "_EnemyEffect": [],
+            "_McdList": [
+              {
+                "app.user_data.MorphEffectData.cModelParam": {
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_ConditionGuid": "74809910-9a56-44fc-ac4d-9e7915384ac0",
+                  "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
+                }
+              },
+              {
+                "app.user_data.MorphEffectData.cModelParam": {
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_ConditionGuid": "b3e91b43-09ba-49a8-8692-3144a3331268",
+                  "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_MorphVisualList": [],
+      "_OtomonLinkList": [
+        {
+          "app.user_data.MorphEffectData.cStatusMorphLinkData": {
+            "_Status": "[2398810112] SKL_STATUS_ALL_ATK_UP",
+            "_MorphID": "[1106023808] ID_MORPH_VISUAL_ANGRY"
+          }
+        }
+      ]
+    }
+  }
+]

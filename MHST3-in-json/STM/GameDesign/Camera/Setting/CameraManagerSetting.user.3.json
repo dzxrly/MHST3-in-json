@@ -1,0 +1,731 @@
+[
+  {
+    "app.user_data.CameraManagerSetting": {
+      "_WipeCameraPrefab": {
+        "via.Prefab": {
+          "v0": {
+            "raw": "01",
+            "type": "Data"
+          },
+          "v1": "GameDesign/Camera/_Prefab/Wipe/WipeCamera.pfb"
+        }
+      },
+      "_EventWipeCameraPrefab": {
+        "via.Prefab": {
+          "v0": {
+            "raw": "01",
+            "type": "Data"
+          },
+          "v1": "GameDesign/Camera/_Prefab/Wipe/EventWipeCamera.pfb"
+        }
+      },
+      "_WipeBookCameraPrefab": {
+        "via.Prefab": {
+          "v0": {
+            "raw": "01",
+            "type": "Data"
+          },
+          "v1": "GameDesign/Camera/_Prefab/Wipe/WipeBookCamera.pfb"
+        }
+      },
+      "_FarClipCtrlFromFogPrefab": {
+        "via.Prefab": {
+          "v0": {
+            "raw": "01",
+            "type": "Data"
+          },
+          "v1": "GameDesign/Camera/_Prefab/CameraFarClipCtrlFromFog.pfb"
+        }
+      },
+      "_Param": {
+        "app.user_data.CameraManagerSetting.cParams": {
+          "_PlayerCameraParam": {
+            "app.user_data.PlayerCameraParam": {
+              "ref_instance_id": 5,
+              "path": "GameDesign/Camera/Param/PlayerCameraParam.user"
+            }
+          },
+          "_ViewPointCameraParam": {
+            "app.user_data.ViewPointCameraParam": {
+              "ref_instance_id": 6,
+              "path": "GameDesign/Camera/Param/ViewPointCameraParam.user"
+            }
+          },
+          "_CameraParamDataList": {
+            "ace.user_data.CameraParamDataCollectionList": {
+              "ref_instance_id": 7,
+              "path": "GameDesign/Camera/Param/CameraCommonParam.user"
+            }
+          },
+          "_RideCameraParamDataList": {
+            "ace.user_data.CameraParamDataCollectionList": {
+              "ref_instance_id": 8,
+              "path": "GameDesign/Camera/Param/RideCameraParamBase.user"
+            }
+          },
+          "_AddCameraParamDataList": {
+            "ace.user_data.CameraParamDataCollectionList": {
+              "ref_instance_id": 9,
+              "path": "GameDesign/Camera/Param/AddCameraParam.user"
+            }
+          },
+          "_ConstCameraParamDataList": {
+            "ace.user_data.CameraParamDataCollectionList": {
+              "ref_instance_id": 10,
+              "path": "GameDesign/Camera/Param/ConstViewCameraParam.user"
+            }
+          },
+          "_DialogueCameraParamDataCollectionList": {
+            "ace.user_data.CameraParamDataCollectionList": {
+              "ref_instance_id": 11,
+              "path": "GameDesign/Dialogue/Camera/Dialogue_CameraParam.user"
+            }
+          },
+          "_SubCampCameraCutTableData": {
+            "app.user_data.SubCampCameraCutTableData": {
+              "ref_instance_id": 12,
+              "path": "GameDesign/Camera/Param/SubCamp/SubCampCameraCutTableData.user"
+            }
+          },
+          "_InterpolationCamData": {
+            "app.user_data.InterpolationCameraData": {
+              "ref_instance_id": 13,
+              "path": "GameDesign/Camera/Param/InterpolationCameraData.user"
+            }
+          },
+          "_CameraShakeData": {
+            "app.user_data.CameraShake": {
+              "ref_instance_id": 14,
+              "path": "GameDesign/Camera/Param/CameraShakeData.user"
+            }
+          },
+          "_CommonCameraWorkData": {
+            "ace.user_data.CameraWorkData": {
+              "ref_instance_id": 15,
+              "path": "GameDesign/Camera/CameraWork/CommonCameraWorkData.user"
+            }
+          },
+          "_PickUpItemCamOffs_Eye": [
+            0.0,
+            1.2,
+            3.5,
+            0.0
+          ],
+          "_PickUpItemCamOffs_Lookat": [
+            0.0,
+            1.2,
+            -0.5,
+            0.0
+          ],
+          "_FarClipControlMinFogDensity": 0.95,
+          "_FarClipControlMaxFogDensity": 1.0,
+          "_FarClipControlMinClip": 1000.0
+        }
+      },
+      "_CamCtrlPrefabs": {
+        "app.user_data.CameraManagerSetting.cCameraControllerPrefabs": {
+          "_PlayerCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/PlayerCamera.pfb"
+            }
+          },
+          "_InterpolationCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/InterpolationCamera.pfb"
+            }
+          },
+          "_CutsceneCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/CutSceneCamera.pfb"
+            }
+          },
+          "_CutsceneInCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/CutSceneInCamera.pfb"
+            }
+          },
+          "_CutsceneOutCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/CutSceneOutCamera.pfb"
+            }
+          },
+          "_DialogueCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/DialogueCamera.pfb"
+            }
+          },
+          "_SubCampMotionCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/SubCampMotionCamera.pfb"
+            }
+          },
+          "_FieldMotionCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/FieldMotionCamera.pfb"
+            }
+          },
+          "_WorkCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/WorkCamera.pfb"
+            }
+          },
+          "_BattleCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/BattleCamera.pfb"
+            }
+          },
+          "_ViewPointCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/ViewPointCamera.pfb"
+            }
+          },
+          "_CharamakeCameraPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/CharamakeCamera.pfb"
+            }
+          },
+          "_BattleWipeCameraPrefabArray": [
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/BattleWipeCamera_1.pfb"
+              }
+            },
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/BattleWipeCamera_2.pfb"
+              }
+            },
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/BattleWipeCamera_3.pfb"
+              }
+            },
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/BattleWipeCamera_4.pfb"
+              }
+            }
+          ],
+          "_CutSceneSubCameraPrefabArray": [
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/CutSceneSubCamera_1.pfb"
+              }
+            },
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/CutSceneSubCamera_2.pfb"
+              }
+            }
+          ],
+          "_ConstViewCameraPrefabArray": [
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/ConstViewCameraMain.pfb"
+              }
+            },
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/ConstViewWipeCamera_1.pfb"
+              }
+            },
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/ConstViewWipeCamera_2.pfb"
+              }
+            },
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/ConstViewWipeCamera_3.pfb"
+              }
+            },
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/ConstViewWipeCamera_4.pfb"
+              }
+            }
+          ],
+          "_PreViewCameraPrefabArray": [
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/WipePreviewCameraController1.pfb"
+              }
+            },
+            {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "01",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Camera/_Prefab/Wipe/WipePreviewCameraController2.pfb"
+              }
+            }
+          ],
+          "_BookCameraControllerPrefab": {
+            "via.Prefab": {
+              "v0": {
+                "raw": "01",
+                "type": "Data"
+              },
+              "v1": "GameDesign/Camera/_Prefab/Wipe/WipeBookCameraController.pfb"
+            }
+          }
+        }
+      },
+      "_DyResources": {
+        "app.user_data.CameraManagerSetting.cDynamicResources": {
+          "_RTTPrefabTbl": [
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 13443,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/WipeRTT_1.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 32057,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/WipeRTT_2.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 21106,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/WipeRTT_3.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 26541,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/WipeRTT_4.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 4635,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/EventRTT_1.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 24943,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/EventRTT_2.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 20319,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/WKinsipRTT_1.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 19233,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/WKinsipRTT_2.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 29055,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/WipeRtt_Preview_1.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 12925,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/WipeRtt_Preview_2.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 25933,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/SynchroRTT_1.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 24109,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/SynchroRTT_2.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 15078,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/SynchroRTT_3.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 30508,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/SynchroRTT_4.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 32715,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/CharaCaptureRTT_1.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 6772,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/CharaCaptureRTT_2.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 31961,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/CharaCaptureRTT_3.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 9282,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/CharaCaptureRTT_4.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 19868,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/CharaCaptureRTT_5.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 23096,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/CharaCaptureRTT_6.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 22635,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/RTT/CharaCaptureRTT_7.pfb"
+                  }
+                }
+              }
+            }
+          ],
+          "_MotCamBankPrefabTbl": [
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": -1793885039,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/MotionCameraBank/BattleMotCamBank.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": -906488853,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/MotionCameraBank/SubCampMotCamBank.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": 608754887,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/MotionCameraBank/ReturnMotCamBank.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.cResourcePrefabTable.cResourcePrefab": {
+                "_Hash": -980738029,
+                "_Prefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Camera/_Prefab/Resource/MotionCameraBank/BattleMotCamExtV1Bank.pfb"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

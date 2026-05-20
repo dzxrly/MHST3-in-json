@@ -1,0 +1,105 @@
+[
+  {
+    "app.user_data.WorldAnimalParamPack": {
+      "_MotionBankAssetsList": [
+        {
+          "app.cMotionBankAssets": {
+            "_MotionBank": "Art/Motion/02_Enemy_Otomon/em500/ot500_f_bank.motbank",
+            "_MotionExtendBank": {
+              "ace.user_data.MotionExtendBank": {
+                "ref_instance_id": 1,
+                "path": "Art/Motion/02_Enemy_Otomon/em500/ot500_f_bank_meb.user"
+              }
+            },
+            "_MotionConnectBank": {
+              "ace.user_data.MotionConnectBank": {
+                "ref_instance_id": 2,
+                "path": "Art/Motion/02_Enemy_Otomon/em500/ot500_f_bank_mcb.user"
+              }
+            },
+            "_Order": 0
+          }
+        }
+      ],
+      "_JointGroup": {
+        "ace.user_data.JointGroup": {
+          "ref_instance_id": 4,
+          "path": "Art/Motion/02_Enemy_Otomon/em_common/_Decorate/JointMap/em_common_JointGroup.user"
+        }
+      },
+      "_ActionDataSetHolder": {
+        "app.user_data.ActionDataSetHolder": {
+          "_DataSet_Base": [
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "ref_instance_id": 5,
+                    "path": "GameDesign/Animal/Am9500/CC/ActionData/Am9500_ActionParam_General.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "ref_instance_id": 6,
+                        "path": "GameDesign/Animal/CommonData/ActionData/WorldAnimalActionID_General.user"
+                      }
+                    },
+                    "_ExportGuid": "d150bb9b-4031-40b4-9f46-5649f5075b06"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "ref_instance_id": 9,
+                    "path": "GameDesign/Animal/Am9500/CC/ActionData/Am9500_ActionParam_Race.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "ref_instance_id": 10,
+                        "path": "GameDesign/Animal/CommonData/ActionData/WorldAnimalActionID_Race.user"
+                      }
+                    },
+                    "_ExportGuid": "8550c89a-8459-4004-a567-636706f63c4a"
+                  }
+                }
+              }
+            }
+          ],
+          "_DataSet_Sub": []
+        }
+      },
+      "_DetectTerrainParam": {
+        "app.user_data.DetectTerrainParam": {
+          "ref_instance_id": 14,
+          "path": "GameDesign/Animal/Am9500/CC/ActionData/RaceAnimalDetectTerrainParam.user"
+        }
+      },
+      "_InertiaFbik": {
+        "": {}
+      },
+      "_FbikRigInfo": {
+        "": {}
+      },
+      "_SpeedTreeCollision": {
+        "": {}
+      },
+      "_WorldCharacterAnimationLodParam": {
+        "": {}
+      },
+      "_WorldAnimalBasicParam": {
+        "": {}
+      },
+      "_WorldAnimalRareParam": {
+        "": {}
+      }
+    }
+  }
+]

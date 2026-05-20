@@ -1,0 +1,3075 @@
+[
+  {
+    "app.user_data.ActionTransitionTable": {
+      "_ActionTable": [
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "8fa81cff-a34c-40d4-bbae-52253813b91f",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 1,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_PickEggEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 3,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "a7979987-9594-41b2-ab05-9f5505b75520",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 1,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_PickEggEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 3,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "976b6298-ea7d-4a07-a451-284b763d8457",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 3,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "b2c8aab5-cdb5-42a6-9135-afc54cde35a8",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 3,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "3fb3a87f-4966-4bd7-ad17-1d1faa1c26a2",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 19,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_ClimbUpFinish_ClimbUpFinish.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 21,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_GrippyFall_ClimbNotFoundWall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 23,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbMove_OverWalk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 25,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbMoveStop_Neutral.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 1
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 27,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_ClimbIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "b4a4db19-0bfb-4924-af3c-ce87430013d4",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 19,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_ClimbUpFinish_ClimbUpFinish.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 33,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_ClimbMoveStop_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "7ab2be08-bc50-42c7-b012-6fb2597fde36",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 38,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_ClimbUpFinish_ClimbUpFinishAnyInput.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 40,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbJump_WallJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 42,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbFall_ClimbFall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 21,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_GrippyFall_ClimbNotFoundWall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 23,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbMove_OverWalk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 3
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 27,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_ClimbIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "79493f45-2c5a-4f1c-ad5c-b39301258e1b",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 50,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimStart_Swim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 19,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_ClimbUpFinish_ClimbUpFinish.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 40,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbJump_WallJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 42,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbFall_ClimbFall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 55,
+                            "path": "GameDesign/Player/Transition/Main/Condition/cond_ClimbDownWallFinish_ClimbDownLand.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 21,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_GrippyFall_ClimbNotFoundWall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 23,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbMove_OverWalk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "157f510f-b07d-41eb-9698-99fb476a85fd",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 50,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimStart_Swim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 19,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_ClimbUpFinish_ClimbUpFinish.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 40,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbJump_WallJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 42,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbFall_ClimbFall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 55,
+                            "path": "GameDesign/Player/Transition/Main/Condition/cond_ClimbDownWallFinish_ClimbDownLand.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 21,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_GrippyFall_ClimbNotFoundWall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 25,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbMoveStop_Neutral.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "f0f0dd8b-a25f-4a59-a4ed-02a3bda47562",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 40,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbJump_WallJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 42,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbFall_ClimbFall.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 21,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_GrippyFall_ClimbNotFoundWall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 23,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbMove_OverWalk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 27,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_ClimbIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "98bcf5b9-e971-49e6-a54e-4aa36f6d107a",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 80,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 82,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RunStop_MoveStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 84,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Idle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "ae6834ab-57a3-48da-9965-610ef47ea72b",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 89,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Fall_Fall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 80,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 84,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Idle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "045ec41e-ebcc-4bdc-afa0-5161396a503d",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 96,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimFallStart_SwimFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 98,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_ClimbFallLand_ClimbFallLand.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 100,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbAirStart_WallAirStart.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 102,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_StuckJump_StuckJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "96071bd9-d8b3-487e-8f9b-a84947412c73",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 106,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartGround.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 89,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Fall_Fall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 80,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 84,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Idle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "07be570f-50f0-495d-9009-fd9510d5856a",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 96,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimFallStart_SwimFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 115,
+                            "path": "GameDesign/Player/Transition/Main/Condition/cond_LandLarge_Land.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 100,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbAirStart_WallAirStart.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 102,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_StuckJump_StuckJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "0df31731-82bd-469c-8b1c-1a666ab71813",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 122,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOutFall_SwimOutFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 124,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOut_NotSwim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 126,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 128,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMove_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 130,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "48ea0ca3-531e-409b-ad37-f0431e2d2a88",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 122,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOutFall_SwimOutFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 124,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOut_NotSwim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 126,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 128,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMove_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 139,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMoveStop_MoveStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 141,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimMoveStop_ActionEndNoMove.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "00b880ed-0f73-4f42-828f-485992e5787d",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 122,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOutFall_SwimOutFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 124,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOut_NotSwim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 126,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 128,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMove_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 130,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "b8b682ab-0867-4e40-8a8a-8dd3fbd54a66",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 106,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartGround.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 154,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimStart_SwimFromSwimOutRun.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 89,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Fall_Fall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 157,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Pop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 159,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SelfJump_Jump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 161,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimDive_SwimDive.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 80,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 84,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Idle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "28b15785-2a6d-4790-9483-22392d5686f4",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 167,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartRun.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 154,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimStart_SwimFromSwimOutRun.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 170,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_Dash_Dash.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 172,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_Run_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 174,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_Walk_Walk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 82,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_RunStop_MoveStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 84,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Idle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "99b53348-b4c4-49db-880b-e90d5462d752",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 181,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_FailedFall_FallAfterStep.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 183,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Move_From_StepUp_Walk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 185,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_WalkStop_MoveStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "d8bccd4b-5f61-4fc4-9f3c-0c8d4b52c996",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 181,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_FailedFall_FallAfterStep.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 183,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Move_From_StepUp_Walk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 185,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_WalkStop_MoveStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "80a43d20-ec0d-4723-8fb4-ddf55a9dd0e7",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 195,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartWater.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 197,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimOutRun_SwimOutRun.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 122,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOutFall_SwimOutFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 124,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOut_NotSwim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 201,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopSwim.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 126,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 128,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMove_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "804878ab-cb7f-4689-ab0c-c3cf07f95e27",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 195,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartWater.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 208,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_SwimOutStep.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 197,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimOutRun_SwimOutRun.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 7
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 122,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOutFall_SwimOutFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 124,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOut_NotSwim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 201,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopSwim.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 126,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 139,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMoveStop_MoveStop.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "3eb2a203-d26c-49f4-99a6-3e4644400109",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 218,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartRunWater.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 208,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_SwimOutStep.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 197,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimOutRun_SwimOutRun.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 7
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 122,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOutFall_SwimOutFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 124,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOut_NotSwim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 201,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopSwim.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 225,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimRunTurn_Turn.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 4
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 128,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMove_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 228,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMoveStop_MoveStopDelay.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "5e9bd167-4d8a-4167-862b-0e663dd9e815",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 218,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartRunWater.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 208,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_SwimOutStep.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 197,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimOutRun_SwimOutRun.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 7
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 122,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOutFall_SwimOutFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 124,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOut_NotSwim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 201,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopSwim.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 1
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 225,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimRunTurn_Turn.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 4
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 128,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMove_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 228,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMoveStop_MoveStopDelay.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 1
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 241,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimRun_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "193232f5-5b13-4b6c-8e2d-c1f0559129db",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 195,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartWater.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 197,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimOutRun_SwimOutRun.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 122,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOutFall_SwimOutFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 124,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimOut_NotSwim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 201,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_PopSwim.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 126,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 128,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_SwimMove_Move.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 2
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 130,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "a40ebb4b-b8be-48ab-8074-830b3967855d",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 256,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Land.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 258,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Fall_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "3d8443d2-cf57-470d-abec-daf25a091c13",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 130,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "4c545d5f-0832-4c90-bfae-75244b3d690c",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 3,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "794f2dd6-d897-4ac0-bdb6-28ee9743e487",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 268,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_PutEgg_PutEgg.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 270,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggFall_Fall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 272,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEgg_PickEgg.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 274,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEggEx_PickEggEx.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 276,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 278,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggWalk_Walk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "91c83216-2ae2-437f-b2e3-1977895c2cc1",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 268,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_PutEgg_PutEgg.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 270,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggFall_Fall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 272,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEgg_PickEgg.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 274,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEggEx_PickEggEx.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 276,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 287,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggWalkStop_MoveStopDelay.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "4ba2d729-0de4-456d-ba3f-1f1acd0a8dbd",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 268,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_PutEgg_PutEgg.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 270,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggFall_Fall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 272,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEgg_PickEgg.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 274,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEggEx_PickEggEx.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 278,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggWalk_Walk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 296,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggRunStop_MoveStopDelay.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "cf82c2cd-ade4-4bd5-ada4-ac4bdf41a05b",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 268,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_PutEgg_PutEgg.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 270,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggFall_Fall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 272,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEgg_PickEgg.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 276,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 278,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggWalk_Walk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 3,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "6a23d9ae-9431-4926-9c30-b11b6046df27",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 268,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_PutEgg_PutEgg.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 270,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggFall_Fall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 272,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEgg_PickEgg.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 276,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 278,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggWalk_Walk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 3,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "1323ac5e-4fcc-41a5-995a-ebcc58ed6c20",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 316,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggLandMove_LandMove.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 318,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggLandSmall_Land.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "dd51b77f-08d3-4c1b-bd0c-a07f51fdb785",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 268,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_PutEgg_PutEgg.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 270,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggFall_Fall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 272,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEgg_PickEgg.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 274,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEggEx_PickEggEx.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 276,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 278,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggWalk_Walk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 3,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "af88fd01-0363-4b4d-a12e-3fab57fbe6d3",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 268,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_PutEgg_PutEgg.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 270,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggFall_Fall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 272,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEgg_PickEgg.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 274,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_PickEggEx_PickEggEx.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 276,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggRun_Run.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 278,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_EggWalk_Walk.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 3,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_EggIdle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "d2442563-6f36-4f3b-b4f9-cb752ad0648a",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 80,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_Move.user"
+                          }
+                        },
+                        "_IsDisable": true,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 84,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_Idle_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "d9dab0ec-4a22-4e0f-82b3-59491660a934",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 344,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideGlideJump_AutoRide.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 96,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimFallStart_SwimFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 115,
+                            "path": "GameDesign/Player/Transition/Main/Condition/cond_LandLarge_Land.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 100,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbAirStart_WallAirStart.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 349,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_GlideJumpLoop_ActionEnd.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "ba16b474-8a64-49cb-97a1-205dd6427de4",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 344,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_RideGlideJump_AutoRide.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 96,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimFallStart_SwimFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 115,
+                            "path": "GameDesign/Player/Transition/Main/Condition/cond_LandLarge_Land.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 100,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbAirStart_WallAirStart.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 357,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_GlideJumpEnd_AprcSwim.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 102,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_StuckJump_StuckJump.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cTransitionInfoFromOneAction": {
+            "_ActionGuid": "72babd75-7ba6-43e9-a1ad-689cc0927aea",
+            "_TransitionPatternList": [
+              {
+                "app.user_data.cActionTransitionList": {
+                  "_TransitionList": [
+                    {
+                      "app.user_data.cActionTransitionPackData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionDataPack": {
+                            "ref_instance_id": 17,
+                            "path": "GameDesign/Player/Transition/Main/Pack/TransPack_RideStartFreestyle.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 96,
+                            "path": "GameDesign/Player/Transition/Main/Condition/Cond_SwimFallStart_SwimFall.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTransitionSingleConditionData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCondition": {
+                            "ref_instance_id": 115,
+                            "path": "GameDesign/Player/Transition/Main/Condition/cond_LandLarge_Land.user"
+                          }
+                        },
+                        "_IsDisable": false
+                      }
+                    },
+                    {
+                      "app.user_data.cActionTranstionSingleCommandData": {
+                        "_TransitionUserData": {
+                          "app.user_data.ActionTransitionSingleCommand": {
+                            "ref_instance_id": 100,
+                            "path": "GameDesign/Player/Transition/Main/Command/Cmd_ClimbAirStart_WallAirStart.user"
+                          }
+                        },
+                        "_IsDisable": false,
+                        "_CancelTiming": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "ace.user_data.ActionID": {
+      "_ActionIDArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cNone",
+                "_InstanceGuid": "7eea32db-4fa2-4a66-ae97-6dd255f9ad20",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "2bf70af7-be2c-4213-8f6b-2cda90179a88",
+                "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+                "_LowerGuid": "ddb9214e-e25b-0d78-2491-e99bc9b7cbbf"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdle",
+                "_InstanceGuid": "ddb9214e-e25b-0d78-2491-e99bc9b7cbbf",
+                "_OverrideOwnerClass": true,
+                "_BaseActionGuid": "703a1640-f9d5-4520-b9aa-74399f170f3a",
+                "_UpperGuid": "7eea32db-4fa2-4a66-ae97-6dd255f9ad20",
+                "_LowerGuid": "b7bdd702-9870-4f18-9119-19f2477d17b1"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cEscapeMain",
+                "_InstanceGuid": "b7bdd702-9870-4f18-9119-19f2477d17b1",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "5b1797bb-1c0a-4053-b1fa-92d768e3bf31",
+                "_UpperGuid": "ddb9214e-e25b-0d78-2491-e99bc9b7cbbf",
+                "_LowerGuid": "8430481b-24fa-02cd-3558-bd95e4f1451d"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cCautionMain",
+                "_InstanceGuid": "8430481b-24fa-02cd-3558-bd95e4f1451d",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "783d075c-0b25-4bf8-99e1-3000eb94c36e",
+                "_UpperGuid": "b7bdd702-9870-4f18-9119-19f2477d17b1",
+                "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+              }
+            }
+          ]
+        }
+      },
+      "_ExportSettingArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cExport": {
+                "_Guid": "81e4fadc-3ddd-4b42-8eb9-fcf873a5a4bb",
+                "_ClassName": "Am0351_Action_General",
+                "_ActionCategory": 0
+              }
+            }
+          ]
+        }
+      },
+      "_BaseActionID": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 8,
+              "path": "GameDesign/Animal/CommonData/ActionData/WorldAnimalActionID_General.user"
+            }
+          },
+          "_ExportGuid": "d150bb9b-4031-40b4-9f46-5649f5075b06"
+        }
+      }
+    }
+  }
+]

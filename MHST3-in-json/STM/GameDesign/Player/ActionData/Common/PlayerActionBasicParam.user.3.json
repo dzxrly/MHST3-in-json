@@ -1,0 +1,54 @@
+[
+  {
+    "app.user_data.PlayerActionBasicParam": {
+      "_MoveTurn_BrakeEnabledDegMax": 35.0,
+      "_MoveTurn_BrakeEnabledDegMin": 0.5,
+      "_MoveTurn_BrakeRateMin": 0.2,
+      "_MoveTurn_BrakeCurve": 4,
+      "_SlopeStage1": 30.0,
+      "_SlopeStage2": 35.0,
+      "_Slope1": {
+        "app.cPlayerSlopeMotionAngleParam": {
+          "_UpDeg": 20.0,
+          "_UpEndDeg": 15.0,
+          "_DownDeg": 20.0,
+          "_DownEndDeg": 15.0
+        }
+      },
+      "_Slope2": {
+        "app.cPlayerSlopeMotionAngleParam": {
+          "_UpDeg": 30.0,
+          "_UpEndDeg": 25.0,
+          "_DownDeg": 30.0,
+          "_DownEndDeg": 25.0
+        }
+      },
+      "_SlopeSide1": {
+        "app.cPlayerSlopeMotionAngleParam": {
+          "_UpDeg": 30.0,
+          "_UpEndDeg": 25.0,
+          "_DownDeg": 30.0,
+          "_DownEndDeg": 25.0
+        }
+      },
+      "_StepUp_SuccessInputDeg": 45.0,
+      "_StepUp_SuccessCharaDeg": 45.0,
+      "_Wall_SameDirStickAngle": 2.5,
+      "_GlidingJumpEnableHeight": 15.0,
+      "_GlidingJumpEnableVelocity": -4.0,
+      "_GlidingJumpEnableInputDurationTime": 0.15,
+      "_GlidingJumpEndHeight": 10.0,
+      "_Swim_DiveHeightMax": 2.0,
+      "_CallOtomonTime": 7.0,
+      "_CallOtomonHurryTime": 1.1,
+      "_CallOtomonFallingHurryTime": 1.0,
+      "_DisableCallTimeAfterRideOff": 0.25,
+      "_SilentCalTimeAfterRideOff": 1.1,
+      "_CallChangeOtomonTime": 3.0,
+      "_CallChangeOtomonHurryTime": 0.1,
+      "_CallChangeFallingHurryTime": 1.0,
+      "_RoarIntervalSec": 5.0,
+      "_OtFollowDist": 5.0
+    }
+  }
+]

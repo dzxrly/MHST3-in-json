@@ -1,0 +1,50 @@
+[
+  {
+    "app.user_data.ActionTransitionDataPack": {
+      "_Pack": [
+        {
+          "app.user_data.ActionTransitionSingleCondition": {
+            "ref_instance_id": 1,
+            "path": "GameDesign/Player/Transition/Main/Condition/Cond_LandMinimum_LandMinimum.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCondition": {
+            "ref_instance_id": 2,
+            "path": "GameDesign/Player/Transition/Main/Condition/Cond_LandSmallMove_LandSmallMove.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCondition": {
+            "ref_instance_id": 3,
+            "path": "GameDesign/Player/Transition/Main/Condition/Cond_LandSmall_LandSmall.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCondition": {
+            "ref_instance_id": 4,
+            "path": "GameDesign/Player/Transition/Main/Condition/Cond_LandMiddleMove_LandMiddleMove.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCondition": {
+            "ref_instance_id": 5,
+            "path": "GameDesign/Player/Transition/Main/Condition/Cond_LandMiddle_LandMiddle.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCondition": {
+            "ref_instance_id": 6,
+            "path": "GameDesign/Player/Transition/Main/Condition/Cond_LandLargeMove_LandLargeMove.user"
+          }
+        },
+        {
+          "app.user_data.ActionTransitionSingleCondition": {
+            "ref_instance_id": 7,
+            "path": "GameDesign/Player/Transition/Main/Condition/Cond_LandLarge_LandLarge.user"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,792 @@
+[
+  {
+    "app.user_data.BattleCutCameraData": {
+      "_TotalFrame": 100.0,
+      "_StartFrame": 60.0,
+      "_EndFrame": 160.0,
+      "_IsLongRangeAtk": true,
+      "_StopBoundingBoxList": [
+        {
+          "app.user_data.BattleCutCameraData.cStopBoundingBoxTrack": {
+            "_CutId": 0,
+            "_Frame": 60.0
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cStopBoundingBoxTrack": {
+            "_CutId": 0,
+            "_Frame": 160.0
+          }
+        }
+      ],
+      "_GenericCameraList": [
+        {
+          "app.user_data.BattleCutCameraData.cGenericCameraTrack": {
+            "_Frame": 59.0,
+            "_CutId": 0,
+            "_Ease": {
+              "app.user_data.BattleCutCameraData.cGenericCameraTrack.cGenericCameraEase": {
+                "_InverseRotateY": false,
+                "_EaseFOV": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseLookAtPos": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseAttachDeg": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseDistance": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "_BoundingBoxCalcType": 636311680,
+            "_BoundingBoxTargetType": 173343104,
+            "_Fov": 25.0,
+            "_LookAtPos": [
+              -0.5819,
+              1.4046,
+              -0.2034,
+              0.0
+            ],
+            "_AttachDeg": [
+              4.6153,
+              -25.3522,
+              0.0,
+              0.0
+            ],
+            "_Distance": 0.75,
+            "_CheckWallCollision": false
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cGenericCameraTrack": {
+            "_Frame": 160.0,
+            "_CutId": 0,
+            "_Ease": {
+              "app.user_data.BattleCutCameraData.cGenericCameraTrack.cGenericCameraEase": {
+                "_InverseRotateY": false,
+                "_EaseFOV": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [
+                          {
+                            "raw": "00000000010000000000000000000000",
+                            "type": "Data"
+                          },
+                          {
+                            "raw": "0000803f0100003c0000000000000000",
+                            "type": "Data"
+                          }
+                        ],
+                        "v1": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "0000803f",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseLookAtPos": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [
+                          {
+                            "raw": "000000000600000000000000c22dd637",
+                            "type": "Data"
+                          },
+                          {
+                            "raw": "c1fdd53d0600b7337a3070310a33cc34",
+                            "type": "Data"
+                          },
+                          {
+                            "raw": "df034d3f060000380034ad33ae37b836",
+                            "type": "Data"
+                          },
+                          {
+                            "raw": "0000803f0600003c1d2dad3900000000",
+                            "type": "Data"
+                          }
+                        ],
+                        "v1": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "0000803f",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseAttachDeg": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [
+                          {
+                            "raw": "000000000600000000000000c22dd637",
+                            "type": "Data"
+                          },
+                          {
+                            "raw": "c1fdd53d0600b7337a3070310a33cc34",
+                            "type": "Data"
+                          },
+                          {
+                            "raw": "df034d3f060000380034ad33ae37b836",
+                            "type": "Data"
+                          },
+                          {
+                            "raw": "0000803f0600003c1d2dad3900000000",
+                            "type": "Data"
+                          }
+                        ],
+                        "v1": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "0000803f",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseDistance": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [
+                          {
+                            "raw": "000000000600000000000000c22dd637",
+                            "type": "Data"
+                          },
+                          {
+                            "raw": "c1fdd53d0600b7337a3070310a33cc34",
+                            "type": "Data"
+                          },
+                          {
+                            "raw": "df034d3f060000380034ad33ae37b836",
+                            "type": "Data"
+                          },
+                          {
+                            "raw": "0000803f0600003c1d2dad3900000000",
+                            "type": "Data"
+                          }
+                        ],
+                        "v1": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "0000803f",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "_BoundingBoxCalcType": 636311680,
+            "_BoundingBoxTargetType": 173343104,
+            "_Fov": 35.0,
+            "_LookAtPos": [
+              0.3318,
+              -0.8,
+              0.277,
+              0.0
+            ],
+            "_AttachDeg": [
+              0.1378,
+              -36.5056,
+              0.0,
+              0.0
+            ],
+            "_Distance": 0.85,
+            "_CheckWallCollision": false
+          }
+        }
+      ],
+      "_RollList": [
+        {
+          "app.user_data.BattleCutCameraData.cRollTrack": {
+            "_CutId": 0,
+            "_Frame": 89.0,
+            "_RollDeg": 1.0,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "00000000010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cRollTrack": {
+            "_CutId": 0,
+            "_Frame": 120.0,
+            "_RollDeg": 1.0,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "00000000010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "_PlayRateList": [
+        {
+          "app.user_data.BattleCutCameraData.cPlayRateTrack": {
+            "_CutId": 0,
+            "_Frame": 59.0,
+            "_PlayRateRate": 0.6,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "00000000010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "3804b83e01000a380000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100c63a0000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f01009a3b0000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "000000000100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cPlayRateTrack": {
+            "_CutId": 0,
+            "_Frame": 79.0,
+            "_PlayRateRate": 0.6,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "00000000010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "3804b83e01000a380000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100c63a0000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f01009a3b0000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "000000000100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "_ShakeList": [
+        {
+          "app.user_data.BattleCutCameraData.cShakeTrack": {
+            "_CutId": 0,
+            "_Frame": 104.0,
+            "_ShakeParam": {
+              "app.camera_shake.cOneShakeParam": {
+                "_InstanceGuid": "d1ed09ae-2a95-4bf1-b559-822b94353064",
+                "_Priority": 0,
+                "_ValidDist": 1500.0,
+                "_PosActive": true,
+                "_RotActive": false,
+                "_Duration": 0.8,
+                "_PosParam": {
+                  "app.camera_shake.cPositionShakeParam": {
+                    "_Amplitude": [
+                      0.02,
+                      0.05,
+                      0.0,
+                      0.0
+                    ],
+                    "_AmplitudeAttenuation": {
+                      "app.camera_shake.cAttenuationSetting": {
+                        "_AttenuationCurve": {
+                          "ref_instance_id": 35
+                        }
+                      }
+                    },
+                    "_Frequency": [
+                      12.0,
+                      16.0,
+                      0.0,
+                      0.0
+                    ],
+                    "_FrequencyAttenuation": {
+                      "app.camera_shake.cAttenuationSetting": {
+                        "_AttenuationCurve": {
+                          "ref_instance_id": 37
+                        }
+                      }
+                    }
+                  }
+                },
+                "_RotParam": {
+                  "app.camera_shake.cRotationShakeParam": {
+                    "_ShakeAxis": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    "_Amplitude": 4.0,
+                    "_AmplitudeAttenuation": {
+                      "app.camera_shake.cAttenuationSetting": {
+                        "_AttenuationCurve": {
+                          "ref_instance_id": 40
+                        }
+                      }
+                    },
+                    "_Frequency": 8.0,
+                    "_FrequencyAttenuation": {
+                      "app.camera_shake.cAttenuationSetting": {
+                        "_AttenuationCurve": {
+                          "ref_instance_id": 42
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cShakeTrack": {
+            "_CutId": 0,
+            "_Frame": 153.0,
+            "_ShakeParam": {
+              "app.camera_shake.cOneShakeParam": {
+                "_InstanceGuid": "30a7a0c7-a8df-41ed-bad2-b93711aa77ca",
+                "_Priority": 0,
+                "_ValidDist": 1500.0,
+                "_PosActive": true,
+                "_RotActive": false,
+                "_Duration": 0.8,
+                "_PosParam": {
+                  "app.camera_shake.cPositionShakeParam": {
+                    "_Amplitude": [
+                      0.02,
+                      0.05,
+                      0.0,
+                      0.0
+                    ],
+                    "_AmplitudeAttenuation": {
+                      "app.camera_shake.cAttenuationSetting": {
+                        "_AttenuationCurve": {
+                          "ref_instance_id": 47
+                        }
+                      }
+                    },
+                    "_Frequency": [
+                      12.0,
+                      16.0,
+                      0.0,
+                      0.0
+                    ],
+                    "_FrequencyAttenuation": {
+                      "app.camera_shake.cAttenuationSetting": {
+                        "_AttenuationCurve": {
+                          "ref_instance_id": 49
+                        }
+                      }
+                    }
+                  }
+                },
+                "_RotParam": {
+                  "app.camera_shake.cRotationShakeParam": {
+                    "_ShakeAxis": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    "_Amplitude": 4.0,
+                    "_AmplitudeAttenuation": {
+                      "app.camera_shake.cAttenuationSetting": {
+                        "_AttenuationCurve": {
+                          "ref_instance_id": 52
+                        }
+                      }
+                    },
+                    "_Frequency": 8.0,
+                    "_FrequencyAttenuation": {
+                      "app.camera_shake.cAttenuationSetting": {
+                        "_AttenuationCurve": {
+                          "ref_instance_id": 54
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "_HiddenActorList": [],
+      "_HiddenTargetList": [],
+      "_HiddenPointEffectList": [],
+      "_DOFList": []
+    }
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "app.user_data.BattleCutEffectData": {
+      "_HitInfo": {
+        "app.user_data.BattleCutEffectData.cHitInfo": {
+          "_HitType": 1,
+          "_HitParams": [
+            {
+              "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
+                "_EffHitInfoType": "[3540293312] BTH_1023",
+                "_Frame": 28.0
+              }
+            },
+            {
+              "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
+                "_EffHitInfoType": "[100953136] BTH_1022",
+                "_Frame": 35.0
+              }
+            }
+          ]
+        }
+      },
+      "_SimpleEffectInfos": [],
+      "_SimpleEffectInfos_Next": [
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "_ContainerID": "[3236665438] BAT_8700",
+            "_ElementID": 2,
+            "_EffCreateType": 0,
+            "_Frame": 0.0,
+            "_Offset": [
+              0.0,
+              0.0,
+              5.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": ""
+          }
+        },
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "_ContainerID": "[3418328023] BAT_HITADD_WIDEATK",
+            "_ElementID": 1,
+            "_EffCreateType": 0,
+            "_Frame": 29.0,
+            "_Offset": [
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": ""
+          }
+        },
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "_ContainerID": "[561528323] BAT_ST_EXPLOSION",
+            "_ElementID": 1,
+            "_EffCreateType": 0,
+            "_Frame": 40.0,
+            "_Offset": [
+              3.8,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": ""
+          }
+        },
+        {
+          "app.user_data.BattleCutEffectData.cSimpleEffectInfo": {
+            "_ContainerID": "[561528323] BAT_ST_EXPLOSION",
+            "_ElementID": 1,
+            "_EffCreateType": 0,
+            "_Frame": 50.0,
+            "_Offset": [
+              -3.8,
+              -0.2,
+              1.0,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_VirtualJointName": ""
+          }
+        }
+      ],
+      "_ShellInfo": {
+        "app.user_data.BattleCutEffectData.cShellInfo": {
+          "_IsActive": true,
+          "_Frame": 43.0,
+          "_ContainerID": "[3236665438] BAT_8700",
+          "_ElementID": 1,
+          "_MoveType": 1,
+          "_StartPos": [
+            -0.5,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_StartJointName": "R_hand",
+          "_Acceleration": 1.0,
+          "_FirstSpeed": 0.0,
+          "_Gravity": 9.8,
+          "_PassPoint": [
+            0.0,
+            5.7137,
+            16.0551,
+            0.0
+          ],
+          "_ReachFrame": 40.0,
+          "_Hidden": true,
+          "_NextPassPoint": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_NextPassJointName": "Vfx_shot2",
+          "_NextReachFrame": 15.0,
+          "_NextSpeedOverwrite": false,
+          "_NextFirstSpeed": 0.0,
+          "_NextAcceleration": 1.0,
+          "_NextGravity": 0.0
+        }
+      }
+    }
+  }
+]

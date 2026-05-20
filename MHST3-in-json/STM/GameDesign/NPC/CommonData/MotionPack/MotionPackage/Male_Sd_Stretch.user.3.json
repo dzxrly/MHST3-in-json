@@ -1,0 +1,52 @@
+[
+  {
+    "app.user_data.NpcMotionPackage": {
+      "_BaseMotionPack": {
+        "app.user_data.NpcMotionBasePack": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/NPC/CommonData/MotionPack/BasePack/Base_Stand.user"
+        }
+      },
+      "_JobMotionPack": {
+        "app.user_data.NpcMotionJobPack": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/NPC/CommonData/MotionPack/JobPack/Male/Male_Sd_Stretch.user"
+        }
+      },
+      "_HoldMotionPack": {
+        "": {}
+      },
+      "_IsUseMirror": false,
+      "_VariationSetting": {
+        "app.user_data.NpcMotionPackage.VariationMotionSetting": {
+          "_IsNoUseVariation": true,
+          "_LoopCount_Var1": 4,
+          "_LoopCount_Var2": 4,
+          "_LoopCount_Var3": 4,
+          "_LoopCount_Var4": 4
+        }
+      },
+      "_GimmickOption": {
+        "app.user_data.NpcMotionPackage.GimmickOption": {
+          "_GimmickLinkType": -1,
+          "STRUCT__PosOffsetFromGimmick__HasValue": false,
+          "STRUCT__PosOffsetFromGimmick__Value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "STRUCT__RotOffsetFromGimmick__HasValue": false,
+          "STRUCT__RotOffsetFromGimmick__Value": 0.0
+        }
+      },
+      "_IsSyncMotionFrame": false,
+      "_IsSyncRiderMotion": false,
+      "_SoundRangeOption": {
+        "app.user_data.NpcMotionPackage.cSoundRangeOption": {
+          "_IsUseSoundRange": true
+        }
+      }
+    }
+  }
+]

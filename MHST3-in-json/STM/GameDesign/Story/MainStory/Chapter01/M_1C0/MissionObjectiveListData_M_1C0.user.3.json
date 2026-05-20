@@ -1,0 +1,544 @@
+[
+  {
+    "app.user_data.AppMissionObjectiveListDataMainStory": {
+      "_DataList": [
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 0,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_00.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionUnconditional": {}
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": true,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": -2138084736
+              }
+            },
+            "_OnStoryFlagID": 60
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 1,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_01.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            0
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": -501988896
+              }
+            },
+            "_OnStoryFlagID": 13
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 2,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_02.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            1
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": -1064980224
+              }
+            },
+            "_OnStoryFlagID": 61
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 3,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_03.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            2
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": 1103736704
+              }
+            },
+            "_OnStoryFlagID": 14
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 4,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_04.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            3
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": -1980020608
+              }
+            },
+            "_OnStoryFlagID": 28
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 5,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_05.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            4
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": 1769417344
+              }
+            },
+            "_OnStoryFlagID": 80
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 6,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_06.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            5
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": 763225792
+              }
+            },
+            "_OnStoryFlagID": 29
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 7,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_07.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            6
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": true,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": -1786444928
+              }
+            },
+            "_OnStoryFlagID": 64
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 8,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_08.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            7
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": 875164352
+              }
+            },
+            "_OnStoryFlagID": 2
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 9,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_09.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            8
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": true,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": -1752978048
+              }
+            },
+            "_OnStoryFlagID": -1
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 10,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_10.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            9
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": 253617776
+              }
+            },
+            "_OnStoryFlagID": 3
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataMainStory": {
+            "_ObjectiveID": 11,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/MainStory/Chapter01/M_1C0/Objective/ObjectivePrefab_M_1C0_11.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            10
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": -1752332928
+              }
+            },
+            "_OnStoryFlagID": -1
+          }
+        }
+      ]
+    }
+  }
+]

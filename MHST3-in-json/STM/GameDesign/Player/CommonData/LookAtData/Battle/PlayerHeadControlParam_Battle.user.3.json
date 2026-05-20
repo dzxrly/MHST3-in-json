@@ -1,0 +1,164 @@
+[
+  {
+    "app.user_data.HumanHeadControlParam": {
+      "_Interpolation": {
+        "app.user_data.HeadControlParam.cInterpolationInfo": {
+          "_FadeInSpeed": 2.0,
+          "_FadeOutSpeed": 2.0,
+          "_DampingX": {
+            "ace.cDampingParam": {
+              "_Damping": 0.95,
+              "_TimeScale": 1.0
+            }
+          },
+          "_DampingY": {
+            "ace.cDampingParam": {
+              "_Damping": 0.95,
+              "_TimeScale": 1.0
+            }
+          },
+          "_DampingBasisAxis": {
+            "ace.cDampingParam": {
+              "_Damping": 0.95,
+              "_TimeScale": 1.0
+            }
+          },
+          "_DampingMotionBasis": {
+            "ace.cDampingParam": {
+              "_Damping": 0.95,
+              "_TimeScale": 1.0
+            }
+          },
+          "_MaxBasisErrorRad": 0.0
+        }
+      },
+      "_Limit": {
+        "app.user_data.HeadControlParam.cLimitInfo": {
+          "_LeftY": 55.0,
+          "_RightY": 55.0,
+          "_UpX": 60.0,
+          "_DownX": 35.0,
+          "_UpX_MinRate": 0.7,
+          "_DownX_MinRate": 0.3,
+          "_MaxMoveSpeed": 2.618
+        }
+      },
+      "_LRChangeOffsetDeg": 20.0,
+      "_EnableLimitCorrection": true,
+      "_LimitCorrectionRange": {
+        "raw": "000048c20000b442",
+        "type": "Range"
+      },
+      "_LimitCorrectionMaxAmount": {
+        "app.user_data.HeadControlParam.cLimitInfo": {
+          "_LeftY": 50.0,
+          "_RightY": 50.0,
+          "_UpX": 50.0,
+          "_DownX": 20.0,
+          "_UpX_MinRate": 0.7,
+          "_DownX_MinRate": 0.7,
+          "_MaxMoveSpeed": 0.0
+        }
+      },
+      "_DetailParam": [
+        {
+          "app.user_data.HeadControlParam.cDetailParam": {
+            "_BlendRateMax": 1.0,
+            "_MoveDegX": 10.0,
+            "_MoveDegY": 20.0,
+            "_MotionRateX": 1.0,
+            "_MotionRateY": 1.0,
+            "_MotionRateZ": 1.0,
+            "_BlendRatePattern": 1,
+            "_EaseType": 0,
+            "_EasingSpeed": 1.0,
+            "_SpringConst": 5.5,
+            "_DampingConst": 4.75,
+            "_AnimationCurve": {
+              "via.AnimationCurve": {
+                "v0": [
+                  {
+                    "raw": "00000000000000000000000000000000",
+                    "type": "Data"
+                  },
+                  {
+                    "raw": "00000000000000400000000000000000",
+                    "type": "Data"
+                  }
+                ],
+                "v1": {
+                  "raw": "00000000",
+                  "type": "Data"
+                },
+                "v2": {
+                  "raw": "0000803f",
+                  "type": "Data"
+                },
+                "v3": {
+                  "raw": "00000000",
+                  "type": "Data"
+                },
+                "v4": {
+                  "raw": "00000040",
+                  "type": "Data"
+                },
+                "v5": {
+                  "raw": "00000000",
+                  "type": "Data"
+                },
+                "v6": {
+                  "raw": "02000000",
+                  "type": "Data"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "_Neck0Rate": 0.3,
+      "_Neck1Rate": 0.68,
+      "_EyeGazeRate": [
+        0.22,
+        0.15,
+        0.0,
+        0.0
+      ],
+      "_EnableRefocus": true,
+      "_RefocusSpan": {
+        "raw": "00000000cdcc4c3f",
+        "type": "Range"
+      },
+      "_StableAngularVelocity": 20.0,
+      "_RefocusEndDampingParam": {
+        "ace.cDampingParam": {
+          "_Damping": 0.95,
+          "_TimeScale": 1.0
+        }
+      },
+      "_BaseAxisRaiseRate": 0.5,
+      "_HeadYRotationOrder": 0.84,
+      "_EnableHeadYRotationOrderCorrection": true,
+      "_HeadYRotationOrderCorrectionRange": {
+        "raw": "3d0a29c20ad7ac42",
+        "type": "Range"
+      },
+      "_HeadYRotationOrderCorrectionMaxAmount": 0.5,
+      "_LRChangeIntervalTime": 0.5,
+      "_EyeParam": {
+        "app.user_data.EyeControlParam": {
+          "ref_instance_id": 11,
+          "path": "GameDesign/Player/CommonData/LookAtData/PlayerEyeControlParam.user"
+        }
+      },
+      "_PostureBasis": 1,
+      "_MotionBasisMode": 1,
+      "_RootToHeadJointMaskId": 26,
+      "_OverwriteDampingParam": {
+        "ace.cDampingParam": {
+          "_Damping": 0.95,
+          "_TimeScale": 1.0
+        }
+      }
+    }
+  }
+]

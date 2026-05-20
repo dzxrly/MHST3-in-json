@@ -1,0 +1,66 @@
+[
+  {
+    "app.user_data.BattleCutEffectData": {
+      "_HitInfo": {
+        "app.user_data.BattleCutEffectData.cHitInfo": {
+          "_HitType": 1,
+          "_HitParams": [
+            {
+              "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
+                "_EffHitInfoType": "[3540293312] BTH_1023",
+                "_Frame": 80.0
+              }
+            },
+            {
+              "app.user_data.BattleCutEffectData.cHitInfo.cHitParam": {
+                "_EffHitInfoType": "[3022492928] BTH_0256",
+                "_Frame": 145.0
+              }
+            }
+          ]
+        }
+      },
+      "_SimpleEffectInfos": [],
+      "_SimpleEffectInfos_Next": [],
+      "_ShellInfo": {
+        "app.user_data.BattleCutEffectData.cShellInfo": {
+          "_IsActive": true,
+          "_Frame": 46.0,
+          "_ContainerID": "[526837933] BAT_SHELL_LIQUID",
+          "_ElementID": 1,
+          "_MoveType": 1,
+          "_StartPos": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_StartJointName": "breath",
+          "_Acceleration": 1.0,
+          "_FirstSpeed": 30.0,
+          "_Gravity": 50.0,
+          "_PassPoint": [
+            0.0,
+            -0.1252,
+            -2.1743,
+            0.0
+          ],
+          "_ReachFrame": 30.0,
+          "_Hidden": true,
+          "_NextPassPoint": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_NextPassJointName": "base",
+          "_NextReachFrame": 5.0,
+          "_NextSpeedOverwrite": false,
+          "_NextFirstSpeed": 0.0,
+          "_NextAcceleration": 1.0,
+          "_NextGravity": 0.0
+        }
+      }
+    }
+  }
+]

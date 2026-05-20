@@ -1,0 +1,160 @@
+[
+  {
+    "app.user_data.MissionDemoData": {
+      "_MissionDemoID": "[30] PM_3C_030",
+      "_IsCreateAnimal": false,
+      "_PlayerSetting": {
+        "app.user_data.MissionDemoData.cPlayerSetting": {
+          "_Position": [
+            -141.6228,
+            -39.0734,
+            399.955,
+            0.0
+          ],
+          "_Rotation": [
+            0.0,
+            -0.9641,
+            0.0,
+            -0.2654
+          ],
+          "_IsKeepPosRot": false,
+          "_DisableLookAt": false
+        }
+      },
+      "_NpcSettings": [
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              -142.0307,
+              -39.33,
+              398.8611,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              -0.9134,
+              0.0,
+              -0.407
+            ],
+            "_NpcID": "[3426229568] NPC102_10_007_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              -140.504,
+              -39.43,
+              399.2,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              -1.0,
+              0.0,
+              -0.0082
+            ],
+            "_NpcID": "[2969099392] NPC301_10_010_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        }
+      ],
+      "_EnemySettings": [],
+      "_CameraWorkData": {
+        "ace.user_data.CameraWorkData": {
+          "ref_instance_id": 4,
+          "path": "GameDesign/Story/Common/MissionDemo/PM_3C_030/MissionCameraWorkData_PM_3C_030.user"
+        }
+      },
+      "_FirstCameraGroupGuid": "c3135c44-187d-46cb-815b-1233fee0d85f",
+      "_ActionSettings": [
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "_WaitSecound": 1.5
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "d55bef44-3c56-4934-a500-6b5d6f84908b"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionCameraWork": {
+                      "_CameraGroupGuid": "2449743c-2691-4304-95be-795659b0f6b3"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "d6de9a73-d044-42f6-afaa-f975edb409d4"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_HighQualityGraphicsOBBs": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -125.8184,
+          -127.9733,
+          63.2362,
+          1.0,
+          3.0,
+          3.0,
+          3.0,
+          0.0
+        ]
+      ]
+    }
+  }
+]

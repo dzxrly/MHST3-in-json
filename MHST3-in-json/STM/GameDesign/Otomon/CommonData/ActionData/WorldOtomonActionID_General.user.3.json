@@ -1,0 +1,193 @@
+[
+  {
+    "ace.user_data.ActionID": {
+      "_ActionIDArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cNone",
+                "_InstanceGuid": "76dd73f4-c924-40d2-8f34-508389f9c178",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+                "_LowerGuid": "9d6da462-b2e0-4a6a-b28d-4ffb7d7e0bc9"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdle",
+                "_InstanceGuid": "9d6da462-b2e0-4a6a-b28d-4ffb7d7e0bc9",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "76dd73f4-c924-40d2-8f34-508389f9c178",
+                "_LowerGuid": "a3a94420-d063-4b3f-b8ed-0c6ef5d1d885"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cWalk",
+                "_InstanceGuid": "a3a94420-d063-4b3f-b8ed-0c6ef5d1d885",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "9d6da462-b2e0-4a6a-b28d-4ffb7d7e0bc9",
+                "_LowerGuid": "a25b29bb-c2fb-431d-8c88-7703176bb274"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cRun",
+                "_InstanceGuid": "a25b29bb-c2fb-431d-8c88-7703176bb274",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "a3a94420-d063-4b3f-b8ed-0c6ef5d1d885",
+                "_LowerGuid": "d3e2dc3d-b769-42d0-a1b5-f91f2182f02f"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cDash",
+                "_InstanceGuid": "d3e2dc3d-b769-42d0-a1b5-f91f2182f02f",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "a25b29bb-c2fb-431d-8c88-7703176bb274",
+                "_LowerGuid": "6b913724-8c01-41a4-b7b9-b0dc7db80b6b"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cTopSpeedDash",
+                "_InstanceGuid": "6b913724-8c01-41a4-b7b9-b0dc7db80b6b",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "d3e2dc3d-b769-42d0-a1b5-f91f2182f02f",
+                "_LowerGuid": "f97d64e3-f624-489c-ade1-79a3b2821754"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cTurn",
+                "_InstanceGuid": "f97d64e3-f624-489c-ade1-79a3b2821754",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "6b913724-8c01-41a4-b7b9-b0dc7db80b6b",
+                "_LowerGuid": "08f68b45-9167-447d-a652-c2edddfbd4ea"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cBless",
+                "_InstanceGuid": "08f68b45-9167-447d-a652-c2edddfbd4ea",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "f97d64e3-f624-489c-ade1-79a3b2821754",
+                "_LowerGuid": "9471c136-cd19-4940-a41d-530d03f02daf"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cAttack",
+                "_InstanceGuid": "9471c136-cd19-4940-a41d-530d03f02daf",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "08f68b45-9167-447d-a652-c2edddfbd4ea",
+                "_LowerGuid": "c4fc3aa2-1498-436e-af15-67f1cabe06d4"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cFall",
+                "_InstanceGuid": "c4fc3aa2-1498-436e-af15-67f1cabe06d4",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "9471c136-cd19-4940-a41d-530d03f02daf",
+                "_LowerGuid": "f5da627e-56d1-46c1-9aea-9f0a36c07c17"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cRideReactionIdle",
+                "_InstanceGuid": "f5da627e-56d1-46c1-9aea-9f0a36c07c17",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "c4fc3aa2-1498-436e-af15-67f1cabe06d4",
+                "_LowerGuid": "e64d6f26-6b53-4635-b4c7-89296767d8d9"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cInitIdle",
+                "_InstanceGuid": "e64d6f26-6b53-4635-b4c7-89296767d8d9",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "f5da627e-56d1-46c1-9aea-9f0a36c07c17",
+                "_LowerGuid": "9b150377-46d1-48bc-aa47-032d6ffc1427"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cInitRun",
+                "_InstanceGuid": "9b150377-46d1-48bc-aa47-032d6ffc1427",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "e64d6f26-6b53-4635-b4c7-89296767d8d9",
+                "_LowerGuid": "b65263be-d112-40a0-bb6a-3324f6056161"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cRideEnd",
+                "_InstanceGuid": "b65263be-d112-40a0-bb6a-3324f6056161",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "9b150377-46d1-48bc-aa47-032d6ffc1427",
+                "_LowerGuid": "affa5cef-a974-4364-8ef4-b465099b1563"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cPopAccess",
+                "_InstanceGuid": "affa5cef-a974-4364-8ef4-b465099b1563",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "b65263be-d112-40a0-bb6a-3324f6056161",
+                "_LowerGuid": "85aca400-7a46-41d3-be4f-7d76b22d70c1"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdleFall",
+                "_InstanceGuid": "85aca400-7a46-41d3-be4f-7d76b22d70c1",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "affa5cef-a974-4364-8ef4-b465099b1563",
+                "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+              }
+            }
+          ]
+        }
+      },
+      "_ExportSettingArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cExport": {
+                "_Guid": "08c022f1-fa2b-4bd9-b1dc-ed317692d28b",
+                "_ClassName": "WorldOtomonGeneralAction",
+                "_ActionCategory": 0
+              }
+            }
+          ]
+        }
+      },
+      "_BaseActionID": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "": {}
+          },
+          "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    }
+  }
+]

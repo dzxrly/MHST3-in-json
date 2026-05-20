@@ -1,0 +1,31 @@
+[
+  {
+    "app.user_data.MissionManagerSetting": {
+      "_MissionDemoNpcMotionPackage": {
+        "app.user_data.NpcMotionPackage": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/Common_Sd_Walk.user"
+        }
+      },
+      "_MissionDemoNpcMotionPackageU0007": {
+        "app.user_data.NpcMotionPackage": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/NPC/CommonData/MotionPack/MotionPackage/U0007_Sd_Camp_Weapon.user"
+        }
+      },
+      "_MissionDemoAutoLipTime": 3.0,
+      "_MissionDemoAutoLipBlendRate": 0.5,
+      "_TimePassageWaitSec": 1.2,
+      "_TimePassageDisplaySec": 3.25,
+      "_StreamingRequester": {
+        "via.Prefab": {
+          "v0": {
+            "raw": "01",
+            "type": "Data"
+          },
+          "v1": "GameDesign/Graphics/StreamingRequester.pfb"
+        }
+      }
+    }
+  }
+]

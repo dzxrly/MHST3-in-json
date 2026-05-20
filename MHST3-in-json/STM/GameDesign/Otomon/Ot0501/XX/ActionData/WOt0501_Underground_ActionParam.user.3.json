@@ -1,0 +1,86 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "_ActionClassList": [
+        {
+          "app.WorldOtomonAction_UnderGround.cNone": {
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": "[3149504640] NONE",
+            "_RideResponseType": "[1955913600] NONE",
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": false,
+            "_ActionAttr": 0
+          }
+        },
+        {
+          "app.WorldOtomonAction_UnderGround.cUnderGroundDive": {
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": "[15586] GROUND_DIVE",
+            "_RideResponseType": "[7629] GROUND_DIVE",
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": false,
+            "_ActionAttr": 0
+          }
+        },
+        {
+          "app.WorldOtomonAction_UnderGround.cUnderGroundOut": {
+            "_ActionSafeLimitTime": -1.0,
+            "_RideOrderType": "[6909] GROUND_OUT",
+            "_RideResponseType": "[31239] GROUND_OUT",
+            "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
+            "_IsEnableCameraAutoCentering": false,
+            "_ActionAttr": 0
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "92bf41e5-199b-0c62-3763-5d8f20dc3dcb",
+            "_ActionGuid": "2967c1dd-9b12-4bd2-8858-eb5ade261d04",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "9a5cac61-8981-0f33-2303-ea0d01aa0a59",
+            "_ActionGuid": "9fcd3866-9d4a-4f99-a712-ce19f427f27d",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "8ccc2d35-9925-087d-3d7f-060624c35de1",
+            "_ActionGuid": "5a515ef8-b2de-4182-a849-0f7ebb668882",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 7,
+              "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Underground.user"
+            }
+          },
+          "_ExportGuid": "a06d8685-ffe1-4cdf-aab4-1441e8d2f6be"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {}
+      }
+    }
+  }
+]

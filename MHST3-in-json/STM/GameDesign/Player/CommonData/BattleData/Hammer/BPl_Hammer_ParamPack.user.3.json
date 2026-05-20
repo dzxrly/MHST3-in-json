@@ -1,0 +1,60 @@
+[
+  {
+    "app.user_data.BattlePlayerParamPack": {
+      "_BattleAction": {
+        "app.user_data.BattleActionData": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/Player/CommonData/BattleData/Hammer/BPl_Hammer_ActionData.user"
+        }
+      },
+      "_BoundingBox": {
+        "app.user_data.BoundingBoxData": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/Player/CommonData/BattleData/Base/BtlPlBBoxDataBase.user"
+        }
+      },
+      "_WipeCameraParam": {
+        "app.user_data.BattleWipeCameraParam": {
+          "ref_instance_id": 3,
+          "path": "GameDesign/Player/CommonData/BattleData/Base/BtlPlWipeCameraParamBase.user"
+        }
+      },
+      "_CharaCutData": {
+        "app.user_data.BattlePlayerCharaCutData": {
+          "ref_instance_id": 4,
+          "path": "GameDesign/Player/CommonData/BattleData/Base/BtlPlCharaCutDataBase.user"
+        }
+      },
+      "_FbikRigInfo": {
+        "app.user_data.HumanoidFbikInfo": {
+          "ref_instance_id": 5,
+          "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderRigInfo.user"
+        }
+      },
+      "_InertiaFbik": {
+        "app.user_data.HumanoidFbikInertialSimulateParameterContainer": {
+          "ref_instance_id": 6,
+          "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderFbikParam_Battle.user"
+        }
+      },
+      "_IkCtrlSetupParam": {
+        "ace.user_data.IkCtrlSetupParam": {
+          "ref_instance_id": 7,
+          "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderIkCtrlSetup.user"
+        }
+      },
+      "_HeadControlParam": {
+        "app.user_data.HumanHeadControlParam": {
+          "ref_instance_id": 8,
+          "path": "GameDesign/Player/CommonData/LookAtData/Battle/PlayerHeadControlParam_Battle.user"
+        }
+      },
+      "_BattlePlayerBasicParam": {
+        "app.user_data.BattlePlayerBasicParam": {
+          "ref_instance_id": 9,
+          "path": "GameDesign/Player/CommonData/BattleData/Hammer/BPl_Hammer_BasicParam.user"
+        }
+      }
+    }
+  }
+]

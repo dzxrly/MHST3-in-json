@@ -1,0 +1,156 @@
+[
+  {
+    "ace.user_data.ActionID": {
+      "_ActionIDArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cNone",
+                "_InstanceGuid": "d50d5523-d54e-4f44-a7f5-15ec7e8d1242",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "8f07c8db-2f24-0491-02e1-9fa74e143a02",
+                "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+                "_LowerGuid": "8572c195-03db-0641-32ef-1b996306b8ff"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdle",
+                "_InstanceGuid": "8572c195-03db-0641-32ef-1b996306b8ff",
+                "_OverrideOwnerClass": true,
+                "_BaseActionGuid": "64b71f4d-54e0-0e29-3f58-80dfba93f0b3",
+                "_UpperGuid": "d50d5523-d54e-4f44-a7f5-15ec7e8d1242",
+                "_LowerGuid": "610999f9-9ebe-407e-974b-350cb8479cff"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cJobIdle",
+                "_InstanceGuid": "610999f9-9ebe-407e-974b-350cb8479cff",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "9d036818-ff2f-464a-9048-d56e5a27cc8c",
+                "_UpperGuid": "8572c195-03db-0641-32ef-1b996306b8ff",
+                "_LowerGuid": "db59a01f-1446-45c9-87d0-c74d97089a12"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cRiderJobIdle",
+                "_InstanceGuid": "db59a01f-1446-45c9-87d0-c74d97089a12",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "fcac1fba-f24d-4d87-a1ff-ee67636a20dd",
+                "_UpperGuid": "610999f9-9ebe-407e-974b-350cb8479cff",
+                "_LowerGuid": "b1f08229-25c9-06f8-3ec4-e17ea7fa7d7b"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cWalk",
+                "_InstanceGuid": "b1f08229-25c9-06f8-3ec4-e17ea7fa7d7b",
+                "_OverrideOwnerClass": true,
+                "_BaseActionGuid": "4e470ad1-7ca8-48d8-9bb5-6ec1edeba0ed",
+                "_UpperGuid": "db59a01f-1446-45c9-87d0-c74d97089a12",
+                "_LowerGuid": "f2a76b6e-feab-40ad-a3b5-ec8199fe458d"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cTalk",
+                "_InstanceGuid": "f2a76b6e-feab-40ad-a3b5-ec8199fe458d",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "bd47ab24-f18d-45b8-a85c-4a530621a14e",
+                "_UpperGuid": "b1f08229-25c9-06f8-3ec4-e17ea7fa7d7b",
+                "_LowerGuid": "f017a49c-b616-0cb3-213b-594b7fd9edfa"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cTalkEnd",
+                "_InstanceGuid": "f017a49c-b616-0cb3-213b-594b7fd9edfa",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "9f9575bb-7a90-433c-80ee-3ffbae36d41c",
+                "_UpperGuid": "f2a76b6e-feab-40ad-a3b5-ec8199fe458d",
+                "_LowerGuid": "8e64209d-0ea9-4ae5-b886-12db1f6b3ac6"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cCompanionTalk",
+                "_InstanceGuid": "8e64209d-0ea9-4ae5-b886-12db1f6b3ac6",
+                "_OverrideOwnerClass": true,
+                "_BaseActionGuid": "ac776887-60cf-4c6f-8b40-b07a5bb4a874",
+                "_UpperGuid": "f017a49c-b616-0cb3-213b-594b7fd9edfa",
+                "_LowerGuid": "507542c1-3793-0ac2-258d-797d77a56d82"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cCompanionTalkEnd",
+                "_InstanceGuid": "507542c1-3793-0ac2-258d-797d77a56d82",
+                "_OverrideOwnerClass": true,
+                "_BaseActionGuid": "2b5de521-f618-4161-a7c6-eefbfff80de4",
+                "_UpperGuid": "8e64209d-0ea9-4ae5-b886-12db1f6b3ac6",
+                "_LowerGuid": "927e9294-d420-46b1-bb61-b6f3e8baad24"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cTalkDemoJacked",
+                "_InstanceGuid": "927e9294-d420-46b1-bb61-b6f3e8baad24",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "f19ac1c9-dfc7-4751-bffb-13c1df4acf74",
+                "_UpperGuid": "507542c1-3793-0ac2-258d-797d77a56d82",
+                "_LowerGuid": "627d08cc-ee3a-025e-2381-2a2c5c6b0d52"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cMissionDemoJacked",
+                "_InstanceGuid": "627d08cc-ee3a-025e-2381-2a2c5c6b0d52",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "a30fb86e-a6d9-4b97-93c2-0dd485cbf30d",
+                "_UpperGuid": "927e9294-d420-46b1-bb61-b6f3e8baad24",
+                "_LowerGuid": "7d4b8c06-5254-4383-afa1-1ab94da5d1f3"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cJobMotChangePlNear",
+                "_InstanceGuid": "7d4b8c06-5254-4383-afa1-1ab94da5d1f3",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "627d08cc-ee3a-025e-2381-2a2c5c6b0d52",
+                "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+              }
+            }
+          ]
+        }
+      },
+      "_ExportSettingArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cExport": {
+                "_Guid": "764bcf1d-a31c-4e91-b63a-427273eec382",
+                "_ClassName": "WorldMonsterNpcGeneralAction",
+                "_ActionCategory": 0
+              }
+            }
+          ]
+        }
+      },
+      "_BaseActionID": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 16,
+              "path": "GameDesign/NPC/CommonData/ActionData/WorldNpcGeneral_ActionID.user"
+            }
+          },
+          "_ExportGuid": "f11a99de-1c2b-0f9a-3c09-2215b17f29f1"
+        }
+      }
+    }
+  }
+]

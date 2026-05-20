@@ -1,0 +1,90 @@
+[
+  {
+    "app.snd_user_data.SoundActionUserCurveListData": {
+      "_ActionUserCurveList": [
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "_UserCurveConditionList": [],
+            "_Action": "2967c1dd-9b12-4bd2-8858-eb5ade261d04"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "_UserCurveConditionList": [
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "_Condition": 0,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "_LoopFrame": -1.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_underground_start.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": []
+                }
+              }
+            ],
+            "_Action": "9fcd3866-9d4a-4f99-a712-ce19f427f27d"
+          }
+        },
+        {
+          "app.snd_user_data.ActionUserCurvePair": {
+            "_UserCurveConditionList": [
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "_Condition": 0,
+                  "_UserCurveInfoList": [],
+                  "_ActionList": []
+                }
+              },
+              {
+                "app.snd_user_data.SoundActionUserCurveCondition": {
+                  "_Condition": 1,
+                  "_UserCurveInfoList": [
+                    {
+                      "app.snd_user_data.UserCurveInfo": {
+                        "_UserCurveResourceInfoList": [
+                          {
+                            "app.snd_user_data.UserCurveResourceInfo": {
+                              "_LoopFrame": -1.0,
+                              "_UserCurveAsset": "Sound/Resouce/snd_UserCurve/snd_uc_ride_action_underground_end.ucurve"
+                            }
+                          }
+                        ],
+                        "_OnEndUserCurveList": []
+                      }
+                    }
+                  ],
+                  "_ActionList": [
+                    "9fcd3866-9d4a-4f99-a712-ce19f427f27d"
+                  ]
+                }
+              }
+            ],
+            "_Action": "5a515ef8-b2de-4182-a849-0f7ebb668882"
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 11,
+              "path": "GameDesign/Otomon/CommonData/ActionData/WorldOtomonActionID_Underground.user"
+            }
+          },
+          "_ExportGuid": "a06d8685-ffe1-4cdf-aab4-1441e8d2f6be"
+        }
+      }
+    }
+  }
+]

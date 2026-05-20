@@ -1,0 +1,48 @@
+[
+  {
+    "app.user_data.NpcBaseMotionBankPack": {
+      "_StandMotBank": {
+        "app.cMotionBankAssets": {
+          "_MotionBank": "Art/Motion/03_Npc/01_VariationPack/02_Original_Bone/U2001/U2001_Stand_Bank.motbank",
+          "_MotionExtendBank": {
+            "ace.user_data.MotionExtendBank": {
+              "ref_instance_id": 1,
+              "path": "Art/Motion/03_Npc/01_VariationPack/02_Original_Bone/U2001/U2001_Stand_Bank_meb.user"
+            }
+          },
+          "_MotionConnectBank": {
+            "ace.user_data.MotionConnectBank": {
+              "ref_instance_id": 2,
+              "path": "Art/Motion/03_Npc/01_VariationPack/02_Original_Bone/U2001/U2001_Stand_Bank_mcb.user"
+            }
+          },
+          "_Order": 0
+        }
+      },
+      "_SitMotBank": {
+        "app.cMotionBankAssets": {
+          "_MotionBank": "",
+          "_MotionExtendBank": {
+            "": {}
+          },
+          "_MotionConnectBank": {
+            "": {}
+          },
+          "_Order": 0
+        }
+      },
+      "_GroundMotBank": {
+        "app.cMotionBankAssets": {
+          "_MotionBank": "",
+          "_MotionExtendBank": {
+            "": {}
+          },
+          "_MotionConnectBank": {
+            "": {}
+          },
+          "_Order": 0
+        }
+      }
+    }
+  }
+]

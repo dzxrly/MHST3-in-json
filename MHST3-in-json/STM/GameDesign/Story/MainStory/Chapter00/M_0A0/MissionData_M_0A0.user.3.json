@@ -1,0 +1,36 @@
+[
+  {
+    "app.user_data.AppMissionData": {
+      "_MissionID": 0,
+      "_MissionPrefab": {
+        "via.Prefab": {
+          "v0": {
+            "raw": "00",
+            "type": "Data"
+          },
+          "v1": "GameDesign/Story/MainStory/Chapter00/M_0A0/MissionPrefab_M_0A0.pfb"
+        }
+      },
+      "_StartCondition": {
+        "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartMission>": {
+          "_JudgeType": 0,
+          "_ConditionDataList": [
+            {
+              "ace.cMissionConditionData_StartMission": {
+                "_Condition": {
+                  "app.cMissionConditionUnconditional": {}
+                }
+              }
+            }
+          ]
+        }
+      },
+      "_ScenarioDataList": {
+        "app.user_data.MissionScenarioDataList": {
+          "ref_instance_id": 5,
+          "path": "GameDesign/Story/MainStory/Chapter00/M_0A0/MissionScenarioDataList_M_0A0.user"
+        }
+      }
+    }
+  }
+]

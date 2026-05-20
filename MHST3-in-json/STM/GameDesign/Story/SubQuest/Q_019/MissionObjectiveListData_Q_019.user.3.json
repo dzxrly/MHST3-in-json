@@ -1,0 +1,154 @@
+[
+  {
+    "app.user_data.AppMissionObjectiveListDataSubQuest": {
+      "_DataList": [
+        {
+          "app.cAppMissionObjectiveDataSubQuest": {
+            "_ObjectiveID": 0,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/SubQuest/Q_019/Objective/ObjectivePrefab_Q_019_00.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionUnconditional": {}
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": -631672576
+              }
+            },
+            "_OnStoryFlagID": -1,
+            "_SubQuestObjectiveInfo": {
+              "app.cAppMissionObjectiveDataSubQuest.cSubQuestObjectiveInfo": {
+                "_SubQuestProgress": "[1449411456] IS_UNLOCK"
+              }
+            }
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataSubQuest": {
+            "_ObjectiveID": 1,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/SubQuest/Q_019/Objective/ObjectivePrefab_Q_019_01.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            0
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": -783537920
+              }
+            },
+            "_OnStoryFlagID": -1,
+            "_SubQuestObjectiveInfo": {
+              "app.cAppMissionObjectiveDataSubQuest.cSubQuestObjectiveInfo": {
+                "_SubQuestProgress": "[2065738240] IS_ACTIVE_OBJ01"
+              }
+            }
+          }
+        },
+        {
+          "app.cAppMissionObjectiveDataSubQuest": {
+            "_ObjectiveID": 2,
+            "_ObjectivePrefab": {
+              "via.Prefab": {
+                "v0": {
+                  "raw": "00",
+                  "type": "Data"
+                },
+                "v1": "GameDesign/Story/SubQuest/Q_019/Objective/ObjectivePrefab_Q_019_02.pfb"
+              }
+            },
+            "_StartConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_StartObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": [
+                  {
+                    "ace.cMissionConditionData_StartObjective": {
+                      "_Condition": {
+                        "app.cMissionConditionObjectiveSuccess": {
+                          "_SuccessObjectiveIDList": [
+                            1
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "_SkipConditionList": {
+              "ace.cMissionConditionDataList`1<ace.cMissionConditionData_SkipObjective>": {
+                "_JudgeType": 0,
+                "_ConditionDataList": []
+              }
+            },
+            "_IsDemoStart": false,
+            "_ScenarioID": {
+              "app.cMissionUniqueIDHolder_Auto`2<app.cMissionScenarioData,app.user_data.MissionScenarioDataList>": {
+                "_UniqueID": -631672576
+              }
+            },
+            "_OnStoryFlagID": -1,
+            "_SubQuestObjectiveInfo": {
+              "app.cAppMissionObjectiveDataSubQuest.cSubQuestObjectiveInfo": {
+                "_SubQuestProgress": "[851946880] CAN_SUCCESS"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

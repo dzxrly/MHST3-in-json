@@ -1,0 +1,136 @@
+[
+  {
+    "app.user_data.WorldOtomonCommonParam": {
+      "_DrawOnDissulveTime": 0.25,
+      "_DrawOffDissulveTime": 0.3,
+      "_RideEndSinkSwim": 2.0,
+      "_NoTargetMoveValueCorrection": 0.5,
+      "_ShoutColliderSize": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        18.9,
+        1.0,
+        25.2,
+        12.6,
+        31.5,
+        0.0
+      ],
+      "_GridEdgeDistMoveSpeed": 50.0,
+      "AloneParam": {
+        "app.user_data.World_OtomonAloneParam": {
+          "StopLeadingDist": 60.0,
+          "UseJumpDist": 20.0,
+          "JumpStopDist": 5.0,
+          "HoveringWaitMinSpeed": 1.0,
+          "HoveringWaitMaxSpeed": 20.0,
+          "TransitionGroundDistInFly": 20.0,
+          "PlayerFollow_FlyOffset": [
+            12.0,
+            -11.0,
+            13.0,
+            0.0
+          ],
+          "PlayerFollow_SwimFlyHeight_Stop": 20,
+          "PlayerFollow_SwimFlyHeight_Move": 5,
+          "IgnoreTurnAngle": 90.0,
+          "TimeLapse_IgnoreTurnAngle": 45.0,
+          "TimeLapse_TurnTimeLimit": 5.0,
+          "TimeLapse_AdjustDist": 7.0,
+          "FollowWaitMaxDist_FlyFromGround": 50.0,
+          "ChangeOtomon_OtFly_PlWall_BehindDist": 20.0,
+          "ChangeOtomon_OtFly_PlWall_AxisYDist": 5.0,
+          "ChangeOtomon_OtFly_PlFly_AxisYDist": 10.0,
+          "ChangeOtomon_OtFly_PlGround": [
+            10.0,
+            13.0,
+            20.0,
+            0.0
+          ],
+          "ChangeOtomon_OtGround_BaseVec": [
+            20.0,
+            0.0,
+            10.0,
+            0.0
+          ],
+          "ChangeOtomon_OtGround_Dist": 25.0,
+          "SwitchOtomon_Ground": 10,
+          "SwitchOtomon_Swim_toSwim": [
+            0.0,
+            -5.0,
+            7.0,
+            0.0
+          ],
+          "SwitchOtomon_Swim_toFly": [
+            0.0,
+            2.0,
+            15.0,
+            0.0
+          ],
+          "SwitchOtomon_Wall_toJump": [
+            0.0,
+            1.0,
+            5.0,
+            0.0
+          ],
+          "SwitchOtomon_Wall_toFly": [
+            8.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "SwitchOtomon_Wall_toFly2": [
+            1.0,
+            0.0,
+            8.0,
+            0.0
+          ],
+          "SwitchOtomon_Fly_toFly": [
+            2.0,
+            2.0,
+            7.0,
+            0.0
+          ],
+          "SwitchOtomon_Fly_toFall": [
+            0.0,
+            4.0,
+            1.0,
+            0.0
+          ],
+          "SwitchOtomon_FlyChatchDelayTime": 0.45,
+          "SwitchOtomon_FlyChatch_AroundGround_CheckDistMust": 5.0,
+          "SwitchOtomon_FlyChatch_AroundGround_CheckDist2": 15.0,
+          "SwitchOtomon_FlyChatch_AroundGround_CheckDistY": 4.0,
+          "SwitchOtomon_CheckWaterDist": 15.0,
+          "SwitchOtomon_FrontWaterWarpDist": 1,
+          "TraceOffsetDist": 5.0,
+          "TraceCatchUpTime": 3.0,
+          "TraceCatchUpDist": 20.0,
+          "TraceCatchUpTime_Min": 0.5,
+          "TraceAdjustSpeed": 1.0,
+          "NestPLGetEggMoveJudgeDist": 2.0,
+          "GuideStartDist": 50.0,
+          "GuideWarpDist": 70.0,
+          "GuideEndDist": 80.0,
+          "GuideStopDist": 35.0,
+          "GuideStopEndDist": 15.0,
+          "GuideStopCoolTime": 7.0,
+          "GuideRestertTime": 10.0,
+          "GuideLeadOffset": 25.0,
+          "TraceCatchUpTime_Guide": 5.0
+        }
+      }
+    }
+  }
+]

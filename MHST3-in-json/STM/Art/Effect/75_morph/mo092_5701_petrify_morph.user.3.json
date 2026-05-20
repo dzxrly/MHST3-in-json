@@ -1,0 +1,61 @@
+[
+  {
+    "app.user_data.MorphEffectData": {
+      "_FieldOtomonEpvsID": 2,
+      "_FieldEnemyEpvsID": 2,
+      "_BattleOtomonEpvsID": 2,
+      "_BattleEnemyEpvsID": 2,
+      "_MorphEffectList": [
+        {
+          "app.user_data.MorphEffectData.cMorphParam": {
+            "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+            "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE",
+            "_MotionChangeEnabled": false,
+            "_OtomonEffect": [],
+            "_EnemyEffect": [],
+            "_McdList": [
+              {
+                "app.user_data.MorphEffectData.cModelParam": {
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_ConditionGuid": "00000000-0000-0000-0000-000000000000",
+                  "_BrokenConditionGuid": "00000000-0000-0000-0000-000000000000"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_MorphVisualList": [
+        {
+          "app.user_data.MorphEffectData.cMorphParam": {
+            "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+            "_MorphVisualID": "[1686580224] ID_MORPH_VISUAL_STONED_CONTROLL",
+            "_MotionChangeEnabled": false,
+            "_OtomonEffect": [],
+            "_EnemyEffect": [
+              {
+                "app.user_data.MorphEffectData.cPartsParam": {
+                  "_ElementID": 570,
+                  "_PartsID": "[2561881472] ID_PARTS_EM0092_10_00_2",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
+                }
+              }
+            ],
+            "_McdList": [
+              {
+                "app.user_data.MorphEffectData.cModelParam": {
+                  "_PartsID": "[2561881472] ID_PARTS_EM0092_10_00_2",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_ConditionGuid": "00000000-0000-0000-0000-000000000000",
+                  "_BrokenConditionGuid": "f69b5508-29e2-474c-bdd5-a82a8ec5a69b"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_OtomonLinkList": []
+    }
+  }
+]

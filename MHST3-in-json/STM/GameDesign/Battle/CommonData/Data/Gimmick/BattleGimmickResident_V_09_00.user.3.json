@@ -1,0 +1,40 @@
+[
+  {
+    "app.user_data.BattleGimmickResident": {
+      "_GimmickParamList": {
+        "app.cEnumerableParam`2<app.BattleDef.GIMMICK_ID_Fixed,app.user_data.BattleGimmickResident.cBattleGimmickParam>": {
+          "_ParamList": [
+            {
+              "app.user_data.BattleGimmickResident.cBattleGimmickParam": {
+                "_EnumValue": "[1638440064] FALL_TRAP",
+                "_GimmickPrefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Battle/_Prefab/Gimmick/BattleGimmick_FallTrap.pfb"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.BattleGimmickResident.cBattleGimmickParam": {
+                "_EnumValue": "[5215] MEAT_GRILL",
+                "_GimmickPrefab": {
+                  "via.Prefab": {
+                    "v0": {
+                      "raw": "00",
+                      "type": "Data"
+                    },
+                    "v1": "GameDesign/Battle/_Prefab/Gimmick/BattleGimmick_MeatGrill.pfb"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

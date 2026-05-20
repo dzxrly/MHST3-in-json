@@ -1,0 +1,59 @@
+[
+  {
+    "app.NpcManagerSetting": {
+      "_SetJudgeData": {
+        "app.NpcSetSwitchJudgeData": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/NPC/CommonData/Data/NpcSetSwitchJudgeData.user"
+        }
+      },
+      "_SideStorySetJudgeData": {
+        "app.NpcSideStorySetJudgeData": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/NPC/CommonData/Data/NpcSideStorySetJudgeData.user"
+        }
+      },
+      "_WorldNpcAICommonParam": {
+        "app.user_data.WorldNpcAICommonParam": {
+          "ref_instance_id": 3,
+          "path": "GameDesign/NPC/CommonData/Data/WorldNpcAICommonParam.user"
+        }
+      },
+      "_IkJointBasicParam": {
+        "app.user_data.NpcIkJointBasicParam": {
+          "ref_instance_id": 4,
+          "path": "GameDesign/NPC/CommonData/Data/NpcIkJointBasicParam.user"
+        }
+      },
+      "_VillageRefTreePrefab": {
+        "via.Prefab": {
+          "v0": {
+            "raw": "01",
+            "type": "Data"
+          },
+          "v1": "Art/Effect/10_char/pl000_efd/pl000_fi/base_PL_000_Ref.pfb"
+        }
+      },
+      "_FieldRefTreeNpcList": [
+        "[4085676944] NPC101_10_006_000",
+        "[4146776800] NPC102_10_005_000",
+        "[3426229568] NPC102_10_007_000",
+        "[211685568] NPC102_20_001_000",
+        "[3562320576] NPC301_10_011_000",
+        "[2181078912] NPC301_10_011_001",
+        "[1868872704] NPC301_10_011_002",
+        "[2132314624] NPC301_10_011_003",
+        "[3291774848] NPC301_10_011_004",
+        "[3308010816] NPC301_40_002_000",
+        "[1961046528] NPC101_10_004_000",
+        "[1886105600] NPC101_40_001_000",
+        "[3381903104] NPC102_10_000_004",
+        "[929651584] NPC102_10_000_005",
+        "[2969099392] NPC301_10_010_000",
+        "[1871613952] NPC101_20_002_000",
+        "[3785055424] NPC101_20_002_002",
+        "[398338592] NPC202_60_000_000"
+      ]
+    }
+  }
+]

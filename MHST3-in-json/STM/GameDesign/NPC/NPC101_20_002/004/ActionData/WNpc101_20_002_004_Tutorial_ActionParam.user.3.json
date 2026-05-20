@@ -1,0 +1,64 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "_ActionClassList": [
+        {
+          "app.WorldNpcTutorialAction.cTutorialWait": {
+            "_ActionSafeLimitTime": -1.0,
+            "_NpcGuideWaitTime": 20.0
+          }
+        },
+        {
+          "app.WorldNpcTutorialAction.cTutorialDash": {
+            "_ActionSafeLimitTime": -1.0,
+            "_TurnSpeed": 350.0,
+            "_MoveTransScale": [
+              1.12,
+              1.12,
+              1.12,
+              0.0
+            ]
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "7e4c2765-5bae-418a-9a95-30ea8cb6cfcb",
+            "_ActionGuid": "884cede7-7d20-4745-a87c-1187ca8549de",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "6cb4faac-3873-4ae9-959d-fb112275d0a2",
+            "_ActionGuid": "f7e8621b-6922-413e-8219-dd0a5859f12e",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 5,
+              "path": "GameDesign/NPC/CommonData/ActionData/WorldNpcTutorial_ActionID.user"
+            }
+          },
+          "_ExportGuid": "617fdc33-0c5c-4e8c-8bb7-e6d305044bf3"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {}
+      }
+    }
+  }
+]

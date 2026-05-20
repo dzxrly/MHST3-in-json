@@ -1,0 +1,283 @@
+[
+  {
+    "app.user_data.MissionDemoData": {
+      "_MissionDemoID": "[45] PM_1C_045",
+      "_IsCreateAnimal": false,
+      "_PlayerSetting": {
+        "app.user_data.MissionDemoData.cPlayerSetting": {
+          "_Position": [
+            723.5947,
+            239.8495,
+            -137.5648,
+            0.0
+          ],
+          "_Rotation": [
+            -0.0001,
+            0.9113,
+            0.0002,
+            0.4118
+          ],
+          "_IsKeepPosRot": false,
+          "_DisableLookAt": true
+        }
+      },
+      "_NpcSettings": [
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              725.0414,
+              239.805,
+              -135.9354,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.9426,
+              0.0002,
+              0.334
+            ],
+            "_NpcID": "[1961046528] NPC101_10_004_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              724.3466,
+              239.8006,
+              -136.6848,
+              0.0
+            ],
+            "_Rotation": [
+              0.0002,
+              0.9217,
+              -0.0,
+              0.388
+            ],
+            "_NpcID": "[3426229568] NPC102_10_007_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": false
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              724.2495,
+              239.8466,
+              -137.274,
+              0.0
+            ],
+            "_Rotation": [
+              -0.0001,
+              0.9009,
+              0.0002,
+              0.4341
+            ],
+            "_NpcID": "[2969099392] NPC301_10_010_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        }
+      ],
+      "_EnemySettings": [],
+      "_CameraWorkData": {
+        "ace.user_data.CameraWorkData": {
+          "ref_instance_id": 5,
+          "path": "GameDesign/Story/Common/MissionDemo/PM_1C_045/MissionCameraWorkData_PM_1C_045.user"
+        }
+      },
+      "_FirstCameraGroupGuid": "7c7fcc90-d382-03b8-0bea-3391ca73d1eb",
+      "_ActionSettings": [
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "_WaitSecound": 1.5
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "eb85fcbf-078e-4ab5-b492-7dff26f73aea"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionCameraWork": {
+                      "_CameraGroupGuid": "994fcf46-301c-4460-8a6c-fdab0352ad83"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "e55eb8db-4934-4df0-9058-b8736f1ba3a9"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTipsWindow": {
+                      "_TipsID": "[87] TIPS_086"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionCameraWork": {
+                      "_CameraGroupGuid": "56b84251-25a7-4652-abba-da5661287391"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "332e7ab2-c87f-418d-85a9-f0c507137773"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "_WaitSecound": 0.5
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_HighQualityGraphicsOBBs": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          741.392,
+          240.9838,
+          -153.2886,
+          1.0,
+          1.5,
+          0.5,
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          738.7623,
+          241.5097,
+          -157.4564,
+          1.0,
+          0.3,
+          0.7,
+          0.3,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          736.7524,
+          241.5097,
+          -163.0108,
+          1.0,
+          0.3,
+          0.7,
+          0.3,
+          0.0
+        ]
+      ]
+    }
+  }
+]

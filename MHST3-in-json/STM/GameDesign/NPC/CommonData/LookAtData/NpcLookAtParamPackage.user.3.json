@@ -1,0 +1,120 @@
+[
+  {
+    "app.user_data.NpcLookAtParamPackage": {
+      "_ParamList": {
+        "app.cEnumerableParam`2<app.NpcDef.LOOKAT_ADJUST_TYPE_Fixed,app.user_data.NpcLookAtParamPackage.cParam>": {
+          "_ParamList": [
+            {
+              "app.user_data.NpcLookAtParamPackage.cParam": {
+                "_EnumValue": "[2591073664] HEAD",
+                "_HeadParam": {
+                  "app.user_data.HumanHeadControlParam": {
+                    "ref_instance_id": 1,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcHumanHeadControlParam_Ingame.user"
+                  }
+                },
+                "_TalkDemoHeadParam": {
+                  "app.user_data.HumanHeadControlParam": {
+                    "ref_instance_id": 2,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcHumanHeadControlParam_TalkDemo.user"
+                  }
+                },
+                "_BodyParam": {
+                  "app.user_data.LookAtBodyAdjustParam": {
+                    "ref_instance_id": 3,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcLookAtBodyAdjustParam_Head.user"
+                  }
+                },
+                "_LookAt_EnableRange": 5.0,
+                "_IsLookAt_NotEnable": false,
+                "_LookAt_TargetChangeInterval": 1.0,
+                "_LookAt_ReleaseTime": 5.0
+              }
+            },
+            {
+              "app.user_data.NpcLookAtParamPackage.cParam": {
+                "_EnumValue": "[1792614784] CHEST",
+                "_HeadParam": {
+                  "app.user_data.HumanHeadControlParam": {
+                    "ref_instance_id": 1,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcHumanHeadControlParam_Ingame.user"
+                  }
+                },
+                "_TalkDemoHeadParam": {
+                  "app.user_data.HumanHeadControlParam": {
+                    "ref_instance_id": 2,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcHumanHeadControlParam_TalkDemo.user"
+                  }
+                },
+                "_BodyParam": {
+                  "app.user_data.LookAtBodyAdjustParam": {
+                    "ref_instance_id": 5,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcLookAtBodyAdjustParam_Chest.user"
+                  }
+                },
+                "_LookAt_EnableRange": 5.0,
+                "_IsLookAt_NotEnable": false,
+                "_LookAt_TargetChangeInterval": 1.0,
+                "_LookAt_ReleaseTime": 5.0
+              }
+            },
+            {
+              "app.user_data.NpcLookAtParamPackage.cParam": {
+                "_EnumValue": "[23300] CHEST_ARM_LOCK",
+                "_HeadParam": {
+                  "app.user_data.HumanHeadControlParam": {
+                    "ref_instance_id": 1,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcHumanHeadControlParam_Ingame.user"
+                  }
+                },
+                "_TalkDemoHeadParam": {
+                  "app.user_data.HumanHeadControlParam": {
+                    "ref_instance_id": 2,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcHumanHeadControlParam_TalkDemo.user"
+                  }
+                },
+                "_BodyParam": {
+                  "app.user_data.LookAtBodyAdjustParam": {
+                    "ref_instance_id": 7,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcLookAtBodyAdjustParam_Chest_ArmLock.user"
+                  }
+                },
+                "_LookAt_EnableRange": 5.0,
+                "_IsLookAt_NotEnable": false,
+                "_LookAt_TargetChangeInterval": 1.0,
+                "_LookAt_ReleaseTime": 5.0
+              }
+            },
+            {
+              "app.user_data.NpcLookAtParamPackage.cParam": {
+                "_EnumValue": "[2592167296] ALL",
+                "_HeadParam": {
+                  "app.user_data.HumanHeadControlParam": {
+                    "ref_instance_id": 1,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcHumanHeadControlParam_Ingame.user"
+                  }
+                },
+                "_TalkDemoHeadParam": {
+                  "app.user_data.HumanHeadControlParam": {
+                    "ref_instance_id": 2,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcHumanHeadControlParam_TalkDemo.user"
+                  }
+                },
+                "_BodyParam": {
+                  "app.user_data.LookAtBodyAdjustParam": {
+                    "ref_instance_id": 3,
+                    "path": "GameDesign/NPC/CommonData/LookAtData/NpcLookAtBodyAdjustParam_Head.user"
+                  }
+                },
+                "_LookAt_EnableRange": 5.0,
+                "_IsLookAt_NotEnable": false,
+                "_LookAt_TargetChangeInterval": 1.0,
+                "_LookAt_ReleaseTime": 5.0
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "app.user_data.AnimalDataSetting": {
+      "_ScaleRate": {
+        "raw": "cdcc4c3fcdcccc3e",
+        "type": "Range"
+      },
+      "_SpawnRange": 3.0,
+      "_EscapeRange": 30.0,
+      "_EscapeLength": {
+        "raw": "0000803f00001041",
+        "type": "Range"
+      },
+      "_EscapeDissolveTime": 1.0,
+      "_AnimalNameData": {
+        "app.user_data.AnimalName": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/Animal/CommonData/Data/AnimalName.user"
+        }
+      },
+      "_AnimalPictureBookData": {
+        "app.user_data.AnimalPictureBookData": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/Menu/PictureBook/AnimalPictureBookData.user"
+        }
+      },
+      "_Am1358_GenerateSetting": {
+        "app.user_data.Am1358_GenerateSetting": {
+          "ref_instance_id": 3,
+          "path": "GameDesign/Animal/CommonData/Data/Am1358_GenerateSetting.user"
+        }
+      }
+    }
+  }
+]

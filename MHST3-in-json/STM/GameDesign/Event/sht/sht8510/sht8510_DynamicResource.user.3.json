@@ -1,0 +1,246 @@
+[
+  {
+    "app.user_data.TimelineEventDynamicResourceData": {
+      "_EventID": 18510,
+      "_SearchIDHash": {
+        "ace.cStrHash": {
+          "_Hash": 0
+        }
+      },
+      "_CategoryID": "[1337804672] SHT",
+      "_TimeZoneType": "[531856384] DAYTIME",
+      "_EventStageItemList": [],
+      "_IngameStageItemList": [],
+      "_BattleStageItemList": [],
+      "_DiffSpaceStageItemList": [],
+      "_SubEventItemList": [
+        {
+          "app.user_data.TimelineEventDynamicResourceData.SubEventItem": {
+            "_SubEventID": 0,
+            "_CutFrameData": [
+              100
+            ],
+            "_ActorItemList": [],
+            "_CameraData": {
+              "app.user_data.TimelineEventDynamicResourceData.CameraData": {
+                "_FadeTimeStart": 0.0,
+                "_FadeTimeEnd": 0.0,
+                "_StartCameraParam": {
+                  "app.user_data.TimelineEventDynamicResourceData.EventStartCameraParam": {
+                    "_Pos": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "_Rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "_Fov": 0.0,
+                    "_LookAtDistance": 0.0,
+                    "_LookAtPosition": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "_IsOverrideDemoCullingCameraPos": false,
+                "_OverrideDemoCullingCameraPos": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "_EmTransformData": [],
+            "_GimmickInfoList": [],
+            "_ManualReferencePos": [],
+            "_PreloadPos": [],
+            "_FoliageReferencePos": [],
+            "_CollisionReferencePos": [],
+            "_DemoTextureList": [],
+            "_IsPictureDemo": false,
+            "_CutListData": {
+              "app.user_data.CutsceneCutListData": {
+                "ref_instance_id": 4,
+                "path": "GameDesign/Event/sht/sht8510/sht8510_00/sht8510_00_CutData.user"
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.TimelineEventDynamicResourceData.SubEventItem": {
+            "_SubEventID": 1,
+            "_CutFrameData": [
+              100
+            ],
+            "_ActorItemList": [],
+            "_CameraData": {
+              "app.user_data.TimelineEventDynamicResourceData.CameraData": {
+                "_FadeTimeStart": 0.0,
+                "_FadeTimeEnd": 0.0,
+                "_StartCameraParam": {
+                  "app.user_data.TimelineEventDynamicResourceData.EventStartCameraParam": {
+                    "_Pos": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "_Rot": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "_Fov": 0.0,
+                    "_LookAtDistance": 0.0,
+                    "_LookAtPosition": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "_IsOverrideDemoCullingCameraPos": false,
+                "_OverrideDemoCullingCameraPos": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "_EmTransformData": [],
+            "_GimmickInfoList": [],
+            "_ManualReferencePos": [],
+            "_PreloadPos": [],
+            "_FoliageReferencePos": [],
+            "_CollisionReferencePos": [],
+            "_DemoTextureList": [],
+            "_IsPictureDemo": false,
+            "_CutListData": {
+              "app.user_data.CutsceneCutListData": {
+                "ref_instance_id": 8,
+                "path": "GameDesign/Event/sht/sht8510/sht8510_01/sht8510_01_CutData.user"
+              }
+            }
+          }
+        }
+      ],
+      "_FlowItemList": [
+        {
+          "app.user_data.TimelineEventDynamicResourceData.FlowItem": {
+            "_FlowID": 0,
+            "_SubEventIDList": [
+              0
+            ]
+          }
+        },
+        {
+          "app.user_data.TimelineEventDynamicResourceData.FlowItem": {
+            "_FlowID": 1,
+            "_SubEventIDList": [
+              1
+            ]
+          }
+        }
+      ],
+      "_MainItem": {
+        "app.user_data.TimelineEventDynamicResourceData.EventItem": {
+          "_IsDisableStartFSM": false,
+          "_IsDisableEndFSM": false,
+          "_MainStoryFlag": "[1038238208] INVALID",
+          "_IsMovie": true,
+          "_IsRepeatable": false,
+          "_IsTitle": false,
+          "_IsPlayable": false,
+          "_IsBattleTransition": false,
+          "_IsSeamlessIn": false,
+          "_IsSeamlessOut": false,
+          "_IsPLFemaleMotion": false,
+          "_IsNextWalkTutorial": false,
+          "_IsNextFlyTutorial": false,
+          "_IsInitialEquip": false,
+          "_IsNotOpenGUI": false,
+          "_SkipPointFrame": [],
+          "_IsNotForCutSceneAction": false,
+          "_ActorItemList": [],
+          "_PauseTagFlags": 0,
+          "_EventStandbyData": {
+            "app.user_data.TimelineEventDynamicResourceData.StandbyData": {
+              "_IsTargetPosDisable": false,
+              "_IsTargetPosManual": false,
+              "_TargetPos": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_MotionList": "",
+              "_MotionID": -1,
+              "_EndType": 0,
+              "_MoveType": 0,
+              "_IsRotationFree": true,
+              "_IsEndPosAdjust": true,
+              "_EndPosAdjustTime": 0.0,
+              "_EndPosAdjustEaseType": 0,
+              "_MotionConnectBank": {
+                "": {}
+              },
+              "_TimeLimit": 0.0,
+              "_ArriveDist": 0.0,
+              "_StandbySkipDist": 0.0,
+              "_MotionConnectBankInEvent": {
+                "": {}
+              }
+            }
+          },
+          "_DeleteNpcList": [],
+          "_HideAccList": [],
+          "_InitialEquipPartner": [],
+          "_IsChangeFlowIdForFemale": true,
+          "_IsNotWaitCloseGUI": false,
+          "_IsSimpleLoadStage": false,
+          "_MovieList": [
+            {
+              "app.user_data.TimelineEventDynamicResourceData.EventMovieData": {
+                "_MovieID": "[5907] sht8510_00",
+                "_FlowID": 0,
+                "_IsAlwaysEnable": true,
+                "_IsAlwaysEnableNsw2": false,
+                "_IsEnableChangeTime": false,
+                "_ChangeTimeDataList": []
+              }
+            },
+            {
+              "app.user_data.TimelineEventDynamicResourceData.EventMovieData": {
+                "_MovieID": "[28000] sht8510_01",
+                "_FlowID": 1,
+                "_IsAlwaysEnable": true,
+                "_IsAlwaysEnableNsw2": false,
+                "_IsEnableChangeTime": false,
+                "_ChangeTimeDataList": []
+              }
+            }
+          ],
+          "_PreOpenGUIList": [],
+          "_CloseGUIList": [],
+          "_FadeEnableSecond": 0
+        }
+      },
+      "_SubCameraMainItem": {
+        "app.user_data.TimelineEventDynamicResourceData.SubCameraItem": {
+          "_SubCameraInfo": []
+        }
+      }
+    }
+  }
+]

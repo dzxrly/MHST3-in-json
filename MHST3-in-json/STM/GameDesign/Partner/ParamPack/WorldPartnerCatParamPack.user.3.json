@@ -1,0 +1,81 @@
+[
+  {
+    "app.user_data.WorldPartnerCatParamPack": {
+      "_MotionBankAssetsList": [
+        {
+          "app.cMotionBankAssets": {
+            "_MotionBank": "Art/Motion/03_Npc/01_VariationPack/02_Original_Bone/U2001/U2001_Ride_Bank.motbank",
+            "_MotionExtendBank": {
+              "ace.user_data.MotionExtendBank": {
+                "ref_instance_id": 1,
+                "path": "Art/Motion/03_Npc/01_VariationPack/02_Original_Bone/U2001/U2001_Ride_Bank_meb.user"
+              }
+            },
+            "_MotionConnectBank": {
+              "ace.user_data.MotionConnectBank": {
+                "ref_instance_id": 2,
+                "path": "Art/Motion/03_Npc/01_VariationPack/02_Original_Bone/U2001/U2001_Ride_Bank_mcb.user"
+              }
+            },
+            "_Order": 0
+          }
+        }
+      ],
+      "_JointGroup": {
+        "": {}
+      },
+      "_ActionDataSetHolder": {
+        "app.user_data.ActionDataSetHolder": {
+          "_DataSet_Base": [
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "ref_instance_id": 4,
+                    "path": "GameDesign/Partner/ActionData/RideGround/PnCat_RideGround_ActionParam.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "ref_instance_id": 5,
+                        "path": "GameDesign/Partner/ActionData/RideGround/PnCat_RideGround_ActionID.user"
+                      }
+                    },
+                    "_ExportGuid": "88218806-da6e-4ed9-bf01-bb069ff14227"
+                  }
+                }
+              }
+            }
+          ],
+          "_DataSet_Sub": []
+        }
+      },
+      "_DetectTerrainParam": {
+        "app.user_data.DetectTerrainParam": {
+          "ref_instance_id": 9,
+          "path": "GameDesign/Partner/ActionData/Common/PartnerDetectTerrainParam.user"
+        }
+      },
+      "_InertiaFbik": {
+        "": {}
+      },
+      "_FbikRigInfo": {
+        "": {}
+      },
+      "_SpeedTreeCollision": {
+        "": {}
+      },
+      "_WorldCharacterAnimationLodParam": {
+        "": {}
+      },
+      "_HeadControlParam": {
+        "app.user_data.HumanHeadControlParam": {
+          "ref_instance_id": 10,
+          "path": "GameDesign/Player/CommonData/LookAtData/PlayerHeadControlParam.user"
+        }
+      }
+    }
+  }
+]

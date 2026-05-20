@@ -1,0 +1,167 @@
+[
+  {
+    "app.user_data.MissionDemoData": {
+      "_MissionDemoID": "[36] PS_54_036",
+      "_IsCreateAnimal": false,
+      "_PlayerSetting": {
+        "app.user_data.MissionDemoData.cPlayerSetting": {
+          "_Position": [
+            42.4991,
+            4.3907,
+            20.4361,
+            0.0
+          ],
+          "_Rotation": [
+            0.0,
+            -0.7994,
+            0.0,
+            -0.6008
+          ],
+          "_IsKeepPosRot": false,
+          "_DisableLookAt": false
+        }
+      },
+      "_NpcSettings": [
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              43.7144,
+              4.3907,
+              21.2411,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.9339,
+              0.0,
+              -0.3575
+            ],
+            "_NpcID": "[2969099392] NPC301_10_010_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": false
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              42.9192,
+              4.398,
+              19.8257,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.4187,
+              0.0,
+              0.9081
+            ],
+            "_NpcID": "[211685568] NPC102_20_001_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        }
+      ],
+      "_EnemySettings": [],
+      "_CameraWorkData": {
+        "ace.user_data.CameraWorkData": {
+          "ref_instance_id": 4,
+          "path": "GameDesign/Story/Common/MissionDemo/PS_54_036/MissionCameraWorkData_PS_54_036.user"
+        }
+      },
+      "_FirstCameraGroupGuid": "da6482d4-ce7d-093b-2b29-fd8377e4aa3d",
+      "_ActionSettings": [
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "_WaitSecound": 1.0
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "acc8a6e8-3856-469d-a77b-e75be6a4141d"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "_WaitSecound": 0.5
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_HighQualityGraphicsOBBs": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          70.0966,
+          7.0414,
+          21.8753,
+          1.0,
+          2.0,
+          1.0,
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          50.4966,
+          5.513,
+          23.176,
+          1.0,
+          0.3,
+          0.3,
+          0.3,
+          0.0
+        ]
+      ]
+    }
+  }
+]

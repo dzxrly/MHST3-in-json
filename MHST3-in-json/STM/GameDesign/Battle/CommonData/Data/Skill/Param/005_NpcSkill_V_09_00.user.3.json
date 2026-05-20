@@ -1,0 +1,3448 @@
+[
+  {
+    "app.user_data.SkillParam": {
+      "_SkillParamInfoList": [
+        {
+          "app.user_data.cSkillParamInfo": {
+            "_SkillGuid": "e04e565d-76ab-4afa-899c-94f26657a57c",
+            "_Category": 5,
+            "_Name": "68544839-3013-4797-b470-4feedaf333c8",
+            "_Explain": "0dfec1e0-f3e0-4898-8fd1-f65a6ea2f0a8",
+            "_IsDispSkillBanner": true,
+            "_IsIgnoreCountSkill": false,
+            "_StaminaCost": 10.0,
+            "_KinshipGainGauge": 0.0,
+            "_Target": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
+            "_PermissionThreeWayInfo": {
+              "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
+                "_PermissionType": 2
+              }
+            },
+            "_SkillIconType": 1,
+            "_SkillSpeed": 0,
+            "_AccuracyRate": 100,
+            "_IsSureHit": true,
+            "_IsCritical": false,
+            "_CriticalAddRate": 0,
+            "_ItemCutType": -1,
+            "_NeedChargeLevel": 0,
+            "_NeedUnderChargeLevel": 0,
+            "_UseCondFlagBit": 0,
+            "_MainCategoryForAI": "[131137488] DAMAGE",
+            "_SubCategoryBit": {
+              "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": 2
+            },
+            "_EffectTypeForAI": 0,
+            "_IsBreath": false,
+            "_SkillKindParamList": [
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[1698789248] SKL_KIND_DAMAGE",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
+                  "_HpDamageRate": 50,
+                  "_StaminaDamageRate": 0,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[825089408] ELEM_ATTR_TYPE_NONE",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 7
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 8
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 10
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 11
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 13
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 14
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[652070848] NONE",
+                      "_SkillInfo": []
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cSkillParamInfo": {
+            "_SkillGuid": "1aad2b62-e285-49cf-8529-9afe8863faf6",
+            "_Category": 5,
+            "_Name": "d99e58b3-bf0c-4ee7-ae0b-3bf22be88669",
+            "_Explain": "ea766207-55b6-4f3a-ac5f-7b9f9b89c804",
+            "_IsDispSkillBanner": true,
+            "_IsIgnoreCountSkill": false,
+            "_StaminaCost": 0.0,
+            "_KinshipGainGauge": 0.0,
+            "_Target": "[1273199232] SKL_TARGET_MYSELF",
+            "_PermissionThreeWayInfo": {
+              "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
+                "_PermissionType": 2
+              }
+            },
+            "_SkillIconType": 5,
+            "_SkillSpeed": 0,
+            "_AccuracyRate": 100,
+            "_IsSureHit": false,
+            "_IsCritical": false,
+            "_CriticalAddRate": 0,
+            "_ItemCutType": -1,
+            "_NeedChargeLevel": 0,
+            "_NeedUnderChargeLevel": 0,
+            "_UseCondFlagBit": 0,
+            "_MainCategoryForAI": "[583820672] STAMINA_HEAL",
+            "_SubCategoryBit": {
+              "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": 64
+            },
+            "_EffectTypeForAI": 0,
+            "_IsBreath": false,
+            "_SkillKindParamList": [
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[71601616] SKL_KIND_STAMINA_HEAL",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[1273199232] SKL_TARGET_MYSELF",
+                  "_HpDamageRate": 0,
+                  "_StaminaDamageRate": 0,
+                  "_StaminaHealRate": 10.0,
+                  "_ElementType": "[825089408] ELEM_ATTR_TYPE_NONE",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 59
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 60
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 62
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 63
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 65
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 66
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[652070848] NONE",
+                      "_SkillInfo": []
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cSkillParamInfo": {
+            "_SkillGuid": "95d3b982-77b0-4171-bbc8-acea82245683",
+            "_Category": 5,
+            "_Name": "6f5491e2-715b-40de-ad87-6e82366ed8c9",
+            "_Explain": "e1a4cc5e-873a-44d8-b954-c5a916db1f0d",
+            "_IsDispSkillBanner": true,
+            "_IsIgnoreCountSkill": false,
+            "_StaminaCost": 0.0,
+            "_KinshipGainGauge": 0.0,
+            "_Target": "[496833600] SKL_TARGET_ALL_ALLY",
+            "_PermissionThreeWayInfo": {
+              "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
+                "_PermissionType": 2
+              }
+            },
+            "_SkillIconType": 3,
+            "_SkillSpeed": 20,
+            "_AccuracyRate": 100,
+            "_IsSureHit": false,
+            "_IsCritical": false,
+            "_CriticalAddRate": 0,
+            "_ItemCutType": -1,
+            "_NeedChargeLevel": 0,
+            "_NeedUnderChargeLevel": 0,
+            "_UseCondFlagBit": 0,
+            "_MainCategoryForAI": "[3719464192] BUFF",
+            "_SubCategoryBit": {
+              "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": 8192
+            },
+            "_EffectTypeForAI": 0,
+            "_IsBreath": false,
+            "_SkillKindParamList": [
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[4012478688] SKL_KIND_SETSTATUS",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2303714432] SKL_SETSTATUS_NORMAL",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[496833600] SKL_TARGET_ALL_ALLY",
+                  "_HpDamageRate": 0,
+                  "_StaminaDamageRate": 0,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[825089408] ELEM_ATTR_TYPE_NONE",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 111
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 112
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 114
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 115
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 117
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 118
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[2398810112] SKL_STATUS_ALL_ATK_UP",
+                        "_ActProb": 100,
+                        "_Rank": 3,
+                        "_ActAddTurn": 4,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[2411142912] SKL_STATUS_ATK_VITALITY_UP",
+                        "_ActProb": 100,
+                        "_Rank": 3,
+                        "_ActAddTurn": 4,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[652070848] NONE",
+                      "_SkillInfo": []
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cSkillParamInfo": {
+            "_SkillGuid": "660d25a3-a8d0-4014-b453-e521126bf102",
+            "_Category": 5,
+            "_Name": "e2b6268c-80eb-4d9f-a8a2-8f70cda9a352",
+            "_Explain": "43f4931d-c504-48a9-8147-6acdfb7aae6e",
+            "_IsDispSkillBanner": true,
+            "_IsIgnoreCountSkill": false,
+            "_StaminaCost": 0.0,
+            "_KinshipGainGauge": 0.0,
+            "_Target": "[1273199232] SKL_TARGET_MYSELF",
+            "_PermissionThreeWayInfo": {
+              "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
+                "_PermissionType": 2
+              }
+            },
+            "_SkillIconType": 1,
+            "_SkillSpeed": 16,
+            "_AccuracyRate": 100,
+            "_IsSureHit": false,
+            "_IsCritical": false,
+            "_CriticalAddRate": 0,
+            "_ItemCutType": -1,
+            "_NeedChargeLevel": 0,
+            "_NeedUnderChargeLevel": 0,
+            "_UseCondFlagBit": 0,
+            "_MainCategoryForAI": "[131137488] DAMAGE",
+            "_SubCategoryBit": {
+              "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": 2
+            },
+            "_EffectTypeForAI": 0,
+            "_IsBreath": false,
+            "_SkillKindParamList": [
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[4012478688] SKL_KIND_SETSTATUS",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2303714432] SKL_SETSTATUS_NORMAL",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[1273199232] SKL_TARGET_MYSELF",
+                  "_HpDamageRate": 0,
+                  "_StaminaDamageRate": 0,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[825089408] ELEM_ATTR_TYPE_NONE",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 163
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 164
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 166
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 167
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 169
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 170
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[4044398000] SKL_STATUS_PROTECT",
+                        "_ActProb": 100,
+                        "_Rank": 1,
+                        "_ActAddTurn": 3,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1773874304] SKL_STATUS_ALL_DEF_UP",
+                        "_ActProb": 100,
+                        "_Rank": 3,
+                        "_ActAddTurn": 3,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[652070848] NONE",
+                      "_SkillInfo": []
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cSkillParamInfo": {
+            "_SkillGuid": "c0b9a0a7-3740-4678-a04c-b9a77ab48341",
+            "_Category": 5,
+            "_Name": "6ab234ec-03e8-42ef-bdcd-a1b6df4695a9",
+            "_Explain": "e5cc70cf-5f73-4df5-931d-c0e7d53afe43",
+            "_IsDispSkillBanner": true,
+            "_IsIgnoreCountSkill": false,
+            "_StaminaCost": 10.0,
+            "_KinshipGainGauge": 0.0,
+            "_Target": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
+            "_PermissionThreeWayInfo": {
+              "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
+                "_PermissionType": 2
+              }
+            },
+            "_SkillIconType": 1,
+            "_SkillSpeed": 0,
+            "_AccuracyRate": 100,
+            "_IsSureHit": false,
+            "_IsCritical": false,
+            "_CriticalAddRate": 0,
+            "_ItemCutType": -1,
+            "_NeedChargeLevel": 0,
+            "_NeedUnderChargeLevel": 0,
+            "_UseCondFlagBit": 0,
+            "_MainCategoryForAI": "[1653714432] DEBUFF",
+            "_SubCategoryBit": {
+              "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": 16386
+            },
+            "_EffectTypeForAI": 0,
+            "_IsBreath": false,
+            "_SkillKindParamList": [
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[1698789248] SKL_KIND_DAMAGE",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
+                  "_HpDamageRate": 30,
+                  "_StaminaDamageRate": 10,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[825089408] ELEM_ATTR_TYPE_NONE",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 215
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 216
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 218
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 219
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 221
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 222
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[652070848] NONE",
+                      "_SkillInfo": []
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              },
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[4012478688] SKL_KIND_SETSTATUS",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2303714432] SKL_SETSTATUS_NORMAL",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
+                  "_HpDamageRate": 0,
+                  "_StaminaDamageRate": 0,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[825089408] ELEM_ATTR_TYPE_NONE",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 264
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 265
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 267
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 268
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 270
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 271
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[4291534005] SKL_STATUS_ALL_ATK_DOWN",
+                        "_ActProb": 100,
+                        "_Rank": 1,
+                        "_ActAddTurn": 3,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[4117157904] SKL_STATUS_ALL_DEF_DOWN",
+                        "_ActProb": 100,
+                        "_Rank": 1,
+                        "_ActAddTurn": 3,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[3908524992] SKL_STATUS_HITRATE_DOWN",
+                        "_ActProb": 100,
+                        "_Rank": 1,
+                        "_ActAddTurn": 3,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[2291015808] SKL_STATUS_DEF_VITALITY_DOWN",
+                        "_ActProb": 100,
+                        "_Rank": 1,
+                        "_ActAddTurn": 3,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[4164673400] SKL_STATUS_AGILITY_DOWN",
+                        "_ActProb": 100,
+                        "_Rank": 1,
+                        "_ActAddTurn": 3,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[652070848] NONE",
+                      "_SkillInfo": []
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cSkillParamInfo": {
+            "_SkillGuid": "7c95c554-b83a-4ca8-b863-989688977672",
+            "_Category": 5,
+            "_Name": "95b5dd4f-bf76-4fcb-bc8f-f617c73c7075",
+            "_Explain": "e958fb8b-378f-4146-b5df-575b1e88ebbd",
+            "_IsDispSkillBanner": true,
+            "_IsIgnoreCountSkill": false,
+            "_StaminaCost": 0.0,
+            "_KinshipGainGauge": 0.0,
+            "_Target": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
+            "_PermissionThreeWayInfo": {
+              "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
+                "_PermissionType": 1
+              }
+            },
+            "_SkillIconType": 1,
+            "_SkillSpeed": 0,
+            "_AccuracyRate": 100,
+            "_IsSureHit": false,
+            "_IsCritical": false,
+            "_CriticalAddRate": 0,
+            "_ItemCutType": -1,
+            "_NeedChargeLevel": 0,
+            "_NeedUnderChargeLevel": 0,
+            "_UseCondFlagBit": 0,
+            "_MainCategoryForAI": "[131137488] DAMAGE",
+            "_SubCategoryBit": {
+              "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": 2
+            },
+            "_EffectTypeForAI": 0,
+            "_IsBreath": false,
+            "_SkillKindParamList": [
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[1698789248] SKL_KIND_DAMAGE",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
+                  "_HpDamageRate": 75,
+                  "_StaminaDamageRate": 0,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[205162064] ELEM_ATTR_TYPE_GOOD",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 322
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 323
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 325
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 326
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 328
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 329
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[652070848] NONE",
+                      "_SkillInfo": []
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              },
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[1389521280] SKL_KIND_HORN_SPECIAL",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[1479344896] INVALID",
+                  "_HpDamageRate": 0,
+                  "_StaminaDamageRate": 0,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[825089408] ELEM_ATTR_TYPE_NONE",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 371
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 372
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 374
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 375
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 377
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 378
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[652070848] NONE",
+                      "_SkillInfo": []
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              },
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[4290322651] SKL_KIND_ADD_PERFORM",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[1479344896] INVALID",
+                  "_HpDamageRate": 0,
+                  "_StaminaDamageRate": 0,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[825089408] ELEM_ATTR_TYPE_NONE",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 420
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 421
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 423
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 424
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 426
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 427
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[1389521280] SKL_KIND_HORN_SPECIAL",
+                      "_SkillInfo": [
+                        {
+                          "app.user_data.cSkillParamInfo.cAddPerformSkillInfo.cSkillInfo": {
+                            "_SkillId": "5aa854bb-b68b-454c-a395-af858bb15587"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cSkillParamInfo": {
+            "_SkillGuid": "5aa854bb-b68b-454c-a395-af858bb15587",
+            "_Category": 5,
+            "_Name": "6a59d868-27d5-4a9d-8490-aafd6d73e9bb",
+            "_Explain": "678e9cd3-2366-431e-b260-f4a2855a420f",
+            "_IsDispSkillBanner": false,
+            "_IsIgnoreCountSkill": false,
+            "_StaminaCost": 0.0,
+            "_KinshipGainGauge": 0.0,
+            "_Target": "[496833600] SKL_TARGET_ALL_ALLY",
+            "_PermissionThreeWayInfo": {
+              "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
+                "_PermissionType": 1
+              }
+            },
+            "_SkillIconType": 1,
+            "_SkillSpeed": 0,
+            "_AccuracyRate": 100,
+            "_IsSureHit": false,
+            "_IsCritical": false,
+            "_CriticalAddRate": 0,
+            "_ItemCutType": -1,
+            "_NeedChargeLevel": 0,
+            "_NeedUnderChargeLevel": 0,
+            "_UseCondFlagBit": 0,
+            "_MainCategoryForAI": "[3719464192] BUFF",
+            "_SubCategoryBit": {
+              "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": 8192
+            },
+            "_EffectTypeForAI": 0,
+            "_IsBreath": false,
+            "_SkillKindParamList": [
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[4290322651] SKL_KIND_ADD_PERFORM",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
+                  "_HpDamageRate": 75,
+                  "_StaminaDamageRate": 0,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[205162064] ELEM_ATTR_TYPE_GOOD",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 473
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 474
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 476
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 477
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 479
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 480
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 1,
+                      "_SkillKind": "[1389521280] SKL_KIND_HORN_SPECIAL",
+                      "_SkillInfo": [
+                        {
+                          "app.user_data.cSkillParamInfo.cAddPerformSkillInfo.cSkillInfo": {
+                            "_SkillId": "7c95c554-b83a-4ca8-b863-989688977672"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.cSkillParamInfo": {
+            "_SkillGuid": "21acdc5d-617f-4b64-aa63-4d0281691bed",
+            "_Category": 5,
+            "_Name": "a40420fa-aef2-4744-9144-a7b5d8733335",
+            "_Explain": "3bc24cd7-e654-4f28-a4ce-4b22386411f0",
+            "_IsDispSkillBanner": true,
+            "_IsIgnoreCountSkill": false,
+            "_StaminaCost": 15.0,
+            "_KinshipGainGauge": 0.0,
+            "_Target": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
+            "_PermissionThreeWayInfo": {
+              "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
+                "_PermissionType": 2
+              }
+            },
+            "_SkillIconType": 1,
+            "_SkillSpeed": 0,
+            "_AccuracyRate": 100,
+            "_IsSureHit": false,
+            "_IsCritical": false,
+            "_CriticalAddRate": 0,
+            "_ItemCutType": -1,
+            "_NeedChargeLevel": 0,
+            "_NeedUnderChargeLevel": 0,
+            "_UseCondFlagBit": 0,
+            "_MainCategoryForAI": "[131137488] DAMAGE",
+            "_SubCategoryBit": {
+              "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": 514
+            },
+            "_EffectTypeForAI": 0,
+            "_IsBreath": false,
+            "_SkillKindParamList": [
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[1698789248] SKL_KIND_DAMAGE",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
+                  "_HpDamageRate": 80,
+                  "_StaminaDamageRate": 20,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[205162064] ELEM_ATTR_TYPE_GOOD",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 526
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 527
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 529
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 530
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 532
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 533
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[652070848] NONE",
+                      "_SkillInfo": []
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              },
+              {
+                "app.user_data.cSkillParamInfo.cSkillKind": {
+                  "_KindType": "[3265083776] SKL_KIND_PARTS_THRUST",
+                  "_DamageType": "[2934079744] SKL_DAMAGE_NORMAL",
+                  "_DamageSubTypeBit": {
+                    "app.BattleDef.SKILL_DAMAGE_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_HealType": "[2799291904] INVALID",
+                  "_SetStatusType": "[2589632896] INVALID",
+                  "_SetStatusSubTypeBit": {
+                    "app.BattleDef.SKILL_SETSTATUS_SUB_TYPEBit_Serializable": 0
+                  },
+                  "_ResetStatusType": "[1681573888] INVALID",
+                  "_TargetType": "[1479344896] INVALID",
+                  "_HpDamageRate": 0,
+                  "_StaminaDamageRate": 0,
+                  "_StaminaHealRate": 0.0,
+                  "_ElementType": "[825089408] ELEM_ATTR_TYPE_NONE",
+                  "_IsIgnoreDef": false,
+                  "_GeneralParam_Overlaid": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
+                      "_Type": 0,
+                      "_GenParam01": 100,
+                      "_GenParam02": 100
+                    }
+                  },
+                  "_GeneralParam_StatusKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 0,
+                      "_GenParam03": 0,
+                      "_TargetStatus": [
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 575
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 576
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 578
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 579
+                            }
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                            "_OnStatusType": {
+                              "ref_instance_id": 581
+                            },
+                            "_ActProb": 0,
+                            "_Rank": 1,
+                            "_ActAddTurn": 0,
+                            "_IsAddRank": false,
+                            "_OffStatusType": {
+                              "ref_instance_id": 582
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_PartsKiller": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsKiller": {
+                      "_GenParam01": 100
+                    }
+                  },
+                  "_GeneralParam_WeaponGauge": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_WeaponGauge.DamageRate": {
+                            "HpDamageRate": 100,
+                            "StaminaDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParam_SelfDamage": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_SelfDamage": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_Revenge": [],
+                  "_GeneralParamInfo_Absorp": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Absorp": {
+                      "_GenParam01": 0
+                    }
+                  },
+                  "_GeneralParam_PartsCount": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount": {
+                      "DamageRateList": [
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        },
+                        {
+                          "app.user_data.cSkillParamInfo.cGeneralParamInfo_PartsCount.DamageRate": {
+                            "HpDamageRate": 100
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "_GeneralParamInfo_FriendNum": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_FriendNum": {
+                      "_GenParam01": 100,
+                      "_GenParam02": 100,
+                      "_GenParam03": 100
+                    }
+                  },
+                  "_SetStatusInfo": [
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    },
+                    {
+                      "app.user_data.cSkillParamInfo.cSetStatusInfo": {
+                        "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
+                        "_ActProb": 0,
+                        "_Rank": 1,
+                        "_ActAddTurn": 0,
+                        "_IsAddRank": false,
+                        "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
+                      }
+                    }
+                  ],
+                  "_SetStatusLotCount": -1,
+                  "_ResetStatusAllProb": 0,
+                  "_IsReaction": false,
+                  "_SetStatusInfoEx": [],
+                  "_GeneralParam_Detonation": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_GeneralParam_GaugeCtrl": [],
+                  "_MorphChangeInfo": {
+                    "app.user_data.cSkillParamInfo.cMorphChangeInfo": {
+                      "_MorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_MorphVisualID": "[2225857024] ID_MORPH_VISUAL_NONE"
+                    }
+                  },
+                  "_CounterSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cCounterSkillInfo": {
+                      "_CounterSkill": []
+                    }
+                  },
+                  "_AddPerformSkillInfo": {
+                    "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
+                      "_PerformType": 0,
+                      "_SkillKind": "[652070848] NONE",
+                      "_SkillInfo": []
+                    }
+                  },
+                  "_SetBottleInfo": {
+                    "app.user_data.cSkillParamInfo.cSetBottleInfo": {
+                      "_BottleType": "[2463063424] INVALID"
+                    }
+                  },
+                  "_GeneralParam_ChangeStatusLevel": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0,
+                      "_GenParam03": 1
+                    }
+                  },
+                  "_GeneralParam_StatusExtension": {
+                    "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
+                      "_GenParam01": 0,
+                      "_GenParam02": 0
+                    }
+                  },
+                  "_PartsRevivalInfo": [],
+                  "_ResonanceKindInfo": {
+                    "app.user_data.cSkillParamInfo.cResonanceKindInfo": {
+                      "_SelfMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
+                      "_OtherMorphChangeID": "[2704140672] ID_BTL_MORPH_CHG_NONE"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "_ActionClassList": [
+        {
+          "app.WorldAnimalAction_General.cNone": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.Am0510_Action_General.cIdle": {
+            "_ActionSafeLimitTime": -1.0,
+            "_ActionAttrBit": 0,
+            "_VisualID": "[21797] AM_V_0510_00",
+            "_FlavorParams": [],
+            "_SpeedRate": 0.5,
+            "_MoveRange": 1.0,
+            "_MoveHeight": 2.0,
+            "_MinSpeedRate": 0.3,
+            "_MoveRange_Village": 0.7,
+            "_MoveHeight_Village": 2.0
+          }
+        },
+        {
+          "app.WorldAnimalAction_General.cEscapeMain": {
+            "_ActionSafeLimitTime": -1.0,
+            "_ActionAttrBit": 0,
+            "_VisualID": "[3602] INVALID",
+            "_SpeedParam": {
+              "app.AppCharaUtil.cMotionSpeedParam": {
+                "_Type": 0,
+                "_KilometerPerHourParam": 0.0,
+                "_MotionSpeed": 1.0
+              }
+            },
+            "_TurnVelocity": {
+              "app.AppCharaUtil.cAngularVelocityParam": {
+                "_TurnRadius": 3.0,
+                "_RotSpeedEaseType": 8
+              }
+            },
+            "_IsUsingTurnMot": true,
+            "_TurnLRThresholdDeg": 70.0,
+            "_SpotTurnThresholdDeg": 160.0,
+            "_MotSpeedRange": {
+              "raw": "0000000000000000",
+              "type": "Range"
+            }
+          }
+        },
+        {
+          "app.Am0510_Action_General.cCautionMain": {
+            "_ActionSafeLimitTime": -1.0,
+            "_ActionAttrBit": 0,
+            "_VisualID": "[16797] AM_V_0510_01",
+            "_FlavorParams": [],
+            "_IsAdjustRotateTerritory": false,
+            "_IsReuseIdleMot": true,
+            "_SpeedRate": 0.5,
+            "_MoveRange": 2.0,
+            "_MoveHeight": 5.0,
+            "_MinSpeedRate": 0.3
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "d64229d1-118b-48cb-ae20-ebbdd52da756",
+            "_ActionGuid": "2bf70af7-be2c-4213-8f6b-2cda90179a88",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "1b44aff0-6d58-47de-b15f-a387af72e686",
+            "_ActionGuid": "703a1640-f9d5-4520-b9aa-74399f170f3a",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "7ddc1233-3d44-41c2-aa38-2b330e4d2fef",
+            "_ActionGuid": "5b1797bb-1c0a-4053-b1fa-92d768e3bf31",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "5c722162-cdd5-4211-a024-2d7b94d37484",
+            "_ActionGuid": "783d075c-0b25-4bf8-99e1-3000eb94c36e",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 11,
+              "path": "GameDesign/Animal/Am0510/CC/ActionData/Am0510ActionID_General.user"
+            }
+          },
+          "_ExportGuid": "ab78e6f5-85dc-4473-8741-294297d37e3d"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {}
+      }
+    }
+  }
+]

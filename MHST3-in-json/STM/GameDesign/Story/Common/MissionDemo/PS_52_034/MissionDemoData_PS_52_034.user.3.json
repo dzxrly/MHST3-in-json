@@ -1,0 +1,130 @@
+[
+  {
+    "app.user_data.MissionDemoData": {
+      "_MissionDemoID": "[34] PS_52_034",
+      "_IsCreateAnimal": false,
+      "_PlayerSetting": {
+        "app.user_data.MissionDemoData.cPlayerSetting": {
+          "_Position": [
+            -154.51,
+            179.6453,
+            219.6878,
+            0.0
+          ],
+          "_Rotation": [
+            0.0,
+            0.8506,
+            0.0,
+            0.5258
+          ],
+          "_IsKeepPosRot": false,
+          "_DisableLookAt": false
+        }
+      },
+      "_NpcSettings": [
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              -153.3517,
+              179.6501,
+              220.387,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              0.9943,
+              0.0,
+              0.1062
+            ],
+            "_NpcID": "[211685568] NPC102_20_001_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": false
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cNpcSetting": {
+            "_Position": [
+              -154.0,
+              179.634,
+              220.1,
+              0.0
+            ],
+            "_Rotation": [
+              0.0,
+              -0.9386,
+              0.0,
+              -0.3451
+            ],
+            "_NpcID": "[2969099392] NPC301_10_010_000",
+            "_IgnoreHideItem": false,
+            "_DisableLookAt": true
+          }
+        }
+      ],
+      "_EnemySettings": [],
+      "_CameraWorkData": {
+        "ace.user_data.CameraWorkData": {
+          "ref_instance_id": 4,
+          "path": "GameDesign/Story/Common/MissionDemo/PS_52_034/MissionCameraWorkData_PS_52_034.user"
+        }
+      },
+      "_FirstCameraGroupGuid": "f23641c0-ef91-0033-1e7d-4d6a5e52fca0",
+      "_ActionSettings": [
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionWaitTime": {
+                      "_WaitSecound": 4.0
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.user_data.MissionDemoData.cDemoActionSetting": {
+            "_DemoActionList": [
+              {
+                "app.cMissionDemoActionData": {
+                  "_Action": {
+                    "app.cMissionDemoActionTalkWindow": {
+                      "_MessageTextId": "0256a29b-268e-4188-a53f-3714e8fa2dfa"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_HighQualityGraphicsOBBs": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -153.1887,
+          180.9712,
+          218.9056,
+          1.0,
+          0.5,
+          0.8,
+          0.5,
+          0.0
+        ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,954 @@
+[
+  {
+    "app.user_data.WorldEnemyCullingSetting": {
+      "_Data": {
+        "app.cEnumerableParam`2<app.EnemyDef.CULLING_LEVEL_Fixed,app.user_data.ContextCullingSetting`3.cLevelParam<app.EnemyDef.CULLING_LEVEL_Fixed,app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>>": {
+          "_ParamList": [
+            {
+              "app.user_data.ContextCullingSetting`3.cLevelParam<app.EnemyDef.CULLING_LEVEL_Fixed,app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                "EnumValue": "[1998953088] COMMON_ENEMY",
+                "_CategoryData": {
+                  "app.cEnumerableParam`2<app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[1277544576] DESTROY",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 2
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 5
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[101388096] OFF_NAVI",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 8
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 11
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[10694] LOD_LEVEL_1",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 14
+                            },
+                            {
+                              "ref_instance_id": 16
+                            },
+                            {
+                              "ref_instance_id": 18
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[30844] LOD_LEVEL_2",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 21
+                            },
+                            {
+                              "ref_instance_id": 23
+                            },
+                            {
+                              "ref_instance_id": 25
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[12505] LOD_LEVEL_3",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 28
+                            },
+                            {
+                              "ref_instance_id": 30
+                            },
+                            {
+                              "ref_instance_id": 32
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29178] LOD_LEVEL_4",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 35
+                            },
+                            {
+                              "ref_instance_id": 37
+                            },
+                            {
+                              "ref_instance_id": 39
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29747] LOD_LEVEL_5",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 42
+                            },
+                            {
+                              "ref_instance_id": 44
+                            },
+                            {
+                              "ref_instance_id": 46
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[963] LOD_DEAD_STOP",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 49
+                            },
+                            {
+                              "ref_instance_id": 51
+                            },
+                            {
+                              "ref_instance_id": 53
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ContextCullingSetting`3.cLevelParam<app.EnemyDef.CULLING_LEVEL_Fixed,app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                "EnumValue": "[13072] COMMON_FLY_ENEMY",
+                "_CategoryData": {
+                  "app.cEnumerableParam`2<app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[1277544576] DESTROY",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 58
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 61
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[101388096] OFF_NAVI",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 64
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 67
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[10694] LOD_LEVEL_1",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 70
+                            },
+                            {
+                              "ref_instance_id": 72
+                            },
+                            {
+                              "ref_instance_id": 74
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[30844] LOD_LEVEL_2",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 77
+                            },
+                            {
+                              "ref_instance_id": 79
+                            },
+                            {
+                              "ref_instance_id": 81
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[12505] LOD_LEVEL_3",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 84
+                            },
+                            {
+                              "ref_instance_id": 86
+                            },
+                            {
+                              "ref_instance_id": 88
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29178] LOD_LEVEL_4",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 91
+                            },
+                            {
+                              "ref_instance_id": 93
+                            },
+                            {
+                              "ref_instance_id": 95
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29747] LOD_LEVEL_5",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 98
+                            },
+                            {
+                              "ref_instance_id": 100
+                            },
+                            {
+                              "ref_instance_id": 102
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[963] LOD_DEAD_STOP",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 105
+                            },
+                            {
+                              "ref_instance_id": 107
+                            },
+                            {
+                              "ref_instance_id": 109
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ContextCullingSetting`3.cLevelParam<app.EnemyDef.CULLING_LEVEL_Fixed,app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                "EnumValue": "[17153] ROUTED_FLY_ENEMY",
+                "_CategoryData": {
+                  "app.cEnumerableParam`2<app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[1277544576] DESTROY",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 114
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 117
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[101388096] OFF_NAVI",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 120
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 123
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[10694] LOD_LEVEL_1",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 126
+                            },
+                            {
+                              "ref_instance_id": 128
+                            },
+                            {
+                              "ref_instance_id": 130
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[30844] LOD_LEVEL_2",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 133
+                            },
+                            {
+                              "ref_instance_id": 135
+                            },
+                            {
+                              "ref_instance_id": 137
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[12505] LOD_LEVEL_3",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 140
+                            },
+                            {
+                              "ref_instance_id": 142
+                            },
+                            {
+                              "ref_instance_id": 144
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29178] LOD_LEVEL_4",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 147
+                            },
+                            {
+                              "ref_instance_id": 149
+                            },
+                            {
+                              "ref_instance_id": 151
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29747] LOD_LEVEL_5",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 154
+                            },
+                            {
+                              "ref_instance_id": 156
+                            },
+                            {
+                              "ref_instance_id": 158
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[963] LOD_DEAD_STOP",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 161
+                            },
+                            {
+                              "ref_instance_id": 163
+                            },
+                            {
+                              "ref_instance_id": 165
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ContextCullingSetting`3.cLevelParam<app.EnemyDef.CULLING_LEVEL_Fixed,app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                "EnumValue": "[2464110848] UNCOMMON_ENEMY",
+                "_CategoryData": {
+                  "app.cEnumerableParam`2<app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[1277544576] DESTROY",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 170
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 173
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[101388096] OFF_NAVI",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 176
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 179
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[10694] LOD_LEVEL_1",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 182
+                            },
+                            {
+                              "ref_instance_id": 184
+                            },
+                            {
+                              "ref_instance_id": 186
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[30844] LOD_LEVEL_2",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 189
+                            },
+                            {
+                              "ref_instance_id": 191
+                            },
+                            {
+                              "ref_instance_id": 193
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[12505] LOD_LEVEL_3",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 196
+                            },
+                            {
+                              "ref_instance_id": 198
+                            },
+                            {
+                              "ref_instance_id": 200
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29178] LOD_LEVEL_4",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 203
+                            },
+                            {
+                              "ref_instance_id": 205
+                            },
+                            {
+                              "ref_instance_id": 207
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29747] LOD_LEVEL_5",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 210
+                            },
+                            {
+                              "ref_instance_id": 212
+                            },
+                            {
+                              "ref_instance_id": 214
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[963] LOD_DEAD_STOP",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 217
+                            },
+                            {
+                              "ref_instance_id": 219
+                            },
+                            {
+                              "ref_instance_id": 221
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ContextCullingSetting`3.cLevelParam<app.EnemyDef.CULLING_LEVEL_Fixed,app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                "EnumValue": "[11023] RARE_ENEMY",
+                "_CategoryData": {
+                  "app.cEnumerableParam`2<app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[1277544576] DESTROY",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 226
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 229
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[101388096] OFF_NAVI",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 232
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 235
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[10694] LOD_LEVEL_1",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 238
+                            },
+                            {
+                              "ref_instance_id": 240
+                            },
+                            {
+                              "ref_instance_id": 242
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[30844] LOD_LEVEL_2",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 245
+                            },
+                            {
+                              "ref_instance_id": 247
+                            },
+                            {
+                              "ref_instance_id": 249
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[12505] LOD_LEVEL_3",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 252
+                            },
+                            {
+                              "ref_instance_id": 254
+                            },
+                            {
+                              "ref_instance_id": 256
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29178] LOD_LEVEL_4",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 259
+                            },
+                            {
+                              "ref_instance_id": 261
+                            },
+                            {
+                              "ref_instance_id": 263
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29747] LOD_LEVEL_5",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 266
+                            },
+                            {
+                              "ref_instance_id": 268
+                            },
+                            {
+                              "ref_instance_id": 270
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[963] LOD_DEAD_STOP",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 273
+                            },
+                            {
+                              "ref_instance_id": 275
+                            },
+                            {
+                              "ref_instance_id": 277
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ContextCullingSetting`3.cLevelParam<app.EnemyDef.CULLING_LEVEL_Fixed,app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                "EnumValue": "[27755] DISASTER_ENEMY",
+                "_CategoryData": {
+                  "app.cEnumerableParam`2<app.EnemyDef.CULLING_CATEGORY_Fixed,app.user_data.WorldEnemyCullingSetting.cCategoryParam>": {
+                    "_ParamList": [
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[1277544576] DESTROY",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 282
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 285
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[101388096] OFF_NAVI",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 288
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
+                          "_SettingType": 0,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 291
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[10694] LOD_LEVEL_1",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 294
+                            },
+                            {
+                              "ref_instance_id": 296
+                            },
+                            {
+                              "ref_instance_id": 298
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[30844] LOD_LEVEL_2",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 301
+                            },
+                            {
+                              "ref_instance_id": 303
+                            },
+                            {
+                              "ref_instance_id": 305
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[12505] LOD_LEVEL_3",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 308
+                            },
+                            {
+                              "ref_instance_id": 310
+                            },
+                            {
+                              "ref_instance_id": 312
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29178] LOD_LEVEL_4",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 315
+                            },
+                            {
+                              "ref_instance_id": 317
+                            },
+                            {
+                              "ref_instance_id": 319
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[29747] LOD_LEVEL_5",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 322
+                            },
+                            {
+                              "ref_instance_id": 324
+                            },
+                            {
+                              "ref_instance_id": 326
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
+                          "_EnumValue": "[963] LOD_DEAD_STOP",
+                          "_SettingType": 1,
+                          "_DataSetList": [
+                            {
+                              "ref_instance_id": 329
+                            },
+                            {
+                              "ref_instance_id": 331
+                            },
+                            {
+                              "ref_instance_id": 333
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]
