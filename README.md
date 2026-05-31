@@ -11,7 +11,7 @@
 
 - `.user.3 -> JSON`：按显式传入的 RE_RSZ 模板解析二进制数据库。
 - `JSON -> .user.3`：将本项目导出的 JSON 重新封回游戏可读取的 `.user.3`。
-- callback 修改流程：解析指定 `.user.3`，把 JSON 交给用户函数修改，再自动封包输出。
+- callback 修改流程：解析指定 `.user.3` 为完整实例表 JSON，交给用户函数修改，再自动封包输出。
 - 通用化参数：模板、`il2cpp_dump.json`、magic 均由调用方显式传入或配置。
 - `.msg.23` 批量导出：通过 `main.py export` 调用 `REMSG_Converter` 子模块完成。
 - Rich 批处理输出：底部固定显示当前进度条，上方滚动输出文件级执行日志。
@@ -57,6 +57,9 @@ converter = REUser3Converter(
 converter.export_file("input/OtomonData.user.3", "json/OtomonData.user.3.json")
 converter.pack_file("json/OtomonData.user.3.json", "mod/OtomonData.user.3")
 ```
+
+普通导出始终保持便于阅读的 readable JSON。需要修改后稳定封回时，库内的
+`parse_pack_file()` 和 `patch_file()` 会使用 `_format: "re_user3_pack_v1"` 的完整实例表结构。
 
 ## 重要约定
 

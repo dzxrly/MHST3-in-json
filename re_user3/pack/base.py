@@ -90,8 +90,11 @@ class User3Packer(PackerPlanMixin, PackerWriterMixin):
         else:
             if not source_root.is_dir():
                 raise FileNotFoundError(f"json root not found: {source_root}")
-            # 优先处理本项目导出的命名；没有时退回普通 JSON，方便用户手写输入。
-            files = sorted(source_root.rglob("*.user.3.json"))
+            # 优先处理稳定封包格式；没有时再处理 readable JSON，
+            # 最后退回普通 JSON，方便用户手写输入。
+            files = sorted(source_root.rglob("*.user.3.pack.json"))
+            if not files:
+                files = sorted(source_root.rglob("*.user.3.json"))
             if not files:
                 files = sorted(source_root.rglob("*.json"))
         candidates: list[tuple[Path, str]] = []
@@ -139,10 +142,13 @@ class User3Packer(PackerPlanMixin, PackerWriterMixin):
             可直接写入文件的二进制字节。
         """
         # 实例 0 固定保留为空引用槽，所有真实对象从 1 开始。
-        self.instances = [None]
-        roots: list[int] = []
-        for node in self._normalize_roots(data):
-            roots.append(self._plan_node(node))
+        if self._is_pack_document(data):
+            roots = self._plan_pack_document(data)
+        else:
+            self.instances = [None]
+            roots: list[int] = []
+            for node in self._normalize_roots(data):
+                roots.append(self._plan_node(node))
         return self._build_binary(roots)
 
     def output_path_for(
@@ -151,7 +157,9 @@ class User3Packer(PackerPlanMixin, PackerWriterMixin):
         """根据输入 JSON 路径计算输出 `.user.3` 路径。"""
         relative_parent = Path() if json_root.is_file() else json_file.relative_to(json_root).parent
         name = json_file.name
-        if name.endswith(".user.3.json"):
+        if name.endswith(".user.3.pack.json"):
+            output_name = name[: -len(".pack.json")]
+        elif name.endswith(".user.3.json"):
             output_name = name[: -len(".json")]
         elif name.endswith(".json"):
             output_name = f"{name[: -len('.json')]}.user.3"

@@ -6,7 +6,7 @@ import struct
 from dataclasses import dataclass, field
 from typing import Any
 
-from ..core import ClassDef, ParseError, align
+from ..core import PACK_JSON_FORMAT, ClassDef, ParseError, align
 
 
 class PackError(ParseError):

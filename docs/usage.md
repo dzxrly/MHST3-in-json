@@ -6,7 +6,7 @@
 
 - `.user.3 -> JSON`：按 RE_RSZ 模板解析二进制数据库；
 - `JSON -> .user.3`：将本项目导出的 JSON 重新封回游戏可读取的 `.user.3`；
-- callback 修改流程：找到指定 `.user.3` 后，解析成 JSON 传给 callback，由 callback 修改并返回，再自动封包到指定目录；
+- callback 修改流程：找到指定 `.user.3` 后，解析成完整实例表 JSON 传给 callback，由 callback 修改并返回，再自动封包到指定目录；
 - CLI 批处理：`main.py export` 批量导出 `.user.3`，并可同时调用 `REMSG_Converter` 转换 `.msg.23`；
 - Rich 批处理输出：底部固定显示当前进度条，上方滚动输出发现文件、开始处理、成功和失败等日志；
 - 可配置 magic：`user_magic` 和 `rsz_magic` 都可通过类参数或命令行参数覆盖，默认保留当前项目使用的值；
@@ -245,14 +245,24 @@ data = converter.parse_file("D:/game_dump/OtomonData.user.3")
 binary = converter.pack(data)
 ```
 
-`parse_file(..., round_floats=True)` 默认会把浮点数四舍五入到 4 位，便于阅读。如果要做修改后再封回，建议使用默认的 callback 流程，或手动传 `round_floats=False` 保留更多精度。
+`parse_file(..., round_floats=True)` 默认会把浮点数四舍五入到 4 位，便于阅读。普通导出和 `parse_file()` 都保持 readable JSON 格式。
+
+如果要修改后再封回，推荐使用完整实例表格式：
+
+```python
+data = converter.parse_pack_file("D:/game_dump/OtomonData.user.3")
+data["_instances"]["2"]["fields"]["_Value"] = 100
+binary = converter.pack(data)
+```
+
+完整实例表格式以 `_instances` 为真实数据源，`ref_instance_id` 表示跳转到同一个 `_instances` 编号，而不是“未解析数据”。
 
 ### callback 修改并自动封回
 
 `patch_file()` 会执行：
 
 1. 读取 `.user.3`；
-2. 解析为 JSON 对象；
+2. 解析为完整实例表 JSON；
 3. 调用你的 callback；
 4. 将 callback 返回的 JSON，或原地修改后的 JSON，封回 `.user.3`；
 5. 写入指定输出路径。
@@ -261,7 +271,7 @@ callback 可以接收一个参数：
 
 ```python
 def edit(data):
-    data[0]["app.user_data.SomeClass"]["_Value"] = 100
+    data["_instances"]["2"]["fields"]["_Value"] = 100
     return data
 ```
 
@@ -277,7 +287,7 @@ converter = REUser3Converter(
 )
 
 def edit_basic_param(data, source_path: Path):
-    root = data[0]["app.user_data.OtomonBasicParam"]
+    root = data["_instances"]["1"]["fields"]
     root["_BodyScale"] = 1.0
     return data
 
@@ -292,7 +302,7 @@ converter.patch_file(
 
 ```python
 def edit_in_place(data, source_path):
-    data[0]["app.user_data.SomeClass"]["_Flag"] = True
+    data["_instances"]["2"]["fields"]["_Flag"] = True
     # 返回 None 表示使用原地修改后的 data
 ```
 
@@ -365,6 +375,40 @@ packer.pack_directory("D:/json_out", "D:/mod_natives")
 - 缺失字段会按字段类型写入默认值，例如 `False`、`0`、`0.0`、空字符串、空数组或空引用。
 
 为了提高封回成功率，建议以本项目导出的 JSON 为基础修改，不要手写完整结构。
+
+需要可靠封回时，`parse_pack_file()` 和 callback 修改流程会使用完整实例表格式：
+
+```json
+{
+  "_format": "re_user3_pack_v1",
+  "_roots": [1],
+  "_unsupported": [],
+  "_instances": {
+    "0": {
+      "_class": null,
+      "_kind": "null"
+    },
+    "1": {
+      "_class": "app.user_data.SomeClass",
+      "_hash": "0x12345678",
+      "_crc": "0x9abcdef0",
+      "fields": {
+        "_Child": {
+          "ref_instance_id": 2
+        }
+      }
+    },
+    "2": {
+      "_class": "app.user_data.ChildClass",
+      "fields": {
+        "_Value": 100
+      }
+    }
+  }
+}
+```
+
+这种格式下，封包器会校验 `_roots` 和所有 `ref_instance_id` 是否存在于 `_instances`，并拒绝会被静默忽略的未知字段。如果原文件包含当前写入器还不能重建的资源表或 userdata 表，`_unsupported` 会记录原因，封包时会明确失败而不是静默丢数据。
 
 ## magic 配置
 

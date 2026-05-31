@@ -5,20 +5,20 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from ..core import BinaryReader, ParseError, align
+from ..core import BinaryReader, PACK_JSON_FORMAT, ParseError, align
 
 
 class ExporterUser3ParserMixin:
     """负责读取 USR/RSZ 头、实例表和根对象列表。"""
 
-    def _parse_user3(self, user3_path: Path) -> list[dict[str, Any]]:
-        """解析完整 `.user.3` 文件并构造成紧凑对象树。
+    def _parse_user3_document(self, user3_path: Path) -> dict[str, Any]:
+        """解析完整 `.user.3` 文件并保留实例表级中间结果。
 
         参数：
             user3_path: 源 `.user.3` 文件路径。
 
         返回：
-            以类名包裹的紧凑对象树列表。
+            包含 USR/RSZ 头、根对象、实例元数据和已解析实例的文档。
         """
         reader = BinaryReader(user3_path.read_bytes())
 
@@ -218,6 +218,36 @@ class ExporterUser3ParserMixin:
         if not object_roots:
             # 最后兜底：导出所有非空实例，保证信息尽可能不丢失。
             object_roots = sorted(i for i in instance_info_map.keys() if i > 0)
+
+        return {
+            "user3_path": user3_path,
+            "usr_header": usr_header,
+            "rsz_header": rsz_header,
+            "object_roots": object_roots,
+            "instance_infos": instance_infos,
+            "instance_info_map": instance_info_map,
+            "parsed_instances": parsed_instances,
+            "idx_map": idx_map,
+            "header_userdata_infos": header_userdata_infos,
+            "rsz_userdata_instance_ids": rsz_userdata_instance_ids,
+            "rsz_userdata_path_by_instance": rsz_userdata_path_by_instance,
+        }
+
+    def _parse_user3(self, user3_path: Path) -> list[dict[str, Any]]:
+        """解析完整 `.user.3` 文件并构造成紧凑对象树。
+
+        参数：
+            user3_path: 源 `.user.3` 文件路径。
+
+        返回：
+            以类名包裹的紧凑对象树列表。
+        """
+        document = self._parse_user3_document(user3_path)
+        parsed_instances = document["parsed_instances"]
+        object_roots = document["object_roots"]
+        instance_info_map = document["instance_info_map"]
+        idx_map = document["idx_map"]
+        header_userdata_infos = document["header_userdata_infos"]
         depth = (
             self._auto_pick_tree_depth(parsed_instances, object_roots)
             if self.tree_depth == "auto"
@@ -246,3 +276,101 @@ class ExporterUser3ParserMixin:
                 for item in header_userdata_infos
             ]
         return object_trees
+
+    def _parse_user3_pack(self, user3_path: Path) -> dict[str, Any]:
+        """解析 `.user.3` 并返回适合稳定封包的完整实例表 JSON。"""
+        return self._build_pack_json(self._parse_user3_document(user3_path))
+
+    def _build_pack_json(self, document: dict[str, Any]) -> dict[str, Any]:
+        """把解析中间结果转换为完整实例表文档。"""
+        instances: dict[str, Any] = {}
+        warnings: list[str] = []
+        unsupported: list[str] = []
+        idx_map = document["idx_map"]
+        path_by_userdata = document["rsz_userdata_path_by_instance"]
+        usr_header = document["usr_header"]
+        rsz_header = document["rsz_header"]
+
+        if int(usr_header.get("resource_count", 0)) > 0:
+            unsupported.append("USR resource table")
+        if int(usr_header.get("userdata_count", 0)) > 0:
+            unsupported.append("USR userdata table")
+        if int(usr_header.get("info_count", 0)) > 0:
+            unsupported.append("USR info table")
+        if int(rsz_header.get("userdata_count", 0)) > 0:
+            unsupported.append("RSZ userdata table")
+
+        for info in document["instance_infos"]:
+            idx = int(info["index"])
+            class_hash = int(info["hash"])
+            crc = int(info["crc"])
+            entry: dict[str, Any] = {
+                "_class": info.get("class_name"),
+                "_hash": self._format_hex_u32(class_hash),
+                "_crc": self._format_hex_u32(crc),
+            }
+            inst = idx_map.get(idx)
+            if idx == 0:
+                entry["_class"] = None
+                entry["_kind"] = "null"
+            elif inst is None:
+                entry["_unparsed"] = True
+                entry["reason"] = "missing parsed instance"
+                warnings.append(f"instance {idx} is missing from parsed data")
+            elif inst.get("is_userdata_reference"):
+                entry["_kind"] = "userdata_reference"
+                entry["path"] = path_by_userdata.get(idx, inst.get("path", ""))
+                warnings.append(
+                    f"instance {idx} is an external userdata reference and "
+                    "cannot be rebuilt by the current minimal writer"
+                )
+            elif inst.get("unparsed"):
+                entry["_unparsed"] = True
+                entry["reason"] = inst.get("reason", "unparsed")
+                warnings.append(
+                    f"instance {idx} ({entry.get('_class')}) is unparsed: "
+                    f"{entry['reason']}"
+                )
+            else:
+                data = inst.get("data", {})
+                class_name = data.get("_class") or entry.get("_class")
+                entry["_class"] = class_name
+                fields = data.get("fields", {})
+                if not isinstance(fields, dict):
+                    fields = {}
+                entry["fields"] = self._postprocess_enum_nodes(
+                    fields,
+                    current_class=class_name if isinstance(class_name, str) else None,
+                )
+            instances[str(idx)] = entry
+
+        return {
+            "_format": PACK_JSON_FORMAT,
+            "_version": 1,
+            "_source": {
+                "file": str(document["user3_path"]),
+                "user_magic": self._format_hex_u32(self.user_magic),
+                "rsz_magic": self._format_hex_u32(self.rsz_magic),
+                "schema": str(self.schema_path),
+                "resource_count": int(usr_header.get("resource_count", 0)),
+                "userdata_count": int(usr_header.get("userdata_count", 0)),
+                "info_count": int(usr_header.get("info_count", 0)),
+                "rsz_userdata_count": int(rsz_header.get("userdata_count", 0)),
+            },
+            "_roots": document["object_roots"],
+            "_instances": instances,
+            "_userdata": [
+                {
+                    "instance_id": int(instance_id),
+                    "path": path_by_userdata.get(instance_id, ""),
+                }
+                for instance_id in document["rsz_userdata_instance_ids"]
+            ],
+            "_unsupported": unsupported,
+            "_warnings": warnings,
+        }
+
+    @staticmethod
+    def _format_hex_u32(value: int) -> str:
+        """把 32 位整数格式化为稳定的十六进制字符串。"""
+        return f"0x{value & 0xFFFFFFFF:08x}"

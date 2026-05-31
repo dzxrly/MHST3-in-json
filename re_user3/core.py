@@ -17,6 +17,7 @@ from .schema import ClassDef, FieldDef, TypeDB, murmur3_32
 
 USR_MAGIC = 5395285
 RSZ_MAGIC = 5919570
+PACK_JSON_FORMAT = "re_user3_pack_v1"
 HEX32_RE = re.compile(r"^[0-9a-fA-F]{32}$")
 ENUM_UNUSED_KEY = "value__"
 

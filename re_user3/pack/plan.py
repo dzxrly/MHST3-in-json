@@ -5,11 +5,184 @@ from __future__ import annotations
 from typing import Any
 
 from ..core import ClassDef, FieldDef
-from .models import InstanceRef, InstanceSpec, PackError, StructValue
+from .models import PACK_JSON_FORMAT, InstanceRef, InstanceSpec, PackError, StructValue
 
 
 class PackerPlanMixin:
     """负责把 JSON 树转换成待写入的实例和字段值。"""
+
+    def _is_pack_document(self, data: Any) -> bool:
+        """判断输入是否为完整实例表封包文档。"""
+        return (
+            isinstance(data, dict)
+            and data.get("_format") == PACK_JSON_FORMAT
+            and isinstance(data.get("_instances"), dict)
+        )
+
+    def _plan_pack_document(self, data: dict[str, Any]) -> list[int]:
+        """按完整实例表文档规划实例，保持原实例编号稳定。"""
+        unsupported = data.get("_unsupported", [])
+        if unsupported:
+            if not isinstance(unsupported, list):
+                raise PackError("pack JSON _unsupported must be an array")
+            raise PackError(
+                "pack JSON contains original data sections that the current "
+                f"writer cannot rebuild: {unsupported}"
+            )
+
+        instances_raw = data.get("_instances")
+        if not isinstance(instances_raw, dict):
+            raise PackError("pack JSON must contain an _instances object")
+
+        ids = self._parse_pack_instance_ids(instances_raw)
+        if not ids or ids[0] != 0:
+            raise PackError("pack JSON _instances must include null instance 0")
+        expected = list(range(ids[-1] + 1))
+        if ids != expected:
+            missing = sorted(set(expected) - set(ids))
+            raise PackError(f"pack JSON instance ids must be dense; missing: {missing}")
+
+        roots = self._parse_pack_roots(data.get("_roots"), set(ids))
+        self._validate_pack_references(instances_raw, set(ids))
+        self.instances = [None for _ in ids]
+
+        for idx in ids[1:]:
+            entry = instances_raw[str(idx)]
+            if not isinstance(entry, dict):
+                raise PackError(f"instance {idx} must be an object")
+            if entry.get("_unparsed"):
+                reason = entry.get("reason", "unparsed")
+                raise PackError(f"instance {idx} is unparsed and cannot be packed: {reason}")
+            if entry.get("_kind") == "userdata_reference":
+                raise PackError(
+                    f"instance {idx} is an external userdata reference; "
+                    "the current writer cannot rebuild RSZ userdata tables"
+                )
+            class_name = entry.get("_class")
+            if not isinstance(class_name, str) or not class_name:
+                raise PackError(f"instance {idx} is missing _class")
+            class_hash = self.typedb.name_to_hash.get(class_name)
+            if class_hash is None:
+                raise PackError(f"class not found in schema for instance {idx}: {class_name}")
+            class_def = self.typedb.get_class(class_hash)
+            if class_def is None:
+                raise PackError(f"class hash not found in schema for instance {idx}: {class_name}")
+            self._validate_declared_hash(idx, entry, class_hash, class_def.crc)
+            self.instances[idx] = InstanceSpec(class_hash=class_hash, class_def=class_def)
+
+        for idx in ids[1:]:
+            entry = instances_raw[str(idx)]
+            spec = self.instances[idx]
+            if spec is None:
+                continue
+            fields = entry.get("fields", {})
+            if not isinstance(fields, dict):
+                raise PackError(f"instance {idx} fields must be an object")
+            self._validate_known_fields(idx, spec.class_def, fields)
+            before_count = len(self.instances)
+            spec.fields = self._prepare_fields(spec.class_def, fields)
+            if len(self.instances) != before_count:
+                raise PackError(
+                    f"instance {idx} contains embedded object data; "
+                    "pack JSON object fields must use ref_instance_id"
+                )
+        return roots
+
+    def _parse_pack_instance_ids(self, instances_raw: dict[str, Any]) -> list[int]:
+        """解析并排序完整实例表中的实例编号。"""
+        ids: list[int] = []
+        for key in instances_raw:
+            try:
+                idx = int(key)
+            except (TypeError, ValueError) as exc:
+                raise PackError(f"invalid instance id: {key!r}") from exc
+            if idx < 0:
+                raise PackError(f"instance id must be non-negative: {idx}")
+            ids.append(idx)
+        return sorted(ids)
+
+    def _parse_pack_roots(self, raw_roots: Any, known_ids: set[int]) -> list[int]:
+        """解析并校验完整实例表中的根实例编号。"""
+        if not isinstance(raw_roots, list):
+            raise PackError("pack JSON must contain a _roots array")
+        roots: list[int] = []
+        for raw_root in raw_roots:
+            if not isinstance(raw_root, int):
+                raise PackError(f"root instance id must be int: {raw_root!r}")
+            if raw_root not in known_ids:
+                raise PackError(f"root references missing instance: {raw_root}")
+            roots.append(raw_root)
+        return roots
+
+    def _validate_pack_references(
+        self, instances_raw: dict[str, Any], known_ids: set[int]
+    ) -> None:
+        """校验所有 ref_instance_id 是否能在完整实例表中找到。"""
+        for idx, entry in instances_raw.items():
+            self._validate_ref_value(entry, known_ids, f"_instances.{idx}")
+
+    def _validate_ref_value(self, value: Any, known_ids: set[int], path: str) -> None:
+        """递归校验引用对象，避免静默写入悬空引用。"""
+        if isinstance(value, dict):
+            if "ref_instance_id" in value:
+                ref_id = value.get("ref_instance_id")
+                if not isinstance(ref_id, int):
+                    raise PackError(f"{path}.ref_instance_id must be int")
+                extra = sorted(k for k in value if k != "ref_instance_id")
+                if extra:
+                    raise PackError(
+                        f"{path} has ref_instance_id plus ignored keys: {extra}"
+                    )
+                if ref_id not in known_ids:
+                    raise PackError(f"{path} references missing instance: {ref_id}")
+                return
+            for key, child in value.items():
+                self._validate_ref_value(child, known_ids, f"{path}.{key}")
+            return
+        if isinstance(value, list):
+            for i, child in enumerate(value):
+                self._validate_ref_value(child, known_ids, f"{path}[{i}]")
+
+    def _validate_declared_hash(
+        self, idx: int, entry: dict[str, Any], class_hash: int, crc: int
+    ) -> None:
+        """如果 pack JSON 中带有 hash/crc，则与模板解析结果比对。"""
+        declared_hash = self._parse_optional_u32(entry.get("_hash"))
+        if declared_hash is not None and declared_hash != class_hash:
+            raise PackError(
+                f"instance {idx} _hash does not match schema class: "
+                f"0x{declared_hash:08x} != 0x{class_hash:08x}"
+            )
+        declared_crc = self._parse_optional_u32(entry.get("_crc"))
+        if declared_crc is not None and declared_crc != (crc & 0xFFFFFFFF):
+            raise PackError(
+                f"instance {idx} _crc does not match schema class: "
+                f"0x{declared_crc:08x} != 0x{crc & 0xFFFFFFFF:08x}"
+            )
+
+    def _parse_optional_u32(self, value: Any) -> int | None:
+        """解析可选十六进制/十进制 32 位整数。"""
+        if value is None:
+            return None
+        if isinstance(value, int):
+            return value & 0xFFFFFFFF
+        if isinstance(value, str):
+            text = value.strip()
+            if not text:
+                return None
+            return int(text, 0) & 0xFFFFFFFF
+        raise PackError(f"expected integer or hex string, got {value!r}")
+
+    def _validate_known_fields(
+        self, idx: int, class_def: ClassDef, raw_fields: dict[str, Any]
+    ) -> None:
+        """在完整实例表模式下拒绝会被静默忽略的未知字段。"""
+        allowed = {field.name or "unnamed" for field in class_def.fields}
+        unknown = sorted(key for key in raw_fields if key not in allowed)
+        if unknown:
+            raise PackError(
+                f"instance {idx} ({class_def.name}) contains unknown fields: {unknown}"
+            )
 
     def _normalize_roots(self, data: Any) -> list[Any]:
         """把顶层 JSON 统一成根对象列表。"""
@@ -124,8 +297,12 @@ class PackerPlanMixin:
                 return candidate
         return None
 
-    def _prepare_struct_value(self, field_def: FieldDef, raw_value: Any) -> StructValue:
+    def _prepare_struct_value(self, field_def: FieldDef, raw_value: Any) -> Any:
         """准备结构体字段的中间表示。"""
+        if isinstance(raw_value, dict) and isinstance(raw_value.get("raw"), str):
+            # 导出器在结构体过深或模板缺失时会保留原始字节；
+            # 这里直接交给 writer 原样写回，避免默认字段覆盖未知内容。
+            return raw_value
         struct_hash = self.typedb.resolve_struct_hash(field_def.original_type)
         if struct_hash is None:
             # 模板无法解析结构体时，尽量按原始字节原样写回。

@@ -119,6 +119,16 @@ class REUser3Converter:
             return exporter._round_export_floats(tree)
         return tree
 
+    def parse_pack_file(self, user3_path: str | Path) -> JsonTree:
+        """把单个 `.user.3` 解析成适合修改后稳定封包的实例表 JSON。
+
+        普通导出和 `parse_file()` 仍然返回 readable JSON；只有需要封回
+        `.user.3` 的流程才应使用这个完整实例表结构。
+        """
+        exporter = self._new_exporter(user3_path, Path.cwd(), [])
+        self._prepare_exporter_metadata(exporter)
+        return exporter._parse_user3_pack(Path(user3_path))
+
     def pack_directory(
         self,
         json_root: str | Path,
@@ -155,7 +165,7 @@ class REUser3Converter:
         """把内存中的 JSON 树直接编码为 `.user.3` 二进制。
 
         参数：
-            data: 与导出 JSON 形状一致的对象或对象数组。
+            data: readable JSON 对象/数组，或 `parse_pack_file()` 返回的实例表 JSON。
 
         返回：
             可直接写入文件的 `.user.3` 字节串。
@@ -170,8 +180,9 @@ class REUser3Converter:
     ) -> Path:
         """解析、交给 callback 修改、封包并写出单个 `.user.3`。
 
-        callback 可以接收 `(data)` 或 `(data, source_path)`。它既可以返回
-        一个新的 JSON 树，也可以原地修改 `data` 后返回 `None`。
+        callback 可以接收 `(data)` 或 `(data, source_path)`。这里的 `data`
+        是完整实例表 JSON。callback 既可以返回一个新的 JSON 树，也可以
+        原地修改 `data` 后返回 `None`。
 
         参数：
             user3_path: 源 `.user.3` 文件。
@@ -182,8 +193,9 @@ class REUser3Converter:
             实际写入的 `.user.3` 路径。
         """
         source = Path(user3_path)
-        # 修改前不对浮点数做展示型四舍五入，尽量保留原始二进制精度。
-        data = self.parse_file(source, round_floats=False)
+        # 修改并封回时使用完整实例表格式，避免 readable 树里的旧引用编号
+        # 在重建实例表时变成悬空引用。
+        data = self.parse_pack_file(source)
         modified = self._run_callback(callback, data, source)
         if modified is None:
             modified = data
