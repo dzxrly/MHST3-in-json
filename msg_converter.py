@@ -68,27 +68,142 @@ class MsgConverter:
         返回：
             应用内存补丁后的 `REMSGUtil` 模块对象。
         """
-        source_path = self.converter_src / "REMSGUtil.py"
+        # REMSGUtil 依赖 REMSG，REMSG 又依赖 HexTool。Python 3.9 下这些
+        # 模块都可能因为 3.10 语法无法导入，因此按依赖顺序统一热修补。
+        self._load_module_with_hotfix("HexTool")
+        self._load_module_with_hotfix("REMSG")
+        return self._load_module_with_hotfix("REMSGUtil")
+
+    def _load_module_with_hotfix(self, module_name: str):
+        """读取并执行应用兼容性补丁后的子模块源码。"""
+        source_path = self.converter_src / f"{module_name}.py"
         source = source_path.read_text(encoding="utf-8")
+        source = self._patch_remsg_source(module_name, source)
 
         # 某些版本的 REMSGUtil 在新版 Python 下会因为嵌套 f-string 报错。
         # 这里只替换影响导入的断言文本，不改变实际转换数据结构。
-        source = re.sub(
-            r'assert\s+len\(contents\)\s*==\s*langCount,\s*f"Invalid number of language / contents\.?\\n\{"\\n"\.join\(contents\)\}"',
-            'assert len(contents) == langCount, "Invalid number of language / contents"',
-            source,
-        )
+        if module_name == "REMSGUtil":
+            source = re.sub(
+                r'assert\s+len\(contents\)\s*==\s*langCount,\s*f"Invalid number of language / contents\.?\\n\{"\\n"\.join\(contents\)\}"',
+                'assert len(contents) == langCount, "Invalid number of language / contents"',
+                source,
+            )
 
-        # 修复 f-string 表达式里嵌套双引号导致的语法错误。
-        source = source.replace('else "="+entry.name', "else '=' + entry.name")
+            # 修复 f-string 表达式里嵌套双引号导致的语法错误。
+            source = source.replace('else "="+entry.name', "else '=' + entry.name")
 
         # 手动创建模块对象并执行编译后的源码，相当于一次受控的动态导入。
-        module = types.ModuleType("REMSGUtil")
+        module = types.ModuleType(module_name)
         module.__file__ = str(source_path)
         module.__package__ = ""
-        sys.modules["REMSGUtil"] = module
-        exec(compile(source, str(source_path), "exec"), module.__dict__)
+        sys.modules[module_name] = module
+        try:
+            exec(compile(source, str(source_path), "exec"), module.__dict__)
+        except Exception:
+            sys.modules.pop(module_name, None)
+            raise
         return module
+
+    @staticmethod
+    def _patch_remsg_source(module_name: str, source: str) -> str:
+        """把 REMSG_Converter 的已知 3.10 语法改成兼容 Python 3.9 的源码。"""
+        if "from __future__ import annotations" not in source:
+            source = f"from __future__ import annotations\n{source}"
+
+        if module_name == "REMSGUtil":
+            source = source.replace(
+                """    match vtype:
+        case -1:  # null wstring
+            value = ""
+        case 0:  # int64
+            value = int(inValue)
+        case 1:  # double
+            value = float(inValue)
+        case 2:  # wstring
+            value = str(inValue)
+""",
+                """    if vtype == -1:
+        value = ""
+    elif vtype == 0:
+        value = int(inValue)
+    elif vtype == 1:
+        value = float(inValue)
+    elif vtype == 2:
+        value = str(inValue)
+""",
+            )
+            source = source.replace(
+                """    match ty:
+        case -1:
+            return "Unknown"
+        case 0:
+            return "Int"
+        case 1:
+            return "Float"
+        case 2:
+            return "String"
+        case _:
+            return "Unknown"
+""",
+                """    if ty == -1:
+        return "Unknown"
+    if ty == 0:
+        return "Int"
+    if ty == 1:
+        return "Float"
+    if ty == 2:
+        return "String"
+    return "Unknown"
+""",
+            )
+        elif module_name == "REMSG":
+            source = source.replace(
+                """            match header["valueType"]:
+                case -1:  # null wstring
+                    (value,) = struct.unpack("<Q", filestream.read(8))
+                case 0:  # int64
+                    (value,) = struct.unpack("<q", filestream.read(8))
+                case 1:  # double
+                    (value,) = struct.unpack("<d", filestream.read(8))
+                case 2:  # wstring
+                    (value,) = struct.unpack("<Q", filestream.read(8))
+                case _:
+                    raise NotImplementedError(f"{value} not implemented")
+""",
+                """            if header["valueType"] == -1:
+                (value,) = struct.unpack("<Q", filestream.read(8))
+            elif header["valueType"] == 0:
+                (value,) = struct.unpack("<q", filestream.read(8))
+            elif header["valueType"] == 1:
+                (value,) = struct.unpack("<d", filestream.read(8))
+            elif header["valueType"] == 2:
+                (value,) = struct.unpack("<Q", filestream.read(8))
+            else:
+                raise NotImplementedError(f"{value} not implemented")
+""",
+            )
+            source = source.replace(
+                """            match header["valueType"]:
+                case -1:  # null wstring
+                    value = struct.pack("<q", -1)
+                case 0:  # int64
+                    value = struct.pack("<q", self.attributes[i])
+                case 1:  # double
+                    value = struct.pack("<d", self.attributes[i])
+                case 2:  # wstring
+                    value = struct.pack("<q", -1)
+""",
+                """            if header["valueType"] == -1:
+                value = struct.pack("<q", -1)
+            elif header["valueType"] == 0:
+                value = struct.pack("<q", self.attributes[i])
+            elif header["valueType"] == 1:
+                value = struct.pack("<d", self.attributes[i])
+            elif header["valueType"] == 2:
+                value = struct.pack("<q", -1)
+""",
+            )
+        return source
 
     @staticmethod
     def _is_msg23(file_path: Path) -> bool:

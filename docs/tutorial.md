@@ -11,7 +11,7 @@
   - [ScyllaHide](https://github.com/x64dbg/scyllahide)
   - [REFramework/reversing/rsz](https://github.com/praydog/REFramework/tree/master/reversing/rsz)（读一下对应的说明会更方便理解）
   - [ree-pak-rs](https://github.com/eigeen/ree-pak-rs)
-  - Python 3.10+运行环境（整仓库使用[requirements.txt](../requirements.txt)，只导入库时可使用[re_user3/requirements.txt](../re_user3/requirements.txt)）
+  - Python 3.9+运行环境（整仓库使用[requirements.txt](../requirements.txt)，只导入库时可使用[re_user3/requirements.txt](../re_user3/requirements.txt)）
 
 ## 0 RE_RSZ模板生成
 
