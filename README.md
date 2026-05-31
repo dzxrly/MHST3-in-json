@@ -1,182 +1,69 @@
-# 从0开始的JSON大包导出教程
+# RE User3 JSON 工具
 
-阅读前应该了解的事项和工具准备：
+这个仓库用于解析 RE Engine 游戏的 `.user.3` 数据库文件，并在 `.user.3` 与 JSON 之间双向转换。核心能力已经封装到 [re_user3](./re_user3) 包中，可以作为命令行工具使用，也可以在其他项目里直接导入调用。
 
-- 仅支持Windows运行环境，其他系统自己想办法调整操作；
-- 游戏本身需要是卡婊的RE引擎，并且了解这个项目目前只能导出RE引擎的`.user.3`数据包文件；
-- 需要有其他大佬为游戏生成了`.list`文件，例如[这个项目](https://github.com/Ekey/REE.PAK.Tool/tree/main/Projects)；
-- 需要[REFramework](https://github.com/praydog/REFramework)更新了对游戏的支持，能导出`il2cpp_dump.json`文件；
-- 准备工具：
-  - [x64dbg](https://x64dbg.com/)（64位版本）
-  - [ScyllaHide](https://github.com/x64dbg/scyllahide)
-  - [REFramework/reversing/rsz](https://github.com/praydog/REFramework/tree/master/reversing/rsz)（读一下对应的说明会更方便理解）
-  - [ree-pak-rs](https://github.com/eigeen/ree-pak-rs)
-  - Python 3.10+运行环境（包含[requirements.txt](./requirements.txt)中指定的PyPi包）
+## 文档导航
 
-## 0 RE_RSZ模板生成
+- [从 0 开始准备模板并导出数据](./docs/tutorial.md)：保留原有逆向、dump、RE_RSZ 模板生成、pak 解包教程，并把最终执行仓库代码的部分更新为新的命令行和库调用方式。
+- [通用使用手册](./docs/usage.md)：集中说明 `re_user3` 包结构、`main.py export/pack` 命令、`REUser3Converter` API、callback 修改流程、JSON 格式约定和 magic 配置。
 
-RE_RSZ模板文件即仓库中的[rszmhst3.json](./rszmhst3.json)，记录了各种数据的地址信息，是整个仓库用于导出`.user.3`数据包的基础。
+## 当前能力
 
-### 0.1 游戏EXE的Dump
+- `.user.3 -> JSON`：按显式传入的 RE_RSZ 模板解析二进制数据库。
+- `JSON -> .user.3`：将本项目导出的 JSON 重新封回游戏可读取的 `.user.3`。
+- callback 修改流程：解析指定 `.user.3` 为完整实例表 JSON，交给用户函数修改，再自动封包输出。
+- 通用化参数：模板、`il2cpp_dump.json`、magic 均由调用方显式传入或配置。
+- `.msg.23` 批量导出：通过 `main.py export` 调用 `REMSG_Converter` 子模块完成。
+- Rich 批处理输出：底部固定显示当前进度条，上方滚动输出文件级执行日志。
 
-ScyllaHide本质上就是一个x64dbg的插件，用于进行部分伪装。假设已经完成了x64dbg的安装，并且下载好了ScyllaHide，那么可以在`ScyllaHide/x64dbg/x64/plugins`中找到如图所示的插件文件。
+## 快速开始
 
-![ScyllaHide/x64dbg/x64/plugins`下的插件文件](./img/1.png)
-
-将这些文件全部复制到`x64dbg/release/x64/plugins`目录下即完成了ScyllaHide插件的安装。
-
-随后，启动x64dbg（即`x64dbg/release/x64/x64dbg.exe`），以及游戏本身，进一步操作前请确保游戏已经进入了标题页面。在x64dbg的左上角菜单栏点击“文件”，在展开菜单中点击“附加”，在弹出的附件窗口中找到对应的游戏进程，比如物语3的`MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION.exe`。随后，会显示一个这样的页面，重点关注左下角最底下的状态信息。
-
-![x64dbg运行时页面](./img/2.png)
-
-可以看到下方显示：已暂停 INT3 断点 xxxxxx，而不是Successful，说明需要ScyllaHide出马。此时，在x64dbg的上方菜单栏点击“插件”，选择“ScyllaHide”，再选择“Options”，会看下图的弹窗。
-
-![ScyllaHide弹窗](./img/3.png)
-
-对于物语3只需要维持默认即可（其他游戏我建议你直接问Ai这些选项都是干啥的，因为我也不知道），随后点击“OK”按钮。正常情况下，可能会弹出一个无关紧要的窗口，让你再点一个新的“OK”，点就完事了，随后x64dbg的左下角信息会发生变化。
-
-![附加成功的提示](./img/4.png)
-
-看到Successful就说明附加成功了，此时在x64dbg上方的菜单栏里找到红框圈出来的按钮：
-
-![Dump按钮](./img/5.png)
-
-会看到一个弹窗，在上方的下拉菜单里找到你需要的游戏，比如我这里的`MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION.exe`。
-
-![Dump弹窗的下拉框](./img/7.png)
-
-选好后，点击下图中红圈圈出来的“Dump”按钮：
-
-![Dump弹窗](./img/6.png)
-
-会出现一个文件对话框，正常来说，应该显示你的游戏的exe+dump标识，比如图中的`MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION_dump.exe`，如果不是则说明你在上一步骤中的下拉框选错了。
-
-![Dump文件保存对话框](./img/8.png)
-
-点击“保存”后，回到原本的弹窗中，能看到Dump success字样，说明dump成功了。
-
-![Dump成功](./img/9.png)
-
-此时，你就完成了游戏exe的Dump，可以进行随后的步骤了。
-
-### 0.2 `il2cpp_dump.json`的生成
-
-为对应的游戏安装`REFramework`随后进入到游戏的标题页面，在REF的菜单中点击“DeveloperTools”，然后再点击“ObjectExplorer”，随后，点击”Dump il2cpp json Only“。
-
-![REF操作](./img/10.png)
-
-等待读条完成即可。
-
-### 0.3 获取RE_RSZ模板
-
-经过上述步骤：0.1和0.2，你的游戏根目录下应该存在两个文件，一个是`xxx_dump.exe`，一个是`il2cpp_dump.json`，对于我这里的物语3，则有：
-
-1. MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION_dump.exe
-2. il2cpp_dump.json
-
-确保你已经下载了[https://github.com/praydog/REFramework/tree/master/reversing/rsz](https://github.com/praydog/REFramework/tree/master/reversing/rsz)目录下的四个文件，特别是两个`.py`文件和对应的PyPi包依赖文件`requirements.txt`，并且安装了依赖的PyPi包。
-
-按照[说明](https://github.com/praydog/REFramework/blob/master/reversing/rsz/readme.md)里写的直接在命令行里执行对应的命令即可，例如我这里要导出物语3的RE_RSZ模板，因此执行如下命令：
+需要 Python 3.9 或更高版本。
 
 ```bash
-python .\emulation-dumper.py --p="游戏根目录/MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION_dump.exe --il2cpp_path="游戏根目录/il2cpp_dump.json" --test_mode=False
-```
-
-执行该命令，等待运行完成，会显示`100.000000%Finished. Dumping to native_layouts.json`，并且生成两个新的文件：
-
-1. dump_ MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION_dump.exe.txt
-2. native_layouts_MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION_dump.exe.json
-
-完成上述步骤后，再执行（内容记得根据上面生成的内容修改）：
-
-```bash
-python .\non-native-dumper.py --out_postfix="mhst3" --natives_path=".\native_layouts_MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION_dump.exe.json" --il2cpp_path="游戏根目录/il2cpp_dump.json" --use_typedefs=False --use_hashkeys=True
-```
-
-运行完成后，就能看到最终生成的RE_RSZ模板文件：`rszmhst3.json`。
-
-## 1 `.user.3`和`.msg.23`数据包导出
-
-- `.user.3`：使用上面提到的[ree-pak-rs](https://github.com/eigeen/ree-pak-rs)工具解包导出所有`.user.3`文件，推荐在软件左下角的过滤器里输入`.user.3`并点击”应用过滤器“。此时加载文件树就只剩下正确的文件了，找的目录提取保存即可。
-
-![`.user.3`数据包导出](./img/11.png)
-  
-- `.msg.23`：同理，使用上面提到的[ree-pak-rs](https://github.com/eigeen/ree-pak-rs)工具解包导出所有`.msg.23`文件，推荐在软件左下角的过滤器里输入`.msg.23`并点击”应用过滤器“。此时加载文件树就只剩下正确的文件了，找的目录提取保存即可。
-
-## 2 JSON大包导出
-
-当前`main.py`会执行两步：
-
-1. 导出`.user.3`为JSON；
-2. 导出`.msg.23`为JSON（通过`REMSG_Converter`的Python模块）。
-
-### 2.1 拉取仓库与子模块
-
-如果你是首次克隆，推荐直接带子模块：
-
-```bash
-git clone --recurse-submodules <本仓库地址>
-```
-
-如果你已经克隆过仓库，再执行一次子模块初始化/更新：
-
-```bash
-git submodule update --init --recursive
-```
-
-确认目录中存在：
-
-1. [main.py](./main.py)
-2. [user3_exporter.py](./user3_exporter.py)
-3. [msg_converter.py](./msg_converter.py)
-4. [requirements.txt](./requirements.txt)
-5. [REMSG_Converter](./REMSG_Converter)
-
-### 2.2 安装依赖
-
-先安装主项目依赖：
-
-```bash
+conda activate rersz
 pip install -r requirements.txt
-```
-
-再安装`REMSG_Converter`子模块依赖：
-
-```bash
 pip install -r REMSG_Converter/requirements.txt
 ```
 
-### 2.3 运行命令
+如果只在其他项目中导入 `re_user3` 库，不需要安装整仓库依赖，可只安装库内依赖：
 
 ```bash
-python main.py --input-dir <解包后的数据根目录> -s <RE_RSZ模板文件路径> --output-dir <导出的JSON保存目录> -p <il2cpp_dump.json路径>
+pip install -r re_user3/requirements.txt
 ```
 
-例如：
-
-- 输入目录里既可以有`.user.3`，也可以有`.msg.23`；
-- 输出目录会按输入目录的相对路径还原结构；
-- `.msg.23`会输出为同名追加`.json`，例如：`abc.msg.23 -> abc.msg.23.json`。
-
-其中，`main.py`支持的参数如下：
-
-- 必填参数：
-  - `--input-dir`，`-i`：步骤1中提取到的数据包根目录，支持递归扫描；
-  - `--schema-dir`，`-s`：步骤0中导出的RE_RSZ模板文件路径，比如物语3的`rszmhst3.json`；
-  - `--output-dir`，`-o`：最终导出的JSON保存目录；
-  - `--il2cpp-dump-path`，`-p`：`il2cpp_dump.json`的显式路径（必填）。程序会据此在输出目录生成`Enums_Internal.json`，不会自动搜索任何`Enums_Internal.json`路径；
-- 可选参数：
-  - `--tree-depth`，`-d`：构建RSZ数据时检测的结构深度，只能填写非负整数或者`auto`，默认`auto`；
-  - `--exclude-regex`，`-x`：用于排除某些文件或目录的正则表达式，可以以空格形式分隔填写多组，默认为空（如果是物语3的话推荐填`"(^|/)Voxel(/|$)"`，可以排除一些几乎没啥用且体积太大的数据包）。
-
-### 2.4 `.msg.23`转换补充说明
-
-- `main.py`内部会调用`msg_converter.py`，由它动态导入`REMSG_Converter/src/REMSGUtil.py`执行转换；
-- 因为是子模块调用，请不要删除或移动[REMSG_Converter](./REMSG_Converter)目录；
-- 若你更新了子模块版本，建议重新执行一次：
+导出 `.user.3` 和 `.msg.23`：
 
 ```bash
-git submodule update --init --recursive
-pip install -r REMSG_Converter/requirements.txt
+python main.py export -i <解包后的数据根目录> -s <RE_RSZ模板.json> -o <JSON输出目录> -p <il2cpp_dump.json>
 ```
 
+将 JSON 封回 `.user.3`：
+
+```bash
+python main.py pack -j <JSON文件或目录> -s <RE_RSZ模板.json> -o <user3输出目录> -p <il2cpp_dump.json>
+```
+
+作为库调用：
+
+```python
+from re_user3 import REUser3Converter
+
+converter = REUser3Converter(
+    schema_path="D:/schema/rsz_example.json",
+    il2cpp_dump_path="D:/game/il2cpp_dump.json",
+)
+
+converter.export_file("input/OtomonData.user.3", "json/OtomonData.user.3.json")
+converter.pack_file("json/OtomonData.user.3.json", "mod/OtomonData.user.3")
+```
+
+普通导出始终保持便于阅读的 readable JSON。需要修改后稳定封回时，库内的
+`parse_pack_file()` 和 `patch_file()` 会使用 `_format: "re_user3_pack_v1"` 的完整实例表结构。
+
+## 重要约定
+
+- `-s/--schema-path` 必须传具体的 RE_RSZ 模板 JSON 文件，不能传目录。
+- 程序不会自动寻找 `rsz*.json`、`il2cpp_dump.json` 或 `Enums_Internal.json`。
+- 默认 magic 为 `USR_MAGIC = 0x00525355`、`RSZ_MAGIC = 0x005A5352`，可通过命令行或类参数覆盖。
+- 旧的 `user3_exporter.py` 和 `mhst3_json` 兼容入口已经移除，新代码请统一从 `re_user3` 导入。
