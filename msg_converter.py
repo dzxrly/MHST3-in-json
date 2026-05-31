@@ -224,7 +224,9 @@ class MsgConverter:
                 raise FileNotFoundError(f"input root not found: {self.input_root}")
             # 目录模式递归扫描，保持和 `.user.3` 导出器相同的批处理体验。
             files = sorted(
-                f for f in self.input_root.rglob("*") if f.is_file() and self._is_msg23(f)
+                f
+                for f in self.input_root.rglob("*")
+                if f.is_file() and self._is_msg23(f)
             )
 
         if not files or not self._exclude_patterns:
@@ -258,9 +260,7 @@ class MsgConverter:
         output_name = f"{msg_file.name}.json"
         return self.output_root / relative_parent / output_name
 
-    def _convert_one_file(
-        self, msg_file: Path
-    ) -> tuple[bool, Path | None, str | None]:
+    def _convert_one_file(self, msg_file: Path) -> tuple[bool, Path | None, str | None]:
         """转换单个 `.msg.23` 文件。
 
         参数：
@@ -291,9 +291,7 @@ class MsgConverter:
         success = 0
         failed = 0
         # Rich 进度条固定在底部；单文件日志从上方持续滚动输出。
-        with BatchProgress(
-            "Converting msg", total=len(files), unit="file"
-        ) as progress:
+        with BatchProgress("Converting msg", total=len(files), unit="file") as progress:
             progress.log(f"发现 {len(files)} 个 .msg.23 文件。")
             for msg_file in files:
                 label = msg_file.name.replace(".msg.23", "")

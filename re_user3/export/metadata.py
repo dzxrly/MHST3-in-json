@@ -13,8 +13,6 @@ from ..rich_ui import get_console
 class ExporterMetadataMixin:
     """负责从 il2cpp dump 中提取和应用枚举上下文。"""
 
-
-
     @staticmethod
     def _id_formatter(key: str, value: int) -> str:
         """把枚举值格式化为导出 JSON 中的可读标签。

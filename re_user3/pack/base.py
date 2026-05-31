@@ -7,12 +7,13 @@ import re
 from pathlib import Path
 from typing import Any
 
+from .models import InstanceSpec
+from .plan import PackerPlanMixin
+from .writer import PackerWriterMixin
 from ..core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
 from ..export import User3Exporter
 from ..rich_ui import BatchProgress
-from .models import InstanceSpec, PackError
-from .plan import PackerPlanMixin
-from .writer import PackerWriterMixin
+
 
 class User3Packer(PackerPlanMixin, PackerWriterMixin):
     """根据导出的 JSON 树重新构造 `.user.3` 二进制文件。"""
@@ -38,7 +39,9 @@ class User3Packer(PackerPlanMixin, PackerWriterMixin):
         self.typedb = TypeDB.load(self.schema_path)
         self.il2cpp_dump_path = Path(il2cpp_dump_path) if il2cpp_dump_path else None
         if self.il2cpp_dump_path is not None and not self.il2cpp_dump_path.is_file():
-            raise FileNotFoundError(f"il2cpp_dump.json not found: {self.il2cpp_dump_path}")
+            raise FileNotFoundError(
+                f"il2cpp_dump.json not found: {self.il2cpp_dump_path}"
+            )
         self.output_root = Path(output_root) if output_root else Path.cwd()
         self.user_magic = int(user_magic)
         self.rsz_magic = int(rsz_magic)
@@ -155,7 +158,9 @@ class User3Packer(PackerPlanMixin, PackerWriterMixin):
         self, json_file: Path, json_root: Path, output_root: Path
     ) -> Path:
         """根据输入 JSON 路径计算输出 `.user.3` 路径。"""
-        relative_parent = Path() if json_root.is_file() else json_file.relative_to(json_root).parent
+        relative_parent = (
+            Path() if json_root.is_file() else json_file.relative_to(json_root).parent
+        )
         name = json_file.name
         if name.endswith(".user.3.pack.json"):
             output_name = name[: -len(".pack.json")]

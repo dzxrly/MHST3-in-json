@@ -2,13 +2,12 @@
 
 from __future__ import annotations
 
-import uuid
 import re
+import uuid
 from typing import Any
 
-from ..core import FieldDef, align
 from .models import BinaryWriter, InstanceRef, PackError, StructValue
-
+from ..core import FieldDef, align
 
 ENUM_LABEL_RE = re.compile(r"^\[(-?\d+)\]\s*(.*)$")
 
@@ -71,7 +70,9 @@ class PackerWriterMixin:
             key = field_def.name or "unnamed"
             self._write_field(writer, field_def, spec.fields.get(key))
 
-    def _write_field(self, writer: BinaryWriter, field_def: FieldDef, value: Any) -> None:
+    def _write_field(
+        self, writer: BinaryWriter, field_def: FieldDef, value: Any
+    ) -> None:
         """写入一个字段，自动处理数组和标量。"""
         if field_def.is_array:
             items = value if isinstance(value, list) else []
@@ -91,7 +92,9 @@ class PackerWriterMixin:
             return
         self._write_scalar(writer, field_def, value)
 
-    def _write_scalar(self, writer: BinaryWriter, field_def: FieldDef, value: Any) -> None:
+    def _write_scalar(
+        self, writer: BinaryWriter, field_def: FieldDef, value: Any
+    ) -> None:
         """按字段类型写入标量值。"""
         t = field_def.field_type
         if t == "Bool":
@@ -119,7 +122,9 @@ class PackerWriterMixin:
             writer.write_struct("<q", self._coerce_int(value, field_def))
             return
         if t == "U64":
-            writer.write_struct("<Q", self._coerce_int(value, field_def) & 0xFFFFFFFFFFFFFFFF)
+            writer.write_struct(
+                "<Q", self._coerce_int(value, field_def) & 0xFFFFFFFFFFFFFFFF
+            )
             return
         if t == "F32":
             writer.write_struct("<f", float(value or 0.0))
@@ -129,7 +134,11 @@ class PackerWriterMixin:
             return
         if t in {"Object", "UserData"}:
             # 对象字段最终只写入目标实例编号。
-            ref_id = value.index if isinstance(value, InstanceRef) else self._coerce_int(value, field_def)
+            ref_id = (
+                value.index
+                if isinstance(value, InstanceRef)
+                else self._coerce_int(value, field_def)
+            )
             writer.write_struct("<i", ref_id)
             return
         if t in {"String", "Resource"}:

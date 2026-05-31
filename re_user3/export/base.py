@@ -6,14 +6,14 @@ import json
 import re
 from pathlib import Path
 
-from ..core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
-from ..rich_ui import BatchProgress
 from .enums import ExporterEnumSourceMixin
 from .fields import ExporterFieldParserMixin
 from .metadata import ExporterMetadataMixin
 from .postprocess import ExporterPostprocessMixin
 from .tree import ExporterTreeMixin
 from .user3 import ExporterUser3ParserMixin
+from ..core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
+from ..rich_ui import BatchProgress
 
 
 class User3Exporter(
@@ -85,9 +85,7 @@ class User3Exporter(
         # 每次导出都根据显式传入的 il2cpp_dump.json 重新生成枚举表，
         # 不复用旧目录中的 Enums_Internal.json，避免跨游戏或跨版本污染。
         enums_internal = self._ensure_internal_metadata_files()
-        self.enum_lookup = self._build_enum_lookup_from_enums_internal(
-            enums_internal
-        )
+        self.enum_lookup = self._build_enum_lookup_from_enums_internal(enums_internal)
         self._load_enum_context_from_il2cpp_dump()
         self._ensure_enum_lookup()
 

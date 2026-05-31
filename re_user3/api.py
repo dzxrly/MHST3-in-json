@@ -13,9 +13,9 @@ import re
 from pathlib import Path
 from typing import Any, Callable, Optional
 
+from .core import RSZ_MAGIC, USR_MAGIC
 from .export import User3Exporter
 from .pack import User3Packer
-from .core import RSZ_MAGIC, USR_MAGIC
 
 JsonTree = Any
 PatchCallback = Callable[..., Optional[JsonTree]]
@@ -237,8 +237,14 @@ class REUser3Converter:
         total = success = failed = skipped = 0
         for file_path in files:
             # 单文件模式使用文件名；目录模式使用相对路径，以便输出时还原目录。
-            rel = file_path.name if source_root.is_file() else file_path.relative_to(source_root).as_posix()
-            if include_patterns and not any(pattern.search(rel) for pattern in include_patterns):
+            rel = (
+                file_path.name
+                if source_root.is_file()
+                else file_path.relative_to(source_root).as_posix()
+            )
+            if include_patterns and not any(
+                pattern.search(rel) for pattern in include_patterns
+            ):
                 skipped += 1
                 continue
             if any(pattern.search(rel) for pattern in exclude_patterns):
@@ -246,14 +252,23 @@ class REUser3Converter:
                 continue
 
             total += 1
-            output_path = target_root / (file_path.name if source_root.is_file() else file_path.relative_to(source_root))
+            output_path = target_root / (
+                file_path.name
+                if source_root.is_file()
+                else file_path.relative_to(source_root)
+            )
             try:
                 # 每个文件独立处理，单个文件失败不会影响整个目录批处理。
                 self.patch_file(file_path, output_path, callback)
                 success += 1
             except Exception:
                 failed += 1
-        return {"total": total, "success": success, "failed": failed, "skipped": skipped}
+        return {
+            "total": total,
+            "success": success,
+            "failed": failed,
+            "skipped": skipped,
+        }
 
     def _new_exporter(
         self,

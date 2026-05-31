@@ -4,8 +4,8 @@ from __future__ import annotations
 
 from typing import Any
 
-from ..core import ClassDef, FieldDef
 from .models import PACK_JSON_FORMAT, InstanceRef, InstanceSpec, PackError, StructValue
+from ..core import ClassDef, FieldDef
 
 
 class PackerPlanMixin:
@@ -52,7 +52,9 @@ class PackerPlanMixin:
                 raise PackError(f"instance {idx} must be an object")
             if entry.get("_unparsed"):
                 reason = entry.get("reason", "unparsed")
-                raise PackError(f"instance {idx} is unparsed and cannot be packed: {reason}")
+                raise PackError(
+                    f"instance {idx} is unparsed and cannot be packed: {reason}"
+                )
             if entry.get("_kind") == "userdata_reference":
                 raise PackError(
                     f"instance {idx} is an external userdata reference; "
@@ -63,12 +65,18 @@ class PackerPlanMixin:
                 raise PackError(f"instance {idx} is missing _class")
             class_hash = self.typedb.name_to_hash.get(class_name)
             if class_hash is None:
-                raise PackError(f"class not found in schema for instance {idx}: {class_name}")
+                raise PackError(
+                    f"class not found in schema for instance {idx}: {class_name}"
+                )
             class_def = self.typedb.get_class(class_hash)
             if class_def is None:
-                raise PackError(f"class hash not found in schema for instance {idx}: {class_name}")
+                raise PackError(
+                    f"class hash not found in schema for instance {idx}: {class_name}"
+                )
             self._validate_declared_hash(idx, entry, class_hash, class_def.crc)
-            self.instances[idx] = InstanceSpec(class_hash=class_hash, class_def=class_def)
+            self.instances[idx] = InstanceSpec(
+                class_hash=class_hash, class_def=class_def
+            )
 
         for idx in ids[1:]:
             entry = instances_raw[str(idx)]
@@ -212,7 +220,11 @@ class PackerPlanMixin:
     def _unwrap_node(self, node: Any, expected_class: str | None) -> tuple[str, Any]:
         """从类名包裹对象中取出类名和字段对象。"""
         if isinstance(node, dict):
-            class_keys = [k for k in node.keys() if isinstance(k, str) and k in self.typedb.name_to_hash]
+            class_keys = [
+                k
+                for k in node.keys()
+                if isinstance(k, str) and k in self.typedb.name_to_hash
+            ]
             if len(class_keys) == 1 and len(node) == 1:
                 key = class_keys[0]
                 return key, node[key]
@@ -224,7 +236,9 @@ class PackerPlanMixin:
     def _prepare_fields(self, class_def: ClassDef, raw_fields: Any) -> dict[str, Any]:
         """按模板字段顺序准备一个实例的字段值。"""
         if not isinstance(raw_fields, dict):
-            value_fields = [f for f in class_def.fields if f.name in {"_Value", "value__"}]
+            value_fields = [
+                f for f in class_def.fields if f.name in {"_Value", "value__"}
+            ]
             if len(value_fields) == 1:
                 # 枚举或简单包装类型经常导出为纯值，这里还原到真实字段名。
                 raw_fields = {value_fields[0].name: raw_fields}
@@ -265,14 +279,18 @@ class PackerPlanMixin:
         """把对象字段值转换为实例引用。"""
         if raw_value is None:
             return InstanceRef(0)
-        if isinstance(raw_value, dict) and isinstance(raw_value.get("ref_instance_id"), int):
+        if isinstance(raw_value, dict) and isinstance(
+            raw_value.get("ref_instance_id"), int
+        ):
             # 用户保留导出的引用编号时直接复用，不展开新实例。
             return InstanceRef(raw_value["ref_instance_id"])
 
         expected_class = self._resolve_object_class(field_def.original_type)
         if isinstance(raw_value, dict):
             class_keys = [
-                k for k in raw_value.keys() if isinstance(k, str) and k in self.typedb.name_to_hash
+                k
+                for k in raw_value.keys()
+                if isinstance(k, str) and k in self.typedb.name_to_hash
             ]
             if len(class_keys) == 1 and len(raw_value) == 1:
                 # 已经是 `{类名: 字段}` 形状时直接规划该子对象。
@@ -315,7 +333,9 @@ class PackerPlanMixin:
         if class_def is None:
             raise PackError(f"struct class not found: {field_def.original_type}")
         fields = raw_value if isinstance(raw_value, dict) else {}
-        return StructValue(class_def, self._prepare_fields(class_def, fields), field_def.size)
+        return StructValue(
+            class_def, self._prepare_fields(class_def, fields), field_def.size
+        )
 
     def _default_value(self, field_def: FieldDef) -> Any:
         """根据字段类型生成缺省值。"""

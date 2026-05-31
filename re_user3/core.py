@@ -12,9 +12,6 @@ import uuid
 from pathlib import Path
 from typing import Any
 
-from .schema import ClassDef, FieldDef, TypeDB, murmur3_32
-
-
 USR_MAGIC = 5395285
 RSZ_MAGIC = 5919570
 PACK_JSON_FORMAT = "re_user3_pack_v1"
@@ -213,9 +210,6 @@ class BinaryReader:
         return normalize_guid_candidate_text("".join(chr(c) for c in out))
 
 
-
-
-
 def read_len_utf16(reader: BinaryReader) -> str:
     """读取带长度前缀的 UTF-16LE 字符串。
 
@@ -274,4 +268,3 @@ def read_guid_like(reader: BinaryReader) -> str:
         return str(uuid.UUID(bytes_le=raw))
     except Exception:
         return format_guid_text_from_hex32(raw.hex())
-

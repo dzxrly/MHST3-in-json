@@ -1,5 +1,13 @@
 from .api import REUser3Converter
-from .core import BinaryReader, ClassDef, FieldDef, ParseError, RSZ_MAGIC, TypeDB, USR_MAGIC
+from .core import (
+    BinaryReader,
+    ClassDef,
+    FieldDef,
+    ParseError,
+    RSZ_MAGIC,
+    TypeDB,
+    USR_MAGIC,
+)
 from .export import User3Exporter
 from .pack import PackError, User3Packer
 

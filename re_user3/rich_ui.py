@@ -16,7 +16,6 @@ from rich.progress import (
     TimeRemainingColumn,
 )
 
-
 _CONSOLE = Console()
 
 
