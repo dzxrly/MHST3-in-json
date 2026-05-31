@@ -13,8 +13,8 @@ import re
 from pathlib import Path
 from typing import Any, Callable
 
-from .exporter import User3Exporter
-from .packer import User3Packer
+from .export import User3Exporter
+from .pack import User3Packer
 from .core import RSZ_MAGIC, USR_MAGIC
 
 JsonTree = Any
@@ -35,7 +35,7 @@ class REUser3Converter:
     ) -> None:
         """初始化转换器。
 
-        Args:
+        参数：
             schema_path: 必填，RE_RSZ 模板 JSON 文件路径。
             il2cpp_dump_path: `il2cpp_dump.json` 路径；解析和导出时必填，
                 封包时可选但建议传入，用于枚举名反查。
@@ -63,12 +63,12 @@ class REUser3Converter:
     ) -> dict[str, int]:
         """批量导出目录或单文件下的 `.user.3`。
 
-        Args:
+        参数：
             user3_root: `.user.3` 根目录或单个 `.user.3` 文件。
             output_root: JSON 输出根目录。
             exclude_regexes: 用于排除相对路径的正则表达式列表。
 
-        Returns:
+        返回：
             包含 `total`、`success`、`failed` 的统计字典。
         """
         exporter = self._new_exporter(user3_root, output_root, exclude_regexes)
@@ -81,11 +81,11 @@ class REUser3Converter:
     ) -> Path:
         """导出单个 `.user.3` 文件到指定 JSON 路径。
 
-        Args:
+        参数：
             user3_path: 源 `.user.3` 文件。
             json_path: 目标 JSON 文件。
 
-        Returns:
+        返回：
             实际写入的 JSON 路径。
         """
         # 单文件导出复用 parse_file，确保 API 直接解析和批量导出的
@@ -101,11 +101,11 @@ class REUser3Converter:
     def parse_file(self, user3_path: str | Path, round_floats: bool = True) -> JsonTree:
         """把单个 `.user.3` 解析成导出器使用的紧凑 JSON 树。
 
-        Args:
+        参数：
             user3_path: 源 `.user.3` 文件。
             round_floats: 是否把浮点数四舍五入到 4 位，方便人工阅读。
 
-        Returns:
+        返回：
             可直接修改或传给 `pack` 的 JSON 树。
         """
         exporter = self._new_exporter(user3_path, Path.cwd(), [])
@@ -127,12 +127,12 @@ class REUser3Converter:
     ) -> dict[str, int]:
         """批量将 JSON 文件封回 `.user.3`。
 
-        Args:
+        参数：
             json_root: JSON 文件或 JSON 根目录。
             output_root: `.user.3` 输出根目录。
             exclude_regexes: 用于排除 JSON 相对路径的正则表达式列表。
 
-        Returns:
+        返回：
             包含 `total`、`success`、`failed` 的统计字典。
         """
         packer = self._new_packer(output_root)
@@ -141,11 +141,11 @@ class REUser3Converter:
     def pack_file(self, json_path: str | Path, user3_path: str | Path) -> Path:
         """把单个 JSON 文件封包到指定 `.user.3` 路径。
 
-        Args:
+        参数：
             json_path: 源 JSON 文件。
             user3_path: 输出 `.user.3` 文件路径。
 
-        Returns:
+        返回：
             实际写入的 `.user.3` 路径。
         """
         packer = self._new_packer(Path(user3_path).parent)
@@ -154,10 +154,10 @@ class REUser3Converter:
     def pack(self, data: Any) -> bytes:
         """把内存中的 JSON 树直接编码为 `.user.3` 二进制。
 
-        Args:
+        参数：
             data: 与导出 JSON 形状一致的对象或对象数组。
 
-        Returns:
+        返回：
             可直接写入文件的 `.user.3` 字节串。
         """
         return self._new_packer(None).pack(data)
@@ -173,12 +173,12 @@ class REUser3Converter:
         callback 可以接收 `(data)` 或 `(data, source_path)`。它既可以返回
         一个新的 JSON 树，也可以原地修改 `data` 后返回 `None`。
 
-        Args:
+        参数：
             user3_path: 源 `.user.3` 文件。
             output_path: 修改后 `.user.3` 的写入路径。
             callback: 用户提供的 JSON 修改函数。
 
-        Returns:
+        返回：
             实际写入的 `.user.3` 路径。
         """
         source = Path(user3_path)
@@ -206,14 +206,14 @@ class REUser3Converter:
         路径，并统一使用 `/` 作为路径分隔符，避免 Windows 与类 Unix
         路径差异影响正则。
 
-        Args:
+        参数：
             user3_root: `.user.3` 根目录或单个文件。
             output_root: 修改后文件的输出根目录。
             callback: 用户提供的 JSON 修改函数。
             include_regexes: 只处理匹配这些正则的相对路径。
             exclude_regexes: 跳过匹配这些正则的相对路径。
 
-        Returns:
+        返回：
             包含 `total`、`success`、`failed`、`skipped` 的统计字典。
         """
         source_root = Path(user3_root)

@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .core import ParseError
+from ..core import ParseError
 
 
 class ExporterMetadataMixin:
@@ -18,11 +18,11 @@ class ExporterMetadataMixin:
     def _id_formatter(key: str, value: int) -> str:
         """把枚举值格式化为导出 JSON 中的可读标签。
 
-        Args:
+        参数：
             key: 枚举成员名。
             value: 固定枚举数值。
 
-        Returns:
+        返回：
             形如 `[123] MemberName` 的字符串。
         """
         return f"[{value}] {key}"
@@ -31,10 +31,10 @@ class ExporterMetadataMixin:
     def _to_u32(value: int) -> int:
         """把整数转换到无符号 32 位范围。
 
-        Args:
+        参数：
             value: 输入整数。
 
-        Returns:
+        返回：
             无符号 32 位值。
         """
         return value & 0xFFFFFFFF
@@ -43,10 +43,10 @@ class ExporterMetadataMixin:
     def _to_s32(value: int) -> int:
         """把整数转换为有符号 32 位表示。
 
-        Args:
+        参数：
             value: 输入整数。
 
-        Returns:
+        返回：
             有符号 32 位值。
         """
         u32 = value & 0xFFFFFFFF
@@ -83,7 +83,7 @@ class ExporterMetadataMixin:
     def _load_enum_lookup(self) -> dict[str, dict[int, tuple[str, int]]]:
         """兼容钩子：当前版本只从显式 il2cpp 输入构建枚举表。
 
-        Returns:
+        返回：
             空映射；真实枚举表由 `_ensure_internal_metadata_files` 生成。
         """
         return {}
@@ -91,7 +91,7 @@ class ExporterMetadataMixin:
     def _resolve_il2cpp_dump_path(self) -> Path | None:
         """返回显式传入且存在的 `il2cpp_dump.json` 路径。
 
-        Returns:
+        返回：
             文件存在时返回路径，否则返回 `None`。
         """
         return self.il2cpp_dump_path if self.il2cpp_dump_path.is_file() else None
@@ -99,7 +99,7 @@ class ExporterMetadataMixin:
     def _ensure_internal_metadata_files(self) -> dict:
         """根据必填 il2cpp dump 在输出目录生成 `Enums_Internal.json`。
 
-        Returns:
+        返回：
             从 dump 中提取的内部枚举映射。
         """
         dump_path = self._resolve_il2cpp_dump_path()
@@ -160,7 +160,7 @@ class ExporterMetadataMixin:
     def _apply_enum_context(self, raw: dict) -> None:
         """把枚举上下文应用到导出器的运行时索引。
 
-        Args:
+        参数：
             raw: 从 il2cpp dump 提取出的枚举上下文对象。
         """
         self.class_field_fixed_types = {}
@@ -222,7 +222,7 @@ class ExporterMetadataMixin:
     def _load_enum_context_from_il2cpp_dump(self) -> bool:
         """直接从 il2cpp dump 加载枚举上下文。
 
-        Returns:
+        返回：
             加载成功返回 `True`，否则返回 `False`。
         """
         dump_path = self._resolve_il2cpp_dump_path()

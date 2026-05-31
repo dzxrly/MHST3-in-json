@@ -17,10 +17,10 @@ from re_user3.core import RSZ_MAGIC, USR_MAGIC
 def parse_int_arg(value: str) -> int:
     """解析命令行中的十进制或 `0x` 前缀整数。
 
-    Args:
+    参数：
         value: 用户输入的整数字符串。
 
-    Returns:
+    返回：
         转换后的整数，可用于 magic 等二进制字段。
     """
     return int(value, 0)
@@ -29,7 +29,7 @@ def parse_int_arg(value: str) -> int:
 def run_export(argv: list[str] | None = None) -> None:
     """解析导出参数，并依次执行 `.msg.23` 与 `.user.3` 导出。
 
-    Args:
+    参数：
         argv: 不包含子命令名的参数列表；为 `None` 时由 argparse 读取默认输入。
     """
     parser = argparse.ArgumentParser(description="Export all .user.3 files to JSON.")
@@ -140,7 +140,7 @@ def run_export(argv: list[str] | None = None) -> None:
 def run_pack(argv: list[str] | None = None) -> None:
     """解析封包参数，并把 JSON 重新构造成 `.user.3` 文件。
 
-    Args:
+    参数：
         argv: 不包含 `pack` 子命令名的参数列表。
     """
     parser = argparse.ArgumentParser(description="Pack .user.3.json files to .user.3.")

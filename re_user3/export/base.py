@@ -41,13 +41,13 @@ except Exception:  # 轻量环境下允许没有 tqdm/rich
 
         return _Tqdm(iterable, total, desc, unit)
 
-from .core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
-from .exporter_enum_source import ExporterEnumSourceMixin
-from .exporter_fields import ExporterFieldParserMixin
-from .exporter_metadata import ExporterMetadataMixin
-from .exporter_postprocess import ExporterPostprocessMixin
-from .exporter_tree import ExporterTreeMixin
-from .exporter_user3 import ExporterUser3ParserMixin
+from ..core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
+from .enums import ExporterEnumSourceMixin
+from .fields import ExporterFieldParserMixin
+from .metadata import ExporterMetadataMixin
+from .postprocess import ExporterPostprocessMixin
+from .tree import ExporterTreeMixin
+from .user3 import ExporterUser3ParserMixin
 
 
 class User3Exporter(
@@ -73,7 +73,7 @@ class User3Exporter(
     ):
         """初始化导出器配置和运行期索引。
 
-        Args:
+        参数：
             user3_root: 输入根目录或单个 `.user.3` 文件。
             schema_dir: 显式传入的 RE_RSZ 模板 JSON 文件路径。
             output_root: JSON 输出根目录。
@@ -111,7 +111,7 @@ class User3Exporter(
     def run(self) -> dict[str, int]:
         """执行批量导出流程。
 
-        Returns:
+        返回：
             包含 `total`、`success`、`failed` 的统计字典。
         """
         files = self._discover_user3_files()
@@ -142,10 +142,10 @@ class User3Exporter(
     def _export_one_file(self, user3_file: Path) -> bool:
         """导出单个 `.user.3` 文件。
 
-        Args:
+        参数：
             user3_file: 源 `.user.3` 文件路径。
 
-        Returns:
+        返回：
             成功返回 `True`，异常返回 `False` 交给批量统计。
         """
         try:
@@ -166,10 +166,10 @@ class User3Exporter(
     def _resolve_schema_path(self, schema_dir: Path) -> Path:
         """校验并返回模板文件路径。
 
-        Args:
+        参数：
             schema_dir: 历史参数名，实际必须是具体模板 JSON 文件。
 
-        Returns:
+        返回：
             校验后的模板文件路径。
         """
         return resolve_schema_path(schema_dir)
@@ -177,10 +177,10 @@ class User3Exporter(
     def _normalize_tree_depth(self, tree_depth: int | str) -> int | str:
         """规范化对象树展开深度。
 
-        Args:
+        参数：
             tree_depth: 用户传入的深度设置。
 
-        Returns:
+        返回：
             非负整数或 `"auto"`。
         """
         if isinstance(tree_depth, str):
@@ -197,7 +197,7 @@ class User3Exporter(
     def _discover_user3_files(self) -> list[Path]:
         """发现输入 `.user.3` 文件并应用排除规则。
 
-        Returns:
+        返回：
             过滤后的 `.user.3` 文件列表。
         """
         if self.user3_root.is_file():
@@ -228,10 +228,10 @@ class User3Exporter(
     def _output_path_for(self, user3_file: Path) -> Path:
         """计算单个源文件对应的 JSON 输出路径。
 
-        Args:
+        参数：
             user3_file: 源 `.user.3` 文件。
 
-        Returns:
+        返回：
             输出 JSON 文件路径。
         """
         if self.user3_root.is_file():

@@ -1,7 +1,7 @@
 from .api import REUser3Converter
 from .core import BinaryReader, ClassDef, FieldDef, ParseError, RSZ_MAGIC, TypeDB, USR_MAGIC
-from .exporter import User3Exporter
-from .packer import PackError, User3Packer
+from .export import User3Exporter
+from .pack import PackError, User3Packer
 
 __all__ = [
     "BinaryReader",

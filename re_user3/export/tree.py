@@ -11,10 +11,10 @@ class ExporterTreeMixin:
     def _count_reference_links(self, value: Any) -> int:
         """统计嵌套结构中的对象引用数量。
 
-        Args:
+        参数：
             value: 任意嵌套值。
 
-        Returns:
+        返回：
             `ref_instance_id` 出现次数。
         """
         if isinstance(value, dict):
@@ -31,7 +31,7 @@ class ExporterTreeMixin:
     def _collect_reference_ids(self, value: Any, out: set[int]) -> None:
         """收集嵌套结构中引用到的实例编号。
 
-        Args:
+        参数：
             value: 任意嵌套值。
             out: 用于保存实例编号的输出集合。
         """
@@ -53,11 +53,11 @@ class ExporterTreeMixin:
     ) -> list[int]:
         """在对象表为空时推断可能的根实例。
 
-        Args:
+        参数：
             idx_map: 以实例编号索引的已解析实例。
             parsed_instances: 按实例表顺序排列的已解析实例列表。
 
-        Returns:
+        返回：
             推断出的根实例编号。
         """
         candidates = sorted(
@@ -85,11 +85,11 @@ class ExporterTreeMixin:
     ) -> int:
         """根据内容复杂度自动选择紧凑树展开深度。
 
-        Args:
+        参数：
             parsed_instances: 已解析实例列表。
             object_roots: 根实例编号列表。
 
-        Returns:
+        返回：
             自动选择的展开深度。
         """
         ref_links = 0
@@ -111,10 +111,10 @@ class ExporterTreeMixin:
     def _simplify_value_object(self, value: Any) -> Any:
         """简化只包含 `_Value` 的包装对象。
 
-        Args:
+        参数：
             value: 输入值。
 
-        Returns:
+        返回：
             形状匹配时返回 `_Value`，否则返回原值。
         """
         if isinstance(value, dict) and len(value) == 1 and "_Value" in value:
@@ -130,13 +130,13 @@ class ExporterTreeMixin:
     ) -> Any:
         """按剩余深度展开紧凑值中的对象引用。
 
-        Args:
+        参数：
             value: 输入值。
             idx_map: 实例映射。
             depth: 剩余展开深度。
             visited: 当前递归路径已访问实例集合。
 
-        Returns:
+        返回：
             展开后的紧凑值。
         """
         if isinstance(value, dict):
@@ -169,14 +169,14 @@ class ExporterTreeMixin:
     ) -> dict[str, Any]:
         """为一个根实例构造紧凑 JSON 树节点。
 
-        Args:
+        参数：
             idx: 根实例编号。
             idx_map: 已解析实例映射。
             depth: 剩余展开深度。
             instance_info_map: 可选实例元数据映射。
             visited: 当前递归路径已访问实例集合。
 
-        Returns:
+        返回：
             以类名包裹的紧凑 JSON 节点。
         """
         if visited is None:
@@ -236,14 +236,14 @@ class ExporterTreeMixin:
     ) -> Any:
         """使用实例元数据展开紧凑值。
 
-        Args:
+        参数：
             value: 输入值。
             idx_map: 已解析实例映射。
             depth: 剩余展开深度。
             instance_info_map: 实例元数据映射。
             visited: 当前路径已访问实例集合。
 
-        Returns:
+        返回：
             展开后的紧凑值。
         """
         if isinstance(value, dict):

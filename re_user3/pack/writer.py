@@ -6,8 +6,8 @@ import uuid
 import re
 from typing import Any
 
-from .core import FieldDef, align
-from .packer_models import BinaryWriter, InstanceRef, PackError, StructValue
+from ..core import FieldDef, align
+from .models import BinaryWriter, InstanceRef, PackError, StructValue
 
 
 ENUM_LABEL_RE = re.compile(r"^\[(-?\d+)\]\s*(.*)$")

@@ -11,10 +11,10 @@ class ExporterPostprocessMixin:
     def _fixed_type_candidates(self, type_name: str) -> list[str]:
         """根据类型名生成可能的固定枚举类型名。
 
-        Args:
+        参数：
             type_name: 源类型名。
 
-        Returns:
+        返回：
             去重后的候选固定枚举类型名。
         """
         candidates = [type_name]
@@ -33,10 +33,10 @@ class ExporterPostprocessMixin:
     def _normalize_to_fixed_enum_type(self, type_name: str) -> str:
         """在可能时把类型名规范化为已知固定枚举类型。
 
-        Args:
+        参数：
             type_name: 源类型名。
 
-        Returns:
+        返回：
             已知固定枚举类型；无法匹配时返回原值。
         """
         if not type_name or not self.enum_lookup:
@@ -52,11 +52,11 @@ class ExporterPostprocessMixin:
     def _format_enum_value(self, fixed_enum_type: str, value: int) -> Any:
         """把数值映射成固定枚举的可读标签。
 
-        Args:
+        参数：
             fixed_enum_type: 固定枚举类型名。
             value: 原始数值。
 
-        Returns:
+        返回：
             能匹配时返回 `[值] 名称`，否则返回原数值。
         """
         if not fixed_enum_type or not self.enum_lookup:
@@ -78,10 +78,10 @@ class ExporterPostprocessMixin:
     def _looks_like_class_name(text: str) -> bool:
         """判断字典键是否像完整类名。
 
-        Args:
+        参数：
             text: 字典键文本。
 
-        Returns:
+        返回：
             类名通常包含命名空间点号且不是字段名。
         """
         return "." in text and not text.startswith("_")
@@ -90,10 +90,10 @@ class ExporterPostprocessMixin:
     def _class_name_variants(class_name: str | None) -> list[str]:
         """生成不同 dump 中常见的类名别名。
 
-        Args:
+        参数：
             class_name: 当前类名。
 
-        Returns:
+        返回：
             包含 `cData` / `cParam` 互换别名的列表。
         """
         if not class_name:
@@ -110,11 +110,11 @@ class ExporterPostprocessMixin:
     ) -> str | None:
         """解析字段对应的固定枚举类型提示。
 
-        Args:
+        参数：
             current_class: 当前类上下文。
             field_name: 字段名。
 
-        Returns:
+        返回：
             固定枚举类型名；无法推断时返回 `None`。
         """
         for class_variant in self._class_name_variants(current_class):
@@ -127,10 +127,10 @@ class ExporterPostprocessMixin:
     def _resolve_class_default_enum(self, class_name: str | None) -> str | None:
         """解析泛型参数容器类的默认枚举类型。
 
-        Args:
+        参数：
             class_name: 类名。
 
-        Returns:
+        返回：
             默认固定枚举类型；无法推断时返回 `None`。
         """
         for class_variant in self._class_name_variants(class_name):
@@ -143,10 +143,10 @@ class ExporterPostprocessMixin:
     def _is_enum_value_field(field_name: str | None) -> bool:
         """判断字段名是否像枚举值字段。
 
-        Args:
+        参数：
             field_name: 字段名。
 
-        Returns:
+        返回：
             看起来像 `value`、`fixedid` 或 `xxxid` 时返回 `True`。
         """
         if not field_name:
@@ -165,7 +165,7 @@ class ExporterPostprocessMixin:
     ) -> Any:
         """递归规范化类名，并把固定枚举数值转成可读标签。
 
-        Args:
+        参数：
             value: 当前节点。
             current_class: 当前类上下文。
             scalar_enum_hint: 当前标量值可使用的枚举类型提示。
@@ -173,7 +173,7 @@ class ExporterPostprocessMixin:
             container_param_rule: 泛型容器推断出的参数与枚举类型关系。
             field_name: 当前字段名。
 
-        Returns:
+        返回：
             转换后的节点。
         """
         if isinstance(value, dict):
@@ -310,10 +310,10 @@ class ExporterPostprocessMixin:
     def _round_export_floats(self, value: Any) -> Any:
         """递归圆整浮点数，让导出的 JSON 更适合人工阅读。
 
-        Args:
+        参数：
             value: 任意嵌套值。
 
-        Returns:
+        返回：
             浮点数被圆整到 4 位后的值。
         """
         if isinstance(value, dict):

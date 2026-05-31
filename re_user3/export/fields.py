@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from .core import (
+from ..core import (
     BinaryReader,
     ClassDef,
     FieldDef,
@@ -24,12 +24,12 @@ class ExporterFieldParserMixin:
     ) -> Any:
         """按字段类型从二进制流中读取一个标量值。
 
-        Args:
+        参数：
             reader: 二进制读取器。
             field: RE_RSZ 字段定义。
             depth: 当前结构体递归深度。
 
-        Returns:
+        返回：
             解析出的 Python 值。
         """
         t = field.field_type
@@ -132,12 +132,12 @@ class ExporterFieldParserMixin:
     ) -> Any:
         """读取字段值，自动处理数组与标量分支。
 
-        Args:
+        参数：
             reader: 二进制读取器。
             field: 字段定义。
             depth: 当前结构体递归深度。
 
-        Returns:
+        返回：
             标量值或数组列表。
         """
         if field.is_array:
@@ -166,10 +166,10 @@ class ExporterFieldParserMixin:
     def _estimate_min_instance_size(self, cls: ClassDef) -> int:
         """估算一个实例至少会占用多少字节。
 
-        Args:
+        参数：
             cls: 类型定义。
 
-        Returns:
+        返回：
             估算的最小实例尺寸。
         """
         pos = 0
@@ -201,11 +201,11 @@ class ExporterFieldParserMixin:
     def _parse_instance(self, reader: BinaryReader, class_hash: int) -> dict[str, Any]:
         """解析一个类型实例的数据段。
 
-        Args:
+        参数：
             reader: 二进制读取器。
             class_hash: 实例表中的类型哈希。
 
-        Returns:
+        返回：
             包含 `_class` 和 `fields` 的实例字典。
         """
         cls = self.typedb.get_class(class_hash)

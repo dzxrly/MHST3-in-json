@@ -7,15 +7,11 @@ import re
 from pathlib import Path
 from typing import Any
 
-from .core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
-from .exporter import User3Exporter
-from .packer_models import InstanceSpec, PackError
-from .packer_plan import PackerPlanMixin
-from .packer_writer import PackerWriterMixin
-
-
-ENUM_LABEL_RE = re.compile(r"^\[(-?\d+)\]\s*(.*)$")
-
+from ..core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
+from ..export import User3Exporter
+from .models import InstanceSpec, PackError
+from .plan import PackerPlanMixin
+from .writer import PackerWriterMixin
 
 class User3Packer(PackerPlanMixin, PackerWriterMixin):
     """根据导出的 JSON 树重新构造 `.user.3` 二进制文件。"""
@@ -30,7 +26,7 @@ class User3Packer(PackerPlanMixin, PackerWriterMixin):
     ) -> None:
         """初始化封包器。
 
-        Args:
+        参数：
             schema_dir: 历史参数名，实际必须是 RE_RSZ 模板 JSON 文件路径。
             il2cpp_dump_path: 可选的 `il2cpp_dump.json`，用于枚举名反查。
             output_root: 默认输出根目录。
@@ -54,11 +50,11 @@ class User3Packer(PackerPlanMixin, PackerWriterMixin):
     def pack_json_file(self, json_path: str | Path, output_path: str | Path) -> Path:
         """读取一个 JSON 文件并写出 `.user.3`。
 
-        Args:
+        参数：
             json_path: 源 JSON 文件。
             output_path: 目标 `.user.3` 路径。
 
-        Returns:
+        返回：
             实际写入的路径。
         """
         source = Path(json_path)
@@ -77,12 +73,12 @@ class User3Packer(PackerPlanMixin, PackerWriterMixin):
     ) -> dict[str, int]:
         """批量封包目录或单个 JSON 文件。
 
-        Args:
+        参数：
             json_root: JSON 文件或根目录。
             output_root: `.user.3` 输出根目录。
             exclude_regexes: 排除相对路径的正则表达式列表。
 
-        Returns:
+        返回：
             包含 `total`、`success`、`failed` 的统计字典。
         """
         source_root = Path(json_root)
@@ -115,10 +111,10 @@ class User3Packer(PackerPlanMixin, PackerWriterMixin):
     def pack(self, data: Any) -> bytes:
         """把内存中的 JSON 对象编码为 `.user.3` 字节。
 
-        Args:
+        参数：
             data: 类名包裹对象，或这类对象组成的列表。
 
-        Returns:
+        返回：
             可直接写入文件的二进制字节。
         """
         # 实例 0 固定保留为空引用槽，所有真实对象从 1 开始。

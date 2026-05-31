@@ -28,7 +28,7 @@ class MsgConverter:
     ):
         """初始化消息转换器。
 
-        Args:
+        参数：
             input_root: 输入根目录，或单个 `.msg.23` 文件。
             output_root: JSON 输出根目录。
             converter_root: 包含 `src/REMSGUtil.py` 的转换器目录。
@@ -45,7 +45,7 @@ class MsgConverter:
     def _load_remsg_util(self):
         """从子模块源码目录动态加载 `REMSGUtil`。
 
-        Returns:
+        返回：
             已导入的 `REMSGUtil` 模块对象。
         """
         src_path = str(self.converter_src.resolve())
@@ -65,7 +65,7 @@ class MsgConverter:
     def _load_remsg_util_with_hotfix(self):
         """通过内存补丁加载 `REMSGUtil`。
 
-        Returns:
+        返回：
             应用内存补丁后的 `REMSGUtil` 模块对象。
         """
         source_path = self.converter_src / "REMSGUtil.py"
@@ -98,7 +98,7 @@ class MsgConverter:
     def _discover_msg_files(self) -> list[Path]:
         """发现待转换的 `.msg.23` 文件，并应用排除规则。
 
-        Returns:
+        返回：
             过滤后的消息文件路径列表。
         """
         if self.input_root.is_file():
@@ -130,10 +130,10 @@ class MsgConverter:
     def _output_path_for(self, msg_file: Path) -> Path:
         """计算单个 `.msg.23` 的输出 JSON 路径。
 
-        Args:
+        参数：
             msg_file: 源消息文件路径。
 
-        Returns:
+        返回：
             保持相对目录结构后的输出路径。
         """
         if self.input_root.is_file():
@@ -146,10 +146,10 @@ class MsgConverter:
     def _convert_one_file(self, msg_file: Path) -> bool:
         """转换单个 `.msg.23` 文件。
 
-        Args:
+        参数：
             msg_file: 源消息文件路径。
 
-        Returns:
+        返回：
             成功返回 `True`，失败返回 `False` 并交给批处理统计。
         """
         try:
@@ -165,7 +165,7 @@ class MsgConverter:
     def run(self) -> dict[str, int]:
         """执行完整批量转换流程。
 
-        Returns:
+        返回：
             包含 `total`、`success`、`failed` 的统计字典。
         """
         files = self._discover_msg_files()

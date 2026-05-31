@@ -4,8 +4,8 @@ from __future__ import annotations
 
 from typing import Any
 
-from .core import ClassDef, FieldDef
-from .packer_models import InstanceRef, InstanceSpec, PackError, StructValue
+from ..core import ClassDef, FieldDef
+from .models import InstanceRef, InstanceSpec, PackError, StructValue
 
 
 class PackerPlanMixin:

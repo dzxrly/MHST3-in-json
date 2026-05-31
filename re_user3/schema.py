@@ -10,11 +10,11 @@ from pathlib import Path
 def murmur3_32(data: bytes, seed: int = 0xFFFFFFFF) -> int:
     """计算 RE_RSZ 类型名常用的 MurmurHash3 32 位哈希。
 
-    Args:
+    参数：
         data: 输入字节。
         seed: 哈希种子，RE_RSZ 模板通常使用 `0xFFFFFFFF`。
 
-    Returns:
+    返回：
         32 位无符号哈希值。
     """
     c1 = 0xCC9E2D51
@@ -84,7 +84,7 @@ class TypeDB:
     def __init__(self, classes: dict[int, ClassDef]):
         """初始化类型数据库。
 
-        Args:
+        参数：
             classes: 以类型哈希为键的类型定义。
         """
         self.classes = classes
@@ -95,10 +95,10 @@ class TypeDB:
     def load(cls, json_path: Path) -> "TypeDB":
         """从 RE_RSZ 模板 JSON 读取类型数据库。
 
-        Args:
+        参数：
             json_path: 模板 JSON 文件路径。
 
-        Returns:
+        返回：
             已加载的 `TypeDB`。
         """
         with json_path.open("r", encoding="utf-8") as f:
@@ -134,10 +134,10 @@ class TypeDB:
     def get_class(self, class_hash: int) -> ClassDef | None:
         """按类型哈希查询类型定义。
 
-        Args:
+        参数：
             class_hash: RE_RSZ 类型哈希。
 
-        Returns:
+        返回：
             类型定义；不存在时返回 `None`。
         """
         return self.classes.get(class_hash)
@@ -145,10 +145,10 @@ class TypeDB:
     def resolve_struct_hash(self, original_type: str) -> int | None:
         """把结构体类型名解析为类型哈希。
 
-        Args:
+        参数：
             original_type: 模板字段中的原始结构体类型名。
 
-        Returns:
+        返回：
             找到的类型哈希；无法解析时返回 `None`。
         """
         if not original_type:

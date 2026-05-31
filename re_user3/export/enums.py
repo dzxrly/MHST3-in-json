@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 from typing import Any
 
-from .core import ENUM_UNUSED_KEY
+from ..core import ENUM_UNUSED_KEY
 
 
 class ExporterEnumSourceMixin:
@@ -15,10 +15,10 @@ class ExporterEnumSourceMixin:
     def export_enums_internal(dump_json: dict) -> dict:
         """从 `il2cpp_dump.json` 中提取枚举成员表。
 
-        Args:
+        参数：
             dump_json: 已解析的 il2cpp dump 对象。
 
-        Returns:
+        返回：
             `枚举类型 -> {成员名 -> 数值}` 的映射。
         """
         enums_internal = {}
@@ -38,20 +38,20 @@ class ExporterEnumSourceMixin:
     def export_enum_context_internal(dump_json: dict) -> dict:
         """从 il2cpp dump 中提取枚举字段上下文。
 
-        Args:
+        参数：
             dump_json: 已解析的 il2cpp dump 对象。
 
-        Returns:
+        返回：
             用于枚举推断的字段、可序列化类型和泛型容器上下文。
         """
 
         def extract_fixed_enum_type(type_name: Any) -> str | None:
             """从类型表达式中提取唯一的 `*_Fixed` 枚举类型。
 
-            Args:
+            参数：
                 type_name: 字段、方法参数或返回值上的类型表达式。
 
-            Returns:
+            返回：
                 找到且唯一时返回枚举类型名，否则返回 `None`。
             """
             if not isinstance(type_name, str):

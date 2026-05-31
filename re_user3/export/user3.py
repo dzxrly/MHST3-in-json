@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from .core import BinaryReader, ParseError, align
+from ..core import BinaryReader, ParseError, align
 
 
 class ExporterUser3ParserMixin:
@@ -14,10 +14,10 @@ class ExporterUser3ParserMixin:
     def _parse_user3(self, user3_path: Path) -> list[dict[str, Any]]:
         """解析完整 `.user.3` 文件并构造成紧凑对象树。
 
-        Args:
+        参数：
             user3_path: 源 `.user.3` 文件路径。
 
-        Returns:
+        返回：
             以类名包裹的紧凑对象树列表。
         """
         reader = BinaryReader(user3_path.read_bytes())

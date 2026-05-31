@@ -30,11 +30,11 @@ class ParseError(RuntimeError):
 def align(value: int, alignment: int) -> int:
     """把整数偏移对齐到指定边界。
 
-    Args:
+    参数：
         value: 当前偏移。
         alignment: 对齐粒度；小于等于 1 时不做处理。
 
-    Returns:
+    返回：
         对齐后的偏移。
     """
     if alignment <= 1:
@@ -45,10 +45,10 @@ def align(value: int, alignment: int) -> int:
 def format_guid_text_from_hex32(hex32: str) -> str:
     """把 32 位十六进制文本格式化为标准 GUID 文本。
 
-    Args:
+    参数：
         hex32: 不带分隔符的 32 位十六进制字符串。
 
-    Returns:
+    返回：
         形如 `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` 的 GUID。
     """
     h = hex32.lower()
@@ -58,10 +58,10 @@ def format_guid_text_from_hex32(hex32: str) -> str:
 def normalize_guid_candidate_text(text: str) -> str:
     """在字符串看起来像 GUID 时进行规范化。
 
-    Args:
+    参数：
         text: 原始字符串，可能包含 `{}` 或 `-`。
 
-    Returns:
+    返回：
         可识别时返回标准 GUID，否则返回原字符串。
     """
     stripped = text.strip().strip("{}")
@@ -93,7 +93,7 @@ class BinaryReader:
     def __init__(self, data: bytes):
         """初始化读取器。
 
-        Args:
+        参数：
             data: 源字节缓冲区。
         """
         self.data = data
@@ -113,7 +113,7 @@ class BinaryReader:
     def seek(self, pos: int) -> None:
         """把游标移动到绝对偏移。
 
-        Args:
+        参数：
             pos: 目标绝对偏移。
         """
         if pos < 0 or pos > self.size:
@@ -123,10 +123,10 @@ class BinaryReader:
     def read(self, n: int) -> bytes:
         """读取指定长度的字节并推进游标。
 
-        Args:
+        参数：
             n: 要读取的字节数。
 
-        Returns:
+        返回：
             读取出的字节。
         """
         end = self.pos + n
@@ -139,10 +139,10 @@ class BinaryReader:
     def read_struct(self, fmt: str) -> Any:
         """按 `struct` 格式读取并解包一个值。
 
-        Args:
+        参数：
             fmt: `struct.unpack` 使用的格式字符串。
 
-        Returns:
+        返回：
             解包后的单个值。
         """
         size = struct.calcsize(fmt)
@@ -192,10 +192,10 @@ class BinaryReader:
     def read_wstring_null(self, offset: int) -> str:
         """从绝对偏移读取以空字符结尾的 UTF-16 字符串。
 
-        Args:
+        参数：
             offset: 字符串起始的绝对偏移。
 
-        Returns:
+        返回：
             解码后的字符串；越界时返回空字符串。
         """
         if offset < 0 or offset >= self.size:
@@ -218,10 +218,10 @@ class BinaryReader:
 def read_len_utf16(reader: BinaryReader) -> str:
     """读取带长度前缀的 UTF-16LE 字符串。
 
-    Args:
+    参数：
         reader: 二进制读取器。
 
-    Returns:
+    返回：
         解码并去掉结尾空字符后的字符串。
     """
     # 字符串前的长度字段按 4 字节对齐。
@@ -241,10 +241,10 @@ def read_len_utf16(reader: BinaryReader) -> str:
 def read_len_c8(reader: BinaryReader) -> str:
     """读取带长度前缀的 UTF-8/C8 字符串。
 
-    Args:
+    参数：
         reader: 二进制读取器。
 
-    Returns:
+    返回：
         解码并去掉结尾空字符后的字符串。
     """
     reader.seek(align(reader.tell(), 4))
@@ -262,10 +262,10 @@ def read_len_c8(reader: BinaryReader) -> str:
 def read_guid_like(reader: BinaryReader) -> str:
     """读取 16 字节 GUID 数据并规范化文本。
 
-    Args:
+    参数：
         reader: 二进制读取器。
 
-    Returns:
+    返回：
         标准 GUID 文本；无法按 UUID 解析时退回十六进制格式化。
     """
     raw = reader.read(16)

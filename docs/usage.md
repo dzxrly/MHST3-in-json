@@ -19,10 +19,19 @@ re_user3/
   api.py           # 门面类和 callback 工作流
   core.py          # magic、路径校验、二进制读取和 GUID/字符串工具
   schema.py        # RE_RSZ 模板类型数据库
-  exporter.py      # .user.3 -> JSON 的导出器入口
-  exporter_*.py    # 枚举、字段、对象树和完整 user3 解析拆分模块
-  packer.py        # JSON -> .user.3 的封包器入口
-  packer_*.py      # 封包数据结构、实例规划和二进制写回拆分模块
+  export/          # .user.3 -> JSON 解析导出功能
+    base.py        # 导出器入口和目录批处理
+    enums.py       # 从 il2cpp_dump.json / Enums_Internal.json 读取枚举标签
+    fields.py      # 按字段类型解析基础值、资源、对象引用和数组
+    metadata.py    # 读取 RSZ 实例表、字段表和字符串区
+    postprocess.py # 合并枚举标签、修复资源路径和清理结构
+    tree.py        # 将扁平实例引用重建为 JSON 对象树
+    user3.py       # 解析 user.3 文件头和内部 RSZ 数据块
+  pack/            # JSON -> .user.3 封包写回功能
+    base.py        # 封包器入口和目录批处理
+    models.py      # 封包过程共用的数据结构
+    plan.py        # 将 JSON 对象规划为实例表和引用关系
+    writer.py      # 写入字符串表、资源表和字段二进制
 
 main.py            # 命令行入口：export / pack
 msg_converter.py   # .msg.23 转 JSON 的子模块包装
