@@ -17,6 +17,8 @@
 
 ## 快速开始
 
+需要 Python 3.9 或更高版本。
+
 ```bash
 conda activate rersz
 pip install -r requirements.txt

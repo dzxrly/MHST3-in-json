@@ -11,14 +11,14 @@ import inspect
 import json
 import re
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any, Callable, Optional
 
 from .export import User3Exporter
 from .pack import User3Packer
 from .core import RSZ_MAGIC, USR_MAGIC
 
 JsonTree = Any
-PatchCallback = Callable[..., JsonTree | None]
+PatchCallback = Callable[..., Optional[JsonTree]]
 
 
 class REUser3Converter:
