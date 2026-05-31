@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Any
 
 from ..core import ParseError
+from ..rich_ui import get_console
 
 
 class ExporterMetadataMixin:
@@ -247,13 +248,15 @@ class ExporterMetadataMixin:
             return
         self._rebuild_enum_member_index()
         if not self.enum_lookup:
-            print(
+            get_console().log(
                 "[warn] enum value formatting disabled "
-                f"(source: {self._resolve_il2cpp_dump_path() or 'not found'})"
+                f"(source: {self._resolve_il2cpp_dump_path() or 'not found'})",
+                style="yellow",
             )
         if not self.class_field_fixed_types and not self.serializable_to_fixed:
             context_source = str(self._resolve_il2cpp_dump_path() or "not found")
-            print(
+            get_console().log(
                 "[warn] Enum context not loaded, enum conversion may be incomplete "
-                f"(source: {context_source})"
+                f"(source: {context_source})",
+                style="yellow",
             )

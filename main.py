@@ -12,6 +12,7 @@ import sys
 
 from re_user3 import User3Exporter, User3Packer
 from re_user3.core import RSZ_MAGIC, USR_MAGIC
+from re_user3.rich_ui import get_console
 
 
 def parse_int_arg(value: str) -> int:
@@ -106,21 +107,22 @@ def run_export(argv: list[str] | None = None) -> None:
 
     # 先转换文本消息文件。转换失败的单文件会被统计到失败数量中，
     # 不会阻止后续 `.user.3` 数据库导出。
-    print("Converting .msg.23 files to JSON...")
+    console = get_console()
+    console.log("Converting .msg.23 files to JSON...")
     msg_converter = MsgConverter(
         input_root=args.input_dir,
         output_root=args.output_dir,
         exclude_regexes=args.exclude_regex,
     )
     msg_result = msg_converter.run()
-    print(
+    console.log(
         "Converted .msg.23 files to JSON. Done:",
         json.dumps(msg_result, ensure_ascii=False),
     )
 
     # 再导出 `.user.3`。schema 与 il2cpp_dump 都必须由用户显式传入，
     # 这里不做任何自动查找，避免在多游戏项目中误用旧依赖文件。
-    print("Exporting .user.3 files to JSON...")
+    console.log("Exporting .user.3 files to JSON...")
     exporter = User3Exporter(
         user3_root=args.input_dir,
         schema_dir=args.schema_path,
@@ -132,7 +134,7 @@ def run_export(argv: list[str] | None = None) -> None:
         rsz_magic=args.rsz_magic,
     )
     result = exporter.run()
-    print(
+    console.log(
         "Exported .user.3 files to JSON. Done:", json.dumps(result, ensure_ascii=False)
     )
 
@@ -193,7 +195,8 @@ def run_pack(argv: list[str] | None = None) -> None:
 
     # 封包时 `il2cpp_dump_path` 是可选项：如果传入，就能把枚举成员名
     # 反查为数值；如果不传，仍可封包已经是数值或 `[值] 名称` 格式的枚举。
-    print("Packing JSON files to .user.3...")
+    console = get_console()
+    console.log("Packing JSON files to .user.3...")
     packer = User3Packer(
         schema_dir=args.schema_path,
         il2cpp_dump_path=args.il2cpp_dump_path or None,
@@ -206,7 +209,10 @@ def run_pack(argv: list[str] | None = None) -> None:
         output_root=args.output_dir,
         exclude_regexes=args.exclude_regex,
     )
-    print("Packed JSON files to .user.3. Done:", json.dumps(result, ensure_ascii=False))
+    console.log(
+        "Packed JSON files to .user.3. Done:",
+        json.dumps(result, ensure_ascii=False),
+    )
 
 
 def main() -> None:

@@ -8,6 +8,7 @@
 - `JSON -> .user.3`：将本项目导出的 JSON 重新封回游戏可读取的 `.user.3`；
 - callback 修改流程：找到指定 `.user.3` 后，解析成 JSON 传给 callback，由 callback 修改并返回，再自动封包到指定目录；
 - CLI 批处理：`main.py export` 批量导出 `.user.3`，并可同时调用 `REMSG_Converter` 转换 `.msg.23`；
+- Rich 批处理输出：底部固定显示当前进度条，上方滚动输出发现文件、开始处理、成功和失败等日志；
 - 可配置 magic：`user_magic` 和 `rsz_magic` 都可通过类参数或命令行参数覆盖，默认保留当前项目使用的值；
 - 显式依赖：不会自动寻找 `rsz*.json`、`il2cpp_dump.json` 或 `Enums_Internal.json`，调用方必须明确传入所需文件路径。
 
@@ -18,6 +19,8 @@ re_user3/
   __init__.py      # 对外导出 REUser3Converter、User3Exporter、User3Packer 等
   api.py           # 门面类和 callback 工作流
   core.py          # magic、路径校验、二进制读取和 GUID/字符串工具
+  requirements.txt # 作为独立库导入时需要安装的第三方包
+  rich_ui.py       # Rich 进度条和滚动日志输出
   schema.py        # RE_RSZ 模板类型数据库
   export/          # .user.3 -> JSON 解析导出功能
     base.py        # 导出器入口和目录批处理
@@ -48,6 +51,12 @@ requirements.txt   # 主项目依赖
 ```bash
 conda activate rersz
 pip install -r requirements.txt
+```
+
+如果只把 `re_user3` 当作库导入使用，可以安装库内最小依赖：
+
+```bash
+pip install -r re_user3/requirements.txt
 ```
 
 如果需要用 `main.py export` 同时转换 `.msg.23`，还需要初始化子模块并安装 `REMSG_Converter` 的依赖：

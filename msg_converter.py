@@ -13,7 +13,7 @@ import sys
 import types
 from pathlib import Path
 
-from tqdm.rich import tqdm
+from re_user3.rich_ui import BatchProgress
 
 
 class MsgConverter:
@@ -143,14 +143,16 @@ class MsgConverter:
         output_name = f"{msg_file.name}.json"
         return self.output_root / relative_parent / output_name
 
-    def _convert_one_file(self, msg_file: Path) -> bool:
+    def _convert_one_file(
+        self, msg_file: Path
+    ) -> tuple[bool, Path | None, str | None]:
         """转换单个 `.msg.23` 文件。
 
         参数：
             msg_file: 源消息文件路径。
 
         返回：
-            成功返回 `True`，失败返回 `False` 并交给批处理统计。
+            `(是否成功, 输出路径, 错误信息)`，失败时由批处理统一记录日志。
         """
         try:
             # importMSG/exportJson 均来自 REMSG_Converter 子模块。
@@ -158,9 +160,9 @@ class MsgConverter:
             output_path = self._output_path_for(msg_file)
             output_path.parent.mkdir(parents=True, exist_ok=True)
             self._remsg_util.exportJson(msg, str(output_path))
-            return True
-        except Exception:
-            return False
+            return True, output_path, None
+        except Exception as exc:
+            return False, None, f"{exc.__class__.__name__}: {exc}"
 
     def run(self) -> dict[str, int]:
         """执行完整批量转换流程。
@@ -173,14 +175,22 @@ class MsgConverter:
 
         success = 0
         failed = 0
-        # tqdm 只负责展示进度，不参与错误处理；单文件失败不会中断整批任务。
-        with tqdm(total=len(files), desc="Converting msg", unit="file") as pbar:
+        # Rich 进度条固定在底部；单文件日志从上方持续滚动输出。
+        with BatchProgress(
+            "Converting msg", total=len(files), unit="file"
+        ) as progress:
+            progress.log(f"发现 {len(files)} 个 .msg.23 文件。")
             for msg_file in files:
-                pbar.set_description(msg_file.name.replace(".msg.23", ""))
-                if self._convert_one_file(msg_file):
+                label = msg_file.name.replace(".msg.23", "")
+                progress.update(advance=0, description=label)
+                progress.log(f"开始转换消息: {msg_file}")
+                ok, output_path, error = self._convert_one_file(msg_file)
+                if ok:
                     success += 1
+                    progress.log(f"消息转换完成: {output_path}", style="green")
                 else:
                     failed += 1
-                pbar.update(1)
+                    progress.log(f"消息转换失败: {msg_file} ({error})", style="red")
+                progress.update(1)
 
         return {"total": len(files), "success": success, "failed": failed}

@@ -11,7 +11,7 @@
   - [ScyllaHide](https://github.com/x64dbg/scyllahide)
   - [REFramework/reversing/rsz](https://github.com/praydog/REFramework/tree/master/reversing/rsz)（读一下对应的说明会更方便理解）
   - [ree-pak-rs](https://github.com/eigeen/ree-pak-rs)
-  - Python 3.10+运行环境（包含[requirements.txt](../requirements.txt)中指定的PyPi包）
+  - Python 3.10+运行环境（整仓库使用[requirements.txt](../requirements.txt)，只导入库时可使用[re_user3/requirements.txt](../re_user3/requirements.txt)）
 
 ## 0 RE_RSZ模板生成
 
@@ -111,7 +111,8 @@ python .\non-native-dumper.py --out_postfix="mhst3" --natives_path=".\native_lay
 
 1. 所有依赖文件都必须显式传入，不会自动寻找`rsz*.json`、`il2cpp_dump.json`或`Enums_Internal.json`；
 2. `.user.3`既可以导出为JSON，也可以由JSON重新封回`.user.3`；
-3. 文件magic不再写死，可以通过命令行参数或类参数覆盖，默认值仍是当前项目使用的`0x00525355`和`0x005A5352`。
+3. 文件magic不再写死，可以通过命令行参数或类参数覆盖，默认值仍是当前项目使用的`0x00525355`和`0x005A5352`；
+4. 批处理输出使用Rich，底部固定显示进度条，上方滚动输出当前文件、成功和失败日志。
 
 更完整的CLI、库调用、callback修改和JSON格式说明见[使用手册](./usage.md)。
 
@@ -135,7 +136,8 @@ git submodule update --init --recursive
 2. [re_user3](../re_user3)
 3. [msg_converter.py](../msg_converter.py)
 4. [requirements.txt](../requirements.txt)
-5. [REMSG_Converter](../REMSG_Converter)
+5. [re_user3/requirements.txt](../re_user3/requirements.txt)
+6. [REMSG_Converter](../REMSG_Converter)
 
 ### 2.2 安装依赖
 
@@ -144,6 +146,12 @@ git submodule update --init --recursive
 ```bash
 conda activate rersz
 pip install -r requirements.txt
+```
+
+如果你只想在自己的脚本里导入`re_user3`，也可以只安装库内依赖：
+
+```bash
+pip install -r re_user3/requirements.txt
 ```
 
 如果需要让`main.py export`同时转换`.msg.23`，还需要安装`REMSG_Converter`子模块依赖：

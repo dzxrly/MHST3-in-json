@@ -9,6 +9,7 @@ from typing import Any
 
 from ..core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
 from ..export import User3Exporter
+from ..rich_ui import BatchProgress
 from .models import InstanceSpec, PackError
 from .plan import PackerPlanMixin
 from .writer import PackerWriterMixin
@@ -93,19 +94,39 @@ class User3Packer(PackerPlanMixin, PackerWriterMixin):
             files = sorted(source_root.rglob("*.user.3.json"))
             if not files:
                 files = sorted(source_root.rglob("*.json"))
-        total = success = failed = 0
+        candidates: list[tuple[Path, str]] = []
         for json_file in files:
-            rel = json_file.name if source_root.is_file() else json_file.relative_to(source_root).as_posix()
+            rel = (
+                json_file.name
+                if source_root.is_file()
+                else json_file.relative_to(source_root).as_posix()
+            )
             if any(pattern.search(rel) for pattern in patterns):
                 continue
-            total += 1
-            try:
-                # 单个文件失败不会终止整批任务，便于批量模组输出时逐个排查。
-                out_path = self.output_path_for(json_file, source_root, target_root)
-                self.pack_json_file(json_file, out_path)
-                success += 1
-            except Exception:
-                failed += 1
+            candidates.append((json_file, rel))
+
+        total = success = failed = 0
+        with BatchProgress(
+            "Packing user3", total=len(candidates), unit="file"
+        ) as progress:
+            progress.log(f"发现 {len(candidates)} 个 JSON 文件。")
+            progress.log(f"使用模板: {self.schema_path}")
+            progress.log(f"输出目录: {target_root}")
+            for json_file, rel in candidates:
+                total += 1
+                progress.update(advance=0, description=json_file.stem)
+                progress.log(f"开始封包 JSON: {rel}")
+                try:
+                    # 单个文件失败不会终止整批任务，便于批量模组输出时逐个排查。
+                    out_path = self.output_path_for(json_file, source_root, target_root)
+                    self.pack_json_file(json_file, out_path)
+                    success += 1
+                    progress.log(f"user3 封包完成: {out_path}", style="green")
+                except Exception as exc:
+                    failed += 1
+                    error = f"{exc.__class__.__name__}: {exc}"
+                    progress.log(f"user3 封包失败: {json_file} ({error})", style="red")
+                progress.update(1)
         return {"total": total, "success": success, "failed": failed}
 
     def pack(self, data: Any) -> bytes:

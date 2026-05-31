@@ -14,6 +14,7 @@
 - callback 修改流程：解析指定 `.user.3`，把 JSON 交给用户函数修改，再自动封包输出。
 - 通用化参数：模板、`il2cpp_dump.json`、magic 均由调用方显式传入或配置。
 - `.msg.23` 批量导出：通过 `main.py export` 调用 `REMSG_Converter` 子模块完成。
+- Rich 批处理输出：底部固定显示当前进度条，上方滚动输出文件级执行日志。
 
 ## 快速开始
 
@@ -23,6 +24,12 @@
 conda activate rersz
 pip install -r requirements.txt
 pip install -r REMSG_Converter/requirements.txt
+```
+
+如果只在其他项目中导入 `re_user3` 库，不需要安装整仓库依赖，可只安装库内依赖：
+
+```bash
+pip install -r re_user3/requirements.txt
 ```
 
 导出 `.user.3` 和 `.msg.23`：

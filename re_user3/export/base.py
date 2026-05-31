@@ -6,42 +6,8 @@ import json
 import re
 from pathlib import Path
 
-try:
-    from tqdm.rich import tqdm
-except Exception:  # 轻量环境下允许没有 tqdm/rich
-    def tqdm(iterable=None, total=None, desc=None, unit=None):
-        """在缺少 tqdm 时提供一个无显示的兼容进度条。"""
-
-        class _Tqdm:
-            """最小进度条协议实现。"""
-
-            def __init__(self, iterable=None, total=None, desc=None, unit=None):
-                """保存可迭代对象，其他参数仅用于兼容 tqdm 签名。"""
-                self.iterable = iterable
-
-            def __enter__(self):
-                """支持 `with tqdm(...)` 写法。"""
-                return self
-
-            def __exit__(self, exc_type, exc, tb):
-                """退出上下文时不吞掉异常。"""
-                return False
-
-            def __iter__(self):
-                """返回原始迭代器。"""
-                return iter(self.iterable or [])
-
-            def update(self, n=1):
-                """兼容 tqdm 的进度更新接口。"""
-                return None
-
-            def set_description(self, desc):
-                """兼容 tqdm 的描述更新接口。"""
-                return None
-
-        return _Tqdm(iterable, total, desc, unit)
-
 from ..core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
+from ..rich_ui import BatchProgress
 from .enums import ExporterEnumSourceMixin
 from .fields import ExporterFieldParserMixin
 from .metadata import ExporterMetadataMixin
@@ -128,25 +94,37 @@ class User3Exporter(
         success = 0
         failed = 0
         # 单文件失败只计入失败数量，不中断整批导出；这样大批量资源更容易排查。
-        with tqdm(total=len(files), desc="Exporting user3", unit="file") as pbar:
+        with BatchProgress(
+            "Exporting user3", total=len(files), unit="file"
+        ) as progress:
+            progress.log(f"发现 {len(files)} 个 .user.3 文件。")
+            progress.log(f"使用模板: {self.schema_path}")
+            progress.log(f"输出目录: {self.output_root}")
             for user3_file in files:
-                pbar.set_description(user3_file.name.replace(".user.3", ""))
-                if self._export_one_file(user3_file):
+                label = user3_file.name.replace(".user.3", "")
+                progress.update(advance=0, description=label)
+                progress.log(f"开始导出 user3: {user3_file}")
+                ok, output_path, error = self._export_one_file(user3_file)
+                if ok:
                     success += 1
+                    progress.log(f"user3 导出完成: {output_path}", style="green")
                 else:
                     failed += 1
-                pbar.update(1)
+                    progress.log(f"user3 导出失败: {user3_file} ({error})", style="red")
+                progress.update(1)
 
         return {"total": len(files), "success": success, "failed": failed}
 
-    def _export_one_file(self, user3_file: Path) -> bool:
+    def _export_one_file(
+        self, user3_file: Path
+    ) -> tuple[bool, Path | None, str | None]:
         """导出单个 `.user.3` 文件。
 
         参数：
             user3_file: 源 `.user.3` 文件路径。
 
         返回：
-            成功返回 `True`，异常返回 `False` 交给批量统计。
+            `(是否成功, 输出路径, 错误信息)`，异常交给批处理统计并记录。
         """
         try:
             # 解析出的原始树先经过枚举后处理，再移除内部索引和值包装，
@@ -159,9 +137,9 @@ class User3Exporter(
             output_path.parent.mkdir(parents=True, exist_ok=True)
             with output_path.open("w", encoding="utf-8") as f:
                 json.dump(tree, f, ensure_ascii=False, indent=2)
-            return True
-        except Exception:
-            return False
+            return True, output_path, None
+        except Exception as exc:
+            return False, None, f"{exc.__class__.__name__}: {exc}"
 
     def _resolve_schema_path(self, schema_dir: Path) -> Path:
         """校验并返回模板文件路径。
