@@ -1,3 +1,10 @@
+"""`.msg.23` 转 JSON 的轻量包装层。
+
+项目自身的通用库 `re_user3` 只处理 `.user.3`。这里保留对
+`REMSG_Converter` 子模块的调用，让 `main.py export` 可以在同一次
+批处理里顺手转换消息文本文件，同时不把该依赖耦合进核心库。
+"""
+
 from __future__ import annotations
 
 import importlib
@@ -10,7 +17,7 @@ from tqdm.rich import tqdm
 
 
 class MsgConverter:
-    """Convert `.msg.23` files to JSON while preserving relative paths."""
+    """递归转换 `.msg.23` 文件，并保持输入目录的相对路径结构。"""
 
     def __init__(
         self,
@@ -19,13 +26,13 @@ class MsgConverter:
         converter_root: str | Path = "REMSG_Converter",
         exclude_regexes: list[str] | None = None,
     ):
-        """Initialize converter configuration.
+        """初始化消息转换器。
 
-        @param input_root Input root directory or single `.msg.23` file.
-        @param output_root Output root directory.
-        @param converter_root Directory that contains converter `src` package.
-        @param exclude_regexes Optional regex list used to exclude files.
-        @return None.
+        Args:
+            input_root: 输入根目录，或单个 `.msg.23` 文件。
+            output_root: JSON 输出根目录。
+            converter_root: 包含 `src/REMSGUtil.py` 的转换器目录。
+            exclude_regexes: 用于排除相对路径的正则表达式列表。
         """
         self.input_root = Path(input_root)
         self.output_root = Path(output_root)
@@ -36,38 +43,46 @@ class MsgConverter:
         self._remsg_util = self._load_remsg_util()
 
     def _load_remsg_util(self):
-        """Load REMSGUtil from local converter source directory.
+        """从子模块源码目录动态加载 `REMSGUtil`。
 
-        @return Imported REMSGUtil module.
+        Returns:
+            已导入的 `REMSGUtil` 模块对象。
         """
         src_path = str(self.converter_src.resolve())
+        # REMSG_Converter 不是标准安装包，因此需要临时把 src 目录放入
+        # `sys.path`，让它内部的相对导入按原项目结构工作。
         if src_path not in sys.path:
             sys.path.insert(0, src_path)
         try:
             return importlib.import_module("REMSGUtil")
         except SyntaxError as exc:
-            # Keep submodule clean: hotfix known upstream f-string syntax issues in memory.
+            # 子模块源码不在本仓库维护范围内。遇到已知 f-string 语法问题时，
+            # 只在内存中热修补，避免直接改动第三方代码。
             if "REMSGUtil.py" not in str(exc.filename):
                 raise
             return self._load_remsg_util_with_hotfix()
 
     def _load_remsg_util_with_hotfix(self):
-        """Load REMSGUtil via in-memory source patching.
+        """通过内存补丁加载 `REMSGUtil`。
 
-        @return Imported REMSGUtil module.
+        Returns:
+            应用内存补丁后的 `REMSGUtil` 模块对象。
         """
         source_path = self.converter_src / "REMSGUtil.py"
         source = source_path.read_text(encoding="utf-8")
 
+        # 某些版本的 REMSGUtil 在新版 Python 下会因为嵌套 f-string 报错。
+        # 这里只替换影响导入的断言文本，不改变实际转换数据结构。
         source = re.sub(
             r'assert\s+len\(contents\)\s*==\s*langCount,\s*f"Invalid number of language / contents\.?\\n\{"\\n"\.join\(contents\)\}"',
             'assert len(contents) == langCount, "Invalid number of language / contents"',
             source,
         )
 
-        # Fix nested double-quote expression inside f-string.
+        # 修复 f-string 表达式里嵌套双引号导致的语法错误。
         source = source.replace('else "="+entry.name', "else '=' + entry.name")
 
+        # 手动创建模块对象并执行编译后的源码，相当于一次受控的动态导入。
         module = types.ModuleType("REMSGUtil")
         module.__file__ = str(source_path)
         module.__package__ = ""
@@ -77,19 +92,22 @@ class MsgConverter:
 
     @staticmethod
     def _is_msg23(file_path: Path) -> bool:
-        """Check whether file matches `.msg.23` naming."""
+        """判断文件名是否符合 `.msg.23` 后缀。"""
         return file_path.name.lower().endswith(".msg.23")
 
     def _discover_msg_files(self) -> list[Path]:
-        """Discover input `.msg.23` files and apply excludes.
+        """发现待转换的 `.msg.23` 文件，并应用排除规则。
 
-        @return Discovered `.msg.23` files after exclude filtering.
+        Returns:
+            过滤后的消息文件路径列表。
         """
         if self.input_root.is_file():
+            # 单文件模式下只接受 `.msg.23`，其他文件会被静默视为无任务。
             files = [self.input_root] if self._is_msg23(self.input_root) else []
         else:
             if not self.input_root.is_dir():
                 raise FileNotFoundError(f"input root not found: {self.input_root}")
+            # 目录模式递归扫描，保持和 `.user.3` 导出器相同的批处理体验。
             files = sorted(
                 f for f in self.input_root.rglob("*") if f.is_file() and self._is_msg23(f)
             )
@@ -99,6 +117,7 @@ class MsgConverter:
 
         kept: list[Path] = []
         for file_path in files:
+            # 正则统一匹配相对路径；单文件模式下只能匹配文件名。
             if self.input_root.is_file():
                 rel_path = file_path.name
             else:
@@ -109,10 +128,13 @@ class MsgConverter:
         return kept
 
     def _output_path_for(self, msg_file: Path) -> Path:
-        """Build output json path for one source file.
+        """计算单个 `.msg.23` 的输出 JSON 路径。
 
-        @param msg_file Source file path.
-        @return Output json path.
+        Args:
+            msg_file: 源消息文件路径。
+
+        Returns:
+            保持相对目录结构后的输出路径。
         """
         if self.input_root.is_file():
             relative_parent = Path()
@@ -122,12 +144,16 @@ class MsgConverter:
         return self.output_root / relative_parent / output_name
 
     def _convert_one_file(self, msg_file: Path) -> bool:
-        """Convert one `.msg.23` file to json.
+        """转换单个 `.msg.23` 文件。
 
-        @param msg_file Source msg path.
-        @return True on success.
+        Args:
+            msg_file: 源消息文件路径。
+
+        Returns:
+            成功返回 `True`，失败返回 `False` 并交给批处理统计。
         """
         try:
+            # importMSG/exportJson 均来自 REMSG_Converter 子模块。
             msg = self._remsg_util.importMSG(str(msg_file))
             output_path = self._output_path_for(msg_file)
             output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -137,15 +163,17 @@ class MsgConverter:
             return False
 
     def run(self) -> dict[str, int]:
-        """Run conversion pipeline for all discovered files.
+        """执行完整批量转换流程。
 
-        @return Conversion statistics with total/success/failed counts.
+        Returns:
+            包含 `total`、`success`、`failed` 的统计字典。
         """
         files = self._discover_msg_files()
         self.output_root.mkdir(parents=True, exist_ok=True)
 
         success = 0
         failed = 0
+        # tqdm 只负责展示进度，不参与错误处理；单文件失败不会中断整批任务。
         with tqdm(total=len(files), desc="Converting msg", unit="file") as pbar:
             for msg_file in files:
                 pbar.set_description(msg_file.name.replace(".msg.23", ""))

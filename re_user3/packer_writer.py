@@ -1,0 +1,235 @@
+"""RSZ/USR 二进制写回逻辑。"""
+
+from __future__ import annotations
+
+import uuid
+import re
+from typing import Any
+
+from .core import FieldDef, align
+from .packer_models import BinaryWriter, InstanceRef, PackError, StructValue
+
+
+ENUM_LABEL_RE = re.compile(r"^\[(-?\d+)\]\s*(.*)$")
+
+
+class PackerWriterMixin:
+    """负责把规划后的实例表编码成 `.user.3` 字节。"""
+
+    def _build_binary(self, root_ids: list[int]) -> bytes:
+        """构造完整 USR + RSZ 二进制内容。"""
+        data_writer = BinaryWriter()
+        for spec in self.instances[1:]:
+            if spec is None:
+                continue
+            # 先连续写入所有实例的数据段，稍后再计算 RSZ 表偏移。
+            self._write_instance(data_writer, spec)
+
+        object_count = len(root_ids)
+        instance_count = len(self.instances)
+        instance_offset = 48 + object_count * 4
+        data_offset = align(instance_offset + instance_count * 8, 16)
+
+        rsz_writer = BinaryWriter()
+        # RSZ 头固定为 48 字节，偏移均相对 RSZ 块起点。
+        rsz_writer.write_struct(
+            "<IIiiiiqqq",
+            self.rsz_magic,
+            16,
+            object_count,
+            instance_count,
+            0,
+            0,
+            instance_offset,
+            data_offset,
+            data_offset,
+        )
+        for root_id in root_ids:
+            rsz_writer.write_struct("<i", root_id)
+        rsz_writer.pad_to(instance_offset)
+        # 实例 0 是空引用槽，对应哈希和 CRC 均为 0。
+        rsz_writer.write_struct("<II", 0, 0)
+        for spec in self.instances[1:]:
+            if spec is None:
+                continue
+            rsz_writer.write_struct("<II", spec.class_hash, spec.class_def.crc)
+        rsz_writer.pad_to(data_offset)
+        rsz_writer.write(bytes(data_writer.data))
+
+        usr_writer = BinaryWriter()
+        # 当前封包器生成最小 USR 头：资源表和用户数据表为空，数据偏移指向 RSZ。
+        usr_writer.write_struct("<IiiiQQQ", self.user_magic, 0, 0, 0, 0x30, 0x30, 0x30)
+        usr_writer.write(b"\x00" * 8)
+        usr_writer.write(bytes(rsz_writer.data))
+        return bytes(usr_writer.data)
+
+    def _write_instance(self, writer: BinaryWriter, spec: InstanceSpec) -> None:
+        """按模板字段顺序写入一个实例。"""
+        for field_def in spec.class_def.fields:
+            # 数组字段按 4 字节对齐，普通字段按模板声明的对齐值对齐。
+            writer.align(4 if field_def.is_array else max(field_def.align, 1))
+            key = field_def.name or "unnamed"
+            self._write_field(writer, field_def, spec.fields.get(key))
+
+    def _write_field(self, writer: BinaryWriter, field_def: FieldDef, value: Any) -> None:
+        """写入一个字段，自动处理数组和标量。"""
+        if field_def.is_array:
+            items = value if isinstance(value, list) else []
+            writer.write_struct("<I", len(items))
+            non_array = FieldDef(
+                name=field_def.name,
+                field_type=field_def.field_type,
+                original_type=field_def.original_type,
+                size=field_def.size,
+                align=field_def.align,
+                is_array=False,
+            )
+            for item in items:
+                writer.align(max(field_def.align, 1))
+                # 数组元素不再写数组头，按非数组字段写入。
+                self._write_scalar(writer, non_array, item)
+            return
+        self._write_scalar(writer, field_def, value)
+
+    def _write_scalar(self, writer: BinaryWriter, field_def: FieldDef, value: Any) -> None:
+        """按字段类型写入标量值。"""
+        t = field_def.field_type
+        if t == "Bool":
+            writer.write_struct("<B", 1 if bool(value) else 0)
+            return
+        if t == "S8":
+            writer.write_struct("<b", self._coerce_int(value, field_def))
+            return
+        if t == "U8":
+            writer.write_struct("<B", self._coerce_int(value, field_def) & 0xFF)
+            return
+        if t == "S16":
+            writer.write_struct("<h", self._coerce_int(value, field_def))
+            return
+        if t == "U16":
+            writer.write_struct("<H", self._coerce_int(value, field_def) & 0xFFFF)
+            return
+        if t in {"S32", "Enum", "Sfix"}:
+            writer.write_struct("<i", self._to_s32(self._coerce_int(value, field_def)))
+            return
+        if t == "U32":
+            writer.write_struct("<I", self._coerce_int(value, field_def) & 0xFFFFFFFF)
+            return
+        if t == "S64":
+            writer.write_struct("<q", self._coerce_int(value, field_def))
+            return
+        if t == "U64":
+            writer.write_struct("<Q", self._coerce_int(value, field_def) & 0xFFFFFFFFFFFFFFFF)
+            return
+        if t == "F32":
+            writer.write_struct("<f", float(value or 0.0))
+            return
+        if t == "F64":
+            writer.write_struct("<d", float(value or 0.0))
+            return
+        if t in {"Object", "UserData"}:
+            # 对象字段最终只写入目标实例编号。
+            ref_id = value.index if isinstance(value, InstanceRef) else self._coerce_int(value, field_def)
+            writer.write_struct("<i", ref_id)
+            return
+        if t in {"String", "Resource"}:
+            # RE Engine 字符串保存长度前缀，并以 UTF-16LE 空字符结尾。
+            writer.align(4)
+            raw = f"{value or ''}\x00".encode("utf-16-le")
+            writer.write_struct("<I", len(raw) // 2)
+            writer.write(raw)
+            return
+        if t == "C8":
+            # C8 使用 UTF-8 字节长度，同样保留结尾空字符。
+            writer.align(4)
+            raw = f"{value or ''}\x00".encode("utf-8")
+            writer.write_struct("<I", len(raw))
+            writer.write(raw)
+            return
+        if t in {"Guid", "GameObjectRef", "Uri"}:
+            writer.write(uuid.UUID(str(value)).bytes_le)
+            return
+        if t == "Struct":
+            self._write_struct(writer, value)
+            return
+        if t in {
+            "Float2",
+            "Float3",
+            "Float4",
+            "Vec2",
+            "Vec3",
+            "Vec4",
+            "Quaternion",
+            "Color",
+            "AABB",
+            "Capsule",
+            "OBB",
+            "Mat3",
+            "Mat4",
+            "Position",
+        }:
+            values = value if isinstance(value, list) else []
+            count = max(field_def.size // 4, 1)
+            for i in range(count):
+                writer.write_struct("<f", float(values[i]) if i < len(values) else 0.0)
+            return
+        if isinstance(value, dict) and isinstance(value.get("raw"), str):
+            # 未知字段或未知结构体保留原始十六进制时，尽量原样写回。
+            writer.write(bytes.fromhex(value["raw"]))
+            return
+        # 仍无法识别时按声明尺寸补零，保证后续字段偏移不被破坏。
+        writer.write(b"\x00" * max(field_def.size, 0))
+
+    def _write_struct(self, writer: BinaryWriter, value: Any) -> None:
+        """写入结构体字段。"""
+        if not isinstance(value, StructValue):
+            raw = value.get("raw") if isinstance(value, dict) else None
+            if isinstance(raw, str):
+                writer.write(bytes.fromhex(raw))
+            return
+        start = writer.tell()
+        for field_def in value.class_def.fields:
+            writer.align(4 if field_def.is_array else max(field_def.align, 1))
+            key = field_def.name or "unnamed"
+            self._write_field(writer, field_def, value.fields.get(key))
+        consumed = writer.tell() - start
+        if value.declared_size > consumed:
+            # 结构体实际字段小于声明尺寸时，需要补齐尾部填充。
+            writer.write(b"\x00" * (value.declared_size - consumed))
+
+    def _coerce_int(self, value: Any, field_def: FieldDef) -> int:
+        """把 JSON 值转换为整数，兼容枚举标签和成员名。"""
+        if isinstance(value, bool):
+            return int(value)
+        if isinstance(value, int):
+            return value
+        if isinstance(value, float):
+            return int(value)
+        if isinstance(value, str):
+            text = value.strip()
+            match = ENUM_LABEL_RE.match(text)
+            if match:
+                # 导出格式 `[123] MemberName` 优先使用括号内数值。
+                return int(match.group(1))
+            try:
+                return int(text, 0)
+            except ValueError:
+                # 如果不是数字字符串，再尝试按枚举成员名反查。
+                enum_value = self._resolve_enum_member(text, field_def)
+                if enum_value is not None:
+                    return enum_value
+        raise PackError(f"cannot convert {value!r} to int for field {field_def.name}")
+
+    def _resolve_enum_member(self, text: str, field_def: FieldDef) -> int | None:
+        """按字段类型上下文把枚举成员名解析成数值。"""
+        candidates = []
+        original = field_def.original_type
+        if original.endswith("_Serializable"):
+            candidates.append(f"{original[:-13]}_Fixed")
+        if original.endswith("_Fixed"):
+            candidates.append(original)
+        for enum_type in candidates:
+            member_map = self.member_lookup.get(enum_type)
+            if member_map and text in member_map:
+                return member_map[text]
+        return None
