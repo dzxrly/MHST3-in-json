@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import Any
 
 from .models import PACK_JSON_FORMAT, InstanceRef, InstanceSpec, PackError, StructValue
-from ..core import ClassDef, FieldDef
+from ..schema import ClassDef, FieldDef
 
 
 class PackerPlanMixin:

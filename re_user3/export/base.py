@@ -12,8 +12,9 @@ from .metadata import ExporterMetadataMixin
 from .postprocess import ExporterPostprocessMixin
 from .tree import ExporterTreeMixin
 from .user3 import ExporterUser3ParserMixin
-from ..core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
+from ..core import RSZ_MAGIC, USR_MAGIC, resolve_schema_path
 from ..rich_ui import BatchProgress
+from ..schema import TypeDB
 
 
 class User3Exporter(

@@ -10,9 +10,10 @@ from typing import Any
 from .models import InstanceSpec
 from .plan import PackerPlanMixin
 from .writer import PackerWriterMixin
-from ..core import RSZ_MAGIC, USR_MAGIC, TypeDB, resolve_schema_path
+from ..core import RSZ_MAGIC, USR_MAGIC, resolve_schema_path
 from ..export import User3Exporter
 from ..rich_ui import BatchProgress
+from ..schema import TypeDB
 
 
 class User3Packer(PackerPlanMixin, PackerWriterMixin):

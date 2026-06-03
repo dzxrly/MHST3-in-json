@@ -6,14 +6,13 @@ from typing import Any
 
 from ..core import (
     BinaryReader,
-    ClassDef,
-    FieldDef,
     ParseError,
     align,
     read_guid_like,
     read_len_c8,
     read_len_utf16,
 )
+from ..schema import ClassDef, FieldDef
 
 
 class ExporterFieldParserMixin:
