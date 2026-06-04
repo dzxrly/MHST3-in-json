@@ -18,7 +18,6 @@ from re_user3.web.jobs import JobStore
 from re_user3.web.runners import ConversionRunners
 from re_user3.web.settings import WebSettings
 
-
 MSG_PAGE = r"""<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -267,9 +266,7 @@ def make_project_handler(
             if path == "/api/jobs":
                 # 库内 Vue 页面只显示 .user.3 导出任务。这里过滤掉 msg
                 # 任务，避免主页面混入项目扩展任务。
-                visible_jobs = [
-                    job for job in jobs.list_jobs() if job.kind == "export"
-                ]
+                visible_jobs = [job for job in jobs.list_jobs() if job.kind == "export"]
                 self._send_json(
                     200,
                     {

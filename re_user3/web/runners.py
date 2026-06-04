@@ -8,7 +8,6 @@ from typing import Any, Callable
 
 from ..core import RSZ_MAGIC, USR_MAGIC
 
-
 LogFn = Callable[[str], None]
 
 
@@ -85,6 +84,14 @@ class ConversionRunners:
         if not text:
             raise ValueError(f"缺少参数：{label}")
         return text
+
+    @staticmethod
+    def _optional_text(payload: dict[str, Any], key: str) -> str:
+        """读取可选文本参数，缺失或空值时返回空字符串。"""
+        value = payload.get(key)
+        if value is None:
+            return ""
+        return str(value).strip().strip('"')
 
     @staticmethod
     def _ensure_existing_path(path: Path, label: str) -> None:

@@ -108,13 +108,16 @@ createApp({
 }).mount("#app");
 """
 
-INDEX_HTML = r"""<!doctype html>
+INDEX_HTML = (
+    r"""<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RE User3 JSON Web</title>
-  <style>""" + STYLE_CSS + r"""</style>
+  <style>"""
+    + STYLE_CSS
+    + r"""</style>
 </head>
 <body>
   <div id="app">
@@ -165,7 +168,9 @@ INDEX_HTML = r"""<!doctype html>
   </div>
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   <script src="https://unpkg.com/typescript@5/lib/typescript.js"></script>
-  <script id="app-ts" type="text/typescript">""" + APP_TS + r"""</script>
+  <script id="app-ts" type="text/typescript">"""
+    + APP_TS
+    + r"""</script>
   <script>
     (function(){
       if(!window.Vue||!window.ts){document.body.innerHTML="<div style='padding:24px;font-family:Segoe UI,Microsoft YaHei,sans-serif'>Vue 或 TypeScript CDN 加载失败。</div>";return}
@@ -177,3 +182,4 @@ INDEX_HTML = r"""<!doctype html>
 </body>
 </html>
 """
+)
