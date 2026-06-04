@@ -76,6 +76,7 @@ MSG_PAGE = r"""<!doctype html>
     const successEl = document.getElementById("success");
     const failedEl = document.getElementById("failed");
     let activeJobId = null;
+    const logRenderState = { jobId: null, text: "" };
 
     function statusLabel(status) {
       return { queued: "排队", running: "运行中", done: "完成", failed: "失败" }[status] || status || "未开始";
@@ -86,16 +87,49 @@ MSG_PAGE = r"""<!doctype html>
       statusBadge.textContent = statusLabel(status);
     }
 
+    function jobLogText(job) {
+      const lines = job.logs ? [...job.logs] : [];
+      if (job.error) lines.push(`[错误] ${job.error}`);
+      if (job.result) lines.push(JSON.stringify(job.result, null, 2));
+      return lines.join("\n") || "任务已提交，等待日志。";
+    }
+
+    function isLogNearBottom() {
+      return logBox.scrollHeight - logBox.scrollTop - logBox.clientHeight < 24;
+    }
+
+    function scrollLogToBottom() {
+      window.requestAnimationFrame(() => {
+        logBox.scrollTop = logBox.scrollHeight;
+      });
+    }
+
+    function renderJobLog(job) {
+      const text = jobLogText(job);
+      const previous = logRenderState.jobId === job.id ? logRenderState.text : "";
+      const switchedJob = logRenderState.jobId !== job.id;
+      const shouldFollow = switchedJob || isLogNearBottom();
+
+      if (switchedJob || !previous || !text.startsWith(previous)) {
+        logBox.textContent = text;
+      } else if (text.length > previous.length) {
+        logBox.insertAdjacentText("beforeend", text.slice(previous.length));
+      } else {
+        return;
+      }
+
+      logRenderState.jobId = job.id;
+      logRenderState.text = text;
+      if (shouldFollow) scrollLogToBottom();
+    }
+
     function renderJob(job) {
       const result = job.result && job.result.msg ? job.result.msg : {};
       totalEl.textContent = result.total || 0;
       successEl.textContent = result.success || 0;
       failedEl.textContent = result.failed || 0;
       setStatus(job.status);
-      const lines = job.logs ? [...job.logs] : [];
-      if (job.error) lines.push(`[错误] ${job.error}`);
-      if (job.result) lines.push(JSON.stringify(job.result, null, 2));
-      logBox.textContent = lines.join("\n") || "任务已提交，等待日志。";
+      renderJobLog(job);
     }
 
     async function requestJson(url, options) {

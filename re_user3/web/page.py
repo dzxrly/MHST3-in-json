@@ -23,7 +23,7 @@ declare const Vue:any;
 type JobStatus="queued"|"running"|"done"|"failed";
 interface Job{id:string;kind:string;status:JobStatus;createdAt:number;updatedAt:number;logs?:string[];result?:Record<string,any>|null;error?:string|null}
 interface JobsResponse{jobs:Job[];rootDir:string}
-const{createApp,computed,onMounted,reactive,ref}=Vue;
+const{createApp,computed,nextTick,onMounted,reactive,ref,watch}=Vue;
 
 async function requestJson<T>(url:string,init?:RequestInit):Promise<T>{
   const response=await fetch(url,init);
@@ -43,6 +43,8 @@ createApp({
     const busy=ref(false);
     const connectionLabel=ref("已连接");
     const jobs=ref<Job[]>([]);
+    const logBox=ref<HTMLElement|null>(null);
+    const logRenderState=reactive({jobId:null as string|null,text:""});
     const notice=ref("");
     const rootDir=ref("");
     const exportForm=reactive({
@@ -53,19 +55,52 @@ createApp({
 
     const activeJob=computed<Job|null>(()=>jobs.value.find(job=>job.id===activeJobId.value)||null);
     const activeTotals=computed(()=>collectTotals(activeJob.value?.result));
-    const activeLogText=computed(()=>{
-      const job=activeJob.value;
-      if(!job)return "";
+    function jobLogText(job:Job|null){
+      if(!job)return "选择或启动一个任务。";
       const lines=job.logs?[...job.logs]:[];
       if(job.error)lines.push(`[错误] ${job.error}`);
       if(job.result)lines.push(JSON.stringify(job.result,null,2));
-      return lines.join("\n");
-    });
+      return lines.join("\n")||"任务已提交，等待日志。";
+    }
+    function isLogNearBottom(element:HTMLElement){
+      return element.scrollHeight-element.scrollTop-element.clientHeight<24;
+    }
+    function scrollLogToBottom(element:HTMLElement){
+      window.requestAnimationFrame(()=>{element.scrollTop=element.scrollHeight});
+    }
+    function renderActiveLog(){
+      const element=logBox.value;
+      if(!element)return;
+      const job=activeJob.value;
+      const text=jobLogText(job);
+      const jobId=job?.id||null;
+      const previous=logRenderState.jobId===jobId?logRenderState.text:"";
+      const switchedJob=logRenderState.jobId!==jobId;
+      const shouldFollow=switchedJob||isLogNearBottom(element);
+
+      if(switchedJob||!previous||!text.startsWith(previous)){
+        element.textContent=text;
+      }else if(text.length>previous.length){
+        element.insertAdjacentText("beforeend",text.slice(previous.length));
+      }else{
+        return;
+      }
+
+      logRenderState.jobId=jobId;
+      logRenderState.text=text;
+      if(shouldFollow)scrollLogToBottom(element);
+    }
 
     function mergeJob(job:Job){
       const index=jobs.value.findIndex(item=>item.id===job.id);
       if(index>=0)jobs.value[index]={...jobs.value[index],...job};
       else jobs.value.unshift(job);
+    }
+    function mergeJobList(incoming:Job[]){
+      jobs.value=incoming.map(job=>{
+        const current=jobs.value.find(item=>item.id===job.id);
+        return current?{...current,...job,logs:job.logs||current.logs}:job;
+      });
     }
     async function refreshActive(){
       if(!activeJobId.value)return;
@@ -75,7 +110,7 @@ createApp({
       try{
         const data=await requestJson<JobsResponse>("/api/jobs");
         rootDir.value=data.rootDir;
-        jobs.value=data.jobs;
+        mergeJobList(data.jobs);
         if(!activeJobId.value&&jobs.value.length)activeJobId.value=jobs.value[0].id;
         await refreshActive();
         connectionLabel.value="已连接";
@@ -102,8 +137,9 @@ createApp({
     function statusLabel(status:JobStatus){return {queued:"排队",running:"运行中",done:"完成",failed:"失败"}[status]||status}
     function formatTime(value:number){return value?new Date(value*1000).toLocaleString():""}
 
-    onMounted(()=>{refreshJobs();window.setInterval(refreshJobs,1200)});
-    return{activeJob,activeJobId,activeLogText,activeTotals,busy,connectionLabel,exportForm,formatTime,jobName,jobs,notice,pickPath,rootDir,selectJob,statusLabel,submitExport};
+    watch(activeJob,()=>{nextTick(renderActiveLog)},{deep:true,immediate:true});
+    onMounted(()=>{renderActiveLog();refreshJobs();window.setInterval(refreshJobs,1200)});
+    return{activeJob,activeJobId,activeTotals,busy,connectionLabel,exportForm,formatTime,jobName,jobs,logBox,notice,pickPath,rootDir,selectJob,statusLabel,submitExport};
   }
 }).mount("#app");
 """
@@ -161,7 +197,7 @@ INDEX_HTML = (
             <div class="metric"><span>成功</span><strong>{{ activeTotals.success }}</strong></div>
             <div class="metric"><span>失败</span><strong>{{ activeTotals.failed }}</strong></div>
           </div>
-          <pre>{{ activeLogText || '选择或启动一个任务。' }}</pre>
+          <pre ref="logBox">选择或启动一个任务。</pre>
         </div>
       </aside>
     </main>
