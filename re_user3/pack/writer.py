@@ -1,4 +1,9 @@
-"""RSZ/USR 二进制写回逻辑。"""
+"""RSZ/USR 二进制写回逻辑。
+
+写入阶段消费规划阶段产出的实例列表，按 RE Engine 物理布局拼出字节：先连续
+写入各实例数据段，再写 RSZ 头、对象表、实例表，最后包上最小 USR 头。字段值
+按类型写入，并兼容枚举标签/成员名、原始字节回写等多种来源。
+"""
 
 from __future__ import annotations
 
@@ -10,6 +15,7 @@ from .models import BinaryWriter, InstanceRef, PackError, StructValue
 from ..core import align
 from ..schema import FieldDef
 
+# 匹配导出格式 `[123] MemberName`，用于从枚举标签中取出括号内数值。
 ENUM_LABEL_RE = re.compile(r"^\[(-?\d+)\]\s*(.*)$")
 
 
@@ -17,7 +23,14 @@ class PackerWriterMixin:
     """负责把规划后的实例表编码成 `.user.3` 字节。"""
 
     def _build_binary(self, root_ids: list[int]) -> bytes:
-        """构造完整 USR + RSZ 二进制内容。"""
+        """构造完整 USR + RSZ 二进制内容。
+
+        参数：
+            root_ids (list[int]): 根实例编号列表，写入 RSZ 对象表。
+
+        返回：
+            bytes: 完整的 ``.user.3`` 二进制字节。
+        """
         data_writer = BinaryWriter()
         for spec in self.instances[1:]:
             if spec is None:
@@ -27,6 +40,7 @@ class PackerWriterMixin:
 
         object_count = len(root_ids)
         instance_count = len(self.instances)
+        # 对象表紧跟 48 字节 RSZ 头，实例表再随其后，数据段按 16 字节对齐。
         instance_offset = 48 + object_count * 4
         data_offset = align(instance_offset + instance_count * 8, 16)
 
@@ -64,7 +78,15 @@ class PackerWriterMixin:
         return bytes(usr_writer.data)
 
     def _write_instance(self, writer: BinaryWriter, spec: InstanceSpec) -> None:
-        """按模板字段顺序写入一个实例。"""
+        """按模板字段顺序写入一个实例。
+
+        参数：
+            writer (BinaryWriter): 目标二进制写入器（数据段）。
+            spec (InstanceSpec): 规划好的实例规格。
+
+        返回：
+            None: 把实例数据写入 ``writer``。
+        """
         for field_def in spec.class_def.fields:
             # 数组字段按 4 字节对齐，普通字段按模板声明的对齐值对齐。
             writer.align(4 if field_def.is_array else max(field_def.align, 1))
@@ -74,7 +96,16 @@ class PackerWriterMixin:
     def _write_field(
         self, writer: BinaryWriter, field_def: FieldDef, value: Any
     ) -> None:
-        """写入一个字段，自动处理数组和标量。"""
+        """写入一个字段，自动处理数组和标量。
+
+        参数：
+            writer (BinaryWriter): 目标二进制写入器。
+            field_def (FieldDef): 字段定义。
+            value (Any): 字段的中间表示值。
+
+        返回：
+            None: 把字段数据写入 ``writer``。
+        """
         if field_def.is_array:
             items = value if isinstance(value, list) else []
             writer.write_struct("<I", len(items))
@@ -96,7 +127,16 @@ class PackerWriterMixin:
     def _write_scalar(
         self, writer: BinaryWriter, field_def: FieldDef, value: Any
     ) -> None:
-        """按字段类型写入标量值。"""
+        """按字段类型写入标量值。
+
+        参数：
+            writer (BinaryWriter): 目标二进制写入器。
+            field_def (FieldDef): 字段定义，决定写入格式与尺寸。
+            value (Any): 待写入的标量值（可能是数字、字符串、引用或保留原始字节的 dict）。
+
+        返回：
+            None: 把标量数据写入 ``writer``；无法识别的类型按声明尺寸补零。
+        """
         t = field_def.field_type
         if t == "Bool":
             writer.write_struct("<B", 1 if bool(value) else 0)
@@ -178,6 +218,7 @@ class PackerWriterMixin:
             "Mat4",
             "Position",
         }:
+            # 向量/矩阵类型按 4 字节浮点元素写入，不足部分补 0。
             values = value if isinstance(value, list) else []
             count = max(field_def.size // 4, 1)
             for i in range(count):
@@ -191,7 +232,15 @@ class PackerWriterMixin:
         writer.write(b"\x00" * max(field_def.size, 0))
 
     def _write_struct(self, writer: BinaryWriter, value: Any) -> None:
-        """写入结构体字段。"""
+        """写入结构体字段。
+
+        参数：
+            writer (BinaryWriter): 目标二进制写入器。
+            value (Any): 结构体值，应为 :class:`StructValue`；保留原始字节的 dict 也可。
+
+        返回：
+            None: 把结构体数据写入 ``writer``，并按声明尺寸补齐尾部填充。
+        """
         if not isinstance(value, StructValue):
             raw = value.get("raw") if isinstance(value, dict) else None
             if isinstance(raw, str):
@@ -208,7 +257,18 @@ class PackerWriterMixin:
             writer.write(b"\x00" * (value.declared_size - consumed))
 
     def _coerce_int(self, value: Any, field_def: FieldDef) -> int:
-        """把 JSON 值转换为整数，兼容枚举标签和成员名。"""
+        """把 JSON 值转换为整数，兼容枚举标签和成员名。
+
+        参数：
+            value (Any): JSON 值：布尔、整数、浮点或字符串（数字 / ``[值] 名称`` / 成员名）。
+            field_def (FieldDef): 字段定义，提供枚举成员反查所需的类型上下文。
+
+        返回：
+            int: 转换后的整数值。
+
+        异常：
+            PackError: 当值无法解析为整数且不是已知枚举成员名时抛出。
+        """
         if isinstance(value, bool):
             return int(value)
         if isinstance(value, int):
@@ -231,7 +291,15 @@ class PackerWriterMixin:
         raise PackError(f"cannot convert {value!r} to int for field {field_def.name}")
 
     def _resolve_enum_member(self, text: str, field_def: FieldDef) -> int | None:
-        """按字段类型上下文把枚举成员名解析成数值。"""
+        """按字段类型上下文把枚举成员名解析成数值。
+
+        参数：
+            text (str): 枚举成员名。
+            field_def (FieldDef): 字段定义，其原始类型用于推断对应的固定枚举类型。
+
+        返回：
+            int | None: 命中时返回成员数值；无法解析时返回 ``None``。
+        """
         candidates = []
         original = field_def.original_type
         if original.endswith("_Serializable"):

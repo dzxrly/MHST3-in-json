@@ -1,4 +1,9 @@
-"""`.user.3` 到 JSON 的导出器入口。"""
+"""`.user.3` 到 JSON 的导出器入口。
+
+`User3Exporter` 通过多个 Mixin 组合出完整的解析链路：读取 USR/RSZ 结构、
+解析字段、构建对象引用树、应用枚举元数据并做后处理。本文件只负责装配
+这些能力、管理批处理流程，以及处理文件发现与输出路径计算。
+"""
 
 from __future__ import annotations
 
@@ -25,7 +30,11 @@ class User3Exporter(
     ExporterFieldParserMixin,
     ExporterUser3ParserMixin,
 ):
-    """把 RE Engine `.user.3` 二进制文件导出为紧凑 JSON。"""
+    """把 RE Engine `.user.3` 二进制文件导出为紧凑 JSON。
+
+    通过组合枚举源、元数据、后处理、对象树、字段解析和 USR/RSZ 解析等
+    Mixin，提供从单文件解析到批量导出的完整能力。
+    """
 
     def __init__(
         self,
@@ -41,14 +50,20 @@ class User3Exporter(
         """初始化导出器配置和运行期索引。
 
         参数：
-            user3_root: 输入根目录或单个 `.user.3` 文件。
-            schema_dir: 显式传入的 RE_RSZ 模板 JSON 文件路径。
-            output_root: JSON 输出根目录。
-            tree_depth: 对象引用树展开深度，支持整数或 `"auto"`。
-            exclude_regexes: 用于排除相对路径的正则表达式列表。
-            il2cpp_dump_path: 必填的 `il2cpp_dump.json` 文件路径。
-            user_magic: 期望读取到的 USR 文件 magic。
-            rsz_magic: 期望读取到的 RSZ 块 magic。
+            user3_root (str | Path): 输入根目录或单个 ``.user.3`` 文件。
+            schema_dir (str | Path): 显式传入的 RE_RSZ 模板 JSON 文件路径。
+            output_root (str | Path): JSON 输出根目录。
+            tree_depth (int | str): 对象引用树展开深度，支持非负整数或 ``"auto"``。
+            exclude_regexes (list[str] | None): 用于排除相对路径的正则表达式列表。
+            il2cpp_dump_path (str | Path): 必填的 ``il2cpp_dump.json`` 文件路径。
+            user_magic (int): 期望读取到的 USR 文件 magic。
+            rsz_magic (int): 期望读取到的 RSZ 块 magic。
+
+        返回：
+            None: 构造函数，仅初始化实例属性。
+
+        异常：
+            FileNotFoundError: 当 ``il2cpp_dump.json`` 不存在时抛出。
         """
         # 路径在入口处统一转为 Path，后续模块只处理 Path 对象。
         self.user3_root = Path(user3_root)
@@ -78,8 +93,10 @@ class User3Exporter(
     def run(self) -> dict[str, int]:
         """执行批量导出流程。
 
+        发现输入文件、构建枚举索引，然后逐个导出并通过 Rich 进度条反馈进度。
+
         返回：
-            包含 `total`、`success`、`failed` 的统计字典。
+            dict[str, int]: 统计字典，含 ``total``、``success``、``failed`` 三个计数。
         """
         files = self._discover_user3_files()
         self.output_root.mkdir(parents=True, exist_ok=True)
@@ -120,10 +137,11 @@ class User3Exporter(
         """导出单个 `.user.3` 文件。
 
         参数：
-            user3_file: 源 `.user.3` 文件路径。
+            user3_file (Path): 源 ``.user.3`` 文件路径。
 
         返回：
-            `(是否成功, 输出路径, 错误信息)`，异常交给批处理统计并记录。
+            tuple[bool, Path | None, str | None]: 三元组 ``(是否成功, 输出路径, 错误信息)``；
+            成功时输出路径有效、错误信息为 ``None``，失败时反之。
         """
         try:
             # 解析出的原始树先经过枚举后处理，再移除内部索引和值包装，
@@ -138,16 +156,17 @@ class User3Exporter(
                 json.dump(tree, f, ensure_ascii=False, indent=2)
             return True, output_path, None
         except Exception as exc:
+            # 把异常转成简短文本返回给批处理统计，不向上抛出以免中断整批。
             return False, None, f"{exc.__class__.__name__}: {exc}"
 
     def _resolve_schema_path(self, schema_dir: Path) -> Path:
         """校验并返回模板文件路径。
 
         参数：
-            schema_dir: 历史参数名，实际必须是具体模板 JSON 文件。
+            schema_dir (Path): 历史参数名，实际必须是具体模板 JSON 文件。
 
         返回：
-            校验后的模板文件路径。
+            Path: 校验后的模板文件路径。
         """
         return resolve_schema_path(schema_dir)
 
@@ -155,10 +174,14 @@ class User3Exporter(
         """规范化对象树展开深度。
 
         参数：
-            tree_depth: 用户传入的深度设置。
+            tree_depth (int | str): 用户传入的深度设置，整数或字符串 ``"auto"``。
 
         返回：
-            非负整数或 `"auto"`。
+            int | str: 非负整数或字符串 ``"auto"``。
+
+        异常：
+            ValueError: 字符串非 ``"auto"`` 或整数为负时抛出。
+            TypeError: 类型既不是 ``int`` 也不是 ``str`` 时抛出。
         """
         if isinstance(tree_depth, str):
             value = tree_depth.strip().lower()
@@ -175,7 +198,10 @@ class User3Exporter(
         """发现输入 `.user.3` 文件并应用排除规则。
 
         返回：
-            过滤后的 `.user.3` 文件列表。
+            list[Path]: 过滤后的 ``.user.3`` 文件路径列表。
+
+        异常：
+            FileNotFoundError: 路径不存在、目录下无文件，或全部被排除时抛出。
         """
         if self.user3_root.is_file():
             files = [self.user3_root]
@@ -206,10 +232,10 @@ class User3Exporter(
         """计算单个源文件对应的 JSON 输出路径。
 
         参数：
-            user3_file: 源 `.user.3` 文件。
+            user3_file (Path): 源 ``.user.3`` 文件。
 
         返回：
-            输出 JSON 文件路径。
+            Path: 输出 JSON 文件路径（目录模式下会还原相对子目录结构）。
         """
         if self.user3_root.is_file():
             relative_parent = Path()

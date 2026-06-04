@@ -1,4 +1,9 @@
-"""本地 Web UI 的 HTTP 请求处理。"""
+"""本地 Web UI 的 HTTP 请求处理。
+
+通过工厂函数 :func:`make_handler` 把服务配置、任务仓库和转换桥接器绑定到一个
+``BaseHTTPRequestHandler`` 子类上，处理单页应用首页、任务查询 API、路径选择与
+导出任务提交等请求。
+"""
 
 from __future__ import annotations
 
@@ -19,17 +24,39 @@ def make_handler(
     jobs: JobStore,
     runners: ConversionRunners,
 ) -> type[BaseHTTPRequestHandler]:
-    """创建绑定当前服务状态的请求处理类。"""
+    """创建绑定当前服务状态的请求处理类。
+
+    参数：
+        settings (WebSettings): 服务运行配置。
+        jobs (JobStore): 后台任务仓库。
+        runners (ConversionRunners): 把 Web 表单参数桥接到核心转换器的执行器。
+
+    返回：
+        type[BaseHTTPRequestHandler]: 一个已闭包捕获上述依赖的请求处理类，供
+        ``ThreadingHTTPServer`` 实例化。
+    """
 
     class WebHandler(BaseHTTPRequestHandler):
         """处理静态首页和本地 JSON API。"""
 
         def log_message(self, format: str, *args: Any) -> None:
-            """输出简洁的请求日志。"""
+            """输出简洁的请求日志。
+
+            参数：
+                format (str): 标准库格式字符串。
+                *args (Any): 与 ``format`` 对应的参数。
+
+            返回：
+                None: 直接打印到标准输出。
+            """
             print(f"{self.address_string()} - {format % args}")
 
         def do_GET(self) -> None:
-            """处理首页、任务列表和任务详情请求。"""
+            """处理首页、任务列表和任务详情的 GET 请求。
+
+            返回：
+                None: 通过写入响应体返回结果；未匹配路径返回 404。
+            """
             path = urlparse(self.path).path
             if path == "/":
                 # 首页是单页应用，所有前端资源都内嵌在模板里。
@@ -46,7 +73,11 @@ def make_handler(
             self._send_json(404, {"error": "未找到请求路径"})
 
         def do_POST(self) -> None:
-            """处理路径选择和导出任务提交。"""
+            """处理路径选择和导出任务提交的 POST 请求。
+
+            返回：
+                None: 通过写入响应体返回结果；请求异常时返回 400，未匹配返回 404。
+            """
             path = urlparse(self.path).path
             try:
                 payload = self._read_json()
@@ -65,7 +96,14 @@ def make_handler(
                 self._send_json(400, {"error": f"{exc.__class__.__name__}: {exc}"})
 
         def _read_json(self) -> dict[str, Any]:
-            """读取并校验 JSON 请求体。"""
+            """读取并校验 JSON 请求体。
+
+            返回：
+                dict[str, Any]: 解析后的请求体对象；无请求体时返回空字典。
+
+            异常：
+                ValueError: 当请求体不是 JSON 对象时抛出。
+            """
             length = int(self.headers.get("Content-Length", "0") or "0")
             raw = self.rfile.read(length) if length else b"{}"
             if not raw:
@@ -76,7 +114,11 @@ def make_handler(
             return data
 
         def _handle_jobs(self) -> None:
-            """返回当前任务列表和 Web 根目录。"""
+            """返回当前任务列表和 Web 根目录。
+
+            返回：
+                None: 以 JSON 响应输出任务列表（不含日志）和根目录。
+            """
             payload = {
                 "jobs": [
                     jobs.serialize(job, include_logs=False) for job in jobs.list_jobs()
@@ -86,7 +128,14 @@ def make_handler(
             self._send_json(200, payload)
 
         def _handle_job(self, job_id: str) -> None:
-            """返回单个任务详情。"""
+            """返回单个任务详情。
+
+            参数：
+                job_id (str): 任务唯一标识。
+
+            返回：
+                None: 以 JSON 响应输出含日志的任务详情；不存在时返回 404。
+            """
             job = jobs.get(job_id)
             if job is None:
                 self._send_json(404, {"error": "任务不存在"})
@@ -94,7 +143,14 @@ def make_handler(
             self._send_json(200, {"job": jobs.serialize(job, include_logs=True)})
 
         def _send_html(self, html: str) -> None:
-            """发送 HTML 响应。"""
+            """发送 HTML 响应。
+
+            参数：
+                html (str): 要返回的 HTML 文本。
+
+            返回：
+                None: 写出状态行、响应头和正文。
+            """
             data = html.encode("utf-8")
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
@@ -103,7 +159,15 @@ def make_handler(
             self.wfile.write(data)
 
         def _send_json(self, status: int, payload: dict[str, Any]) -> None:
-            """发送 JSON 响应。"""
+            """发送 JSON 响应。
+
+            参数：
+                status (int): HTTP 状态码。
+                payload (dict[str, Any]): 要序列化为 JSON 的响应体。
+
+            返回：
+                None: 写出状态行、响应头和正文。
+            """
             data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
             self.send_response(status)
             self.send_header("Content-Type", "application/json; charset=utf-8")

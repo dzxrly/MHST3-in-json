@@ -1,4 +1,10 @@
-"""完整 `.user.3` 文件结构解析逻辑。"""
+"""完整 `.user.3` 文件结构解析逻辑。
+
+本模块按 RE Engine 的物理布局读取 ``.user.3``：先解析 USR 头与可选的外部
+用户数据路径表，再读取内嵌 RSZ 块的头部、对象表、实例表和用户数据表，最后
+逐个解析实例数据段。解析结果既可用于构造可读紧凑树，也可转成可稳定回封的
+完整实例表 JSON。
+"""
 
 from __future__ import annotations
 
@@ -15,10 +21,15 @@ class ExporterUser3ParserMixin:
         """解析完整 `.user.3` 文件并保留实例表级中间结果。
 
         参数：
-            user3_path: 源 `.user.3` 文件路径。
+            user3_path (Path): 源 ``.user.3`` 文件路径。
 
         返回：
-            包含 USR/RSZ 头、根对象、实例元数据和已解析实例的文档。
+            dict[str, Any]: 解析文档，含 USR/RSZ 头、根对象编号、实例元数据、
+            已解析实例、实例编号映射以及用户数据引用等键，供后续构造紧凑树或
+            封包 JSON 使用。
+
+        异常：
+            ParseError: 当 USR 或 RSZ magic 不匹配时抛出。
         """
         reader = BinaryReader(user3_path.read_bytes())
 
@@ -237,10 +248,11 @@ class ExporterUser3ParserMixin:
         """解析完整 `.user.3` 文件并构造成紧凑对象树。
 
         参数：
-            user3_path: 源 `.user.3` 文件路径。
+            user3_path (Path): 源 ``.user.3`` 文件路径。
 
         返回：
-            以类名包裹的紧凑对象树列表。
+            list[dict[str, Any]]: 以类名包裹的紧凑对象树列表；只含头部用户数据
+            信息的文件则返回可读的引用列表。
         """
         document = self._parse_user3_document(user3_path)
         parsed_instances = document["parsed_instances"]
@@ -248,6 +260,7 @@ class ExporterUser3ParserMixin:
         instance_info_map = document["instance_info_map"]
         idx_map = document["idx_map"]
         header_userdata_infos = document["header_userdata_infos"]
+        # depth 为 "auto" 时根据复杂度自动决定，否则使用用户指定的固定深度。
         depth = (
             self._auto_pick_tree_depth(parsed_instances, object_roots)
             if self.tree_depth == "auto"
@@ -278,11 +291,27 @@ class ExporterUser3ParserMixin:
         return object_trees
 
     def _parse_user3_pack(self, user3_path: Path) -> dict[str, Any]:
-        """解析 `.user.3` 并返回适合稳定封包的完整实例表 JSON。"""
+        """解析 `.user.3` 并返回适合稳定封包的完整实例表 JSON。
+
+        参数：
+            user3_path (Path): 源 ``.user.3`` 文件路径。
+
+        返回：
+            dict[str, Any]: 完整实例表封包文档（见 :meth:`_build_pack_json`）。
+        """
         return self._build_pack_json(self._parse_user3_document(user3_path))
 
     def _build_pack_json(self, document: dict[str, Any]) -> dict[str, Any]:
-        """把解析中间结果转换为完整实例表文档。"""
+        """把解析中间结果转换为完整实例表文档。
+
+        参数：
+            document (dict[str, Any]): :meth:`_parse_user3_document` 返回的解析文档。
+
+        返回：
+            dict[str, Any]: 封包格式文档，含 ``_format``、``_version``、``_source``、
+            ``_roots``、``_instances``、``_userdata``、``_unsupported``、``_warnings``
+            等键；其中 ``_unsupported`` 记录当前写回器尚不支持的原始数据段。
+        """
         instances: dict[str, Any] = {}
         warnings: list[str] = []
         unsupported: list[str] = []
@@ -291,6 +320,7 @@ class ExporterUser3ParserMixin:
         usr_header = document["usr_header"]
         rsz_header = document["rsz_header"]
 
+        # 记录当前最小写回器无法重建的原始数据段，封包阶段据此拒绝有损回封。
         if int(usr_header.get("resource_count", 0)) > 0:
             unsupported.append("USR resource table")
         if int(usr_header.get("userdata_count", 0)) > 0:
@@ -311,6 +341,7 @@ class ExporterUser3ParserMixin:
             }
             inst = idx_map.get(idx)
             if idx == 0:
+                # 实例 0 是固定空槽，标记为 null 即可。
                 entry["_class"] = None
                 entry["_kind"] = "null"
             elif inst is None:
@@ -338,6 +369,7 @@ class ExporterUser3ParserMixin:
                 fields = data.get("fields", {})
                 if not isinstance(fields, dict):
                     fields = {}
+                # 字段同样经过枚举后处理，使封包 JSON 中的枚举也呈现可读标签。
                 entry["fields"] = self._postprocess_enum_nodes(
                     fields,
                     current_class=class_name if isinstance(class_name, str) else None,
@@ -372,5 +404,12 @@ class ExporterUser3ParserMixin:
 
     @staticmethod
     def _format_hex_u32(value: int) -> str:
-        """把 32 位整数格式化为稳定的十六进制字符串。"""
+        """把 32 位整数格式化为稳定的十六进制字符串。
+
+        参数：
+            value (int): 待格式化的整数（按无符号 32 位截断）。
+
+        返回：
+            str: 形如 ``0x0012abcd`` 的 8 位小写十六进制字符串。
+        """
         return f"0x{value & 0xFFFFFFFF:08x}"
