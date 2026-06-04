@@ -1,4 +1,9 @@
-"""从 il2cpp dump 提取枚举源数据的逻辑。"""
+"""从 il2cpp dump 提取枚举源数据的逻辑。
+
+REFramework 导出的 ``il2cpp_dump.json`` 里包含大量类型/字段/方法信息。本模块
+负责从中抽取两类资料：枚举成员表（值 -> 名称），以及把字段、可序列化包装
+类型和泛型容器关联到“固定枚举”（``*_Fixed``）的上下文，供导出后处理使用。
+"""
 
 from __future__ import annotations
 
@@ -16,10 +21,10 @@ class ExporterEnumSourceMixin:
         """从 `il2cpp_dump.json` 中提取枚举成员表。
 
         参数：
-            dump_json: 已解析的 il2cpp dump 对象。
+            dump_json (dict): 已解析的 il2cpp dump 对象。
 
         返回：
-            `枚举类型 -> {成员名 -> 数值}` 的映射。
+            dict: ``枚举类型 -> {成员名 -> 数值}`` 的映射。
         """
         enums_internal = {}
         for key, value in dump_json.items():
@@ -29,6 +34,7 @@ class ExporterEnumSourceMixin:
                 if "parent" in obj and obj["parent"] == "System.Enum":
                     val = {}
                     for _k, _v in obj["fields"].items():
+                        # 跳过枚举的占位字段（value__），只保留真实成员。
                         if _k != ENUM_UNUSED_KEY:
                             val[_k] = _v["default"]
                     enums_internal[key] = val
@@ -39,26 +45,29 @@ class ExporterEnumSourceMixin:
         """从 il2cpp dump 中提取枚举字段上下文。
 
         参数：
-            dump_json: 已解析的 il2cpp dump 对象。
+            dump_json (dict): 已解析的 il2cpp dump 对象。
 
         返回：
-            用于枚举推断的字段、可序列化类型和泛型容器上下文。
+            dict: 含三个键的上下文字典：``class_field_fixed_types``（类 -> 字段 -> 枚举类型）、
+            ``serializable_to_fixed``（可序列化包装类型 -> 固定枚举）、
+            ``generic_container_rules``（泛型容器 -> {param_type, enum_type}）。
         """
 
         def extract_fixed_enum_type(type_name: Any) -> str | None:
             """从类型表达式中提取唯一的 `*_Fixed` 枚举类型。
 
             参数：
-                type_name: 字段、方法参数或返回值上的类型表达式。
+                type_name (Any): 字段、方法参数或返回值上的类型表达式（通常是 str）。
 
             返回：
-                找到且唯一时返回枚举类型名，否则返回 `None`。
+                str | None: 找到且唯一时返回枚举类型名，否则返回 ``None``。
             """
             if not isinstance(type_name, str):
                 return None
             matches = re.findall(r"[A-Za-z0-9_.]+_Fixed", type_name)
             if not matches:
                 return None
+            # 去重后若只剩一个候选，才能确定字段唯一对应的固定枚举类型。
             unique = list(dict.fromkeys(matches))
             if len(unique) == 1:
                 return unique[0]

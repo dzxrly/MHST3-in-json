@@ -40,7 +40,20 @@ _EXPORT_MODULES = {
 
 
 def __getattr__(name: str) -> Any:
-    """首次访问公开名称时再导入对应模块。"""
+    """首次访问公开名称时再惰性导入对应模块。
+
+    PEP 562 的模块级 ``__getattr__`` 钩子：仅当访问 ``__all__`` 中声明的名称
+    且该名称尚未缓存到模块全局时才会触发，从而实现按需导入的惰性导出。
+
+    参数：
+        name (str): 正在访问的属性名（通常是 ``__all__`` 中的某个公开名称）。
+
+    返回：
+        Any: 解析并缓存后的目标对象（类、函数或常量）。
+
+    异常：
+        AttributeError: 当 ``name`` 不在惰性导出表 ``_EXPORT_MODULES`` 中时抛出。
+    """
     module_name = _EXPORT_MODULES.get(name)
     if module_name is None:
         raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
