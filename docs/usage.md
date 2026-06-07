@@ -1,13 +1,13 @@
 # RE User3 JSON 工具
 
-这个项目用于在 RE Engine 游戏的 `.user.3` 数据库文件和 JSON 之间互相转换。核心代码已经整理为可复用的 `re_user3` 包，方便在不同 RE Engine 游戏或其他项目中直接调用。
+这个项目用于在 RE Engine 游戏的 `.user.3` 数据库文件和 JSON 之间互相转换。核心代码已经整理为可复用的 `pyreuser3` 软件包，方便在不同 RE Engine 游戏或其他项目中直接调用。
 
 当前能力：
 
 - `.user.3 -> JSON`：按 RE_RSZ 模板解析二进制数据库；
 - `JSON -> .user.3`：将本项目导出的 JSON 重新封回游戏可读取的 `.user.3`；
 - callback 修改流程：找到指定 `.user.3` 后，解析成完整实例表 JSON 传给 callback，由 callback 修改并返回，再自动封包到指定目录；
-- 本地 Web UI：`re_user3.web` 提供 `.user.3` 解包导出页面；根目录 `web.py` 复用它，并额外扩展当前项目专属的 `.msg.23` 转 JSON 页面；网页不提供封包功能；
+- 本地 Web UI：`pyreuser3.web` 提供 `.user.3` 解包导出页面；根目录 `web.py` 复用它，并额外扩展当前项目专属的 `.msg.23` 转 JSON 页面；网页不提供封包功能；
 - CLI 批处理：`main.py export` 批量导出 `.user.3`，并可同时调用 `REMSG_Converter` 转换 `.msg.23`；
 - Rich 批处理输出：底部固定显示当前进度条，上方滚动输出发现文件、开始处理、成功和失败等日志；
 - 可配置 magic：`user_magic` 和 `rsz_magic` 都可通过类参数或命令行参数覆盖，默认保留当前项目使用的值；
@@ -16,43 +16,14 @@
 ## 目录结构
 
 ```text
-re_user3/
-  __init__.py      # 对外导出 REUser3Converter、User3Exporter、User3Packer 等
-  api.py           # 门面类和 callback 工作流
-  core.py          # magic、路径校验、二进制读取和 GUID/字符串工具
-  requirements.txt # 作为独立库导入时需要安装的第三方包
-  rich_ui.py       # Rich 进度条和滚动日志输出
-  schema.py        # RE_RSZ 模板类型数据库
-  export/          # .user.3 -> JSON 解析导出功能
-    base.py        # 导出器入口和目录批处理
-    enums.py       # 从 il2cpp_dump.json / Enums_Internal.json 读取枚举标签
-    fields.py      # 按字段类型解析基础值、资源、对象引用和数组
-    metadata.py    # 读取 RSZ 实例表、字段表和字符串区
-    postprocess.py # 合并枚举标签、修复资源路径和清理结构
-    tree.py        # 将扁平实例引用重建为 JSON 对象树
-    user3.py       # 解析 user.3 文件头和内部 RSZ 数据块
-  pack/            # JSON -> .user.3 封包写回功能
-    base.py        # 封包器入口和目录批处理
-    models.py      # 封包过程共用的数据结构
-    plan.py        # 将 JSON 对象规划为实例表和引用关系
-    writer.py      # 写入字符串表、资源表和字段二进制
-  web/             # 本地 Vue Web UI 和 JSON API
-    __main__.py    # python -m re_user3.web 入口
-    handler.py     # HTTP 路由和 JSON/HTML 响应
-    jobs.py        # 后台任务、日志和状态序列化
-    page.py        # Vue 3 + TypeScript 页面模板
-    runners.py     # Web 表单参数到导出类的桥接
-    server.py      # 服务启动和命令行参数
-    settings.py    # Web 服务配置
-
-main.py            # 命令行入口：export / pack
-web.py             # 项目 Web 启动器：复用 re_user3.web，并额外提供 /msg
+main.py            # 命令行入口：export / pack，调用已安装的 pyreuser3
+web.py             # 项目 Web 启动器：复用 pyreuser3.web，并额外提供 /msg
 msg_converter.py   # .msg.23 转 JSON 的子模块包装
 REMSG_Converter/   # .msg.23 转换所需子模块
-requirements.txt   # 主项目依赖
+requirements.txt   # 主项目依赖，包含 pyreuser3、chardet、mmh3
 ```
 
-旧的 `user3_exporter.py` 和 `mhst3_json` 兼容入口已经移除。新项目请直接从 `re_user3` 导入。
+核心 `.user.3` 转换代码已经移到 PyPI 包 PyREUser3 中。本仓库不再内置 `pyreuser3` 源码目录；旧的 `user3_exporter.py` 和 `mhst3_json` 兼容入口也已经移除。新项目请直接从 `pyreuser3` 导入。
 
 ## 环境与依赖
 
@@ -63,10 +34,10 @@ conda activate rersz
 pip install -r requirements.txt
 ```
 
-如果只把 `re_user3` 当作库导入使用，可以安装库内最小依赖：
+如果只把 `pyreuser3` 当作库导入使用，可以直接安装 PyREUser3：
 
 ```bash
-pip install -r re_user3/requirements.txt
+pip install pyreuser3
 ```
 
 如果需要用 `main.py export` 或根目录 `web.py` 的 `/msg` 页面转换 `.msg.23`，还需要初始化子模块并安装 `REMSG_Converter` 的依赖：
@@ -92,7 +63,7 @@ pip install -r REMSG_Converter/requirements.txt
 2. 使用 REFramework `reversing/rsz` 目录下的工具，基于游戏 exe dump 和 `il2cpp_dump.json` 生成该游戏的 `rsz*.json` 模板。
 3. 使用 `ree-pak-rs` 或其他 RE Engine pak 工具解包目标游戏资源，得到 `.user.3` 文件。
 
-只要模板、dump 和 `.user.3` 属于同一个游戏版本，`re_user3` 就可以按这些显式路径工作。
+只要模板、dump 和 `.user.3` 属于同一个游戏版本，`pyreuser3` 就可以按这些显式路径工作。
 
 ## 本地 Web 使用
 
@@ -104,13 +75,13 @@ python web.py
 
 它提供两个页面：
 
-- <http://127.0.0.1:8765/>：复用 `re_user3.web` 的 `.user.3` 解包导出页面；
+- <http://127.0.0.1:8765/>：复用 `pyreuser3.web` 的 `.user.3` 解包导出页面；
 - <http://127.0.0.1:8765/msg>：根目录脚本额外提供的 `.msg.23` 转 JSON 页面。
 
 也可以直接调用库内入口；这个入口只包含 `.user.3` 解包导出功能，不包含 `/msg` 页面：
 
 ```bash
-python -m re_user3.web
+python -m pyreuser3.web
 ```
 
 默认监听地址是 <http://127.0.0.1:8765/>。网页不会预填或自动使用项目根目录；所有文件和目录路径都需要在页面里点击选择按钮指定。`.user.3` 页面只提供解包导出任务：输入数据目录或单个 `.user.3` 文件，填写 RE_RSZ 模板、JSON 输出目录和 `il2cpp_dump.json`。
@@ -147,7 +118,7 @@ Enums_Internal.json
 外部 Python 代码也可以直接调用库内入口并修改端口：
 
 ```python
-from re_user3.web import WebSettings, run_server
+from pyreuser3.web import WebSettings, run_server
 
 run_server(WebSettings(port=9000))
 ```
@@ -249,7 +220,7 @@ python main.py pack ^
 最推荐使用 `REUser3Converter`。它封装了导出、解析、封包和 callback 修改流程。
 
 ```python
-from re_user3 import REUser3Converter
+from pyreuser3 import REUser3Converter
 
 converter = REUser3Converter(
     schema_path="D:/schema/rsz_example.json",
@@ -347,7 +318,7 @@ def edit(data):
 
 ```python
 from pathlib import Path
-from re_user3 import REUser3Converter
+from pyreuser3 import REUser3Converter
 
 converter = REUser3Converter(
     schema_path="D:/schema/rsz_example.json",
@@ -398,7 +369,7 @@ print(stats)
 如果你需要更细的控制，也可以直接使用底层类：
 
 ```python
-from re_user3 import User3Exporter, User3Packer
+from pyreuser3 import User3Exporter, User3Packer
 
 exporter = User3Exporter(
     user3_root="D:/game_dump/natives",
@@ -480,7 +451,7 @@ packer.pack_directory("D:/json_out", "D:/mod_natives")
 
 ## magic 配置
 
-默认 magic 定义在 `re_user3.core`：
+默认 magic 定义在 `pyreuser3.core`：
 
 ```python
 USR_MAGIC = 0x00525355
@@ -508,9 +479,9 @@ converter = REUser3Converter(
 
 ## `.msg.23` 说明
 
-`re_user3` 的核心导出/封包类只处理 `.user.3`。`.msg.23` 的转换由根目录的 `msg_converter.py` 调用 `REMSG_Converter` 子模块完成。
+`pyreuser3` 的核心导出/封包类只处理 `.user.3`。`.msg.23` 的转换由根目录的 `msg_converter.py` 调用 `REMSG_Converter` 子模块完成。
 
-只有使用 `main.py export` 或根目录 `web.py` 的 `/msg` 页面时，程序才会扫描并转换 `.msg.23`。`re_user3.web` 库内入口和 `re_user3` 的核心转换类都不会触发 `.msg.23` 逻辑，也不需要依赖 `REMSG_Converter`。
+只有使用 `main.py export` 或根目录 `web.py` 的 `/msg` 页面时，程序才会扫描并转换 `.msg.23`。`pyreuser3.web` 库内入口和 `pyreuser3` 的核心转换类都不会触发 `.msg.23` 逻辑，也不需要依赖 `REMSG_Converter`。
 
 ## 常见问题
 
@@ -529,3 +500,4 @@ converter = REUser3Converter(
 ### 这个库能兼容所有 RE Engine 游戏吗？
 
 它的目标是尽量通用，但前提是你提供的 RE_RSZ 模板、`il2cpp_dump.json` 和 `.user.3` 来自同一个游戏版本。不同游戏的 RSZ 类型、字段布局和 magic 可能不同，需要用对应游戏生成的依赖文件，并在必要时覆盖 magic。
+

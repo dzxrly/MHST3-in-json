@@ -1,7 +1,8 @@
 """命令行入口，负责分发 `.user.3` 导出和 JSON 封包流程。
 
 本文件只做参数解析和流程编排，具体的二进制解析、JSON 生成、
-JSON 封包逻辑都放在 `re_user3` 包内，便于其他项目复用。
+JSON 封包逻辑由已安装的 `pyreuser3` 软件包提供，便于本仓库只保留
+MHST3 项目专属的命令组合与 `.msg.23` 转换入口。
 """
 
 from __future__ import annotations
@@ -10,9 +11,9 @@ import argparse
 import json
 import sys
 
-from re_user3 import User3Exporter, User3Packer
-from re_user3.core import RSZ_MAGIC, USR_MAGIC
-from re_user3.rich_ui import get_console
+from pyreuser3 import User3Exporter, User3Packer
+from pyreuser3.core import RSZ_MAGIC, USR_MAGIC
+from pyreuser3.rich_ui import get_console
 
 
 def parse_int_arg(value: str) -> int:
@@ -102,7 +103,7 @@ def run_export(argv: list[str] | None = None) -> None:
         tree_depth = int(args.tree_depth)
 
     # `.msg.23` 依赖 REMSG_Converter 子模块。延迟导入可以让只使用
-    # `pack` 子命令或只导入 re_user3 包的场景不受该子模块影响。
+    # `pack` 子命令或只导入 pyreuser3 包的场景不受该子模块影响。
     from msg_converter import MsgConverter
 
     # 先转换文本消息文件。转换失败的单文件会被统计到失败数量中，

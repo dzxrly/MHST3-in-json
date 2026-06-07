@@ -1,11 +1,11 @@
 # RE User3 JSON 工具
 
-这个仓库用于解析 RE Engine 游戏的 `.user.3` 数据库文件，并在 `.user.3` 与 JSON 之间双向转换。核心能力已经封装到 [re_user3](./re_user3) 包中，可以作为网页工具、命令行工具使用，也可以在其他项目里直接导入调用。
+这个仓库用于解析 RE Engine 游戏的 `.user.3` 数据库文件，并在 `.user.3` 与 JSON 之间双向转换。核心能力已经封装到 PyREUser3 软件包中，可以作为网页工具、命令行工具使用，也可以在其他项目里直接导入调用。
 
 ## 文档导航
 
 - [从 0 开始准备模板并导出数据](./docs/tutorial.md)：保留原有逆向、dump、RE_RSZ 模板生成、pak 解包教程，并把最终执行仓库代码的部分更新为新的命令行和库调用方式。
-- [通用使用手册](./docs/usage.md)：集中说明 `re_user3` 包结构、Web 入口、`main.py export/pack` 命令、`REUser3Converter` API、callback 修改流程、JSON 格式约定和 magic 配置。
+- [通用使用手册](./docs/usage.md)：集中说明 `pyreuser3` 软件包结构、Web 入口、`main.py export/pack` 命令、`REUser3Converter` API、callback 修改流程、JSON 格式约定和 magic 配置。
 
 ## 当前能力
 
@@ -14,7 +14,7 @@
 - callback 修改流程：解析指定 `.user.3` 为完整实例表 JSON，交给用户函数修改，再自动封包输出。
 - 通用化参数：模板、`il2cpp_dump.json`、magic 均由调用方显式传入或配置。
 - `.msg.23` 批量导出：通过 `main.py export` 调用 `REMSG_Converter` 子模块完成。
-- 本地 Web UI：`web.py` 复用 `re_user3.web` 提供 `.user.3` 解包导出页面，并在根脚本中额外提供 `.msg.23` 转 JSON 页面；网页不提供封包功能。
+- 本地 Web UI：`web.py` 复用 `pyreuser3.web` 提供 `.user.3` 解包导出页面，并在根脚本中额外提供 `.msg.23` 转 JSON 页面；网页不提供封包功能。
 - Rich 批处理输出：底部固定显示当前进度条，上方滚动输出文件级执行日志。
 
 ## 快速开始
@@ -27,10 +27,10 @@ pip install -r requirements.txt
 pip install -r REMSG_Converter/requirements.txt
 ```
 
-如果只在其他项目中导入 `re_user3` 库，不需要安装整仓库依赖，可只安装库内依赖：
+如果只在其他项目中导入 `pyreuser3` 库，不需要安装整仓库依赖，可直接安装 PyREUser3：
 
 ```bash
-pip install -r re_user3/requirements.txt
+pip install pyreuser3
 ```
 
 启动本地网页：
@@ -42,7 +42,7 @@ python web.py
 也可以直接启动库内入口；这个入口只包含 `.user.3` 解包导出 Web 功能：
 
 ```bash
-python -m re_user3.web
+python -m pyreuser3.web
 ```
 
 默认地址为 <http://127.0.0.1:8765/>。网页不会预填或自动使用项目根目录；所有文件和目录路径都需要在页面里点击选择按钮指定。
@@ -64,7 +64,7 @@ python main.py pack -j <JSON文件或目录> -s <RE_RSZ模板.json> -o <user3输
 作为库调用：
 
 ```python
-from re_user3 import REUser3Converter
+from pyreuser3 import REUser3Converter
 
 converter = REUser3Converter(
     schema_path="D:/schema/rsz_example.json",
@@ -83,4 +83,5 @@ converter.pack_file("json/OtomonData.user.3.json", "mod/OtomonData.user.3")
 - `-s/--schema-path` 必须传具体的 RE_RSZ 模板 JSON 文件，不能传目录。
 - 程序不会自动寻找 `rsz*.json`、`il2cpp_dump.json` 或 `Enums_Internal.json`。
 - 默认 magic 为 `USR_MAGIC = 0x00525355`、`RSZ_MAGIC = 0x005A5352`，可通过命令行或类参数覆盖。
-- 旧的 `user3_exporter.py` 和 `mhst3_json` 兼容入口已经移除，新代码请统一从 `re_user3` 导入。
+- 旧的 `user3_exporter.py` 和 `mhst3_json` 兼容入口已经移除，新代码请统一从 `pyreuser3` 导入。
+

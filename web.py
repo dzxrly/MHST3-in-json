@@ -1,7 +1,7 @@
 """项目专属 Web 启动器。
 
-`re_user3.web` 只负责 `.user.3` 解包导出。当前根脚本在不修改
-`re_user3` 库的前提下，额外提供 `.msg.23` 转 JSON 的本地网页入口。
+`pyreuser3.web` 只负责 `.user.3` 解包导出。当前根脚本在不修改
+`pyreuser3` 软件包的前提下，额外提供 `.msg.23` 转 JSON 的本地网页入口。
 """
 
 from __future__ import annotations
@@ -13,10 +13,10 @@ from pathlib import Path
 from typing import Any, Callable, Sequence
 from urllib.parse import urlparse
 
-from re_user3.web.handler import make_handler
-from re_user3.web.jobs import JobStore
-from re_user3.web.runners import ConversionRunners
-from re_user3.web.settings import WebSettings
+from pyreuser3.web.handler import make_handler
+from pyreuser3.web.jobs import JobStore
+from pyreuser3.web.runners import ConversionRunners
+from pyreuser3.web.settings import WebSettings
 
 MSG_PAGE = r"""<!doctype html>
 <html lang="zh-CN">

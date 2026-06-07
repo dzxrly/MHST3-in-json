@@ -11,7 +11,7 @@
   - [ScyllaHide](https://github.com/x64dbg/scyllahide)
   - [REFramework/reversing/rsz](https://github.com/praydog/REFramework/tree/master/reversing/rsz)（读一下对应的说明会更方便理解）
   - [ree-pak-rs](https://github.com/eigeen/ree-pak-rs)
-  - Python 3.9+运行环境（整仓库使用[requirements.txt](../requirements.txt)，只导入库时可使用[re_user3/requirements.txt](../re_user3/requirements.txt)）
+  - Python 3.9+运行环境（整仓库使用[requirements.txt](../requirements.txt)，只导入库时可使用[requirements.txt](../requirements.txt)）
 
 ## 0 RE_RSZ模板生成
 
@@ -105,7 +105,7 @@ python .\non-native-dumper.py --out_postfix="mhst3" --natives_path=".\native_lay
 
 ## 2 执行本仓库代码
 
-当前仓库已经从单脚本导出工具整理为通用库：核心代码位于[re_user3](../re_user3)目录，命令行入口仍然是[main.py](../main.py)。旧教程中提到的`user3_exporter.py`已经移除，新项目请统一使用`re_user3`。
+当前仓库已经从单脚本导出工具整理为通用库：核心代码位于PyREUser3 软件包，命令行入口仍然是[main.py](../main.py)。旧教程中提到的`user3_exporter.py`已经移除，新项目请统一使用`pyreuser3`。
 
 新的执行逻辑有三个重点：
 
@@ -133,11 +133,11 @@ git submodule update --init --recursive
 确认目录中存在：
 
 1. [main.py](../main.py)
-2. [re_user3](../re_user3)
-3. [msg_converter.py](../msg_converter.py)
-4. [requirements.txt](../requirements.txt)
-5. [re_user3/requirements.txt](../re_user3/requirements.txt)
-6. [REMSG_Converter](../REMSG_Converter)
+2. [msg_converter.py](../msg_converter.py)
+3. [requirements.txt](../requirements.txt)
+4. [REMSG_Converter](../REMSG_Converter)
+
+核心 `.user.3` 转换功能来自已安装的 PyREUser3 软件包，不再以内置源码目录形式保存在本仓库中。
 
 ### 2.2 安装依赖
 
@@ -148,10 +148,10 @@ conda activate rersz
 pip install -r requirements.txt
 ```
 
-如果你只想在自己的脚本里导入`re_user3`，也可以只安装库内依赖：
+如果你只想在自己的脚本里导入`pyreuser3`，也可以只安装 PyREUser3：
 
 ```bash
-pip install -r re_user3/requirements.txt
+pip install pyreuser3
 ```
 
 如果需要让`main.py export`同时转换`.msg.23`，还需要安装`REMSG_Converter`子模块依赖：
@@ -164,7 +164,7 @@ pip install -r REMSG_Converter/requirements.txt
 
 `export`命令会递归扫描输入目录：
 
-- `.user.3`由`re_user3.User3Exporter`解析为同名`.user.3.json`；
+- `.user.3`由`pyreuser3.User3Exporter`解析为同名`.user.3.json`；
 - `.msg.23`由`msg_converter.py`调用`REMSG_Converter`转换为同名`.msg.23.json`；
 - 输出目录会按输入目录的相对路径还原结构。
 
@@ -216,7 +216,7 @@ python main.py pack ^
 ### 2.5 在其他项目中快速调用
 
 ```python
-from re_user3 import REUser3Converter
+from pyreuser3 import REUser3Converter
 
 converter = REUser3Converter(
     schema_path="D:/schema/rsz_example.json",
@@ -238,7 +238,7 @@ converter.pack_file(
 
 ```python
 from pathlib import Path
-from re_user3 import REUser3Converter
+from pyreuser3 import REUser3Converter
 
 converter = REUser3Converter(
     schema_path="D:/schema/rsz_example.json",
@@ -262,4 +262,5 @@ callback可以返回新的JSON对象，也可以原地修改`data`后返回`None
 
 ### 2.6 `.msg.23`转换补充说明
 
-`re_user3`包只处理`.user.3`。`.msg.23`转换由根目录的[msg_converter.py](../msg_converter.py)调用[REMSG_Converter](../REMSG_Converter)子模块完成。只有使用`main.py export`时，程序才会同时扫描并转换`.msg.23`；如果你只在其他项目中导入`re_user3`，不需要依赖`REMSG_Converter`。
+`pyreuser3` 软件包只处理`.user.3`。`.msg.23`转换由根目录的[msg_converter.py](../msg_converter.py)调用[REMSG_Converter](../REMSG_Converter)子模块完成。只有使用`main.py export`时，程序才会同时扫描并转换`.msg.23`；如果你只在其他项目中导入`pyreuser3`，不需要依赖`REMSG_Converter`。
+
