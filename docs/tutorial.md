@@ -4,14 +4,16 @@
 
 - 仅支持Windows运行环境，其他系统自己想办法调整操作；
 - 游戏本身需要是卡婊的RE引擎，并且了解这个项目目前只能导出RE引擎的`.user.3`数据包文件；
-- 需要有其他大佬为游戏生成了`.list`文件，例如[这个项目](https://github.com/Ekey/REE.PAK.Tool/tree/main/Projects)；
+- 需要有其他大佬为游戏生成了`.list`文件，例如[这个项目](https://github.com/Ekey/REE.PAK.Tool/tree/main/Projects)
+  ，或使用[ree-path-searcher](https://github.com/eigeen/ree-path-searcher)软件自行构建；
 - 需要[REFramework](https://github.com/praydog/REFramework)更新了对游戏的支持，能导出`il2cpp_dump.json`文件；
 - 准备工具：
-  - [x64dbg](https://x64dbg.com/)（64位版本）
-  - [ScyllaHide](https://github.com/x64dbg/scyllahide)
-  - [REFramework/reversing/rsz](https://github.com/praydog/REFramework/tree/master/reversing/rsz)（读一下对应的说明会更方便理解）
-  - [ree-pak-rs](https://github.com/eigeen/ree-pak-rs)
-  - Python 3.9+运行环境（整仓库使用[requirements.txt](../requirements.txt)，只导入库时可使用[requirements.txt](../requirements.txt)）
+    - [x64dbg](https://x64dbg.com/)（64位版本）
+    - [ScyllaHide](https://github.com/x64dbg/scyllahide)
+    - [REFramework/reversing/rsz](https://github.com/praydog/REFramework/tree/master/reversing/rsz)（读一下对应的说明会更方便理解）
+    - [ree-pak-rs](https://github.com/eigeen/ree-pak-rs)
+    - Python 3.9+运行环境（整仓库使用[requirements.txt](../requirements.txt)
+      ，只导入库时可使用[requirements.txt](../requirements.txt)）
 
 ## 0 RE_RSZ模板生成
 
@@ -19,17 +21,21 @@ RE_RSZ模板文件即仓库中的[rszmhst3.json](../rszmhst3.json)，记录了�
 
 ### 0.1 游戏EXE的Dump
 
-ScyllaHide本质上就是一个x64dbg的插件，用于进行部分伪装。假设已经完成了x64dbg的安装，并且下载好了ScyllaHide，那么可以在`ScyllaHide/x64dbg/x64/plugins`中找到如图所示的插件文件。
+ScyllaHide本质上就是一个x64dbg的插件，用于进行部分伪装。假设已经完成了x64dbg的安装，并且下载好了ScyllaHide，那么可以在
+`ScyllaHide/x64dbg/x64/plugins`中找到如图所示的插件文件。
 
 ![ScyllaHide/x64dbg/x64/plugins`下的插件文件](../img/1.png)
 
 将这些文件全部复制到`x64dbg/release/x64/plugins`目录下即完成了ScyllaHide插件的安装。
 
-随后，启动x64dbg（即`x64dbg/release/x64/x64dbg.exe`），以及游戏本身，进一步操作前请确保游戏已经进入了标题页面。在x64dbg的左上角菜单栏点击“文件”，在展开菜单中点击“附加”，在弹出的附件窗口中找到对应的游戏进程，比如物语3的`MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION.exe`。随后，会显示一个这样的页面，重点关注左下角最底下的状态信息。
+随后，启动x64dbg（即`x64dbg/release/x64/x64dbg.exe`
+），以及游戏本身，进一步操作前请确保游戏已经进入了标题页面。在x64dbg的左上角菜单栏点击“文件”，在展开菜单中点击“附加”，在弹出的附件窗口中找到对应的游戏进程，比如物语3的
+`MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION.exe`。随后，会显示一个这样的页面，重点关注左下角最底下的状态信息。
 
 ![x64dbg运行时页面](../img/2.png)
 
-可以看到下方显示：已暂停 INT3 断点 xxxxxx，而不是Successful，说明需要ScyllaHide出马。此时，在x64dbg的上方菜单栏点击“插件”，选择“ScyllaHide”，再选择“Options”，会看下图的弹窗。
+可以看到下方显示：已暂停 INT3 断点
+xxxxxx，而不是Successful，说明需要ScyllaHide出马。此时，在x64dbg的上方菜单栏点击“插件”，选择“ScyllaHide”，再选择“Options”，会看下图的弹窗。
 
 ![ScyllaHide弹窗](../img/3.png)
 
@@ -49,7 +55,8 @@ ScyllaHide本质上就是一个x64dbg的插件，用于进行部分伪装。假�
 
 ![Dump弹窗](../img/6.png)
 
-会出现一个文件对话框，正常来说，应该显示你的游戏的exe+dump标识，比如图中的`MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION_dump.exe`，如果不是则说明你在上一步骤中的下拉框选错了。
+会出现一个文件对话框，正常来说，应该显示你的游戏的exe+dump标识，比如图中的
+`MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION_dump.exe`，如果不是则说明你在上一步骤中的下拉框选错了。
 
 ![Dump文件保存对话框](../img/8.png)
 
@@ -61,7 +68,8 @@ ScyllaHide本质上就是一个x64dbg的插件，用于进行部分伪装。假�
 
 ### 0.2 `il2cpp_dump.json`的生成
 
-为对应的游戏安装`REFramework`随后进入到游戏的标题页面，在REF的菜单中点击“DeveloperTools”，然后再点击“ObjectExplorer”，随后，点击”Dump il2cpp json Only“。
+为对应的游戏安装`REFramework`随后进入到游戏的标题页面，在REF的菜单中点击“DeveloperTools”，然后再点击“ObjectExplorer”，随后，点击”Dump
+il2cpp json Only“。
 
 ![REF操作](../img/10.png)
 
@@ -74,9 +82,11 @@ ScyllaHide本质上就是一个x64dbg的插件，用于进行部分伪装。假�
 1. MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION_dump.exe
 2. il2cpp_dump.json
 
-确保你已经下载了[https://github.com/praydog/REFramework/tree/master/reversing/rsz](https://github.com/praydog/REFramework/tree/master/reversing/rsz)目录下的四个文件，特别是两个`.py`文件和对应的PyPi包依赖文件`requirements.txt`，并且安装了依赖的PyPi包。
+确保你已经下载了[https://github.com/praydog/REFramework/tree/master/reversing/rsz](https://github.com/praydog/REFramework/tree/master/reversing/rsz)
+目录下的四个文件，特别是两个`.py`文件和对应的PyPi包依赖文件`requirements.txt`，并且安装了依赖的PyPi包。
 
-按照[说明](https://github.com/praydog/REFramework/blob/master/reversing/rsz/readme.md)里写的直接在命令行里执行对应的命令即可，例如我这里要导出物语3的RE_RSZ模板，因此执行如下命令：
+按照[说明](https://github.com/praydog/REFramework/blob/master/reversing/rsz/readme.md)
+里写的直接在命令行里执行对应的命令即可，例如我这里要导出物语3的RE_RSZ模板，因此执行如下命令：
 
 ```bash
 python .\emulation-dumper.py --p="游戏根目录/MONSTER_HUNTER_STORIES_3_TWISTED_REFLECTION_dump.exe --il2cpp_path="游戏根目录/il2cpp_dump.json" --test_mode=False
@@ -97,15 +107,18 @@ python .\non-native-dumper.py --out_postfix="mhst3" --natives_path=".\native_lay
 
 ## 1 `.user.3`和`.msg.23`数据包导出
 
-- `.user.3`：使用上面提到的[ree-pak-rs](https://github.com/eigeen/ree-pak-rs)工具解包导出所有`.user.3`文件，推荐在软件左下角的过滤器里输入`.user.3`并点击”应用过滤器“。此时加载文件树就只剩下正确的文件了，找的目录提取保存即可。
+- `.user.3`：使用上面提到的[ree-pak-rs](https://github.com/eigeen/ree-pak-rs)工具解包导出所有`.user.3`文件，推荐在软件左下角的过滤器里输入
+  `.user.3`并点击”应用过滤器“。此时加载文件树就只剩下正确的文件了，找的目录提取保存即可。
 
 ![`.user.3`数据包导出](../img/11.png)
-  
-- `.msg.23`：同理，使用上面提到的[ree-pak-rs](https://github.com/eigeen/ree-pak-rs)工具解包导出所有`.msg.23`文件，推荐在软件左下角的过滤器里输入`.msg.23`并点击”应用过滤器“。此时加载文件树就只剩下正确的文件了，找的目录提取保存即可。
+
+- `.msg.23`：同理，使用上面提到的[ree-pak-rs](https://github.com/eigeen/ree-pak-rs)工具解包导出所有`.msg.23`
+  文件，推荐在软件左下角的过滤器里输入`.msg.23`并点击”应用过滤器“。此时加载文件树就只剩下正确的文件了，找的目录提取保存即可。
 
 ## 2 执行本仓库代码
 
-当前仓库已经从单脚本导出工具整理为通用库：核心代码位于PyREUser3 软件包，命令行入口仍然是[main.py](../main.py)。旧教程中提到的`user3_exporter.py`已经移除，新项目请统一使用`pyreuser3`。
+当前仓库已经从单脚本导出工具整理为通用库：核心代码位于PyREUser3 软件包，命令行入口仍然是[main.py](../main.py)。旧教程中提到的
+`user3_exporter.py`已经移除，新项目请统一使用`pyreuser3`。
 
 新的执行逻辑有三个重点：
 
@@ -262,5 +275,7 @@ callback可以返回新的JSON对象，也可以原地修改`data`后返回`None
 
 ### 2.6 `.msg.23`转换补充说明
 
-`pyreuser3` 软件包只处理`.user.3`。`.msg.23`转换由根目录的[msg_converter.py](../msg_converter.py)调用[REMSG_Converter](../REMSG_Converter)子模块完成。只有使用`main.py export`时，程序才会同时扫描并转换`.msg.23`；如果你只在其他项目中导入`pyreuser3`，不需要依赖`REMSG_Converter`。
+`pyreuser3` 软件包只处理`.user.3`。`.msg.23`转换由根目录的[msg_converter.py](../msg_converter.py)
+调用[REMSG_Converter](../REMSG_Converter)子模块完成。只有使用`main.py export`时，程序才会同时扫描并转换`.msg.23`
+；如果你只在其他项目中导入`pyreuser3`，不需要依赖`REMSG_Converter`。
 
