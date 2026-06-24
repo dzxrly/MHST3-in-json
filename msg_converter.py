@@ -1,6 +1,6 @@
 """`.msg.23` 转 JSON 的轻量包装层。
 
-项目自身的通用库 `re_user3` 只处理 `.user.3`。这里保留对
+项目自身的通用库 `pyreuser3` 只处理 `.user.3`。这里保留对
 `REMSG_Converter` 子模块的调用，让 `main.py export` 可以在同一次
 批处理里顺手转换消息文本文件，同时不把该依赖耦合进核心库。
 """
@@ -13,7 +13,7 @@ import sys
 import types
 from pathlib import Path
 
-from re_user3.rich_ui import BatchProgress
+from pyreuser3.rich_ui import BatchProgress
 
 
 class MsgConverter:

@@ -2,6 +2,15 @@
 
 这个仓库用于解析 RE Engine 游戏的 `.user.3` 数据库文件，并在 `.user.3` 与 JSON 之间双向转换。核心能力已经封装到 PyREUser3 软件包中，可以作为网页工具、命令行工具使用，也可以在其他项目里直接导入调用。
 
+<div align="center">
+<a href="https://github.com/dzxrly/PyREUser3">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dzxrly/PyREUser3/branding/powered-by-pyreuser3-dark.svg">
+    <img alt="Powered by PyREUser3" src="https://raw.githubusercontent.com/dzxrly/PyREUser3/branding/powered-by-pyreuser3-light.svg">
+  </picture>
+</a>
+</div>
+
 ## 文档导航
 
 - [从 0 开始准备模板并导出数据](./docs/tutorial.md)：保留原有逆向、dump、RE_RSZ 模板生成、pak 解包教程，并把最终执行仓库代码的部分更新为新的命令行和库调用方式。
