@@ -1,0 +1,342 @@
+[
+  {
+    "app.user_data.TimelineEventDynamicResourceData": {
+      "_EventID": 19007,
+      "_SearchIDHash": {
+        "ace.cStrHash": {
+          "_Hash": 0
+        }
+      },
+      "_CategoryID": "[1337804672] SHT",
+      "_TimeZoneType": "[531856384] DAYTIME",
+      "_EventStageItemList": [],
+      "_IngameStageItemList": [
+        {
+          "app.user_data.TimelineEventDynamicResourceDataBase.IngameStageItem": {
+            "_SubEventID": 0,
+            "_StageID": "[884165440] st200",
+            "_IsFirstDraw": true
+          }
+        }
+      ],
+      "_BattleStageItemList": [],
+      "_DiffSpaceStageItemList": [],
+      "_SubEventItemList": [
+        {
+          "app.user_data.TimelineEventDynamicResourceData.SubEventItem": {
+            "_SubEventID": 0,
+            "_CutFrameData": [
+              0,
+              2334
+            ],
+            "_ActorItemList": [
+              {
+                "app.user_data.TimelineEventDynamicResourceData.FlowActorItem": {
+                  "_EventNameHash": {
+                    "ace.cStrHash": {
+                      "_Hash": 3767318885
+                    }
+                  },
+                  "_ActorTransformData": {
+                    "app.user_data.TimelineEventDynamicResourceData.TransformData": {
+                      "_StartPos": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "_StartRot": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "app.user_data.TimelineEventDynamicResourceData.FlowActorItem": {
+                  "_EventNameHash": {
+                    "ace.cStrHash": {
+                      "_Hash": 3923090925
+                    }
+                  },
+                  "_ActorTransformData": {
+                    "app.user_data.TimelineEventDynamicResourceData.TransformData": {
+                      "_StartPos": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "_StartRot": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "_CameraData": {
+              "app.user_data.TimelineEventDynamicResourceData.CameraData": {
+                "_FadeTimeStart": 0.0,
+                "_FadeTimeEnd": 0.0,
+                "_StartCameraParam": {
+                  "app.user_data.TimelineEventDynamicResourceData.EventStartCameraParam": {
+                    "_Pos": [
+                      230.5629,
+                      121.3198,
+                      59.2156,
+                      0.0
+                    ],
+                    "_Rot": [
+                      0.0,
+                      -0.8377,
+                      0.0,
+                      0.5461
+                    ],
+                    "_Fov": 1.287,
+                    "_LookAtDistance": 0.0,
+                    "_LookAtPosition": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "_IsOverrideDemoCullingCameraPos": false,
+                "_OverrideDemoCullingCameraPos": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "_EmTransformData": [],
+            "_EmTransformTopFixedList": [],
+            "_GimmickInfoList": [],
+            "_ManualReferencePos": [],
+            "_PreloadPos": [],
+            "_FoliageReferencePos": [],
+            "_CollisionReferencePos": [],
+            "_DemoTextureList": [],
+            "_IsPictureDemo": false,
+            "_CutListData": {
+              "app.user_data.CutsceneCutListData": {
+                "ref_instance_id": 11,
+                "path": "GameDesign/Event/sht/sht9007/sht9007_00/sht9007_00_CutData.user"
+              }
+            }
+          }
+        }
+      ],
+      "_FlowItemList": [
+        {
+          "app.user_data.TimelineEventDynamicResourceData.FlowItem": {
+            "_FlowID": 0,
+            "_SubEventIDList": [
+              0
+            ]
+          }
+        }
+      ],
+      "_MainItem": {
+        "app.user_data.TimelineEventDynamicResourceData.EventItem": {
+          "_IsDisableStartFSM": false,
+          "_IsDisableEndFSM": false,
+          "_MainStoryFlag": "[1038238208] INVALID",
+          "_SideStoryFlag": "[3962488384] INVALID",
+          "_IsMovie": false,
+          "_IsRepeatable": false,
+          "_IsTitle": false,
+          "_IsPlayable": false,
+          "_IsBattleTransition": false,
+          "_IsSeamlessIn": false,
+          "_IsSeamlessOut": false,
+          "_IsPLFemaleMotion": false,
+          "_IsNextWalkTutorial": false,
+          "_IsNextFlyTutorial": false,
+          "_IsInitialEquip": false,
+          "_IsNotOpenGUI": false,
+          "_SkipPointFrame": [],
+          "_IsNotForCutSceneAction": false,
+          "_ActorItemList": [
+            {
+              "app.user_data.TimelineEventDynamicResourceData.EventActorItem": {
+                "_CommentIDHash": {
+                  "ace.cStrHash": {
+                    "_Hash": 2180083513
+                  }
+                },
+                "_ActorIDNameHash": {
+                  "ace.cStrHash": {
+                    "_Hash": 1760467273
+                  }
+                },
+                "_EventNameHash": {
+                  "ace.cStrHash": {
+                    "_Hash": 3923090925
+                  }
+                },
+                "_TagNameHash": {
+                  "ace.cStrHash": {
+                    "_Hash": 0
+                  }
+                },
+                "_MotionConnectBank": {
+                  "": {}
+                },
+                "_UniqueActorEventFlag": {
+                  "ace.Bitset`1<app.user_data.TimelineEventDynamicResourceData.EventActorItem.UNIQUE_EVENT_ACTOR_FLAG>": {
+                    "_Value": [
+                      0
+                    ],
+                    "_MaxElement": 32
+                  }
+                },
+                "_ActorType": 4,
+                "_ActorID": -2005783168,
+                "_BindTargetID_Serializable": 0,
+                "_IsBind": false,
+                "_IsNotPrefabSize": false,
+                "_Size": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                "_IsBaby": false,
+                "_IsMultiInstanceMesh": false,
+                "_SeamlessIn": false,
+                "_SeamlessOut": false,
+                "_DisableSeamlessIn": false,
+                "_DisableSeamlessOut": false,
+                "_EnableAnotherSeamlessIn": false,
+                "_ContextID": "00000000-0000-0000-0000-000000000000",
+                "_CurrentGuid": "72312a0a-d25a-4bef-ac9b-d11c7f14e792",
+                "_PrevGuid": "",
+                "_ParentCharaResourceIDHash": {
+                  "ace.cStrHash": {
+                    "_Hash": 2180083513
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.TimelineEventDynamicResourceData.EventActorItem": {
+                "_CommentIDHash": {
+                  "ace.cStrHash": {
+                    "_Hash": 2180083513
+                  }
+                },
+                "_ActorIDNameHash": {
+                  "ace.cStrHash": {
+                    "_Hash": 1760467273
+                  }
+                },
+                "_EventNameHash": {
+                  "ace.cStrHash": {
+                    "_Hash": 3767318885
+                  }
+                },
+                "_TagNameHash": {
+                  "ace.cStrHash": {
+                    "_Hash": 0
+                  }
+                },
+                "_MotionConnectBank": {
+                  "": {}
+                },
+                "_UniqueActorEventFlag": {
+                  "ace.Bitset`1<app.user_data.TimelineEventDynamicResourceData.EventActorItem.UNIQUE_EVENT_ACTOR_FLAG>": {
+                    "_Value": [
+                      0
+                    ],
+                    "_MaxElement": 32
+                  }
+                },
+                "_ActorType": 4,
+                "_ActorID": -2005783168,
+                "_BindTargetID_Serializable": 0,
+                "_IsBind": false,
+                "_IsNotPrefabSize": false,
+                "_Size": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                "_IsBaby": false,
+                "_IsMultiInstanceMesh": false,
+                "_SeamlessIn": false,
+                "_SeamlessOut": false,
+                "_DisableSeamlessIn": false,
+                "_DisableSeamlessOut": false,
+                "_EnableAnotherSeamlessIn": false,
+                "_ContextID": "00000000-0000-0000-0000-000000000000",
+                "_CurrentGuid": "8825e4be-e0ae-4240-923b-4354b853fb81",
+                "_PrevGuid": "",
+                "_ParentCharaResourceIDHash": {
+                  "ace.cStrHash": {
+                    "_Hash": 2180083513
+                  }
+                }
+              }
+            }
+          ],
+          "_PauseTagFlags": 0,
+          "_EventStandbyData": {
+            "app.user_data.TimelineEventDynamicResourceData.StandbyData": {
+              "_IsTargetPosDisable": false,
+              "_IsTargetPosManual": false,
+              "_TargetPos": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "_MotionList": "",
+              "_MotionID": -1,
+              "_EndType": 0,
+              "_MoveType": 0,
+              "_IsRotationFree": true,
+              "_IsEndPosAdjust": true,
+              "_EndPosAdjustTime": 0.0,
+              "_EndPosAdjustEaseType": 0,
+              "_MotionConnectBank": {
+                "": {}
+              },
+              "_TimeLimit": 0.0,
+              "_ArriveDist": 0.0,
+              "_StandbySkipDist": 0.0,
+              "_MotionConnectBankInEvent": {
+                "": {}
+              }
+            }
+          },
+          "_DeleteNpcList": [],
+          "_HideAccList": [],
+          "_InitialEquipPartner": [],
+          "_IsChangeFlowIdForFemale": false,
+          "_IsNotWaitCloseGUI": false,
+          "_IsSimpleLoadStage": false,
+          "_MovieList": [],
+          "_PreOpenGUIList": [],
+          "_CloseGUIList": [],
+          "_FadeEnableSecond": 0
+        }
+      },
+      "_SubCameraMainItem": {
+        "app.user_data.TimelineEventDynamicResourceData.SubCameraItem": {
+          "_SubCameraInfo": []
+        }
+      }
+    }
+  }
+]

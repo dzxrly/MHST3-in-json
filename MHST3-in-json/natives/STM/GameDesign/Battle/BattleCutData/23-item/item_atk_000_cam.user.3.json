@@ -1,9 +1,9 @@
 [
   {
     "app.user_data.BattleCutCameraData": {
-      "_TotalFrame": 385.0,
+      "_TotalFrame": 380.0,
       "_StartFrame": 0.0,
-      "_EndFrame": 385.0,
+      "_EndFrame": 380.0,
       "_IsLongRangeAtk": true,
       "_StopBoundingBoxList": [],
       "_GenericCameraList": [
@@ -2430,7 +2430,7 @@
             },
             "_BoundingBoxCalcType": 1358858240,
             "_BoundingBoxTargetType": 173343104,
-            "_Fov": 40.0,
+            "_Fov": 60.0,
             "_LookAtPos": [
               -2.5214,
               15.75,
@@ -2438,18 +2438,18 @@
               0.0
             ],
             "_AttachDeg": [
-              11.8,
-              -13.74,
+              11.0,
+              -11.38,
               0.0,
               0.0
             ],
-            "_Distance": 1.2,
+            "_Distance": 0.6,
             "_CheckWallCollision": true
           }
         },
         {
           "app.user_data.BattleCutCameraData.cGenericCameraTrack": {
-            "_Frame": 187.0,
+            "_Frame": 186.0,
             "_CutId": 7,
             "_Ease": {
               "app.user_data.BattleCutCameraData.cGenericCameraTrack.cGenericCameraEase": {
@@ -2630,10 +2630,10 @@
             },
             "_BoundingBoxCalcType": 1358858240,
             "_BoundingBoxTargetType": 173343104,
-            "_Fov": 40.0,
+            "_Fov": 50.0,
             "_LookAtPos": [
               -2.5214,
-              15.87,
+              15.82,
               1.5198,
               0.0
             ],
@@ -2643,13 +2643,177 @@
               0.0,
               0.0
             ],
-            "_Distance": 0.8,
+            "_Distance": 0.7,
             "_CheckWallCollision": true
           }
         },
         {
           "app.user_data.BattleCutCameraData.cGenericCameraTrack": {
-            "_Frame": 225.0,
+            "_Frame": 186.0,
+            "_CutId": 8,
+            "_Ease": {
+              "app.user_data.BattleCutCameraData.cGenericCameraTrack.cGenericCameraEase": {
+                "_InverseRotateY": false,
+                "_EaseFOV": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseLookAtPos": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseAttachDeg": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseDistance": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "_BoundingBoxCalcType": 1358858240,
+            "_BoundingBoxTargetType": 173343104,
+            "_Fov": 25.0,
+            "_LookAtPos": [
+              -2.5214,
+              15.77,
+              1.5198,
+              0.0
+            ],
+            "_AttachDeg": [
+              13.18,
+              -10.06,
+              0.0,
+              0.0
+            ],
+            "_Distance": 0.7,
+            "_CheckWallCollision": false
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cGenericCameraTrack": {
+            "_Frame": 222.0,
             "_CutId": 8,
             "_Ease": {
               "app.user_data.BattleCutCameraData.cGenericCameraTrack.cGenericCameraEase": {
@@ -2830,21 +2994,185 @@
             },
             "_BoundingBoxCalcType": 1358858240,
             "_BoundingBoxTargetType": 173343104,
-            "_Fov": 40.0,
+            "_Fov": 25.0,
             "_LookAtPos": [
               -2.5214,
-              15.87,
+              15.77,
               1.5198,
               0.0
             ],
             "_AttachDeg": [
-              15.74,
-              -13.94,
+              13.18,
+              -10.06,
               0.0,
               0.0
             ],
-            "_Distance": 1.1,
+            "_Distance": 0.8,
             "_CheckWallCollision": true
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cGenericCameraTrack": {
+            "_Frame": 222.0,
+            "_CutId": 9,
+            "_Ease": {
+              "app.user_data.BattleCutCameraData.cGenericCameraTrack.cGenericCameraEase": {
+                "_InverseRotateY": false,
+                "_EaseFOV": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseLookAtPos": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseAttachDeg": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                },
+                "_EaseDistance": {
+                  "app.user_data.cBattleCutEase": {
+                    "_Inverse": false,
+                    "_Curve": {
+                      "via.AnimationCurve": {
+                        "v0": [],
+                        "v1": {
+                          "raw": "00002041",
+                          "type": "Data"
+                        },
+                        "v2": {
+                          "raw": "000020c1",
+                          "type": "Data"
+                        },
+                        "v3": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v4": {
+                          "raw": "0000c842",
+                          "type": "Data"
+                        },
+                        "v5": {
+                          "raw": "00000000",
+                          "type": "Data"
+                        },
+                        "v6": {
+                          "raw": "02000000",
+                          "type": "Data"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "_BoundingBoxCalcType": 1358858240,
+            "_BoundingBoxTargetType": 173343104,
+            "_Fov": 40.0,
+            "_LookAtPos": [
+              -2.3259,
+              16.0194,
+              0.3923,
+              0.0
+            ],
+            "_AttachDeg": [
+              13.78,
+              -10.02,
+              0.0,
+              0.0
+            ],
+            "_Distance": 2.0,
+            "_CheckWallCollision": false
           }
         },
         {
@@ -2861,47 +3189,19 @@
                       "via.AnimationCurve": {
                         "v0": [
                           {
-                            "raw": "0000000004000000000000006536662e",
+                            "raw": "25cae53b0600000000000000ae275134",
                             "type": "Data"
                           },
                           {
-                            "raw": "ad13b03e0400662eaa34662eaa34662e",
+                            "raw": "298b9c3d0600be307a301c310034b732",
                             "type": "Data"
                           },
                           {
-                            "raw": "7424173f040066328e32662e8b32662e",
+                            "raw": "b059563f060065367a3070311d355c33",
                             "type": "Data"
                           },
                           {
-                            "raw": "ce88423f0400cc346330662e6330662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "89d25e3f04006536882d662e862d662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "0000703f04000038672a662e642a662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "4772793f0400cc389026662e8826662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "29ed7d3f040098398c21662e8121662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "24977f3f0400663aa21a662e761a662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "72f97f3f0400323b360f662ed30d662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "0000803f0400003cb502662e00000000",
+                            "raw": "0000803f0600003c7a2ccc3800000000",
                             "type": "Data"
                           }
                         ],
@@ -2940,47 +3240,19 @@
                       "via.AnimationCurve": {
                         "v0": [
                           {
-                            "raw": "0000000004000000000000006536662e",
+                            "raw": "25cae53b0600000000000000ae275134",
                             "type": "Data"
                           },
                           {
-                            "raw": "ad13b03e0400662eaa34662eaa34662e",
+                            "raw": "298b9c3d0600be307a301c310034b732",
                             "type": "Data"
                           },
                           {
-                            "raw": "7424173f040066328e32662e8b32662e",
+                            "raw": "b059563f060065367a3070311d355c33",
                             "type": "Data"
                           },
                           {
-                            "raw": "ce88423f0400cc346330662e6330662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "89d25e3f04006536882d662e862d662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "0000703f04000038672a662e642a662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "4772793f0400cc389026662e8826662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "29ed7d3f040098398c21662e8121662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "24977f3f0400663aa21a662e761a662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "72f97f3f0400323b360f662ed30d662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "0000803f0400003cb502662e00000000",
+                            "raw": "0000803f0600003c7a2ccc3800000000",
                             "type": "Data"
                           }
                         ],
@@ -3019,47 +3291,19 @@
                       "via.AnimationCurve": {
                         "v0": [
                           {
-                            "raw": "0000000004000000000000006536662e",
+                            "raw": "25cae53b0600000000000000ae275134",
                             "type": "Data"
                           },
                           {
-                            "raw": "ad13b03e0400662eaa34662eaa34662e",
+                            "raw": "298b9c3d0600be307a301c310034b732",
                             "type": "Data"
                           },
                           {
-                            "raw": "7424173f040066328e32662e8b32662e",
+                            "raw": "b059563f060065367a3070311d355c33",
                             "type": "Data"
                           },
                           {
-                            "raw": "ce88423f0400cc346330662e6330662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "89d25e3f04006536882d662e862d662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "0000703f04000038672a662e642a662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "4772793f0400cc389026662e8826662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "29ed7d3f040098398c21662e8121662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "24977f3f0400663aa21a662e761a662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "72f97f3f0400323b360f662ed30d662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "0000803f0400003cb502662e00000000",
+                            "raw": "0000803f0600003c7a2ccc3800000000",
                             "type": "Data"
                           }
                         ],
@@ -3098,47 +3342,19 @@
                       "via.AnimationCurve": {
                         "v0": [
                           {
-                            "raw": "0000000004000000000000006536662e",
+                            "raw": "25cae53b0600000000000000ae275134",
                             "type": "Data"
                           },
                           {
-                            "raw": "ad13b03e0400662eaa34662eaa34662e",
+                            "raw": "298b9c3d0600be307a301c310034b732",
                             "type": "Data"
                           },
                           {
-                            "raw": "7424173f040066328e32662e8b32662e",
+                            "raw": "b059563f060065367a3070311d355c33",
                             "type": "Data"
                           },
                           {
-                            "raw": "ce88423f0400cc346330662e6330662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "89d25e3f04006536882d662e862d662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "0000703f04000038672a662e642a662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "4772793f0400cc389026662e8826662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "29ed7d3f040098398c21662e8121662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "24977f3f0400663aa21a662e761a662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "72f97f3f0400323b360f662ed30d662e",
-                            "type": "Data"
-                          },
-                          {
-                            "raw": "0000803f0400003cb502662e00000000",
+                            "raw": "0000803f0600003c7a2ccc3800000000",
                             "type": "Data"
                           }
                         ],
@@ -3174,7 +3390,7 @@
             },
             "_BoundingBoxCalcType": 1358858240,
             "_BoundingBoxTargetType": 173343104,
-            "_Fov": 50.0,
+            "_Fov": 60.0,
             "_LookAtPos": [
               -2.3299,
               15.9,
@@ -3182,12 +3398,12 @@
               0.0
             ],
             "_AttachDeg": [
-              12.16,
-              -9.94,
+              13.78,
+              -10.02,
               0.0,
               0.0
             ],
-            "_Distance": 2.6,
+            "_Distance": 2.4,
             "_CheckWallCollision": true
           }
         },
@@ -3374,7 +3590,7 @@
             },
             "_BoundingBoxCalcType": 1358858240,
             "_BoundingBoxTargetType": 173343104,
-            "_Fov": 50.0,
+            "_Fov": 60.0,
             "_LookAtPos": [
               -2.3299,
               15.9,
@@ -3382,12 +3598,12 @@
               0.0
             ],
             "_AttachDeg": [
-              12.18,
-              -10.3,
+              13.78,
+              -10.02,
               0.0,
               0.0
             ],
-            "_Distance": 2.6,
+            "_Distance": 2.45,
             "_CheckWallCollision": true
           }
         },
@@ -4425,7 +4641,7 @@
         },
         {
           "app.user_data.BattleCutCameraData.cGenericCameraTrack": {
-            "_Frame": 385.0,
+            "_Frame": 380.0,
             "_CutId": 14,
             "_Ease": {
               "app.user_data.BattleCutCameraData.cGenericCameraTrack.cGenericCameraEase": {
@@ -4753,7 +4969,7 @@
             "_Fov": 30.0,
             "_LookAtPos": [
               -2.55,
-              15.9105,
+              15.9,
               1.3517,
               0.0
             ],
@@ -4763,7 +4979,7 @@
               0.0,
               0.0
             ],
-            "_Distance": 12.5,
+            "_Distance": 12.0,
             "_CheckWallCollision": true
           }
         }
@@ -4972,8 +5188,8 @@
         {
           "app.user_data.BattleCutCameraData.cRollTrack": {
             "_CutId": 2,
-            "_Frame": 280.0,
-            "_RollDeg": 4.0,
+            "_Frame": 221.0,
+            "_RollDeg": -4.0,
             "_Ease": {
               "app.user_data.cBattleCutEase": {
                 "_Inverse": false,
@@ -5022,7 +5238,207 @@
         {
           "app.user_data.BattleCutCameraData.cRollTrack": {
             "_CutId": 2,
-            "_Frame": 340.0,
+            "_Frame": 232.0,
+            "_RollDeg": -4.0,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "00000000010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cRollTrack": {
+            "_CutId": 3,
+            "_Frame": 279.0,
+            "_RollDeg": -4.0,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": true,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "00000000010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cRollTrack": {
+            "_CutId": 3,
+            "_Frame": 291.0,
+            "_RollDeg": -4.0,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": true,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "00000000010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cRollTrack": {
+            "_CutId": 4,
+            "_Frame": 291.0,
+            "_RollDeg": 4.0,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "00000000010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cRollTrack": {
+            "_CutId": 4,
+            "_Frame": 303.0,
             "_RollDeg": 4.0,
             "_Ease": {
               "app.user_data.cBattleCutEase": {
@@ -5070,7 +5486,340 @@
           }
         }
       ],
-      "_PlayRateList": [],
+      "_PlayRateList": [
+        {
+          "app.user_data.BattleCutCameraData.cPlayRateTrack": {
+            "_CutId": 0,
+            "_Frame": 132.0,
+            "_PlayRateRate": 0.5,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "0000803f010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "000000000100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cPlayRateTrack": {
+            "_CutId": 0,
+            "_Frame": 144.0,
+            "_PlayRateRate": 0.5,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "0000803f010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "000000000100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cPlayRateTrack": {
+            "_CutId": 1,
+            "_Frame": 185.0,
+            "_PlayRateRate": 0.4,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "0000803f010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "000000000100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cPlayRateTrack": {
+            "_CutId": 1,
+            "_Frame": 196.0,
+            "_PlayRateRate": 0.4,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "0000803f010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "000000000100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cPlayRateTrack": {
+            "_CutId": 2,
+            "_Frame": 323.0,
+            "_PlayRateRate": 0.85,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "83d4cf3b010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "a20e6d3f01008f360000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "000000000100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "app.user_data.BattleCutCameraData.cPlayRateTrack": {
+            "_CutId": 2,
+            "_Frame": 333.0,
+            "_PlayRateRate": 0.85,
+            "_Ease": {
+              "app.user_data.cBattleCutEase": {
+                "_Inverse": false,
+                "_Curve": {
+                  "via.AnimationCurve": {
+                    "v0": [
+                      {
+                        "raw": "83d4cf3b010000000000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "a20e6d3f01008f360000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "0000803f0100003c0000000000000000",
+                        "type": "Data"
+                      },
+                      {
+                        "raw": "000000000100003c0000000000000000",
+                        "type": "Data"
+                      }
+                    ],
+                    "v1": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v2": {
+                      "raw": "0000803f",
+                      "type": "Data"
+                    },
+                    "v3": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v4": {
+                      "raw": "0000c842",
+                      "type": "Data"
+                    },
+                    "v5": {
+                      "raw": "00000000",
+                      "type": "Data"
+                    },
+                    "v6": {
+                      "raw": "02000000",
+                      "type": "Data"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
       "_ShakeList": [],
       "_HiddenActorList": [],
       "_HiddenTargetList": [],

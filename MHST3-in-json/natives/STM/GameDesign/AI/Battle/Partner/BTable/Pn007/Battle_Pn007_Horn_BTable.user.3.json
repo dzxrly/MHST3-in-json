@@ -13,7 +13,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 1
+                            "ace.btable.cEditFieldTableGuid": "74556c53-2036-4e52-b228-91cd8e744cd7"
                           }
                         }
                       },
@@ -58,7 +58,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckPnWeaponEx_UseableMelodyArg": {
                           "_MelodyType": {
-                            "ref_instance_id": 11
+                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckPnWeaponEx_UseableMelodyArg.MELODY_TYPE>": 10
                           }
                         }
                       }
@@ -110,23 +110,23 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetPnWeaponEx_HornSkillSongArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 24
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": [
                             {
-                              "ref_instance_id": 25
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "899b4a93-ae13-40bc-805b-85ba0127fc60"
                             },
                             {
-                              "ref_instance_id": 26
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "4e17b5e9-cbb6-4c8f-9d05-5acf6c2568fd"
                             },
                             {
-                              "ref_instance_id": 27
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "f936c5a6-2733-40ad-a696-c0d7de77e76d"
                             },
                             {
-                              "ref_instance_id": 28
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "23b22ea0-95ae-4bbc-b861-85dae0517743"
                             },
                             {
-                              "ref_instance_id": 29
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "00000000-0000-0000-0000-000000000000"
                             }
                           ]
                         }
@@ -155,23 +155,23 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetPnWeaponEx_HornSkillSongArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 36
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": [
                             {
-                              "ref_instance_id": 37
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "899b4a93-ae13-40bc-805b-85ba0127fc60"
                             },
                             {
-                              "ref_instance_id": 38
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "4e17b5e9-cbb6-4c8f-9d05-5acf6c2568fd"
                             },
                             {
-                              "ref_instance_id": 39
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "f936c5a6-2733-40ad-a696-c0d7de77e76d"
                             },
                             {
-                              "ref_instance_id": 40
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "23b22ea0-95ae-4bbc-b861-85dae0517743"
                             },
                             {
-                              "ref_instance_id": 41
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "00000000-0000-0000-0000-000000000000"
                             }
                           ]
                         }
@@ -188,16 +188,16 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillID_PnArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 45
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 46
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "e04e565d-76ab-4afa-899c-94f26657a57c"
                           },
                           "_Weight": {
-                            "ref_instance_id": 47
+                            "ace.btable.cEditFieldFloat": 200.0
                           },
                           "_ContinueWeightRate": {
-                            "ref_instance_id": 48
+                            "ace.btable.cEditFieldFloat": 0.0
                           }
                         }
                       }
@@ -278,10 +278,7 @@
         }
       },
       "_ThisGuid": "435ba2a6-32c0-07aa-28db-a62459e42c57",
-      "_ExportBTableType": {
-        "raw": "01000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "",
       "_CommandArgArray": [],
       "_UseExportArgData": false
     }

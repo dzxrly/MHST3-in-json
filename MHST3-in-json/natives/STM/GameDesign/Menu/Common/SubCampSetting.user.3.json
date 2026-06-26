@@ -308,7 +308,7 @@
               },
               {
                 "app.user_data.SubCampSetting.cLayoutInfo.cNpcInfo": {
-                  "_NpcID": 560120320,
+                  "_NpcID": "[560120320] NPC301_10_013_000",
                   "_Pos": [
                     -1.1216,
                     0.0,
@@ -641,7 +641,7 @@
               },
               {
                 "app.user_data.SubCampSetting.cLayoutInfo.cNpcInfo": {
-                  "_NpcID": 560120320,
+                  "_NpcID": "[560120320] NPC301_10_013_000",
                   "_Pos": [
                     1.2051,
                     0.0575,
@@ -685,7 +685,142 @@
           }
         }
       ],
-      "_EnaLayouFlag": "[6715] M_5B0_43"
+      "_EnaLayouFlag": "[6715] M_5B0_43",
+      "_NLayoutInfo": [
+        {
+          "app.user_data.SubCampSetting.cNLayoutInfo": {
+            "_CutIndex": 0,
+            "_Pos": [
+              5.0568,
+              1.025,
+              1.1834,
+              0.0
+            ],
+            "_Rot": [
+              0.0,
+              -0.7995,
+              0.0,
+              0.6006
+            ],
+            "_MotionSetID": 409601
+          }
+        },
+        {
+          "app.user_data.SubCampSetting.cNLayoutInfo": {
+            "_CutIndex": 1,
+            "_Pos": [
+              0.2801,
+              0.9001,
+              -1.5819,
+              0.0
+            ],
+            "_Rot": [
+              0.0,
+              0.592,
+              0.0,
+              0.8059
+            ],
+            "_MotionSetID": 409602
+          }
+        },
+        {
+          "app.user_data.SubCampSetting.cNLayoutInfo": {
+            "_CutIndex": 2,
+            "_Pos": [
+              -0.7024,
+              2.107,
+              -5.4424,
+              0.0
+            ],
+            "_Rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "_MotionSetID": 409603
+          }
+        },
+        {
+          "app.user_data.SubCampSetting.cNLayoutInfo": {
+            "_CutIndex": 4,
+            "_Pos": [
+              -0.6594,
+              2.0906,
+              -5.2885,
+              0.0
+            ],
+            "_Rot": [
+              -0.0,
+              -0.0434,
+              0.0,
+              0.9991
+            ],
+            "_MotionSetID": 409605
+          }
+        },
+        {
+          "app.user_data.SubCampSetting.cNLayoutInfo": {
+            "_CutIndex": 5,
+            "_Pos": [
+              2.2403,
+              0.7607,
+              3.2818,
+              0.0
+            ],
+            "_Rot": [
+              0.0,
+              0.8239,
+              0.0,
+              0.5668
+            ],
+            "_MotionSetID": 409606
+          }
+        },
+        {
+          "app.user_data.SubCampSetting.cNLayoutInfo": {
+            "_CutIndex": 7,
+            "_Pos": [
+              1.7173,
+              2.4144,
+              -0.8126,
+              0.0
+            ],
+            "_Rot": [
+              0.0,
+              0.2618,
+              0.0,
+              0.9651
+            ],
+            "_MotionSetID": 409608
+          }
+        },
+        {
+          "app.user_data.SubCampSetting.cNLayoutInfo": {
+            "_CutIndex": 8,
+            "_Pos": [
+              0.691,
+              0.9709,
+              -0.1451,
+              0.0
+            ],
+            "_Rot": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "_MotionSetID": 409609
+          }
+        }
+      ],
+      "_NLayoutTerm": {
+        "app.cSideStoryTerm": {
+          "_IsCheckTerm": true,
+          "_SideStoryFlagBegin": "[13420] S_064_100",
+          "_SideStoryFlagEnd": "[17107] S_064_105"
+        }
+      }
     }
   }
 ]

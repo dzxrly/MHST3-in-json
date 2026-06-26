@@ -29,10 +29,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 5
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 6
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 6
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "9fcd3866-9d4a-4f99-a712-ce19f427f27d"
                           }
                         }
                       }
@@ -44,7 +44,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 9
+                            "ace.btable.cEditFieldTableGuid": "5f8e1ab0-8fed-4b8e-98c2-c868b4cd53db"
                           }
                         }
                       },
@@ -64,10 +64,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 14
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 6
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 15
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "5a515ef8-b2de-4182-a849-0f7ebb668882"
                           }
                         }
                       }
@@ -79,7 +79,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 18
+                            "ace.btable.cEditFieldTableGuid": "e332e1ce-8b16-44be-995a-d2d5ae051f0b"
                           }
                         }
                       },
@@ -136,10 +136,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 31
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 6
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 32
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "5a515ef8-b2de-4182-a849-0f7ebb668882"
                           }
                         }
                       }
@@ -174,10 +174,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectEnumArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 40
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditEnumFixID": {
-                            "ref_instance_id": 41
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": -695438464
                           }
                         }
                       }
@@ -193,10 +193,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 45
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 46
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "9d6da462-b2e0-4a6a-b28d-4ffb7d7e0bc9"
                           }
                         }
                       }
@@ -248,12 +248,9 @@
         }
       },
       "_ThisGuid": "0750f34a-6bd1-4550-bf85-6802c0fef5b5",
-      "_ExportBTableType": {
-        "raw": "37000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_OtomonBTable_ActionSwitch_Underground_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

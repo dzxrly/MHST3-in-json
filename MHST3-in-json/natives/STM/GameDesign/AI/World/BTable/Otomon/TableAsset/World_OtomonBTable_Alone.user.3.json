@@ -17,13 +17,13 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckDistanceForParamArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditDistGuid": {
-                            "ref_instance_id": 3
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "8bfe083d-1214-4d80-bf49-6f36b1ed5da6"
                           },
                           "_ComparType": {
-                            "ref_instance_id": 4
+                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cCheckDistanceForParamArg.COMPAR_TYPE>": 0
                           }
                         }
                       }
@@ -39,7 +39,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 8
+                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": 0
                           }
                         }
                       }
@@ -67,7 +67,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cOtomon_SetMoveSpeedArg": {
                           "_SpeedLevel": {
-                            "ref_instance_id": 15
+                            "ace.btable.cEditFieldEnum`1<app.WorldCharacterDefine.SPEED_LV>": 0
                           }
                         }
                       }
@@ -79,7 +79,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 18
+                            "ace.btable.cEditFieldImportTableGuid": "f2f70bff-97e5-4fb2-8e5e-d656f2d487fa|1c453768-324a-4688-9751-442bb7994169"
                           }
                         }
                       },
@@ -123,7 +123,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckEnumArg`1<app.World_OtomonAIDef.AI_NAVI_TARGET>": {
                           "_Enum": {
-                            "ref_instance_id": 29
+                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_NAVI_TARGET>": 50
                           }
                         }
                       }
@@ -139,7 +139,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cOtomon_SetMoveSpeedArg": {
                           "_SpeedLevel": {
-                            "ref_instance_id": 33
+                            "ace.btable.cEditFieldEnum`1<app.WorldCharacterDefine.SPEED_LV>": 0
                           }
                         }
                       }
@@ -151,7 +151,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 36
+                            "ace.btable.cEditFieldImportTableGuid": "f2f70bff-97e5-4fb2-8e5e-d656f2d487fa|1c453768-324a-4688-9751-442bb7994169"
                           }
                         }
                       },
@@ -207,10 +207,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectEnumArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 50
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditEnumFixID": {
-                            "ref_instance_id": 51
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 891450368
                           }
                         }
                       }
@@ -222,7 +222,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 54
+                            "ace.btable.cEditFieldImportTableGuid": "a77221af-7728-406f-b62c-ef8cd584889c|cccdf82d-d479-4398-9965-e4ad123c7729"
                           }
                         }
                       },
@@ -242,10 +242,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectEnumArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 59
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditEnumFixID": {
-                            "ref_instance_id": 60
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 1304088192
                           }
                         }
                       }
@@ -257,7 +257,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 63
+                            "ace.btable.cEditFieldImportTableGuid": "15abb1c9-b40e-4863-8afc-b1620f05afe6|7da5561e-aff3-4988-9266-5e42805874c4"
                           }
                         }
                       },
@@ -285,7 +285,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 70
+                            "ace.btable.cEditFieldImportTableGuid": "f2f70bff-97e5-4fb2-8e5e-d656f2d487fa|2062adb4-8da6-4cf3-8588-7636b6c21acd"
                           }
                         }
                       },
@@ -329,7 +329,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 81
+                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": 1
                           }
                         }
                       }
@@ -341,7 +341,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 84
+                            "ace.btable.cEditFieldTableGuid": "21f5f9b5-5157-4565-80ad-ab153d8e5f4d"
                           }
                         }
                       },
@@ -361,7 +361,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 89
+                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": 2
                           }
                         }
                       }
@@ -373,7 +373,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 92
+                            "ace.btable.cEditFieldTableGuid": "a83fb574-d4dd-4bfd-a3d0-b616cc2c3be3"
                           }
                         }
                       },
@@ -393,7 +393,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 97
+                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": 3
                           }
                         }
                       }
@@ -409,7 +409,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cOtomon_SetMoveSpeedArg": {
                           "_SpeedLevel": {
-                            "ref_instance_id": 101
+                            "ace.btable.cEditFieldEnum`1<app.WorldCharacterDefine.SPEED_LV>": 3
                           }
                         }
                       }
@@ -487,10 +487,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectEnumArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 119
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditEnumFixID": {
-                            "ref_instance_id": 120
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 1304088192
                           }
                         }
                       }
@@ -506,7 +506,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cOtomon_SetMoveSpeedArg": {
                           "_SpeedLevel": {
-                            "ref_instance_id": 124
+                            "ace.btable.cEditFieldEnum`1<app.WorldCharacterDefine.SPEED_LV>": 4
                           }
                         }
                       }
@@ -582,12 +582,9 @@
         }
       },
       "_ThisGuid": "21adc678-4256-41f7-a6cb-8f92ccb78ea9",
-      "_ExportBTableType": {
-        "raw": "24000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_OtomonBTable_Alone_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

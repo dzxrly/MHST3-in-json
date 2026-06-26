@@ -346,7 +346,7 @@
         },
         {
           "app.snd_user_data.EnemySetMusicAction": {
-            "_EnemySetIdFixed": 1246,
+            "_EnemySetIdFixed": "[1246] VS_SS_007_03_00",
             "_Action": [
               {
                 "app.snd_user_data.MusicAction": {
@@ -362,11 +362,125 @@
               }
             ]
           }
+        },
+        {
+          "app.snd_user_data.EnemySetMusicAction": {
+            "_EnemySetIdFixed": "[10356] VS_Q_TU_00_00",
+            "_Action": [
+              {
+                "app.snd_user_data.MusicAction": {
+                  "_TriggerIdWithUserCue": 4294967295,
+                  "_Action": {
+                    "app.snd_user_data.MusicAction.Action": 1
+                  },
+                  "_StateGroupId": 2878716875,
+                  "_StateId": 4052233869,
+                  "_TriggerId": 4294967295,
+                  "_DelayTime": 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.snd_user_data.EnemySetMusicAction": {
+            "_EnemySetIdFixed": "[14374] KING_EM502_00_80",
+            "_Action": [
+              {
+                "app.snd_user_data.MusicAction": {
+                  "_TriggerIdWithUserCue": 4294967295,
+                  "_Action": {
+                    "app.snd_user_data.MusicAction.Action": 1
+                  },
+                  "_StateGroupId": 2878716875,
+                  "_StateId": 4052233869,
+                  "_TriggerId": 4294967295,
+                  "_DelayTime": 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.snd_user_data.EnemySetMusicAction": {
+            "_EnemySetIdFixed": "[23945] KING_EM0125_00_00_1",
+            "_Action": [
+              {
+                "app.snd_user_data.MusicAction": {
+                  "_TriggerIdWithUserCue": 4294967295,
+                  "_Action": {
+                    "app.snd_user_data.MusicAction.Action": 1
+                  },
+                  "_StateGroupId": 2878716875,
+                  "_StateId": 1384050881,
+                  "_TriggerId": 4294967295,
+                  "_DelayTime": 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.snd_user_data.EnemySetMusicAction": {
+            "_EnemySetIdFixed": "[408] KING_EM0029_00_00_1",
+            "_Action": [
+              {
+                "app.snd_user_data.MusicAction": {
+                  "_TriggerIdWithUserCue": 4294967295,
+                  "_Action": {
+                    "app.snd_user_data.MusicAction.Action": 1
+                  },
+                  "_StateGroupId": 2878716875,
+                  "_StateId": 1015090384,
+                  "_TriggerId": 4294967295,
+                  "_DelayTime": 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.snd_user_data.EnemySetMusicAction": {
+            "_EnemySetIdFixed": "[27380] KING_EM0096_00_00_1",
+            "_Action": [
+              {
+                "app.snd_user_data.MusicAction": {
+                  "_TriggerIdWithUserCue": 4294967295,
+                  "_Action": {
+                    "app.snd_user_data.MusicAction.Action": 1
+                  },
+                  "_StateGroupId": 2878716875,
+                  "_StateId": 3014902385,
+                  "_TriggerId": 4294967295,
+                  "_DelayTime": 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.snd_user_data.EnemySetMusicAction": {
+            "_EnemySetIdFixed": "[6415] KING_EM0124_00_00_1",
+            "_Action": [
+              {
+                "app.snd_user_data.MusicAction": {
+                  "_TriggerIdWithUserCue": 4294967295,
+                  "_Action": {
+                    "app.snd_user_data.MusicAction.Action": 1
+                  },
+                  "_StateGroupId": 2878716875,
+                  "_StateId": 1384050880,
+                  "_TriggerId": 4294967295,
+                  "_DelayTime": 0.0
+                }
+              }
+            ]
+          }
         }
       ],
       "_EnemyCategoryList": {
         "app.snd_user_data.SoundEnemyCategoryList": {
-          "ref_instance_id": 58,
+          "ref_instance_id": 76,
           "path": "Sound/Resouce/snd_UserData/BGM_UserData/SoundEnemyCategoryList.user"
         }
       },
@@ -537,6 +651,25 @@
                   },
                   "_StateGroupId": 2878716875,
                   "_StateId": 3038572853,
+                  "_TriggerId": 4294967295,
+                  "_DelayTime": 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.snd_user_data.DefaultEnemyCategoryMusicAction": {
+            "_EnemyCategory": "[2756204032] DRAGON_ELDER",
+            "_Action": [
+              {
+                "app.snd_user_data.MusicAction": {
+                  "_TriggerIdWithUserCue": 4294967295,
+                  "_Action": {
+                    "app.snd_user_data.MusicAction.Action": 1
+                  },
+                  "_StateGroupId": 2878716875,
+                  "_StateId": 1109373233,
                   "_TriggerId": 4294967295,
                   "_DelayTime": 0.0
                 }

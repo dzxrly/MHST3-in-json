@@ -1,0 +1,542 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "_ActionClassList": [
+        {
+          "app.WorldPartnerCatNRideGroundAction.cNone": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackStartLeft": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackStartRight": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackStartDashLeft": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackStartDashRight": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackStartWall": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackStartGlidingJump": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackStartFreeStyle": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackStartEndIdle": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackStartEndDash": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackStartEndWall": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackRideChange": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackIdle": {
+            "_ActionSafeLimitTime": -1.0,
+            "_VariActionMinSec": 10.0,
+            "_VariActionRandomAddSec": 10.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackIdleVariPlayer": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackDash": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackWall": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackIdleToDash": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackIdleToWall": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackDashToIdle": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackDashToWall": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackWallToIdle": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cBackWallToDash": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontStart": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontStartWall": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontRideChange": {
+            "_ActionSafeLimitTime": -1.0,
+            "_ActionEndFrame": 15.0,
+            "_DissolveSec": 0.25
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontIdle": {
+            "_ActionSafeLimitTime": -1.0,
+            "_VariActionMinSec": 10.0,
+            "_VariActionRandomAddSec": 10.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontDash": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontWall": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontIdleToDash": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontIdleToWall": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontDashToIdle": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontDashToWall": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontWallToIdle": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldPartnerCatNRideGroundAction.cFrontWallToDash": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "0eb6d1e3-d1f6-454a-a45f-cb5957e767ca",
+            "_ActionGuid": "f3396a5f-ee19-49d0-b240-ea8e3576fb91",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "8e651b5e-0b25-4404-9020-da972ffabec1",
+            "_ActionGuid": "83ae20d8-1c97-47bf-bf28-5b6de690f811",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "0d8fac67-d470-4a08-a439-0484b53a2146",
+            "_ActionGuid": "f5bd296c-72a2-4241-86cc-3e780da19f96",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "4dd48ee8-2738-472b-ba88-930642b8d647",
+            "_ActionGuid": "5da1a30b-f095-4d02-8690-6f0dc468642a",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "7ef5e3cf-3295-490f-981a-44dcedefa2a7",
+            "_ActionGuid": "99022b14-9f9a-43ea-ba30-3a5d83ec9484",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "77396d9c-ee19-452a-8dc5-f6e02dc2a996",
+            "_ActionGuid": "a7de4047-b736-432b-9957-96fbfa5ecc9f",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "ad08f87f-5da7-420a-8578-162d41b186b0",
+            "_ActionGuid": "67d00aac-ccf3-479a-9ec3-be6ba1d2bf59",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "6ba0a968-ea72-4a55-9f2c-ecda73ae6a9c",
+            "_ActionGuid": "d2edf8fa-c342-45b1-9197-b145b6897d2d",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "51cac6f6-4b13-429f-a546-96c7f13f53fe",
+            "_ActionGuid": "ad222472-43cd-4a55-bdaa-45f0f19a7cf6",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "319d4658-f1e0-4010-8dde-a7aa48a4e9cf",
+            "_ActionGuid": "6e0c3809-3475-4a86-b37f-e9ac50df9e6c",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "61f5de9b-3512-4bb9-829d-3659f425381c",
+            "_ActionGuid": "5a92c71d-9640-4451-af2a-0f9e3b4790d1",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "3f601776-0cba-49b3-a3bd-faac062e3ea7",
+            "_ActionGuid": "df9dd86f-781f-4899-8551-5dbb83bb7ad8",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "6b1ab502-1419-4b05-8867-942313f176c9",
+            "_ActionGuid": "e93f99cf-34fe-457a-9598-ea4dfd66d43c",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "ac254642-dbb1-4139-8231-205fd5732de5",
+            "_ActionGuid": "4a560733-780b-44b1-aa67-bb6f895c23ee",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "6f0dc2b7-4848-4d83-9c65-6cae433ff981",
+            "_ActionGuid": "9ce32009-babf-4593-b7ec-d68ec862e67f",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "77652795-90a8-40d5-95fc-b549f2b70812",
+            "_ActionGuid": "159205da-462b-4f1e-bd2e-fbf4dcb6a986",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "c53f1666-5831-4754-812f-1ad4aaec74a8",
+            "_ActionGuid": "5ae0392b-a769-4347-ad52-d81e30d3ad9f",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "9fe71578-4b03-4777-8001-27618c60f4d3",
+            "_ActionGuid": "1e48fab9-150e-4b9f-8751-559bd6043214",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "5bdc9279-29eb-4988-8654-7077910c258e",
+            "_ActionGuid": "26f83b3d-3772-4f3a-9be3-74ef81a9e4e3",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "143d9965-06ca-4cce-a34a-8e290e1f5723",
+            "_ActionGuid": "ecf8028a-ec8d-4810-882b-7a083fce28e4",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "295d6483-2a97-4a19-b853-1b1eca44af5c",
+            "_ActionGuid": "5c88adf0-4afe-42a1-a2bc-de6d6f2a78e7",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "10d0a85f-4e66-4cd5-92a3-30e6f2d88dde",
+            "_ActionGuid": "ad984193-07ce-49da-8070-88c47d3c6334",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "d0ba4026-08d0-4645-9cd7-f594174311a0",
+            "_ActionGuid": "bea37c94-9150-4546-8d9e-f567513eabc6",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "7446849e-8d46-4e76-9658-9294f6845802",
+            "_ActionGuid": "93e74e11-3d09-49cd-bb4d-703bc09749d4",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "1fd06c06-817a-4e07-98e6-d71371fdbc44",
+            "_ActionGuid": "90898a16-1324-4971-a74b-f28d14e671d9",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "1971524e-e9b4-4578-80c3-3b6da628d6e3",
+            "_ActionGuid": "63af50a1-8a1a-412b-b31c-6ca1e34ec97f",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "e0599f73-88e1-4873-9251-7883db69f69a",
+            "_ActionGuid": "45dd4779-bf87-4a27-9adc-8a77c2d5f3f1",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "5f249ca4-2b45-4499-acea-d70041a82d94",
+            "_ActionGuid": "3eca2838-d144-4975-9532-63db18f86795",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "df0d247b-9211-4f70-a70a-5f137af04237",
+            "_ActionGuid": "32a044bc-44a7-4472-96cb-80e16b654b81",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "e7d5d666-1ca3-47a4-ba71-f6ff579631f4",
+            "_ActionGuid": "0be1b283-181f-40c6-a36e-f0caddc26081",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "182b8802-a7a0-481e-aa40-ea2ec1167a01",
+            "_ActionGuid": "703bf406-cdcd-49cb-837f-38ada5cfc4a1",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "520e8fb7-60ac-4121-9aab-edf5e17598c2",
+            "_ActionGuid": "195ab139-ac4a-424e-9253-96b879b26ca6",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "e12ed8bf-9d9a-4090-9964-d3e4ac6d3c7b",
+            "_ActionGuid": "ac092159-0b1f-4ff3-91b1-b751f15a2140",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "cb6694b7-e9ef-41db-b648-c0037308053a",
+            "_ActionGuid": "e31a51fe-7da0-4b07-8ba9-f9da3b803aad",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 69,
+              "path": "GameDesign/Partner/ActionData/RideGround/PnCatN_RideGround_ActionID.user"
+            }
+          },
+          "_ExportGuid": "40deb910-47ea-4d34-b615-41d4316fb43b"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {}
+      }
+    }
+  }
+]

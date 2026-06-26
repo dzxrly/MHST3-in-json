@@ -13,7 +13,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 1
+                            "ace.btable.cEditFieldTableGuid": "74556c53-2036-4e52-b228-91cd8e744cd7"
                           }
                         }
                       },
@@ -58,7 +58,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckPnWeaponEx_UseableMelodyArg": {
                           "_MelodyType": {
-                            "ref_instance_id": 11
+                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckPnWeaponEx_UseableMelodyArg.MELODY_TYPE>": 10
                           }
                         }
                       }
@@ -98,23 +98,23 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetPnWeaponEx_HornSkillSongArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 21
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": [
                             {
-                              "ref_instance_id": 22
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "f0047f8b-2ed8-4507-9431-481ac8a3371d"
                             },
                             {
-                              "ref_instance_id": 23
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "7e6d27d9-1761-48d2-96b4-149a2da71f08"
                             },
                             {
-                              "ref_instance_id": 24
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "f936c5a6-2733-40ad-a696-c0d7de77e76d"
                             },
                             {
-                              "ref_instance_id": 25
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "7fb05c42-3596-4b84-90c1-9e0d522fc6d6"
                             },
                             {
-                              "ref_instance_id": 26
+                              "ace.btable.cEditFieldDropBox`1<System.Guid>": "c4a5e279-3ebc-4272-955f-3cf1d4b408c8"
                             }
                           ]
                         }
@@ -184,10 +184,7 @@
         }
       },
       "_ThisGuid": "af9844fc-6779-0729-1475-eca62b4031a6",
-      "_ExportBTableType": {
-        "raw": "01000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "",
       "_CommandArgArray": [],
       "_UseExportArgData": false
     }

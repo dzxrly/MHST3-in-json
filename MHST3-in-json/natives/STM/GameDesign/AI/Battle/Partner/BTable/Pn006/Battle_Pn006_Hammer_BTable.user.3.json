@@ -13,7 +13,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 1
+                            "ace.btable.cEditFieldTableGuid": "74556c53-2036-4e52-b228-91cd8e744cd7"
                           }
                         }
                       },
@@ -70,16 +70,16 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillID_PnArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 14
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 15
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "f93471e5-49cd-4722-b205-a737a4140aec"
                           },
                           "_Weight": {
-                            "ref_instance_id": 16
+                            "ace.btable.cEditFieldFloat": 10.0
                           },
                           "_ContinueWeightRate": {
-                            "ref_instance_id": 17
+                            "ace.btable.cEditFieldFloat": 100.0
                           }
                         }
                       }
@@ -95,16 +95,16 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillID_PnArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 21
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 22
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "4371ecd8-e1a5-4d55-bfd9-ed0aa16b6219"
                           },
                           "_Weight": {
-                            "ref_instance_id": 23
+                            "ace.btable.cEditFieldFloat": 70.0
                           },
                           "_ContinueWeightRate": {
-                            "ref_instance_id": 24
+                            "ace.btable.cEditFieldFloat": 100.0
                           }
                         }
                       }
@@ -120,10 +120,10 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetPnWeaponEx_HammerChaserAttackArg": {
                           "_Weight": {
-                            "ref_instance_id": 28
+                            "ace.btable.cEditFieldFloat": 200.0
                           },
                           "_NoneWeight": {
-                            "ref_instance_id": 29
+                            "ace.btable.cEditFieldFloat": 0.0
                           }
                         }
                       }
@@ -151,16 +151,16 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillID_PnArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 36
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 37
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "f93471e5-49cd-4722-b205-a737a4140aec"
                           },
                           "_Weight": {
-                            "ref_instance_id": 38
+                            "ace.btable.cEditFieldFloat": 70.0
                           },
                           "_ContinueWeightRate": {
-                            "ref_instance_id": 39
+                            "ace.btable.cEditFieldFloat": 100.0
                           }
                         }
                       }
@@ -176,16 +176,16 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillID_PnArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 43
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 44
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "4371ecd8-e1a5-4d55-bfd9-ed0aa16b6219"
                           },
                           "_Weight": {
-                            "ref_instance_id": 45
+                            "ace.btable.cEditFieldFloat": 10.0
                           },
                           "_ContinueWeightRate": {
-                            "ref_instance_id": 46
+                            "ace.btable.cEditFieldFloat": 100.0
                           }
                         }
                       }
@@ -201,10 +201,10 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetPnWeaponEx_HammerChaserAttackArg": {
                           "_Weight": {
-                            "ref_instance_id": 50
+                            "ace.btable.cEditFieldFloat": 200.0
                           },
                           "_NoneWeight": {
-                            "ref_instance_id": 51
+                            "ace.btable.cEditFieldFloat": 0.0
                           }
                         }
                       }
@@ -273,10 +273,7 @@
         }
       },
       "_ThisGuid": "31d82fa1-083e-0f6f-2f40-2827668c9c18",
-      "_ExportBTableType": {
-        "raw": "01000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "",
       "_CommandArgArray": [],
       "_UseExportArgData": false
     }

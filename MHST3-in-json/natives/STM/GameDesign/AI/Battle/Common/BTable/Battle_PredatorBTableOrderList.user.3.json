@@ -2,9 +2,59 @@
   {
     "ace.btable.user_data.BTableOrderList": {
       "_OperatorFactories": [],
-      "_CommandFactories": [],
+      "_CommandFactories": [
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetPredatorHintMsg",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetPredatorHintMsgArg",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_PredatorTrigger",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_PredatorTriggerArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cChackPredatorTriggerSkillCount",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cChackPredatorTriggerSkillCountArg",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetChargeSkillID_PredatorTrigger",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetChargeSkillID_PredatorTriggerArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckPredatorHoneyNum",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_2003v2",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_2003Arg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        }
+      ],
       "_OperatorHashList": [],
-      "_CommandHashList": []
+      "_CommandHashList": [
+        6192611228917304229,
+        4302807466954480264,
+        5796061928666799108,
+        4553121580290791611,
+        5181877045197524468,
+        15292307095758345406
+      ]
     }
   }
 ]

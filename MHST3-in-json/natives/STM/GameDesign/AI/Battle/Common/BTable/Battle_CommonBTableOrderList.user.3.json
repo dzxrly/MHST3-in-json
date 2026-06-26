@@ -2,9 +2,283 @@
   {
     "ace.btable.user_data.BTableOrderList": {
       "_OperatorFactories": [],
-      "_CommandFactories": [],
+      "_CommandFactories": [
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cActorHp",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cActorHpnext",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cBt_ChackDecreasedMorphHp",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cBt_ChackPartyHpRate",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckActorStamina",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckBttleStepStatus",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckProgressTurn",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckMorphProgressTurn",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckTotalTurnMultiple",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckTotalTurnMultipleArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_Counter",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetAntiDamageAction",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetDamageReaction",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckDamageEffectInfo",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckDamageEffectInfoArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckDamageResultEffect",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckDamageResultEffectArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckMorphStatus",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfo",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceBuffCount",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfo",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfo_Steady",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckDamagePartsInfo",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckDamagePartsInfoArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetChargeSkillID",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetChargeSkillIDArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_Child",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_ChildArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting_Child"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cResetProgressTurn",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckMorphTimes",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckBossBattleSuccessTimes",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckReceivedDamageCount",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckUsedSkillCount_InMorph",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckUsedSkillCount_InMorphArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cResetUsedSkillCount_InMorph",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cStopProgressTurn",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckCharaDead",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckCharaDeadArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckHealHpTimes",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_Em3077",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_Em3077Arg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_Continuous",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        }
+      ],
       "_OperatorHashList": [],
-      "_CommandHashList": []
+      "_CommandHashList": [
+        7748684201005650480,
+        14050206458017275385,
+        9161978820892107383,
+        17642435849473909573,
+        2367421315396456365,
+        15744174655346669706,
+        18102953576439037638,
+        1242848815196633815,
+        14372542566759922113,
+        8718590499035196621,
+        2139777410036064270,
+        14263809555148388656,
+        16073539500054384723,
+        320220240820316684,
+        12657657158257013529,
+        191398017322770734,
+        12800327421053533761,
+        17310356911831618107,
+        2458751515924522242,
+        9601788297313322652,
+        6186110466532041130,
+        7091678171481655991,
+        4395700065369706436,
+        13011128201779775481,
+        17018505903889060358,
+        11902141844868346667,
+        16921061581003117140,
+        15229192817492910467,
+        17755981965628577480,
+        5326516869967412146,
+        4131015717520695539,
+        7454553538365194192,
+        5447001531930281949,
+        13951797989096713083
+      ]
     }
   }
 ]

@@ -1247,20 +1247,36 @@
                       "_ScaleY": {
                         "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
                           "_RideValue": {
-                            "ref_instance_id": 178
+                            "app.AppCharaUtil.cMotionSpeedParam": {
+                              "_Type": 0,
+                              "_KilometerPerHourParam": 0.0,
+                              "_MotionSpeed": 1.0
+                            }
                           },
                           "_AloneValue": {
-                            "ref_instance_id": 179
+                            "app.AppCharaUtil.cMotionSpeedParam": {
+                              "_Type": 0,
+                              "_KilometerPerHourParam": 0.0,
+                              "_MotionSpeed": 1.0
+                            }
                           }
                         }
                       },
                       "_ScaleZ": {
                         "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
                           "_RideValue": {
-                            "ref_instance_id": 181
+                            "app.AppCharaUtil.cMotionSpeedParam": {
+                              "_Type": 1,
+                              "_KilometerPerHourParam": 140.0,
+                              "_MotionSpeed": 1.0
+                            }
                           },
                           "_AloneValue": {
-                            "ref_instance_id": 182
+                            "app.AppCharaUtil.cMotionSpeedParam": {
+                              "_Type": 1,
+                              "_KilometerPerHourParam": 140.0,
+                              "_MotionSpeed": 1.0
+                            }
                           }
                         }
                       },
@@ -1331,10 +1347,14 @@
                       "_SpeedScale": {
                         "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.WorldOtomonAction_Fly.cFlyMove.SpeedScaleList>": {
                           "_RideValue": {
-                            "ref_instance_id": 193
+                            "app.WorldOtomonAction_Fly.cFlyMove.SpeedScaleList": {
+                              "_SpeedScales": []
+                            }
                           },
                           "_AloneValue": {
-                            "ref_instance_id": 194
+                            "app.WorldOtomonAction_Fly.cFlyMove.SpeedScaleList": {
+                              "_SpeedScales": []
+                            }
                           }
                         }
                       },
@@ -1422,7 +1442,7 @@
                       }
                     }
                   },
-                  "_Guid": "a0582130-7002-0b84-1067-d3951d33985d"
+                  "_Guid": "d581c881-9686-01b6-0a5e-8cbeff23e483"
                 }
               }
             ]
@@ -1452,7 +1472,7 @@
       "_ActionInfoList": [
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "1330406a-0a7d-0da9-0338-72e0ff951e34",
+            "_Guid": "66e9a9db-ecf9-079b-1901-2dcb1d8562ea",
             "_ActionGuid": "c4cfc200-ca4c-47b5-8c12-d1d61733b104",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],
@@ -1462,7 +1482,7 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "b70750ba-a99f-0770-14fb-1488494d44af",
+            "_Guid": "c2deb90b-4f1b-0d42-0ec2-4ba3ab5d3871",
             "_ActionGuid": "038ab87c-b5bf-4fb2-8e33-516f49292a0b",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],
@@ -1472,7 +1492,7 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "8a5fd184-b6a8-0f40-1ca2-17b418de020b",
+            "_Guid": "ff863835-502c-0572-069b-489fface7ed5",
             "_ActionGuid": "1bd6ca90-f7ef-4b32-be8c-580589a8cdba",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],
@@ -1482,7 +1502,7 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "942f3a2a-112b-0def-3497-2c40e1dbacf9",
+            "_Guid": "e1f6d39b-f7af-07dd-2eae-736b03cbd027",
             "_ActionGuid": "67dfe838-7cb4-4bba-830c-a8a5cf03d4a7",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],
@@ -1492,7 +1512,7 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "5572ef3a-d5c7-0609-2757-587fa4a5f3a3",
+            "_Guid": "20ab068b-3343-0c3b-3d6e-075446b58f7d",
             "_ActionGuid": "3848be86-460a-451c-8d84-a47bfd7132c7",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],
@@ -1502,7 +1522,7 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "32f5da4c-4483-0a0c-00a3-1897b674c201",
+            "_Guid": "472c33fd-a207-003e-1a9a-47bc5464bedf",
             "_ActionGuid": "e47900d9-c759-4d80-9a44-ad8dd8a74bf7",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],
@@ -1512,7 +1532,7 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "348ca95d-70ac-071a-02c8-719401c958ad",
+            "_Guid": "415540ec-9628-0d28-18f1-2ebfe3d92473",
             "_ActionGuid": "542e9040-fa3c-4ff7-9012-0b33cfd9cb0b",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],
@@ -1522,7 +1542,7 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "27b06d15-0d10-0d3f-29b1-01683bc84fb1",
+            "_Guid": "526984a4-eb94-070d-3388-5e43d9d8336f",
             "_ActionGuid": "0d716772-32b1-48c0-973c-0c07a70a0984",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],
@@ -1532,7 +1552,7 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "29053ce4-6198-074f-3978-640860abda71",
+            "_Guid": "5cdcd555-871c-0d7d-2341-3b2382bba6af",
             "_ActionGuid": "dd131d0f-2e0f-475a-9467-49acf5f5726b",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],
@@ -1542,7 +1562,7 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "3e74ecbd-52ab-0b97-1c68-ea1dbfd7190a",
+            "_Guid": "4bad050c-b42f-01a5-0651-b5365dc765d4",
             "_ActionGuid": "cf008032-f7be-41f5-ad67-cfc91deb7389",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],
@@ -1552,7 +1572,7 @@
         },
         {
           "ace.user_data.ActionParam.cInfo": {
-            "_Guid": "aa40ac6e-3c13-0f5b-1f7f-17cd41fe5ca5",
+            "_Guid": "df9945df-da97-0569-0546-48e6a3ee207b",
             "_ActionGuid": "456eb8d1-9a79-46ce-ad1e-c11f0e5b44cc",
             "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
             "_OverrideParamNameArray": [],

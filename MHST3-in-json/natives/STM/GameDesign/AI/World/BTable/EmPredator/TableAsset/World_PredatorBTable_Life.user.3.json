@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": {
                           "_State": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": 0
                           }
                         }
                       }
@@ -29,7 +29,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 5
+                            "ace.btable.cEditFieldTableGuid": "8ce6aaf4-3e33-4e5f-bd1f-d85cabdfaf26"
                           }
                         }
                       },
@@ -57,7 +57,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 12
+                            "ace.btable.cEditFieldInt": 50
                           }
                         }
                       },
@@ -73,7 +73,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 16
+                            "ace.btable.cEditFieldTableGuid": "8b36cb2e-cfe3-43bc-ad9c-2f0864fc4e0e"
                           }
                         }
                       },
@@ -89,7 +89,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 20
+                            "ace.btable.cEditFieldTableGuid": "8ce6aaf4-3e33-4e5f-bd1f-d85cabdfaf26"
                           }
                         }
                       },
@@ -105,7 +105,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 24
+                            "ace.btable.cEditFieldInt": 0
                           }
                         }
                       },
@@ -121,7 +121,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 28
+                            "ace.btable.cEditFieldTableGuid": "8b36cb2e-cfe3-43bc-ad9c-2f0864fc4e0e"
                           }
                         }
                       },
@@ -180,7 +180,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 42
+                            "ace.btable.cEditFieldInt": 0
                           }
                         }
                       },
@@ -196,7 +196,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 46
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|62d2c9e8-c213-4692-9062-2421aaae4a8e"
                           }
                         }
                       },
@@ -212,7 +212,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 50
+                            "ace.btable.cEditFieldInt": 50
                           }
                         }
                       },
@@ -228,7 +228,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 54
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|4d2aaeba-3927-43cb-93ee-1e3461090e10"
                           }
                         }
                       },
@@ -275,7 +275,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 65
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|a994d98c-1547-4b29-8482-a01d04013d0a"
                           }
                         }
                       },
@@ -325,12 +325,9 @@
         }
       },
       "_ThisGuid": "98e840f9-6037-4e01-8022-d068bb384c9a",
-      "_ExportBTableType": {
-        "raw": "25000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_PredatorBTable_Life_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

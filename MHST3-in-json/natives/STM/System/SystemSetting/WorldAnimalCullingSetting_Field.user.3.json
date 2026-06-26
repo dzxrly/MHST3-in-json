@@ -16,7 +16,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 2
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 100.0,
+                                    "_Margin": 5.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 0,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -27,7 +42,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 5
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 100.0,
+                                    "_Margin": 5.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -38,13 +68,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 8
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 30.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 10
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 30.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 12
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 30.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -55,13 +130,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 15
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 40.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 17
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 50.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 19
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 50.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -72,13 +192,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 22
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 45.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 24
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 70.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 26
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 70.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -89,13 +254,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 29
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 50.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 31
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 90.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 33
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 90.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -106,13 +316,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 36
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 65.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 38
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 90.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 40
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 90.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -123,13 +378,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 43
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 70.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 45
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 100.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 47
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 100.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -151,7 +451,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 52
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 200.0,
+                                    "_Margin": 5.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 8
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -162,7 +477,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 55
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 120.0,
+                                    "_Margin": 5.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -173,13 +503,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 58
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 60.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 60
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 60.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 62
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 60.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -190,13 +565,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 65
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 70.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 67
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 70.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 69
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 70.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -207,13 +627,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 72
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 60.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 74
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 150.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 76
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 150.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -224,13 +689,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 79
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 100.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 81
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 170.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 83
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 170.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -241,13 +751,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 86
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 150.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 88
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 180.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 90
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 180.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -258,13 +813,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 93
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 210.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 95
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 210.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 97
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 210.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -286,7 +886,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 102
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 700.0,
+                                    "_Margin": 5.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 10
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -297,7 +912,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 105
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -308,13 +938,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 108
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 50.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 110
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 112
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -325,13 +1000,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 115
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 220.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 117
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 250.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 119
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 250.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -342,13 +1062,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 122
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 250.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 124
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 300.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 126
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 300.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -359,13 +1124,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 129
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 420.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 131
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 420.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 133
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 420.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -376,13 +1186,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 136
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 700.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 138
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 700.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 140
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 700.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -393,13 +1248,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 143
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 145
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 147
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -421,7 +1321,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 152
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -432,7 +1347,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 155
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -443,13 +1373,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 158
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 160
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 162
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -460,13 +1435,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 165
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 167
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 169
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -477,13 +1497,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 172
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 174
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 176
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -494,13 +1559,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 179
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 181
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 183
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -511,13 +1621,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 186
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 188
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 190
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -528,13 +1683,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 193
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 195
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 197
+                              "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }

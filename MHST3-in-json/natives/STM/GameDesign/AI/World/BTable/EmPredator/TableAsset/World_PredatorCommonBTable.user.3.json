@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": 0
                           }
                         }
                       }
@@ -29,7 +29,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 5
+                            "ace.btable.cEditFieldImportTableGuid": "98e840f9-6037-4e01-8022-d068bb384c9a|ce0fcf9b-bd98-4aff-9a36-a9498be359d3"
                           }
                         }
                       },
@@ -57,7 +57,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 12
+                            "ace.btable.cEditFieldImportTableGuid": "c2078b80-9759-4e22-81d8-784f6a65d749|b0ea2e85-51ad-43d8-8913-d5da597fe129"
                           }
                         }
                       },
@@ -119,12 +119,9 @@
         }
       },
       "_ThisGuid": "ff34566e-6b9f-4642-966d-b9f527a59f19",
-      "_ExportBTableType": {
-        "raw": "26000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_PredatorCommonBTable_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

@@ -1,7 +1,108 @@
 [
   {
     "soundlib.SoundSubManagerInstanceSettings": {
-      "_SubManagerTypes": []
+      "_SubManagerTypes": [
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "soundlib.SoundAudioInputManager",
+            "_Setting": {
+              "": {}
+            }
+          }
+        },
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "soundlib.SoundCallbackManager",
+            "_Setting": {
+              "": {}
+            }
+          }
+        },
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "soundlib.SoundGameParameterManager",
+            "_Setting": {
+              "soundlib.SoundGameParameterManagerSettings": {
+                "ref_instance_id": 3,
+                "path": "Sound/Resouce/SoundGameParameterManagerSettings.user"
+              }
+            }
+          }
+        },
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "soundlib.SoundMaterialManager",
+            "_Setting": {
+              "": {}
+            }
+          }
+        },
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "app.SoundObsOclManagerApp",
+            "_Setting": {
+              "soundlib.SoundObsOclManagerSettings": {
+                "ref_instance_id": 6,
+                "path": "Sound/Resouce/SoundObsOclManagerSettings.user"
+              }
+            }
+          }
+        },
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "soundlib.SoundSpaceManager",
+            "_Setting": {
+              "": {}
+            }
+          }
+        },
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "app.SoundStateManagerApp",
+            "_Setting": {
+              "app.SoundStateManagerAppSettings": {
+                "ref_instance_id": 9,
+                "path": "Sound/Resouce/SoundStateManagerAppSettings.user"
+              }
+            }
+          }
+        },
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "soundlib.SoundSwitchManager",
+            "_Setting": {
+              "": {}
+            }
+          }
+        },
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "soundlib.SoundContainer.SoundContainerManager",
+            "_Setting": {
+              "": {}
+            }
+          }
+        },
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "soundlib.SoundManager.SoundCullingManager",
+            "_Setting": {
+              "": {}
+            }
+          }
+        },
+        {
+          "soundlib.SoundSubManagerInstanceSettings.SettingElement": {
+            "_Selection": "app.SoundPauseManager",
+            "_Setting": {
+              "app.SoundPauseManagerSettingsData": {
+                "ref_instance_id": 14,
+                "path": "Sound/Resouce/SoundPauseManagerSettings.user"
+              }
+            }
+          }
+        }
+      ]
     }
   }
 ]

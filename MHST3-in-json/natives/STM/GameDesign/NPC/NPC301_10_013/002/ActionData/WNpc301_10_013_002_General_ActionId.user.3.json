@@ -1,0 +1,146 @@
+[
+  {
+    "ace.user_data.ActionID": {
+      "_ActionIDArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cNone",
+                "_InstanceGuid": "c5d43c9f-5e9a-42f3-bb2d-939da2b2f77b",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "a176167d-4943-43ac-b079-5d3b077876ac",
+                "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+                "_LowerGuid": "f08f650f-9f9e-085a-0acd-4d24cdcd8df1"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdle",
+                "_InstanceGuid": "f08f650f-9f9e-085a-0acd-4d24cdcd8df1",
+                "_OverrideOwnerClass": true,
+                "_BaseActionGuid": "6dce91b6-f77a-0904-149d-963f39726499",
+                "_UpperGuid": "c5d43c9f-5e9a-42f3-bb2d-939da2b2f77b",
+                "_LowerGuid": "078b00b7-da6a-46f0-9165-f92d85ac3aff"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cJobIdle",
+                "_InstanceGuid": "078b00b7-da6a-46f0-9165-f92d85ac3aff",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00531efe-a746-4b3a-96a6-7413dc588b7f",
+                "_UpperGuid": "f08f650f-9f9e-085a-0acd-4d24cdcd8df1",
+                "_LowerGuid": "62322fd5-a68e-0a26-2fb3-82630ffdf883"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cRiderJobIdle",
+                "_InstanceGuid": "62322fd5-a68e-0a26-2fb3-82630ffdf883",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "218c10a4-f8f1-4f12-8f86-58efaf555ac4",
+                "_UpperGuid": "078b00b7-da6a-46f0-9165-f92d85ac3aff",
+                "_LowerGuid": "819f81cf-ff25-4574-b4b4-4d62b51c39c5"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cWalk",
+                "_InstanceGuid": "819f81cf-ff25-4574-b4b4-4d62b51c39c5",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "1e0911a9-5b27-0f44-24b5-e301f69dfc98",
+                "_UpperGuid": "62322fd5-a68e-0a26-2fb3-82630ffdf883",
+                "_LowerGuid": "c795cd99-b87c-03b7-2507-a5639f4dc5e6"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cTalk",
+                "_InstanceGuid": "c795cd99-b87c-03b7-2507-a5639f4dc5e6",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "3b1a1e29-3d69-4bdb-b243-605cdcd7adcd",
+                "_UpperGuid": "819f81cf-ff25-4574-b4b4-4d62b51c39c5",
+                "_LowerGuid": "b28bb9b8-7e97-41f5-a63e-ac9f8017009a"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cTalkEnd",
+                "_InstanceGuid": "b28bb9b8-7e97-41f5-a63e-ac9f8017009a",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "f20124e3-ea0a-4855-a1be-87aad25dbad3",
+                "_UpperGuid": "c795cd99-b87c-03b7-2507-a5639f4dc5e6",
+                "_LowerGuid": "d1cb64dc-2703-0bf5-0862-a15b82ce16d2"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cCompanionTalk",
+                "_InstanceGuid": "d1cb64dc-2703-0bf5-0862-a15b82ce16d2",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "f92520f2-adba-0c5d-3e63-9c8032717158",
+                "_UpperGuid": "b28bb9b8-7e97-41f5-a63e-ac9f8017009a",
+                "_LowerGuid": "bebde716-c91e-4bb6-8255-795d5aee6fab"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cCompanionTalkEnd",
+                "_InstanceGuid": "bebde716-c91e-4bb6-8255-795d5aee6fab",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "a27e0887-5a42-0542-3f4f-23294e01efa2",
+                "_UpperGuid": "d1cb64dc-2703-0bf5-0862-a15b82ce16d2",
+                "_LowerGuid": "da0911b6-2346-01e2-0fbc-8f42a0f99fb1"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cTalkDemoJacked",
+                "_InstanceGuid": "da0911b6-2346-01e2-0fbc-8f42a0f99fb1",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "ba70a460-6711-0706-0016-b4dbb185255b",
+                "_UpperGuid": "bebde716-c91e-4bb6-8255-795d5aee6fab",
+                "_LowerGuid": "52c72ded-82a5-4e30-aa5f-03ce6c2c0d76"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cMissionDemoJacked",
+                "_InstanceGuid": "52c72ded-82a5-4e30-aa5f-03ce6c2c0d76",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "cd51b64f-4a73-0672-0b18-a858c6039b6f",
+                "_UpperGuid": "da0911b6-2346-01e2-0fbc-8f42a0f99fb1",
+                "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+              }
+            }
+          ]
+        }
+      },
+      "_ExportSettingArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cExport": {
+                "_Guid": "f8232397-32d0-43c8-94b5-1a1c683c8b90",
+                "_ClassName": "WNpc301_10_013_002_ActionGeneral",
+                "_ActionCategory": 0
+              }
+            }
+          ]
+        }
+      },
+      "_BaseActionID": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 15,
+              "path": "GameDesign/NPC/NPC301_10_010/002/ActionData/WNpc301_10_010_002_General_ActionId.user"
+            }
+          },
+          "_ExportGuid": "ce07069c-95b1-46a7-a4d1-46a261a5c09e"
+        }
+      }
+    }
+  }
+]

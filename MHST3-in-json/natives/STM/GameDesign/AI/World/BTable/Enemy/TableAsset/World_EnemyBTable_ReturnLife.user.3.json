@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": {
                           "_State": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": 0
                           }
                         }
                       }
@@ -41,7 +41,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 8
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|dc7a4173-7be4-4645-9ffa-fd7495bbc7f3"
                           }
                         }
                       },
@@ -69,7 +69,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 15
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|a994d98c-1547-4b29-8482-a01d04013d0a"
                           }
                         }
                       },
@@ -109,7 +109,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 25
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|62d2c9e8-c213-4692-9062-2421aaae4a8e"
                           }
                         }
                       },
@@ -165,12 +165,9 @@
         }
       },
       "_ThisGuid": "f8189516-09ee-0756-2127-3de3ea655e79",
-      "_ExportBTableType": {
-        "raw": "28000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_EnemyBTable_ReturnLife_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

@@ -189,31 +189,6 @@
                 "app.user_data.TimelineEventDynamicResourceData.FlowActorItem": {
                   "_EventNameHash": {
                     "ace.cStrHash": {
-                      "_Hash": 507685647
-                    }
-                  },
-                  "_ActorTransformData": {
-                    "app.user_data.TimelineEventDynamicResourceData.TransformData": {
-                      "_StartPos": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        0.0
-                      ],
-                      "_StartRot": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ]
-                    }
-                  }
-                }
-              },
-              {
-                "app.user_data.TimelineEventDynamicResourceData.FlowActorItem": {
-                  "_EventNameHash": {
-                    "ace.cStrHash": {
                       "_Hash": 1270015683
                     }
                   },
@@ -699,6 +674,7 @@
               }
             },
             "_EmTransformData": [],
+            "_EmTransformTopFixedList": [],
             "_GimmickInfoList": [],
             "_ManualReferencePos": [],
             "_PreloadPos": [],
@@ -708,7 +684,7 @@
             "_IsPictureDemo": false,
             "_CutListData": {
               "app.user_data.CutsceneCutListData": {
-                "ref_instance_id": 77,
+                "ref_instance_id": 74,
                 "path": "GameDesign/Event/sht/sht8092/sht8092_00/sht8092_00_CutData.user"
               }
             }
@@ -729,12 +705,13 @@
         "app.user_data.TimelineEventDynamicResourceData.EventItem": {
           "_IsDisableStartFSM": false,
           "_IsDisableEndFSM": false,
-          "_MainStoryFlag": "[1038238208] INVALID",
+          "_MainStoryFlag": "[9186] M_4A0_39",
+          "_SideStoryFlag": "[14385] S_061_89",
           "_IsMovie": false,
           "_IsRepeatable": false,
           "_IsTitle": false,
           "_IsPlayable": false,
-          "_IsBattleTransition": false,
+          "_IsBattleTransition": true,
           "_IsSeamlessIn": false,
           "_IsSeamlessOut": false,
           "_IsPLFemaleMotion": true,
@@ -1042,67 +1019,6 @@
                 "_EnableAnotherSeamlessIn": false,
                 "_ContextID": "00000000-0000-0000-0000-000000000000",
                 "_CurrentGuid": "ea20445d-e3f3-4e1b-a6ee-e1d1b82d3ce6",
-                "_PrevGuid": "",
-                "_ParentCharaResourceIDHash": {
-                  "ace.cStrHash": {
-                    "_Hash": 2180083513
-                  }
-                }
-              }
-            },
-            {
-              "app.user_data.TimelineEventDynamicResourceData.EventActorItem": {
-                "_CommentIDHash": {
-                  "ace.cStrHash": {
-                    "_Hash": 2180083513
-                  }
-                },
-                "_ActorIDNameHash": {
-                  "ace.cStrHash": {
-                    "_Hash": 3444851463
-                  }
-                },
-                "_EventNameHash": {
-                  "ace.cStrHash": {
-                    "_Hash": 507685647
-                  }
-                },
-                "_TagNameHash": {
-                  "ace.cStrHash": {
-                    "_Hash": 0
-                  }
-                },
-                "_MotionConnectBank": {
-                  "": {}
-                },
-                "_UniqueActorEventFlag": {
-                  "ace.Bitset`1<app.user_data.TimelineEventDynamicResourceData.EventActorItem.UNIQUE_EVENT_ACTOR_FLAG>": {
-                    "_Value": [
-                      0
-                    ],
-                    "_MaxElement": 32
-                  }
-                },
-                "_ActorType": 3,
-                "_ActorID": 211685568,
-                "_BindTargetID_Serializable": 0,
-                "_IsBind": false,
-                "_IsNotPrefabSize": false,
-                "_Size": [
-                  1.0,
-                  1.0,
-                  1.0,
-                  0.0
-                ],
-                "_IsBaby": false,
-                "_IsMultiInstanceMesh": false,
-                "_SeamlessIn": false,
-                "_SeamlessOut": false,
-                "_DisableSeamlessIn": false,
-                "_DisableSeamlessOut": false,
-                "_EnableAnotherSeamlessIn": false,
-                "_ContextID": "00000000-0000-0000-0000-000000000000",
-                "_CurrentGuid": "745dc633-b7a6-4e3d-8923-f02d66b489e3",
                 "_PrevGuid": "",
                 "_ParentCharaResourceIDHash": {
                   "ace.cStrHash": {

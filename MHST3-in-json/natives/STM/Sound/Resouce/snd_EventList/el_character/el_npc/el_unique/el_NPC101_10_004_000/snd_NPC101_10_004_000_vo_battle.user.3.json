@@ -918,7 +918,7 @@
         {
           "soundlib.SoundTriggerInfo": {
             "_TriggerId": 4119983358,
-            "_EventId": 2662804237,
+            "_EventId": 4294967295,
             "_OffsetJointHash": 935285574,
             "_OffsetJointRotation": false,
             "_OffsetGameObj": "",
@@ -1733,8 +1733,8 @@
         },
         {
           "soundlib.SoundTriggerInfo": {
-            "_TriggerId": 2180083513,
-            "_EventId": 4294967295,
+            "_TriggerId": 490059185,
+            "_EventId": 2662804237,
             "_OffsetJointHash": 4294967295,
             "_OffsetJointRotation": false,
             "_OffsetGameObj": "",
@@ -1748,7 +1748,7 @@
             ],
             "_OffsetIgnoreRot": false,
             "_OffsetYFlatten": false,
-            "_OffsetFollow": false,
+            "_OffsetFollow": true,
             "_StayAlive": false,
             "_StopOnEffectVanished": false,
             "_StopCommandMask": {
@@ -1758,13 +1758,13 @@
             },
             "_IsRayCastTarget": false,
             "_Global": false,
-            "_CullingId1": 0,
-            "_CullingId2": 0,
-            "_CullingId3": 0,
+            "_CullingId1": 100,
+            "_CullingId2": 100,
+            "_CullingId3": 10,
             "BtlRctCulling": false,
             "_Priority": 0,
             "_PrioritizeFirst": false,
-            "_Limit": 0,
+            "_Limit": 1,
             "_BookingTime": 0,
             "_FlangingTime": 0,
             "_ReleaseTime": 0,

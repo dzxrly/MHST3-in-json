@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_STATE_ID>": {
                           "_State": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_STATE_ID>": 2
                           }
                         }
                       }
@@ -33,7 +33,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_STATE_ID>": {
                           "_State": {
-                            "ref_instance_id": 6
+                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_STATE_ID>": 1
                           }
                         }
                       }
@@ -45,7 +45,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 9
+                            "ace.btable.cEditFieldImportTableGuid": "21adc678-4256-41f7-a6cb-8f92ccb78ea9|05774092-5e93-4e2c-ba16-92817da4d8b9"
                           }
                         }
                       },
@@ -73,7 +73,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 16
+                            "ace.btable.cEditFieldImportTableGuid": "39efb39a-94fb-4314-a1f9-6582015a49c7|fa29ab42-3dc1-44a1-8ffb-355ce1b1de9b"
                           }
                         }
                       },
@@ -89,7 +89,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 20
+                            "ace.btable.cEditFieldImportTableGuid": "2526d9c5-6584-4234-896e-c9ba3dabb84b|e47da246-8506-443d-ac11-264fe3b3bfaa"
                           }
                         }
                       },
@@ -145,12 +145,9 @@
         }
       },
       "_ThisGuid": "6e9fc1ce-9f5a-4f30-8709-b858a6cf2e04",
-      "_ExportBTableType": {
-        "raw": "24000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_OtomonCommonBTable_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

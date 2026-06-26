@@ -17,10 +17,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 3
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "06a5ad53-e285-4e12-86a5-6455264ea926"
                           }
                         }
                       }
@@ -48,10 +48,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 10
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 11
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "f64628a8-1fe7-4bb5-ac33-ddd4d54cc8f3"
                           }
                         }
                       }
@@ -96,12 +96,9 @@
         }
       },
       "_ThisGuid": "0ac15b4b-528b-43ee-b2c2-f0b608646b61",
-      "_ExportBTableType": {
-        "raw": "26000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_EnemyBTable_MoveStop_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

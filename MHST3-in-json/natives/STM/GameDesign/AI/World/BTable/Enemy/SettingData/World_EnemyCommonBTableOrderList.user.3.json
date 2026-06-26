@@ -2,9 +2,131 @@
   {
     "ace.btable.user_data.BTableOrderList": {
       "_OperatorFactories": [],
-      "_CommandFactories": [],
+      "_CommandFactories": [
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cRequestAction",
+            "_ArgumentType": "app.btable.World_BTableCommand.cSelectActionArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectActionArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cEnemy_CheckUnreachable",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cEnemy_CheckInterruptState",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cEnemy_CheckInSight",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cEnemy_CheckState",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_EnemyAIDef.AI_STATE_ID>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cEnemy_CheckInState",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckStateArg`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cCheckPlInZoneAttribute",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckStateArg`1<app.ZoneDef.ZONE_STATE_CHANGE_ATTR_Fixed>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cChack_StandState",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckEnumArg`1<app.WorldCharacterDefine.STAND_STATE>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPos",
+            "_ArgumentType": "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cChack_DefaultHomeType",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckEnumArg`1<app.WorldCharacterActionDomain.TYPE_Fixed>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cCheck_DamageType",
+            "_ArgumentType": "app.btable.World_BTableCommand.cEnemy_CheckDamageTypeArg",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cCheck_FindBreathImpact",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cEnemy_CheckLifeUniqueAction",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckEnumArg`1<app.WorldEnemyDef.LIFE_ACT_TYPE>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cEnemy_ChooseLifeAction",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceived",
+            "_ArgumentType": "app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        }
+      ],
       "_OperatorHashList": [],
-      "_CommandHashList": []
+      "_CommandHashList": [
+        8093678715481511344,
+        5647992846140967603,
+        7282273297521880479,
+        5187301759426612372,
+        7341702562580061979,
+        13961028448208854265,
+        4145661440237658451,
+        13044273848279572317,
+        10300246910952600694,
+        8651034878196764869,
+        615884053094418656,
+        12881340438931203115,
+        4960724976099913088,
+        12437749087298911227,
+        6423696162103949302
+      ]
     }
   }
 ]

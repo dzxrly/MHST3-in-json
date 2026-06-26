@@ -1,0 +1,60 @@
+[
+  {
+    "ace.btable.user_data.BTableOrderList": {
+      "_OperatorFactories": [],
+      "_CommandFactories": [
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckPartsInfo_Exist",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_ChildV11",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_ChildV11Arg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting_Child"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cCheckRidingV11",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckRidingArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_ForceTargetV11",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_ForceTargetArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_ForcePSTV11",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_ForcePSTArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_CanceledActionTurnV11",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        }
+      ],
+      "_OperatorHashList": [],
+      "_CommandHashList": [
+        2375853973499868625,
+        13561321084372141829,
+        10563731245906178568,
+        8237581557217658892,
+        931348121908034543,
+        6909781254252974939
+      ]
+    }
+  }
+]

@@ -32,32 +32,32 @@
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "_PartsID": 1675017728,
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID": "[1675017728] ID_PARTS_EM0103_00_00_2",
+                  "_PartsID2": "[27073] ID_PARTS_EM0103_00_89_1",
                   "_ConditionGuid": "091dfbb1-d838-4340-a58e-4a5b2047daeb",
                   "_BrokenConditionGuid": "b1015cde-042e-4d87-b0c3-2981295affd8"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "_PartsID": 12166,
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID": "[12166] ID_PARTS_EM0103_00_00_4",
+                  "_PartsID2": "[16383] ID_PARTS_EM0103_00_89_2",
                   "_ConditionGuid": "c6b81494-2723-4e14-b317-8ef10220bcb8",
                   "_BrokenConditionGuid": "65ba52a6-160e-4c57-9a75-d13a595a9aa5"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "_PartsID": 13864,
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID": "[13864] ID_PARTS_EM0103_00_00_6",
+                  "_PartsID2": "[32131] ID_PARTS_EM0103_00_89_3",
                   "_ConditionGuid": "70c8d4df-5866-476b-914a-9dfe0d154c7a",
                   "_BrokenConditionGuid": "b899a52a-e1dd-42ec-903e-83fcae511563"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID": "[12166] ID_PARTS_EM0103_00_00_4",
+                  "_PartsID2": "[16383] ID_PARTS_EM0103_00_89_2",
                   "_ConditionGuid": "fb5b1d8a-ddd0-476e-a261-8be7b2b129a5",
                   "_BrokenConditionGuid": "6ac30ce0-d893-44d9-9003-a503cd118096"
                 }
@@ -71,7 +71,15 @@
             "_MorphVisualID": "[1106023808] ID_MORPH_VISUAL_ANGRY",
             "_MotionChangeEnabled": false,
             "_OtomonEffect": [],
-            "_EnemyEffect": [],
+            "_EnemyEffect": [
+              {
+                "app.user_data.MorphEffectData.cPartsParam": {
+                  "_ElementID": 499,
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
+                }
+              }
+            ],
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
@@ -194,7 +202,7 @@
         {
           "app.user_data.MorphEffectData.cMorphParam": {
             "_MorphID": "[176953568] ID_BTL_MORPH_CHG_SPECIAL1",
-            "_MorphVisualID": 4436,
+            "_MorphVisualID": "[4436] ID_MORPH_VISUAL_MO103_GRAY",
             "_MotionChangeEnabled": false,
             "_OtomonEffect": [],
             "_EnemyEffect": [],
@@ -217,32 +225,32 @@
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "_PartsID": 1675017728,
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID": "[1675017728] ID_PARTS_EM0103_00_00_2",
+                  "_PartsID2": "[27073] ID_PARTS_EM0103_00_89_1",
                   "_ConditionGuid": "091dfbb1-d838-4340-a58e-4a5b2047daeb",
                   "_BrokenConditionGuid": "b1015cde-042e-4d87-b0c3-2981295affd8"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "_PartsID": 12166,
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID": "[12166] ID_PARTS_EM0103_00_00_4",
+                  "_PartsID2": "[16383] ID_PARTS_EM0103_00_89_2",
                   "_ConditionGuid": "c6b81494-2723-4e14-b317-8ef10220bcb8",
                   "_BrokenConditionGuid": "65ba52a6-160e-4c57-9a75-d13a595a9aa5"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "_PartsID": 13864,
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID": "[13864] ID_PARTS_EM0103_00_00_6",
+                  "_PartsID2": "[32131] ID_PARTS_EM0103_00_89_3",
                   "_ConditionGuid": "70c8d4df-5866-476b-914a-9dfe0d154c7a",
                   "_BrokenConditionGuid": "b899a52a-e1dd-42ec-903e-83fcae511563"
                 }
               },
               {
                 "app.user_data.MorphEffectData.cModelParam": {
-                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID": "[12166] ID_PARTS_EM0103_00_00_4",
+                  "_PartsID2": "[16383] ID_PARTS_EM0103_00_89_2",
                   "_ConditionGuid": "fb5b1d8a-ddd0-476e-a261-8be7b2b129a5",
                   "_BrokenConditionGuid": "6ac30ce0-d893-44d9-9003-a503cd118096"
                 }
@@ -312,10 +320,18 @@
         {
           "app.user_data.MorphEffectData.cMorphParam": {
             "_MorphID": "[1494147968] ID_BTL_MORPH_CNG_BOSSBATTLE1",
-            "_MorphVisualID": 8350,
+            "_MorphVisualID": "[8350] ID_MORPH_VISUAL_MO103_BLACK",
             "_MotionChangeEnabled": false,
             "_OtomonEffect": [],
-            "_EnemyEffect": [],
+            "_EnemyEffect": [
+              {
+                "app.user_data.MorphEffectData.cPartsParam": {
+                  "_ElementID": 499,
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
+                }
+              }
+            ],
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
@@ -373,7 +389,7 @@
         {
           "app.user_data.MorphEffectData.cMorphParam": {
             "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
-            "_MorphVisualID": 170,
+            "_MorphVisualID": "[170] ID_MORPH_VISUAL_MO103_THORN_HEAD",
             "_MotionChangeEnabled": false,
             "_OtomonEffect": [],
             "_EnemyEffect": [],
@@ -392,7 +408,7 @@
         {
           "app.user_data.MorphEffectData.cMorphParam": {
             "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
-            "_MorphVisualID": 14365,
+            "_MorphVisualID": "[14365] ID_MORPH_VISUAL_MO103_THORN_REG",
             "_MotionChangeEnabled": false,
             "_OtomonEffect": [],
             "_EnemyEffect": [],
@@ -419,7 +435,7 @@
         {
           "app.user_data.MorphEffectData.cMorphParam": {
             "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
-            "_MorphVisualID": 32295,
+            "_MorphVisualID": "[32295] ID_MORPH_VISUAL_MO103_THORN_WING",
             "_MotionChangeEnabled": false,
             "_OtomonEffect": [],
             "_EnemyEffect": [],
@@ -438,7 +454,7 @@
         {
           "app.user_data.MorphEffectData.cMorphParam": {
             "_MorphID": "[2704140672] ID_BTL_MORPH_CHG_NONE",
-            "_MorphVisualID": 6983,
+            "_MorphVisualID": "[6983] ID_MORPH_VISUAL_MO103_OFF_THORN",
             "_MotionChangeEnabled": false,
             "_OtomonEffect": [],
             "_EnemyEffect": [],

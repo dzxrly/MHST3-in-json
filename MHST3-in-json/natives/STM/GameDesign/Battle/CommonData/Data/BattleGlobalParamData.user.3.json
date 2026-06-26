@@ -253,18 +253,30 @@
           "SpRate": 70
         }
       },
+      "KingParam": {
+        "app.user_data.BattleGlobalParamData.cKingParam": {
+          "SpAddRate": 250,
+          "EmBgNumType": "[7767] L"
+        }
+      },
       "PnAIGlobalParam": {
         "app.user_data.Battle_PnAIGlobalParam": {
-          "ref_instance_id": 17,
+          "ref_instance_id": 18,
           "path": "GameDesign/AI/Battle/Partner/UserData/Battle_PnAIGlobalParam.user"
         }
       },
       "IncapableTurn": 3,
+      "_PartnerExtendData": {
+        "app.user_data.BattlePartnerExtendData": {
+          "ref_instance_id": 19,
+          "path": "GameDesign/Partner/CommonData/BattleData/BattlePartnerExtendData.user"
+        }
+      },
       "BuffEffectLoopWaitTimer": 1.0,
       "IdleTrapEffectPosOffsetZ": 8.0,
       "ReactionParam": {
         "app.user_data.BattleReactionData": {
-          "ref_instance_id": 18,
+          "ref_instance_id": 20,
           "path": "GameDesign/Battle/CommonData/Data/BattleReactionData.user"
         }
       },
@@ -273,7 +285,7 @@
       "HoneyNum_Em2060_Revenge": 3,
       "CalcParam": {
         "app.user_data.BattleCalcParam": {
-          "ref_instance_id": 19,
+          "ref_instance_id": 21,
           "path": "GameDesign/Battle/CommonData/Data/BattleCalcParam.user"
         }
       },
@@ -455,6 +467,7 @@
           }
         }
       ],
+      "Bow_VitalityBottle_BasicAtkStaminaDmgAdd": 20,
       "BattleCutPlaySpeed": [
         1.0,
         1.8
@@ -480,8 +493,20 @@
       "ExHateRate_Strategy": 4,
       "LastBossSecondParamData": {
         "app.BattleLastBossSecondParamData": {
-          "ref_instance_id": 42,
+          "ref_instance_id": 44,
           "path": "GameDesign/Battle/CommonData/Data/BattleLastBossSecondParamData.user"
+        }
+      },
+      "LastBossSecond_High_ParamData": {
+        "app.BattleLastBossSecondParamData": {
+          "ref_instance_id": 45,
+          "path": "GameDesign/Battle/CommonData/Data/BattleLastBossSecond_High_ParamData.user"
+        }
+      },
+      "LastBossSecond_ExHigh_ParamData": {
+        "app.BattleLastBossSecondParamData": {
+          "ref_instance_id": 46,
+          "path": "GameDesign/Battle/CommonData/Data/BattleLastBossSecond_ExHigh_ParamData.user"
         }
       },
       "DisclosureThreewayStraighLoseCount": 1,

@@ -2,9 +2,155 @@
   {
     "ace.btable.user_data.BTableOrderList": {
       "_OperatorFactories": [],
-      "_CommandFactories": [],
+      "_CommandFactories": [
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_SetMoveSpeed",
+            "_ArgumentType": "app.btable.World_BTableCommand.cOtomon_SetMoveSpeedArg",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_CheckMoveSpeed",
+            "_ArgumentType": "app.btable.World_BTableCommand.cOtomon_SetMoveSpeedArg",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cJudgeToRequestAction",
+            "_ArgumentType": "app.btable.World_BTableCommand.cSelectActionArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectActionArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cJudgeToRequestSubAction",
+            "_ArgumentType": "app.btable.World_BTableCommand.cSelectActionArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectActionArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_CheckState",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_STATE_ID>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_CheckInterruptState",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_JudgeAction",
+            "_ArgumentType": "app.btable.World_BTableCommand.cSelectActionArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectActionArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_JudgeSubAction",
+            "_ArgumentType": "app.btable.World_BTableCommand.cSelectActionArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectActionArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_JudgeCondition",
+            "_ArgumentType": "app.btable.World_BTableCommand.cSelectEnumArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectEnumArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_JudgeConditionNot",
+            "_ArgumentType": "app.btable.World_BTableCommand.cSelectEnumArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectEnumArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_RequestAction",
+            "_ArgumentType": "app.btable.World_BTableCommand.cSelectActionArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectActionArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_RequestSubAction",
+            "_ArgumentType": "app.btable.World_BTableCommand.cSelectActionArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectActionArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_CheckAnyNavigationFaild",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_SetTurnLv",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckEnumArg`1<app.WorldCharacterDefine.TURN_LV>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_RiderTypePL",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_PLRide",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cOtomon_CheckNaviKind",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckEnumArg`1<app.World_OtomonAIDef.AI_NAVI_TARGET>",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cRegisterStopDist",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckDistanceForNavigationDistParamBase",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>"
+          }
+        }
+      ],
       "_OperatorHashList": [],
-      "_CommandHashList": []
+      "_CommandHashList": [
+        17721564466286804347,
+        8638936256684432350,
+        7747083367816782865,
+        15018558666700840858,
+        12605912503190290073,
+        7162414834810528911,
+        18213275204592356024,
+        13923120020379248300,
+        8023310375317422020,
+        2809461850445417698,
+        3907751729497371351,
+        6570062415121337854,
+        12775136755068333942,
+        13467438984616909761,
+        16780455014895010553,
+        11348594338443522268,
+        14269317090628358626,
+        15813898584021111288
+      ]
     }
   }
 ]

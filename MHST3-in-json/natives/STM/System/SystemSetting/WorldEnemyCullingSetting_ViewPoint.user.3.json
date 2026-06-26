@@ -16,7 +16,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 2
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 500.0,
+                                    "_Margin": 5.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 0,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -27,7 +42,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 5
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -38,7 +68,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 8
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -49,7 +94,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 11
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -60,13 +120,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 14
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 50.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 16
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 75.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 18
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 100.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -77,13 +182,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 21
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 80.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 23
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 120.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 25
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 160.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -94,13 +244,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 28
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 110.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 30
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 165.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 32
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 220.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -111,13 +306,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 35
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 140.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 37
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 210.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 39
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 280.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -128,13 +368,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 42
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 170.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 44
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 255.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 46
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 340.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -145,13 +430,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 49
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 51
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 53
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -173,7 +503,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 58
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 5.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 0,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -184,7 +529,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 61
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -195,7 +555,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 64
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -206,7 +581,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 67
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -217,13 +607,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 70
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 50.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 72
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 75.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 74
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 100.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -234,13 +669,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 77
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 80.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 79
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 120.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 81
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 160.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -251,13 +731,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 84
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 110.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 86
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 165.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 88
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 220.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -268,13 +793,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 91
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 140.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 93
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 1210.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 95
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 280.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -285,13 +855,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 98
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 170.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 100
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 255.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 102
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 340.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -302,13 +917,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 105
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 107
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 109
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -330,7 +990,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 114
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 500.0,
+                                    "_Margin": 5.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 0,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -341,7 +1016,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 117
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -352,7 +1042,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 120
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -363,7 +1068,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 123
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -374,13 +1094,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 126
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 50.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 128
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 75.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 130
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 100.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -391,13 +1156,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 133
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 80.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 135
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 120.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 137
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 160.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -408,13 +1218,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 140
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 110.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 142
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 165.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 144
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 220.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -425,13 +1280,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 147
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 140.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 149
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 210.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 151
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 280.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -442,13 +1342,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 154
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 170.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 156
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 255.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 158
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 340.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -459,13 +1404,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 161
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 163
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 165
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -487,7 +1477,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 170
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 1000.0,
+                                    "_Margin": 5.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 0,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -498,7 +1503,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 173
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -509,7 +1529,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 176
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -520,7 +1555,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 179
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -531,13 +1581,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 182
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 50.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 184
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 75.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 186
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 100.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -548,13 +1643,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 189
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 80.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 191
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 120.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 193
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 160.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -565,13 +1705,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 196
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 110.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 198
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 165.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 200
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 220.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -582,13 +1767,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 203
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 140.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 205
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 210.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 207
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 280.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -599,13 +1829,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 210
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 170.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 212
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 255.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 214
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 340.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -616,13 +1891,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 217
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 219
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 221
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -644,7 +1964,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 226
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 500.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -655,7 +1990,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 229
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -666,7 +2016,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 232
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -677,7 +2042,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 235
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -688,13 +2068,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 238
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 50.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 240
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 75.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 242
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 100.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 6
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -705,13 +2130,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 245
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 80.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 247
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 120.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 249
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 160.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 5
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -722,13 +2192,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 252
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 110.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 254
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 165.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 256
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 220.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 4
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -739,13 +2254,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 259
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 140.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 261
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 210.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 263
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 280.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 3
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -756,13 +2316,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 266
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 170.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 268
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 255.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 270
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 340.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 2
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -773,13 +2378,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 273
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 275
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 277
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": false,
+                                    "_DistType": 0,
+                                    "_Dist": 200.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": true,
+                                    "_IsUseOcclusionCulling": true,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -801,7 +2451,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 282
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 1000.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -812,7 +2477,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 285
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": true,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -823,7 +2503,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 288
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -834,7 +2529,22 @@
                           "_SettingType": 0,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 291
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 1,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -845,13 +2555,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 294
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 296
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 298
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -862,13 +2617,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 301
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 303
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 305
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -879,13 +2679,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 308
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 310
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 312
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -896,13 +2741,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 315
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 317
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 319
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -913,13 +2803,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 322
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 324
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 326
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }
@@ -930,13 +2865,58 @@
                           "_SettingType": 1,
                           "_DataSetList": [
                             {
-                              "ref_instance_id": 329
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 0,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 331
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 1,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             },
                             {
-                              "ref_instance_id": 333
+                              "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
+                                "_EnumValue": 2,
+                                "_Data": {
+                                  "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
+                                    "_Enable": false,
+                                    "_IsUseDistanceCulling": true,
+                                    "_DistType": 0,
+                                    "_Dist": 0.0,
+                                    "_Margin": 0.0,
+                                    "_IsUseCheckInFrustum": false,
+                                    "_IsUseOcclusionCulling": false,
+                                    "_DefaultValue": 1,
+                                    "_UpdateInterval": 1
+                                  }
+                                }
+                              }
                             }
                           ]
                         }

@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": {
                           "_State": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": 0
                           }
                         }
                       }
@@ -45,10 +45,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 9
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": -1222900352
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 10
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -76,10 +76,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 17
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 24370
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 18
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -119,7 +119,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_CheckDamageTypeArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 28
+                            "ace.btable.cEditFieldEnum`1<app.FieldHitDefine.ATTACK_TYPE_Fixed>": -1514664832
                           }
                         }
                       }
@@ -131,7 +131,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 31
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|4868a69e-765a-4730-9c4a-e3007e7fb411"
                           }
                         }
                       },
@@ -159,7 +159,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 38
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|0f347fe3-db5b-4942-99ad-3543e6a27a1f"
                           }
                         }
                       },
@@ -215,12 +215,9 @@
         }
       },
       "_ThisGuid": "e4616524-5539-40da-ad9d-14f7c151c27e",
-      "_ExportBTableType": {
-        "raw": "24000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_EnemyBTable_Damage_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

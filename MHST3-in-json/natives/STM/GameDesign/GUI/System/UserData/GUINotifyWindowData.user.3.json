@@ -1265,6 +1265,37 @@
         },
         {
           "app.user_data.GUINotifyWindowData.cSetting": {
+            "_ID_Serializable": "[3750] GUI050700_06",
+            "_NotifyWindowType": 4,
+            "_DecideSoundOptionFixedID": "[0] INVALID",
+            "_OpenSoundOptionFixedID": "[0] INVALID",
+            "_CloseSoundOptionFixedID": "[0] INVALID",
+            "_OpenType": 0,
+            "_MaskType": 1,
+            "_ButtonGuideType": 1,
+            "_Text": {
+              "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                "_Id": "5a5ed5ed-49dd-4965-84db-56897bc3efa1"
+              }
+            },
+            "_TitleText": {
+              "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                "_Id": "00000000-0000-0000-0000-000000000000"
+              }
+            },
+            "_Choices": [
+              {
+                "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                  "_Id": "2340fd89-b11f-4514-854c-99989b5791d0"
+                }
+              }
+            ],
+            "_InitIndex": 0,
+            "_IsErrorDialog": false
+          }
+        },
+        {
+          "app.user_data.GUINotifyWindowData.cSetting": {
             "_ID_Serializable": "[2252] GUI031900_00",
             "_NotifyWindowType": 3,
             "_DecideSoundOptionFixedID": "[0] INVALID",
@@ -3626,7 +3657,7 @@
             "_CloseSoundOptionFixedID": "[0] INVALID",
             "_OpenType": 0,
             "_MaskType": 1,
-            "_ButtonGuideType": 2,
+            "_ButtonGuideType": 1,
             "_Text": {
               "app.user_data.GUINotifyWindowData.cSetting.Message": {
                 "_Id": "dbec861c-0cc6-4602-b8fd-e1d3cfbd7006"
@@ -3662,7 +3693,7 @@
             "_CloseSoundOptionFixedID": "[0] INVALID",
             "_OpenType": 0,
             "_MaskType": 1,
-            "_ButtonGuideType": 2,
+            "_ButtonGuideType": 1,
             "_Text": {
               "app.user_data.GUINotifyWindowData.cSetting.Message": {
                 "_Id": "e8c64dc3-e62a-45eb-a7e1-99da923b4489"
@@ -3682,6 +3713,140 @@
               {
                 "app.user_data.GUINotifyWindowData.cSetting.Message": {
                   "_Id": "8fb21d32-a664-411a-a034-db9098032375"
+                }
+              }
+            ],
+            "_InitIndex": 0,
+            "_IsErrorDialog": false
+          }
+        },
+        {
+          "app.user_data.GUINotifyWindowData.cSetting": {
+            "_ID_Serializable": "[11843] STORY_CLEAR_BOSS2_INFO",
+            "_NotifyWindowType": 4,
+            "_DecideSoundOptionFixedID": "[0] INVALID",
+            "_OpenSoundOptionFixedID": "[0] INVALID",
+            "_CloseSoundOptionFixedID": "[0] INVALID",
+            "_OpenType": 0,
+            "_MaskType": 1,
+            "_ButtonGuideType": 1,
+            "_Text": {
+              "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                "_Id": "dbe56a2a-1223-44ac-9dd9-e530b4e16cfa"
+              }
+            },
+            "_TitleText": {
+              "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                "_Id": "00000000-0000-0000-0000-000000000000"
+              }
+            },
+            "_Choices": [
+              {
+                "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                  "_Id": "2340fd89-b11f-4514-854c-99989b5791d0"
+                }
+              }
+            ],
+            "_InitIndex": 0,
+            "_IsErrorDialog": false
+          }
+        },
+        {
+          "app.user_data.GUINotifyWindowData.cSetting": {
+            "_ID_Serializable": "[25878] STORY_CLEAR_BOSS3_INFO",
+            "_NotifyWindowType": 4,
+            "_DecideSoundOptionFixedID": "[0] INVALID",
+            "_OpenSoundOptionFixedID": "[0] INVALID",
+            "_CloseSoundOptionFixedID": "[0] INVALID",
+            "_OpenType": 0,
+            "_MaskType": 1,
+            "_ButtonGuideType": 1,
+            "_Text": {
+              "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                "_Id": "40904e44-68fd-4e16-b204-1afcc1a7d7e3"
+              }
+            },
+            "_TitleText": {
+              "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                "_Id": "00000000-0000-0000-0000-000000000000"
+              }
+            },
+            "_Choices": [
+              {
+                "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                  "_Id": "2340fd89-b11f-4514-854c-99989b5791d0"
+                }
+              }
+            ],
+            "_InitIndex": 0,
+            "_IsErrorDialog": false
+          }
+        },
+        {
+          "app.user_data.GUINotifyWindowData.cSetting": {
+            "_ID_Serializable": "[9699] STORY_SELECT_BOSS_HARD",
+            "_NotifyWindowType": 3,
+            "_DecideSoundOptionFixedID": "[0] INVALID",
+            "_OpenSoundOptionFixedID": "[0] INVALID",
+            "_CloseSoundOptionFixedID": "[0] INVALID",
+            "_OpenType": 0,
+            "_MaskType": 1,
+            "_ButtonGuideType": 2,
+            "_Text": {
+              "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                "_Id": "216e6ef4-fc80-485f-9446-5f95e90651f8"
+              }
+            },
+            "_TitleText": {
+              "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                "_Id": "00000000-0000-0000-0000-000000000000"
+              }
+            },
+            "_Choices": [
+              {
+                "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                  "_Id": "034f58ab-4b09-4258-b9f3-669224ec32ad"
+                }
+              },
+              {
+                "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                  "_Id": "ce1b490a-452b-4c38-9b8c-8b4ea6ed0dbb"
+                }
+              }
+            ],
+            "_InitIndex": 0,
+            "_IsErrorDialog": false
+          }
+        },
+        {
+          "app.user_data.GUINotifyWindowData.cSetting": {
+            "_ID_Serializable": "[18643] STORY_SELECT_BOSS_VERY_HARD",
+            "_NotifyWindowType": 3,
+            "_DecideSoundOptionFixedID": "[0] INVALID",
+            "_OpenSoundOptionFixedID": "[0] INVALID",
+            "_CloseSoundOptionFixedID": "[0] INVALID",
+            "_OpenType": 0,
+            "_MaskType": 1,
+            "_ButtonGuideType": 2,
+            "_Text": {
+              "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                "_Id": "76e34143-79e4-4f69-98a2-c83a1f7250e4"
+              }
+            },
+            "_TitleText": {
+              "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                "_Id": "00000000-0000-0000-0000-000000000000"
+              }
+            },
+            "_Choices": [
+              {
+                "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                  "_Id": "01d65bc0-2102-4f94-8489-bad3c0e5b820"
+                }
+              },
+              {
+                "app.user_data.GUINotifyWindowData.cSetting.Message": {
+                  "_Id": "ce1b490a-452b-4c38-9b8c-8b4ea6ed0dbb"
                 }
               }
             ],

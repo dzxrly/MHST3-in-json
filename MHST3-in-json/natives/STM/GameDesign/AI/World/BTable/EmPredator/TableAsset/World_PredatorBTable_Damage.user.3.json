@@ -17,10 +17,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 14656
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 3
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -32,7 +32,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 6
+                            "ace.btable.cEditFieldImportTableGuid": "6be9bee7-b086-4388-8180-3bd200aced19|c9020aba-819f-4c9f-aefd-5aae5a3e9aaa"
                           }
                         }
                       },
@@ -48,7 +48,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 10
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|a994d98c-1547-4b29-8482-a01d04013d0a"
                           }
                         }
                       },
@@ -98,12 +98,9 @@
         }
       },
       "_ThisGuid": "4239a362-313b-0060-013e-dd4f8595045c",
-      "_ExportBTableType": {
-        "raw": "27000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_PredatorBTable_Damage_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

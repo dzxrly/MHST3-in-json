@@ -29,10 +29,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 5
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 14656
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 6
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -72,10 +72,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 16
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 576452672
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 17
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -103,10 +103,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 24
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": -1222900352
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 25
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -146,10 +146,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 35
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 3
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 36
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "d3617d07-051a-4823-955d-4c352f64d0cf"
                           }
                         }
                       }
@@ -182,12 +182,9 @@
         }
       },
       "_ThisGuid": "9e601bc6-74c6-4814-9cd4-0494fa0deb83",
-      "_ExportBTableType": {
-        "raw": "2c000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_EnemyBTable_OutUnderground_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

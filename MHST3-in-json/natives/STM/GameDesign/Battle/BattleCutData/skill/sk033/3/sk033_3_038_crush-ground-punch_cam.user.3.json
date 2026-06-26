@@ -1,9 +1,9 @@
 [
   {
     "app.user_data.BattleCutCameraData": {
-      "_TotalFrame": 130.0,
+      "_TotalFrame": 140.0,
       "_StartFrame": 10.0,
-      "_EndFrame": 140.0,
+      "_EndFrame": 150.0,
       "_IsLongRangeAtk": false,
       "_StopBoundingBoxList": [],
       "_GenericCameraList": [
@@ -1589,7 +1589,7 @@
         },
         {
           "app.user_data.BattleCutCameraData.cGenericCameraTrack": {
-            "_Frame": 140.0,
+            "_Frame": 150.0,
             "_CutId": 4,
             "_Ease": {
               "app.user_data.BattleCutCameraData.cGenericCameraTrack.cGenericCameraEase": {
@@ -2137,7 +2137,7 @@
           "app.user_data.BattleCutCameraData.cRollTrack": {
             "_CutId": 2,
             "_Frame": 59.0,
-            "_RollDeg": 3.0,
+            "_RollDeg": 2.0,
             "_Ease": {
               "app.user_data.cBattleCutEase": {
                 "_Inverse": false,
@@ -2187,7 +2187,7 @@
           "app.user_data.BattleCutCameraData.cRollTrack": {
             "_CutId": 2,
             "_Frame": 101.0,
-            "_RollDeg": 3.0,
+            "_RollDeg": 2.0,
             "_Ease": {
               "app.user_data.cBattleCutEase": {
                 "_Inverse": false,
@@ -2483,7 +2483,7 @@
             "_Frame": 46.0,
             "_ShakeParam": {
               "app.camera_shake.cOneShakeParam": {
-                "_InstanceGuid": "6d3d8853-bb32-4c94-b617-2193a0b862b9",
+                "_InstanceGuid": "5c65971b-0d69-4c45-9191-3e20dc575fef",
                 "_Priority": 0,
                 "_ValidDist": 1500.0,
                 "_PosActive": true,
@@ -2500,7 +2500,42 @@
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 111
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000040000000000000087330000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0400003c4741000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     },
@@ -2513,7 +2548,42 @@
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 113
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "0000803f010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     }
@@ -2531,7 +2601,42 @@
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 116
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     },
@@ -2539,7 +2644,42 @@
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 118
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     }
@@ -2555,7 +2695,7 @@
             "_Frame": 65.0,
             "_ShakeParam": {
               "app.camera_shake.cOneShakeParam": {
-                "_InstanceGuid": "19a82a2d-457b-4b77-bb59-acc06a4ef3e1",
+                "_InstanceGuid": "0ea1167c-9b5d-44ef-add6-4cb425c00aa2",
                 "_Priority": 0,
                 "_ValidDist": 1500.0,
                 "_PosActive": true,
@@ -2572,7 +2712,42 @@
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 123
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000040000000000000087330000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0400003c4741000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     },
@@ -2585,7 +2760,42 @@
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 125
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "0000803f010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     }
@@ -2603,7 +2813,42 @@
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 128
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     },
@@ -2611,7 +2856,42 @@
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 130
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     }
@@ -2627,7 +2907,7 @@
             "_Frame": 84.0,
             "_ShakeParam": {
               "app.camera_shake.cOneShakeParam": {
-                "_InstanceGuid": "4447887d-71b4-4f08-a29b-6fcb7385b2e9",
+                "_InstanceGuid": "e85c8789-c2fd-44a4-bda1-55185f6aa09a",
                 "_Priority": 0,
                 "_ValidDist": 1500.0,
                 "_PosActive": true,
@@ -2644,7 +2924,42 @@
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 135
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000040000000000000087330000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0400003c4741000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     },
@@ -2657,7 +2972,42 @@
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 137
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "0000803f010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     }
@@ -2675,7 +3025,42 @@
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 140
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     },
@@ -2683,7 +3068,42 @@
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 142
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     }
@@ -2699,7 +3119,7 @@
             "_Frame": 140.0,
             "_ShakeParam": {
               "app.camera_shake.cOneShakeParam": {
-                "_InstanceGuid": "6214603c-a5a4-47a4-a71e-96b34f7fcec9",
+                "_InstanceGuid": "6e044f31-89d1-4c16-a608-b7abd8091278",
                 "_Priority": 0,
                 "_ValidDist": 1500.0,
                 "_PosActive": true,
@@ -2716,7 +3136,42 @@
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 147
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000040000000000000087330000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0400003c4741000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     },
@@ -2729,7 +3184,42 @@
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 149
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "0000803f010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     }
@@ -2747,7 +3237,42 @@
                     "_AmplitudeAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 152
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     },
@@ -2755,7 +3280,42 @@
                     "_FrequencyAttenuation": {
                       "app.camera_shake.cAttenuationSetting": {
                         "_AttenuationCurve": {
-                          "ref_instance_id": 154
+                          "via.AnimationCurve": {
+                            "v0": [
+                              {
+                                "raw": "00000000010000000000000000000000",
+                                "type": "Data"
+                              },
+                              {
+                                "raw": "0000803f0100003c0000000000000000",
+                                "type": "Data"
+                              }
+                            ],
+                            "v1": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v2": {
+                              "raw": "0000803f",
+                              "type": "Data"
+                            },
+                            "v3": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v4": {
+                              "raw": "0000c842",
+                              "type": "Data"
+                            },
+                            "v5": {
+                              "raw": "00000000",
+                              "type": "Data"
+                            },
+                            "v6": {
+                              "raw": "02000000",
+                              "type": "Data"
+                            }
+                          }
                         }
                       }
                     }

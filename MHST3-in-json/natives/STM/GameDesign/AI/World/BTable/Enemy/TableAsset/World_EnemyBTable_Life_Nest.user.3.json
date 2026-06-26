@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": {
                           "_State": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": 0
                           }
                         }
                       }
@@ -29,7 +29,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 5
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|62d2c9e8-c213-4692-9062-2421aaae4a8e"
                           }
                         }
                       },
@@ -57,7 +57,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 12
+                            "ace.btable.cEditFieldInt": 70
                           }
                         }
                       },
@@ -73,7 +73,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 16
+                            "ace.btable.cEditFieldImportTableGuid": "383912e3-81ca-45ee-b73a-97f0be27dadb|7a1bd368-96ae-4831-af0d-67e44c4f38cd"
                           }
                         }
                       },
@@ -89,7 +89,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 20
+                            "ace.btable.cEditFieldInt": 30
                           }
                         }
                       },
@@ -105,7 +105,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 24
+                            "ace.btable.cEditFieldTableGuid": "9f1053a3-70be-4a70-9f55-961e6b33c668"
                           }
                         }
                       },
@@ -164,7 +164,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 38
+                            "ace.btable.cEditFieldInt": 70
                           }
                         }
                       },
@@ -180,7 +180,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 42
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|62d2c9e8-c213-4692-9062-2421aaae4a8e"
                           }
                         }
                       },
@@ -196,7 +196,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 46
+                            "ace.btable.cEditFieldInt": 30
                           }
                         }
                       },
@@ -212,7 +212,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 50
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|81b962b7-56f7-4286-aa2a-6c4318946966"
                           }
                         }
                       },
@@ -228,7 +228,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 54
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|62d2c9e8-c213-4692-9062-2421aaae4a8e"
                           }
                         }
                       },
@@ -296,12 +296,9 @@
         }
       },
       "_ThisGuid": "3d838883-f61c-4847-8fc4-bf9e716a7317",
-      "_ExportBTableType": {
-        "raw": "27000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_EnemyBTable_Life_Nest_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

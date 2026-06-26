@@ -2,9 +2,99 @@
   {
     "ace.btable.user_data.BTableOrderList": {
       "_OperatorFactories": [],
-      "_CommandFactories": [],
+      "_CommandFactories": [
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cCheckDistance",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCommandCheckDistanceArg",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cCheckAction",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckActionArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cActionSwitch",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cSubActionSwitch",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cActionSwitchCase",
+            "_ArgumentType": "app.btable.World_BTableCommand.cSelectActionArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectActionArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cCheckNavigationFaild",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cCheckDistanceForParam",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckDistanceForParamArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cCheckArrival",
+            "_ArgumentType": "app.btable.World_BTableCommand.cCheckArrivalArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.World_BTableCommand.cCheckPLStop",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "ace.btable.cCheckTimerValue",
+            "_ArgumentType": "ace.btable.cCheckTimerValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "ace.btable.cSetTimerValue",
+            "_ArgumentType": "ace.btable.cSetTimerValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        }
+      ],
       "_OperatorHashList": [],
-      "_CommandHashList": []
+      "_CommandHashList": [
+        5962090531585846872,
+        9187831916461437606,
+        8077388323848473281,
+        5771845739453136415,
+        3941756438225284380,
+        1102060331170808136,
+        14088350548997508024,
+        495220479176939910,
+        1556845566424070915,
+        13368095713160788669,
+        5427773681507473951
+      ]
     }
   }
 ]

@@ -33,7 +33,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[12861] ID_PARTS_EM2113_00_00_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "d2cb3763-21ad-4e56-97b6-ee9c892aa0bb",
                   "_BrokenConditionGuid": "4b5bc7c6-1821-429e-b160-9befcb11f39b"
                 }
@@ -84,7 +84,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[12861] ID_PARTS_EM2113_00_00_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "d2cb3763-21ad-4e56-97b6-ee9c892aa0bb",
                   "_BrokenConditionGuid": "4b5bc7c6-1821-429e-b160-9befcb11f39b"
                 }
@@ -162,7 +162,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[31000] ID_PARTS_EM2113_00_30_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "21b717a0-1a2d-4c58-8adc-337b5d58a95e",
                   "_BrokenConditionGuid": "8779793e-f957-484b-b434-045282765e73"
                 }
@@ -170,7 +170,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[31000] ID_PARTS_EM2113_00_30_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "90e235f4-6475-4e19-a59b-92cf34210688",
                   "_BrokenConditionGuid": "9700361c-3587-4672-9815-d3de5060ca33"
                 }
@@ -191,6 +191,13 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_PartsID2": "[997777664] ID_PARTS_DAMMY"
                 }
+              },
+              {
+                "app.user_data.MorphEffectData.cPartsParam": {
+                  "_ElementID": 510,
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
+                }
               }
             ],
             "_McdList": [
@@ -205,7 +212,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[31000] ID_PARTS_EM2113_00_30_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "21b717a0-1a2d-4c58-8adc-337b5d58a95e",
                   "_BrokenConditionGuid": "8779793e-f957-484b-b434-045282765e73"
                 }
@@ -213,7 +220,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[31000] ID_PARTS_EM2113_00_30_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "90e235f4-6475-4e19-a59b-92cf34210688",
                   "_BrokenConditionGuid": "9700361c-3587-4672-9815-d3de5060ca33"
                 }
@@ -248,7 +255,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[12861] ID_PARTS_EM2113_00_00_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "21b717a0-1a2d-4c58-8adc-337b5d58a95e",
                   "_BrokenConditionGuid": "8779793e-f957-484b-b434-045282765e73"
                 }
@@ -256,7 +263,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[12861] ID_PARTS_EM2113_00_00_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "90e235f4-6475-4e19-a59b-92cf34210688",
                   "_BrokenConditionGuid": "9700361c-3587-4672-9815-d3de5060ca33"
                 }
@@ -270,7 +277,15 @@
             "_MorphVisualID": "[1880147072] ID_MORPH_VISUAL_MO113_HUNGER",
             "_MotionChangeEnabled": false,
             "_OtomonEffect": [],
-            "_EnemyEffect": [],
+            "_EnemyEffect": [
+              {
+                "app.user_data.MorphEffectData.cPartsParam": {
+                  "_ElementID": 520,
+                  "_PartsID": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[997777664] ID_PARTS_DAMMY"
+                }
+              }
+            ],
             "_McdList": [
               {
                 "app.user_data.MorphEffectData.cModelParam": {
@@ -291,7 +306,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[31000] ID_PARTS_EM2113_00_30_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "d2cb3763-21ad-4e56-97b6-ee9c892aa0bb",
                   "_BrokenConditionGuid": "4b5bc7c6-1821-429e-b160-9befcb11f39b"
                 }
@@ -320,7 +335,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[12861] ID_PARTS_EM2113_00_00_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "21b717a0-1a2d-4c58-8adc-337b5d58a95e",
                   "_BrokenConditionGuid": "8779793e-f957-484b-b434-045282765e73"
                 }
@@ -328,7 +343,7 @@
               {
                 "app.user_data.MorphEffectData.cModelParam": {
                   "_PartsID": "[12861] ID_PARTS_EM2113_00_00_1",
-                  "_PartsID2": "[997777664] ID_PARTS_DAMMY",
+                  "_PartsID2": "[9276] ID_PARTS_EM2113_00_70_1",
                   "_ConditionGuid": "90e235f4-6475-4e19-a59b-92cf34210688",
                   "_BrokenConditionGuid": "9700361c-3587-4672-9815-d3de5060ca33"
                 }

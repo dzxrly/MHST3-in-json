@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": {
                           "_State": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": 0
                           }
                         }
                       }
@@ -33,10 +33,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 6
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": -1222900352
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 7
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -52,10 +52,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 11
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 12
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "9d20bb8e-ff74-4b63-8003-95b94246e55a"
                           }
                         }
                       }
@@ -79,7 +79,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 18
+                            "ace.btable.cEditFieldImportTableGuid": "ed374c26-a340-44ed-bbe3-0b9d4d648d32|ed536c9d-f57f-4773-a94f-8fb1209b7569"
                           }
                         }
                       },
@@ -123,12 +123,9 @@
         }
       },
       "_ThisGuid": "9da529e9-b4a3-0ffb-11b2-7ae72fa93933",
-      "_ExportBTableType": {
-        "raw": "27000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_EnemyBTable_Hunt_Nest_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

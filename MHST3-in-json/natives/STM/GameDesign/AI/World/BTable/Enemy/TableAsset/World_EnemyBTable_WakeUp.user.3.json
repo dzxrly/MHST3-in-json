@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": {
                           "_State": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": 0
                           }
                         }
                       }
@@ -45,10 +45,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 9
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": -1222900352
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 10
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -76,10 +76,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 17
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 24370
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 18
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -119,10 +119,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 28
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 29
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "241fa036-a59d-474f-8bde-460146f7e08d"
                           }
                         }
                       }
@@ -155,12 +155,9 @@
         }
       },
       "_ThisGuid": "8c430a28-b534-0d4d-2595-40b3f239f8db",
-      "_ExportBTableType": {
-        "raw": "24000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_EnemyBTable_WakeUp_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

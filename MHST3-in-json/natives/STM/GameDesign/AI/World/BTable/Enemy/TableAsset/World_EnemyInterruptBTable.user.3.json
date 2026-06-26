@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": 1
                           }
                         }
                       }
@@ -29,7 +29,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 5
+                            "ace.btable.cEditFieldImportTableGuid": "0ac15b4b-528b-43ee-b2c2-f0b608646b61|eeca8cb8-55bc-4444-aaff-a4d850187116"
                           }
                         }
                       },
@@ -49,7 +49,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 10
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": 3
                           }
                         }
                       }
@@ -61,7 +61,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 13
+                            "ace.btable.cEditFieldImportTableGuid": "e4616524-5539-40da-ad9d-14f7c151c27e|846e3649-0b09-493f-bdc8-ead9e16f7987"
                           }
                         }
                       },
@@ -81,7 +81,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 18
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": 4
                           }
                         }
                       }
@@ -93,7 +93,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 21
+                            "ace.btable.cEditFieldImportTableGuid": "8c430a28-b534-0d4d-2595-40b3f239f8db|846e3649-0b09-493f-bdc8-ead9e16f7987"
                           }
                         }
                       },
@@ -113,7 +113,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 26
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": 5
                           }
                         }
                       }
@@ -125,7 +125,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 29
+                            "ace.btable.cEditFieldImportTableGuid": "9e601bc6-74c6-4814-9cd4-0494fa0deb83|98304db8-0d7b-4cc0-b796-18c542b9c9b9"
                           }
                         }
                       },
@@ -145,7 +145,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 34
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": 9
                           }
                         }
                       }
@@ -161,10 +161,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 38
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 39
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "509dd09b-7627-4d86-8239-23cce4bb0030"
                           }
                         }
                       }
@@ -180,7 +180,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": {
                           "_State": {
-                            "ref_instance_id": 43
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_INTERRUPT_ID>": 10
                           }
                         }
                       }
@@ -192,7 +192,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 46
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|26a6fd30-35b4-4198-8400-43dcb36051b0"
                           }
                         }
                       },
@@ -272,12 +272,9 @@
         }
       },
       "_ThisGuid": "99dcb968-0b45-4888-bbd9-e45296891bac",
-      "_ExportBTableType": {
-        "raw": "26000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_EnemyInterruptBTable_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

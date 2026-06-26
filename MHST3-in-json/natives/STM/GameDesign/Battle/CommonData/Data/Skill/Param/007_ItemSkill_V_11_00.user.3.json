@@ -21,10 +21,10 @@
             "_SkillIconType": 1,
             "_SkillSpeed": 18,
             "_AccuracyRate": 100,
-            "_IsSureHit": false,
+            "_IsSureHit": true,
             "_IsCritical": false,
             "_CriticalAddRate": 0,
-            "_ItemCutType": -1,
+            "_ItemCutType": 11,
             "_NeedChargeLevel": 0,
             "_NeedUnderChargeLevel": 0,
             "_UseCondFlagBit": 0,
@@ -49,7 +49,7 @@
                   },
                   "_ResetStatusType": "[1681573888] INVALID",
                   "_TargetType": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
-                  "_HpDamageRate": 50,
+                  "_HpDamageRate": 80,
                   "_StaminaDamageRate": 0,
                   "_StaminaHealRate": 0.0,
                   "_ElementType": "[2465280640] ELEM_ATTR_TYPE_THUNDER",
@@ -69,44 +69,32 @@
                       "_TargetStatus": [
                         {
                           "app.user_data.cSkillParamInfo.cSetStatusInfo": {
-                            "_OnStatusType": {
-                              "ref_instance_id": 7
-                            },
+                            "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
                             "_ActProb": 0,
                             "_Rank": 1,
                             "_ActAddTurn": 0,
                             "_IsAddRank": false,
-                            "_OffStatusType": {
-                              "ref_instance_id": 8
-                            }
+                            "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
                           }
                         },
                         {
                           "app.user_data.cSkillParamInfo.cSetStatusInfo": {
-                            "_OnStatusType": {
-                              "ref_instance_id": 10
-                            },
+                            "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
                             "_ActProb": 0,
                             "_Rank": 1,
                             "_ActAddTurn": 0,
                             "_IsAddRank": false,
-                            "_OffStatusType": {
-                              "ref_instance_id": 11
-                            }
+                            "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
                           }
                         },
                         {
                           "app.user_data.cSkillParamInfo.cSetStatusInfo": {
-                            "_OnStatusType": {
-                              "ref_instance_id": 13
-                            },
+                            "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
                             "_ActProb": 0,
                             "_Rank": 1,
                             "_ActAddTurn": 0,
                             "_IsAddRank": false,
-                            "_OffStatusType": {
-                              "ref_instance_id": 14
-                            }
+                            "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
                           }
                         }
                       ]
@@ -329,44 +317,32 @@
                       "_TargetStatus": [
                         {
                           "app.user_data.cSkillParamInfo.cSetStatusInfo": {
-                            "_OnStatusType": {
-                              "ref_instance_id": 56
-                            },
+                            "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
                             "_ActProb": 0,
                             "_Rank": 1,
                             "_ActAddTurn": 0,
                             "_IsAddRank": false,
-                            "_OffStatusType": {
-                              "ref_instance_id": 57
-                            }
+                            "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
                           }
                         },
                         {
                           "app.user_data.cSkillParamInfo.cSetStatusInfo": {
-                            "_OnStatusType": {
-                              "ref_instance_id": 59
-                            },
+                            "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
                             "_ActProb": 0,
                             "_Rank": 1,
                             "_ActAddTurn": 0,
                             "_IsAddRank": false,
-                            "_OffStatusType": {
-                              "ref_instance_id": 60
-                            }
+                            "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
                           }
                         },
                         {
                           "app.user_data.cSkillParamInfo.cSetStatusInfo": {
-                            "_OnStatusType": {
-                              "ref_instance_id": 62
-                            },
+                            "_OnStatusType": "[1457262464] SKL_STATUS_NONE",
                             "_ActProb": 0,
                             "_Rank": 1,
                             "_ActAddTurn": 0,
                             "_IsAddRank": false,
-                            "_OffStatusType": {
-                              "ref_instance_id": 63
-                            }
+                            "_OffStatusType": "[1457262464] SKL_STATUS_NONE"
                           }
                         }
                       ]

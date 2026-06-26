@@ -19,8 +19,15 @@
               "ace.cMissionConditionData_StartMission": {
                 "_Condition": {
                   "app.cMissionConditionMissionSuccessSS": {
-                    "_SideStoryMissionID": 24
+                    "_SideStoryMissionID": "[24] S_064"
                   }
+                }
+              }
+            },
+            {
+              "ace.cMissionConditionData_StartMission": {
+                "_Condition": {
+                  "app.cMissionConditionIsDefeatedHardLastBoss": {}
                 }
               }
             }
@@ -29,7 +36,7 @@
       },
       "_ScenarioDataList": {
         "app.user_data.MissionScenarioDataList": {
-          "ref_instance_id": 6,
+          "ref_instance_id": 8,
           "path": "GameDesign/Story/SubQuest/Q_950/MissionScenarioDataList_Q_950.user"
         }
       }

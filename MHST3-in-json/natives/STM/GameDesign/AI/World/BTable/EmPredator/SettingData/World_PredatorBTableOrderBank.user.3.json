@@ -1,5 +1,123 @@
 [
   {
-    "ace.btable.user_data.BTableOrderBank": {}
+    "ace.btable.user_data.BTableOrderBank": {
+      "_OperatorWorkFactory": {
+        "ace.btable.cOperatorWorkFactory": {
+          "_WorkType": "ace.btable.cOperatorWork"
+        }
+      },
+      "_CommandWorkFactory": {
+        "ace.btable.cCommandWorkFactory": {
+          "_WorkType": "app.cWorld_EnemyBTableCommandWork"
+        }
+      },
+      "_OrderLists": [
+        {
+          "ace.btable.user_data.BTableOrderBank.cItem": {
+            "_OrderList": {
+              "ace.btable.user_data.BTableOrderList": {
+                "ref_instance_id": 3,
+                "path": "Ace/Data/BTable/DefaultBTableOrderList.user"
+              }
+            }
+          }
+        },
+        {
+          "ace.btable.user_data.BTableOrderBank.cItem": {
+            "_OrderList": {
+              "ace.btable.user_data.BTableOrderList": {
+                "ref_instance_id": 5,
+                "path": "GameDesign/AI/World/BTable/Common/World_CommonBTableOrderList.user"
+              }
+            }
+          }
+        },
+        {
+          "ace.btable.user_data.BTableOrderBank.cItem": {
+            "_OrderList": {
+              "ace.btable.user_data.BTableOrderList": {
+                "ref_instance_id": 7,
+                "path": "GameDesign/AI/World/BTable/Enemy/SettingData/World_EnemyCommonBTableOrderList.user"
+              }
+            }
+          }
+        }
+      ],
+      "_OperatorArgumentSettingList": [],
+      "_CommandArgumentSettingList": [
+        {
+          "ace.btable.VariableArgSetting": {
+            "_Asset": {
+              "": {}
+            },
+            "_ListAsset": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.btable.AppBTableUtil_World.cSelectActionArgSetting": {
+            "_AssetDataList": [
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "_Asset": {
+                    "ace.cActionIDHolder": {
+                      "_ActionID": {
+                        "ace.user_data.ActionID": {
+                          "ref_instance_id": 10,
+                          "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_General.user"
+                        }
+                      },
+                      "_ExportGuid": "8db0e3d3-1f4b-4bfb-8dac-d4dc26d6a411"
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "_Asset": {
+                    "ace.cActionIDHolder": {
+                      "_ActionID": {
+                        "ace.user_data.ActionID": {
+                          "ref_instance_id": 13,
+                          "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_PredatorGeneral.user"
+                        }
+                      },
+                      "_ExportGuid": "8b5a6d08-ce1a-46af-b828-5b6485e4e675"
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "_Asset": {
+                    "ace.cActionIDHolder": {
+                      "_ActionID": {
+                        "ace.user_data.ActionID": {
+                          "ref_instance_id": 16,
+                          "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Swim.user"
+                        }
+                      },
+                      "_ExportGuid": "7c7e04cd-04de-44ba-b476-38084686cfc1"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
+            "_AssetDataList": []
+          }
+        }
+      ],
+      "_VariableAsset": {
+        "": {}
+      },
+      "_VariableListAsset": {
+        "": {}
+      }
+    }
   }
 ]

@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": {
                           "_State": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": 0
                           }
                         }
                       }
@@ -45,7 +45,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg": {
                           "_DetectType": {
-                            "ref_instance_id": 9
+                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg.HERD_DETECT_TYPE>": 2
                           }
                         }
                       }
@@ -85,10 +85,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 19
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": -1222900352
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 20
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -128,10 +128,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 30
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 14656
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 31
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -171,10 +171,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 41
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 24370
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 42
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -202,7 +202,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg": {
                           "_DetectType": {
-                            "ref_instance_id": 49
+                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg.HERD_DETECT_TYPE>": 1
                           }
                         }
                       }
@@ -214,7 +214,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 52
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|dc7a4173-7be4-4645-9ffa-fd7495bbc7f3"
                           }
                         }
                       },
@@ -254,7 +254,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 62
+                            "ace.btable.cEditFieldTableGuid": "ed536c9d-f57f-4773-a94f-8fb1209b7569"
                           }
                         }
                       },
@@ -305,7 +305,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg": {
                           "_DetectType": {
-                            "ref_instance_id": 74
+                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg.HERD_DETECT_TYPE>": 2
                           }
                         }
                       }
@@ -333,7 +333,7 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckEnumArg`1<app.WorldCharacterActionDomain.TYPE_Fixed>": {
                           "_Enum": {
-                            "ref_instance_id": 81
+                            "ace.btable.cEditFieldEnum`1<app.WorldCharacterActionDomain.TYPE_Fixed>": -2004874368
                           }
                         }
                       }
@@ -349,10 +349,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cSelectActionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 85
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 1
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 86
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "a12759d1-d35f-40dc-8842-71efb3970158"
                           }
                         }
                       }
@@ -380,10 +380,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 93
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 576452672
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 94
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -399,13 +399,13 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckDistanceForParamArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 98
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditDistGuid": {
-                            "ref_instance_id": 99
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "3269cb42-b60f-4cba-a377-89ca0adf7781"
                           },
                           "_ComparType": {
-                            "ref_instance_id": 100
+                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cCheckDistanceForParamArg.COMPAR_TYPE>": 0
                           }
                         }
                       }
@@ -417,7 +417,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 103
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|dc7a4173-7be4-4645-9ffa-fd7495bbc7f3"
                           }
                         }
                       },
@@ -445,7 +445,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 110
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|9f39cd1f-5c59-4664-b767-dc40e3311c2c"
                           }
                         }
                       },
@@ -497,7 +497,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 123
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|9f39cd1f-5c59-4664-b767-dc40e3311c2c"
                           }
                         }
                       },
@@ -505,10 +505,10 @@
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
                           "_EnumFixed": {
-                            "ref_instance_id": 125
+                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": -1222900352
                           },
                           "_IsRetraceNavigation": {
-                            "ref_instance_id": 126
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -544,7 +544,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJumpToImportBTable": {
                           "_EditImportBTableGuid": {
-                            "ref_instance_id": 135
+                            "ace.btable.cEditFieldImportTableGuid": "c95f4386-d206-437e-bed9-2d4d1ce5f4e8|9f39cd1f-5c59-4664-b767-dc40e3311c2c"
                           }
                         }
                       },
@@ -606,12 +606,9 @@
         }
       },
       "_ThisGuid": "ed374c26-a340-44ed-bbe3-0b9d4d648d32",
-      "_ExportBTableType": {
-        "raw": "22000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "app.World_EnemyBTable_Hunt_Export",
       "_CommandArgArray": [],
-      "_UseExportArgData": true
+      "_UseExportArgData": false
     }
   }
 ]

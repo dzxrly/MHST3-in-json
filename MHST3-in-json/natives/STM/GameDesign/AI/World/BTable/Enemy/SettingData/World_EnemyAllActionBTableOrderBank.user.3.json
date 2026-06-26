@@ -2,41 +2,147 @@
   {
     "ace.btable.user_data.BTableOrderBank": {
       "_OperatorWorkFactory": {
-        "ace.cActionIDHolder": {
-          "_ActionID": {
-            "Ref": {
-              "ref_instance_id": 1650545730,
-              "missing": true
-            }
-          },
-          "_ExportGuid": "6f43656c-6d6d-6e61-6457-6f726b000000"
+        "ace.btable.cOperatorWorkFactory": {
+          "_WorkType": "ace.btable.cOperatorWork"
         }
       },
       "_CommandWorkFactory": {
-        "ace.user_data.ActionID": {
-          "ref_instance_id": 16,
-          "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Swim.user"
+        "ace.btable.cCommandWorkFactory": {
+          "_WorkType": "app.cWorld_EnemyBTableCommandWork"
         }
       },
-      "_OrderLists": [],
-      "_OperatorArgumentSettingList": [],
-      "_CommandArgumentSettingList": [],
-      "_VariableAsset": {
-        "Ref": {
-          "ref_instance_id": -1043364282,
-          "missing": true
+      "_OrderLists": [
+        {
+          "ace.btable.user_data.BTableOrderBank.cItem": {
+            "_OrderList": {
+              "ace.btable.user_data.BTableOrderList": {
+                "ref_instance_id": 3,
+                "path": "Ace/Data/BTable/DefaultBTableOrderList.user"
+              }
+            }
+          }
+        },
+        {
+          "ace.btable.user_data.BTableOrderBank.cItem": {
+            "_OrderList": {
+              "ace.btable.user_data.BTableOrderList": {
+                "ref_instance_id": 5,
+                "path": "GameDesign/AI/World/BTable/Common/World_CommonBTableOrderList.user"
+              }
+            }
+          }
+        },
+        {
+          "ace.btable.user_data.BTableOrderBank.cItem": {
+            "_OrderList": {
+              "ace.btable.user_data.BTableOrderList": {
+                "ref_instance_id": 7,
+                "path": "GameDesign/AI/World/BTable/Enemy/SettingData/World_EnemyCommonBTableOrderList.user"
+              }
+            }
+          }
         }
+      ],
+      "_OperatorArgumentSettingList": [],
+      "_CommandArgumentSettingList": [
+        {
+          "ace.btable.VariableArgSetting": {
+            "_Asset": {
+              "": {}
+            },
+            "_ListAsset": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.btable.AppBTableUtil_World.cSelectActionArgSetting": {
+            "_AssetDataList": [
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "_Asset": {
+                    "ace.cActionIDHolder": {
+                      "_ActionID": {
+                        "ace.user_data.ActionID": {
+                          "ref_instance_id": 10,
+                          "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_General.user"
+                        }
+                      },
+                      "_ExportGuid": "8db0e3d3-1f4b-4bfb-8dac-d4dc26d6a411"
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "_Asset": {
+                    "ace.cActionIDHolder": {
+                      "_ActionID": {
+                        "ace.user_data.ActionID": {
+                          "ref_instance_id": 13,
+                          "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Fly.user"
+                        }
+                      },
+                      "_ExportGuid": "e8ad9b26-f3f7-4aed-9fa0-cdd05a26464d"
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "_Asset": {
+                    "ace.cActionIDHolder": {
+                      "_ActionID": {
+                        "ace.user_data.ActionID": {
+                          "ref_instance_id": 16,
+                          "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Swim.user"
+                        }
+                      },
+                      "_ExportGuid": "7c7e04cd-04de-44ba-b476-38084686cfc1"
+                    }
+                  }
+                }
+              },
+              {
+                "app.btable.AppBTableUtil_World.cSelectActionArgSetting.cAssetData": {
+                  "_Asset": {
+                    "ace.cActionIDHolder": {
+                      "_ActionID": {
+                        "ace.user_data.ActionID": {
+                          "ref_instance_id": 19,
+                          "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Underground.user"
+                        }
+                      },
+                      "_ExportGuid": "3716890d-1937-4655-8ab9-d161d497bf49"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
+            "_AssetDataList": [
+              {
+                "app.btable.AppBTableUtil_World.cSelectInstanceGuidArrayParamArgSetting`2.cAssetData<app.user_data.World_NavigationDistParam,app.user_data.cPriorityParamDist>": {
+                  "_Asset": {
+                    "app.user_data.World_NavigationDistParam": {
+                      "ref_instance_id": 23,
+                      "path": "GameDesign/AI/World/BTable/Enemy/SettingData/World_EmNavigationDistParam.user"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "_VariableAsset": {
+        "": {}
       },
       "_VariableListAsset": {
-        "ace.cActionIDHolder": {
-          "_ActionID": {
-            "ace.btable.user_data.BTableOrderList": {
-              "ref_instance_id": 5,
-              "path": "GameDesign/AI/World/BTable/Common/World_CommonBTableOrderList.user"
-            }
-          },
-          "_ExportGuid": "00000007-0000-0000-0000-00000a000000"
-        }
+        "": {}
       }
     }
   }

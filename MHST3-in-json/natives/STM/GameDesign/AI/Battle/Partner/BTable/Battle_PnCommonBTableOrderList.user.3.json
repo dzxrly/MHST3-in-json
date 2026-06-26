@@ -2,9 +2,139 @@
   {
     "ace.btable.user_data.BTableOrderList": {
       "_OperatorFactories": [],
-      "_CommandFactories": [],
+      "_CommandFactories": [
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cSellectPnSkillID",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetSkillID_PnArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDPnArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPnWeaponGauge",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckWeaponGaugeArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPn_AttackTargetStatusInfo",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckPn_StatusInfoArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPn_TargetedBattleLine",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPn_AttackVsPSTTarget",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPnWeaponEx_IsCounterMode",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cSetPnWeaponEx_BowBinChange",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetPnWeaponEx_BowBinChangeArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPnWeaponEx_IsHammerSkillCount",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cSetPnWeaponEx_HammerChaserAttack",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetPnWeaponEx_HammerChaserAttackArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPnWeaponEx_UseableMelody",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckPnWeaponEx_UseableMelodyArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cSetPnWeaponEx_HornSkillSong",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cSetPnWeaponEx_HornSkillSongArg",
+            "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectSkillIDPnArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cSetPnWeaponEx_Horn3SoundsSkill",
+            "_ArgumentType": "ace.btable.cCommandArgumentNone",
+            "_ArgumentSettingType": "ace.btable.cArgumentSettingNone"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPnWeaponEx_CheckGunLanceWyvernAmmoCoolTurn",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPnWeaponEx_CheckGunLanceGuard",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPn_Strategy",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cCheckPn_StrategyArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        },
+        {
+          "ace.btable.cCommandFactory": {
+            "_OrderType": "app.btable.Battle_PnCommonBTableCommand.cCheckPn_EnemyNum",
+            "_ArgumentType": "app.btable.Battle_CommonBTableCommand.cFloatValueArg",
+            "_ArgumentSettingType": "ace.btable.VariableArgSetting"
+          }
+        }
+      ],
       "_OperatorHashList": [],
-      "_CommandHashList": []
+      "_CommandHashList": [
+        7991089850608486863,
+        140970839636575692,
+        12027628794669591614,
+        3846154365505329021,
+        5756748847179232466,
+        10245232481102359043,
+        830687335425770154,
+        14084646770615810631,
+        578045588271826792,
+        2786566009739731595,
+        17871542373514006089,
+        15280012271478219569,
+        7099593903446962583,
+        10485669636467314978,
+        7388568906779805378,
+        16743313333761129764
+      ]
     }
   }
 ]
