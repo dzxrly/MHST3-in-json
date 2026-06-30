@@ -1,0 +1,90 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "62c9e7e0-792b-4348-bb28-b7fe56af73f6",
+      "nameMMHash": 2878922317,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "ec642bba-b0bc-4aef-8816-7cc4764b50e8",
+      "groupShapes": [],
+      "maskGuids": [
+        "774e7f7f-6129-4a1e-be05-7cb33ae6d295"
+      ],
+      "groupName": ""
+    },
+    {
+      "groupGuid": "4b11c77a-1567-4c64-9f49-ebf5ec013821",
+      "nameMMHash": 3016357314,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "8e67f5ff-5a0d-475b-b5a5-3a1ac4e3bd3e",
+      "groupShapes": [
+        {
+          "shapeGuid": "f12b7163-8b82-406f-8144-2196213d6fe6",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Capsule",
+          "shapeParam": {
+            "start": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "end": {
+              "x": 0.0,
+              "y": 3.5,
+              "z": 0.0
+            },
+            "radius": 0.5
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 1,
+      "requestSetIndex": 0,
+      "keyHash": 3049698517,
+      "KeyNameMMHash": 2878922317,
+      "name": "",
+      "keyName": "",
+      "nativeShapeColliders": [
+        {
+          "app.col_user_data.PressParam": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            },
+            "_PressLevel": "[-1382590464]NO_MOVE"
+          }
+        }
+      ],
+      "userData": {
+        "via.physics.RequestSetColliderUserData": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          }
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}

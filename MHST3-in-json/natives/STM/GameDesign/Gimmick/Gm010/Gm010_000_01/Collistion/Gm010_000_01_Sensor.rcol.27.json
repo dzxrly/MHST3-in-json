@@ -1,0 +1,116 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "a0023d4b-7e1d-4d1d-ad5a-15907a802c89",
+      "nameMMHash": 3327304509,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "d06edb8f-a992-43fd-ab2b-85437d5f8605",
+      "groupShapes": [
+        {
+          "shapeGuid": "dd0e0b3b-1aca-4e45-a89a-724c454d4851",
+          "shapeNameMMHash": 731050344,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Capsule",
+          "shapeParam": {
+            "start": {
+              "x": -29.5738,
+              "y": 46.2649,
+              "z": 54.4335
+            },
+            "end": {
+              "x": -33.1223,
+              "y": 155.6664,
+              "z": 58.0879
+            },
+            "radius": 95.0
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        },
+        {
+          "shapeGuid": "e158ee25-54f3-4213-854b-3f7c85d70765",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Box",
+          "shapeParam": {
+            "floats": [
+              0.891007,
+              0.0,
+              -0.45399,
+              0.0,
+              -0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.45399,
+              0.0,
+              0.891007,
+              0.0
+            ]
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [
+        "6bb15359-0f09-4ada-9683-aa6326a5b971"
+      ],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 1,
+      "requestSetIndex": 0,
+      "keyHash": 977748848,
+      "KeyNameMMHash": 2180083513,
+      "name": "",
+      "keyName": "",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.SensorMarkerParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_MarkerPriority": "[-1026057984]GATE",
+          "_IsInteract": true,
+          "_UniqueIndex": "[1]PARTS_00",
+          "_DetectOnly": false,
+          "_ForceCheck": true,
+          "_MarkerRestrict": "[0]NOTHING"
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}

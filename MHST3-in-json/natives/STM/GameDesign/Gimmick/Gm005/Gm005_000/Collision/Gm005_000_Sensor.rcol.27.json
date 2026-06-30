@@ -1,0 +1,77 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "414b024a-adc2-4cfb-a9c3-76e4b0e3ff36",
+      "nameMMHash": 2376776116,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "d06edb8f-a992-43fd-ab2b-85437d5f8605",
+      "groupShapes": [
+        {
+          "shapeGuid": "e96ec024-df0a-4d54-a0e4-a39fd8cf0fe5",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.4028,
+            "z": 0.0,
+            "radius": 0.3
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [
+        "6bb15359-0f09-4ada-9683-aa6326a5b971"
+      ],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 1,
+      "requestSetIndex": 0,
+      "keyHash": 977748848,
+      "KeyNameMMHash": 2376776116,
+      "name": "",
+      "keyName": "",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.SensorMarkerParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_MarkerPriority": "[1084857728]PICK",
+          "_IsInteract": true,
+          "_UniqueIndex": "[0]NONE",
+          "_DetectOnly": true,
+          "_ForceCheck": false,
+          "_MarkerRestrict": 6
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}

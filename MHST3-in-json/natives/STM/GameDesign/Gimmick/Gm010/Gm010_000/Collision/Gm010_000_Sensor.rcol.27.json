@@ -1,0 +1,147 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "475d83ab-32a5-4fff-9794-e3308f065d53",
+      "nameMMHash": 3400315495,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "d06edb8f-a992-43fd-ab2b-85437d5f8605",
+      "groupShapes": [
+        {
+          "shapeGuid": "2e1e5bcd-8881-42d1-8b14-d227af8031c4",
+          "shapeNameMMHash": 1518458055,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "radius": 0.0
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [
+        "6bb15359-0f09-4ada-9683-aa6326a5b971"
+      ],
+      "groupName": ""
+    },
+    {
+      "groupGuid": "a09970ab-fb63-4d98-b0fc-2a47f6282afe",
+      "nameMMHash": 3327304509,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "d06edb8f-a992-43fd-ab2b-85437d5f8605",
+      "groupShapes": [
+        {
+          "shapeGuid": "d6261ffa-f90e-45da-bbd0-a8b6a0c1df0b",
+          "shapeNameMMHash": 1518458055,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "radius": 0.0
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [
+        "6bb15359-0f09-4ada-9683-aa6326a5b971"
+      ],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 1,
+      "status": 1,
+      "requestSetIndex": 0,
+      "keyHash": 977748848,
+      "KeyNameMMHash": 2376776116,
+      "name": "",
+      "keyName": "Sensor",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.SensorMarkerParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_MarkerPriority": "[-1026057984]GATE",
+          "_IsInteract": true,
+          "_UniqueIndex": "[1]PARTS_00",
+          "_DetectOnly": false,
+          "_ForceCheck": true,
+          "_MarkerRestrict": "[0]NOTHING"
+        }
+      }
+    },
+    {
+      "requestSetID": 1,
+      "groupIndex": 0,
+      "status": 1,
+      "requestSetIndex": 1,
+      "keyHash": 558722185,
+      "KeyNameMMHash": 2442073824,
+      "name": "",
+      "keyName": "ForceSensor",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.SensorMarkerParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_MarkerPriority": "[-2033781248]AIR_PICK",
+          "_IsInteract": false,
+          "_UniqueIndex": "[2]PARTS_01",
+          "_DetectOnly": true,
+          "_ForceCheck": true,
+          "_MarkerRestrict": "[0]NOTHING"
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}

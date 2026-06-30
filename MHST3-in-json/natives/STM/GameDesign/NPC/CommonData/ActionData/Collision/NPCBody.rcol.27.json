@@ -1,0 +1,77 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "6e93dfc7-ea22-47c9-b1cc-3df73f0377c7",
+      "nameMMHash": 3016357314,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "9622f799-8200-41e4-995f-a7e41d8d9e06",
+      "groupShapes": [
+        {
+          "shapeGuid": "f82f7066-450e-4cef-9eef-1bcac10739f6",
+          "shapeNameMMHash": 2152419538,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Capsule",
+          "shapeParam": {
+            "start": {
+              "x": 0.0,
+              "y": -0.7,
+              "z": 0.0
+            },
+            "end": {
+              "x": 0.0,
+              "y": 0.4,
+              "z": 0.0
+            },
+            "radius": 0.4
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 3903073785,
+          "secondaryJointNameMMHash": 3903073785,
+          "shapeName": "",
+          "primaryJointName": "Cog",
+          "secondaryJointName": "Cog"
+        }
+      ],
+      "maskGuids": [],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 1,
+      "requestSetIndex": 0,
+      "keyHash": 2152419538,
+      "KeyNameMMHash": 396010129,
+      "name": "",
+      "keyName": "Push",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.PressParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_PressLevel": "[257899264]NPC"
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}

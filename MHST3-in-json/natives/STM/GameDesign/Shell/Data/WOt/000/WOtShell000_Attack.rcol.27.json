@@ -1,0 +1,77 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "b35aad10-9d5b-4eca-a2c9-6cc8aba9be61",
+      "nameMMHash": 2212901404,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "e0b588ff-24bd-4b50-bd93-1961cd515f80",
+      "groupShapes": [
+        {
+          "shapeGuid": "e96c0a75-672e-4dd1-bd7d-787dea48c148",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "radius": 1.0
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [
+        "1e1cc4cf-114d-4d40-9d1d-f2d3f84efd04",
+        "774e7f7f-6129-4a1e-be05-7cb33ae6d295"
+      ],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 0,
+      "requestSetIndex": 0,
+      "keyHash": 2212901404,
+      "KeyNameMMHash": 2180083513,
+      "name": "",
+      "keyName": "",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.AttackParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_AttackTypeFixed": {
+            "app.FieldHitDefine.ATTACK_TYPE_Serializable": {
+              "_Value": "[1064051904]BREATH"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}

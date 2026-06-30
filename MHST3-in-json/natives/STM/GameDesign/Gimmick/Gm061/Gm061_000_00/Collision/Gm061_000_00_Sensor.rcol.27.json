@@ -1,0 +1,87 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "9c47641e-9fa4-4a51-9518-ff5ac7073d31",
+      "nameMMHash": 2376776116,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "d06edb8f-a992-43fd-ab2b-85437d5f8605",
+      "groupShapes": [
+        {
+          "shapeGuid": "6b4f94a4-8caf-4f47-ad74-7711a61ae096",
+          "shapeNameMMHash": 86472407,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Box",
+          "shapeParam": {
+            "floats": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [
+        "6bb15359-0f09-4ada-9683-aa6326a5b971"
+      ],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 1,
+      "requestSetIndex": 0,
+      "keyHash": 3594727927,
+      "KeyNameMMHash": 1729830248,
+      "name": "",
+      "keyName": "Marker",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.SensorMarkerParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_MarkerPriority": "[-2033781248]AIR_PICK",
+          "_IsInteract": false,
+          "_UniqueIndex": "[0]NONE",
+          "_DetectOnly": true,
+          "_ForceCheck": false,
+          "_MarkerRestrict": 6
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}

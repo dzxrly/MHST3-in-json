@@ -1,0 +1,111 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "0ab35ef5-f93f-497f-ba5b-6edf6f33314e",
+      "nameMMHash": 2376776116,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "d06edb8f-a992-43fd-ab2b-85437d5f8605",
+      "groupShapes": [
+        {
+          "shapeGuid": "74ec7ad0-f198-4062-853d-931a18d849bb",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "radius": 5.0
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [
+        "6bb15359-0f09-4ada-9683-aa6326a5b971"
+      ],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 0,
+      "requestSetIndex": 0,
+      "keyHash": 977748848,
+      "KeyNameMMHash": 2376776116,
+      "name": "",
+      "keyName": "",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.SensorMarkerParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_MarkerPriority": "[1084857728]PICK",
+          "_IsInteract": true,
+          "_UniqueIndex": "[0]NONE",
+          "_DetectOnly": false,
+          "_ForceCheck": false,
+          "_MarkerRestrict": 6
+        }
+      }
+    },
+    {
+      "requestSetID": 1,
+      "groupIndex": 0,
+      "status": 0,
+      "requestSetIndex": 1,
+      "keyHash": 3244930510,
+      "KeyNameMMHash": 1440745971,
+      "name": "",
+      "keyName": "Sensor2",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.SensorMarkerParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_MarkerPriority": "[1084857728]PICK",
+          "_IsInteract": true,
+          "_UniqueIndex": "[0]NONE",
+          "_DetectOnly": false,
+          "_ForceCheck": false,
+          "_MarkerRestrict": 3
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}

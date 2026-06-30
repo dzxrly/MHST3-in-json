@@ -1,0 +1,83 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "e8a151eb-b5dd-49a5-9993-f36a6c82018c",
+      "nameMMHash": 3016357314,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "99e47e34-d687-4c5f-a80f-96cc568475b3",
+      "groupShapes": [
+        {
+          "shapeGuid": "1105d5a2-d909-45aa-a384-39884954b4fa",
+          "shapeNameMMHash": 1518458055,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -5.0,
+            "radius": 7.5
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [],
+      "groupName": ""
+    },
+    {
+      "groupGuid": "525059b8-69a8-468e-945f-6997a588971f",
+      "nameMMHash": 2878922317,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "ec642bba-b0bc-4aef-8816-7cc4764b50e8",
+      "groupShapes": [],
+      "maskGuids": [
+        "774e7f7f-6129-4a1e-be05-7cb33ae6d295"
+      ],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 1,
+      "requestSetIndex": 0,
+      "keyHash": 2053796569,
+      "KeyNameMMHash": 3016357314,
+      "name": "",
+      "keyName": "",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.PressParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_PressLevel": "[-1382590464]NO_MOVE"
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}

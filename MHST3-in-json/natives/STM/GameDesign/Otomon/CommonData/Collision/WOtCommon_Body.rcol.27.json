@@ -1,0 +1,196 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "be47fd21-1745-4668-b323-d03c5ba26b16",
+      "nameMMHash": 3016357314,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "3558816f-2c1b-4440-a8cd-de86601f23f3",
+      "groupShapes": [
+        {
+          "shapeGuid": "c4c1b034-5727-40a4-b817-dd39a2d7c906",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "radius": 2.0
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 3903073785,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "Cog",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [],
+      "groupName": ""
+    },
+    {
+      "groupGuid": "8effd2a2-3e5f-44a8-bdcd-c7e6c718f76b",
+      "nameMMHash": 4039100971,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "3558816f-2c1b-4440-a8cd-de86601f23f3",
+      "groupShapes": [
+        {
+          "shapeGuid": "06c0adcf-6c6d-4eb6-b3f2-0c13d0b61e80",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "radius": 2.0
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 3903073785,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "Cog",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [],
+      "groupName": ""
+    },
+    {
+      "groupGuid": "97fcd43b-5a74-496e-85ec-382ab7c6a454",
+      "nameMMHash": 869487140,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "b857f2d4-4a91-45dc-bcf7-a0a32755f229",
+      "groupShapes": [
+        {
+          "shapeGuid": "682d9eb2-6251-498c-ba1c-190a4b7c252e",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "radius": 5.0
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 3903073785,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "Cog",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 1,
+      "requestSetIndex": 0,
+      "keyHash": 49852796,
+      "KeyNameMMHash": 1830304018,
+      "name": "",
+      "keyName": "OtomonPress1",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.PressParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_PressLevel": "[1195825920]OTOMON"
+        }
+      }
+    },
+    {
+      "requestSetID": 1,
+      "groupIndex": 1,
+      "status": 1,
+      "requestSetIndex": 1,
+      "keyHash": 2395319697,
+      "KeyNameMMHash": 3910247549,
+      "name": "",
+      "keyName": "OtomonPress2",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.PressParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_PressLevel": "[1195825920]OTOMON"
+        }
+      }
+    },
+    {
+      "requestSetID": 2,
+      "groupIndex": 2,
+      "status": 1,
+      "requestSetIndex": 2,
+      "keyHash": 2641507722,
+      "KeyNameMMHash": 869487140,
+      "name": "",
+      "keyName": "",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "app.col_user_data.PressParam": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          },
+          "_PressLevel": "[1195825920]OTOMON"
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}
