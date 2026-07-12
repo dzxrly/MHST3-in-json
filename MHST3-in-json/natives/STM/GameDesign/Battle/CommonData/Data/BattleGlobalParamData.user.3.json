@@ -105,14 +105,14 @@
           "_FocusDistance": 5.0,
           "_Target1": {
             "app.user_data.BattleCutCameraData.cDOFTrack.cTargetInfo": {
-              "_Target": 0,
+              "_Target": "[0] Actor",
               "_JointName": "",
               "_DistanceOffset": 0.0
             }
           },
           "_Target2": {
             "app.user_data.BattleCutCameraData.cDOFTrack.cTargetInfo": {
-              "_Target": 0,
+              "_Target": "[0] Actor",
               "_JointName": "",
               "_DistanceOffset": 0.0
             }
@@ -408,7 +408,7 @@
       "BowBottleChargeParam": [
         {
           "app.user_data.BattleGlobalParamData.BowBottleParam": {
-            "BottleChargeType": 1,
+            "BottleChargeType": "[1] CHARGE_1",
             "CondGrantRate": 20,
             "DebuffAddActiveTurn": 1,
             "DebuffAddRank": 0,
@@ -418,7 +418,7 @@
         },
         {
           "app.user_data.BattleGlobalParamData.BowBottleParam": {
-            "BottleChargeType": 2,
+            "BottleChargeType": "[2] CHARGE_2",
             "CondGrantRate": 20,
             "DebuffAddActiveTurn": 1,
             "DebuffAddRank": 0,
@@ -428,7 +428,7 @@
         },
         {
           "app.user_data.BattleGlobalParamData.BowBottleParam": {
-            "BottleChargeType": 3,
+            "BottleChargeType": "[3] CHARGE_3",
             "CondGrantRate": 40,
             "DebuffAddActiveTurn": 2,
             "DebuffAddRank": 1,
@@ -438,7 +438,7 @@
         },
         {
           "app.user_data.BattleGlobalParamData.BowBottleParam": {
-            "BottleChargeType": 4,
+            "BottleChargeType": "[4] CHARGE_4",
             "CondGrantRate": 40,
             "DebuffAddActiveTurn": 2,
             "DebuffAddRank": 1,
@@ -448,7 +448,7 @@
         },
         {
           "app.user_data.BattleGlobalParamData.BowBottleParam": {
-            "BottleChargeType": 5,
+            "BottleChargeType": "[5] CHARGE_5",
             "CondGrantRate": 70,
             "DebuffAddActiveTurn": 3,
             "DebuffAddRank": 1,
@@ -458,7 +458,7 @@
         },
         {
           "app.user_data.BattleGlobalParamData.BowBottleParam": {
-            "BottleChargeType": 6,
+            "BottleChargeType": "[6] SPECIAL",
             "CondGrantRate": 200,
             "DebuffAddActiveTurn": 5,
             "DebuffAddRank": 2,

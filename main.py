@@ -1,8 +1,8 @@
-"""命令行入口，负责分发 `.user.3` 导出和 JSON 封包流程。
+"""命令行入口，负责分发 `.user.3` 导出流程。
 
-本文件只做参数解析和流程编排，具体的二进制解析、JSON 生成、
-JSON 封包逻辑由已安装的 `pyreuser3` 软件包提供，便于本仓库只保留
-MHST3 项目专属的命令组合与 `.msg.23` 转换入口。
+本文件只做参数解析和流程编排，具体的二进制解析和 JSON 生成逻辑
+由已安装的 `pyreuser3` 软件包提供，便于本仓库只保留 MHST3 项目
+专属的导出命令组合与 `.msg.23` 转换入口。
 """
 
 from __future__ import annotations
@@ -11,9 +11,17 @@ import argparse
 import json
 import sys
 
-from pyreuser3 import User3Exporter, User3Packer
+from pyreuser3 import User3Exporter
 from pyreuser3.core import RSZ_MAGIC, USR_MAGIC
 from pyreuser3.rich_ui import get_console
+
+
+def configure_utf8_stdio() -> None:
+    """让 Rich 进度输出在 Windows 的非 UTF-8 终端中也可用。"""
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if callable(reconfigure):
+            reconfigure(encoding="utf-8", errors="replace")
 
 
 def parse_int_arg(value: str) -> int:
@@ -102,8 +110,8 @@ def run_export(argv: list[str] | None = None) -> None:
     else:
         tree_depth = int(args.tree_depth)
 
-    # `.msg.23` 依赖 REMSG_Converter 子模块。延迟导入可以让只使用
-    # `pack` 子命令或只导入 pyreuser3 包的场景不受该子模块影响。
+    # `.msg.23` 依赖 REMSG_Converter 子模块。延迟导入避免只导入
+    # 本模块、尚未执行批量导出时就加载该子模块。
     from msg_converter import MsgConverter
 
     # 先转换文本消息文件。转换失败的单文件会被统计到失败数量中，
@@ -140,95 +148,18 @@ def run_export(argv: list[str] | None = None) -> None:
     )
 
 
-def run_pack(argv: list[str] | None = None) -> None:
-    """解析封包参数，并把 JSON 重新构造成 `.user.3` 文件。
-
-    参数：
-        argv: 不包含 `pack` 子命令名的参数列表。
-    """
-    parser = argparse.ArgumentParser(description="Pack .user.3.json files to .user.3.")
-    parser.add_argument(
-        "--input-json",
-        "-j",
-        required=True,
-        help="JSON file or root directory that contains .user.3.json files.",
-    )
-    parser.add_argument(
-        "--schema-path",
-        "--schema-dir",
-        "-s",
-        dest="schema_path",
-        required=True,
-        help="Explicit RE RSZ schema json file path.",
-    )
-    parser.add_argument(
-        "--output-dir",
-        "-o",
-        required=True,
-        help="Root output directory for packed .user.3 files.",
-    )
-    parser.add_argument(
-        "--il2cpp-dump-path",
-        "-p",
-        default="",
-        help="Optional path to il2cpp_dump.json, used for enum name lookup.",
-    )
-    parser.add_argument(
-        "--exclude-regex",
-        "-x",
-        action="append",
-        default=[],
-        help="Regex to exclude matching relative JSON paths. Can be used multiple times.",
-    )
-    parser.add_argument(
-        "--user-magic",
-        type=parse_int_arg,
-        default=USR_MAGIC,
-        help=f"USR file magic as decimal or hex (default: 0x{USR_MAGIC:08x}).",
-    )
-    parser.add_argument(
-        "--rsz-magic",
-        type=parse_int_arg,
-        default=RSZ_MAGIC,
-        help=f"RSZ block magic as decimal or hex (default: 0x{RSZ_MAGIC:08x}).",
-    )
-    args = parser.parse_args(argv)
-
-    # 封包时 `il2cpp_dump_path` 是可选项：如果传入，就能把枚举成员名
-    # 反查为数值；如果不传，仍可封包已经是数值或 `[值] 名称` 格式的枚举。
-    console = get_console()
-    console.log("Packing JSON files to .user.3...")
-    packer = User3Packer(
-        schema_dir=args.schema_path,
-        il2cpp_dump_path=args.il2cpp_dump_path or None,
-        output_root=args.output_dir,
-        user_magic=args.user_magic,
-        rsz_magic=args.rsz_magic,
-    )
-    result = packer.pack_directory(
-        json_root=args.input_json,
-        output_root=args.output_dir,
-        exclude_regexes=args.exclude_regex,
-    )
-    console.log(
-        "Packed JSON files to .user.3. Done:",
-        json.dumps(result, ensure_ascii=False),
-    )
-
-
 def main() -> None:
-    """根据第一个参数分发子命令。
+    """运行导出命令。
 
-    为了兼容旧脚本，不写子命令时会按 `export` 处理。
+    为了兼容现有脚本，`export` 子命令可以省略。
     """
+    configure_utf8_stdio()
     argv = sys.argv[1:]
-    # 显式子命令优先；没有子命令时进入旧版导出路径。
-    if argv and argv[0] == "pack":
-        run_pack(argv[1:])
-        return
-    if argv and argv[0] == "export":
-        run_export(argv[1:])
-        return
+    if argv and not argv[0].startswith("-"):
+        if argv[0] == "export":
+            run_export(argv[1:])
+            return
+        raise SystemExit(f"Unsupported command {argv[0]!r}; only 'export' is available.")
     run_export(argv)
 
 

@@ -22,7 +22,7 @@
             "_VisualID": "[3602] INVALID",
             "_SpeedParam": {
               "app.AppCharaUtil.cMotionSpeedParam": {
-                "_Type": 0,
+                "_Type": "[0] MOT_SPEED_RATE",
                 "_KilometerPerHourParam": 0.0,
                 "_MotionSpeed": 1.47
               }
@@ -30,7 +30,7 @@
             "_TurnVelocity": {
               "app.AppCharaUtil.cAngularVelocityParam": {
                 "_TurnRadius": 3.0,
-                "_RotSpeedEaseType": 8
+                "_RotSpeedEaseType": "[8] OutCubic"
               }
             },
             "_IsUsingTurnMot": true,

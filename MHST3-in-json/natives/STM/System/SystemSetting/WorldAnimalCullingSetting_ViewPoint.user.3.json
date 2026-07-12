@@ -13,7 +13,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[846884416] DESTROY",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -22,12 +22,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 100.0,
                                     "_Margin": 5.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 0,
+                                    "_DefaultValue": "[0] ENABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -39,7 +39,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[25354] OFF_REQUEST_SET_COLLIDERS",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -48,12 +48,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 120.0,
                                     "_Margin": 5.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -65,7 +65,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[24816] LOD_LEVEL_1",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -74,12 +74,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 70.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -92,12 +92,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 70.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -110,12 +110,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 70.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -127,7 +127,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[755] LOD_LEVEL_2",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -136,12 +136,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 90.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -154,12 +154,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 90.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -172,12 +172,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 90.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -189,7 +189,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[7796] LOD_LEVEL_3",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -198,12 +198,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 120.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -216,12 +216,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 120.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -234,12 +234,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 120.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -251,7 +251,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[24362] LOD_LEVEL_4",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -260,12 +260,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 150.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -278,12 +278,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 150.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -296,12 +296,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 150.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -313,7 +313,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[11428] LOD_LEVEL_5",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -322,12 +322,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 180.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -340,12 +340,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 180.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -358,12 +358,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 180.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -375,7 +375,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[10111] LOD_DEAD_STOP",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -384,12 +384,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 210.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -402,12 +402,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 210.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -420,12 +420,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 210.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -448,7 +448,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[846884416] DESTROY",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -457,12 +457,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 200.0,
                                     "_Margin": 5.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -474,7 +474,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[25354] OFF_REQUEST_SET_COLLIDERS",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -483,12 +483,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 120.0,
                                     "_Margin": 5.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -500,7 +500,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[24816] LOD_LEVEL_1",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -509,12 +509,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 70.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -527,12 +527,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 70.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -545,12 +545,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 70.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -562,7 +562,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[755] LOD_LEVEL_2",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -571,12 +571,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 90.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -589,12 +589,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 90.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -607,12 +607,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 90.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -624,7 +624,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[7796] LOD_LEVEL_3",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -633,12 +633,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 140.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -651,12 +651,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 140.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -669,12 +669,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 140.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -686,7 +686,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[24362] LOD_LEVEL_4",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -695,12 +695,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 150.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -713,12 +713,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 150.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -731,12 +731,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 150.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -748,7 +748,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[11428] LOD_LEVEL_5",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -757,12 +757,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 180.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -775,12 +775,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 180.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -793,12 +793,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 180.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -810,7 +810,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[10111] LOD_DEAD_STOP",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -819,12 +819,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -837,12 +837,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -855,12 +855,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -883,7 +883,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[846884416] DESTROY",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -892,12 +892,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 700.0,
                                     "_Margin": 5.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -909,7 +909,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[25354] OFF_REQUEST_SET_COLLIDERS",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -918,12 +918,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -935,7 +935,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[24816] LOD_LEVEL_1",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -944,12 +944,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 100.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -962,12 +962,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 100.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -980,12 +980,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 100.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -997,7 +997,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[755] LOD_LEVEL_2",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1006,12 +1006,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 110.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -1024,12 +1024,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 110.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1042,12 +1042,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 110.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1059,7 +1059,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[7796] LOD_LEVEL_3",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1068,12 +1068,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -1086,12 +1086,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 300.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -1104,12 +1104,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 300.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1121,7 +1121,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[24362] LOD_LEVEL_4",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1130,12 +1130,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 420.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -1148,12 +1148,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 800.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -1166,12 +1166,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 800.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1183,7 +1183,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[11428] LOD_LEVEL_5",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1192,12 +1192,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 800.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 20
                                   }
                                 }
@@ -1210,12 +1210,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 800.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -1228,12 +1228,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 800.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1245,7 +1245,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[10111] LOD_DEAD_STOP",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1254,12 +1254,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1272,12 +1272,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1290,12 +1290,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1318,7 +1318,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[846884416] DESTROY",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1327,12 +1327,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1344,7 +1344,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[25354] OFF_REQUEST_SET_COLLIDERS",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1353,12 +1353,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1370,7 +1370,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[24816] LOD_LEVEL_1",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1379,12 +1379,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1397,12 +1397,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1415,12 +1415,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1432,7 +1432,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[755] LOD_LEVEL_2",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1441,12 +1441,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1459,12 +1459,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1477,12 +1477,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1494,7 +1494,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[7796] LOD_LEVEL_3",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1503,12 +1503,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1521,12 +1521,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1539,12 +1539,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1556,7 +1556,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[24362] LOD_LEVEL_4",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1565,12 +1565,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1583,12 +1583,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1601,12 +1601,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1618,7 +1618,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[11428] LOD_LEVEL_5",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1627,12 +1627,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1645,12 +1645,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1663,12 +1663,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1680,7 +1680,7 @@
                       {
                         "app.user_data.WorldAnimalCullingSetting.cCategoryParam": {
                           "_EnumValue": "[10111] LOD_DEAD_STOP",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamDataSet": {
@@ -1689,12 +1689,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1707,12 +1707,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1725,12 +1725,12 @@
                                   "app.user_data.WorldAnimalCullingSetting.cWorldAnimalCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }

@@ -9,7 +9,7 @@
             },
             "_Condition": {
               "app.snd_user_data.SoundGimmickConditionArray": {
-                "_LogicalSymbol": 0,
+                "_LogicalSymbol": "[0] OR",
                 "_ConditionList": [
                   {
                     "app.snd_user_data.SoundGimmickConditionDef": {
@@ -27,7 +27,7 @@
                   "_Action": {
                     "app.snd_user_data.SoundAction.Action": 0
                   },
-                  "_Target": 0,
+                  "_Target": "[0] Self",
                   "_TriggerId": 1802901218,
                   "_TargetNameHash": 3341352437,
                   "_TriggerDisabled": false
@@ -38,7 +38,7 @@
                   "_Action": {
                     "app.snd_user_data.SoundAction.Action": 25
                   },
-                  "_Target": 2,
+                  "_Target": "[2] Child",
                   "_TriggerId": 1802901218,
                   "_TargetNameHash": 2774095056,
                   "_TriggerDisabled": false
@@ -49,7 +49,7 @@
                   "_Action": {
                     "app.snd_user_data.SoundAction.Action": 23
                   },
-                  "_Target": 2,
+                  "_Target": "[2] Child",
                   "_TriggerId": 1802901218,
                   "_TargetNameHash": 2774095056,
                   "_TriggerDisabled": true

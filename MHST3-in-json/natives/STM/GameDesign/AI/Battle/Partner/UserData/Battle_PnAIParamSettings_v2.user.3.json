@@ -19,16 +19,16 @@
                         "Value": "d0781c73-7716-42e8-af38-f021acd2e476"
                       }
                     },
-                    "TargetStrategy": 40,
+                    "TargetStrategy": "[40] MAX_HP",
                     "TargetPartsStrategy": [
-                      110
+                      "[110] LEAVE_LITTLE"
                     ],
                     "LifeHealInfo": {
                       "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
                         "MaxUsePL": 1,
                         "UseEnemyHPRate": 30,
                         "UsePlPartyHPRate": 50,
-                        "HeartHealTiming": 0,
+                        "HeartHealTiming": "[0] IMMEDIATELY",
                         "PnLefeHealCoolTurn": 2
                       }
                     },
@@ -43,10 +43,10 @@
                       }
                     },
                     "BattleAssistPriority": [
-                      0,
-                      10,
-                      20,
-                      30
+                      "[0] BUFF",
+                      "[10] DEBUFF",
+                      "[20] USE_COND",
+                      "[30] REGENERATION"
                     ],
                     "_AllCondHeal_AllowNum": {
                       "app.user_data.cPnAI_AllCondHeal_AllowNum": {
@@ -93,16 +93,16 @@
                         "Value": "d0781c73-7716-42e8-af38-f021acd2e476"
                       }
                     },
-                    "TargetStrategy": 10,
+                    "TargetStrategy": "[10] EFFICIENCY_ELEMENT",
                     "TargetPartsStrategy": [
-                      -321264032
+                      "[3973703264] PARTS_BONUS_BG_DAMAGE"
                     ],
                     "LifeHealInfo": {
                       "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
                         "MaxUsePL": 1,
                         "UseEnemyHPRate": 50,
                         "UsePlPartyHPRate": 99,
-                        "HeartHealTiming": 0,
+                        "HeartHealTiming": "[0] IMMEDIATELY",
                         "PnLefeHealCoolTurn": 2
                       }
                     },
@@ -117,10 +117,10 @@
                       }
                     },
                     "BattleAssistPriority": [
-                      0,
-                      30,
-                      20,
-                      10
+                      "[0] BUFF",
+                      "[30] REGENERATION",
+                      "[20] USE_COND",
+                      "[10] DEBUFF"
                     ],
                     "_AllCondHeal_AllowNum": {
                       "app.user_data.cPnAI_AllCondHeal_AllowNum": {
@@ -167,17 +167,17 @@
                         "Value": "d0781c73-7716-42e8-af38-f021acd2e476"
                       }
                     },
-                    "TargetStrategy": 50,
+                    "TargetStrategy": "[50] MIN_HP",
                     "TargetPartsStrategy": [
-                      110,
-                      20
+                      "[110] LEAVE_LITTLE",
+                      "[20] PL_STANDARD"
                     ],
                     "LifeHealInfo": {
                       "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
                         "MaxUsePL": 2,
                         "UseEnemyHPRate": 50,
                         "UsePlPartyHPRate": 99,
-                        "HeartHealTiming": 0,
+                        "HeartHealTiming": "[0] IMMEDIATELY",
                         "PnLefeHealCoolTurn": 2
                       }
                     },
@@ -192,10 +192,10 @@
                       }
                     },
                     "BattleAssistPriority": [
-                      30,
-                      0,
-                      20,
-                      10
+                      "[30] REGENERATION",
+                      "[0] BUFF",
+                      "[20] USE_COND",
+                      "[10] DEBUFF"
                     ],
                     "_AllCondHeal_AllowNum": {
                       "app.user_data.cPnAI_AllCondHeal_AllowNum": {
@@ -241,14 +241,14 @@
                     },
                     "TargetStrategy": 0,
                     "TargetPartsStrategy": [
-                      110
+                      "[110] LEAVE_LITTLE"
                     ],
                     "LifeHealInfo": {
                       "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
                         "MaxUsePL": 2,
                         "UseEnemyHPRate": 30,
                         "UsePlPartyHPRate": 50,
-                        "HeartHealTiming": 0,
+                        "HeartHealTiming": "[0] IMMEDIATELY",
                         "PnLefeHealCoolTurn": 2
                       }
                     },
@@ -263,10 +263,10 @@
                       }
                     },
                     "BattleAssistPriority": [
-                      0,
-                      10,
-                      20,
-                      30
+                      "[0] BUFF",
+                      "[10] DEBUFF",
+                      "[20] USE_COND",
+                      "[30] REGENERATION"
                     ],
                     "_AllCondHeal_AllowNum": {
                       "app.user_data.cPnAI_AllCondHeal_AllowNum": {
@@ -315,15 +315,15 @@
                     },
                     "TargetStrategy": 0,
                     "TargetPartsStrategy": [
-                      110,
-                      20
+                      "[110] LEAVE_LITTLE",
+                      "[20] PL_STANDARD"
                     ],
                     "LifeHealInfo": {
                       "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
                         "MaxUsePL": 2,
                         "UseEnemyHPRate": 50,
                         "UsePlPartyHPRate": 99,
-                        "HeartHealTiming": 1,
+                        "HeartHealTiming": "[1] PINCH",
                         "PnLefeHealCoolTurn": 2
                       }
                     },
@@ -338,10 +338,10 @@
                       }
                     },
                     "BattleAssistPriority": [
-                      10,
-                      20,
-                      0,
-                      30
+                      "[10] DEBUFF",
+                      "[20] USE_COND",
+                      "[0] BUFF",
+                      "[30] REGENERATION"
                     ],
                     "_AllCondHeal_AllowNum": {
                       "app.user_data.cPnAI_AllCondHeal_AllowNum": {
@@ -388,16 +388,16 @@
                         "Value": "36e7c6af-9b74-41e5-bc7e-d17dcf4db56d"
                       }
                     },
-                    "TargetStrategy": 100,
+                    "TargetStrategy": "[100] HATE",
                     "TargetPartsStrategy": [
-                      15
+                      "[15] EFFICIENCY_WEAPON_MEAT"
                     ],
                     "LifeHealInfo": {
                       "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
                         "MaxUsePL": 1,
                         "UseEnemyHPRate": 50,
                         "UsePlPartyHPRate": 99,
-                        "HeartHealTiming": 0,
+                        "HeartHealTiming": "[0] IMMEDIATELY",
                         "PnLefeHealCoolTurn": 2
                       }
                     },
@@ -412,10 +412,10 @@
                       }
                     },
                     "BattleAssistPriority": [
-                      20,
-                      0,
-                      10,
-                      30
+                      "[20] USE_COND",
+                      "[0] BUFF",
+                      "[10] DEBUFF",
+                      "[30] REGENERATION"
                     ],
                     "_AllCondHeal_AllowNum": {
                       "app.user_data.cPnAI_AllCondHeal_AllowNum": {
@@ -462,18 +462,18 @@
                         "Value": "36e7c6af-9b74-41e5-bc7e-d17dcf4db56d"
                       }
                     },
-                    "TargetStrategy": 40,
+                    "TargetStrategy": "[40] MAX_HP",
                     "TargetPartsStrategy": [
-                      -416648000,
-                      -1197123456,
-                      -841255168
+                      "[3878319296] PARTS_BONUS_STUN",
+                      "[3097843840] PARTS_BONUS_DOWN",
+                      "[3453712128] PARTS_BONUS_SKILL_NURF"
                     ],
                     "LifeHealInfo": {
                       "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
                         "MaxUsePL": 1,
                         "UseEnemyHPRate": 50,
                         "UsePlPartyHPRate": 99,
-                        "HeartHealTiming": 1,
+                        "HeartHealTiming": "[1] PINCH",
                         "PnLefeHealCoolTurn": 2
                       }
                     },
@@ -488,10 +488,10 @@
                       }
                     },
                     "BattleAssistPriority": [
-                      20,
-                      0,
-                      10,
-                      30
+                      "[20] USE_COND",
+                      "[0] BUFF",
+                      "[10] DEBUFF",
+                      "[30] REGENERATION"
                     ],
                     "_AllCondHeal_AllowNum": {
                       "app.user_data.cPnAI_AllCondHeal_AllowNum": {
@@ -540,14 +540,14 @@
                     },
                     "TargetStrategy": 0,
                     "TargetPartsStrategy": [
-                      1
+                      "[1] RANDOM"
                     ],
                     "LifeHealInfo": {
                       "app.user_data.Battle_PnAIParamSettings_v2.cItem.cParameter.PLAllianceLifeHealInfo": {
                         "MaxUsePL": 1,
                         "UseEnemyHPRate": 50,
                         "UsePlPartyHPRate": 99,
-                        "HeartHealTiming": 0,
+                        "HeartHealTiming": "[0] IMMEDIATELY",
                         "PnLefeHealCoolTurn": 2
                       }
                     },
@@ -562,10 +562,10 @@
                       }
                     },
                     "BattleAssistPriority": [
-                      10,
-                      20,
-                      0,
-                      30
+                      "[10] DEBUFF",
+                      "[20] USE_COND",
+                      "[0] BUFF",
+                      "[30] REGENERATION"
                     ],
                     "_AllCondHeal_AllowNum": {
                       "app.user_data.cPnAI_AllCondHeal_AllowNum": {

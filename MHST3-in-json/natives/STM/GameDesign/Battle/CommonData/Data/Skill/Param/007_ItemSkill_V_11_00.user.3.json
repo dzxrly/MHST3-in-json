@@ -5,7 +5,7 @@
         {
           "app.user_data.cSkillParamInfo": {
             "_SkillGuid": "bd21d20a-c94b-4830-98ba-a0c2f60baeca",
-            "_Category": 6,
+            "_Category": "[6] ITEM",
             "_Name": "00000000-0000-0000-0000-000000000000",
             "_Explain": "00000000-0000-0000-0000-000000000000",
             "_IsDispSkillBanner": true,
@@ -15,16 +15,16 @@
             "_Target": "[748959360] SKL_TARGET_SINGLE_OPPONENT",
             "_PermissionThreeWayInfo": {
               "app.user_data.cSkillParamInfo.cPermissionThreeWayInfo": {
-                "_PermissionType": 2
+                "_PermissionType": "[2] NORMAL"
               }
             },
-            "_SkillIconType": 1,
-            "_SkillSpeed": 18,
+            "_SkillIconType": "[1] THREEWAY",
+            "_SkillSpeed": "[18] SKILL_SPEED_ITEM",
             "_AccuracyRate": 100,
             "_IsSureHit": true,
             "_IsCritical": false,
             "_CriticalAddRate": 0,
-            "_ItemCutType": 11,
+            "_ItemCutType": "[11] DONUT",
             "_NeedChargeLevel": 0,
             "_NeedUnderChargeLevel": 0,
             "_UseCondFlagBit": 0,
@@ -32,7 +32,7 @@
             "_SubCategoryBit": {
               "app.BattleDef.SKILL_SUB_CATEGORYBit_Serializable": 514
             },
-            "_EffectTypeForAI": 0,
+            "_EffectTypeForAI": "[0] INVALID",
             "_IsBreath": false,
             "_SkillKindParamList": [
               {
@@ -56,7 +56,7 @@
                   "_IsIgnoreDef": false,
                   "_GeneralParam_Overlaid": {
                     "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
-                      "_Type": 0,
+                      "_Type": "[0] NormalAtk",
                       "_GenParam01": 100,
                       "_GenParam02": 100
                     }
@@ -64,8 +64,8 @@
                   "_GeneralParam_StatusKiller": {
                     "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
                       "_GenParam01": 100,
-                      "_GenParam02": 0,
-                      "_GenParam03": 0,
+                      "_GenParam02": "[0] Param02_01",
+                      "_GenParam03": "[0] Param03_01",
                       "_TargetStatus": [
                         {
                           "app.user_data.cSkillParamInfo.cSetStatusInfo": {
@@ -234,7 +234,7 @@
                   "_GeneralParam_Detonation": {
                     "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
                       "_GenParam01": 0,
-                      "_GenParam02": 0
+                      "_GenParam02": "[0] Param02_01"
                     }
                   },
                   "_GeneralParam_GaugeCtrl": [],
@@ -251,7 +251,7 @@
                   },
                   "_AddPerformSkillInfo": {
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
-                      "_PerformType": 0,
+                      "_PerformType": "[0] PrePerform",
                       "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
@@ -263,14 +263,14 @@
                   },
                   "_GeneralParam_ChangeStatusLevel": {
                     "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
-                      "_GenParam01": 0,
-                      "_GenParam02": 0,
+                      "_GenParam01": "[0] Param01_01",
+                      "_GenParam02": "[0] Param02_01",
                       "_GenParam03": 1
                     }
                   },
                   "_GeneralParam_StatusExtension": {
                     "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
-                      "_GenParam01": 0,
+                      "_GenParam01": "[0] Param01_01",
                       "_GenParam02": 0
                     }
                   },
@@ -304,7 +304,7 @@
                   "_IsIgnoreDef": false,
                   "_GeneralParam_Overlaid": {
                     "app.user_data.cSkillParamInfo.cGeneralParamInfo_Overlaid": {
-                      "_Type": 0,
+                      "_Type": "[0] NormalAtk",
                       "_GenParam01": 100,
                       "_GenParam02": 100
                     }
@@ -312,8 +312,8 @@
                   "_GeneralParam_StatusKiller": {
                     "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusKiller": {
                       "_GenParam01": 100,
-                      "_GenParam02": 0,
-                      "_GenParam03": 0,
+                      "_GenParam02": "[0] Param02_01",
+                      "_GenParam03": "[0] Param03_01",
                       "_TargetStatus": [
                         {
                           "app.user_data.cSkillParamInfo.cSetStatusInfo": {
@@ -482,7 +482,7 @@
                   "_GeneralParam_Detonation": {
                     "app.user_data.cSkillParamInfo.cGeneralParamInfo_Detonation": {
                       "_GenParam01": 0,
-                      "_GenParam02": 0
+                      "_GenParam02": "[0] Param02_01"
                     }
                   },
                   "_GeneralParam_GaugeCtrl": [],
@@ -499,7 +499,7 @@
                   },
                   "_AddPerformSkillInfo": {
                     "app.user_data.cSkillParamInfo.cAddPerformSkillInfo": {
-                      "_PerformType": 0,
+                      "_PerformType": "[0] PrePerform",
                       "_SkillKind": "[652070848] NONE",
                       "_SkillInfo": []
                     }
@@ -511,14 +511,14 @@
                   },
                   "_GeneralParam_ChangeStatusLevel": {
                     "app.user_data.cSkillParamInfo.cGeneralParamInfo_ChangeStatusLevel": {
-                      "_GenParam01": 0,
-                      "_GenParam02": 0,
+                      "_GenParam01": "[0] Param01_01",
+                      "_GenParam02": "[0] Param02_01",
                       "_GenParam03": 1
                     }
                   },
                   "_GeneralParam_StatusExtension": {
                     "app.user_data.cSkillParamInfo.cGeneralParamInfo_StatusExtension": {
-                      "_GenParam01": 0,
+                      "_GenParam01": "[0] Param01_01",
                       "_GenParam02": 0
                     }
                   },

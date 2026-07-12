@@ -6,17 +6,17 @@
           "_Params": [
             {
               "app.user_data.GraphicsOptionParamTables.cAntiAliasingParam": {
-                "_AntiAliasingType": 2
+                "_AntiAliasingType": "[2] FXAA_TAA"
               }
             },
             {
               "app.user_data.GraphicsOptionParamTables.cAntiAliasingParam": {
-                "_AntiAliasingType": 1
+                "_AntiAliasingType": "[1] TAA"
               }
             },
             {
               "app.user_data.GraphicsOptionParamTables.cAntiAliasingParam": {
-                "_AntiAliasingType": 4
+                "_AntiAliasingType": "[4] NONE"
               }
             }
           ]
@@ -53,27 +53,27 @@
           "_Params": [
             {
               "app.user_data.GraphicsOptionParamTables.cTextureQualityParam": {
-                "_Quality": 4
+                "_Quality": "[4] HIGHEST"
               }
             },
             {
               "app.user_data.GraphicsOptionParamTables.cTextureQualityParam": {
-                "_Quality": 3
+                "_Quality": "[3] HIGH"
               }
             },
             {
               "app.user_data.GraphicsOptionParamTables.cTextureQualityParam": {
-                "_Quality": 2
+                "_Quality": "[2] STANDARD"
               }
             },
             {
               "app.user_data.GraphicsOptionParamTables.cTextureQualityParam": {
-                "_Quality": 1
+                "_Quality": "[1] LOW"
               }
             },
             {
               "app.user_data.GraphicsOptionParamTables.cTextureQualityParam": {
-                "_Quality": 0
+                "_Quality": "[0] LOWEST"
               }
             }
           ]
@@ -128,8 +128,8 @@
           "_Params": [
             {
               "app.user_data.GraphicsOptionParamTables.cCloudQualityParam": {
-                "_Resolution": 2,
-                "_IBLResolution": 2,
+                "_Resolution": "[2] OneThird",
+                "_IBLResolution": "[2] OneThird",
                 "_IBLPartialDrawFrame": 4,
                 "_IBLMode": true,
                 "_IBLButAlsoScene": true
@@ -137,8 +137,8 @@
             },
             {
               "app.user_data.GraphicsOptionParamTables.cCloudQualityParam": {
-                "_Resolution": 4,
-                "_IBLResolution": 2,
+                "_Resolution": "[4] OneFifth",
+                "_IBLResolution": "[2] OneThird",
                 "_IBLPartialDrawFrame": 8,
                 "_IBLMode": true,
                 "_IBLButAlsoScene": true
@@ -146,8 +146,8 @@
             },
             {
               "app.user_data.GraphicsOptionParamTables.cCloudQualityParam": {
-                "_Resolution": 4,
-                "_IBLResolution": 2,
+                "_Resolution": "[4] OneFifth",
+                "_IBLResolution": "[2] OneThird",
                 "_IBLPartialDrawFrame": 8,
                 "_IBLMode": false,
                 "_IBLButAlsoScene": false
@@ -274,7 +274,7 @@
           "_Params": [
             {
               "app.user_data.GraphicsOptionParamTables.cShadowQualityParam": {
-                "_ShadowQuality": 4,
+                "_ShadowQuality": "[4] HIGHEST",
                 "_ShadowCastLODBias": 0,
                 "_ShadowCastSpeedTreeLODBias": 0,
                 "_WorldPartition": [
@@ -287,7 +287,7 @@
             },
             {
               "app.user_data.GraphicsOptionParamTables.cShadowQualityParam": {
-                "_ShadowQuality": 3,
+                "_ShadowQuality": "[3] HIGH",
                 "_ShadowCastLODBias": 0,
                 "_ShadowCastSpeedTreeLODBias": 0,
                 "_WorldPartition": [
@@ -300,7 +300,7 @@
             },
             {
               "app.user_data.GraphicsOptionParamTables.cShadowQualityParam": {
-                "_ShadowQuality": 2,
+                "_ShadowQuality": "[2] STANDARD",
                 "_ShadowCastLODBias": 0,
                 "_ShadowCastSpeedTreeLODBias": 0,
                 "_WorldPartition": [
@@ -313,7 +313,7 @@
             },
             {
               "app.user_data.GraphicsOptionParamTables.cShadowQualityParam": {
-                "_ShadowQuality": 1,
+                "_ShadowQuality": "[1] LOW",
                 "_ShadowCastLODBias": 0,
                 "_ShadowCastSpeedTreeLODBias": 5,
                 "_WorldPartition": [
@@ -352,17 +352,17 @@
           "_Params": [
             {
               "app.user_data.GraphicsOptionParamTables.cVolumetricFogParam": {
-                "_TextureSize": 1
+                "_TextureSize": "[1] W160xH90xD128"
               }
             },
             {
               "app.user_data.GraphicsOptionParamTables.cVolumetricFogParam": {
-                "_TextureSize": 0
+                "_TextureSize": "[0] W160xH90xD64"
               }
             },
             {
               "app.user_data.GraphicsOptionParamTables.cVolumetricFogParam": {
-                "_TextureSize": 2
+                "_TextureSize": "[2] W96xH54xD32"
               }
             }
           ]
@@ -373,17 +373,17 @@
           "_Params": [
             {
               "app.user_data.GraphicsOptionParamTables.cVariableRateShadingParam": {
-                "_VRSType": 0
+                "_VRSType": "[0] Off"
               }
             },
             {
               "app.user_data.GraphicsOptionParamTables.cVariableRateShadingParam": {
-                "_VRSType": 1
+                "_VRSType": "[1] Balanced"
               }
             },
             {
               "app.user_data.GraphicsOptionParamTables.cVariableRateShadingParam": {
-                "_VRSType": 2
+                "_VRSType": "[2] Performance"
               }
             }
           ]

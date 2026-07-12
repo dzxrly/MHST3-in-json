@@ -16,9 +16,7 @@
                       "_CommandHash": 13961028448208854265,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": 0
-                          }
+                          "_State": "[0] START"
                         }
                       }
                     }
@@ -167,9 +165,7 @@
                       "_CommandHash": 10300246910952600694,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
-                          "_EnumFixed": {
-                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 337999648
-                          },
+                          "_EnumFixed": "[337999648] CIRCUIT",
                           "_IsRetraceNavigation": {
                             "ace.btable.cEditFieldBool": true
                           }
@@ -192,9 +188,7 @@
                           "_EditDistGuid": {
                             "ace.btable.cEditFieldDropBox`1<System.Guid>": "497aabc7-ffa9-48e0-8ffd-513d44b23a9a"
                           },
-                          "_ComparType": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cCheckDistanceForParamArg.COMPAR_TYPE>": 0
-                          }
+                          "_ComparType": "[0] NEAR"
                         }
                       }
                     }
@@ -438,9 +432,7 @@
                       "_CommandHash": 4960724976099913088,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckEnumArg`1<app.WorldEnemyDef.LIFE_ACT_TYPE>": {
-                          "_Enum": {
-                            "ace.btable.cEditFieldEnum`1<app.WorldEnemyDef.LIFE_ACT_TYPE>": 0
-                          }
+                          "_Enum": "[0] TYPE1"
                         }
                       }
                     }
@@ -489,9 +481,7 @@
                       "_CommandHash": 4960724976099913088,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckEnumArg`1<app.WorldEnemyDef.LIFE_ACT_TYPE>": {
-                          "_Enum": {
-                            "ace.btable.cEditFieldEnum`1<app.WorldEnemyDef.LIFE_ACT_TYPE>": 1
-                          }
+                          "_Enum": "[1] TYPE2"
                         }
                       }
                     }
@@ -540,9 +530,7 @@
                       "_CommandHash": 4960724976099913088,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckEnumArg`1<app.WorldEnemyDef.LIFE_ACT_TYPE>": {
-                          "_Enum": {
-                            "ace.btable.cEditFieldEnum`1<app.WorldEnemyDef.LIFE_ACT_TYPE>": 2
-                          }
+                          "_Enum": "[2] TYPE3"
                         }
                       }
                     }

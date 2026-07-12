@@ -7,7 +7,9 @@
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3149504640] NONE",
             "_RideResponseType": "[1955913600] NONE",
-            "_ActionAttr": 0
+            "_ActionAttr": [
+              "[0] NONE"
+            ]
           }
         },
         {
@@ -15,7 +17,9 @@
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3530357824] RIDE_START",
             "_RideResponseType": "[2921558784] RIDE_START",
-            "_ActionAttr": 1
+            "_ActionAttr": [
+              "[1] RIDE"
+            ]
           }
         },
         {
@@ -23,7 +27,9 @@
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[82489168] RIDE_END",
             "_RideResponseType": "[3103787392] RIDE_END",
-            "_ActionAttr": 1
+            "_ActionAttr": [
+              "[1] RIDE"
+            ]
           }
         },
         {
@@ -31,7 +37,9 @@
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3081113216] RIDE_CHANGE_WAIT",
             "_RideResponseType": "[2032913920] RIDE_CHANGE_WAIT",
-            "_ActionAttr": 2
+            "_ActionAttr": [
+              "[2] RIDE_CHANGE"
+            ]
           }
         },
         {
@@ -39,7 +47,9 @@
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[504297696] RIDE_CHANGE",
             "_RideResponseType": "[89373448] RIDE_CHANGE",
-            "_ActionAttr": 2
+            "_ActionAttr": [
+              "[2] RIDE_CHANGE"
+            ]
           }
         },
         {
@@ -47,7 +57,9 @@
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[2717664640] SHOUT",
             "_RideResponseType": "[3135853184] SHOUT",
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_EffectScale": [
               0.5,
               0.5,
@@ -62,7 +74,9 @@
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[504297696] RIDE_CHANGE",
             "_RideResponseType": "[3135853184] SHOUT",
-            "_ActionAttr": 2
+            "_ActionAttr": [
+              "[2] RIDE_CHANGE"
+            ]
           }
         },
         {
@@ -70,7 +84,9 @@
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[3149504640] NONE",
             "_RideResponseType": "[1955913600] NONE",
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_Interval": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.Range>": {
                 "_RideValue": {
@@ -108,7 +124,9 @@
             "_ActionSafeLimitTime": -1.0,
             "_RideOrderType": "[1659] STEALTH",
             "_RideResponseType": "[14180] STEALTH",
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_Alpha": 0.6
           }
         }

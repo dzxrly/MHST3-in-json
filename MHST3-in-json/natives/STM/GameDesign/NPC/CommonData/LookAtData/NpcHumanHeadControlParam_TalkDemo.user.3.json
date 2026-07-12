@@ -69,8 +69,8 @@
             "_MotionRateX": 0.0,
             "_MotionRateY": 0.0,
             "_MotionRateZ": 1.0,
-            "_BlendRatePattern": 1,
-            "_EaseType": 6,
+            "_BlendRatePattern": "[1] EaseType",
+            "_EaseType": "[6] InOutQuad",
             "_EasingSpeed": 1.0,
             "_SpringConst": 5.5,
             "_DampingConst": 4.75,
@@ -147,8 +147,8 @@
       "_EyeParam": {
         "": {}
       },
-      "_PostureBasis": 1,
-      "_MotionBasisMode": 1,
+      "_PostureBasis": "[1] HEAD",
+      "_MotionBasisMode": "[1] CHEST_DIRECT",
       "_RootToHeadJointMaskId": 26,
       "_OverwriteDampingParam": {
         "ace.cDampingParam": {

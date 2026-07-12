@@ -16,9 +16,7 @@
                       "_CommandHash": 13961028448208854265,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.cWorld_EnemyAIState.GENERAL_IN_STATE>": 0
-                          }
+                          "_State": "[0] START"
                         }
                       }
                     }
@@ -44,9 +42,7 @@
                       "_CommandHash": 6423696162103949302,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg": {
-                          "_DetectType": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg.HERD_DETECT_TYPE>": 2
-                          }
+                          "_DetectType": "[2] RECEIVER"
                         }
                       }
                     }
@@ -84,9 +80,7 @@
                       "_CommandHash": 10300246910952600694,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
-                          "_EnumFixed": {
-                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": -1222900352
-                          },
+                          "_EnumFixed": "[3072066944] PLAYER",
                           "_IsRetraceNavigation": {
                             "ace.btable.cEditFieldBool": true
                           }
@@ -127,9 +121,7 @@
                       "_CommandHash": 10300246910952600694,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
-                          "_EnumFixed": {
-                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 14656
-                          },
+                          "_EnumFixed": "[14656] FIND_BREATH_IMPACT",
                           "_IsRetraceNavigation": {
                             "ace.btable.cEditFieldBool": true
                           }
@@ -170,9 +162,7 @@
                       "_CommandHash": 10300246910952600694,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
-                          "_EnumFixed": {
-                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 24370
-                          },
+                          "_EnumFixed": "[24370] CURRENT_POSSITON",
                           "_IsRetraceNavigation": {
                             "ace.btable.cEditFieldBool": false
                           }
@@ -201,9 +191,7 @@
                       "_CommandHash": 6423696162103949302,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg": {
-                          "_DetectType": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg.HERD_DETECT_TYPE>": 1
-                          }
+                          "_DetectType": "[1] SENDER"
                         }
                       }
                     }
@@ -304,9 +292,7 @@
                       "_CommandHash": 6423696162103949302,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg": {
-                          "_DetectType": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cEnemy_CheckHerdDetectReceivedArg.HERD_DETECT_TYPE>": 2
-                          }
+                          "_DetectType": "[2] RECEIVER"
                         }
                       }
                     }
@@ -332,9 +318,7 @@
                       "_CommandHash": 8651034878196764869,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckEnumArg`1<app.WorldCharacterActionDomain.TYPE_Fixed>": {
-                          "_Enum": {
-                            "ace.btable.cEditFieldEnum`1<app.WorldCharacterActionDomain.TYPE_Fixed>": -2004874368
-                          }
+                          "_Enum": "[2290092928] FLY"
                         }
                       }
                     }
@@ -379,9 +363,7 @@
                       "_CommandHash": 10300246910952600694,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
-                          "_EnumFixed": {
-                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": 576452672
-                          },
+                          "_EnumFixed": "[576452672] FOOT",
                           "_IsRetraceNavigation": {
                             "ace.btable.cEditFieldBool": false
                           }
@@ -404,9 +386,7 @@
                           "_EditDistGuid": {
                             "ace.btable.cEditFieldDropBox`1<System.Guid>": "3269cb42-b60f-4cba-a377-89ca0adf7781"
                           },
-                          "_ComparType": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cCheckDistanceForParamArg.COMPAR_TYPE>": 0
-                          }
+                          "_ComparType": "[0] NEAR"
                         }
                       }
                     }
@@ -504,9 +484,7 @@
                       "_CommandHash": 10300246910952600694,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cEnemy_SetNaviTargetPosArg": {
-                          "_EnumFixed": {
-                            "ace.btable.cEditFieldEnum`1<app.World_EnemyAIDef.AI_NAVI_TARGET_Fixed>": -1222900352
-                          },
+                          "_EnumFixed": "[3072066944] PLAYER",
                           "_IsRetraceNavigation": {
                             "ace.btable.cEditFieldBool": false
                           }

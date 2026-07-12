@@ -9,7 +9,9 @@
             "_RideResponseType": "[1955913600] NONE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0
+            "_ActionAttr": [
+              "[0] NONE"
+            ]
           }
         },
         {
@@ -19,7 +21,9 @@
             "_RideResponseType": "[3593344192] IDLE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_MoveToIdleRequireTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
                 "_RideValue": 0.0,
@@ -35,19 +39,21 @@
             "_RideResponseType": "[3788874656] WALK",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_Speed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 50.0,
                     "_MotionSpeed": 1.0
                   }
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 50.0,
                     "_MotionSpeed": 1.0
                   }
@@ -71,14 +77,14 @@
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 20.0,
                     "_MotionSpeed": 1.0
                   }
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 20.0,
                     "_MotionSpeed": 1.0
                   }
@@ -93,8 +99,8 @@
             },
             "_AccelerationEaseType": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.curve.EaseType>": {
-                "_RideValue": 0,
-                "_AloneValue": 0
+                "_RideValue": "[0] Linear",
+                "_AloneValue": "[0] Linear"
               }
             }
           }
@@ -106,19 +112,21 @@
             "_RideResponseType": "[3204353920] RUN",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_Speed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 140.0,
                     "_MotionSpeed": 1.0
                   }
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 140.0,
                     "_MotionSpeed": 1.0
                   }
@@ -142,14 +150,14 @@
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 0,
+                    "_Type": "[0] MOT_SPEED_RATE",
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
                   }
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 0,
+                    "_Type": "[0] MOT_SPEED_RATE",
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
                   }
@@ -164,8 +172,8 @@
             },
             "_AccelerationEaseType": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.curve.EaseType>": {
-                "_RideValue": 0,
-                "_AloneValue": 0
+                "_RideValue": "[0] Linear",
+                "_AloneValue": "[0] Linear"
               }
             },
             "_LoseSpeed": []
@@ -178,19 +186,21 @@
             "_RideResponseType": "[3204353920] RUN",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_Speed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 240.0,
                     "_MotionSpeed": 1.0
                   }
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 240.0,
                     "_MotionSpeed": 1.0
                   }
@@ -214,14 +224,14 @@
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 250.0,
                     "_MotionSpeed": 1.0
                   }
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 250.0,
                     "_MotionSpeed": 1.0
                   }
@@ -236,8 +246,8 @@
             },
             "_AccelerationEaseType": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.curve.EaseType>": {
-                "_RideValue": 0,
-                "_AloneValue": 0
+                "_RideValue": "[0] Linear",
+                "_AloneValue": "[0] Linear"
               }
             },
             "_EffectRequestDelay": {
@@ -250,7 +260,7 @@
             "_LoseSpeed": [
               {
                 "app.AppCharaUtil.cMotionSpeedParam": {
-                  "_Type": 1,
+                  "_Type": "[1] ACTUAL_SPEED",
                   "_KilometerPerHourParam": 270.0,
                   "_MotionSpeed": 1.0
                 }
@@ -265,19 +275,21 @@
             "_RideResponseType": "[3204353920] RUN",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_Speed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 240.0,
                     "_MotionSpeed": 1.0
                   }
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 1,
+                    "_Type": "[1] ACTUAL_SPEED",
                     "_KilometerPerHourParam": 240.0,
                     "_MotionSpeed": 1.0
                   }
@@ -301,14 +313,14 @@
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<app.AppCharaUtil.cMotionSpeedParam>": {
                 "_RideValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 0,
+                    "_Type": "[0] MOT_SPEED_RATE",
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
                   }
                 },
                 "_AloneValue": {
                   "app.AppCharaUtil.cMotionSpeedParam": {
-                    "_Type": 0,
+                    "_Type": "[0] MOT_SPEED_RATE",
                     "_KilometerPerHourParam": 0.0,
                     "_MotionSpeed": 1.0
                   }
@@ -323,8 +335,8 @@
             },
             "_AccelerationEaseType": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<via.curve.EaseType>": {
-                "_RideValue": 0,
-                "_AloneValue": 0
+                "_RideValue": "[0] Linear",
+                "_AloneValue": "[0] Linear"
               }
             },
             "_EffectRequestDelay": {
@@ -337,21 +349,21 @@
             "_LoseSpeed": [
               {
                 "app.AppCharaUtil.cMotionSpeedParam": {
-                  "_Type": 1,
+                  "_Type": "[1] ACTUAL_SPEED",
                   "_KilometerPerHourParam": 270.0,
                   "_MotionSpeed": 1.0
                 }
               },
               {
                 "app.AppCharaUtil.cMotionSpeedParam": {
-                  "_Type": 1,
+                  "_Type": "[1] ACTUAL_SPEED",
                   "_KilometerPerHourParam": 300.0,
                   "_MotionSpeed": 1.0
                 }
               },
               {
                 "app.AppCharaUtil.cMotionSpeedParam": {
-                  "_Type": 1,
+                  "_Type": "[1] ACTUAL_SPEED",
                   "_KilometerPerHourParam": 330.0,
                   "_MotionSpeed": 1.0
                 }
@@ -366,7 +378,9 @@
             "_RideResponseType": "[3788874656] WALK",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_TurnSpeed": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
                 "_RideValue": 0.0,
@@ -394,7 +408,9 @@
             "_RideResponseType": "[2798558464] BLESS_CHARGE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0
+            "_ActionAttr": [
+              "[0] NONE"
+            ]
           }
         },
         {
@@ -404,7 +420,9 @@
             "_RideResponseType": "[260996608] ATTACK",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0
+            "_ActionAttr": [
+              "[0] NONE"
+            ]
           }
         },
         {
@@ -414,7 +432,9 @@
             "_RideResponseType": "[3593344192] IDLE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_CancelRestrictTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
                 "_RideValue": 0.0,
@@ -436,7 +456,9 @@
             "_RideResponseType": "[3593344192] IDLE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_MoveToIdleRequireTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
                 "_RideValue": 0.0,
@@ -453,7 +475,9 @@
             "_RideResponseType": "[3593344192] IDLE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0
+            "_ActionAttr": [
+              "[0] NONE"
+            ]
           }
         },
         {
@@ -463,7 +487,9 @@
             "_RideResponseType": "[3204353920] RUN",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0
+            "_ActionAttr": [
+              "[0] NONE"
+            ]
           }
         },
         {
@@ -473,7 +499,9 @@
             "_RideResponseType": "[1955913600] NONE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0
+            "_ActionAttr": [
+              "[0] NONE"
+            ]
           }
         },
         {
@@ -483,7 +511,9 @@
             "_RideResponseType": "[3080] POP_ACCESS",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0
+            "_ActionAttr": [
+              "[0] NONE"
+            ]
           }
         },
         {
@@ -493,7 +523,9 @@
             "_RideResponseType": "[3593344192] IDLE",
             "_CameraParamDataGuid": "58735bc7-ba4a-45bc-b4b3-11aae2ebe044",
             "_IsEnableCameraAutoCentering": false,
-            "_ActionAttr": 0,
+            "_ActionAttr": [
+              "[0] NONE"
+            ],
             "_CancelRestrictTime": {
               "app.ot_action_sealed_base.cWorldOtomonActionBase.ActionParamPair`1<System.Single>": {
                 "_RideValue": 0.0,

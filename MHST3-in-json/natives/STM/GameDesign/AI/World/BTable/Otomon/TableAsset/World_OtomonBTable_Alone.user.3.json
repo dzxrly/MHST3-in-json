@@ -22,9 +22,7 @@
                           "_EditDistGuid": {
                             "ace.btable.cEditFieldDropBox`1<System.Guid>": "8bfe083d-1214-4d80-bf49-6f36b1ed5da6"
                           },
-                          "_ComparType": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.World_BTableCommand.cCheckDistanceForParamArg.COMPAR_TYPE>": 0
-                          }
+                          "_ComparType": "[0] NEAR"
                         }
                       }
                     }
@@ -38,9 +36,7 @@
                       "_CommandHash": 7162414834810528911,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": 0
-                          }
+                          "_State": "[0] INVALID"
                         }
                       }
                     }
@@ -66,9 +62,7 @@
                       "_CommandHash": 17721564466286804347,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cOtomon_SetMoveSpeedArg": {
-                          "_SpeedLevel": {
-                            "ace.btable.cEditFieldEnum`1<app.WorldCharacterDefine.SPEED_LV>": 0
-                          }
+                          "_SpeedLevel": "[0] STOP"
                         }
                       }
                     }
@@ -122,9 +116,7 @@
                       "_CommandHash": 14269317090628358626,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckEnumArg`1<app.World_OtomonAIDef.AI_NAVI_TARGET>": {
-                          "_Enum": {
-                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_NAVI_TARGET>": 50
-                          }
+                          "_Enum": "[50] POINT_VIEW"
                         }
                       }
                     }
@@ -138,9 +130,7 @@
                       "_CommandHash": 8638936256684432350,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cOtomon_SetMoveSpeedArg": {
-                          "_SpeedLevel": {
-                            "ace.btable.cEditFieldEnum`1<app.WorldCharacterDefine.SPEED_LV>": 0
-                          }
+                          "_SpeedLevel": "[0] STOP"
                         }
                       }
                     }
@@ -328,9 +318,7 @@
                       "_CommandHash": 7162414834810528911,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": 1
-                          }
+                          "_State": "[1] CALL"
                         }
                       }
                     }
@@ -360,9 +348,7 @@
                       "_CommandHash": 7162414834810528911,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": 2
-                          }
+                          "_State": "[2] CHANGE_CALL"
                         }
                       }
                     }
@@ -392,9 +378,7 @@
                       "_CommandHash": 7162414834810528911,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cCheckStateArg`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.World_OtomonAIDef.AI_INTERRUPT_ID>": 3
-                          }
+                          "_State": "[3] CAHNGE_OUT"
                         }
                       }
                     }
@@ -408,9 +392,7 @@
                       "_CommandHash": 17721564466286804347,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cOtomon_SetMoveSpeedArg": {
-                          "_SpeedLevel": {
-                            "ace.btable.cEditFieldEnum`1<app.WorldCharacterDefine.SPEED_LV>": 3
-                          }
+                          "_SpeedLevel": "[3] DASH"
                         }
                       }
                     }
@@ -505,9 +487,7 @@
                       "_CommandHash": 17721564466286804347,
                       "_CommandArgument": {
                         "app.btable.World_BTableCommand.cOtomon_SetMoveSpeedArg": {
-                          "_SpeedLevel": {
-                            "ace.btable.cEditFieldEnum`1<app.WorldCharacterDefine.SPEED_LV>": 4
-                          }
+                          "_SpeedLevel": "[4] TOP_SPEED"
                         }
                       }
                     }

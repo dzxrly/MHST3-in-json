@@ -14,15 +14,15 @@
       "_PitchLimitDampingTimeScale": 1.0,
       "_ResetDegSec": 0.6,
       "_ResetDegCancelRange": 10.0,
-      "_ResetDegEase": 8,
+      "_ResetDegEase": "[8] OutCubic",
       "_RideGlidePitchChangeTime_S": 1.25,
-      "_RideGlidePitchChangeEase_S": 5,
+      "_RideGlidePitchChangeEase_S": "[5] OutQuad",
       "_RideGlidePitchChangeTime_E": 1.25,
-      "_RideGlidePitchChangeEase_E": 5,
+      "_RideGlidePitchChangeEase_E": "[5] OutQuad",
       "_WallClimbPitchCenteringOffsetDegree": 60.0,
       "_WallClimbPitchCenteringBias": 3.0,
       "_WallClimbPitchResetSec": 1.0,
-      "_WallClimbPitchResetEase": 5,
+      "_WallClimbPitchResetEase": "[5] OutQuad",
       "_SightValidRangeMargin": 10.0,
       "_CameraOperateParam": {
         "app.cPlayerCameraOperateOptionParam": {
@@ -110,13 +110,13 @@
       "_ChangeRideOtomonParam": {
         "app.user_data.PlayerCameraParam.cChangeRideOtomonParam": {
           "_InterpolationTime": 1.25,
-          "_InterpolationEaseType": 5,
+          "_InterpolationEaseType": "[5] OutQuad",
           "_InterpolationTime_OnWalk": 1.5,
-          "_InterpolationEaseType_OnWalk": 5,
+          "_InterpolationEaseType_OnWalk": "[5] OutQuad",
           "_InterpolationDampDelayStart": 0.01,
           "_InterpolationDampDelayEnd": 1.0,
           "_InterpolationDampDelayTime": 5.0,
-          "_InterpolationDampDelayEaseType": 5,
+          "_InterpolationDampDelayEaseType": "[5] OutQuad",
           "_InterpolationDampDelayTime_Walk": 2.5,
           "_InterpolationDampDelayTime_Run": 1.8
         }
@@ -176,7 +176,7 @@
           "DampingPower_Start": 0.74,
           "DampingPower_End": 0.46,
           "GoalResetSec": 1.5,
-          "GoalResetEase": 5
+          "GoalResetEase": "[5] OutQuad"
         }
       },
       "_RatingParam": {

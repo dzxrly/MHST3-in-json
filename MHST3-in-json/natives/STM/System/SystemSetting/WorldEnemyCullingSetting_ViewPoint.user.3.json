@@ -13,7 +13,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[1277544576] DESTROY",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -22,12 +22,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 500.0,
                                     "_Margin": 5.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 0,
+                                    "_DefaultValue": "[0] ENABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -39,7 +39,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -48,12 +48,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -65,7 +65,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[101388096] OFF_NAVI",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -74,12 +74,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -91,7 +91,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -100,12 +100,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -117,7 +117,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[10694] LOD_LEVEL_1",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -126,12 +126,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 50.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -144,12 +144,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 75.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -162,12 +162,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 100.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -179,7 +179,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[30844] LOD_LEVEL_2",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -188,12 +188,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 80.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -206,12 +206,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 120.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -224,12 +224,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 160.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -241,7 +241,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[12505] LOD_LEVEL_3",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -250,12 +250,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 110.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -268,12 +268,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 165.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -286,12 +286,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 220.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -303,7 +303,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29178] LOD_LEVEL_4",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -312,12 +312,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 140.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -330,12 +330,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 210.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -348,12 +348,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 280.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -365,7 +365,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29747] LOD_LEVEL_5",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -374,12 +374,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 170.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -392,12 +392,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 255.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -410,12 +410,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 340.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -427,7 +427,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[963] LOD_DEAD_STOP",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -436,12 +436,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -454,12 +454,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -472,12 +472,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -500,7 +500,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[1277544576] DESTROY",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -509,12 +509,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 5.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 0,
+                                    "_DefaultValue": "[0] ENABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -526,7 +526,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -535,12 +535,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -552,7 +552,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[101388096] OFF_NAVI",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -561,12 +561,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -578,7 +578,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -587,12 +587,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -604,7 +604,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[10694] LOD_LEVEL_1",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -613,12 +613,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 50.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -631,12 +631,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 75.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -649,12 +649,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 100.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -666,7 +666,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[30844] LOD_LEVEL_2",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -675,12 +675,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 80.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -693,12 +693,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 120.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -711,12 +711,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 160.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -728,7 +728,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[12505] LOD_LEVEL_3",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -737,12 +737,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 110.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -755,12 +755,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 165.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -773,12 +773,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 220.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -790,7 +790,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29178] LOD_LEVEL_4",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -799,12 +799,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 140.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -817,12 +817,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 1210.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -835,12 +835,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 280.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -852,7 +852,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29747] LOD_LEVEL_5",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -861,12 +861,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 170.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -879,12 +879,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 255.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -897,12 +897,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 340.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -914,7 +914,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[963] LOD_DEAD_STOP",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -923,12 +923,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -941,12 +941,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -959,12 +959,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -987,7 +987,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[1277544576] DESTROY",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -996,12 +996,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 500.0,
                                     "_Margin": 5.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 0,
+                                    "_DefaultValue": "[0] ENABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -1013,7 +1013,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1022,12 +1022,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1039,7 +1039,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[101388096] OFF_NAVI",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1048,12 +1048,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1065,7 +1065,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1074,12 +1074,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1091,7 +1091,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[10694] LOD_LEVEL_1",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1100,12 +1100,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 50.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -1118,12 +1118,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 75.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -1136,12 +1136,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 100.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -1153,7 +1153,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[30844] LOD_LEVEL_2",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1162,12 +1162,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 80.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1180,12 +1180,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 120.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1198,12 +1198,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 160.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1215,7 +1215,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[12505] LOD_LEVEL_3",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1224,12 +1224,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 110.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -1242,12 +1242,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 165.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -1260,12 +1260,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 220.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -1277,7 +1277,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29178] LOD_LEVEL_4",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1286,12 +1286,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 140.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -1304,12 +1304,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 210.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -1322,12 +1322,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 280.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -1339,7 +1339,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29747] LOD_LEVEL_5",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1348,12 +1348,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 170.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -1366,12 +1366,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 255.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -1384,12 +1384,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 340.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -1401,7 +1401,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[963] LOD_DEAD_STOP",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1410,12 +1410,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1428,12 +1428,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1446,12 +1446,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1474,7 +1474,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[1277544576] DESTROY",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1483,12 +1483,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 1000.0,
                                     "_Margin": 5.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 0,
+                                    "_DefaultValue": "[0] ENABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -1500,7 +1500,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1509,12 +1509,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1526,7 +1526,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[101388096] OFF_NAVI",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1535,12 +1535,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1552,7 +1552,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1561,12 +1561,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1578,7 +1578,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[10694] LOD_LEVEL_1",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1587,12 +1587,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 50.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -1605,12 +1605,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 75.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -1623,12 +1623,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 100.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -1640,7 +1640,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[30844] LOD_LEVEL_2",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1649,12 +1649,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 80.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1667,12 +1667,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 120.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1685,12 +1685,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 160.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -1702,7 +1702,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[12505] LOD_LEVEL_3",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1711,12 +1711,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 110.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -1729,12 +1729,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 165.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -1747,12 +1747,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 220.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -1764,7 +1764,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29178] LOD_LEVEL_4",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1773,12 +1773,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 140.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -1791,12 +1791,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 210.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -1809,12 +1809,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 280.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -1826,7 +1826,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29747] LOD_LEVEL_5",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1835,12 +1835,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 170.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -1853,12 +1853,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 255.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -1871,12 +1871,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 340.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -1888,7 +1888,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[963] LOD_DEAD_STOP",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1897,12 +1897,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1915,12 +1915,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1933,12 +1933,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -1961,7 +1961,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[1277544576] DESTROY",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1970,12 +1970,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 500.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -1987,7 +1987,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -1996,12 +1996,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2013,7 +2013,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[101388096] OFF_NAVI",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2022,12 +2022,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2039,7 +2039,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2048,12 +2048,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2065,7 +2065,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[10694] LOD_LEVEL_1",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2074,12 +2074,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 50.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2092,12 +2092,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 75.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2110,12 +2110,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 100.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 6
                                   }
                                 }
@@ -2127,7 +2127,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[30844] LOD_LEVEL_2",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2136,12 +2136,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 80.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2154,12 +2154,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 120.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2172,12 +2172,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 160.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 5
                                   }
                                 }
@@ -2189,7 +2189,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[12505] LOD_LEVEL_3",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2198,12 +2198,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 110.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2216,12 +2216,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 165.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2234,12 +2234,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 220.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 4
                                   }
                                 }
@@ -2251,7 +2251,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29178] LOD_LEVEL_4",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2260,12 +2260,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 140.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2278,12 +2278,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 210.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2296,12 +2296,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 280.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 3
                                   }
                                 }
@@ -2313,7 +2313,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29747] LOD_LEVEL_5",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2322,12 +2322,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 170.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2340,12 +2340,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 255.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2358,12 +2358,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 340.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 2
                                   }
                                 }
@@ -2375,7 +2375,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[963] LOD_DEAD_STOP",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2384,12 +2384,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2402,12 +2402,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2420,12 +2420,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": false,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 200.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": true,
                                     "_IsUseOcclusionCulling": true,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2448,7 +2448,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[1277544576] DESTROY",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2457,12 +2457,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 1000.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2474,7 +2474,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[3698772800] OFF_REQUEST_SET_COLLIDERS",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2483,12 +2483,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": true,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2500,7 +2500,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[101388096] OFF_NAVI",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2509,12 +2509,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2526,7 +2526,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[2422850560] BOXEL_RANGE_SHRINK",
-                          "_SettingType": 0,
+                          "_SettingType": "[0] NONE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2535,12 +2535,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 1,
+                                    "_DistType": "[1] PLAYER",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2552,7 +2552,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[10694] LOD_LEVEL_1",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2561,12 +2561,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2579,12 +2579,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2597,12 +2597,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2614,7 +2614,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[30844] LOD_LEVEL_2",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2623,12 +2623,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2641,12 +2641,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2659,12 +2659,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2676,7 +2676,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[12505] LOD_LEVEL_3",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2685,12 +2685,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2703,12 +2703,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2721,12 +2721,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2738,7 +2738,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29178] LOD_LEVEL_4",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2747,12 +2747,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2765,12 +2765,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2783,12 +2783,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2800,7 +2800,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[29747] LOD_LEVEL_5",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2809,12 +2809,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2827,12 +2827,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2845,12 +2845,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2862,7 +2862,7 @@
                       {
                         "app.user_data.WorldEnemyCullingSetting.cCategoryParam": {
                           "_EnumValue": "[963] LOD_DEAD_STOP",
-                          "_SettingType": 1,
+                          "_SettingType": "[1] ANIMATION_CULLING_DISTANCE",
                           "_DataSetList": [
                             {
                               "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamDataSet": {
@@ -2871,12 +2871,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2889,12 +2889,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }
@@ -2907,12 +2907,12 @@
                                   "app.user_data.WorldEnemyCullingSetting.cWorldEnemyCullingCategoryParamData": {
                                     "_Enable": false,
                                     "_IsUseDistanceCulling": true,
-                                    "_DistType": 0,
+                                    "_DistType": "[0] CAMERA",
                                     "_Dist": 0.0,
                                     "_Margin": 0.0,
                                     "_IsUseCheckInFrustum": false,
                                     "_IsUseOcclusionCulling": false,
-                                    "_DefaultValue": 1,
+                                    "_DefaultValue": "[1] DISABLED",
                                     "_UpdateInterval": 1
                                   }
                                 }

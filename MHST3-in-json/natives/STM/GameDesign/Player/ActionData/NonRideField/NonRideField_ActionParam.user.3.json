@@ -5,9 +5,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cNone": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "00000000-0000-0000-0000-000000000000",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false
@@ -16,9 +18,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbUpWallStart": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "ed22e352-8ee8-4f24-9134-e1c33225085d",
             "_IsEnableCameraAutoCentering": true
@@ -27,9 +31,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbWallAirStart": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "a48ba338-360b-42a6-b264-8eb9ee487e3f",
             "_CameraParamDataGuid": "ed22e352-8ee8-4f24-9134-e1c33225085d",
             "_IsEnableCameraAutoCentering": true
@@ -38,9 +44,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbRunUpWallStart": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "ed22e352-8ee8-4f24-9134-e1c33225085d",
             "_IsEnableCameraAutoCentering": true
@@ -49,9 +57,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbWallIdle": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "a48ba338-360b-42a6-b264-8eb9ee487e3f",
             "_CameraParamDataGuid": "ed22e352-8ee8-4f24-9134-e1c33225085d",
             "_IsEnableCameraAutoCentering": false
@@ -60,9 +70,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbWallMove": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "a48ba338-360b-42a6-b264-8eb9ee487e3f",
             "_CameraParamDataGuid": "ed22e352-8ee8-4f24-9134-e1c33225085d",
             "_IsEnableCameraAutoCentering": true
@@ -71,9 +83,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbWallMoveStop": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "a48ba338-360b-42a6-b264-8eb9ee487e3f",
             "_CameraParamDataGuid": "ed22e352-8ee8-4f24-9134-e1c33225085d",
             "_IsEnableCameraAutoCentering": false
@@ -82,9 +96,12 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbUpWallFinish": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 3,
+            "_BaseActionFlag": [
+              "[1] SKIP_NEXT_MOVE_START",
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false
@@ -93,9 +110,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbDownWallFinish": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false
@@ -104,9 +123,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbWallFall": {
             "_ActionSafeLimitTime": 30.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "ed22e352-8ee8-4f24-9134-e1c33225085d",
             "_IsEnableCameraAutoCentering": true
@@ -115,9 +136,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbWallFallLand": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": true
@@ -126,9 +149,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cClimbWallJump": {
             "_ActionSafeLimitTime": 30.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 10,
+            "_SubMotionInfluence": "[10] REDUCE_1",
             "_RootSubActionGuid": "f7bc14c5-1fea-4ec7-886f-c4cec95bb8cb",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": true,
@@ -148,9 +173,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimStart": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "920fb2d3-c9b3-4775-9f44-ca7ac3d3470c",
             "_IsEnableCameraAutoCentering": true,
@@ -163,9 +190,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimDiveStart": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "920fb2d3-c9b3-4775-9f44-ca7ac3d3470c",
             "_IsEnableCameraAutoCentering": true,
@@ -178,9 +207,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimFallStart": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "920fb2d3-c9b3-4775-9f44-ca7ac3d3470c",
             "_IsEnableCameraAutoCentering": false,
@@ -191,9 +222,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimEnd": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false,
@@ -204,9 +237,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimEndToRun": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 1,
+            "_BaseActionFlag": [
+              "[1] SKIP_NEXT_MOVE_START"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false,
@@ -222,9 +257,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimOutStepM": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false,
@@ -239,9 +276,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimOutStepL": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false,
@@ -256,9 +295,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimIdle": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "920fb2d3-c9b3-4775-9f44-ca7ac3d3470c",
             "_IsEnableCameraAutoCentering": false
@@ -267,9 +308,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimWalk": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "920fb2d3-c9b3-4775-9f44-ca7ac3d3470c",
             "_IsEnableCameraAutoCentering": true,
@@ -286,9 +329,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimRun": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "27622d3a-85ab-411a-919f-048e6982f4e2",
             "_IsEnableCameraAutoCentering": true,
@@ -305,9 +350,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimRunTurn": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "27622d3a-85ab-411a-919f-048e6982f4e2",
             "_IsEnableCameraAutoCentering": true,
@@ -317,9 +364,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimMoveStop": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "27622d3a-85ab-411a-919f-048e6982f4e2",
             "_IsEnableCameraAutoCentering": false
@@ -328,9 +377,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimOutFall": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false,
@@ -350,9 +401,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cSwimAccessFacility": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "920fb2d3-c9b3-4775-9f44-ca7ac3d3470c",
             "_IsEnableCameraAutoCentering": false
@@ -361,9 +414,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cPickEgg": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false,
@@ -373,9 +428,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cPickEggFromRide": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false,
@@ -385,9 +442,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cPickEggEx": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false,
@@ -410,9 +469,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cPickEggExFromRide": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false,
@@ -435,9 +496,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cEggInit": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "00000000-0000-0000-0000-000000000000",
             "_IsEnableCameraAutoCentering": false
@@ -446,9 +509,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cEggIdle": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false
@@ -457,9 +522,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cEggWalk": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": true,
@@ -475,9 +542,12 @@
         {
           "app.WorldPlayerNonRideFieldAction.cEggRun": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 3,
+            "_BaseActionFlag": [
+              "[1] SKIP_NEXT_MOVE_START",
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": true,
@@ -493,9 +563,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cEggWalkStop": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false
@@ -504,9 +576,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cEggRunStop": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false
@@ -515,9 +589,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cEggFall": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": true,
@@ -537,9 +613,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cEggLandSmall": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false
@@ -548,9 +626,12 @@
         {
           "app.WorldPlayerNonRideFieldAction.cEggLandMove": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 3,
+            "_BaseActionFlag": [
+              "[1] SKIP_NEXT_MOVE_START",
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": true,
@@ -560,9 +641,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cPutEgg": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false
@@ -571,9 +654,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cGlidingJumpStart": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": true,
@@ -583,9 +668,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cGlidingJumpLoop": {
             "_ActionSafeLimitTime": 30.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 10,
+            "_SubMotionInfluence": "[10] REDUCE_1",
             "_RootSubActionGuid": "f7bc14c5-1fea-4ec7-886f-c4cec95bb8cb",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": true,
@@ -595,9 +682,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cGlidingJumpEnd": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 0,
+            "_BaseActionFlag": [
+              "[0] NONE"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "54887812-83fc-41bd-b0c9-823a2ba52382",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false,
@@ -607,9 +696,11 @@
         {
           "app.WorldPlayerNonRideFieldAction.cForDemoSwim": {
             "_ActionSafeLimitTime": -1.0,
-            "_BaseActionFlag": 2,
+            "_BaseActionFlag": [
+              "[2] DISABLE_TOGGLE_DASH"
+            ],
             "_RiderOrderType": "[3149504640] NONE",
-            "_SubMotionInfluence": 20,
+            "_SubMotionInfluence": "[20] NONE",
             "_RootSubActionGuid": "ce6017b3-5d1e-41e1-a95a-79e795da5729",
             "_CameraParamDataGuid": "dbceedf3-63d5-4166-b677-721f42f215bf",
             "_IsEnableCameraAutoCentering": false
